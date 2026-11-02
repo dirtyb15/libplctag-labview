@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "run_id": "83995451bb8f4f3b8c04e733ff46bf0e",
+  "request": "Destroy a PLC tag",
+  "summary_name": "Destroy Tag",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Destroy_Tag.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:46:20.498954+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "cross",
+      "concept_summary": "Tag with cross",
+      "prompt": "One square icon on pure white: A bold navy tag with a large red X over its lower right. Symbolize destroying a software tag. Use simple thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "Tag with cross",
+        "metaphor": "Tag with cross",
+        "composition": "A bold navy tag with a large red X over its lower right.",
+        "objects": "tag and destruction cue",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Navy tag with red X; separated shapes and clear margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and X are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and X remain separate."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "X remains visible, but the overall tag-and-badge composition closely resembles the create-tag plus option.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same tag-plus-badge layout appears across operations.",
+          "correction": "Use a different dominant silhouette and composition from create-tag and the other deletion options."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and X remain recognizable."
+        }
+      },
+      "reviewed_sha256": "87ea17a073d575339c561a8f2a9d54288ffe03cf9e9d28e6f1977ea388b77389"
+    },
+    {
+      "concept_id": "bin",
+      "concept_summary": "Tag in bin",
+      "prompt": "One square icon on pure white: A bold blue tag entering a red waste bin from above. Symbolize destroying a software tag. Use simple thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "Tag in bin",
+        "metaphor": "Tag in bin",
+        "composition": "A bold blue tag entering a red waste bin from above.",
+        "objects": "tag and destruction cue",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag enters red waste bin; the delete metaphor is clear."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and bin are separable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and bin remain distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Tag entering the bin is recognizable."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and bin remain recognizable despite losing bin slots."
+        }
+      },
+      "reviewed_sha256": "aa32714a5002d8f7ee3364ff52510ed87e4677d54f6c92e597a928bd35cb50c0"
+    },
+    {
+      "concept_id": "minus",
+      "concept_summary": "Remove tag",
+      "prompt": "One square icon on pure white: A large dark blue tag beside a bold red minus inside a circle. Symbolize destroying a software tag. Use simple thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "Remove tag",
+        "metaphor": "Remove tag",
+        "composition": "A large dark blue tag beside a bold red minus inside a circle.",
+        "objects": "tag and destruction cue",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Navy tag with red minus badge; clear margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and minus remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and minus remain distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag-and-badge composition closely resembles both create-tag plus and destroy-tag X.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same tag-plus-badge layout appears across operations.",
+          "correction": "Use a different dominant silhouette and composition from create-tag and the other deletion options."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and minus are recognizable."
+        }
+      },
+      "reviewed_sha256": "af23c1cc2c833fc884e723d09a64b9fbe49700c812a724f46177e7346da009c5"
+    },
+    {
+      "concept_id": "shred",
+      "concept_summary": "Tag through shredder",
+      "prompt": "One square icon on pure white: A large blue tag entering a simple red horizontal shredder slot from above. Symbolize destroying a software tag. Use simple thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "Tag through shredder",
+        "metaphor": "Tag through shredder",
+        "composition": "A large blue tag entering a simple red horizontal shredder slot from above.",
+        "objects": "tag and destruction cue",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag enters a shredder; source includes several thin shredding strips."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and shredder are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The shreds begin to merge."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The shreds merge into a pale blue blur, so the shredder cue is ambiguous.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Fine shred strips merge during reduction.",
+          "correction": "Use fewer, thicker and widely separated strips and a recognizable shredder."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The shredder detail is not recognizable."
+        }
+      },
+      "reviewed_sha256": "75f4c52e6a2f490171f1909bbfaaee54e13dc71eaf18b01924e581a3504801ee"
+    },
+    {
+      "concept_id": "break",
+      "concept_summary": "Broken tag",
+      "prompt": "One square icon on pure white: A blue tag split into two separated pieces with a bold red lightning-shaped break between them. Symbolize destroying a software tag. Use simple thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "Broken tag",
+        "metaphor": "Broken tag",
+        "composition": "A blue tag split into two separated pieces with a bold red lightning-shaped break between them.",
+        "objects": "tag and destruction cue",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A red lightning bolt splits a blue tag; the result suggests a fault or broken connection rather than deleting a software tag.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The lightning bolt is a familiar error or fault cue.",
+          "correction": "Use an unmistakable deletion or disposal metaphor without a lightning bolt."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag fragments and lightning remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Two fragments and lightning are visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The red lightning remains visible but suggests a tag fault."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Dominant blue fragments and red bolt remain visible."
+        }
+      },
+      "reviewed_sha256": "36accb98418662c7d341991fc0370256bd199e93d865002648f8725fe612bac4"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "cross",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "X remains visible, but the overall tag-and-badge composition closely resembles the create-tag plus option.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different dominant silhouette and composition from create-tag and the other deletion options.",
+      "likely_cause_hypothesis": "The same tag-plus-badge layout appears across operations."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "minus",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag-and-badge composition closely resembles both create-tag plus and destroy-tag X.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different dominant silhouette and composition from create-tag and the other deletion options.",
+      "likely_cause_hypothesis": "The same tag-plus-badge layout appears across operations."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "shred",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The shreds merge into a pale blue blur, so the shredder cue is ambiguous.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use fewer, thicker and widely separated strips and a recognizable shredder.",
+      "likely_cause_hypothesis": "Fine shred strips merge during reduction."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "break",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A red lightning bolt splits a blue tag; the result suggests a fault or broken connection rather than deleting a software tag.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an unmistakable deletion or disposal metaphor without a lightning bolt.",
+      "likely_cause_hypothesis": "The lightning bolt is a familiar error or fault cue."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 01 and 03 both use a navy tag with a red lower-right badge; candidates 02 and 04 both show a tag entering a red receptacle at small size."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 01 and 03 both use a navy tag with a red lower-right badge; candidates 02 and 04 both show a tag entering a red receptacle at small size."
+  },
+  "published": false
+}

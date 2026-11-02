@@ -1,0 +1,3 @@
+For an ordinary non-bit tag, reads one unsigned 32-bit integer at a zero-based byte offset from an existing tag's local data buffer. The full 4-byte value must fit. Use Read_Tag.vi first when fresh controller data is needed, and check the read result.
+
+The returned value is data, not a native status code. On failure, the legacy getter can return the maximum value, which can also be valid data. Check error out and validate the handle and buffer range. A later tag-status check does not reliably detect these getter failures. In upstream 2.7.2, a bit tag returns its configured bit as 0 or 1 and ignores the byte offset. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.

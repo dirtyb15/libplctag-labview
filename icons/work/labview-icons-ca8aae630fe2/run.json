@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "run_id": "da53d276d8b848fb896e53bc782cc243",
+  "request": "Read a PLC tag into a local buffer",
+  "summary_name": "Read Tag",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_Tag.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T20:00:21.382008+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "plc-to-tag",
+      "concept_summary": "PLC to tag",
+      "prompt": "One square software icon on pure white: A blue industrial controller on left, bold black right arrow, orange tag on right. Symbolize reading a PLC tag into a local buffer. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "inbound",
+        "orientation": "varied",
+        "metaphor": "PLC to tag",
+        "objects": "PLC to tag",
+        "composition": "A blue industrial controller on left, bold black right arrow, orange tag on right."
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue PLC rack points toward an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack, arrow and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Rack details begin to merge; arrow and tag remain."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The PLC-to-tag composition is a mirror of the write-tag PLC-and-tag concept.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same overall shapes recur in another option or opposing VI.",
+          "correction": "Choose a visibly different transfer composition from both read and write options."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Rack becomes a blue block and arrow becomes small."
+        }
+      },
+      "reviewed_sha256": "fc10fcb1a8fe23e52eae6f5d95d494060ebb35c4a0c51f627a85299d0cdea0f8"
+    },
+    {
+      "concept_id": "down-to-tag",
+      "concept_summary": "Incoming tag data",
+      "prompt": "One square software icon on pure white: A large blue downward arrow entering an orange tag. Symbolize reading a PLC tag into a local buffer. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "inbound",
+        "orientation": "varied",
+        "metaphor": "Incoming tag data",
+        "objects": "Incoming tag data",
+        "composition": "A large blue downward arrow entering an orange tag."
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large blue down arrow points into an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow and tag are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arrow and tag remain recognizable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The downward arrow over tag closely matches candidate 05.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same overall shapes recur in another option or opposing VI.",
+          "correction": "Choose a visibly different transfer composition from both read and write options."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Arrow and tag survive with softened details."
+        }
+      },
+      "reviewed_sha256": "23c1d4ce16243e19d5dfcc8f202525ecfa929a3c05f098e3f88590edbdf6c475"
+    },
+    {
+      "concept_id": "receive",
+      "concept_summary": "Receive tag data",
+      "prompt": "One square software icon on pure white: A blue antenna above an orange tag with two thick incoming arcs. Symbolize reading a PLC tag into a local buffer. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "inbound",
+        "orientation": "varied",
+        "metaphor": "Receive tag data",
+        "objects": "Receive tag data",
+        "composition": "A blue antenna above an orange tag with two thick incoming arcs."
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A transmitter and radio-wave arcs appear above an orange tag; this suggests a wireless transport not required by the VI.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "Radio-wave geometry implies wireless transmission.",
+          "correction": "Use a transport-neutral cue for reading a PLC tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Transmitter, arcs and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arcs become crowded."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Arcs merge and the tag is a small orange block."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The antenna and tag remain but the arcs blur."
+        }
+      },
+      "reviewed_sha256": "d6e28e8519675c58f3363eca03b0e55d79e5fa6a0e00d4050e20f833dab71983"
+    },
+    {
+      "concept_id": "pull",
+      "concept_summary": "Pull tag data",
+      "prompt": "One square software icon on pure white: A large blue tag being pulled leftward by a bold orange arrow. Symbolize reading a PLC tag into a local buffer. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "inbound",
+        "orientation": "varied",
+        "metaphor": "Pull tag data",
+        "objects": "Pull tag data",
+        "composition": "A large blue tag being pulled leftward by a bold orange arrow."
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange arrow leaves a blue tag to the left with no PLC or buffer shown."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arrow and tag remain separated."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The outgoing arrow can be read as extracting a value or sending data, not specifically reading a PLC tag.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Neither PLC nor destination buffer is represented.",
+          "correction": "Show a clearly identifiable source and destination for the read action."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Arrow and tag survive."
+        }
+      },
+      "reviewed_sha256": "355e49dff3824f9cc6f3ce2a7d73978387b4206b3d48c96957c359d07c88edff"
+    },
+    {
+      "concept_id": "download",
+      "concept_summary": "Download tag",
+      "prompt": "One square software icon on pure white: A bold blue downward arrow into an orange tray containing a tag silhouette. Symbolize reading a PLC tag into a local buffer. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "inbound",
+        "orientation": "varied",
+        "metaphor": "Download tag",
+        "objects": "Download tag",
+        "composition": "A bold blue downward arrow into an orange tray containing a tag silhouette."
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue down arrow enters a tray with a small orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow, tray and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag merges into the similarly colored tray."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The tag and tray merge, obscuring the object being read.",
+          "rule_id": "SMALL-SHAPE-004",
+          "cause": "Tag and tray have the same orange fill and are crowded.",
+          "correction": "Separate and contrast the tag from the receiving tray."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Arrow and tray survive; the tag is indistinct."
+        }
+      },
+      "reviewed_sha256": "7e35e59c0306b5cfcc5588571a2296dd536d8c814573629c67ce24276404d523"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "plc-to-tag",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The PLC-to-tag composition is a mirror of the write-tag PLC-and-tag concept.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Choose a visibly different transfer composition from both read and write options.",
+      "likely_cause_hypothesis": "The same overall shapes recur in another option or opposing VI."
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "down-to-tag",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The downward arrow over tag closely matches candidate 05.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Choose a visibly different transfer composition from both read and write options.",
+      "likely_cause_hypothesis": "The same overall shapes recur in another option or opposing VI."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "receive",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A transmitter and radio-wave arcs appear above an orange tag; this suggests a wireless transport not required by the VI.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a transport-neutral cue for reading a PLC tag.",
+      "likely_cause_hypothesis": "Radio-wave geometry implies wireless transmission."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "pull",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The outgoing arrow can be read as extracting a value or sending data, not specifically reading a PLC tag.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Show a clearly identifiable source and destination for the read action.",
+      "likely_cause_hypothesis": "Neither PLC nor destination buffer is represented."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "download",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-SHAPE-004",
+      "result": "FAIL",
+      "observed_problem": "The tag and tray merge, obscuring the object being read.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Separate and contrast the tag from the receiving tray.",
+      "likely_cause_hypothesis": "Tag and tray have the same orange fill and are crowded."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 02 and 05 both use a downward blue arrow above orange tag/tray; candidate 01 mirrors the PLC-and-tag composition in Write_Tag."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 02 and 05 both use a downward blue arrow above orange tag/tray; candidate 01 mirrors the PLC-and-tag composition in Write_Tag."
+  },
+  "published": false
+}

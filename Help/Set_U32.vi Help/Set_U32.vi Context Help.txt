@@ -1,0 +1,3 @@
+For an ordinary non-bit tag, stores one unsigned 32-bit integer at a zero-based byte offset in an existing tag's local data buffer. The entire 4-byte value must fit. Wire a valid tag handle and the intended value. Call Write_Tag.vi to request a controller write explicitly.
+
+Check error out first, then error code. A code of 0 means the local set succeeded; a negative code reports a library error. The wrapper does not copy the native return into the LabVIEW error cluster. In upstream 2.7.2, configured automatic writes may also be scheduled. In upstream 2.7.2, a bit tag ignores the byte offset. Zero clears its bit and a nonzero value sets it. The bundled binaries contain version string 2.7.2.

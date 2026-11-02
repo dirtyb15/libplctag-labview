@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "run_id": "377f2c99912e4d0d84529ee85d160239",
+  "request": "Read a tag value selected by datatype and return a variant",
+  "summary_name": "Read By Datatype",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_By_Datatype.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T20:52:06.467019+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "select-extract",
+      "concept_summary": "Select then extract",
+      "prompt": "One standalone square software icon on a pure white background: A thick blue selector tile with a large barred capital I and a large orange arrow exiting to the right. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "selection and extraction",
+        "objects": "type selector and outbound arrow",
+        "cue": "extraction",
+        "composition": "selector left, arrow right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-01.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "choice-eye",
+      "concept_summary": "Read selected type",
+      "prompt": "One standalone square software icon on a pure white background: A large dark-blue eye over a thick orange rotary selector with a prominent capital I as the selected type. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "visual selection",
+        "objects": "eye and type-selector dial",
+        "cue": "view",
+        "composition": "eye above selector",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-02.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "split-read",
+      "concept_summary": "Choose typed route",
+      "prompt": "One standalone square software icon on a pure white background: A bold dark-blue three-way fork merging into a thick orange right-pointing arrow, with a large barred capital I on the chosen input. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "branching extraction",
+        "objects": "three-way fork and output arrow",
+        "cue": "route to output",
+        "composition": "fork left and output arrow right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-03.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "type-outbox",
+      "concept_summary": "Extract selected type",
+      "prompt": "One standalone square software icon on a pure white background: A blue open tray containing a large barred capital I, with an orange arrow rising out of it. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "buffer extraction",
+        "objects": "type tile and open tray",
+        "cue": "outgoing arrow",
+        "composition": "tile within tray and arrow upward",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-04.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "typed-lens",
+      "concept_summary": "Inspect selected value",
+      "prompt": "One standalone square software icon on a pure white background: A blue rectangular buffer with a large barred capital I, viewed through a large orange magnifying glass. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "type inspection",
+        "objects": "buffer and magnifier",
+        "cue": "magnifier",
+        "composition": "magnifier over type tile",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-05.png",
+      "qa": {}
+    }
+  ],
+  "failures": [],
+  "distinctness": {},
+  "published": false
+}

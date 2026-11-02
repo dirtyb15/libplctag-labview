@@ -1,0 +1,65 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The lens encloses a spaced U and 8 with large white counters and has a clear margin."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both U8 characters and the lens are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The 8 has two visible openings; lens and handle remain distinct."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "A separated U and 8 with visible counters remain readable in the lens."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The lens remains and the U8 is recognizable but its small counters soften."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Large separated U and 8 sit below a downward outlet; both 8 counters are open."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Outlet, U and 8 are separate and clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The U8 and downward output cue are readable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U8 is legible with two separate openings in the 8, below the orange outlet."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "U8 is recognizable but counters soften at 16x16."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-06",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "evidence": "The previously failed card still repeats candidate 02's tray and upward arrow. The revised lens and outlet resolve U8 readability; a structurally different fifth concept remains necessary."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "request": "SimpleReadWrite.vi example: create a tag, read a float, set a float, write the tag, and clean up",
+  "summary_name": "Simple Read Write",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "tag-exchange-loop",
+      "concept_summary": "Tag inside two-way exchange loop",
+      "signature": {
+        "metaphor": "exchange loop",
+        "objects": "tag and two curved arrows",
+        "cue": "two opposed arrows",
+        "composition": "tag centered inside loop",
+        "orientation": "circular"
+      },
+      "prompt": "One standalone square flat software icon on pure white. Center one large simplified tag shape inside two thick curved arrows forming a nearly closed circular exchange loop; make the two arrowheads large and clearly point in opposite directions around the loop. Represents reading and writing a PLC tag in one example. Thick dark blue and orange shapes, clear gaps, no text, no border or shadow, generous margins."
+    },
+    {
+      "concept_id": "plc-buffer-rails",
+      "concept_summary": "PLC and buffer with separate read and write lanes",
+      "signature": {
+        "metaphor": "two-way transfer",
+        "objects": "PLC, buffer and two opposed lanes",
+        "cue": "separate opposite arrowheads",
+        "composition": "PLC and buffer joined by stacked arrows",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square flat software icon on pure white. On the left a very simple blue PLC block, on the right an orange tag-buffer block. Between them draw two large thick separated horizontal arrows, one pointing from PLC to buffer and the other from buffer to PLC, each arrowhead unambiguous. Represents both reading and writing a tag. Avoid fine details, lettering, border and shadow, generous margins."
+    },
+    {
+      "concept_id": "float-exchange",
+      "concept_summary": "Float value between opposed arrow brackets",
+      "signature": {
+        "metaphor": "float exchange",
+        "objects": "float wave and opposed arrow brackets",
+        "cue": "incoming and outgoing arrows",
+        "composition": "wave centered between arrows pointing in opposite directions",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square flat software icon on white. Show a single bold dark-blue sine wave representing a floating-point value between two large orange arrow brackets; the left arrow points inward to the wave and the right arrow points outward, showing value input and output in one read/write example. Keep all three shapes separated and oversized. No letters, border or shadow, generous margins."
+    },
+    {
+      "concept_id": "read-write-switch",
+      "concept_summary": "Read/write switch between two flow directions",
+      "signature": {
+        "metaphor": "two-way mode switch",
+        "objects": "tag and switch with two opposed arrowheads",
+        "cue": "two opposite directions",
+        "composition": "tag above two-direction switch",
+        "orientation": "vertical"
+      },
+      "prompt": "One standalone square flat software icon on white. A large simple blue tag above a bold orange horizontal double-headed arrow shaped like a switch handle; both arrowheads must be large and clearly point in opposite directions. Represents a simple read-and-write tag example. Thick geometry and open gaps, no labels, border or shadows, generous margins."
+    },
+    {
+      "concept_id": "tag-input-output",
+      "concept_summary": "Tag buffer with separate input and output",
+      "signature": {
+        "metaphor": "buffer input-output",
+        "objects": "buffer and two offset arrows",
+        "cue": "one incoming and one outgoing",
+        "composition": "buffer between entering upper-left arrow and exiting lower-right arrow",
+        "orientation": "diagonal"
+      },
+      "prompt": "One standalone square flat software icon on a white background. Draw a large blue tag-buffer rectangle in the center, a thick orange arrow entering its upper-left edge, and a second thick orange arrow leaving its lower-right edge. Both separated arrowheads must remain bold and visible. Represents reading and writing one tag, not deletion or a lock. No text, border or shadow, generous margins."
+    }
+  ]
+}

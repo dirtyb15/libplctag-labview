@@ -1,0 +1,3 @@
+Acquires the external lock for an existing tag. Check error out and error code before treating the lock as acquired, and pair a successful call with Unlock.vi.
+
+With the legacy Windows library, separate LabVIEW callers can reacquire the same mutex on the user interface (UI) thread, so this lock alone does not serialize their full sequences. A blocked call can also block the UI. Use separate LabVIEW synchronization for shared-tag sequences. Upstream 2.7.2 retries without holding the internal mutex between attempts. On Windows, same-thread reacquisition still means this lock alone does not serialize separate LabVIEW tasks. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.

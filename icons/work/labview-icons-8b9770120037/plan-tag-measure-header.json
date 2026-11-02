@@ -1,0 +1,12 @@
+{
+  "concept_id": "tag-measure-header",
+  "concept_summary": "Tag with dimension arrow",
+  "signature": {
+    "metaphor": "tag byte dimension",
+    "objects": "tag B and horizontal dimension arrow",
+    "cue": "double-headed span arrow",
+    "composition": "dimension arrow above B-tag",
+    "orientation": "horizontal"
+  },
+  "prompt": "One SQUARE 1:1 flat software icon on white. A large dark-blue tag shape with a large white B inside, both B counters clearly open. Above the tag, a thick orange horizontal double-headed dimension arrow spans the tag width, with large separated arrowheads. The B indicates bytes and the dimension arrow indicates tag buffer size. No other letters or numbers; no weighing scale, no shadow, generous white margins."
+}

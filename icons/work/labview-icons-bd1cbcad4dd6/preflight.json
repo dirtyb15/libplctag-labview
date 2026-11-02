@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Provisional signature preflight; no artwork acceptance",
+  "candidate_ids": [
+    "buffer-to-value",
+    "lifted-value",
+    "read-lens",
+    "value-spout",
+    "diagonal-output-card"
+  ],
+  "evidence": "Horizontal buffer-to-value arrow, upward tray extraction, diagonal magnifying lens, diagonal emerging output card, and downward dispenser have different dominant layouts. They reserve U8 as a large required label and point away from a local buffer where directional; they do not use the eye-over-I16 silhouette previously reviewed. Inspect actual images for legible U8, read versus set direction, and conflicts with all typed getter, setter, tag transaction, control, and snapshot designs before publication. The failed tray/card concept is replaced provisionally with a diagonal buffer-to-card layout; compare the generated result closely against the horizontal buffer-to-value option and reject if their silhouettes are too alike."
+}

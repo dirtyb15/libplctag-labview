@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "An orange U8 card is reached by a diagonal arrow from a lower-left buffer; the source has narrow side clearance but no clipping."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The large U8 and diagonal arrow remain separated."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U8 and both 8 counters remain visible on the card."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U8 is recognizable and the diagonal extraction arrow remains distinct from the lower buffer."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The diagonal direction remains while U8 counters soften at 16x16."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-06",
+      "candidate-08",
+      "candidate-07"
+    ],
+    "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
+  }
+}

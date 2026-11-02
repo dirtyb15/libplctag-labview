@@ -1,0 +1,67 @@
+{
+  "request": "Read_U8.vi retrieves an unsigned 8-bit value from a local tag buffer",
+  "summary_name": "Read U8",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "buffer-to-value",
+      "concept_summary": "Buffer outputs U8",
+      "signature": {
+        "metaphor": "buffer extraction",
+        "objects": "buffer, outgoing arrow and U8",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "buffer left, value right",
+        "orientation": "horizontal"
+      },
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A compact navy rectangular tag-buffer block at left; a bold orange right-pointing arrow exits toward very large black text U8 on the right. The arrow points away from the buffer. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows."
+    },
+    {
+      "concept_id": "lifted-value",
+      "concept_summary": "U8 lifted from tray",
+      "signature": {
+        "metaphor": "upward extraction",
+        "objects": "open tray, up arrow and U8",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "tray below value, arrow upward",
+        "orientation": "vertical"
+      },
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A large black U8 floats above a simple dark-blue open tray; one thick orange arrow rises from the tray toward U8. The text U8 is the largest element. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows."
+    },
+    {
+      "concept_id": "read-lens",
+      "concept_summary": "Read U8 through lens",
+      "signature": {
+        "metaphor": "inspection",
+        "objects": "magnifying lens and U8",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "lens around value, handle diagonal",
+        "orientation": "diagonal"
+      },
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A large thick dark-blue magnifying glass enclosing clearly legible bold black text U8. The simple orange handle points down-right. The U8 fills most of the lens. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows."
+    },
+    {
+      "concept_id": "output-slot",
+      "concept_summary": "U8 output from slot",
+      "signature": {
+        "metaphor": "buffer slot output",
+        "objects": "slot and value card",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "U8 card emerges diagonally from slot",
+        "orientation": "diagonal"
+      },
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A large orange card bearing bold black U8 emerges upward at an angle from a dark-blue horizontal buffer slot. An unmistakable thick arrow on the slot points outward toward the card. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows."
+    },
+    {
+      "concept_id": "value-spout",
+      "concept_summary": "U8 dispensed from buffer",
+      "signature": {
+        "metaphor": "value dispensing",
+        "objects": "buffer spout and U8",
+        "cue": "downward output",
+        "composition": "buffer over U8 with downward spout",
+        "orientation": "vertical"
+      },
+      "prompt": "One square 1:1 flat icon on pure white for reading a U8 value from a tag buffer. A dark-blue horizontal buffer block at top has a large orange downward-pointing triangular outlet directly beneath its center. Below the outlet put large bold black U8. The U8 must be clear and legible at 30x18; no other text. The outlet points away from the buffer, representing a getter. Thick geometry, generous whitespace, no shadows or border."
+    }
+  ]
+}

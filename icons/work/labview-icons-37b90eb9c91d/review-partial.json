@@ -1,0 +1,97 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag points right via blue arrow to a dark PLC rack."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, arrow and rack are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Rack detail begins to merge; direction remains clear."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The tag-to-PLC layout mirrors the read-tag PLC-to-tag composition.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing read and write VIs use mirrored PLC, arrow, tag structures.",
+          "correction": "Use a distinct write metaphor rather than a mirrored read layout."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and rack survive as colored blocks; arrow becomes small."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag points up to a blue PLC rack."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, arrow and rack are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arrow and rack remain recognizable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The arrowhead fades, and the tag becomes an orange block, making direction and object less clear.",
+          "rule_id": "SMALL-ACTION-006",
+          "cause": "Arrowhead and tag detail receive too few pixels.",
+          "correction": "Enlarge the arrowhead and simplify the PLC and tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and tag remain but direction is unclear."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A blue PLC appears to broadcast radio waves toward an orange tag, implying wireless transfer and a direction opposite the intended write.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "Radio arcs imply wireless transfer from the PLC.",
+          "correction": "Show an unmistakable, transport-neutral write from local tag to controller."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "PLC, radio waves and tag are distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The radio arcs begin to merge."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The arcs merge and their direction is unclear."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and tag remain but the radio arcs blend."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03"
+    ],
+    "evidence": "Only candidates 01\u201303 exist; candidate 01 mirrors the read-tag PLC-arrow-tag composition. Options 04 and 05 have not been generated or reviewed, so this is not a final set comparison."
+  }
+}

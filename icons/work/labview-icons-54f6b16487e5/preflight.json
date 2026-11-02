@@ -1,0 +1,11 @@
+{
+  "result": "FAIL",
+  "scope": "Concept preflight before image generation",
+  "findings": [
+    {
+      "concept_id": "network-config",
+      "issue": "A network jack and gear suggest network settings alone, while this cluster also configures CPU, element size/count, tag name, and debug level."
+    }
+  ],
+  "next_step": "Replace the network-only concept with a whole-cluster configuration metaphor; preserve the remaining concepts for later actual-art comparison."
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "run_id": "c5d3b0a990d44c6d9b6c960093b8c228",
+  "request": "Lock a PLC tag",
+  "summary_name": "Lock",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Lock.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:48:41.720698+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "padlock",
+      "concept_summary": "Closed padlock",
+      "prompt": "One square icon on pure white: A large closed navy padlock. Symbolize locking access to a software tag. Thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "objects": "Closed padlock",
+        "cue": "closed",
+        "orientation": "varied",
+        "composition": "A large closed navy padlock.",
+        "metaphor": "Closed padlock"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Closed navy padlock with a white tag cutout."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Closed shackle and tag cutout are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Closed shackle and cutout remain visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Closed lock still resembles the open-padlock unlock candidate in overall silhouette.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Closed lock remains visible; the tag cutout is simplified."
+        }
+      },
+      "reviewed_sha256": "c92e5d584b11483dacec62bcf34c2a2178cbd8f7f66343b07ba2584c20b09e6e"
+    },
+    {
+      "concept_id": "tag-lock",
+      "concept_summary": "Tag secured",
+      "prompt": "One square icon on pure white: A large blue tag with a closed orange padlock overlapping its lower right. Symbolize locking access to a software tag. Thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "objects": "Tag secured",
+        "cue": "closed",
+        "orientation": "varied",
+        "composition": "A large blue tag with a closed orange padlock overlapping its lower right.",
+        "metaphor": "Tag secured"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag with orange closed padlock at lower right."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and closed lock are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and lock remain visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag plus orange lock repeats the unlock tag-plus-lock layout.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and lock silhouettes remain, but the shackle is small."
+        }
+      },
+      "reviewed_sha256": "17b1d0180b6cf201fcc5b27fc03b6b2e414bacd2ab81ea60b399e9a684fc983c"
+    },
+    {
+      "concept_id": "latch",
+      "concept_summary": "Closed latch",
+      "prompt": "One square icon on pure white: A bold blue horizontal latch slid into a red catch. Symbolize locking access to a software tag. Thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "objects": "Closed latch",
+        "cue": "closed",
+        "orientation": "varied",
+        "composition": "A bold blue horizontal latch slid into a red catch.",
+        "metaphor": "Closed latch"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The generated blue piece resembles a key entering a red socket rather than a latch securing a tag.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The form reads as a key or plug rather than a closed latch.",
+          "correction": "Use an unmistakable locking metaphor without key-in-socket imagery."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Blue key-like shape and red socket are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The shapes remain distinguishable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The connection remains visible, but the lock action is ambiguous.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The blue and red forms remain."
+        }
+      },
+      "reviewed_sha256": "ead49c28f473bf640aab55a0d50cc2f3b95f8ac7502aa20ae4286c72c26a7591"
+    },
+    {
+      "concept_id": "shield",
+      "concept_summary": "Lock shield",
+      "prompt": "One square icon on pure white: A large blue shield enclosing a simple closed orange padlock. Symbolize locking access to a software tag. Thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "objects": "Lock shield",
+        "cue": "closed",
+        "orientation": "varied",
+        "composition": "A large blue shield enclosing a simple closed orange padlock.",
+        "metaphor": "Lock shield"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange closed padlock inside a blue shield."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Shield and padlock are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Shield and lock remain visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Shield-and-lock structure closely matches the unlock shield option.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Shield and orange lock survive, but the shackle is small."
+        }
+      },
+      "reviewed_sha256": "4dd870519f4a051d1af50c5a72f230ab4424376396d52975d0ffbeee719df1a7"
+    },
+    {
+      "concept_id": "clamp",
+      "concept_summary": "Closed clamp",
+      "prompt": "One square icon on pure white: A thick blue C clamp gripping a simple orange tag. Symbolize locking access to a software tag. Thick flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "objects": "Closed clamp",
+        "cue": "closed",
+        "orientation": "varied",
+        "composition": "A thick blue C clamp gripping a simple orange tag.",
+        "metaphor": "Closed clamp"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue clamp grips an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain discernible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Clamp-and-tag structure closely matches the unlock clamp option and risks confusion with the size caliper.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Clamp body and tag remain; screw detail softens."
+        }
+      },
+      "reviewed_sha256": "06e6610f7174e8d3473900d6b3316d086acff397a86ccdbb61dadd2093b31a3c"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "padlock",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Closed lock still resembles the open-padlock unlock candidate in overall silhouette.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "tag-lock",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag plus orange lock repeats the unlock tag-plus-lock layout.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "latch",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "The generated blue piece resembles a key entering a red socket rather than a latch securing a tag.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an unmistakable locking metaphor without key-in-socket imagery.",
+      "likely_cause_hypothesis": "The form reads as a key or plug rather than a closed latch."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "latch",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The connection remains visible, but the lock action is ambiguous.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "shield",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Shield-and-lock structure closely matches the unlock shield option.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "clamp",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Clamp-and-tag structure closely matches the unlock clamp option and risks confusion with the size caliper.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag."
+  },
+  "published": false
+}

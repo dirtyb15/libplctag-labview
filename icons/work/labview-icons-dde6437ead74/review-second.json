@@ -1,0 +1,69 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A triangle above a blue circle containing a white i strongly resembles Datatype.ctl candidate-06, which has a triangle above a blue dial containing an I.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Replace with a silhouette that does not use a triangle over a blue circular I/i."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Warning and information symbols are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The information dot softens."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The triangle-over-blue-circle structure remains too similar to the datatype selector.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a different dominant silhouette for the error description."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The triangle and blue circle remain recognizable."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A warning triangle connects via a curved arrow to message bars."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The triangle, curved arrow and separate bars are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow bends toward the text bars."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The red warning, curved orange arrow and two blue message bars remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The direction and major shapes survive while the bar gap narrows."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-06",
+      "candidate-07",
+      "candidate-05"
+    ],
+    "evidence": "The separated triangle and information circle is too similar to the datatype selector's triangle over blue I dial. Keep the curved decode candidate and replace the circle option."
+  }
+}

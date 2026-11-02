@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "run_id": "0e6fd6a666794b06bbe95f2e64b7d0fd",
+  "request": "Decode an error code to a description",
+  "summary_name": "Error Info",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-1231da3e0008",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Error_Info.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:58:13.962687+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "warning-info",
+      "concept_summary": "Warning and info",
+      "prompt": "One square software icon on pure white: A large red warning triangle next to a bold blue information circle. Symbolize converting an error code to its description. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "description",
+        "metaphor": "Warning and info",
+        "objects": "Warning and info",
+        "orientation": "varied",
+        "composition": "A large red warning triangle next to a bold blue information circle."
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-1231da3e0008\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle points to a blue information symbol."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle, arrow and information mark are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Triangle and information mark remain distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The triangle-to-symbol arrangement substantially duplicates candidate 03.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Both use warning, horizontal arrow and blue output on the right.",
+          "correction": "Replace one with a different composition or metaphor."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Triangle and blue circle survive; information mark is weak."
+        }
+      },
+      "reviewed_sha256": "8f956d021fadfdf7483d3ed862c1ca1a9b73a358cc4335dc0f3e92b83f639eeb"
+    },
+    {
+      "concept_id": "warning-bubble",
+      "concept_summary": "Error description",
+      "prompt": "One square software icon on pure white: A red warning triangle with a blue speech bubble emerging to its right. Symbolize converting an error code to its description. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "description",
+        "metaphor": "Error description",
+        "objects": "Error description",
+        "orientation": "varied",
+        "composition": "A red warning triangle with a blue speech bubble emerging to its right."
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-1231da3e0008\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle and a blue speech bubble suggest an error description."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle and speech bubble remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The bubble and warning remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Warning triangle and speech bubble remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The triangle and bubble silhouettes remain; bubble lines merge."
+        }
+      },
+      "reviewed_sha256": "c5c6c3776d97316dfa6f9df4ba2724d65fbd3c538d7b4268a4d52c3e8f36368e"
+    },
+    {
+      "concept_id": "decode",
+      "concept_summary": "Decode error",
+      "prompt": "One square software icon on pure white: A red warning symbol at left, thick black arrow, and blue document at right. Symbolize converting an error code to its description. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "description",
+        "metaphor": "Decode error",
+        "objects": "Decode error",
+        "orientation": "varied",
+        "composition": "A red warning symbol at left, thick black arrow, and blue document at right."
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-1231da3e0008\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle points to a blue document with lines."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Warning, arrow and document are distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow and page remain distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The triangle-to-page arrangement substantially duplicates candidate 01.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Both use warning, horizontal arrow and blue output on the right.",
+          "correction": "Replace one with a different composition or metaphor."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Triangle and document survive, while page details fade."
+        }
+      },
+      "reviewed_sha256": "4784da56f21433b013e9d837664ee41d2daf38bfea60f66d02ff4aeddc41f55e"
+    },
+    {
+      "concept_id": "warning-book",
+      "concept_summary": "Error reference",
+      "prompt": "One square software icon on pure white: A large red warning triangle above an open blue book. Symbolize converting an error code to its description. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "description",
+        "metaphor": "Error reference",
+        "objects": "Error reference",
+        "orientation": "varied",
+        "composition": "A large red warning triangle above an open blue book."
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-1231da3e0008\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A warning symbol points down to an open book; the metaphor suggests error reference."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle, arrow and open book are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The book outline begins to blend."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The book loses its page shape and becomes a blue rectangle, obscuring the description cue.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Thin book lines blend during reduction.",
+          "correction": "Use a bold, recognizable reference symbol with fewer lines."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The book details merge."
+        }
+      },
+      "reviewed_sha256": "101af80c1802055540d4943566c95121f677317e466706195252ee18b789f13a"
+    },
+    {
+      "concept_id": "error-magnify",
+      "concept_summary": "Inspect error",
+      "prompt": "One square software icon on pure white: A large red warning triangle under an orange magnifying glass. Symbolize converting an error code to its description. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "cue": "description",
+        "metaphor": "Inspect error",
+        "objects": "Inspect error",
+        "orientation": "varied",
+        "composition": "A large red warning triangle under an orange magnifying glass."
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-1231da3e0008\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A magnifying glass overlaps a warning triangle; this implies inspection rather than producing an error description.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The output description is not represented.",
+          "correction": "Show an explicit description output without obscuring the warning."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Magnifier and warning are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Magnifier crosses the triangle."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The magnifier obscures the warning and contains no description cue."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Warning and magnifier still form separate colors but merge at the overlap."
+        }
+      },
+      "reviewed_sha256": "b7c3d8e06a7541abe1dd861b513e19b4c6c7eb4df42bfeeff68c19c859ffe9c0"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "warning-info",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The triangle-to-symbol arrangement substantially duplicates candidate 03.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Replace one with a different composition or metaphor.",
+      "likely_cause_hypothesis": "Both use warning, horizontal arrow and blue output on the right."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "decode",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The triangle-to-page arrangement substantially duplicates candidate 01.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Replace one with a different composition or metaphor.",
+      "likely_cause_hypothesis": "Both use warning, horizontal arrow and blue output on the right."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "warning-book",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The book loses its page shape and becomes a blue rectangle, obscuring the description cue.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a bold, recognizable reference symbol with fewer lines.",
+      "likely_cause_hypothesis": "Thin book lines blend during reduction."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "error-magnify",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A magnifying glass overlaps a warning triangle; this implies inspection rather than producing an error description.",
+      "measured_value": "source",
+      "corrective_instruction": "Show an explicit description output without obscuring the warning.",
+      "likely_cause_hypothesis": "The output description is not represented."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 01 and 03 share the same left-warning, right-arrow, blue-output composition; color and the output icon alone are too similar at native size."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 01 and 03 share the same left-warning, right-arrow, blue-output composition; color and the output icon alone are too similar at native size."
+  },
+  "published": false
+}

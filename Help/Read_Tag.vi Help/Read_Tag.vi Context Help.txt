@@ -1,0 +1,3 @@
+Starts a controller read for an existing tag. Use a nonnegative timeout in milliseconds; zero can return a pending status. Check error out and error code, and wait for completion when pending before reading the local buffer. A positive wait runs on the LabVIEW user interface thread and can delay the interface. A configured read cache can return existing data. In version 2.0.22, a later cache hit can report OK while an earlier read is pending; check that operation’s status.
+
+Upstream 2.7.2 returns -7 for a negative timeout and can return -39 when the tag is busy or dirty. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.

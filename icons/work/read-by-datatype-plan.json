@@ -1,0 +1,67 @@
+{
+  "request": "Read a tag value selected by datatype and return a variant",
+  "summary_name": "Read By Datatype",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "select-extract",
+      "concept_summary": "Select then extract",
+      "signature": {
+        "metaphor": "selection and extraction",
+        "objects": "type selector and outbound arrow",
+        "cue": "extraction",
+        "composition": "selector left, arrow right",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A thick blue selector tile with a large barred capital I and a large orange arrow exiting to the right. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "choice-eye",
+      "concept_summary": "Read selected type",
+      "signature": {
+        "metaphor": "visual selection",
+        "objects": "eye and type-selector dial",
+        "cue": "view",
+        "composition": "eye above selector",
+        "orientation": "vertical"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A large dark-blue eye over a thick orange rotary selector with a prominent capital I as the selected type. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "split-read",
+      "concept_summary": "Choose typed route",
+      "signature": {
+        "metaphor": "branching extraction",
+        "objects": "three-way fork and output arrow",
+        "cue": "route to output",
+        "composition": "fork left and output arrow right",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A bold dark-blue three-way fork merging into a thick orange right-pointing arrow, with a large barred capital I on the chosen input. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "type-outbox",
+      "concept_summary": "Extract selected type",
+      "signature": {
+        "metaphor": "buffer extraction",
+        "objects": "type tile and open tray",
+        "cue": "outgoing arrow",
+        "composition": "tile within tray and arrow upward",
+        "orientation": "vertical"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A blue open tray containing a large barred capital I, with an orange arrow rising out of it. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "typed-lens",
+      "concept_summary": "Inspect selected value",
+      "signature": {
+        "metaphor": "type inspection",
+        "objects": "buffer and magnifier",
+        "cue": "magnifier",
+        "composition": "magnifier over type tile",
+        "orientation": "diagonal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A blue rectangular buffer with a large barred capital I, viewed through a large orange magnifying glass. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    }
+  ]
+}

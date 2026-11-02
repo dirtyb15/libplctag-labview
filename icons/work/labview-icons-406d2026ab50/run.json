@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "run_id": "79615d07059149acbf39f5661d7b42fe",
+  "request": "Datatype enum control for choosing the tag value type",
+  "summary_name": "Datatype",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-406d2026ab50",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Datatype.ctl",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T20:49:59.686489+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "dropdown",
+      "concept_summary": "Datatype dropdown",
+      "prompt": "One standalone square software icon on a pure white background: A bold dark-blue dropdown field with a large black capital I and an orange downward triangle; represents a datatype enum selector. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "dropdown",
+        "objects": "field and chevron",
+        "cue": "choice",
+        "composition": "A wide dropdown field with a large I and a downward triangle",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-406d2026ab50\\candidates\\candidate-01.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "dial",
+      "concept_summary": "Datatype rotary selector",
+      "prompt": "One standalone square software icon on a pure white background: A bold dark-blue rotary selector with a thick orange pointer aimed at one of three large separated glyphs I, U and F around it; represents choosing a datatype. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "rotary selection",
+        "objects": "dial and three type marks",
+        "cue": "pointer",
+        "composition": "A pointer on a dial aimed at one of three datatype marks",
+        "orientation": "circular"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-406d2026ab50\\candidates\\candidate-02.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "tiles",
+      "concept_summary": "Datatype tile choice",
+      "prompt": "One standalone square software icon on a pure white background: Three large separated blue tiles labelled I, U and F, with a bold orange check above the center tile; represents a selected datatype. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "tile selection",
+        "objects": "three tiles and check",
+        "cue": "check",
+        "composition": "Three I U F tiles with a check over the center tile",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-406d2026ab50\\candidates\\candidate-03.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "branch",
+      "concept_summary": "Datatype branch selector",
+      "prompt": "One standalone square software icon on a pure white background: A dark-blue three-way fork ending at three large distinct capital glyphs I, U and F, with an orange arrow pointing to one branch; represents choosing a datatype. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "routing choice",
+        "objects": "fork and three large type glyphs",
+        "cue": "pointer",
+        "composition": "A branching route to three types with a pointer at one branch",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-406d2026ab50\\candidates\\candidate-04.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "switch",
+      "concept_summary": "Datatype switch",
+      "prompt": "One standalone square software icon on a pure white background: A bold orange switch lever visibly pointing to a large blue I with a separate large blue F on the other side; represents choosing a datatype category. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "switch selection",
+        "objects": "lever and two type glyphs",
+        "cue": "lever",
+        "composition": "Two large type positions and a lever selecting one",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-406d2026ab50\\candidates\\candidate-05.png",
+      "qa": {}
+    }
+  ],
+  "failures": [],
+  "distinctness": {},
+  "published": false
+}

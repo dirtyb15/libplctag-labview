@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "run_id": "3dd2ce99abfd47c984bf3c32d3e3218b",
+  "request": "Automatically choose a platform-specific library path",
+  "summary_name": "Choose Lib",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-6e28602eb041",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Choose_Lib.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:30:43.860558+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "computer-branch",
+      "concept_summary": "Computer selects library path",
+      "prompt": "One simple square software icon on pure white: bold dark-blue computer monitor on left, a thick black branching path on right with one branch highlighted green. Represents automatically choosing a platform-specific library path. Flat simple geometry, generous margin, no text, no border, no shadow.",
+      "signature": {
+        "objects": "computer and branching paths",
+        "metaphor": "platform routing",
+        "cue": "selected branch",
+        "orientation": "horizontal",
+        "composition": "computer to branches"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-6e28602eb041\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The blue computer connects to three branches; only green identifies the chosen branch."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Monitor and branch endpoints remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The three routes remain visible, with a green branch."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The chosen branch differs only by color; there is no independent selection cue.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "The highlighted branch is encoded only by color.",
+          "correction": "Use a large distinct selection mark on one branch."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Monitor and branching silhouette remain visible."
+        }
+      },
+      "reviewed_sha256": "3453be9846189165c102c7ad082c97ec0933624710a130076a6f68ecdf04daf2"
+    },
+    {
+      "concept_id": "chip-document",
+      "concept_summary": "Platform chip points to library file",
+      "prompt": "One simple square software icon on pure white: large dark-blue microchip at left, bold black right arrow, orange document with folded corner at right. Represents determining a platform-specific software library file. Flat thick geometry, generous margin, no text, no border, no shadow.",
+      "signature": {
+        "objects": "chip and document",
+        "metaphor": "platform determines file",
+        "cue": "arrow",
+        "orientation": "horizontal",
+        "composition": "chip arrow file"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-6e28602eb041\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue chip points to an orange document, with clear outer margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Chip, arrow, and document are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow and file remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Chip, arrow, and document are visible, though the chip has limited detail."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The chip becomes a blue blob, while the arrow and document remain discernible."
+        }
+      },
+      "reviewed_sha256": "0b714fe2d80d89dea38b0bc42ed3af1a8e245a2ba56de4469cb431b845b68e7f"
+    },
+    {
+      "concept_id": "gear-folder",
+      "concept_summary": "Automatic folder path",
+      "prompt": "One simple square software icon on pure white: bold dark-blue folder with a large orange gear above it, representing automatic selection of a platform-specific library location. Flat thick shapes, generous margin, no text, no border, no shadow.",
+      "signature": {
+        "objects": "gear and folder",
+        "metaphor": "automatic path",
+        "cue": "gear",
+        "orientation": "vertical",
+        "composition": "gear above folder"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-6e28602eb041\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "An orange gear above a blue folder suggests folder settings, not selection of an OS-specific library file.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action and library output are absent.",
+          "correction": "Show a clear platform-dependent library file selection."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Gear and folder are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Gear and folder remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Gear and folder survive, but no selection or file cue is present."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Gear and folder silhouettes remain recognizable."
+        }
+      },
+      "reviewed_sha256": "dfac1c77113a625018d0c612b0390b6590009d131c5110deaf4506c4ed936ec0"
+    },
+    {
+      "concept_id": "fork-document",
+      "concept_summary": "Branch directs to file",
+      "prompt": "One simple square software icon on pure white: two thick dark-blue paths from the left merge into a single black arrow pointing right toward a large orange file document. Represents platform-dependent selection of a library path. Flat thick geometry, generous margin, no text, no border, no shadow.",
+      "signature": {
+        "objects": "fork and file",
+        "metaphor": "routing",
+        "cue": "single destination",
+        "orientation": "horizontal",
+        "composition": "two inputs merge to file"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-6e28602eb041\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Two blue paths merge into an arrow aimed at an orange file."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Two input paths, arrow, and file are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The converging paths and file remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Converging paths, arrow, and file remain separable."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Two paths and an orange file survive; the arrow is small."
+        }
+      },
+      "reviewed_sha256": "dfc2a31d45dbe92894adc7410c521cf29b6b6474b36e5ee4d82e0b7dc76d23ce"
+    },
+    {
+      "concept_id": "system-magnifier",
+      "concept_summary": "Find system library",
+      "prompt": "One simple square software icon on pure white: a bold dark-blue computer monitor with a large orange magnifying glass overlapping its lower right, representing finding the library for the current system. Flat thick geometry, generous margin, no text, no border, no shadow.",
+      "signature": {
+        "objects": "computer and magnifier",
+        "metaphor": "discovery",
+        "cue": "magnification",
+        "orientation": "diagonal",
+        "composition": "magnifier over computer"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-6e28602eb041\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A magnifier over a computer suggests inspecting a computer, not selecting a platform-specific library file.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action and library output are absent.",
+          "correction": "Show a clear platform-dependent library file selection."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Monitor and magnifier are distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The monitor and magnifier remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The monitor and magnifier survive, but no library or selection cue appears."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Monitor and magnifier survive at the stress size."
+        }
+      },
+      "reviewed_sha256": "d57ec144406524d09dca1ad6a92d32f8db1b34e1ff3fef4e12be7ea5297efa36"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "computer-branch",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The chosen branch differs only by color; there is no independent selection cue.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a large distinct selection mark on one branch.",
+      "likely_cause_hypothesis": "The highlighted branch is encoded only by color."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "gear-folder",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "An orange gear above a blue folder suggests folder settings, not selection of an OS-specific library file.",
+      "measured_value": "source",
+      "corrective_instruction": "Show a clear platform-dependent library file selection.",
+      "likely_cause_hypothesis": "The action and library output are absent."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "system-magnifier",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A magnifier over a computer suggests inspecting a computer, not selecting a platform-specific library file.",
+      "measured_value": "source",
+      "corrective_instruction": "Show a clear platform-dependent library file selection.",
+      "likely_cause_hypothesis": "The action and library output are absent."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 02 and 04 use an input, horizontal arrow, and file; their small previews share the same overall composition."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 02 and 04 use an input, horizontal arrow, and file; their small previews share the same overall composition."
+  },
+  "published": false
+}

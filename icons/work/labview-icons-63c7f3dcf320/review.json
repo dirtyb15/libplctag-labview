@@ -1,0 +1,155 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag sits over an orange ruler with three white marks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and ruler are separate and tick marks are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Most ruler marks are weakened."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The ruler ticks nearly disappear, leaving an unmarked orange bar.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Essential tool or tag details are lost during reduction.",
+          "correction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and orange bar remain but tick marks disappear."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag sits above an orange double-headed dimension arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and two arrowheads are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The double-headed arrow remains separate from the tag."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag and dimension arrow remain visible but share the tag-over-horizontal-bar layout of candidate 01.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Both designs place a blue tag over an orange horizontal measuring element.",
+          "correction": "Use a different measurement composition from candidate 01."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag remains; the arrowheads soften."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue caliper jaws surround an orange tag; the tool has several fine marks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The caliper and tag silhouette are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The orange tag loses its hole and fine caliper marks fade."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The orange tag becomes a featureless block and caliper details merge.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Essential tool or tag details are lost during reduction.",
+          "correction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Only broad caliper and orange-block silhouettes survive."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange measuring tape curls around a blue tag with multiple fine ticks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and wrapped tape remain distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tape tick marks merge."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The tape becomes a thick orange band with no readable measurement marks.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Essential tool or tag details are lost during reduction.",
+          "correction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and orange band remain but the tape detail disappears."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The tag sits on a weighing scale, conveying weight rather than buffer size.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "A scale is the conventional symbol for weight.",
+          "correction": "Use a size or capacity measurement metaphor, not a weighing scale."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and scale remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The scale dial fades."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag remains above an orange object but dial detail is weak."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and orange scale silhouette remain."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 01 and 02 both show a blue tag above a horizontal orange measurement element; their silhouettes are too similar at small size."
+  }
+}

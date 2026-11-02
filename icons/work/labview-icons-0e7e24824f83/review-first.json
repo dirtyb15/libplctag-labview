@@ -1,0 +1,152 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Rack includes unrequested small PLC lettering and many tiny panel marks.",
+          "rule_id": "VIS-DETAIL-004",
+          "correction": "Use a plain unlabeled industrial automation rack with only three thick module slots and simple sliders."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Rack and sliders remain but the PLC letters and small marks are indistinct."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Sliders remain visible while the rack text becomes unreadable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "PLC lettering collapses to indistinct pale pixels in the rack.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Remove all lettering and fine panel details."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Rack and sliders survive as blocks; fine details disappear."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The source depicts a game controller, not an industrial programmable logic controller.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Depict a rectangular industrial PLC rack with vertical modules; no gamepad, handles or buttons."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Gamepad and wrench remain visible but convey the wrong object."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Gamepad silhouette persists and implies a gaming device."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The gamepad and wrench remain identifiable but the metaphor is wrong."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The wrong gamepad silhouette and wrench dominate."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The PLC rack contains unsolicited lettering and many miniature details.",
+          "rule_id": "VIS-DETAIL-004",
+          "correction": "Use a simple unlabeled industrial PLC rack over three thick field bars."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Rack and field bars are visible; tiny lettering and slots blur."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The lettering becomes indistinct and field bars remain."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The small PLC text and module details dissolve into ambiguous blocks.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Remove the lettering and simplify the rack silhouette."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Rack and bars survive while details merge."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The controller is a video-game gamepad, not an industrial PLC.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use an industrial rectangular PLC module with screw terminals and two simple configuration knobs."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Gamepad and knobs are visible but the subject is wrong."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Gaming controller silhouette remains."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "Gamepad and paired knobs survive but misrepresent the source."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Gamepad silhouette remains dominant."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A dark industrial control module outline surrounds an orange gear, with clear outer margin."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Module outline and gear remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The gear stays separate from the module outline."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Orange gear and dark rectangular controller frame remain distinct; fine terminal dots soften."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Gear and frame survive while terminal details merge."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Two candidates depict gamepads instead of PLCs, and two rack designs include unreadable incidental letters. Retain the gear module and review a corrected final set."
+  }
+}

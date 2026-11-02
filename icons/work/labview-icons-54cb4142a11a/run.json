@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "run_id": "0a3b3bfde7584cec8cd156e04730754c",
+  "request": "Get PLC tag status",
+  "summary_name": "Tag Status",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-54cb4142a11a",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Tag_Status.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:55:55.817915+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "gauge",
+      "concept_summary": "Tag status gauge",
+      "prompt": "One square icon on pure white: A blue tag beside a bold orange circular status gauge with one needle. Symbolize checking a software tag status. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "composition": "A blue tag beside a bold orange circular status gauge with one needle.",
+        "metaphor": "Tag status gauge",
+        "cue": "status",
+        "orientation": "varied",
+        "objects": "Tag status gauge"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-54cb4142a11a\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag overlaps an orange gauge with a needle."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and gauge are discernible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The gauge needle remains visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The tag-and-round-badge composition closely resembles the create and destroy tag badge designs.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Tag with a lower-right round badge recurs in other operations.",
+          "correction": "Use a substantially different structure from tag creation and destruction."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and gauge survive but gauge details fade."
+        }
+      },
+      "reviewed_sha256": "1f0dc5651d781b500afca0142d906e213e95de86a5d359692773132e90f97eb7"
+    },
+    {
+      "concept_id": "pulse",
+      "concept_summary": "Tag heartbeat",
+      "prompt": "One square icon on pure white: A blue tag above a thick orange pulse line. Symbolize checking a software tag status. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "composition": "A blue tag above a thick orange pulse line.",
+        "metaphor": "Tag heartbeat",
+        "cue": "status",
+        "orientation": "varied",
+        "objects": "Tag heartbeat"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-54cb4142a11a\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange pulse line sits below a blue tag, suggesting tag condition."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag and pulse line are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The pulse peaks remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag and pulse remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and pulse survive, with softened peaks."
+        }
+      },
+      "reviewed_sha256": "6ffa0bdf2b8b7f30be47c76645779cd1420bd7b8d6f79ac9780ee331ea1a3e82"
+    },
+    {
+      "concept_id": "indicator",
+      "concept_summary": "Tag indicator light",
+      "prompt": "One square icon on pure white: A blue tag beside one large green circular status light. Symbolize checking a software tag status. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "composition": "A blue tag beside one large green circular status light.",
+        "metaphor": "Tag indicator light",
+        "cue": "status",
+        "orientation": "varied",
+        "objects": "Tag indicator light"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-54cb4142a11a\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A blue tag is accompanied by a green light, which depicts a successful status rather than retrieving an arbitrary status.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The drawing either commits to a successful status or lacks a clear status query.",
+          "correction": "Represent a status query without implying a particular result."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and green circle are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The green circle remains solid."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The circle has no retrieval cue and depends solely on green for meaning."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and green circle remain visible."
+        }
+      },
+      "reviewed_sha256": "c57adf937fd358a780bce83c43c1012528d5e542aa09218637786a5229c2f27e"
+    },
+    {
+      "concept_id": "check",
+      "concept_summary": "Tag status check",
+      "prompt": "One square icon on pure white: A blue tag inside a large orange magnifying glass with a small green check mark. Symbolize checking a software tag status. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "composition": "A blue tag inside a large orange magnifying glass with a small green check mark.",
+        "metaphor": "Tag status check",
+        "cue": "status",
+        "orientation": "varied",
+        "objects": "Tag status check"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-54cb4142a11a\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A magnifier surrounds a tag with a green check, depicting a good status instead of an arbitrary status result.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The drawing either commits to a successful status or lacks a clear status query.",
+          "correction": "Represent a status query without implying a particular result."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Magnifier, tag and check are recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The check loses some detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The green check merges into a small spot inside the magnifier."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Magnifier survives but the status symbol is unclear."
+        }
+      },
+      "reviewed_sha256": "ca6c58a492093aa53371e0b3b9c959caee82f1f9fda7fceaea140b37820f8996"
+    },
+    {
+      "concept_id": "meter",
+      "concept_summary": "Tag status meter",
+      "prompt": "One square icon on pure white: A blue tag beside a large orange three-segment vertical status meter. Symbolize checking a software tag status. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "composition": "A blue tag beside a large orange three-segment vertical status meter.",
+        "metaphor": "Tag status meter",
+        "cue": "status",
+        "orientation": "varied",
+        "objects": "Tag status meter"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-54cb4142a11a\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A blue tag is next to an orange stack of three identical blank blocks; the status or retrieval action is not evident.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The drawing either commits to a successful status or lacks a clear status query.",
+          "correction": "Represent a status query without implying a particular result."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and three blocks are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The blocks remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Tag and stacked blocks remain distinguishable but do not communicate status."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and stacked blocks remain visible."
+        }
+      },
+      "reviewed_sha256": "066b44d65b1f939b99a9780e8a9acb9c88d5b50a324cea53d7ac48f01bf6e07d"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "gauge",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The tag-and-round-badge composition closely resembles the create and destroy tag badge designs.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a substantially different structure from tag creation and destruction.",
+      "likely_cause_hypothesis": "Tag with a lower-right round badge recurs in other operations."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "indicator",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A blue tag is accompanied by a green light, which depicts a successful status rather than retrieving an arbitrary status.",
+      "measured_value": "source",
+      "corrective_instruction": "Represent a status query without implying a particular result.",
+      "likely_cause_hypothesis": "The drawing either commits to a successful status or lacks a clear status query."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "check",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A magnifier surrounds a tag with a green check, depicting a good status instead of an arbitrary status result.",
+      "measured_value": "source",
+      "corrective_instruction": "Represent a status query without implying a particular result.",
+      "likely_cause_hypothesis": "The drawing either commits to a successful status or lacks a clear status query."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "meter",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A blue tag is next to an orange stack of three identical blank blocks; the status or retrieval action is not evident.",
+      "measured_value": "source",
+      "corrective_instruction": "Represent a status query without implying a particular result.",
+      "likely_cause_hypothesis": "The drawing either commits to a successful status or lacks a clear status query."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidate 01 repeats the tag-and-badge silhouette used in other VI sets; candidates 03 and 04 also both use green success cues despite the VI returning arbitrary status."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidate 01 repeats the tag-and-badge silhouette used in other VI sets; candidates 03 and 04 also both use green success cues despite the VI returning arbitrary status."
+  },
+  "published": false
+}

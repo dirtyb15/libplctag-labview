@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "run_id": "6e9fd8e6aecb4555b11adefd24acf27b",
+  "request": "Create a PLC tag and return its handle",
+  "summary_name": "Create Tag",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Create_Tag.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:34:37.923284+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "tag-plus",
+      "concept_summary": "Tag plus sign",
+      "prompt": "One square icon on pure white: One large dark blue luggage tag silhouette with a bold green plus sign overlapping its lower right, symbolizing creation of a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "tag",
+        "orientation": "varied",
+        "cue": "plus overlay",
+        "composition": "plus overlay",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag with a green plus, both large and separated."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag hole and plus are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and plus remain recognizable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag and plus survive, but their overall composition closely matches the destroy-tag badge candidates.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "A tag with a lower-right badge is reused by opposite operation.",
+          "correction": "Use a substantially different creation composition from the destroy set."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and plus remain discernible."
+        }
+      },
+      "reviewed_sha256": "d6220feaa4d05d9ac0243f8e213c12f44f75accc5bfa42c8e2669437d7075e2d"
+    },
+    {
+      "concept_id": "tag-pencil",
+      "concept_summary": "Tag and pencil",
+      "prompt": "One square icon on pure white: One large dark blue tag silhouette with a thick orange pencil diagonally across it, symbolizing creating a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "writing",
+        "orientation": "varied",
+        "cue": "pencil diagonally on tag",
+        "composition": "pencil diagonally on tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange pencil crosses a blue tag, a common edit symbol rather than creation.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action cue suggests editing or decoration rather than creation.",
+          "correction": "Use an unmistakable creation cue in a distinct structure."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Pencil and tag remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Pencil and tag are separated."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Pencil over tag still reads as editing."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Pencil and tag remain recognizable."
+        }
+      },
+      "reviewed_sha256": "6d3043bf4712221218aae7bdf59433b278f3aa82044b27319783fb389dfc61c7"
+    },
+    {
+      "concept_id": "tag-spark",
+      "concept_summary": "Tag with creation spark",
+      "prompt": "One square icon on pure white: One large dark blue tag silhouette below a large orange four-point creation sparkle, symbolizing creating a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "emergence",
+        "orientation": "varied",
+        "cue": "spark above tag",
+        "composition": "spark above tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange sparkle over blue tag; sparkle does not unambiguously communicate creation.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action cue suggests editing or decoration rather than creation.",
+          "correction": "Use an unmistakable creation cue in a distinct structure."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Sparkle and tag remain separated."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Sparkle loses sharp detail but remains above the tag."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The small four-point mark is ambiguous as an action cue."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The sparkle reduces to a small orange blob."
+        }
+      },
+      "reviewed_sha256": "b9237e334a9854fa70419c3a64e6ac52cd6aacde8dd5c0d0505357b9ab2b74e6"
+    },
+    {
+      "concept_id": "tag-assembly",
+      "concept_summary": "Tag assembled from pieces",
+      "prompt": "One square icon on pure white: A dark blue tag outline at right and two large orange pieces pointing into it from the left, symbolizing building a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "assembly",
+        "orientation": "varied",
+        "cue": "pieces converge into tag",
+        "composition": "pieces converge into tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Two puzzle pieces approach an outlined tag; construction concept is not explicit."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Pieces and tag outline remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Piece joins become less distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Puzzle joints merge with the tag outline, obscuring assembly.",
+          "rule_id": "SMALL-SHAPE-004",
+          "cause": "Puzzle gaps become too small.",
+          "correction": "Use larger separated elements and a clear construction action."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag outline and orange pieces remain visible but joins are lost."
+        }
+      },
+      "reviewed_sha256": "3e8fa85b4ee6e8a06f0e6433a0f5ba6d4064064336e6d2c83255e8692992c4e4"
+    },
+    {
+      "concept_id": "tag-output",
+      "concept_summary": "New tag from generator",
+      "prompt": "One square icon on pure white: A bold orange gear at left, black rightward arrow and dark blue tag at right, symbolizing a newly generated PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "generation",
+        "orientation": "varied",
+        "cue": "gear arrow tag",
+        "composition": "gear arrow tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange gear points toward blue tag, suggesting a tag generated by a process."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Gear, arrow, and tag are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Gear, arrow, and tag remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Gear, arrow, and tag remain discernible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Gear and tag survive, but arrow detail is weak."
+        }
+      },
+      "reviewed_sha256": "6b90d0bbdc1baea6d38f999297b721b122b915b2630314ec0c83a7f7469cf813"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "tag-plus",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag and plus survive, but their overall composition closely matches the destroy-tag badge candidates.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a substantially different creation composition from the destroy set.",
+      "likely_cause_hypothesis": "A tag with a lower-right badge is reused by opposite operation."
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "tag-pencil",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "Orange pencil crosses a blue tag, a common edit symbol rather than creation.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an unmistakable creation cue in a distinct structure.",
+      "likely_cause_hypothesis": "The action cue suggests editing or decoration rather than creation."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "tag-spark",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "Orange sparkle over blue tag; sparkle does not unambiguously communicate creation.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an unmistakable creation cue in a distinct structure.",
+      "likely_cause_hypothesis": "The action cue suggests editing or decoration rather than creation."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "tag-assembly",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-SHAPE-004",
+      "result": "FAIL",
+      "observed_problem": "Puzzle joints merge with the tag outline, obscuring assembly.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use larger separated elements and a clear construction action.",
+      "likely_cause_hypothesis": "Puzzle gaps become too small."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidate 01 uses the same tag-plus-badge silhouette as destroy-tag candidates 01 and 03; the opposite functions need visibly different structures."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidate 01 uses the same tag-plus-badge silhouette as destroy-tag candidates 01 and 03; the opposite functions need visibly different structures."
+  },
+  "published": false
+}

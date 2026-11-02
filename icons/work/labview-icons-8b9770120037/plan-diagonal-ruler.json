@@ -1,0 +1,12 @@
+{
+  "concept_id": "tag-diagonal-ruler",
+  "concept_summary": "Tag measured by diagonal ruler",
+  "signature": {
+    "metaphor": "ruler measurement",
+    "objects": "tag, large ruler and B",
+    "cue": "large ruler notches",
+    "composition": "ruler crosses tag diagonally, B separate",
+    "orientation": "diagonal"
+  },
+  "prompt": "One square 1:1 flat software icon on pure white showing tag buffer size in bytes. A large blue tag is crossed diagonally by a simple orange ruler with only TWO very large deep white notches, making it unmistakably a ruler even at 30x18. A large black B with two open counters is positioned separately beneath the tag. No clamp, no caliper jaws, no scales, no tiny marks or other text. Thick simple geometry, generous white margins, no shadow."
+}

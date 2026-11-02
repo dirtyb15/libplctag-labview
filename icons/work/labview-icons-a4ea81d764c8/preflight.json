@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Provisional concept preflight; not final visual acceptance",
+  "candidate_ids": [
+    "status-pulse",
+    "status-lights",
+    "status-query",
+    "status-dial",
+    "status-report-page"
+  ],
+  "evidence": "Pulse below tag, tag beside multi-light panel, question mark inside tag, tag beside speech bubble, and tag inside a gauge have different structures. All avoid asserting success or failure. Existing heartbeat draft will be reused with its actual provenance. Compare report with Error_Info and gauge with all size and create/destroy drafts after generation. The tag-left/speech-bubble-right option was rejected against Error_Info. A report-page silhouette enclosing a tag is the replacement; compare the actual page with other tag and document icons."
+}

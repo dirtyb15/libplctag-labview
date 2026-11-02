@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "run_id": "0a60713b53de4669bcdf260f08dc2d42",
+  "request": "Unlock a PLC tag",
+  "summary_name": "Unlock",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bfcd2363382f",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Unlock.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:51:32.892592+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "open-padlock",
+      "concept_summary": "Open padlock",
+      "prompt": "One square icon on pure white: A large navy padlock with its shackle visibly open and lifted. Symbolize unlocking a software tag. Thick flat geometry, large gap indicating release, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Open padlock",
+        "orientation": "varied",
+        "cue": "open",
+        "objects": "Open padlock",
+        "composition": "A large navy padlock with its shackle visibly open and lifted."
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bfcd2363382f\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A navy padlock has a visibly open shackle."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Open shackle and body are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Open shackle gap remains visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Open padlock closely resembles the closed-padlock lock candidate in overall silhouette.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Open gap and lock body remain recognizable."
+        }
+      },
+      "reviewed_sha256": "338c3d16f6bd8ea7c383e714ca3512387ddc6ee3e00cf07dd710d26801c11ac6"
+    },
+    {
+      "concept_id": "tag-unlocked",
+      "concept_summary": "Tag released",
+      "prompt": "One square icon on pure white: A blue tag beside an orange open padlock with a clearly separated shackle. Symbolize unlocking a software tag. Thick flat geometry, large gap indicating release, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Tag released",
+        "orientation": "varied",
+        "cue": "open",
+        "objects": "Tag released",
+        "composition": "A blue tag beside an orange open padlock with a clearly separated shackle."
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bfcd2363382f\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag is adjacent to an orange open padlock."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and open shackle are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and open lock remain visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag plus orange lock repeats the lock tag-plus-lock layout.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and open lock remain, but the gap becomes small."
+        }
+      },
+      "reviewed_sha256": "31790c93bd5477a6e7bc98fbca2721303f289216e1cc39aed925547542e76c03"
+    },
+    {
+      "concept_id": "open-latch",
+      "concept_summary": "Open latch",
+      "prompt": "One square icon on pure white: A bold blue horizontal latch pulled away from a red catch with a wide visible gap. Symbolize unlocking a software tag. Thick flat geometry, large gap indicating release, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Open latch",
+        "orientation": "varied",
+        "cue": "open",
+        "objects": "Open latch",
+        "composition": "A bold blue horizontal latch pulled away from a red catch with a wide visible gap."
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bfcd2363382f\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue latch is withdrawn from a red catch."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Latch and catch are separated by a visible gap."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The separation remains visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The open-latch arrangement closely resembles the lock latch arrangement.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Blue and red components remain separate."
+        }
+      },
+      "reviewed_sha256": "019b3989ef92d8b359565bb587c44b4b85c91fd5a6f78a75d9be5f62fc2d0af5"
+    },
+    {
+      "concept_id": "open-shield",
+      "concept_summary": "Unlocked shield",
+      "prompt": "One square icon on pure white: A large blue shield containing a prominent orange padlock with an open shackle. Symbolize unlocking a software tag. Thick flat geometry, large gap indicating release, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Unlocked shield",
+        "orientation": "varied",
+        "cue": "open",
+        "objects": "Unlocked shield",
+        "composition": "A large blue shield containing a prominent orange padlock with an open shackle."
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bfcd2363382f\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange open padlock sits inside a blue shield."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Shield and open lock are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Shackle gap is visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Shield-and-lock structure closely matches the closed shield option.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Shield and lock remain, but the open gap is hard to distinguish."
+        }
+      },
+      "reviewed_sha256": "7ac8644c9a775d56abbf56ff4898a905b97766cb76bcad74505aa4d6a0c7b7bf"
+    },
+    {
+      "concept_id": "release-clamp",
+      "concept_summary": "Release clamp",
+      "prompt": "One square icon on pure white: A large blue C clamp with its jaws widely separated from an orange tag. Symbolize unlocking a software tag. Thick flat geometry, large gap indicating release, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Release clamp",
+        "orientation": "varied",
+        "cue": "open",
+        "objects": "Release clamp",
+        "composition": "A large blue C clamp with its jaws widely separated from an orange tag."
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bfcd2363382f\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue clamp is open and an orange tag sits to its right."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Clamp and tag are visibly separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Gap remains visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Clamp-and-tag structure closely matches the lock clamp option.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Clamp and tag remain, but screw detail softens."
+        }
+      },
+      "reviewed_sha256": "a7d8bde016c69b863cd3f771756e0d4846203eb8690828c89a41b13cc2de5ef2"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "open-padlock",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Open padlock closely resembles the closed-padlock lock candidate in overall silhouette.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "tag-unlocked",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag plus orange lock repeats the lock tag-plus-lock layout.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "open-latch",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The open-latch arrangement closely resembles the lock latch arrangement.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "open-shield",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Shield-and-lock structure closely matches the closed shield option.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "release-clamp",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Clamp-and-tag structure closely matches the lock clamp option.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Design a structurally different silhouette for this operation.",
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag."
+  },
+  "published": false
+}

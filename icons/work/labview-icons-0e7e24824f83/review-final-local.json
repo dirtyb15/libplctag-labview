@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-14",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange curly braces enclose a blue industrial rack; all elements have clear white margin."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both braces and the three rack slots remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Braces, rack and module divisions remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The two braces frame the white-slotted rack; terminal details soften."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The frame and braces survive, while the small lower terminals merge."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-07",
+      "candidate-14",
+      "candidate-09",
+      "candidate-05"
+    ],
+    "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
+  }
+}

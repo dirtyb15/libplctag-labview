@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "run_id": "d9074ef56be0452fb8fc4b6f3cf25b60",
+  "request": "Tag_Status.vi calls plc_tag_status and returns the current tag status code",
+  "summary_name": "Tag Status",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4ea81d764c8",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Tag_Status.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T22:21:36.410964+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "status-pulse",
+      "concept_summary": "Tag status pulse",
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large blue tag above a thick orange heartbeat trace; the zigzag must be bold and clearly visible. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow.",
+      "signature": {
+        "metaphor": "status signal",
+        "objects": "tag and pulse",
+        "cue": "current status, not predetermined success",
+        "composition": "tag above heartbeat trace",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4ea81d764c8\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag sits above an orange pulse trace; no success or failure is asserted."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and zigzag line are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The pulse peak and tag remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange pulse remains distinct from the blue tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The zigzag becomes coarser but the dominant tag-and-pulse form survives."
+        }
+      },
+      "reviewed_sha256": "6ffa0bdf2b8b7f30be47c76645779cd1420bd7b8d6f79ac9780ee331ea1a3e82"
+    },
+    {
+      "concept_id": "status-lights",
+      "concept_summary": "Tag status indicators",
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A simple blue tag at left, and at right a tall orange panel containing three large separate white circular indicator lights. No single light is selected. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow.",
+      "signature": {
+        "metaphor": "variable indicator",
+        "objects": "tag and multiple lights",
+        "cue": "current status, not predetermined success",
+        "composition": "tag left and vertical three-light panel right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4ea81d764c8\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is beside an orange three-light panel with no individual state selected."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "All three white lights and tag remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Three indicator circles remain distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The three unselected indicators and tag remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The lights soften but remain grouped as an indicator panel."
+        }
+      },
+      "reviewed_sha256": "063c1398f7db3076aeadfece0509ab58901a382f9cd3121a33f95d58516ae964"
+    },
+    {
+      "concept_id": "status-query",
+      "concept_summary": "Query tag state",
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large navy tag with a large white question mark centered inside. The question mark asks for the tag's current status; it does not indicate an error. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow.",
+      "signature": {
+        "metaphor": "status query",
+        "objects": "tag and question mark",
+        "cue": "current status, not predetermined success",
+        "composition": "large question mark inside tag",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4ea81d764c8\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "A large white question mark in the tag suggests a status query, though it may also suggest an unknown tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The question mark and tag silhouette are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The question mark remains distinct from the tag hole."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large question mark remains recognizable within the tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The mark and tag remain but the question-mark dot becomes smaller."
+        }
+      },
+      "reviewed_sha256": "ad0ae8db4ca7418ffc849abde8fe3c24dc0733e29e6d1a4243fa70869cb87839"
+    },
+    {
+      "concept_id": "status-report",
+      "concept_summary": "Tag status report",
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large navy tag at left beside a large orange rectangular speech bubble at right containing two simple thick white horizontal status lines. No letters. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow.",
+      "signature": {
+        "metaphor": "state report",
+        "objects": "tag and speech bubble",
+        "cue": "current status, not predetermined success",
+        "composition": "tag left and speech bubble right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4ea81d764c8\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Tag at left beside a lined speech bubble repeats the left-object/right-bubble structure of Error_Info.vi candidate-02.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a substantially different status-report arrangement and compare against the error-information artwork."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and lined bubble are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The two speech-bubble lines remain distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The tag and bubble survive, but the layout resembles Error_Info."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and bubble remain as coarse shapes."
+        }
+      },
+      "reviewed_sha256": "16fd0b46b27c1cdaa23692ce233a7fe37fd15285694a2f14fcca7190bf0add88"
+    },
+    {
+      "concept_id": "status-dial",
+      "concept_summary": "Tag status dial",
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large orange open semicircular gauge arc with a dark-blue tag in its center and a thick black pointer above the arc. The pointer is neutral, showing a generic status rather than success or failure. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow.",
+      "signature": {
+        "metaphor": "state gauge",
+        "objects": "tag inside dial and needle",
+        "cue": "current status, not predetermined success",
+        "composition": "round dial around tag with pointer above",
+        "orientation": "circular"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4ea81d764c8\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag sits below a neutral semicircular gauge and pointer, conveying a generic state."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Gauge arc, pointer and tag are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The gauge needle remains visible above the tag."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange arc, black needle and blue tag remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Gauge and tag survive while needle detail softens."
+        }
+      },
+      "reviewed_sha256": "35e7e911a98cce93a69876294fa1cd89843e0eaf221626be81fb7b92a67bf44e"
+    },
+    {
+      "concept_id": "status-report-page",
+      "concept_summary": "Tag status report page",
+      "prompt": "Create exactly one SQUARE 1:1 flat software icon on a white background. Show a single large dark-blue report page with a folded top-right corner. Inside the page place one large orange tag shape occupying the upper half and one thick white horizontal status line in the lower half. The page itself must dominate the silhouette; the tag and one line must stay separate at 30x18 pixels. Represents a report of the current tag status. No speech bubble, no warning triangle, no checkmark, no words or numbers, no shadow. Leave generous white margins.",
+      "signature": {
+        "metaphor": "status report document",
+        "objects": "report page, tag and status line",
+        "cue": "document status row",
+        "composition": "tag inside page above bold status line",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4ea81d764c8\\candidates\\candidate-06.png",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "A dark report page contains an orange tag and one white status line; the page avoids the error icon's speech-bubble layout."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The folded page, tag and status line are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag and single line remain visible within the page."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange tag, white status line and page fold remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The page and orange tag remain, while the tag hole softens."
+        }
+      },
+      "reviewed_sha256": "6ef7abbecfed5d8cb4fcde603fb29c2804bf8ab9a77940001bab32b609c004b3"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "status-report",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag at left beside a lined speech bubble repeats the left-object/right-bubble structure of Error_Info.vi candidate-02.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a substantially different status-report arrangement and compare against the error-information artwork.",
+      "likely_cause_hypothesis": null
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Pulse, indicators, question tag and gauge differ within this set. The tag-left/speech-bubble-right candidate repeats the Error_Info speech layout and must be redesigned before collection acceptance."
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-06",
+      "candidate-05"
+    ],
+    "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
+  },
+  "published": false
+}

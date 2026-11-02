@@ -1,0 +1,27 @@
+{
+  "result": "FAIL",
+  "scope": "Concept preflight, before image generation",
+  "findings": [
+    {
+      "concept_id": "choice-eye",
+      "issue": "Eye above a type label closely matches Read_I16 candidate-07."
+    },
+    {
+      "concept_id": "type-outbox",
+      "issue": "Tray with upward arrow and type label closely matches Read_I16 candidate-08."
+    },
+    {
+      "concept_id": "typed-lens",
+      "issue": "Magnifier around a type label closely matches Read_I16 candidate-10."
+    },
+    {
+      "concept_id": "select-extract",
+      "issue": "Type tile and extraction arrow may be mistaken for a fixed-type reader; the datatype-selection cue is missing."
+    },
+    {
+      "concept_id": "split-read",
+      "issue": "A fork merging into an arrow overlaps the library-path selection routing concept; the variant result is not represented."
+    }
+  ],
+  "next_step": "Replace all five concepts with structures that show datatype selection and variant output while remaining distinct from the fixed-type read concepts."
+}

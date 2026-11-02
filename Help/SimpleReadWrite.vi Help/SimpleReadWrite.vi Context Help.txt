@@ -1,0 +1,3 @@
+Demonstrates creating a tag, reading a single-precision value, setting a new local value and requesting a controller write. The VI uses front-panel tag settings and a new-value control. Its second float indicator reads the local buffer; it is not a fresh controller read.
+
+The example does not decode every raw operation result, and an incoming LabVIEW error can skip cleanup. It sets the local value before locking. With the legacy Windows library, its lock alone does not serialize separate LabVIEW callers. The checked upstream 2.7.2 Windows mutex also permits same-thread reacquisition; use separate LabVIEW synchronization for shared-tag sequences. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.

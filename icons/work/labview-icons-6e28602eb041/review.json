@@ -1,0 +1,149 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The blue computer connects to three branches; only green identifies the chosen branch."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Monitor and branch endpoints remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The three routes remain visible, with a green branch."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The chosen branch differs only by color; there is no independent selection cue.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "The highlighted branch is encoded only by color.",
+          "correction": "Use a large distinct selection mark on one branch."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Monitor and branching silhouette remain visible."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue chip points to an orange document, with clear outer margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Chip, arrow, and document are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow and file remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Chip, arrow, and document are visible, though the chip has limited detail."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The chip becomes a blue blob, while the arrow and document remain discernible."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "An orange gear above a blue folder suggests folder settings, not selection of an OS-specific library file.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action and library output are absent.",
+          "correction": "Show a clear platform-dependent library file selection."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Gear and folder are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Gear and folder remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Gear and folder survive, but no selection or file cue is present."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Gear and folder silhouettes remain recognizable."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Two blue paths merge into an arrow aimed at an orange file."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Two input paths, arrow, and file are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The converging paths and file remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Converging paths, arrow, and file remain separable."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Two paths and an orange file survive; the arrow is small."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A magnifier over a computer suggests inspecting a computer, not selecting a platform-specific library file.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action and library output are absent.",
+          "correction": "Show a clear platform-dependent library file selection."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Monitor and magnifier are distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The monitor and magnifier remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The monitor and magnifier survive, but no library or selection cue appears."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Monitor and magnifier survive at the stress size."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 02 and 04 use an input, horizontal arrow, and file; their small previews share the same overall composition."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "concept_id": "rack-attribute-cluster",
+  "concept_summary": "PLC rack with attribute cluster",
+  "signature": {
+    "metaphor": "configuration cluster",
+    "objects": "PLC rack and two joined setting nodes",
+    "cue": "connected property nodes",
+    "composition": "rack left and two large connected squares right",
+    "orientation": "horizontal"
+  },
+  "prompt": "Create one SQUARE 1:1 simple icon on white for industrial PLC configuration attributes. At left draw a dark-blue industrial PLC module: a rectangle with three large white module slots and a bold lower strip of three large terminals. At right draw two LARGE separate orange square setting nodes, one above the other, connected to the rack by a single thick orange bracket. The two nodes must have a very wide white gap so they remain distinct at small sizes. No letters, no tiny details, no gamepad. Thick flat shapes, generous margin, no shadow."
+}

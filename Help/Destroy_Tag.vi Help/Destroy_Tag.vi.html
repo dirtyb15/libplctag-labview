@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Destroy_Tag.vi - Detailed Help</title><style>:root{color-scheme:light;font:16px/1.65 "Segoe UI",Arial,sans-serif;color:#202a35;background:#f4f6f8}
+body{margin:0}main{max-width:980px;margin:36px auto;padding:36px 44px;background:white;border:1px solid #dce2e8;border-radius:8px}
+h1{font-size:2rem;line-height:1.25;color:#173b63;margin:0 0 1.2em}h2{font-size:1.3rem;line-height:1.35;border-bottom:1px solid #dce2e8;padding-bottom:.4em;margin-top:2em;color:#173b63}p{margin:.85em 0}
+a{color:#075fa6;text-decoration-thickness:1px;text-underline-offset:2px}code{font-family:Consolas,"Courier New",monospace;font-size:.92em;background:#eef2f6;padding:.1em .25em;border-radius:3px}pre{background:#eef2f6;padding:16px;overflow-x:auto;border-left:3px solid #597c9e}pre code{padding:0;white-space:pre}
+.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;margin:1em 0;font-size:.94rem}th,td{text-align:left;vertical-align:top;padding:10px 12px;border:1px solid #d6dee7}th{background:#eaf0f6;font-weight:600}tbody tr:nth-child(even){background:#f8fafc}li{margin:.6em 0}blockquote{margin:1em 0;padding:1px 18px;border-left:4px solid #597c9e;background:#f3f6fa}
+@media(max-width:650px){main{margin:0;padding:24px 18px;border:0;border-radius:0}h1{font-size:1.65rem}th,td{padding:8px}}
+@media print{html,body{background:white;font-size:10pt}main{max-width:none;padding:0;margin:0;border:0}h2{break-after:avoid}tr,pre{break-inside:avoid}a{color:inherit}pre{white-space:pre-wrap}}
+</style></head><body><main>
+<h2>Purpose and scope</h2>
+<p>Releases an existing tag handle and removes the tag from the library lookup table.</p>
+<p>The bundled binaries contain the version string <code>2.7.2</code>. Native behavior below is based on upstream 2.0.22 unless a newer version is identified. The bundled binaries may behave differently. Version strings alone do not prove exact binary build provenance.</p>
+<h2>Called function and library selection</h2>
+<p>The Call Library Function Node calls:</p>
+<pre><code class="language-c">int plc_tag_destroy(int32_t tag);</code></pre>
+<p>The virtual instrument (VI) passes <code>tag handle</code> to the C <code>tag</code> argument and places the C return value on <code>error code</code>. The node uses the C calling convention, passes the signed 32-bit handle by value, and runs in the user interface (UI) thread.</p>
+<p><code>Choose_Lib.vi</code> supplies the path. Its error output is wired into the library node before the native call. Its target cases select <code>plctag32.dll</code>, <code>plctag64.dll</code> or <code>libplctag64.so</code> under the application directory. The default target case returns an empty path.</p>
+<h2>Inputs</h2>
+<p>Connected terminals are marked recommended. Wire the values needed for the call.</p>
+<div class="table-scroll"><table><thead><tr><th scope="col">Input</th><th scope="col">Type</th><th scope="col">Meaning</th><th scope="col">Default</th></tr></thead><tbody><tr><td><code>tag handle</code></td><td>I32</td><td>Tag identifier as a signed 32-bit integer, obtained from a successful tag creation.</td><td>Not documented; wire the handle.</td></tr><tr><td><code>error in (no error)</code></td><td>Error</td><td>Prior LabVIEW error and execution order. A true status skips the library call.</td><td>No error.</td></tr></tbody></table></div>
+<h2>Outputs and error handling</h2>
+<div class="table-scroll"><table><thead><tr><th scope="col">Output</th><th scope="col">Type</th><th scope="col">Meaning</th></tr></thead><tbody><tr><td><code>error code</code></td><td>I32</td><td>Raw libplctag return code. Its meaning is described below.</td></tr><tr><td><code>error out</code></td><td>Error</td><td>LabVIEW error information from the library node, separate from the native result.</td></tr></tbody></table></div>
+<p>Check <code>error out</code> first, then the native result. The wrapper does not convert a negative native return into a LabVIEW error-cluster error. A numeric result is not proof of a completed call when an incoming LabVIEW error skipped the node.</p>
+<div class="table-scroll"><table><thead><tr><th scope="col">Raw code</th><th scope="col">Meaning</th></tr></thead><tbody><tr><td><code>0</code></td><td>The library removed the tag when the call actually ran.</td></tr><tr><td><code>-19</code></td><td>A handle within the accepted range was not found.</td></tr><tr><td><code>-25</code></td><td>The handle is zero or outside the accepted range.</td></tr></tbody></table></div>
+<h2>Execution and C implementation</h2>
+<p>The VI uses a case structure on the incoming error cluster. If the status is true, it skips the call, passes the error through and outputs 0 as the error code. That 0 does not mean the tag was destroyed. Otherwise it calls the library.</p>
+<p>The legacy function rejects handles outside its valid range with <code>-25</code> and reports <code>-19</code> when a valid-range handle is not found. On success it removes the tag from the lookup table, releases the library reference and returns 0. The reference-counted object is cleaned up after its remaining references are released, so this return does not guarantee that every internal reference has already been freed. Do not continue using a successfully destroyed handle.</p>
+<h2>Example and recommended call sequence</h2>
+<p>Create a tag, use it, then call this VI when the tag is no longer needed. Check <code>error out</code> and the raw <code>error code</code>. An incoming true error skips destruction.</p>
+<p>To run cleanup after an earlier LabVIEW error, preserve that error on a separate wire and supply a no-error cluster to this VI. Check the raw destruction code as well as the cleanup error cluster. Handle the raw destruction code separately, then combine the cleanup error cluster with the preserved error according to the application&#x27;s error-handling policy.</p>
+<h2>Library version differences</h2>
+<p>In the checked upstream 2.7.2 source, invalid handles can report these codes:</p>
+<div class="table-scroll"><table><thead><tr><th scope="col">Condition</th><th scope="col">Code</th></tr></thead><tbody><tr><td>Zero or out-of-range handle</td><td><code>PLCTAG_ERR_NULL_PTR</code> (<code>-25</code>)</td></tr><tr><td>Unknown positive handle</td><td><code>PLCTAG_ERR_NOT_FOUND</code> (<code>-19</code>)</td></tr></tbody></table></div>
+<p>The library also aborts in-flight operations. This occurs during destruction.</p>
+</main></body></html>

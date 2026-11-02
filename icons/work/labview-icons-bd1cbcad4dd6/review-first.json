@@ -1,0 +1,148 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "A buffer, outward arrow and U8 are clear; the source elements approach the side edges."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The outward arrow and U8 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The U8 and buffer-to-value direction remain distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The U and 8 remain recognizable alongside the outward arrow, though the characters are close."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arrow and buffer remain; U8 loses clear detail at the stress size."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large U8 sits over an upward arrow and open tray."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U8, arrow and tray are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U8 and upward arrow remain legible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large U8 and upward extraction arrow remain visible, with tight character spacing."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tray and U8 survive; the 8 counters shrink."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "U8 is inside a magnifying glass whose rim approaches the source edges."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The lens and U8 are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "U8 fills most of the lens and the 8 counters narrow."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "At 30x18 the U8 strokes run together and the two 8 counters are too small for reliable reading.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Separate U and 8, enlarge both counters and simplify the lens."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The magnifier survives but U8 is not reliably legible at 16x16."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The U8 card above a tray and upward arrow repeats the same structure as candidate-02; changing the card color does not distinguish it.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a structurally different extraction metaphor."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The inclined U8 card and tray are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The angled text becomes less clear."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The italic angled U8 has small counters and is difficult to distinguish reliably.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Use upright large characters with clear space and counters in a different composition."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The text loses clarity at the stress size."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A buffer and downward outlet dispense U8."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The outlet and U8 remain distinct."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The U8 characters are close together."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The small 8 counters and tight U8 spacing make the exact type difficult to read reliably.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Enlarge U8, increase letter spacing and open the 8 counters."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The outlet survives but the datatype text is not reliably readable."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 02 and 04 both show a tray under an upward arrow with U8 above; candidates 03, 04 and 05 also lose reliable U8 legibility at 30x18. Revisions and a new comparison are required."
+  }
+}

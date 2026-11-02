@@ -1,0 +1,12 @@
+{
+  "concept_id": "rack-in-braces",
+  "concept_summary": "PLC attribute cluster",
+  "signature": {
+    "metaphor": "structured configuration",
+    "objects": "industrial rack and enclosing braces",
+    "cue": "grouping braces",
+    "composition": "PLC rack centered between large curly braces",
+    "orientation": "horizontal"
+  },
+  "prompt": "Create one SQUARE 1:1 simple software icon on a pure white background for a LabVIEW PLC configuration cluster. Show a dark-blue rectangular industrial PLC module in the center with three broad white module slots and three large terminals along its bottom. Enclose the module between one large orange left curly brace and one large orange right curly brace. The braces and module must be bold, separated and visible at 30 by 18 pixels. The braces represent grouped attributes. No words, no numerals, no video-game controller, no small details, no shadow."
+}

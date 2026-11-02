@@ -1,0 +1,67 @@
+{
+  "request": "Datatype enum control for choosing the tag value type",
+  "summary_name": "Datatype",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "dropdown",
+      "concept_summary": "Datatype dropdown",
+      "signature": {
+        "metaphor": "dropdown",
+        "objects": "field and chevron",
+        "cue": "open menu",
+        "composition": "horizontal field",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on pure white: A dark-blue dropdown field containing a single large barred capital I and a thick orange downward chevron. Represents a datatype enum selector; make I clearly barred and large enough for tiny icon use. Thick flat geometry, generous margin, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "selected-list",
+      "concept_summary": "Selected datatype list",
+      "signature": {
+        "metaphor": "list selection",
+        "objects": "selected I and two list bars",
+        "cue": "selection highlight",
+        "composition": "vertical list",
+        "orientation": "vertical"
+      },
+      "prompt": "One standalone square software icon on pure white: A large black barred capital I on one bold blue selected row above two simple gray list bars; no tiny lettering. Represents a datatype enum selector; make I clearly barred and large enough for tiny icon use. Thick flat geometry, generous margin, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "type-dial",
+      "concept_summary": "Datatype selector dial",
+      "signature": {
+        "metaphor": "rotary selection",
+        "objects": "single I and pointer",
+        "cue": "dial pointer",
+        "composition": "round dial",
+        "orientation": "circular"
+      },
+      "prompt": "One standalone square software icon on pure white: A bold orange rotary dial with one large blue barred capital I inside it and a thick pointer at the top. Represents a datatype enum selector; make I clearly barred and large enough for tiny icon use. Thick flat geometry, generous margin, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "cycle-type",
+      "concept_summary": "Cycle datatype",
+      "signature": {
+        "metaphor": "cycling selection",
+        "objects": "I tile and side arrows",
+        "cue": "two navigation arrows",
+        "composition": "arrows flanking I tile",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on pure white: A large blue barred capital I inside a white tile, with a thick orange left arrow and right arrow on opposite sides. Represents a datatype enum selector; make I clearly barred and large enough for tiny icon use. Thick flat geometry, generous margin, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "type-cursor",
+      "concept_summary": "Choose datatype tile",
+      "signature": {
+        "metaphor": "point-and-select",
+        "objects": "I tile and cursor",
+        "cue": "cursor",
+        "composition": "diagonal pointer to tile",
+        "orientation": "diagonal"
+      },
+      "prompt": "One standalone square software icon on pure white: A large dark-blue barred capital I on a square tile with a large orange cursor touching the upper-right edge. Represents a datatype enum selector; make I clearly barred and large enough for tiny icon use. Thick flat geometry, generous margin, no other text, no border or shadow."
+    }
+  ]
+}

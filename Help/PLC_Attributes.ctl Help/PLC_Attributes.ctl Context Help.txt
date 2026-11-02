@@ -1,0 +1,3 @@
+Groups the string attributes used by Create_Tag.vi to select a protocol, gateway, route, controller type and tag. It also holds element size, element count and debug text. For an ordinary Logix tag, enter the element size in bytes; the saved empty size can cause creation to fail in version 2.0.22.
+
+Create_Tag.vi trims the fields and forms the library attribute string. A debug level of NONE omits the debug attribute; in version 2.0.22, the shared library debug level becomes zero. This control alone does not create a tag or contact a controller. In upstream 2.7.2, the NONE debug choice leaves the existing library debug level unchanged. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.

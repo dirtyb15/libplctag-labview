@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-15",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The orange bar has two full-width black bands and resembles a striped band rather than a ruler.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use short partial tick marks from one edge of an unmistakable ruler silhouette."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The striped band and tag are distinct, but the bar does not clearly read as a ruler."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Two bands survive but remain visually ambiguous."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "At 30x18 the bar reads as a striped diagonal mark, not reliably as a measuring tool.",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Use partial ruler ticks that preserve the measuring-tool silhouette."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag, band and B survive without ruler meaning."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-11",
+      "candidate-12",
+      "candidate-13",
+      "candidate-15"
+    ],
+    "evidence": "The full-width stripes on the ruler read as a striped bar. Revise the last option before comparing the final five."
+  }
+}

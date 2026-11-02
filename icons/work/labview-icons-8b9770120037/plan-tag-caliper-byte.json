@@ -1,0 +1,12 @@
+{
+  "concept_id": "tag-caliper-byte",
+  "concept_summary": "Caliper measures tag bytes",
+  "signature": {
+    "metaphor": "caliper size measurement",
+    "objects": "tag, caliper jaws and B",
+    "cue": "measuring jaws",
+    "composition": "tag between caliper jaws with B to right",
+    "orientation": "horizontal"
+  },
+  "prompt": "One SQUARE 1:1 flat software icon on pure white showing tag buffer size. At center place a large dark-blue tag with a clear hole, held between two thick orange caliper jaws from above and below, forming a recognizable simple C-shaped measuring tool. Put a large black B to the right for bytes. Only three bold simple shapes; no scale ticks, no weights, no other writing, no shadow. Keep B's two holes open, generous white margins."
+}

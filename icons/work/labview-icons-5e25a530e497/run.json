@@ -1,0 +1,627 @@
+{
+  "schema_version": 1,
+  "run_id": "82fb5600786a4e1b89f0dfeecaadb934",
+  "request": "Read I16 value from tag buffer",
+  "summary_name": "Read I16",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_I16.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:36:50.513270+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "arrow-value",
+      "concept_summary": "Arrow leaves buffer",
+      "prompt": "One square software icon on pure white: A blue buffer rectangle on left and a large black rightward arrow leading to bold black text I16 on right. Represents reading an I16 value from a tag buffer. The exact text I16 must be large, bold, correct, and legible. Flat simple thick shapes, generous margin, no other text, no border, no shadow.",
+      "signature": {
+        "metaphor": "Arrow leaves buffer",
+        "composition": "A blue buffer rectangle on left and a large black rightward arrow leading to bold black text I16 on right.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-01.png",
+      "qa": {
+        "30x18": {
+          "evidence": "The I is a plain stroke resembling 1.",
+          "result": "FAIL",
+          "correction": "Make the type label much larger, with a barred capital I and separated characters.",
+          "cause": "The text receives too few pixels or an ambiguous glyph.",
+          "rule_id": "SMALL-TEXT-007"
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "source": {
+          "evidence": "The I is a plain stroke resembling 1.",
+          "result": "FAIL",
+          "correction": "Use a barred capital I.",
+          "cause": "The typeface makes I and 1 visually similar.",
+          "rule_id": "VIS-TEXT-010"
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        }
+      },
+      "reviewed_sha256": "6b343e1f7098f27e80cf511e23371a69d6b56711d0be4dd480cfdb28e1f1c626"
+    },
+    {
+      "concept_id": "eye-value",
+      "concept_summary": "Eye over typed buffer",
+      "prompt": "One square software icon on pure white: A large blue eye above a bold black I16 inside an orange buffer rectangle. Represents reading an I16 value from a tag buffer. The exact text I16 must be large, bold, correct, and legible. Flat simple thick shapes, generous margin, no other text, no border, no shadow.",
+      "signature": {
+        "metaphor": "Eye over typed buffer",
+        "composition": "A large blue eye above a bold black I16 inside an orange buffer rectangle.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-02.png",
+      "qa": {
+        "30x18": {
+          "evidence": "I16 merges into dark strokes at 30x18.",
+          "result": "FAIL",
+          "correction": "Make the type label much larger, with a barred capital I and separated characters.",
+          "cause": "The text receives too few pixels or an ambiguous glyph.",
+          "rule_id": "SMALL-TEXT-007"
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        }
+      },
+      "reviewed_sha256": "8da07e1afec25a89a1ad4dae303a55339a62ccc1cdbd622cbc79cbcd51aeacd5"
+    },
+    {
+      "concept_id": "out-tray",
+      "concept_summary": "Value exits tray",
+      "prompt": "One square software icon on pure white: A blue open tray holding bold black I16 with a large orange upward arrow emerging from it. Represents reading an I16 value from a tag buffer. The exact text I16 must be large, bold, correct, and legible. Flat simple thick shapes, generous margin, no other text, no border, no shadow.",
+      "signature": {
+        "metaphor": "Value exits tray",
+        "composition": "A blue open tray holding bold black I16 with a large orange upward arrow emerging from it.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-03.png",
+      "qa": {
+        "30x18": {
+          "evidence": "The type label becomes too small at 30x18.",
+          "result": "FAIL",
+          "correction": "Make the type label much larger, with a barred capital I and separated characters.",
+          "cause": "The text receives too few pixels or an ambiguous glyph.",
+          "rule_id": "SMALL-TEXT-007"
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        }
+      },
+      "reviewed_sha256": "ec75badbe54306e2866cce8d126e41269bf07afb7403978b978060b01c2c2782"
+    },
+    {
+      "concept_id": "extract-value",
+      "concept_summary": "Extract typed value",
+      "prompt": "One square software icon on pure white: A blue rectangular buffer at right with a bold orange leftward arrow leading to large black I16 at left. Represents reading an I16 value from a tag buffer. The exact text I16 must be large, bold, correct, and legible. Flat simple thick shapes, generous margin, no other text, no border, no shadow.",
+      "signature": {
+        "metaphor": "Extract typed value",
+        "composition": "A blue rectangular buffer at right with a bold orange leftward arrow leading to large black I16 at left.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-04.png",
+      "qa": {
+        "30x18": {
+          "evidence": "The I is a plain stroke resembling 1.",
+          "result": "FAIL",
+          "correction": "Make the type label much larger, with a barred capital I and separated characters.",
+          "cause": "The text receives too few pixels or an ambiguous glyph.",
+          "rule_id": "SMALL-TEXT-007"
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "source": {
+          "evidence": "The I is a plain stroke resembling 1.",
+          "result": "FAIL",
+          "correction": "Use a barred capital I.",
+          "cause": "The typeface makes I and 1 visually similar.",
+          "rule_id": "VIS-TEXT-010"
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        }
+      },
+      "reviewed_sha256": "e54723429eb910297b1e2e58c7712bf217654cbbc69fa89dbefc52cea72d07fa"
+    },
+    {
+      "concept_id": "inspect-value",
+      "concept_summary": "View typed value",
+      "prompt": "One square software icon on pure white: A bold orange magnifying glass framing the large black text I16 inside a blue buffer outline. Represents reading an I16 value from a tag buffer. The exact text I16 must be large, bold, correct, and legible. Flat simple thick shapes, generous margin, no other text, no border, no shadow.",
+      "signature": {
+        "metaphor": "View typed value",
+        "composition": "A bold orange magnifying glass framing the large black text I16 inside a blue buffer outline.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-05.png",
+      "qa": {
+        "30x18": {
+          "evidence": "The type label becomes an unreadable blob at 30x18.",
+          "result": "FAIL",
+          "correction": "Make the type label much larger, with a barred capital I and separated characters.",
+          "cause": "The text receives too few pixels or an ambiguous glyph.",
+          "rule_id": "SMALL-TEXT-007"
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The main visible composition survives at this size."
+        }
+      },
+      "reviewed_sha256": "e767390f7f783a22b5b19374298bf8185e45948f77c075577088d4dead21112b"
+    },
+    {
+      "concept_id": "arrow-value",
+      "concept_summary": "Arrow leaves buffer",
+      "prompt": "One centered square software icon on pure white: A bold dark blue buffer at left, thick arrow pointing to huge black I16 at right. The exact label I16 must dominate the icon and use widely separated heavy block characters; the capital I must have prominent horizontal top and bottom bars so it cannot be confused with the digit 1. Simple flat geometry, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "Arrow leaves buffer",
+        "composition": "A blue buffer rectangle on left and a large black rightward arrow leading to bold black text I16 on right.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-06.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue database-like buffer points to large black I16 with a barred capital I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The buffer, arrow, and I16 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The barred I and adjacent 1 nearly meet at their bases."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The I and 1 merge at the baseline, making the type ambiguous.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The text becomes a cluster of dark blocks."
+        }
+      },
+      "reviewed_sha256": "5bc4121ff4fed7ef5c9f2320d16c91ad5946e5f79581a586e50e3135782bf3f2"
+    },
+    {
+      "concept_id": "eye-value",
+      "concept_summary": "Eye over typed buffer",
+      "prompt": "One centered square software icon on pure white: A large blue eye above huge black I16. The exact label I16 must dominate the icon and use widely separated heavy block characters; the capital I must have prominent horizontal top and bottom bars so it cannot be confused with the digit 1. Simple flat geometry, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "Eye over typed buffer",
+        "composition": "A large blue eye above a bold black I16 inside an orange buffer rectangle.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 2,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-07.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue eye appears over large black I16 with a barred I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Eye and I16 are recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Eye and I16 are legible with limited character spacing."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Eye and I16 remain discernible, though I and 1 are closely spaced."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The eye remains recognizable while the type is crowded."
+        }
+      },
+      "reviewed_sha256": "f2c437931b17719a32027b95d25cbcc35c8bfa180eae19cf0b6e4ec754414273"
+    },
+    {
+      "concept_id": "out-tray",
+      "concept_summary": "Value exits tray",
+      "prompt": "One centered square software icon on pure white: A bold orange up arrow emerging from a blue tray containing huge black I16. The exact label I16 must dominate the icon and use widely separated heavy block characters; the capital I must have prominent horizontal top and bottom bars so it cannot be confused with the digit 1. Simple flat geometry, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "Value exits tray",
+        "composition": "A blue open tray holding bold black I16 with a large orange upward arrow emerging from it.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-08.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange upward arrow exits a blue tray containing I16."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow, tray and I16 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I16 is crowded inside the tray."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "I16 letters merge within the tray and no longer read reliably.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Arrow and tray survive while the type merges."
+        }
+      },
+      "reviewed_sha256": "366d77e2d4243925e80dc363417c615942172da3efc5dc9066962d16039e1130"
+    },
+    {
+      "concept_id": "extract-value",
+      "concept_summary": "Extract typed value",
+      "prompt": "One centered square software icon on pure white: A blue buffer below huge black I16 and a bold orange arrow pointing upward from buffer to the text. The exact label I16 must dominate the icon and use widely separated heavy block characters; the capital I must have prominent horizontal top and bottom bars so it cannot be confused with the digit 1. Simple flat geometry, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "Extract typed value",
+        "composition": "A blue rectangular buffer at right with a bold orange leftward arrow leading to large black I16 at left.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 4,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-09.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Large I16 appears over a blue buffer with an upward orange arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I16 and extraction arrow are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The lower bars of I and 1 nearly meet."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "I and 1 merge along their bottom bars, and the extraction arrow is small.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The blue bar and orange arrow remain while the type is crowded."
+        }
+      },
+      "reviewed_sha256": "30106ee122234aeeccef83702c29b58728db40b018bb0302cac6e6840d67ac18"
+    },
+    {
+      "concept_id": "inspect-value",
+      "concept_summary": "View typed value",
+      "prompt": "One centered square software icon on pure white: Huge black I16 centered within a bold orange magnifying glass. The exact label I16 must dominate the icon and use widely separated heavy block characters; the capital I must have prominent horizontal top and bottom bars so it cannot be confused with the digit 1. Simple flat geometry, generous margin, no other text, border or shadow.",
+      "signature": {
+        "metaphor": "View typed value",
+        "composition": "A bold orange magnifying glass framing the large black text I16 inside a blue buffer outline.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-10.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "I16 appears inside an orange magnifier with no visible buffer. The result suggests searching for a type rather than extracting a value from a buffer.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The buffer and extraction action are absent.",
+          "correction": "Show an explicit read or extraction action from a buffer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Magnifier and I16 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The glyphs crowd together."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The I and 1 merge into a dark cluster, obscuring the datatype.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Magnifier survives but text is crowded."
+        }
+      },
+      "reviewed_sha256": "94a06950be81839efeee9295c3140fdb5af92ccc83f5f502835816c0ebab71de"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "arrow-value",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The I is a plain stroke resembling 1.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+    },
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "arrow-value",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-TEXT-010",
+      "result": "FAIL",
+      "observed_problem": "The I is a plain stroke resembling 1.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a barred capital I.",
+      "likely_cause_hypothesis": "The typeface makes I and 1 visually similar."
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "eye-value",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "I16 merges into dark strokes at 30x18.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "out-tray",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The type label becomes too small at 30x18.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "extract-value",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The I is a plain stroke resembling 1.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "extract-value",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-TEXT-010",
+      "result": "FAIL",
+      "observed_problem": "The I is a plain stroke resembling 1.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a barred capital I.",
+      "likely_cause_hypothesis": "The typeface makes I and 1 visually similar."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "inspect-value",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The type label becomes an unreadable blob at 30x18.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 01 and 04 both show a buffer, horizontal arrow and I16 text; they differ mainly by orientation."
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "arrow-value",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The I and 1 merge at the baseline, making the type ambiguous.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
+      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "concept_id": "out-tray",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "I16 letters merge within the tray and no longer read reliably.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
+      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+    },
+    {
+      "candidate_id": "candidate-09",
+      "option_number": 4,
+      "concept_id": "extract-value",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "I and 1 merge along their bottom bars, and the extraction arrow is small.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
+      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 5,
+      "concept_id": "inspect-value",
+      "attempt_number": 2,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "I16 appears inside an orange magnifier with no visible buffer. The result suggests searching for a type rather than extracting a value from a buffer.",
+      "measured_value": "source",
+      "corrective_instruction": "Show an explicit read or extraction action from a buffer.",
+      "likely_cause_hypothesis": "The buffer and extraction action are absent."
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 5,
+      "concept_id": "inspect-value",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The I and 1 merge into a dark cluster, obscuring the datatype.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
+      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 08 and 09 both use a blue lower buffer and an orange upward arrow with I16; their structures are too similar."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-07",
+      "candidate-08",
+      "candidate-09",
+      "candidate-10"
+    ],
+    "evidence": "Candidates 08 and 09 both use a blue lower buffer and an orange upward arrow with I16; their structures are too similar."
+  },
+  "published": false
+}

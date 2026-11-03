@@ -1,0 +1,69 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The left arrow, blue hand, orange tag and navy device remain distinct."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Hand and tag details soften, while the leftward arrow and device remain."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow points away from the controller toward the hand."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large leftward arrow remains visible above the hand, tag and controller."
+        },
+        "source": {
+          "result": "WARN",
+          "evidence": "A hand holds the tag beside a PLC, with a prominent leftward arrow showing extraction. Side margins are narrow but the artwork is not clipped."
+        }
+      },
+      "candidate_id": "candidate-12"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The arrow points down-left to the buffer and tag remains visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and diagonal arrow survive but the tray detail softens."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and arrow remain separate."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Choose a different silhouette and layout.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "The diagonal tag-to-buffer arrangement resembles the U8 card-extraction icon at native size."
+        },
+        "source": {
+          "result": "FAIL",
+          "correction": "Use a structure other than diagonal upper-right tag and lower-left buffer.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "The orange tag in the upper right and blue diagonal arrow to a navy buffer at lower left repeats the same dominant arrangement as Read_U8 candidate-08, differing chiefly in arrow direction and label."
+        }
+      },
+      "candidate_id": "candidate-13"
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "The arrowed hand has a clear extraction direction but the diagonal tag-to-buffer composition repeats an unsigned getter layout. Other older candidates remain failed.",
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-13",
+      "candidate-09",
+      "candidate-04",
+      "candidate-07"
+    ]
+  }
+}

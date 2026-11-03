@@ -30,7 +30,30 @@
       "option_number": 1,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-01.png",
-      "qa": {}
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "f47b718deef2ea663146021e756465de6f393f60d1b240a8e2a6cc5a24014e5d",
+      "salt": "o2xcxnvplb"
     },
     {
       "concept_id": "plc-buffer-rails",
@@ -47,7 +70,30 @@
       "option_number": 2,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-02.png",
-      "qa": {}
+      "qa": {
+        "29x29": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "f2fca91f1874971c42724f73beb6537e9164eb9de2c0b798e01799825b99950f",
+      "salt": "tf0az3mdqo"
     },
     {
       "concept_id": "float-exchange",
@@ -64,7 +110,30 @@
       "option_number": 3,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-03.png",
-      "qa": {}
+      "qa": {
+        "29x29": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "8ccf293c14f2976e87d4f5a1c302fada96a7607c0a87ac385b75cb7b7bbd96fc",
+      "salt": "hh9ojfapgj"
     },
     {
       "concept_id": "read-write-switch",
@@ -81,7 +150,30 @@
       "option_number": 4,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-04.png",
-      "qa": {}
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "59a9e26d710fa033ec5c4fa8adeb5ffc6d2e753edfcf3139b5926004658ecefc",
+      "salt": "wfkucbkqa3"
     },
     {
       "concept_id": "tag-input-output",
@@ -98,10 +190,72 @@
       "option_number": 5,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-05.png",
-      "qa": {}
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "48ef2b7458efece068d05f7d8863249a3b55a0292d07fb5a57b85aab8fe92985",
+      "salt": "rxu9njjocx"
     }
   ],
   "failures": [],
-  "distinctness": {},
-  "published": false
+  "distinctness": {
+    "result": "PASS",
+    "evidence": "Loop, two lanes, wave, double arrow and diagonal flow offer different compositions.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "manifest.json",
+    "Simple Read Write option 1 1024x1024 o2xcxnvplb.png",
+    "Simple Read Write option 1 29x29 o2xcxnvplb.png",
+    "Simple Read Write option 1 30x18 o2xcxnvplb.png",
+    "Simple Read Write option 1 30x23 o2xcxnvplb.png",
+    "Simple Read Write option 1 o2xcxnvplb.ico",
+    "Simple Read Write option 2 1024x1024 tf0az3mdqo.png",
+    "Simple Read Write option 2 29x29 tf0az3mdqo.png",
+    "Simple Read Write option 2 30x18 tf0az3mdqo.png",
+    "Simple Read Write option 2 30x23 tf0az3mdqo.png",
+    "Simple Read Write option 2 tf0az3mdqo.ico",
+    "Simple Read Write option 3 1024x1024 hh9ojfapgj.png",
+    "Simple Read Write option 3 29x29 hh9ojfapgj.png",
+    "Simple Read Write option 3 30x18 hh9ojfapgj.png",
+    "Simple Read Write option 3 30x23 hh9ojfapgj.png",
+    "Simple Read Write option 3 hh9ojfapgj.ico",
+    "Simple Read Write option 4 1024x1024 wfkucbkqa3.png",
+    "Simple Read Write option 4 29x29 wfkucbkqa3.png",
+    "Simple Read Write option 4 30x18 wfkucbkqa3.png",
+    "Simple Read Write option 4 30x23 wfkucbkqa3.png",
+    "Simple Read Write option 4 wfkucbkqa3.ico",
+    "Simple Read Write option 5 1024x1024 rxu9njjocx.png",
+    "Simple Read Write option 5 29x29 rxu9njjocx.png",
+    "Simple Read Write option 5 30x18 rxu9njjocx.png",
+    "Simple Read Write option 5 30x23 rxu9njjocx.png",
+    "Simple Read Write option 5 rxu9njjocx.ico"
+  ]
 }

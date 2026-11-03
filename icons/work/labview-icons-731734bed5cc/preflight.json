@@ -1,0 +1,12 @@
+{
+  "evidence": "Crane, envelope, magnet, display output and microscope have different silhouettes; I8 has a barred I. Compare actual typed output and setter icons across the complete collection.",
+  "candidate_ids": [
+    "i8-crane",
+    "i8-envelope",
+    "i8-magnet",
+    "i8-display",
+    "i8-lens"
+  ],
+  "result": "PASS",
+  "scope": "Provisional concept preflight; full collection review pending"
+}

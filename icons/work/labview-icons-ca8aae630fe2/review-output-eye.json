@@ -1,0 +1,73 @@
+{
+  "distinctness": {
+    "evidence": "The vertical PLC/tag stack resembles Write_Tag candidate-02 and the eye-over-content motif resembles Read_I16. Both need different concepts.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-08",
+      "candidate-09",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "result": "FAIL"
+  },
+  "candidates": [
+    {
+      "qa": {
+        "source": {
+          "correction": "Replace with a read concept whose dominant silhouette is not a vertical tag-arrow-PLC stack.",
+          "evidence": "A tag, vertical upward arrow, and PLC repeat the same three-element vertical transfer composition as Write_Tag candidate-02 with top and bottom objects swapped.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x18": {
+          "correction": "Use a structurally different read metaphor.",
+          "evidence": "The same blue PLC, orange upward arrow, and orange tag arrangement is readily confused with the write icon.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow points up from the PLC toward the tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The three colored regions remain, though the arrowhead softens."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag and upward arrow are visible above the controller."
+        }
+      },
+      "candidate_id": "candidate-08"
+    },
+    {
+      "qa": {
+        "source": {
+          "correction": "Replace the eye-over-object design with an explicit transfer and a different silhouette.",
+          "evidence": "The large blue eye above a rectangular object repeats the dominant eye-over-content silhouette of Read_I16 candidate-07; the embedded tag may look like inspecting a controller display rather than fetching data.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x18": {
+          "correction": "Use a distinct source-to-buffer action.",
+          "evidence": "The large eye over rectangular content remains similar to the signed-read eye motif and does not show a transfer.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Eye and tag inside controller remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The eye and orange patch survive."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The eye, controller and orange tag are visible."
+        }
+      },
+      "candidate_id": "candidate-09"
+    }
+  ]
+}

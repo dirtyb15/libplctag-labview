@@ -1,0 +1,12 @@
+{
+  "concept_summary": "Creation wand and tag",
+  "prompt": "One SQUARE flat software icon on pure white symbolizing create a new tag. Place a LARGE solid navy tag with large white hole at upper right. At lower left show a simple short orange MAGIC WAND pointing diagonally toward the tag. Between wand and tag show a LARGE GREEN PLUS SIGN, not tiny sparkles. The wand, plus, and tag are separated by wide white space, with thick shapes that remain recognizable at 30x18. No pencil tip, no other decorations, no text or shadow; all art inside central 70 percent of the square canvas.",
+  "signature": {
+    "metaphor": "creation wand",
+    "composition": "wand lower left points toward large tag at upper right, plus in open space",
+    "objects": "wand, tag, plus",
+    "orientation": "diagonal",
+    "cue": "large plus emitted by wand"
+  },
+  "concept_id": "new-tag-wand"
+}

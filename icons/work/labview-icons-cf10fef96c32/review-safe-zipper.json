@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "Wheel and tag are distinct.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The large wheel, safe face and tag remain recognizable.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A three-spoke white safe wheel and orange tag sit on a navy square safe door.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The wheel spokes and tag survive.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The wheel spokes soften.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-08"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "Tag and pouch remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The large orange tag on a blue rectangle with white stripe resembles Tag Status candidate 06, and zipper teeth merge into a stripe.",
+          "result": "FAIL",
+          "correction": "Use a substantially different securing silhouette without a blue rectangular background and centered orange tag.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "source": {
+          "evidence": "An orange tag sits on a blue pouch under a white zipper.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Fine zipper teeth merge.",
+          "result": "WARN"
+        },
+        "16x16": {
+          "evidence": "Zipper details merge.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-09"
+    }
+  ],
+  "distinctness": {
+    "evidence": "The safe wheel, cage, padlock and shield differ; the blue rectangular pouch with orange tag and white stripe repeats Tag Status candidate 06 at 30x18. Replace the pouch.",
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-08",
+      "candidate-07",
+      "candidate-04",
+      "candidate-09"
+    ]
+  }
+}

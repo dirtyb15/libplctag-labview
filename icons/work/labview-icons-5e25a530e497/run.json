@@ -310,7 +310,8 @@
           "evidence": "The eye remains recognizable while the type is crowded."
         }
       },
-      "reviewed_sha256": "f2c437931b17719a32027b95d25cbcc35c8bfa180eae19cf0b6e4ec754414273"
+      "reviewed_sha256": "f2c437931b17719a32027b95d25cbcc35c8bfa180eae19cf0b6e4ec754414273",
+      "salt": "afol2ccsi7"
     },
     {
       "concept_id": "out-tray",
@@ -440,6 +441,293 @@
         }
       },
       "reviewed_sha256": "94a06950be81839efeee9295c3140fdb5af92ccc83f5f502835816c0ebab71de"
+    },
+    {
+      "concept_id": "arrow-value",
+      "concept_summary": "Arrow leaves buffer",
+      "prompt": "One square simple flat icon on white for reading a signed 16-bit value from a local buffer. A small blue cylinder on the left, a thick blue arrow pointing RIGHT away from it, then the exact characters I16 in very large black type on the right. The first character is a capital I with very wide horizontal top and bottom serifs, followed by a digit 1 and a digit 6. Leave a LARGE white gap between all three characters, especially between I and 1, so they do not touch when reduced to 30x18 pixels. Show no other text. Keep all art centered within 75 percent of the canvas; no shadow.",
+      "signature": {
+        "metaphor": "Arrow leaves buffer",
+        "composition": "A blue buffer rectangle on left and a large black rightward arrow leading to bold black text I16 on right.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 1,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-11.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The arrowhead softens as it approaches the I.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "Cylinder and digit 6 sit about five percent from the canvas sides, leaving cramped margins.",
+          "result": "FAIL",
+          "rule_id": "VIS-MARGIN-005",
+          "correction": "Use a different compact composition with larger white margins."
+        },
+        "16x16": {
+          "evidence": "The cylinder and dark glyphs survive but type detail softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "Separated I, 1 and 6 can be read beside the cylinder.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The arrow becomes a blue bar touching the I, losing an unambiguous extraction direction.",
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Retire this concept and use a larger separated extraction cue."
+        }
+      },
+      "reviewed_sha256": "d660844bbeb519baf62ffc079be5fa7b8928095fab9709e093fffb6efb485741"
+    },
+    {
+      "concept_id": "out-tray",
+      "concept_summary": "Value exits tray",
+      "prompt": "One square flat software icon on white for reading a signed 16-bit value from a buffer. A wide blue open tray below a very large bold orange arrow pointing UP and away from it. Inside the tray show exact black text I16, with a capital I with broad top and bottom serifs, then 1 then 6. Give the three characters generously wide white gaps so I cannot merge with 1 even at 30x18 pixels. Use simple thick shapes and large letters. No other writing, no shadow, leave generous white margins.",
+      "signature": {
+        "metaphor": "Value exits tray",
+        "composition": "A blue open tray holding bold black I16 with a large orange upward arrow emerging from it.",
+        "orientation": "varied",
+        "cue": "get value",
+        "objects": "buffer and I16"
+      },
+      "candidate_id": "candidate-12",
+      "option_number": 3,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-12.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The spaced type is increasingly small inside the tray.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The tray and arrow approach the canvas edges, leaving cramped margins.",
+          "result": "FAIL",
+          "rule_id": "VIS-MARGIN-005",
+          "correction": "Use a smaller, simpler composition with clear margins."
+        },
+        "16x16": {
+          "evidence": "Arrow and tray survive, while the small type disappears.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The spread letters are visible but occupy a small share of the canvas height.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The tiny I, 1 and 6 blur into dark fragments within the tray.",
+          "result": "FAIL",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Retire the tray layout and enlarge the exact type label."
+        }
+      },
+      "reviewed_sha256": "f47b679053049f8c571f35f39ef38c81459924c25c9bed556056b0b99a2b2ea2"
+    },
+    {
+      "concept_id": "i16-left-exit",
+      "concept_summary": "Signed value exits to left",
+      "prompt": "Make one SQUARE flat icon on pure white for reading a signed 16-bit value from a buffer. Show a large black I16 across the upper half, first character capital I with broad top and bottom bars and clear separate spacing from the digit 1; leave equally visible gap between 1 and 6. In the lower half put a short navy horizontal buffer block on the RIGHT and a very thick orange arrow pointing LEFT away from it. The arrowhead is big, unmistakable, and separated from the block. The label and arrow must be readable at 30 by 18 pixels. Keep the whole icon within the central 70 percent of the white canvas, no extra text, no shadow.",
+      "signature": {
+        "composition": "I16 above left-pointing arrow leaving buffer at right",
+        "orientation": "horizontal-left",
+        "metaphor": "buffer extraction",
+        "objects": "I16, left arrow, buffer",
+        "cue": "leftward extraction"
+      },
+      "candidate_id": "candidate-13",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-13.png",
+      "qa": {
+        "16x16": {
+          "evidence": "Letter separation and the left arrow survive though details soften.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The type remains legible and the left arrowhead survives.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The barred I, 1, 6, leftward arrowhead and blue block are recognizable.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "I, 1 and 6 are separated and the arrow points left away from the block.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Widely spaced I16 sits above a left-facing orange arrow and blue buffer block with clear margins.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "e719a1309d0b6514d5bfbee86baaa945f84928d0d93daf19a35711fbef63c6c3",
+      "salt": "k30x2qtvtd"
+    },
+    {
+      "concept_id": "i16-corner-eject",
+      "concept_summary": "Signed value ejected from corner",
+      "prompt": "One SQUARE flat icon on pure white for extracting a signed 16-bit value from a local buffer. Show a navy L-shaped buffer corner in the upper right and a thick orange arrow pointing diagonally DOWN and LEFT away from the corner. Put large black characters I16 across the lower part; the capital I has wide horizontal serifs and it must be visibly separated from digit 1, and 1 separated from 6. Keep arrow and letters readable at 30x18. Wide whitespace, no other labels, no shadow; all shapes inside central 70 percent of canvas.",
+      "signature": {
+        "composition": "large I16 lower left with arrow from upper right corner buffer",
+        "orientation": "diagonal down-left",
+        "metaphor": "corner buffer extraction",
+        "objects": "I16, diagonal arrow and corner buffer",
+        "cue": "diagonal extraction"
+      },
+      "candidate_id": "candidate-14",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-14.png",
+      "qa": {
+        "16x16": {
+          "evidence": "The corner and diagonal arrow survive; the small 6 loses some detail.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The separated I16 label and arrow direction remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The down-left arrow and separated barred I, 1 and 6 remain distinguishable though small.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The corner, diagonal arrow and all three type characters remain recognizable.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A blue upper-right corner and orange diagonal arrow point down-left toward spaced I16; margins are clear.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "c3d29f1159867906ff4c6e3ce80bef43e3e3807cd96d2380d6fae3b63af88dcd",
+      "salt": "cuedhu0iym"
+    },
+    {
+      "concept_id": "i16-curved-output",
+      "concept_summary": "Buffer curved output to signed value",
+      "prompt": "One square flat icon on white for reading a signed 16 bit value from a local buffer. At upper left show a small navy buffer rectangle. From it a bold orange curved arrow bends downward and points to the RIGHT, ending above a very large I16 at bottom. Use exact black characters capital I, digit 1, digit 6; capital I has broad top and bottom bars and a clearly visible gap separates each character. Arrowhead must be unmistakable at 30x18 and letters legible. Keep everything within the central 70 percent of canvas. No other writing or shadows.",
+      "signature": {
+        "cue": "curved rightward output",
+        "orientation": "curved down-right",
+        "composition": "short buffer at upper left with curved arrow ending beside I16 lower right",
+        "metaphor": "curved extraction",
+        "objects": "buffer, curved arrow, I16"
+      },
+      "candidate_id": "candidate-15",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-15.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The curved extraction path and all three characters remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The curved arrow and barred I, 1 and 6 remain visible with character gaps."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The curved arrow points down and I16 remains legible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue buffer leads through a curved orange arrow toward the spaced I16 label."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The curve and label survive with softened glyphs."
+        }
+      },
+      "reviewed_sha256": "d8a48721df175ba9900d47687720cf0436583594f86a1e34b39556791aa2698e",
+      "salt": "ns1bhxvsd8"
+    },
+    {
+      "concept_id": "i16-read-pointer",
+      "concept_summary": "Signed type above buffer output",
+      "prompt": "Create one SQUARE flat icon on pure white showing extraction of a signed 16-bit value. In the upper part show exact large black characters I16: capital I with broad top and bottom bars, followed by 1 and 6, with large white gaps between every character. At the lower left show a navy outlined horizontal buffer box, and at its right show a large orange arrow pointing RIGHT out of the box, extending beyond it. Make type and arrowhead visible at 30x18 pixels. The entire artwork fits within central 70 percent of canvas width and height. No magnifier, eye, other text, shadows, or detail.",
+      "signature": {
+        "metaphor": "buffer output",
+        "objects": "I16, outlined box and arrow",
+        "cue": "rightward output arrow",
+        "composition": "I16 above outlined buffer box with arrow leaving right",
+        "orientation": "horizontal-right"
+      },
+      "candidate_id": "candidate-16",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-16.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The separated I16 and right-facing output arrow remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The three type characters, buffer outline and arrow remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The outlined buffer and arrow are recognizable."
+        },
+        "source": {
+          "evidence": "I16 above a horizontal buffer and arrow repeats candidate-13: both place the type over a horizontal orange arrow and blue block, merely reversing direction and outlining the block.",
+          "result": "FAIL",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a substantially different silhouette instead of a horizontal arrow below the label."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The box and arrow survive; type details soften."
+        }
+      },
+      "reviewed_sha256": "d0b13f72e406b2a38805833f118006ca07d49482c89d62811cf066702aa8e137"
+    },
+    {
+      "concept_id": "i16-side-drop",
+      "concept_summary": "Signed value beside downward buffer output",
+      "prompt": "One SQUARE flat software icon on pure white for extracting signed 16-bit data. On the LEFT show very large black exact characters I16 across one line, first character capital I with top and bottom bars followed by a digit 1 and a digit 6. Leave generous visible gaps between I, 1 and 6 so each remains readable at 30 by 18 pixels. At the RIGHT show a short navy horizontal buffer block at top, with a very large thick orange arrow pointing straight DOWN away from its bottom. Arrowhead must be obvious. Keep all elements within central 70 percent of white canvas, no other text, no shadow.",
+      "signature": {
+        "objects": "I16, downward arrow and buffer",
+        "metaphor": "vertical buffer output",
+        "cue": "downward output at right",
+        "orientation": "vertical right side",
+        "composition": "I16 on left; blue buffer at upper right and orange down arrow below it"
+      },
+      "candidate_id": "candidate-17",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-5e25a530e497\\candidates\\candidate-17.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The barred I, digit 1 and digit 6 are separate, and the arrow points downward."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The wide type softens but the blue cap and orange downward arrow remain clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I16 remains legible with a visible gap from the side arrow."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Spaced I16 sits to the left of a blue buffer cap and large downward orange arrow, with clear margins."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The signed I16 label and distinct downward arrowhead survive."
+        }
+      },
+      "reviewed_sha256": "1e93ca563cb32a6d6349392f0cee92fd6ecf01375d7332ecfb4c37d9ef3eaeea",
+      "salt": "d9rb4wubzy"
     }
   ],
   "failures": [
@@ -454,7 +742,8 @@
       "observed_problem": "The I is a plain stroke resembling 1.",
       "measured_value": "30x18",
       "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
-      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph.",
+      "retry_result": "PASS after review of candidate-13"
     },
     {
       "candidate_id": "candidate-01",
@@ -467,7 +756,8 @@
       "observed_problem": "The I is a plain stroke resembling 1.",
       "measured_value": "source",
       "corrective_instruction": "Use a barred capital I.",
-      "likely_cause_hypothesis": "The typeface makes I and 1 visually similar."
+      "likely_cause_hypothesis": "The typeface makes I and 1 visually similar.",
+      "retry_result": "PASS after review of candidate-13"
     },
     {
       "candidate_id": "candidate-02",
@@ -480,7 +770,8 @@
       "observed_problem": "I16 merges into dark strokes at 30x18.",
       "measured_value": "30x18",
       "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
-      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph.",
+      "retry_result": "PASS after review of candidate-07"
     },
     {
       "candidate_id": "candidate-03",
@@ -493,7 +784,8 @@
       "observed_problem": "The type label becomes too small at 30x18.",
       "measured_value": "30x18",
       "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
-      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph.",
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "candidate_id": "candidate-04",
@@ -506,7 +798,8 @@
       "observed_problem": "The I is a plain stroke resembling 1.",
       "measured_value": "30x18",
       "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
-      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph.",
+      "retry_result": "PASS after review of candidate-15"
     },
     {
       "candidate_id": "candidate-04",
@@ -519,7 +812,8 @@
       "observed_problem": "The I is a plain stroke resembling 1.",
       "measured_value": "source",
       "corrective_instruction": "Use a barred capital I.",
-      "likely_cause_hypothesis": "The typeface makes I and 1 visually similar."
+      "likely_cause_hypothesis": "The typeface makes I and 1 visually similar.",
+      "retry_result": "PASS after review of candidate-15"
     },
     {
       "candidate_id": "candidate-05",
@@ -532,13 +826,15 @@
       "observed_problem": "The type label becomes an unreadable blob at 30x18.",
       "measured_value": "30x18",
       "corrective_instruction": "Make the type label much larger, with a barred capital I and separated characters.",
-      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph."
+      "likely_cause_hypothesis": "The text receives too few pixels or an ambiguous glyph.",
+      "retry_result": "PASS after review of candidate-17"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Candidates 01 and 04 both show a buffer, horizontal arrow and I16 text; they differ mainly by orientation."
+      "observed_problem": "Candidates 01 and 04 both show a buffer, horizontal arrow and I16 text; they differ mainly by orientation.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-06",
@@ -551,7 +847,8 @@
       "observed_problem": "The I and 1 merge at the baseline, making the type ambiguous.",
       "measured_value": "30x18",
       "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
-      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+      "likely_cause_hypothesis": "Characters have too little separation after resampling.",
+      "retry_result": "PASS after review of candidate-13"
     },
     {
       "candidate_id": "candidate-08",
@@ -564,7 +861,8 @@
       "observed_problem": "I16 letters merge within the tray and no longer read reliably.",
       "measured_value": "30x18",
       "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
-      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+      "likely_cause_hypothesis": "Characters have too little separation after resampling.",
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "candidate_id": "candidate-09",
@@ -577,7 +875,8 @@
       "observed_problem": "I and 1 merge along their bottom bars, and the extraction arrow is small.",
       "measured_value": "30x18",
       "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
-      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+      "likely_cause_hypothesis": "Characters have too little separation after resampling.",
+      "retry_result": "PASS after review of candidate-15"
     },
     {
       "candidate_id": "candidate-10",
@@ -590,7 +889,8 @@
       "observed_problem": "I16 appears inside an orange magnifier with no visible buffer. The result suggests searching for a type rather than extracting a value from a buffer.",
       "measured_value": "source",
       "corrective_instruction": "Show an explicit read or extraction action from a buffer.",
-      "likely_cause_hypothesis": "The buffer and extraction action are absent."
+      "likely_cause_hypothesis": "The buffer and extraction action are absent.",
+      "retry_result": "PASS after review of candidate-17"
     },
     {
       "candidate_id": "candidate-10",
@@ -603,25 +903,148 @@
       "observed_problem": "The I and 1 merge into a dark cluster, obscuring the datatype.",
       "measured_value": "30x18",
       "corrective_instruction": "Increase whitespace between characters and allocate more pixels to the datatype.",
-      "likely_cause_hypothesis": "Characters have too little separation after resampling."
+      "likely_cause_hypothesis": "Characters have too little separation after resampling.",
+      "retry_result": "PASS after review of candidate-17"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Candidates 08 and 09 both use a blue lower buffer and an orange upward arrow with I16; their structures are too similar."
+      "observed_problem": "Candidates 08 and 09 both use a blue lower buffer and an orange upward arrow with I16; their structures are too similar.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 1,
+      "concept_id": "arrow-value",
+      "attempt_number": 3,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-MARGIN-005",
+      "result": "FAIL",
+      "observed_problem": "Cylinder and digit 6 sit about five percent from the canvas sides, leaving cramped margins.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a different compact composition with larger white margins.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 1,
+      "concept_id": "arrow-value",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The arrow becomes a blue bar touching the I, losing an unambiguous extraction direction.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Retire this concept and use a larger separated extraction cue.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-12",
+      "option_number": 3,
+      "concept_id": "out-tray",
+      "attempt_number": 3,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-MARGIN-005",
+      "result": "FAIL",
+      "observed_problem": "The tray and arrow approach the canvas edges, leaving cramped margins.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a smaller, simpler composition with clear margins.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-12",
+      "option_number": 3,
+      "concept_id": "out-tray",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The tiny I, 1 and 6 blur into dark fragments within the tray.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Retire the tray layout and enlarge the exact type label.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The cylinder arrow loses its head and the tray type is unreadable at 30x18; the two vertical extraction concepts also resemble one another. Both three-attempt concepts need replacement.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The new leftward and diagonal extraction compositions differ from the eye, but the older vertical arrow and magnifying-glass candidates have unresolved failed reviews and require replacement or revision.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-16",
+      "option_number": 5,
+      "concept_id": "i16-read-pointer",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "I16 above a horizontal buffer and arrow repeats candidate-13: both place the type over a horizontal orange arrow and blue block, merely reversing direction and outlining the block.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a substantially different silhouette instead of a horizontal arrow below the label.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-17"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidate-13 and candidate-16 both place I16 above a horizontal arrow and blue block, differing mainly in direction and fill. Replace one with a different composition.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
-    "result": "FAIL",
+    "result": "PASS",
     "candidate_ids": [
-      "candidate-06",
+      "candidate-13",
       "candidate-07",
-      "candidate-08",
-      "candidate-09",
-      "candidate-10"
+      "candidate-14",
+      "candidate-15",
+      "candidate-17"
     ],
-    "evidence": "Candidates 08 and 09 both use a blue lower buffer and an orange upward arrow with I16; their structures are too similar."
+    "evidence": "The five designs use a left-pointing horizontal output below type, eye over type, diagonal corner extraction, curved output from a block, and a downward arrow beside type. The U8 reference uses a centered down arrow over the value, making its arrangement different from the signed side arrow. Further comparison with all types and setters remains required."
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned dx5g2xgwcv.md",
+    "manifest.json",
+    "Read I16 option 1 1024x1024 k30x2qtvtd.png",
+    "Read I16 option 1 29x29 k30x2qtvtd.png",
+    "Read I16 option 1 30x18 k30x2qtvtd.png",
+    "Read I16 option 1 30x23 k30x2qtvtd.png",
+    "Read I16 option 1 k30x2qtvtd.ico",
+    "Read I16 option 2 1024x1024 afol2ccsi7.png",
+    "Read I16 option 2 29x29 afol2ccsi7.png",
+    "Read I16 option 2 30x18 afol2ccsi7.png",
+    "Read I16 option 2 30x23 afol2ccsi7.png",
+    "Read I16 option 2 afol2ccsi7.ico",
+    "Read I16 option 3 1024x1024 cuedhu0iym.png",
+    "Read I16 option 3 29x29 cuedhu0iym.png",
+    "Read I16 option 3 30x18 cuedhu0iym.png",
+    "Read I16 option 3 30x23 cuedhu0iym.png",
+    "Read I16 option 3 cuedhu0iym.ico",
+    "Read I16 option 4 1024x1024 ns1bhxvsd8.png",
+    "Read I16 option 4 29x29 ns1bhxvsd8.png",
+    "Read I16 option 4 30x18 ns1bhxvsd8.png",
+    "Read I16 option 4 30x23 ns1bhxvsd8.png",
+    "Read I16 option 4 ns1bhxvsd8.ico",
+    "Read I16 option 5 1024x1024 d9rb4wubzy.png",
+    "Read I16 option 5 29x29 d9rb4wubzy.png",
+    "Read I16 option 5 30x18 d9rb4wubzy.png",
+    "Read I16 option 5 30x23 d9rb4wubzy.png",
+    "Read I16 option 5 d9rb4wubzy.ico"
+  ]
 }

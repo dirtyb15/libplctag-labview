@@ -1,0 +1,12 @@
+{
+  "concept_id": "new-tag-inset-plus",
+  "concept_summary": "Creation plus inside tag",
+  "prompt": "Exactly one SQUARE flat software icon on pure white for creating a new PLC tag. Show a LARGE dark navy horizontal tag silhouette pointed on the RIGHT with one large white hole near the tip. Inside the center of the tag show one HUGE white PLUS sign cut out of the tag, with thick arms. The plus is part of the tag interior, not a badge. The tag, plus and hole must remain distinct at 30x18 pixels. No other elements, letters, border or shadow. All art in the central 70 percent of the white square.",
+  "signature": {
+    "metaphor": "new tag",
+    "cue": "large plus cutout",
+    "orientation": "horizontal",
+    "objects": "large tag, internal plus",
+    "composition": "plus centered inside solid horizontal tag"
+  }
+}

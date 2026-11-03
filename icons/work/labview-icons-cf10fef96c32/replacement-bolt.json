@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "cue": "solid bolt bars access",
+    "composition": "horizontal blue bolt through two brackets over orange tag",
+    "metaphor": "closed bolt",
+    "orientation": "horizontal",
+    "objects": "bolt, tag"
+  },
+  "concept_id": "lock-bolt",
+  "concept_summary": "Sliding bolt locks tag",
+  "prompt": "One SQUARE flat software icon on pure white for locking a PLC tag. A large ORANGE TAG with a prominent white hole is centered BEHIND a horizontal dark NAVY SLIDING DOOR BOLT. The large blue bolt crosses the middle of the tag and passes through two thick blue U-shaped brackets at left and right; the bolt is visibly CLOSED. Three broad simple shapes, with the tag still recognizable. No padlock, key, shield, hand, arrow, writing or shadow. Keep all art in central 70 percent of square, legible at 30x18."
+}

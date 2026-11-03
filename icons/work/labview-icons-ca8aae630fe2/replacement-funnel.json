@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "composition": "tag above broad funnel and buffer below",
+    "metaphor": "buffer intake",
+    "cue": "tag descends through funnel to buffer",
+    "objects": "tag, funnel, local buffer",
+    "orientation": "vertical"
+  },
+  "prompt": "One SQUARE flat icon on pure white for receiving PLC tag data into a local buffer. A large orange tag with a big white hole is ABOVE a broad BLUE FUNNEL whose wide open top receives it. The funnel neck leads into a dark navy rectangular buffer at the bottom. Clear white gaps keep the tag, funnel and buffer distinguishable. This is a funnel, NOT a tray, not a wireless symbol. Three large simple shapes, no text or shadows, generous white margins and recognizable at 30x18 pixels.",
+  "concept_summary": "Tag received through funnel",
+  "concept_id": "read-funnel"
+}

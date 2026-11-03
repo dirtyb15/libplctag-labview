@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Local option planning; user waived cross-file similarity review",
+  "evidence": "Printer, syringe, tray, buffer output and dial use different action cues; shared label layout is allowed.",
+  "candidate_ids": [
+    "i32-printer",
+    "i32-syringe",
+    "i32-basket",
+    "i32-outward",
+    "i32-dial"
+  ]
+}

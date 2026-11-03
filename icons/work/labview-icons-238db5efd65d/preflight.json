@@ -1,0 +1,12 @@
+{
+  "evidence": "The final concept replaces a packet plus tiny arrow with a tag-shaped paper plane sent into the controller. It has a plane silhouette, unlike the side-slot tag, upward transfer, diagonal inlet arrow and curved transfer. Directly compare the plane with the side-insertion and read layouts after generation; reject it if direction or tag identity is ambiguous at 30x18.",
+  "candidate_ids": [
+    "write-insert-tag",
+    "write-plc-top",
+    "write-enter-port",
+    "write-curved-route",
+    "write-send-plane"
+  ],
+  "result": "PASS",
+  "scope": "Provisional concept preflight; not visual acceptance"
+}

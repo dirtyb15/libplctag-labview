@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "status": "PASS",
+  "errors": [],
+  "artifact_sha256": "7a98bfc8c0c03f3812d3e460ae619fa366611110541f80af152858d51f5b3cf7",
+  "snapshot_sha256": "be79fc0b9850341cd4ae769cc1e90dea2686e39164132ac93052d6de589b286b",
+  "policy_sha256": "7a8db29065372d996ec1be13ea331e7d6743a6d048f2acebb8850c1ad0638fd6",
+  "decisions_sha256": "76c08eca356a2ad83cc3dd1a7fa1ecc7f0b17a44ca02208bc513eefc22102ab4",
+  "notes_required": false,
+  "notes_log": null,
+  "notes_sha256": null
+}

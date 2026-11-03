@@ -1,0 +1,12 @@
+{
+  "result": "FAIL",
+  "scope": "Concept preflight only; no artwork has been generated or visually approved",
+  "candidate_ids": [
+    "tag-exchange-loop",
+    "plc-buffer-rails",
+    "float-exchange",
+    "read-write-switch",
+    "tag-input-output"
+  ],
+  "evidence": "The circular tag exchange and the tag-with-double-arrow switch both rely on two-way arrows with a tag and could converge visually at 30\u00d718. The PLC/buffer lanes are close to existing Read_Tag and Write_Tag PLC-and-arrow drafts and may lose one arrowhead. The wave-and-arrows concept does not itself establish a tag or PLC context. The tag with entering and exiting arrows may be confused with one-way read or write if an arrow merges. The switch also risks resembling the Datatype control's cycle-type plan. Redesign and compare against both root and snapshot source signatures before generation; do not treat color or arrow direction alone as differentiation."
+}

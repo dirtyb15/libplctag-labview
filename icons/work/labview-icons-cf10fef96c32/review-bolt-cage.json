@@ -1,0 +1,94 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "16x16": {
+          "evidence": "The bolt and tag soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "Bolt and tag are visible.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A horizontal dark bolt crosses an orange tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The horizontal fastener remains.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Upright tag crossed by a horizontal bar repeats the dominant construction of Destroy Tag shredder candidate 08.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL",
+          "correction": "Choose a different lock silhouette without a horizontal bar across an upright tag."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "16x16": {
+          "evidence": "The frame and tag remain as bar details soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The frame and both bars remain distinct.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Orange tag is enclosed behind two dark vertical cage bars.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The tag hole and vertical bars remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The cage, tag and separate bars remain recognizable.",
+          "result": "PASS"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "30x18": {
+          "evidence": "The blue C-shaped clamp to the left of an orange value or tag resembles Read I8 candidate 03 horseshoe magnet layout.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL",
+          "correction": "Use a different silhouette than the C shape with orange object on the right."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue clamp grips an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain discernible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Clamp body and tag remain; screw detail softens."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-06",
+      "candidate-07",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "The bolt across an upright tag resembles Destroy Tag shredder candidate 08, and the blue C clamp plus orange tag resembles Read I8 magnet candidate 03. The cage is distinct. Replace the close pairs.",
+    "result": "FAIL"
+  }
+}

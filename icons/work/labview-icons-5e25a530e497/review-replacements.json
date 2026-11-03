@@ -1,0 +1,65 @@
+{
+  "distinctness": {
+    "evidence": "The new leftward and diagonal extraction compositions differ from the eye, but the older vertical arrow and magnifying-glass candidates have unresolved failed reviews and require replacement or revision.",
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-13",
+      "candidate-07",
+      "candidate-14",
+      "candidate-09",
+      "candidate-10"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-13",
+      "qa": {
+        "16x16": {
+          "evidence": "Letter separation and the left arrow survive though details soften.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The type remains legible and the left arrowhead survives.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The barred I, 1, 6, leftward arrowhead and blue block are recognizable.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "I, 1 and 6 are separated and the arrow points left away from the block.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Widely spaced I16 sits above a left-facing orange arrow and blue buffer block with clear margins.",
+          "result": "PASS"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-14",
+      "qa": {
+        "16x16": {
+          "evidence": "The corner and diagonal arrow survive; the small 6 loses some detail.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The separated I16 label and arrow direction remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The down-left arrow and separated barred I, 1 and 6 remain distinguishable though small.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The corner, diagonal arrow and all three type characters remain recognizable.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A blue upper-right corner and orange diagonal arrow point down-left toward spaced I16; margins are clear.",
+          "result": "PASS"
+        }
+      }
+    }
+  ]
+}

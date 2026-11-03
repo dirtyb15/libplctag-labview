@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat icon on pure white for reading tag data into a local buffer. Place a large orange tag with white hole in the UPPER RIGHT. Place a large simple navy open buffer box in the LOWER LEFT. A thick BLUE diagonal arrow points DOWN and LEFT from the tag into the box, with a big distinct arrowhead and generous white separation from both objects. No controller, no funnel, no words, no other symbols. All three shapes are large and simple, legible at 30x18; place artwork in the middle 70 percent of the square canvas, no shadow.",
+  "concept_id": "read-tag-to-buffer",
+  "signature": {
+    "composition": "orange tag upper right, arrow down-left to navy buffer lower left",
+    "objects": "tag, arrow, buffer",
+    "metaphor": "local buffer reception",
+    "cue": "down-left transfer into buffer",
+    "orientation": "diagonal-down-left"
+  },
+  "concept_summary": "Tag received into local buffer"
+}

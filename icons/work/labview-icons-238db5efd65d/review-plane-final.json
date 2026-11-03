@@ -1,0 +1,40 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-03",
+      "candidate-07",
+      "candidate-13"
+    ],
+    "result": "PASS",
+    "evidence": "The actual artworks show a tag entering a side slot with left arrow, a tag sent upward, a single diagonal inlet arrow, a curved tag transfer, and a rightward paper plane into a controller. Their dominant compositions differ. Recheck all against the final Read_Tag icons and the wider collection."
+  },
+  "candidates": [
+    {
+      "qa": {
+        "16x16": {
+          "evidence": "The plane keeps its rightward silhouette while its wing folds soften.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The plane points right at the controller and the tag hole remains visible.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "An orange tag-hole paper plane points directly into a dark controller, with a clear white separation at its nose.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The orange pointed plane and white hole remain visible beside the controller.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The orange plane wings, tag hole and controller remain distinguishable.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-13"
+    }
+  ]
+}

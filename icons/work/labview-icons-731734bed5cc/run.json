@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "run_id": "dc288f1bd2ba4520b195f4b7f3e564ad",
+  "request": "Read signed 8-bit integer from tag buffer at offset",
+  "summary_name": "Read I8",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_I8.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-03T12:13:09.546015+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "i8-crane",
+      "concept_summary": "Crane lifts signed byte",
+      "prompt": "One SQUARE flat software icon on pure white for READING a signed 8 bit integer. Show a large dark navy CRANE HOOK above a large orange rectangular block, visibly lifting it. On the block write exactly I8 in EXTRA LARGE BOLD WHITE SANS-SERIF text. Capital I MUST have broad horizontal bars at top and bottom, so it cannot look like digit 1. Make I8 occupy almost the whole block and stay legible at 30x18. No other text, no arrows, no shadows, no monitor, no hand. Keep artwork within middle 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "crane above hanging labeled block",
+        "metaphor": "retrieval crane",
+        "objects": "crane hook, I8 value block",
+        "cue": "hook lifts value"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-01.png",
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The I8 block and suspension remain visible."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I8 and suspended block remain distinct."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Barred I and both orange counters of 8 remain distinguishable; hook softens."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The small hook and letter details soften."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A navy hook lifts an orange block labeled I8 with barred I."
+        }
+      },
+      "reviewed_sha256": "cfbf604052fcadc7fd60665ac15520e24795f357030bc38c22e1825bde84393e",
+      "salt": "jtvevz4dmi"
+    },
+    {
+      "concept_id": "i8-faucet",
+      "concept_summary": "Signed byte from valve",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 8-bit integer. Draw one large navy TAP with a short spout pointing downward. Below the spout hangs one large ORANGE ROUND DROPLET with white bold text I8 centered inside. The capital I has broad horizontal top and bottom bars, distinct from 1. I8 must be enormous and readable at 30x18. No other text, no arrows, no tag shape, no shadow. Use bold simplified shapes, central 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "navy tap above orange I8 droplet",
+        "metaphor": "valve extraction",
+        "objects": "valve and I8 droplet",
+        "cue": "value emerges from tap"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-02.png",
+      "qa": {
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The label is small within the droplet."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The faucet and label are visible."
+        },
+        "30x18": {
+          "correction": "Retire the droplet concept or make the label much larger and higher contrast.",
+          "result": "FAIL",
+          "evidence": "The eight counter spaces merge and I8 is not reliably readable in the small drop.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label disappears."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A navy faucet releases an orange I8 droplet."
+        }
+      },
+      "reviewed_sha256": "96ec24cbb5b9747a3e405c287b335f6dc63d71d9fb02b9a97e32d7b8965249a7"
+    },
+    {
+      "concept_id": "i8-magnet",
+      "concept_summary": "Magnet retrieves signed byte",
+      "prompt": "One SQUARE flat software icon on pure white for reading signed 8-bit data. On LEFT a large BLUE U-shaped HORSESHOE MAGNET opening to the right, on RIGHT one large ORANGE rectangular value tile being pulled toward it. On the tile write exactly I8 in very large bold white sans-serif letters. Capital I has wide horizontal top and bottom bars so it cannot resemble 1. Make I8 readable at 30x18. No other text, no arrows, no hand, no shadows. Art centered within middle 70 percent of square.",
+      "signature": {
+        "orientation": "horizontal",
+        "composition": "large U magnet left, orange labeled tile right",
+        "metaphor": "magnet retrieval",
+        "objects": "horseshoe magnet, I8 tile",
+        "cue": "value attracted to magnet"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-03.png",
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Magnet and readable I8 remain."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Barred I and 8 are distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The label, I crossbars and two 8 holes remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The 8 holes soften at stress size."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue horseshoe magnet attracts an orange I8 value tile."
+        }
+      },
+      "reviewed_sha256": "35d56915e0eee635877860c9bab03dde8286a148749dcfa8a1253c4b92d630b2",
+      "salt": "gztqxcfa8g"
+    },
+    {
+      "concept_id": "i8-display",
+      "concept_summary": "Display retrieved signed byte",
+      "prompt": "One SQUARE flat software icon on pure white for reading a signed 8-bit integer from a tag buffer. Draw a large wide dark navy DIGITAL DISPLAY with an orange screen. On the screen write exactly I8 in extra large bold WHITE text, with capital I having wide horizontal top and bottom bars so it cannot resemble digit 1. A thick BLUE DOWNWARD ARROW exits below the center of display to show reading an output value. Make I8 occupy most of the screen and remain legible at 30x18. No other text, no shadows, no tag. Keep all art within middle 70 percent of square.",
+      "signature": {
+        "objects": "display, output tile",
+        "composition": "wide navy monitor with large orange I8 inside and blue arrow exiting below",
+        "metaphor": "readout",
+        "cue": "value displayed on screen",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-04.png",
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I and both 8 holes survive."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Large I8 and arrow are clear."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I8 is readable and arrow points down from display."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Arrow and label remain but details soften."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A display shows I8 with a downward output arrow."
+        }
+      },
+      "reviewed_sha256": "4847619edc396b1992a90f4ec57117e0cabea2f295259de2fb93a0e8d1c134c3",
+      "salt": "k8bvdymdqh"
+    },
+    {
+      "concept_id": "i8-key",
+      "concept_summary": "Signed byte key extracted from buffer",
+      "prompt": "One SQUARE flat software icon on white for retrieving a signed 8-bit value. A large dark navy circular BUFFER SOCKET sits lower left. An oversized ORANGE KEY-SHAPED VALUE TILE angles upward right as though being removed from the socket, with a broad rectangular head holding huge WHITE I8. Capital I has prominent horizontal top and bottom bars, never a digit 1. Keep the letters and silhouette clear at 30x18. No other text, no arrows, no shadow, no monitor. Artwork inside central 70 percent of square.",
+      "signature": {
+        "orientation": "diagonal",
+        "composition": "orange I8 key diagonally outside blue socket",
+        "metaphor": "key retrieval",
+        "objects": "key-shaped value and buffer socket",
+        "cue": "value pulled from socket"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-05.png",
+      "qa": {
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The angled label is small."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I8 and key shape are visible."
+        },
+        "30x18": {
+          "correction": "Use an unrotated and larger I8 label.",
+          "result": "FAIL",
+          "evidence": "The angled I8 label is too small and softened to read reliably.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label loses detail."
+        },
+        "source": {
+          "correction": "Use a different extraction metaphor that does not resemble a key or lock.",
+          "result": "FAIL",
+          "evidence": "The key inserted in a socket suggests unlocking rather than reading a typed buffer value and risks confusion with Unlock.vi.",
+          "rule_id": "VIS-SEM-001"
+        }
+      },
+      "reviewed_sha256": "c2a37747054255eb514313a62c48a686e3e74c698cc09b6837687dd6c8923665"
+    },
+    {
+      "concept_id": "i8-ticket",
+      "concept_summary": "Signed byte dispensed from slot",
+      "prompt": "One SQUARE flat icon on pure white for reading a signed 8-bit value from a buffer. On the LEFT show one short thick NAVY VERTICAL DISPENSER SLOT. From that slot to the RIGHT emerges a very large horizontal ORANGE rectangular value ticket. On the ticket write exactly I8 in HUGE BOLD WHITE characters filling most of the ticket; the capital I has broad horizontal top and bottom bars to differ from digit 1. Entire I8 must be unmistakably legible at 30x18. No arrows, no other text, no tap, no key, no shadow, no hand. Keep the design within central 70 percent of square.",
+      "signature": {
+        "objects": "slot and labeled value ticket",
+        "orientation": "horizontal",
+        "cue": "I8 emerges from slot",
+        "composition": "blue vertical slot left, large orange horizontal I8 ticket emerging right",
+        "metaphor": "ticket dispense"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-06.png",
+      "qa": {
+        "source": {
+          "evidence": "A plain orange I8 rectangle attached to a blue vertical line resembles a flag; the promised dispenser and extraction are absent.",
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL",
+          "correction": "Use an explicit retrieval action and an unambiguous buffer object."
+        },
+        "16x16": {
+          "evidence": "Label survives with softened edges.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "I8 remains readable.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "I8 characters are large and clear.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The barred I and 8 are legible but the read action is absent.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "5e816bc4ea1fd968f1b6d37f6678b5782151246bb0a4fb2d823f4db2776b90c6"
+    },
+    {
+      "concept_id": "i8-lens",
+      "concept_summary": "Signed byte inspected under microscope",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 8-bit integer. Draw an enormous BOLD BLACK I8 centered across the LOWER HALF, clearly visible at 30x18. The capital I has wide horizontal bars at top and bottom and is visibly distinct from digit 1. Above the label draw a LARGE simplified BLUE MICROSCOPE angled down toward the I8, with one thick lens tube and a curved supporting arm; no eyes, no magnifying glass. Only the two characters I8, no other text or numbers. No shadows. Fit all artwork inside central 70 percent of square.",
+      "signature": {
+        "objects": "microscope objective and value label",
+        "orientation": "vertical",
+        "cue": "objective points to value",
+        "composition": "microscope above oversized I8 on white",
+        "metaphor": "microscope"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-07.png",
+      "qa": {
+        "source": {
+          "evidence": "A blue microscope sits above a large black I8 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Microscope outline survives while character detail softens.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The barred I and two 8 counters remain visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The microscope and both characters remain distinct.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Microscope profile and I8 remain identifiable, though the letters are tightly spaced.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "cc6c9b0daa95ad5bfc43e02fbf42dfe68c485952af1e0168ff18e350fddf577d",
+      "salt": "upfzl03fee"
+    },
+    {
+      "concept_id": "i8-pull-card",
+      "concept_summary": "Hand pulls signed byte from buffer",
+      "prompt": "One SQUARE flat software icon on pure white for reading a signed 8-bit value from a buffer. A LARGE ORANGE rectangular VALUE CARD dominates the top half and bears exactly I8 in HUGE BOLD WHITE letters. The capital I has very wide top and bottom bars so it cannot resemble digit 1. Below the card a simple BLUE HAND with thick thumb and fingers visibly pulls the card LEFT out of a DARK NAVY BUFFER SLOT on the right. Make the I8 occupy most of the whole icon and readable at 30x18. Only I8, no other lettering, no tag, no key, no eye, no arrows, no shadows. All art centered in middle 70 percent of square.",
+      "signature": {
+        "composition": "large orange I8 value above blue hand and navy buffer at right",
+        "metaphor": "hand extraction",
+        "orientation": "horizontal",
+        "objects": "buffer, hand, typed value",
+        "cue": "hand pulls I8 card"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-08.png",
+      "qa": {
+        "source": {
+          "evidence": "Blue hand holds an I8 card at a dark buffer slot.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "I8 and buffer remain distinct.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "I8 and hand remain recognizable.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Use an extraction layout without a hand and device in this arrangement.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "Blue hand at left, orange card in the middle, dark device at right duplicates Read Tag candidate 12 composition."
+        },
+        "16x16": {
+          "evidence": "The hand and label soften.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "2d5e49e2d2b86c9c4ecd4f26e76c6f3b5a42f2d4f23804e37e0cda32868de93c"
+    },
+    {
+      "concept_id": "i8-envelope",
+      "concept_summary": "Signed byte received in envelope",
+      "prompt": "One SQUARE flat software icon on pure white representing reading a signed 8-bit value from a buffer. The upper HALF contains enormous BOLD BLACK I8 text, with a capital I that has wide horizontal top and bottom bars and cannot look like 1. Below that label draw a very large simplified BLUE OPEN ENVELOPE with a crisp V-shaped opening, clearly containing the bottom of the value. This is a data value received as a message. Make I8 very large and clearly readable at 30x18. Only I8 characters, no other text, no hand, no tag, no device, no plus sign, no shadows. Keep all artwork centered within the central 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "cue": "I8 emerging from envelope",
+        "composition": "blue open envelope below black I8",
+        "metaphor": "message receipt",
+        "objects": "open envelope and typed value"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-731734bed5cc\\candidates\\candidate-09.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Barred I, two 8 counters, and envelope V are distinct.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Characters and envelope remain but edges soften.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "Large barred I8 emerges above the blue V of an open envelope, representing receipt.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Both 8 counters and barred I remain visible above the envelope V.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "I8 remains large with the envelope beneath.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "5fdf47cf8f19b736d1f9544aa1105b6e0592db2634617b9697b97dcf329305e1",
+      "salt": "0n6wyexvw0"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "i8-faucet",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The eight counter spaces merge and I8 is not reliably readable in the small drop.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Retire the droplet concept or make the label much larger and higher contrast.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "i8-key",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The angled I8 label is too small and softened to read reliably.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use an unrotated and larger I8 label.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "i8-key",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "The key inserted in a socket suggests unlocking rather than reading a typed buffer value and risks confusion with Unlock.vi.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a different extraction metaphor that does not resemble a key or lock.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The crane, faucet, magnet, display and key have different silhouettes, but the faucet label becomes unreadable and the key suggests unlock. Replacements are required before acceptance.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 2,
+      "concept_id": "i8-ticket",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A plain orange I8 rectangle attached to a blue vertical line resembles a flag; the promised dispenser and extraction are absent.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an explicit retrieval action and an unambiguous buffer object.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The ticket looks like a flag with no legible dispenser or read action. Microscope, crane, magnet and output display are distinct. Replace ticket and reassess.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "concept_id": "i8-pull-card",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Blue hand at left, orange card in the middle, dark device at right duplicates Read Tag candidate 12 composition.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use an extraction layout without a hand and device in this arrangement.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The blue hand pulling an orange card from a dark device repeats the same layout as Read Tag candidate 12; replace it and compare the final set.",
+      "retry_result": "PASS after comparison of the final selected set"
+    }
+  ],
+  "distinctness": {
+    "evidence": "Crane lifts a value block, message envelope receives a value, a magnet attracts a block, an output arrow exits a display, and a microscope inspects the type. These have different silhouettes; collection-wide typed and opposing-action comparisons remain pending.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-09",
+      "candidate-03",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "result": "PASS"
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned wfks17xkug.md",
+    "manifest.json",
+    "Read I8 option 1 1024x1024 jtvevz4dmi.png",
+    "Read I8 option 1 29x29 jtvevz4dmi.png",
+    "Read I8 option 1 30x18 jtvevz4dmi.png",
+    "Read I8 option 1 30x23 jtvevz4dmi.png",
+    "Read I8 option 1 jtvevz4dmi.ico",
+    "Read I8 option 2 0n6wyexvw0.ico",
+    "Read I8 option 2 1024x1024 0n6wyexvw0.png",
+    "Read I8 option 2 29x29 0n6wyexvw0.png",
+    "Read I8 option 2 30x18 0n6wyexvw0.png",
+    "Read I8 option 2 30x23 0n6wyexvw0.png",
+    "Read I8 option 3 1024x1024 gztqxcfa8g.png",
+    "Read I8 option 3 29x29 gztqxcfa8g.png",
+    "Read I8 option 3 30x18 gztqxcfa8g.png",
+    "Read I8 option 3 30x23 gztqxcfa8g.png",
+    "Read I8 option 3 gztqxcfa8g.ico",
+    "Read I8 option 4 1024x1024 k8bvdymdqh.png",
+    "Read I8 option 4 29x29 k8bvdymdqh.png",
+    "Read I8 option 4 30x18 k8bvdymdqh.png",
+    "Read I8 option 4 30x23 k8bvdymdqh.png",
+    "Read I8 option 4 k8bvdymdqh.ico",
+    "Read I8 option 5 1024x1024 upfzl03fee.png",
+    "Read I8 option 5 29x29 upfzl03fee.png",
+    "Read I8 option 5 30x18 upfzl03fee.png",
+    "Read I8 option 5 30x23 upfzl03fee.png",
+    "Read I8 option 5 upfzl03fee.ico"
+  ]
+}

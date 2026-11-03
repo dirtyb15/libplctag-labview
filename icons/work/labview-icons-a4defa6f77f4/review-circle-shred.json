@@ -1,0 +1,73 @@
+{
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "The X and bin remain provisionally distinct, but the prohibition sign suggests restriction and the horizontal shredder output does not show shreds. The old lightning draft is also failed.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-06",
+      "candidate-07",
+      "candidate-05"
+    ]
+  },
+  "candidates": [
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The red circle and diagonal slash remain dominant."
+        },
+        "source": {
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL",
+          "evidence": "A crossed-out tag inside a prohibition sign commonly means tags are forbidden or unavailable rather than an action to destroy an existing tag.",
+          "correction": "Use an explicit disposal action rather than a prohibition sign."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The prohibition sign remains clear but communicates restriction rather than destruction."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The circle, slash and tag remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The crossed-out tag remains recognizable."
+        }
+      },
+      "candidate_id": "candidate-06"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and red slot remain while the lower lines merge."
+        },
+        "source": {
+          "rule_id": "VIS-CONCEPT-002",
+          "result": "FAIL",
+          "evidence": "The three blue shapes below the slot are horizontal bars, not vertical shreds, so the illustration does not clearly show shredding.",
+          "correction": "Show three broad vertical strips hanging down from the slot, separated by clear gaps."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "evidence": "The horizontal lines merge and fail to convey shredding.",
+          "correction": "Show fewer broad vertical strips with clear white space."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Horizontal blue bars remain separate but resemble lines rather than shreds."
+        },
+        "30x23": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "evidence": "The horizontal bars look like a list under the slot rather than shredded fragments.",
+          "correction": "Make three short vertical strips with large gaps."
+        }
+      },
+      "candidate_id": "candidate-07"
+    }
+  ]
+}

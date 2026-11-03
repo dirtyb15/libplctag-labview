@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "run_id": "1303b984fdd9438498505dd793ec83f6",
+  "request": "writing into tag buffer F32 at offset",
+  "summary_name": "Set Float",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-9ce57fc9cb2e",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Set_Float.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-03T12:53:51.084651+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "buffer-arrow",
+      "concept_summary": "Typed buffer transfer",
+      "prompt": "One SQUARE flat software icon on white for writing into a tag buffer a value of datatype F32. Across the TOP place exactly F32 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label F32 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a large BLUE rectangular buffer and a bold ORANGE horizontal arrow pointing TOWARD the buffer. The arrow must clearly show data going into the buffer. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "buffer-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "into buffer",
+        "composition": "Below the type show a large BLUE rectangular buffer and a bold ORANGE horizontal arrow pointing TOWARD the buffer. The arrow must clearly show data going into the buffer.",
+        "orientation": "buffer-arrow"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-9ce57fc9cb2e\\candidates\\candidate-01.png",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "F32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "F32 appears above a rectangular buffer and inward rightward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "F, 6 and 4 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "F32 and the rectangular buffer and inward rightward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "reviewed_sha256": "5f89561c66ba43f9905a374202a68142da82a6d7ca172f0fa639f1e585137e88",
+      "salt": "jyhsx5xysp"
+    },
+    {
+      "concept_id": "cylinder-arrow",
+      "concept_summary": "Typed cylinder transfer",
+      "prompt": "One SQUARE flat software icon on white for writing into a tag buffer a value of datatype F32. Across the TOP place exactly F32 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label F32 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a large BLUE cylindrical buffer and a thick ORANGE vertical arrow pointing TOWARD the cylinder. Make arrow direction obvious for data going into the cylinder. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "cylinder-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "into buffer",
+        "composition": "Below the type show a large BLUE cylindrical buffer and a thick ORANGE vertical arrow pointing TOWARD the cylinder. Make arrow direction obvious for data going into the cylinder.",
+        "orientation": "cylinder-arrow"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-9ce57fc9cb2e\\candidates\\candidate-02.png",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "F32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "F32 appears above a cylindrical buffer and downward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "F, 6 and 4 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "F32 and the cylindrical buffer and downward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "reviewed_sha256": "f42c343595d95f41d15a693bde30ef47dc3f47e0eedb4257639bdc242ee729bc",
+      "salt": "74dab345gj"
+    },
+    {
+      "concept_id": "tray-arrow",
+      "concept_summary": "Typed tray transfer",
+      "prompt": "One SQUARE flat software icon on white for writing into a tag buffer a value of datatype F32. Across the TOP place exactly F32 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label F32 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a wide BLUE U-shaped tray and one large ORANGE vertical arrow pointing TOWARD the tray. The arrow visibly indicates data going into the tray. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "tray-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "into buffer",
+        "composition": "Below the type show a wide BLUE U-shaped tray and one large ORANGE vertical arrow pointing TOWARD the tray. The arrow visibly indicates data going into the tray.",
+        "orientation": "tray-arrow"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-9ce57fc9cb2e\\candidates\\candidate-03.png",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "F32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "F32 appears above a U-shaped tray and downward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "F, 6 and 4 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "F32 and the U-shaped tray and downward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "reviewed_sha256": "f1b74f0ff419d6f23103495dc9fe3211974d9939054ca8a6d71f2b6232a108dc",
+      "salt": "0zfvx4fxdx"
+    },
+    {
+      "concept_id": "card-arrow",
+      "concept_summary": "Typed card transfer",
+      "prompt": "One SQUARE flat software icon on white for writing into a tag buffer a value of datatype F32. Across the TOP place exactly F32 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label F32 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a simple BLUE card-shaped buffer at left and a thick ORANGE arrow pointing TOWARD the card, clearly indicating data going into it. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "card-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "into buffer",
+        "composition": "Below the type show a simple BLUE card-shaped buffer at left and a thick ORANGE arrow pointing TOWARD the card, clearly indicating data going into it.",
+        "orientation": "card-arrow"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-9ce57fc9cb2e\\candidates\\candidate-04.png",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "F32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "F32 appears above a lined card and inward leftward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "F, 6 and 4 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "F32 and the lined card and inward leftward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "reviewed_sha256": "a441f59d17d8ab5982f146b22b64e9fad54b2def648d66e62abb9add9d43d363",
+      "salt": "ug3796x0wl"
+    },
+    {
+      "concept_id": "socket-arrow",
+      "concept_summary": "Typed socket transfer",
+      "prompt": "One SQUARE flat software icon on white for writing into a tag buffer a value of datatype F32. Across the TOP place exactly F32 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label F32 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type draw a large BLUE circular buffer socket, plus a thick ORANGE diagonal arrow pointing TOWARD the socket. The arrow must visibly indicate data going into the socket. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "socket-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "into buffer",
+        "composition": "Below the type draw a large BLUE circular buffer socket, plus a thick ORANGE diagonal arrow pointing TOWARD the socket. The arrow must visibly indicate data going into the socket.",
+        "orientation": "socket-arrow"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-9ce57fc9cb2e\\candidates\\candidate-05.png",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "F32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "F32 appears above a circular socket and inward diagonal arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "F, 6 and 4 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "F32 and the circular socket and inward diagonal arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "reviewed_sha256": "73edd53147de02a29cf1fae9b2ca6aca3174ba7c079ecdf55e7f08de1db1a49a",
+      "salt": "rkk2kz0u7a"
+    }
+  ],
+  "failures": [],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "PASS",
+    "evidence": "The options use rectangle, cylinder, tray, lined card and socket with inward arrows; related silhouettes are allowed."
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "manifest.json",
+    "Set Float option 1 1024x1024 jyhsx5xysp.png",
+    "Set Float option 1 29x29 jyhsx5xysp.png",
+    "Set Float option 1 30x18 jyhsx5xysp.png",
+    "Set Float option 1 30x23 jyhsx5xysp.png",
+    "Set Float option 1 jyhsx5xysp.ico",
+    "Set Float option 2 1024x1024 74dab345gj.png",
+    "Set Float option 2 29x29 74dab345gj.png",
+    "Set Float option 2 30x18 74dab345gj.png",
+    "Set Float option 2 30x23 74dab345gj.png",
+    "Set Float option 2 74dab345gj.ico",
+    "Set Float option 3 0zfvx4fxdx.ico",
+    "Set Float option 3 1024x1024 0zfvx4fxdx.png",
+    "Set Float option 3 29x29 0zfvx4fxdx.png",
+    "Set Float option 3 30x18 0zfvx4fxdx.png",
+    "Set Float option 3 30x23 0zfvx4fxdx.png",
+    "Set Float option 4 1024x1024 ug3796x0wl.png",
+    "Set Float option 4 29x29 ug3796x0wl.png",
+    "Set Float option 4 30x18 ug3796x0wl.png",
+    "Set Float option 4 30x23 ug3796x0wl.png",
+    "Set Float option 4 ug3796x0wl.ico",
+    "Set Float option 5 1024x1024 rkk2kz0u7a.png",
+    "Set Float option 5 29x29 rkk2kz0u7a.png",
+    "Set Float option 5 30x18 rkk2kz0u7a.png",
+    "Set Float option 5 30x23 rkk2kz0u7a.png",
+    "Set Float option 5 rkk2kz0u7a.ico"
+  ]
+}

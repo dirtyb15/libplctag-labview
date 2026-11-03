@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "cue": "barred enclosure prevents access",
+    "composition": "upright blue barred cage with orange tag inside",
+    "metaphor": "secure enclosure",
+    "orientation": "vertical",
+    "objects": "cage and tag"
+  },
+  "concept_id": "lock-cage",
+  "concept_summary": "Tag secured inside cage",
+  "prompt": "One SQUARE flat icon on white for locking a PLC tag. Draw a large upright NAVY RECTANGULAR SECURITY CAGE with thick outer frame, top and bottom, and exactly TWO THICK VERTICAL BARS across it. Inside the cage behind the bars place a big ORANGE TAG with a white hole, visibly held inside. Use oversized simple shapes, broad gaps, no padlock, key, shield, hand, arrows, text or shadow. Cage and tag must be readable at 30x18. Keep artwork centered within the middle 70 percent of the square."
+}

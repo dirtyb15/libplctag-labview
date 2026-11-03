@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "The tag outline encloses a visible hash and B.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The hash opening and B counters survive in the horizontal tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Both characters and tag outline remain distinct.",
+          "result": "PASS"
+        },
+        "source": {
+          "result": "FAIL",
+          "correction": "Reduce the whole tag to the central 70 percent of the canvas while keeping the #B bold.",
+          "evidence": "The horizontal tag outline extends within about two percent of each side of the master, leaving cramped edge clearance.",
+          "rule_id": "VIS-MARGIN-005"
+        },
+        "16x16": {
+          "evidence": "The hash and B soften but the outlined tag silhouette remains.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-17"
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "evidence": "Horizontal and vertical measurement arrows, separate block count, tag over underlined count, and count enclosed in a horizontal tag use different outlines and layouts.",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-11",
+      "candidate-12",
+      "candidate-13",
+      "candidate-17"
+    ]
+  }
+}

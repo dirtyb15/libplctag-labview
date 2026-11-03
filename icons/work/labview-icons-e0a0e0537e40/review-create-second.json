@@ -1,0 +1,69 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The arrowhead is indistinguishable from the dark tag, obscuring the formation action.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Use a large contrasting arrowhead with white clearance."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The configuration sliders are recognizable but the arrow is small."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Two orange configuration sliders point diagonally toward a new blue tag."
+        },
+        "30x23": {
+          "result": "FAIL",
+          "evidence": "The diagonal arrow is narrow and its tip blends with the dark tag.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Enlarge the arrowhead and separate it from the tag with a wide white gap."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The configuration and tag remain while the arrow softens."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-09",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The plus shape and tag hole survive at the smallest required size."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both plus and tag remain clear and separate."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large green plus is separate above an orange horizontal tag with a white hole."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The green plus and tag remain recognizable."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The plus and orange tag remain distinguishable."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "The inset plus and large separate plus above tag use different structures; the configuration arrow is too small and the remaining old concepts are failed. Compare future options and destroy icons before final acceptance.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-08",
+      "candidate-09",
+      "candidate-04",
+      "candidate-05"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "composition": "controller right, tag emerging left into hand",
+    "metaphor": "manual extraction",
+    "cue": "hand grasps tag exiting PLC",
+    "objects": "hand, tag, controller",
+    "orientation": "horizontal"
+  },
+  "prompt": "One SQUARE flat software icon on white representing reading a tag from a PLC. At right draw a large simple NAVY rectangular industrial controller with a large white display and two broad module divisions. At left a simple BLUE hand grips an ORANGE tag that protrudes out of the controller LEFTWARD, visibly pulling it away. The tag has a large white hole. Use three simple large shapes and obvious leftward extraction; no arrow, text, wireless symbols, tiny detail or shadows. Keep all art within central 70 percent of square canvas, with broad white margins. Must be recognizable at 30x18 pixels.",
+  "concept_summary": "Pull tag out of PLC",
+  "concept_id": "read-pull-tab"
+}

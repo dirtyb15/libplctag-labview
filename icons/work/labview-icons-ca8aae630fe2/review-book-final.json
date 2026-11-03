@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Book silhouette and tag remain separate."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Book outline, spine, tag and hole are clear."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An open navy book contains a large orange tag on its right page."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The book and tag remain visible while the hole softens."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The two page outlines, spine and tag remain recognizable."
+        }
+      },
+      "candidate_id": "candidate-16"
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-14",
+      "candidate-15",
+      "candidate-16",
+      "candidate-07"
+    ],
+    "evidence": "Hand pulling from controller, scanner and beam, radio receiver, open book, and downward arrow to tray have different structures. Comparison with the entire collection remains pending.",
+    "result": "PASS"
+  }
+}

@@ -52,7 +52,8 @@
           "evidence": "The dropdown and main cues survive; chevron detail is coarser."
         }
       },
-      "reviewed_sha256": "3d352af36ff071c34d2e2569b0be35ef7c91d8b7187d092f564b3c406a1a860f"
+      "reviewed_sha256": "3d352af36ff071c34d2e2569b0be35ef7c91d8b7187d092f564b3c406a1a860f",
+      "salt": "qvy8537m0z"
     },
     {
       "concept_id": "selected-list",
@@ -91,7 +92,8 @@
           "evidence": "List structure survives; black I has reduced contrast."
         }
       },
-      "reviewed_sha256": "a568c41c8f3bcc11679b44f2ae7f5e7dd26b5bb974c122d9516b1fffc5ae53d3"
+      "reviewed_sha256": "a568c41c8f3bcc11679b44f2ae7f5e7dd26b5bb974c122d9516b1fffc5ae53d3",
+      "salt": "6vgrer74gl"
     },
     {
       "concept_id": "type-dial",
@@ -217,7 +219,8 @@
           "evidence": "The tile and I survive; cursor detail becomes coarser."
         }
       },
-      "reviewed_sha256": "040c6b80a0c993ae142eceab0e46a20a592d46eb97dfb47d9f40fdc116f46e9a"
+      "reviewed_sha256": "040c6b80a0c993ae142eceab0e46a20a592d46eb97dfb47d9f40fdc116f46e9a",
+      "salt": "k1cpu38y4o"
     },
     {
       "concept_id": "type-dial",
@@ -256,7 +259,8 @@
           "evidence": "Dial, I and pointer remain, while the small arc divisions merge."
         }
       },
-      "reviewed_sha256": "8cb895ccd74ccf93a3b00664a7e2e21b15eab7f91fbe31e3d5acc33f795c6b99"
+      "reviewed_sha256": "8cb895ccd74ccf93a3b00664a7e2e21b15eab7f91fbe31e3d5acc33f795c6b99",
+      "salt": "ytn8c0mt8k"
     },
     {
       "concept_id": "cycle-type",
@@ -312,7 +316,8 @@
           "evidence": "The central I and opposing triangles survive; edges are coarse."
         }
       },
-      "reviewed_sha256": "11544a12f347606943063cd273515e0ff7970e3742b63828ce9e8349b4b9e989"
+      "reviewed_sha256": "11544a12f347606943063cd273515e0ff7970e3742b63828ce9e8349b4b9e989",
+      "salt": "1ugn22pl67"
     }
   ],
   "failures": [
@@ -327,7 +332,8 @@
       "observed_problem": "At 30x18 the pointer merges into the ring, leaving a barred I in a circle that resembles an information symbol.",
       "measured_value": "30x18",
       "corrective_instruction": "Use a much larger separated dial pointer and visible tick positions to convey an adjustable selector.",
-      "likely_cause_hypothesis": "The dial pointer is too small and lacks separation from the ring."
+      "likely_cause_hypothesis": "The dial pointer is too small and lacks separation from the ring.",
+      "retry_result": "PASS after review of candidate-06"
     },
     {
       "candidate_id": "candidate-04",
@@ -340,7 +346,8 @@
       "observed_problem": "The intended datatype tile is invisible; a barred I sits alone between two outward arrows and suggests distribution rather than a selector.",
       "measured_value": "source",
       "corrective_instruction": "Enclose the I in a solid high-contrast tile and make large side arrows read as navigation controls.",
-      "likely_cause_hypothesis": "The white tile has no edge against the white background."
+      "likely_cause_hypothesis": "The white tile has no edge against the white background.",
+      "retry_result": "PASS after review of candidate-08"
     },
     {
       "candidate_id": "candidate-04",
@@ -353,13 +360,15 @@
       "observed_problem": "The unframed I and outward arrows do not clearly represent selection or cycling.",
       "measured_value": "30x18",
       "corrective_instruction": "Add a clear colored tile behind the I and separated navigation arrow buttons.",
-      "likely_cause_hypothesis": "The requested tile disappears against the background."
+      "likely_cause_hypothesis": "The requested tile disappears against the background.",
+      "retry_result": "PASS after review of candidate-08"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The list, dropdown, dial, flanking arrows and cursor have distinct layouts, but the dial can be mistaken for an information symbol and the arrows lost their tile. Replace the failed images and compare the final selected five again."
+      "observed_problem": "The list, dropdown, dial, flanking arrows and cursor have distinct layouts, but the dial can be mistaken for an information symbol and the arrows lost their tile. Replace the failed images and compare the final selected five again.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
@@ -373,5 +382,35 @@
     ],
     "evidence": "The five actual previews use distinct structures: a horizontal dropdown with down chevron, a stacked list with highlighted row, a round dial with pointer and arc, a square tile between opposite navigation buttons, and a tile touched by a diagonal cursor. These differ in layout and selection cue at 30x18. This is within-set review only; collection-wide review remains outstanding."
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "Datatype option 1 1024x1024 qvy8537m0z.png",
+    "Datatype option 1 29x29 qvy8537m0z.png",
+    "Datatype option 1 30x18 qvy8537m0z.png",
+    "Datatype option 1 30x23 qvy8537m0z.png",
+    "Datatype option 1 qvy8537m0z.ico",
+    "Datatype option 2 1024x1024 6vgrer74gl.png",
+    "Datatype option 2 29x29 6vgrer74gl.png",
+    "Datatype option 2 30x18 6vgrer74gl.png",
+    "Datatype option 2 30x23 6vgrer74gl.png",
+    "Datatype option 2 6vgrer74gl.ico",
+    "Datatype option 3 1024x1024 ytn8c0mt8k.png",
+    "Datatype option 3 29x29 ytn8c0mt8k.png",
+    "Datatype option 3 30x18 ytn8c0mt8k.png",
+    "Datatype option 3 30x23 ytn8c0mt8k.png",
+    "Datatype option 3 ytn8c0mt8k.ico",
+    "Datatype option 4 1024x1024 1ugn22pl67.png",
+    "Datatype option 4 1ugn22pl67.ico",
+    "Datatype option 4 29x29 1ugn22pl67.png",
+    "Datatype option 4 30x18 1ugn22pl67.png",
+    "Datatype option 4 30x23 1ugn22pl67.png",
+    "Datatype option 5 1024x1024 k1cpu38y4o.png",
+    "Datatype option 5 29x29 k1cpu38y4o.png",
+    "Datatype option 5 30x18 k1cpu38y4o.png",
+    "Datatype option 5 30x23 k1cpu38y4o.png",
+    "Datatype option 5 k1cpu38y4o.ico",
+    "lessonsLearned flkasfbkdx.md",
+    "manifest.json"
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "prompt": "Make one SQUARE flat icon on pure white for reading a signed 16-bit value from a buffer. Show a large black I16 across the upper half, first character capital I with broad top and bottom bars and clear separate spacing from the digit 1; leave equally visible gap between 1 and 6. In the lower half put a short navy horizontal buffer block on the RIGHT and a very thick orange arrow pointing LEFT away from it. The arrowhead is big, unmistakable, and separated from the block. The label and arrow must be readable at 30 by 18 pixels. Keep the whole icon within the central 70 percent of the white canvas, no extra text, no shadow.",
+  "concept_id": "i16-left-exit",
+  "signature": {
+    "composition": "I16 above left-pointing arrow leaving buffer at right",
+    "orientation": "horizontal-left",
+    "metaphor": "buffer extraction",
+    "objects": "I16, left arrow, buffer",
+    "cue": "leftward extraction"
+  },
+  "concept_summary": "Signed value exits to left"
+}

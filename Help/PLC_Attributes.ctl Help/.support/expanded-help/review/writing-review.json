@@ -1,0 +1,2361 @@
+{
+  "schema_version": 2,
+  "snapshot_sha256": "be79fc0b9850341cd4ae769cc1e90dea2686e39164132ac93052d6de589b286b",
+  "policy_sha256": "4a5aac9b9225cbd38c652e41646f1e7037b7cfc36bfc9d748b6f34eefa0bdced",
+  "revision_history_sha256": "0d0a83e5daed00a0b8858e4e12c31b17a6c4ea4bfd3979d0a66e66c5269b8a51",
+  "rewrite_batches_used": 2,
+  "revision_reviews": [
+    {
+      "id": "bf153a39466d6c7cb7a3",
+      "batch": 1,
+      "source_archive": "4c2e27a616e6a8bb8b76f3eaeee4c38db0a537e08c3a4ee619461ff82ba91fab",
+      "source_archive_sha256": "33b1a3860ea2c10701f17769479fd45f0345a391a40edc2538e0d314e0c288af",
+      "source_snapshot_sha256": "6e66e9ef19b44aecee62bfe6c4d7955843241619bac55d3f318f4891e55a8091",
+      "source_artifact_sha256": "8eab95f3f2fec336815e8a08eda2e4bfd836c9b80dfaa3a980f8f67e600dc397",
+      "source_section_id": "section-5",
+      "source_unit_id": "unit-20",
+      "original_text": "The field label cpu refers to the PLC's central processing unit, but the value selects a family rather than an exact catalog number. The C lookup compares the following recognized family names without regard to letter case. The saved dropdown contains six entries:",
+      "original_method": "approachable-fk/2.0",
+      "original_counts": {
+        "words": 37,
+        "sentences": 2,
+        "syllables": 64,
+        "estimated_grade": 12.04
+      },
+      "current_unit_ids": [
+        "unit-20"
+      ],
+      "clarity_problem": "The passage combined the named component with several dependent roles in a long sentence.",
+      "change_description": "Give the component identity its own sentence, then explain its role and consequence.",
+      "preserved_facts": [
+        "cpu selects a controller family rather than a catalog number; matching is case-insensitive and the menu has six entries."
+      ],
+      "source_references": [
+        "inspection-0.json",
+        "inspection-1.json",
+        "evidence.json"
+      ],
+      "technical_integrity_review": {
+        "status": "PASS",
+        "reason": "Compared the rewritten sentences with the archived passage and the control/VI reads; all identities, roles and conditions are preserved."
+      }
+    },
+    {
+      "id": "ca4b10de973b8f7f4f40",
+      "batch": 2,
+      "source_archive": "2117b4d0ba070c8c21e44576872eef3aade575620295b828ad3a9200d49d1f20",
+      "source_archive_sha256": "d03b2e8890be243a137dfa954f2cab87e3b95ac1438eeb0652add713eda44818",
+      "source_snapshot_sha256": "319dd6f624b1e649c1efb1a55dffffe79a28efcd503dad3af06bbc9e9b11b353",
+      "source_artifact_sha256": "a9253012d53fa4aa575dd73b2f95bf9162070c80bde4976088a53c12a061f1b8",
+      "source_section_id": "section-1",
+      "source_unit_id": "unit-1",
+      "original_text": "PLC_Attributes.ctl describes which controller to reach and which value to access inside it. A programmable logic controller (PLC) runs the logic for a machine or process. The LabVIEW virtual instrument (VI) Create_Tag.vi uses this cluster to create a library tag: a software object that holds the connection settings and a local copy of the requested data.",
+      "original_method": "approachable-fk/2.0",
+      "original_counts": {
+        "words": 60,
+        "sentences": 3,
+        "syllables": 101,
+        "estimated_grade": 12.07
+      },
+      "current_unit_ids": [
+        "unit-1"
+      ],
+      "clarity_problem": "The passage combined the named component with several dependent roles in a long sentence.",
+      "change_description": "Give the component identity its own sentence, then explain its role and consequence.",
+      "preserved_facts": [
+        "PLC_Attributes selects the controller and data; a PLC runs machine logic; Create_Tag.vi consumes the cluster and creates a library tag with settings and a local data copy."
+      ],
+      "source_references": [
+        "inspection-0.json",
+        "inspection-1.json",
+        "evidence.json"
+      ],
+      "technical_integrity_review": {
+        "status": "PASS",
+        "reason": "Compared the rewritten sentences with the archived passage and the control/VI reads; all identities, roles and conditions are preserved."
+      }
+    }
+  ],
+  "reviewer": "Codex",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Purpose and scope",
+      "content_sha256": "173e1d06531d6dc08cf810f2586a3211c8bfcc5547ee21030e069081b4ad81fe",
+      "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The string/menu distinction is the main new concept; it follows the plain-language purpose and avoids implying that a saved label guarantees native support."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The string/menu distinction is the main new concept; it follows the plain-language purpose and avoids implying that a saved label guarantees native support."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The string/menu distinction is the main new concept; it follows the plain-language purpose and avoids implying that a saved label guarantees native support."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The string/menu distinction is the main new concept; it follows the plain-language purpose and avoids implying that a saved label guarantees native support."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The string/menu distinction is the main new concept; it follows the plain-language purpose and avoids implying that a saved label guarantees native support."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "M4": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "P4": {
+          "status": "N_A",
+          "reason": "This explanatory section has no separate execution result to verify; the connection procedure defines checks."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The fresh control read supplies all eight string types and defaults; the wrapper read proves how the cluster is consumed."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The fresh control read supplies all eight string types and defaults; the wrapper read proves how the cluster is consumed."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The fresh control read supplies all eight string types and defaults; the wrapper read proves how the cluster is consumed."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The fresh control read supplies all eight string types and defaults; the wrapper read proves how the cluster is consumed."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-3",
+        "excerpt": "All eight fields store strings, including the numbers. Four have dropdown suggestions: protocol, path, cpu, and debug level. These are string combo boxes, not LabVIEW numeric enums. Their menu entries are listed below. The C library decides whether a string is valid; an entry in the menu does not prove support.",
+        "reason": "The string/menu distinction is the main new concept; it follows the plain-language purpose and avoids implying that a saved label guarantees native support."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The string/menu distinction is the main new concept; it follows the plain-language purpose and avoids implying that a saved label guarantees native support."
+      },
+      "screening_resolutions": {}
+    },
+    {
+      "id": "section-2",
+      "title": "How the fields work together",
+      "content_sha256": "a68ac6e19ca5942b4cf5d1d578216e4faf8f1ab83e1526d530699027a5f21015",
+      "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "Each field gets one role before the next field is introduced. The concrete Logix and SLC names then distinguish data naming from network routing."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "Each field gets one role before the next field is introduced. The concrete Logix and SLC names then distinguish data naming from network routing."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "Each field gets one role before the next field is introduced. The concrete Logix and SLC names then distinguish data naming from network routing."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "Each field gets one role before the next field is introduced. The concrete Logix and SLC names then distinguish data naming from network routing."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "Each field gets one role before the next field is introduced. The concrete Logix and SLC names then distinguish data naming from network routing."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "P4": {
+          "status": "N_A",
+          "reason": "This explanatory section has no separate execution result to verify; the connection procedure defines checks."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The Create_Tag wiring and AB session construction support the endpoint-to-route-to-data model."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The Create_Tag wiring and AB session construction support the endpoint-to-route-to-data model."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The Create_Tag wiring and AB session construction support the endpoint-to-route-to-data model."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The Create_Tag wiring and AB session construction support the endpoint-to-route-to-data model."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-5",
+        "excerpt": "Think of the settings as a delivery address. gatewayIP is the first Ethernet device LabVIEW reaches. Its Internet Protocol (IP) address identifies that endpoint. path gives further directions through that device, if needed. cpu tells the library which controller family is at the destination. tag name identifies the data within that controller.",
+        "reason": "Each field gets one role before the next field is introduced. The concrete Logix and SLC names then distinguish data naming from network routing."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. Each field gets one role before the next field is introduced. The concrete Logix and SLC names then distinguish data naming from network routing."
+      },
+      "screening_resolutions": {
+        "a4d96ff8233f14957acb": {
+          "status": "RESOLVED",
+          "reason": "SLC 500 is the exact controller-family product name, identified as a PLC family that uses typed data-file addresses."
+        },
+        "c810ca8722636a2dd7d2": {
+          "status": "RESOLVED",
+          "reason": "N7 is an exact SLC file address, explained by type, file number and element number in the naming section."
+        }
+      }
+    },
+    {
+      "id": "section-3",
+      "title": "Fields and saved values",
+      "content_sha256": "2fffb86c62543b8267a196e4c942b0a4ae5de172c82a981831f7b376e5c0c7af",
+      "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The size row carries the most detail. It starts with byte size and simple N/F examples, then explains newer size discovery and the older allocation rule."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The size row carries the most detail. It starts with byte size and simple N/F examples, then explains newer size discovery and the older allocation rule."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The size row carries the most detail. It starts with byte size and simple N/F examples, then explains newer size discovery and the older allocation rule."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The size row carries the most detail. It starts with byte size and simple N/F examples, then explains newer size discovery and the older allocation rule."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The size row carries the most detail. It starts with byte size and simple N/F examples, then explains newer size discovery and the older allocation rule."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "P4": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "Saved defaults match read_ctl; the current VI trims all eight and emits the keys shown. The local AB C code supports sizing and family dispatch."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "Saved defaults match read_ctl; the current VI trims all eight and emits the keys shown. The local AB C code supports sizing and family dispatch."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "Saved defaults match read_ctl; the current VI trims all eight and emits the keys shown. The local AB C code supports sizing and family dispatch."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "Saved defaults match read_ctl; the current VI trims all eight and emits the keys shown. The local AB C code supports sizing and family dispatch."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-14",
+        "excerpt": "element sizeelem_size | Empty | Byte size of one value, expressed as decimal text. Typical values are 2 for a 16-bit integer and 4 for a 32-bit integer or single-precision float. Thus, SLC N7:0 uses 2 bytes and F8:0 uses 4; Logix DINT and REAL both use 4 but need different getters.Use the true PLC type. The newer Logix code learns the size during its initial read, and the newer SLC code derives it from the file address. The older Logix code may need this field to allocate the buffer. Supplying the correct explicit size is useful for these simple scalar examples. It is not a way to force a type change.",
+        "reason": "The size row carries the most detail. It starts with byte size and simple N/F examples, then explains newer size discovery and the older allocation rule."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The size row carries the most detail. It starts with byte size and simple N/F examples, then explains newer size discovery and the older allocation rule."
+      },
+      "screening_resolutions": {
+        "0774f003bedc68fe42e0": {
+          "status": "RESOLVED",
+          "reason": "Data Highway Plus (DH+) is expanded; the screen drops the plus sign."
+        },
+        "becb570b56573ffa1297": {
+          "status": "RESOLVED",
+          "reason": "1756-EN2T is an exact hardware catalog name, identified as an Ethernet module."
+        },
+        "8b9b244a562998b526e2": {
+          "status": "RESOLVED",
+          "reason": "LGX is an exact saved family alias, explained in both the field and choice tables."
+        },
+        "ae883a913cf2e710a0a9": {
+          "status": "RESOLVED",
+          "reason": "F8 is an exact SLC float-file identifier, explained with the element example."
+        },
+        "66b3af311e309f47976c": {
+          "status": "RESOLVED",
+          "reason": "DINT is retained as the exact Logix type label; its signed 32-bit width appears in the size table."
+        },
+        "f4aa37579e8d84fb1b0f": {
+          "status": "RESOLVED",
+          "reason": "REAL is the exact Logix type label; it is explained as a 32-bit single-precision float."
+        },
+        "697e679f5a585941d74d": {
+          "status": "RESOLVED",
+          "reason": "B3 is an exact SLC binary-file address; the row explains word and bit selection."
+        },
+        "405a534c5c1994d84868": {
+          "status": "RESOLVED",
+          "reason": "NONE is an exact case-sensitive wrapper sentinel, not an acronym requiring expansion."
+        }
+      }
+    },
+    {
+      "id": "section-4",
+      "title": "Protocol choices",
+      "content_sha256": "d274ab6dd882a830dbeb48fac02ea771e8491c88536c526aab4fd59fbe0a4369",
+      "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The paragraph explains that Modbus changes the meanings of route and name before directing the reader to its separate rules."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The paragraph explains that Modbus changes the meanings of route and name before directing the reader to its separate rules."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The paragraph explains that Modbus changes the meanings of route and name before directing the reader to its separate rules."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The paragraph explains that Modbus changes the meanings of route and name before directing the reader to its separate rules."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The paragraph explains that Modbus changes the meanings of route and name before directing the reader to its separate rules."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "P4": {
+          "status": "N_A",
+          "reason": "This explanatory section has no separate execution result to verify; the connection procedure defines checks."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The saved menu contains ab-eip; libplctag documents the underscore alias and separate Modbus attribute meanings."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The saved menu contains ab-eip; libplctag documents the underscore alias and separate Modbus attribute meanings."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The saved menu contains ab-eip; libplctag documents the underscore alias and separate Modbus attribute meanings."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The saved menu contains ab-eip; libplctag documents the underscore alias and separate Modbus attribute meanings."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-19",
+        "excerpt": "The C project also has a Modbus driver over Transmission Control Protocol (TCP). Its path means a unit identifier, and its names identify coils or registers. That is a different configuration: changing only protocol does not adapt these Allen-Bradley settings. See the protocol-specific rules in the libplctag attribute guide.",
+        "reason": "The paragraph explains that Modbus changes the meanings of route and name before directing the reader to its separate rules."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The paragraph explains that Modbus changes the meanings of route and name before directing the reader to its separate rules."
+      },
+      "screening_resolutions": {}
+    },
+    {
+      "id": "section-5",
+      "title": "Controller family: saved dropdown choices",
+      "content_sha256": "23febd7cf2402e3dbe783cda24a7c269faa1fa19766d579e6fd4349c08ec225c",
+      "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The CGLX row makes the letter-order error visible and gives the full accepted spelling, so the user does not need to infer a correction."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The CGLX row makes the letter-order error visible and gives the full accepted spelling, so the user does not need to infer a correction."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The CGLX row makes the letter-order error visible and gives the full accepted spelling, so the user does not need to infer a correction."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The CGLX row makes the letter-order error visible and gives the full accepted spelling, so the user does not need to infer a correction."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The CGLX row makes the letter-order error visible and gives the full accepted spelling, so the user does not need to infer a correction."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "P4": {
+          "status": "N_A",
+          "reason": "This explanatory section has no separate execution result to verify; the connection procedure defines checks."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The extracted six menu values were compared with get_plc_type in the local C code and the pinned 2.7.2 source."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The extracted six menu values were compared with get_plc_type in the local C code and the pinned 2.7.2 source."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The extracted six menu values were compared with get_plc_type in the local C code and the pinned 2.7.2 source."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The extracted six menu values were compared with get_plc_type in the local C code and the pinned 2.7.2 source."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-24",
+        "excerpt": "CGLX | Not recognized by the checked 2.7.2 lookup or current local C lookup. The accepted alias is clgx, with the letters in a different order. Prefer the clearer compactlogix.",
+        "reason": "The CGLX row makes the letter-order error visible and gives the full accepted spelling, so the user does not need to infer a correction."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The CGLX row makes the letter-order error visible and gives the full accepted spelling, so the user does not need to infer a correction."
+      },
+      "screening_resolutions": {
+        "765f19721ca44bf5c97d": {
+          "status": "RESOLVED",
+          "reason": "CGLX is the exact unsupported saved menu string and is compared with the accepted clgx alias."
+        },
+        "c1d465c7f89bcc3a3e9a": {
+          "status": "RESOLVED",
+          "reason": "FLGX is an exact unsupported menu string, with its lack of C lookup support explained."
+        }
+      }
+    },
+    {
+      "id": "section-6",
+      "title": "Other family values accepted by the C lookup",
+      "content_sha256": "7fe85ca52c7990d97265486065a1bfe36b14905f4020b7c01ae5b2594cf050da",
+      "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The PCCC row expands the term and explains that it needs data-table mapping before advising native Logix access for symbolic tags."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The PCCC row expands the term and explains that it needs data-table mapping before advising native Logix access for symbolic tags."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The PCCC row expands the term and explains that it needs data-table mapping before advising native Logix access for symbolic tags."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The PCCC row expands the term and explains that it needs data-table mapping before advising native Logix access for symbolic tags."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The PCCC row expands the term and explains that it needs data-table mapping before advising native Logix access for symbolic tags."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "P4": {
+          "status": "N_A",
+          "reason": "This explanatory section has no separate execution result to verify; the connection procedure defines checks."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "All accepted aliases match get_plc_type. No model-specific Omron or generic recipe is claimed, and the always-emitted path constraint is disclosed."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "All accepted aliases match get_plc_type. No model-specific Omron or generic recipe is claimed, and the always-emitted path constraint is disclosed."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "All accepted aliases match get_plc_type. No model-specific Omron or generic recipe is claimed, and the always-emitted path constraint is disclosed."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "All accepted aliases match get_plc_type. No model-specific Omron or generic recipe is claimed, and the always-emitted path constraint is disclosed."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-36",
+        "excerpt": "logixpccc, lgxpccc, lgxplc5, logixplc5, lgx-pccc, logix-pccc, lgx-plc5, logix-plc5 | Logix through its older PLC-5-style data access. PCCC means Programmable Controller Communication Commands. This mode needs PLC/SLC data-table mapping in the Logix project. Use native controllogix for ordinary symbolic tags.",
+        "reason": "The PCCC row expands the term and explains that it needs data-table mapping before advising native Logix access for symbolic tags."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The PCCC row expands the term and explains that it needs data-table mapping before advising native Logix access for symbolic tags."
+      },
+      "screening_resolutions": {
+        "c470c6be52b208308735": {
+          "status": "RESOLVED",
+          "reason": "Programmable Controller Communication Commands (PCCC) is expanded in the family row."
+        },
+        "388fbd8625282b52f9eb": {
+          "status": "RESOLVED",
+          "reason": "NJ is an Omron product-family designation, not a term whose expansion should be invented."
+        },
+        "562eb441d419e2fcd605": {
+          "status": "RESOLVED",
+          "reason": "NX is an Omron product-family designation, with the family identified."
+        }
+      }
+    },
+    {
+      "id": "section-7",
+      "title": "Understanding path",
+      "content_sha256": "0cf6d60253aebf19b4381da3b03b99da04f7905f857cd1eb07d2f95c26365039",
+      "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The multi-hop route is traced in travel order from a stated gateway. The following sentence requires confirmation of the assumed port map."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The multi-hop route is traced in travel order from a stated gateway. The following sentence requires confirmation of the assumed port map."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The multi-hop route is traced in travel order from a stated gateway. The following sentence requires confirmation of the assumed port map."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The multi-hop route is traced in travel order from a stated gateway. The following sentence requires confirmation of the assumed port map."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The multi-hop route is traced in travel order from a stated gateway. The following sentence requires confirmation of the assumed port map."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "P4": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The local cip parser supports numeric pairs, IPv4 segments and the special final A/B DH+ segment; Rockwell manuals establish chassis/bridge roles."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The local cip parser supports numeric pairs, IPv4 segments and the special final A/B DH+ segment; Rockwell manuals establish chassis/bridge roles."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The local cip parser supports numeric pairs, IPv4 segments and the special final A/B DH+ segment; Rockwell manuals establish chassis/bridge roles."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The local cip parser supports numeric pairs, IPv4 segments and the special final A/B DH+ segment; Rockwell manuals establish chassis/bridge roles."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-61",
+        "excerpt": "A longer route can cross more than one chassis or network. For example, 1,4,2,10.20.30.40,1,0 describes this assumed layout: cross the first backplane to an Ethernet bridge in slot 4; leave its port 2 for address 10.20.30.40; then cross that device's backplane to slot 0. This is a route example, not a universal port map. Confirm each module's port numbers and routing support.",
+        "reason": "The multi-hop route is traced in travel order from a stated gateway. The following sentence requires confirmation of the assumed port map."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The multi-hop route is traced in travel order from a stated gateway. The following sentence requires confirmation of the assumed port map."
+      },
+      "screening_resolutions": {
+        "b73191e41695849aec07": {
+          "status": "RESOLVED",
+          "reason": "The multi-hop example is one ordered journey; semicolons separate each hop, and the next sentence explicitly requires checking the assumed port map."
+        },
+        "c41bbc9bcc5e9394ec74": {
+          "status": "RESOLVED",
+          "reason": "1756-DHRIO is the exact bridge-module catalog name; its chassis-to-DH+ role is explained."
+        }
+      }
+    },
+    {
+      "id": "section-8",
+      "title": "Tag names and data-file addresses",
+      "content_sha256": "9cff22daad759cf589785b91b56889c22c333d743f9de4c2a034de4c35edbd85",
+      "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "File number, element number and type are explained in a concrete N7:0 example before bit-address and byte-access examples."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "File number, element number and type are explained in a concrete N7:0 example before bit-address and byte-access examples."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "File number, element number and type are explained in a concrete N7:0 example before bit-address and byte-access examples."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "File number, element number and type are explained in a concrete N7:0 example before bit-address and byte-access examples."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "File number, element number and type are explained in a concrete N7:0 example before bit-address and byte-access examples."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "P4": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The PCCC parser and SLC manual support file addresses. Rockwell data-access guidance supports External Access restrictions and structure-member limits."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The PCCC parser and SLC manual support file addresses. Rockwell data-access guidance supports External Access restrictions and structure-member limits."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The PCCC parser and SLC manual support file addresses. Rockwell data-access guidance supports External Access restrictions and structure-member limits."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The PCCC parser and SLC manual support file addresses. Rockwell data-access guidance supports External Access restrictions and structure-member limits."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-69",
+        "excerpt": "SLC example | Meaning | Typical local access",
+        "reason": "File number, element number and type are explained in a concrete N7:0 example before bit-address and byte-access examples."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. File number, element number and type are explained in a concrete N7:0 example before bit-address and byte-access examples."
+      },
+      "screening_resolutions": {}
+    },
+    {
+      "id": "section-9",
+      "title": "Element size, count and local byte offsets",
+      "content_sha256": "ba1cd7112252d046630d163189df598a925c6db7303f3ddab90e80110fc611dc",
+      "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The version paragraph separates initial Logix discovery from parsed SLC sizes and the older empty-size failure. Earlier rows establish the simple types first."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The version paragraph separates initial Logix discovery from parsed SLC sizes and the older empty-size failure. Earlier rows establish the simple types first."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The version paragraph separates initial Logix discovery from parsed SLC sizes and the older empty-size failure. Earlier rows establish the simple types first."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The version paragraph separates initial Logix discovery from parsed SLC sizes and the older empty-size failure. Earlier rows establish the simple types first."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The version paragraph separates initial Logix discovery from parsed SLC sizes and the older empty-size failure. Earlier rows establish the simple types first."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "P4": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The local and pinned AB source distinguish initial-read Logix allocation from address-derived SLC sizing; typed getters match the existing help interfaces."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The local and pinned AB source distinguish initial-read Logix allocation from address-derived SLC sizing; typed getters match the existing help interfaces."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The local and pinned AB source distinguish initial-read Logix allocation from address-derived SLC sizing; typed getters match the existing help interfaces."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The local and pinned AB source distinguish initial-read Logix allocation from address-derived SLC sizing; typed getters match the existing help interfaces."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-84",
+        "excerpt": "In the checked 2.7.2 C source, native Logix tags start without a data buffer. An initial read learns the type and size from the controller. SLC sizing comes from its parsed file address. In older 2.0.22 code, an empty size for an ordinary Logix tag can lead to an invalid zero-size buffer. Use explicit correct sizes for simple values when supporting that older library, and check creation status.",
+        "reason": "The version paragraph separates initial Logix discovery from parsed SLC sizes and the older empty-size failure. Earlier rows establish the simple types first."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The version paragraph separates initial Logix discovery from parsed SLC sizes and the older empty-size failure. Earlier rows establish the simple types first."
+      },
+      "screening_resolutions": {
+        "4e13acac50caa4643617": {
+          "status": "RESOLVED",
+          "reason": "SINT is the Logix type label, explicitly defined as signed 8-bit integer in its row."
+        },
+        "0ff2343535503c157cfd": {
+          "status": "RESOLVED",
+          "reason": "INT is defined as signed 16-bit integer in its row."
+        },
+        "91ac6b012b3261a4c1a3": {
+          "status": "RESOLVED",
+          "reason": "LINT is defined as signed 64-bit integer in its row."
+        }
+      }
+    },
+    {
+      "id": "section-10",
+      "title": "Debug dropdown: every level",
+      "content_sha256": "bc4b86e0fcc1be9cac25a9493e5ab9cd78f99b961c742b5ddd3e1177bacc09b3",
+      "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The zero row separates a named no-debug constant from the create function condition and gives the explicit reset function."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The zero row separates a named no-debug constant from the create function condition and gives the explicit reset function."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The zero row separates a named no-debug constant from the create function condition and gives the explicit reset function."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The zero row separates a named no-debug constant from the create function condition and gives the explicit reset function."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The zero row separates a named no-debug constant from the create function condition and gives the explicit reset function."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "M4": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "P4": {
+          "status": "N_A",
+          "reason": "This explanatory section has no separate execution result to verify; the connection procedure defines checks."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "Create_Tag compares exact trimmed NONE; the local create C path tests debug > 0; header constants enumerate levels 0 through 5."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "Create_Tag compares exact trimmed NONE; the local create C path tests debug > 0; header constants enumerate levels 0 through 5."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "Create_Tag compares exact trimmed NONE; the local create C path tests debug > 0; header constants enumerate levels 0 through 5."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "Create_Tag compares exact trimmed NONE; the local create C path tests debug > 0; header constants enumerate levels 0 through 5."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-94",
+        "excerpt": "0 \u2014 not a saved menu entry | The C constant for no debug output. However, the checked 2.7.2 create path changes the shared level only for a value greater than zero. Passing 0 here does not reset a level already enabled. Use the library function plc_tag_set_debug_level(0) when an explicit reset is needed; this control does not call that function.",
+        "reason": "The zero row separates a named no-debug constant from the create function condition and gives the explicit reset function."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The zero row separates a named no-debug constant from the create function condition and gives the explicit reset function."
+      },
+      "screening_resolutions": {
+        "459e393962f1aaf3a956": {
+          "status": "RESOLVED",
+          "reason": "INFO is a debug constant label whose informational role is stated."
+        },
+        "f3ebbd1bcb3972844471": {
+          "status": "RESOLVED",
+          "reason": "ERROR is a debug constant label, explained in that table row."
+        },
+        "03ea7d431496c3f9a341": {
+          "status": "RESOLVED",
+          "reason": "WARN is a debug constant label, explained as warnings plus errors."
+        },
+        "ac27dbbadd778a41826c": {
+          "status": "RESOLVED",
+          "reason": "DETAIL is the retained debug level name and its diagnostic use is explained."
+        },
+        "ec1d7fa996b98ecd0faf": {
+          "status": "RESOLVED",
+          "reason": "SPEW is the retained most-verbose debug level name and its output implications are stated."
+        }
+      }
+    },
+    {
+      "id": "section-11",
+      "title": "Complete hardware examples",
+      "content_sha256": "67b5d92ea4656559993132fc10a522cb01c388aa57c7e240c8a24fb8f5be8032",
+      "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The SimpleReadWrite paragraph connects fixed float calls to the recipes and explicitly explains why an integer configuration cannot change those calls."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The SimpleReadWrite paragraph connects fixed float calls to the recipes and explicitly explains why an integer configuration cannot change those calls."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The SimpleReadWrite paragraph connects fixed float calls to the recipes and explicitly explains why an integer configuration cannot change those calls."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The SimpleReadWrite paragraph connects fixed float calls to the recipes and explicitly explains why an integer configuration cannot change those calls."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The SimpleReadWrite paragraph connects fixed float calls to the recipes and explicitly explains why an integer configuration cannot change those calls."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "P4": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The fresh SimpleReadWrite read proves float access and the write request. Recipes are labeled illustrative and are not claimed as hardware tests."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The fresh SimpleReadWrite read proves float access and the write request. Recipes are labeled illustrative and are not claimed as hardware tests."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The fresh SimpleReadWrite read proves float access and the write request. Recipes are labeled illustrative and are not claimed as hardware tests."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The fresh SimpleReadWrite read proves float access and the write request. Recipes are labeled illustrative and are not claimed as hardware tests."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-110",
+        "excerpt": "SimpleReadWrite.vi passes this cluster to Create_Tag.vi, then uses float getters and a float setter. Its data must therefore be a suitable 32-bit floating-point item, such as the SLC F8:0 or Logix REAL examples. Supplying the integer example does not cause that VI to switch to an integer getter. It also requests a write, so use the example only when that write is intended.",
+        "reason": "The SimpleReadWrite paragraph connects fixed float calls to the recipes and explicitly explains why an integer configuration cannot change those calls."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The SimpleReadWrite paragraph connects fixed float calls to the recipes and explicitly explains why an integer configuration cannot change those calls."
+      },
+      "screening_resolutions": {}
+    },
+    {
+      "id": "section-12",
+      "title": "What Create_Tag.vi sends to C",
+      "content_sha256": "3a4aa1f5d81238c3f9a70bde86ddb45d0159ad5198bb05fb1ce8a1653b30e0e2",
+      "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The concrete SLC string precedes the empty-path and delimiter explanation, giving the reader a visible value to compare."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The concrete SLC string precedes the empty-path and delimiter explanation, giving the reader a visible value to compare."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The concrete SLC string precedes the empty-path and delimiter explanation, giving the reader a visible value to compare."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The concrete SLC string precedes the empty-path and delimiter explanation, giving the reader a visible value to compare."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The concrete SLC string precedes the empty-path and delimiter explanation, giving the reader a visible value to compare."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "M4": {
+          "status": "N_A",
+          "reason": "This section does not allocate or transfer resources; handle lifetime is covered in the opening and cleanup procedure."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "P1": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "P4": {
+          "status": "N_A",
+          "reason": "This explanatory section has no separate execution result to verify; the connection procedure defines checks."
+        },
+        "P5": {
+          "status": "N_A",
+          "reason": "This section explains fields or examples rather than an ordered procedure; the final section supplies the connection sequence."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "The fresh Create_Tag read matches the concatenation order, whitespace trims and debug branch. C parser attributes use ampersand delimiters."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "The fresh Create_Tag read matches the concatenation order, whitespace trims and debug branch. C parser attributes use ampersand delimiters."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "The fresh Create_Tag read matches the concatenation order, whitespace trims and debug branch. C parser attributes use ampersand delimiters."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "The fresh Create_Tag read matches the concatenation order, whitespace trims and debug branch. C parser attributes use ampersand delimiters."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-115",
+        "excerpt": "The empty path= is intentional for that direct SLC example. The VI passes this string and a separate timeout to plc_tag_create. It does not escape special characters: & starts another attribute, so do not put it inside a field value. Do not append extra attributes as an improvised workaround; use a wrapper that explicitly supports them.",
+        "reason": "The concrete SLC string precedes the empty-path and delimiter explanation, giving the reader a visible value to compare."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The concrete SLC string precedes the empty-path and delimiter explanation, giving the reader a visible value to compare."
+      },
+      "screening_resolutions": {}
+    },
+    {
+      "id": "section-13",
+      "title": "First connection and troubleshooting",
+      "content_sha256": "43a10dbaabfd8fda796d52aa6f5b4affc842ca3a88c1d780f133bc241949afef",
+      "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields.",
+      "criteria": {
+        "A1": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields. PLC concepts are introduced before the detailed settings."
+        },
+        "A2": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields. PLC concepts are introduced before the detailed settings."
+        },
+        "A3": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields. PLC concepts are introduced before the detailed settings."
+        },
+        "T1": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "T2": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "T3": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "T4": {
+          "status": "PASS",
+          "reason": "Exact names are retained and explained in nearby prose or the linked detail; The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "D1": {
+          "status": "PASS",
+          "reason": "The pending-create step explains both error channels and handle readiness before the subsequent read and getter step."
+        },
+        "D2": {
+          "status": "PASS",
+          "reason": "The pending-create step explains both error channels and handle readiness before the subsequent read and getter step."
+        },
+        "D3": {
+          "status": "PASS",
+          "reason": "The pending-create step explains both error channels and handle readiness before the subsequent read and getter step."
+        },
+        "D4": {
+          "status": "PASS",
+          "reason": "The pending-create step explains both error channels and handle readiness before the subsequent read and getter step."
+        },
+        "D5": {
+          "status": "PASS",
+          "reason": "The pending-create step explains both error channels and handle readiness before the subsequent read and getter step."
+        },
+        "M1": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "M2": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "M3": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "M4": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "M5": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "M6": {
+          "status": "PASS",
+          "reason": "The section relates the connection settings, controller data and local buffer at the level needed here. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "P1": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "P2": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "P3": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "P4": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "P5": {
+          "status": "PASS",
+          "reason": "The section gives the relevant field values, prerequisites and intended results. The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "E1": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields. Concrete values or examples show the practical consequence."
+        },
+        "E2": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields. Concrete values or examples show the practical consequence."
+        },
+        "E3": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields. Concrete values or examples show the practical consequence."
+        },
+        "E4": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields. Concrete values or examples show the practical consequence."
+        },
+        "E5": {
+          "status": "N_A",
+          "reason": "The page contains explanatory tables and code but no figures."
+        },
+        "O1": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O2": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O3": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O4": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "O5": {
+          "status": "PASS",
+          "reason": "The prose gives direct help to the LabVIEW reader, with explanations and complete sentences rather than developer notes."
+        },
+        "I1": {
+          "status": "PASS",
+          "reason": "Existing VI interfaces support timeout, raw statuses and LabVIEW errors. Cleanup and retargeting guidance preserves handle ownership and lifetime."
+        },
+        "I2": {
+          "status": "PASS",
+          "reason": "Existing VI interfaces support timeout, raw statuses and LabVIEW errors. Cleanup and retargeting guidance preserves handle ownership and lifetime."
+        },
+        "I3": {
+          "status": "PASS",
+          "reason": "Existing VI interfaces support timeout, raw statuses and LabVIEW errors. Cleanup and retargeting guidance preserves handle ownership and lifetime."
+        },
+        "I4": {
+          "status": "PASS",
+          "reason": "Existing VI interfaces support timeout, raw statuses and LabVIEW errors. Cleanup and retargeting guidance preserves handle ownership and lifetime."
+        }
+      },
+      "density_evidence": {
+        "unit_id": "unit-120",
+        "excerpt": "Check both the LabVIEW error cluster and the raw error code. With timeout zero, creation can continue after the call returns; check Tag_Status.vi until it is ready or reports an error. Keep only a valid, successfully created handle.",
+        "reason": "The pending-create step explains both error channels and handle readiness before the subsequent read and getter step."
+      },
+      "readability_review": {
+        "status": "PASS",
+        "reason": "All measured prose and steps are below grade 12. Short samples make individual scores unstable. All table rows and code were read for meaning although they are excluded from the numerical measure. The pending-create step explains both error channels and handle readiness before the subsequent read and getter step."
+      },
+      "screening_resolutions": {
+        "b93120a0834a0a848e7a": {
+          "status": "RESOLVED",
+          "reason": "Central processing unit is expanded in the family section; cpu elsewhere is an exact field identifier."
+        }
+      }
+    }
+  ],
+  "whole_document_review": {
+    "status": "PASS",
+    "reason": "Read the full page as a new PLC user. The progression from purpose to field roles, route/data addressing, hardware recipes and checked operations supports the stated audience. All eight fields and saved suggestions are covered; unsupported menu strings and version exceptions remain explicit."
+  },
+  "reader_simulation": {
+    "status": "PASS",
+    "reason": "A newcomer can use an existing SLC N7 or F8 address or a Logix symbolic tag, select the endpoint and route, set count/type, then follow create/read/getter/cleanup without treating the recipes as discovered hardware."
+  },
+  "unresolved_technical_gaps": []
+}

@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat software icon on pure white for READING a software tag. Draw one LARGE OPEN BOOK seen from the front, with TWO broad white pages outlined in thick NAVY, a clear navy center spine, and a single LARGE ORANGE TAG with white hole printed on the RIGHT PAGE. The tag takes up most of that page. Left page is blank. Big simple geometry; no arrow, hand, eye, scanner, letters, numerals, tiny details or shadows. The book silhouette and tag must be recognizable at 30x18 pixels; keep the design in the central 70 percent of square canvas.",
+  "concept_summary": "Read a tag in an open book",
+  "signature": {
+    "objects": "open book and tag",
+    "cue": "tag on book page",
+    "composition": "wide open navy book with orange tag on right page",
+    "metaphor": "reading",
+    "orientation": "horizontal"
+  },
+  "concept_id": "read-open-book"
+}

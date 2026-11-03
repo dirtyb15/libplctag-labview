@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The curved extraction path and all three characters remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The curved arrow and barred I, 1 and 6 remain visible with character gaps."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The curved arrow points down and I16 remains legible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue buffer leads through a curved orange arrow toward the spaced I16 label."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The curve and label survive with softened glyphs."
+        }
+      },
+      "candidate_id": "candidate-15"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The separated I16 and right-facing output arrow remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The three type characters, buffer outline and arrow remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The outlined buffer and arrow are recognizable."
+        },
+        "source": {
+          "evidence": "I16 above a horizontal buffer and arrow repeats candidate-13: both place the type over a horizontal orange arrow and blue block, merely reversing direction and outlining the block.",
+          "result": "FAIL",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a substantially different silhouette instead of a horizontal arrow below the label."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The box and arrow survive; type details soften."
+        }
+      },
+      "candidate_id": "candidate-16"
+    }
+  ],
+  "distinctness": {
+    "evidence": "Candidate-13 and candidate-16 both place I16 above a horizontal arrow and blue block, differing mainly in direction and fill. Replace one with a different composition.",
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-13",
+      "candidate-07",
+      "candidate-14",
+      "candidate-15",
+      "candidate-16"
+    ]
+  }
+}

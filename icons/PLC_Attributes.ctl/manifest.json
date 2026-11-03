@@ -1,0 +1,1928 @@
+{
+  "run_id": "28c7edf07dd3405b81051f73a6bf0af4",
+  "request": "PLC configuration attributes cluster",
+  "summary_name": "PLC Attributes",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "PLC rack with sliders",
+      "salt": "1tm7psp1nl",
+      "source_file": "PLC Attributes option 1 1024x1024 1tm7psp1nl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "PLC Attributes option 1 29x29 1tm7psp1nl.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              49,
+              225,
+              971,
+              824
+            ],
+            "source_artwork_size": [
+              922,
+              599
+            ],
+            "rendered_artwork_size": [
+              27,
+              18
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.02928416485900217,
+            "offset": [
+              1,
+              5
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 1 30x23 1tm7psp1nl.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              49,
+              225,
+              971,
+              824
+            ],
+            "source_artwork_size": [
+              922,
+              599
+            ],
+            "rendered_artwork_size": [
+              28,
+              18
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.03036876355748373,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 1 30x18 1tm7psp1nl.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              49,
+              225,
+              971,
+              824
+            ],
+            "source_artwork_size": [
+              922,
+              599
+            ],
+            "rendered_artwork_size": [
+              25,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02671118530884808,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "PLC Attributes option 1 1tm7psp1nl.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            14,
+            9
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015184381778741865,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            18,
+            12
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.019522776572668113,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            22,
+            14
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02386117136659436,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            30,
+            19
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03253796095444685,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            38,
+            25
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04121475054229935,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            46,
+            30
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.049891540130151846,
+          "offset": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            62,
+            40
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06724511930585683,
+          "offset": [
+            1,
+            12
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            126,
+            82
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13665943600867678,
+          "offset": [
+            1,
+            23
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            49,
+            225,
+            971,
+            824
+          ],
+          "source_artwork_size": [
+            922,
+            599
+          ],
+          "rendered_artwork_size": [
+            254,
+            165
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2754880694143167,
+          "offset": [
+            1,
+            45
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A blue industrial rack with three white module panels and terminal squares sits beside two orange sliders."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The rack, module panels and sliders are separate."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The two sliders and rack panel pattern remain recognizable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The rack outline and two orange sliders remain distinguishable; tiny terminal squares soften."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The rack and sliders survive, while terminal detail merges."
+          }
+        },
+        "source_sha256": "77f4596c058f97a6fc21263d31a1050ef943e25bf7cd6fd843ef177dbb1fd04a",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-07",
+            "candidate-14",
+            "candidate-09",
+            "candidate-05"
+          ],
+          "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
+        }
+      },
+      "concept_id": "rack-sliders",
+      "candidate_id": "candidate-10",
+      "qa_status": "PASS",
+      "sha256": {
+        "PLC Attributes option 1 1024x1024 1tm7psp1nl.png": "03f9422489e71ee0ea1c677891e71f62b7ae47ac4c3c111ab00fe16dc8c4891b",
+        "PLC Attributes option 1 29x29 1tm7psp1nl.png": "a927cc6a0f2bf0813968efccd4ba78fab67b0b586913d5e43f81c7efcfa4a6df",
+        "PLC Attributes option 1 30x23 1tm7psp1nl.png": "fb36d56cfd2117072a7743564246a9db6dbd7375bc370b33b9b4e3b218ce3473",
+        "PLC Attributes option 1 30x18 1tm7psp1nl.png": "c932760bffc06c790a748ac12511ef62f088681249614292256ae1e489a95d79",
+        "PLC Attributes option 1 1tm7psp1nl.ico": "72dfce420be9e64d64758cadb507f6a5997ae44ddaa6bb51b1e0457e1f96785f"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Controller with wrench",
+      "salt": "by207n8f80",
+      "source_file": "PLC Attributes option 2 1024x1024 by207n8f80.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "PLC Attributes option 2 29x29 by207n8f80.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              55,
+              150,
+              970,
+              907
+            ],
+            "source_artwork_size": [
+              915,
+              757
+            ],
+            "rendered_artwork_size": [
+              27,
+              22
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.029508196721311476,
+            "offset": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 2 30x23 by207n8f80.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              55,
+              150,
+              970,
+              907
+            ],
+            "source_artwork_size": [
+              915,
+              757
+            ],
+            "rendered_artwork_size": [
+              25,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02774108322324967,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 2 30x18 by207n8f80.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              55,
+              150,
+              970,
+              907
+            ],
+            "source_artwork_size": [
+              915,
+              757
+            ],
+            "rendered_artwork_size": [
+              19,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.021136063408190225,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "PLC Attributes option 2 by207n8f80.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            14,
+            12
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015300546448087432,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            18,
+            15
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.019672131147540985,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            22,
+            18
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.024043715846994537,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            30,
+            25
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03278688524590164,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            38,
+            31
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.041530054644808745,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            46,
+            38
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05027322404371585,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            62,
+            51
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06775956284153005,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            126,
+            104
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1377049180327869,
+          "offset": [
+            1,
+            12
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            55,
+            150,
+            970,
+            907
+          ],
+          "source_artwork_size": [
+            915,
+            757
+          ],
+          "rendered_artwork_size": [
+            254,
+            210
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.27759562841530055,
+          "offset": [
+            1,
+            23
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A large wrench crosses a rectangular industrial PLC rack with modules and terminals."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Wrench and rack remain distinct."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The diagonal wrench remains clear on the rack."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The orange wrench and rack silhouette stay visible; small terminal marks merge."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "Wrench and rack remain while internal details merge."
+          }
+        },
+        "source_sha256": "e1b34413f6b0e152b0fe090632720a86dd5ce6729b4997eb36528874626bcb04",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-07",
+            "candidate-14",
+            "candidate-09",
+            "candidate-05"
+          ],
+          "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
+        }
+      },
+      "concept_id": "controller-wrench",
+      "candidate_id": "candidate-07",
+      "qa_status": "PASS",
+      "sha256": {
+        "PLC Attributes option 2 1024x1024 by207n8f80.png": "ec22c4da49e62146e192e43eb4c0447ad33e7ff8b080568e8ea4400e12e17478",
+        "PLC Attributes option 2 29x29 by207n8f80.png": "6ae0d4c0cdc7190ccccb1a72144ec1016afe1d8dced89b8049713d360c4297cf",
+        "PLC Attributes option 2 30x23 by207n8f80.png": "75f4624c78ae644349ecf0fe8176e7057dd7232071fe1ac45ca47a5e62e8e1bb",
+        "PLC Attributes option 2 30x18 by207n8f80.png": "2a20d57e35fe087808ee2e54dd9c8af442f68a45b2bfbe9cabf3c5adf251325d",
+        "PLC Attributes option 2 by207n8f80.ico": "8589e30e32fdbac1e8a9c753c8f1c054ad39b85724267086288bb97d220369c9"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "PLC attribute cluster",
+      "salt": "koh6mrowum",
+      "source_file": "PLC Attributes option 3 1024x1024 koh6mrowum.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "PLC Attributes option 3 29x29 koh6mrowum.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              118,
+              274,
+              906,
+              786
+            ],
+            "source_artwork_size": [
+              788,
+              512
+            ],
+            "rendered_artwork_size": [
+              27,
+              18
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03426395939086294,
+            "offset": [
+              1,
+              5
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 3 30x23 koh6mrowum.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              118,
+              274,
+              906,
+              786
+            ],
+            "source_artwork_size": [
+              788,
+              512
+            ],
+            "rendered_artwork_size": [
+              28,
+              18
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.03553299492385787,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 3 30x18 koh6mrowum.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              118,
+              274,
+              906,
+              786
+            ],
+            "source_artwork_size": [
+              788,
+              512
+            ],
+            "rendered_artwork_size": [
+              25,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.03125,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "PLC Attributes option 3 koh6mrowum.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            14,
+            9
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.017766497461928935,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            18,
+            12
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.02284263959390863,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            22,
+            14
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.027918781725888325,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            30,
+            19
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03807106598984772,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            38,
+            25
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.048223350253807105,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            46,
+            30
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.0583756345177665,
+          "offset": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            62,
+            40
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07868020304568528,
+          "offset": [
+            1,
+            12
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            126,
+            82
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1598984771573604,
+          "offset": [
+            1,
+            23
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            118,
+            274,
+            906,
+            786
+          ],
+          "source_artwork_size": [
+            788,
+            512
+          ],
+          "rendered_artwork_size": [
+            254,
+            165
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3223350253807107,
+          "offset": [
+            1,
+            45
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "Orange curly braces enclose a blue industrial rack; all elements have clear white margin."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Both braces and the three rack slots remain distinct."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Braces, rack and module divisions remain recognizable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The two braces frame the white-slotted rack; terminal details soften."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The frame and braces survive, while the small lower terminals merge."
+          }
+        },
+        "source_sha256": "85f8c79e3c07c37d07ab2c7103feeb32f8a68c51d258eed7dc2f88e87d5ec554",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-07",
+            "candidate-14",
+            "candidate-09",
+            "candidate-05"
+          ],
+          "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
+        }
+      },
+      "concept_id": "rack-in-braces",
+      "candidate_id": "candidate-14",
+      "qa_status": "PASS",
+      "sha256": {
+        "PLC Attributes option 3 1024x1024 koh6mrowum.png": "528aafcf70c356fc5234e812b1bfffd98f7fc81b67b791628546af2b96b2c538",
+        "PLC Attributes option 3 29x29 koh6mrowum.png": "2a08a227ac0ca30e5ca431e2f63dd4e4a0a9c6e1825b76cf92044550c6a0704d",
+        "PLC Attributes option 3 30x23 koh6mrowum.png": "ca285bcf68187861a4149a440e7a7fa4628354592d9c2d71fa8bb5bd5e922e0a",
+        "PLC Attributes option 3 30x18 koh6mrowum.png": "54eb56126b337c5841120bd88f635b142e53f0d8e4119b79e2afd2458f67ff10",
+        "PLC Attributes option 3 koh6mrowum.ico": "25320d18a9dbac0c3ab9c6a354ddd07a75b5367be90891035746da8e5080e7aa"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Controller with knobs",
+      "salt": "wo1gj8kj30",
+      "source_file": "PLC Attributes option 4 1024x1024 wo1gj8kj30.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "PLC Attributes option 4 29x29 wo1gj8kj30.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              103,
+              98,
+              922,
+              944
+            ],
+            "source_artwork_size": [
+              819,
+              846
+            ],
+            "rendered_artwork_size": [
+              26,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.031914893617021274,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 4 30x23 wo1gj8kj30.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              103,
+              98,
+              922,
+              944
+            ],
+            "source_artwork_size": [
+              819,
+              846
+            ],
+            "rendered_artwork_size": [
+              20,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.024822695035460994,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 4 30x18 wo1gj8kj30.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              103,
+              98,
+              922,
+              944
+            ],
+            "source_artwork_size": [
+              819,
+              846
+            ],
+            "rendered_artwork_size": [
+              15,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.018912529550827423,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "PLC Attributes option 4 wo1gj8kj30.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016548463356973995,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            17,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.02127659574468085,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            21,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.026004728132387706,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            29,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03546099290780142,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            37,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04491725768321513,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            45,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.054373522458628844,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            60,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07328605200945626,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            122,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14893617021276595,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            103,
+            98,
+            922,
+            944
+          ],
+          "source_artwork_size": [
+            819,
+            846
+          ],
+          "rendered_artwork_size": [
+            246,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.30023640661938533,
+          "offset": [
+            5,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A rectangular industrial rack with three modules sits above two orange adjustment knobs."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Rack, paired knobs and white knob pointers remain visible."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Two round knobs are distinct beneath the rack."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The rack outline, white module slots and paired knob silhouettes remain distinct."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The rack and orange knobs remain, though fine pointers soften."
+          }
+        },
+        "source_sha256": "4943873d24bddd989ab84f59aca76bebde9fd7e5bcacd878b6eafa5c73dcfd9a",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-07",
+            "candidate-14",
+            "candidate-09",
+            "candidate-05"
+          ],
+          "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
+        }
+      },
+      "concept_id": "plc-knobs",
+      "candidate_id": "candidate-09",
+      "qa_status": "PASS",
+      "sha256": {
+        "PLC Attributes option 4 1024x1024 wo1gj8kj30.png": "69f6eabe333b625004c1f29797dd29ef88f7ecdfb8d52857d65ba1f6efb683ea",
+        "PLC Attributes option 4 29x29 wo1gj8kj30.png": "09c0d0be3f1ad61f2f064624dfa48a2a9b8b5f23c9f930849278ba96e9b48852",
+        "PLC Attributes option 4 30x23 wo1gj8kj30.png": "47073b66e8fb4efdad27ff0cddff43dcc5cf4f8a01f4e07b438d2e3086bf896d",
+        "PLC Attributes option 4 30x18 wo1gj8kj30.png": "6311f9534882a264549e942dcc2e444fc73c8a75508ef298658acce774a8f3da",
+        "PLC Attributes option 4 wo1gj8kj30.ico": "40efe01b2b3ef3dd212c5ce77231d6c03cd5121f2aeed57537f3eb94257553c8"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "PLC rack configuration",
+      "salt": "izmx44n2h8",
+      "source_file": "PLC Attributes option 5 1024x1024 izmx44n2h8.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "PLC Attributes option 5 29x29 izmx44n2h8.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              115,
+              153,
+              911,
+              877
+            ],
+            "source_artwork_size": [
+              796,
+              724
+            ],
+            "rendered_artwork_size": [
+              27,
+              25
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03391959798994975,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 5 30x23 izmx44n2h8.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              115,
+              153,
+              911,
+              877
+            ],
+            "source_artwork_size": [
+              796,
+              724
+            ],
+            "rendered_artwork_size": [
+              23,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.029005524861878452,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "PLC Attributes option 5 30x18 izmx44n2h8.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              115,
+              153,
+              911,
+              877
+            ],
+            "source_artwork_size": [
+              796,
+              724
+            ],
+            "rendered_artwork_size": [
+              18,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.022099447513812154,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "PLC Attributes option 5 izmx44n2h8.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.017587939698492462,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            18,
+            16
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.022613065326633167,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            22,
+            20
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02763819095477387,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            30,
+            27
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03768844221105527,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            38,
+            35
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04773869346733668,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            46,
+            42
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05778894472361809,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            62,
+            56
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07788944723618091,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            126,
+            115
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.15829145728643215,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            115,
+            153,
+            911,
+            877
+          ],
+          "source_artwork_size": [
+            796,
+            724
+          ],
+          "rendered_artwork_size": [
+            254,
+            231
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.31909547738693467,
+          "offset": [
+            1,
+            12
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A dark industrial control module outline surrounds an orange gear, with clear outer margin."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Module outline and gear remain recognizable."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The gear stays separate from the module outline."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "Orange gear and dark rectangular controller frame remain distinct; fine terminal dots soften."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "Gear and frame survive while terminal details merge."
+          }
+        },
+        "source_sha256": "c81701fefccace69cef76505ed29900cc5fa61c7784575e1e02567557594dca2",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-07",
+            "candidate-14",
+            "candidate-09",
+            "candidate-05"
+          ],
+          "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
+        }
+      },
+      "concept_id": "rack-gear",
+      "candidate_id": "candidate-05",
+      "qa_status": "PASS",
+      "sha256": {
+        "PLC Attributes option 5 1024x1024 izmx44n2h8.png": "aa4863171b39e968c18d8ef23830a5bbcb09fae637339a1f42a67e3323b862b2",
+        "PLC Attributes option 5 29x29 izmx44n2h8.png": "7ee218b7d06630ebbd0b02f60d7a00237a508e91b8d4c8e2fdbb81286524defb",
+        "PLC Attributes option 5 30x23 izmx44n2h8.png": "93db855ffdf876fc8442c30e7a0d6b36623e8b5457c9479ab193614056eb4e2c",
+        "PLC Attributes option 5 30x18 izmx44n2h8.png": "412ba0f3d8090042f05b1cd779f8d5fa6858921e2dfa358d83fd7907a49cc314",
+        "PLC Attributes option 5 izmx44n2h8.ico": "fbbe21065e2cf023b43356695746a76d254c5d0693480e72594bb83992f9c52b"
+      }
+    }
+  ]
+}

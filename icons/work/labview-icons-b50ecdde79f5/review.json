@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "evidence": "F32 appears above a rectangular buffer and rightward arrow, showing outward transfer.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F32 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F32 and the rectangular buffer and rightward arrow remain visible.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "F, 3 and 2 remain legible and the outward arrow survives.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "evidence": "F32 appears above a cylindrical buffer and upward arrow, showing outward transfer.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F32 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F32 and the cylindrical buffer and upward arrow remain visible.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "F, 3 and 2 remain legible and the outward arrow survives.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "evidence": "F32 appears above a U-shaped tray and upward arrow, showing outward transfer.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F32 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F32 and the U-shaped tray and upward arrow remain visible.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "F, 3 and 2 remain legible and the outward arrow survives.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "evidence": "F32 appears above a lined card and rightward arrow, showing outward transfer.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F32 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F32 and the lined card and rightward arrow remain visible.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "F, 3 and 2 remain legible and the outward arrow survives.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "evidence": "F32 appears above a circular socket and diagonal arrow, showing outward transfer.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F32 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F32 and the circular socket and diagonal arrow remain visible.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "F, 3 and 2 remain legible and the outward arrow survives.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "evidence": "The options use rectangle, cylinder, tray, lined card and socket with outward arrows; user allows related silhouettes.",
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  }
+}

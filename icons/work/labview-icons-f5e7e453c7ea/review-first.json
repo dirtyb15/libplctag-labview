@@ -1,0 +1,142 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The door and tag soften."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag, arrow and door remain."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag exits an open blue door to the left."
+        },
+        "30x18": {
+          "evidence": "Orange tag with left arrow next to a blue device on the right resembles the Read Tag extraction layout.",
+          "correction": "Choose an unlocking silhouette without a left-pointing tag beside a right-side device.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Door and arrow remain visible."
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The smaller link gaps soften."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and separated links remain distinct."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Two open blue chain-link shapes are separated below an orange tag."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag and two separated U-shaped link segments survive."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both link gaps are visible."
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Fingers partly merge."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Open hand and tag remain recognizable."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An open blue palm releases an orange tag with upward arrow."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The raised palm, tag and upward arrow remain distinguishable."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Hand, tag and arrow remain separate."
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The key teeth soften."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The key and arrow remain distinct."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange key and a blue curved arrow depict turning a key to release."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Key handle, teeth and curved arrow are identifiable."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Key loop, teeth and curved arrow remain visible."
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Barrier stripes and tag hole soften."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barrier angle and output direction remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag passes under a raised blue barrier toward a right arrow."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The raised arm, tag and right arrow remain visible."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Raised barrier, tag and arrow are separate."
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ],
+  "distinctness": {
+    "evidence": "The open-door exit uses a leftward tag-and-device layout close to the Read Tag extraction candidate. The broken links, open hand, turning key and raised gate differ structurally from the current lock designs. Replace the doorway and revisit.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "FAIL"
+  }
+}

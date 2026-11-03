@@ -1,0 +1,150 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "rule_id": "VIS-SEM-001",
+          "evidence": "The orange tag appears attached to a controller side, with no cue distinguishing insertion from removal.",
+          "correction": "Add an unambiguous inward action cue."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag and controller survive, but direction remains ambiguous."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The orange form is attached at the side without visible direction."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "evidence": "The side tag looks like a connected tab or plug and does not indicate a write direction.",
+          "correction": "Add a large inward arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The controller and orange tab remain visible."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The orange tag points upward via a large arrow toward a blue controller."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, upward arrow and controller remain identifiable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow points toward the controller and the tag remains separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "A large upward arrow remains visible between the tag and PLC."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The controller and arrow remain, while the tag hole softens."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A bold diagonal orange arrow points into a simple blue industrial controller."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The incoming arrowhead and controller face are recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The diagonal arrow points to the controller."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The arrow tip blends with the controller edge, but its diagonal entry remains apparent."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arrow and controller silhouette remain distinct."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag connects to a controller by a curved blue arrow."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The blue arrowhead merges with the dark blue controller."
+        },
+        "30x23": {
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "evidence": "The curved blue arrow blends into the controller and its arrowhead is not clearly separated.",
+          "correction": "Use a high-contrast orange arrowhead with clear space at the controller."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "evidence": "The blue curve meets the blue controller without a discernible arrowhead.",
+          "correction": "Make the arrow a contrasting color and enlarge its tip."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The curved path survives but its direction is ambiguous."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A fingertip presses an orange tag into the top of a controller."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The hand tip and tag touch; the small tag hole softens."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Hand and tag stay separate by color, but the tag looks like a button."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The orange tag hole disappears and the fingertip appears to press a button on the controller, not transfer tag data.",
+          "correction": "Use a larger recognizable tag and preserve its hole or choose a clearer transfer action."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Finger and controller remain while the tag identity is lost."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "The vertical transfer and diagonal input differ, but the attached tag lacks direction, the curved arrow blends into the PLC, and the hand presses what looks like a button at 30x18. Revise these candidates before acceptance."
+  }
+}

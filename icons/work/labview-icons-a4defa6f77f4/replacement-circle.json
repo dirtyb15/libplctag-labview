@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat software icon on pure white for destroying or removing a PLC tag. Draw one LARGE RED PROHIBITION CIRCLE with a thick red diagonal slash across it. In the center behind the slash put one large NAVY TAG silhouette with a white hole. The red circle and slash should dominate the outer shape and remain distinct from the tag at 30x18. This represents removal, no plus, no lettering, no shadows, no extra border. Keep the entire icon centered in the middle 70 percent of the white square.",
+  "concept_id": "tag-remove-circle",
+  "signature": {
+    "metaphor": "remove tag",
+    "orientation": "centered",
+    "cue": "large red prohibition slash over tag",
+    "objects": "tag, prohibition circle",
+    "composition": "horizontal tag centered inside large circle and slash"
+  },
+  "concept_summary": "Tag removed in prohibition circle"
+}

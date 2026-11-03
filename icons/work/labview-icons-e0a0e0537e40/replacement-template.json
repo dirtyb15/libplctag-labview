@@ -1,0 +1,12 @@
+{
+  "prompt": "Exactly one SQUARE flat icon on pure white for creating a new tag. Draw a large vertical dark blue OUTLINED DOCUMENT with a folded upper right corner. Inside the document place one large orange TAG with a large white hole in its upper half, and a large thick GREEN PLUS in its lower half, both clearly separated. The document represents a new tag template; the plus clearly means create. Make the page, tag, hole and plus recognizable at 30x18. No words, no shadow, no other symbols; centered in middle 70 percent of canvas.",
+  "signature": {
+    "orientation": "vertical page",
+    "composition": "outlined vertical page enclosing orange tag and green plus",
+    "cue": "large plus beside tag on sheet",
+    "objects": "sheet, tag, plus",
+    "metaphor": "new tag document"
+  },
+  "concept_summary": "New tag template",
+  "concept_id": "new-tag-template"
+}

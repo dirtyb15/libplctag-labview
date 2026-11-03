@@ -1,0 +1,44 @@
+{
+  "distinctness": {
+    "evidence": "The stair-step tiles do not visibly originate from a buffer and look like a rising chart; the printer revision repeats the I8 envelope layout and other concepts fail legibility.",
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-08",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  },
+  "candidates": [
+    {
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "correction": "Show a clear read or extraction action, and keep the type characters legible as one label.",
+          "rule_id": "VIS-SEM-001",
+          "evidence": "Three separated character tiles ascend like a chart above a blue baseline; no recognizable buffer or extraction action appears."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Keep I32 together with large characters and clear spaces.",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The rising tile arrangement separates I, 3 and 2 into separate objects; the glyphs are too small to reliably read as the single I32 type label."
+        },
+        "29x29": {
+          "evidence": "Each tile shows one character in order.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The three separated characters soften but remain visible.",
+          "result": "WARN"
+        },
+        "16x16": {
+          "evidence": "Character details merge at stress size.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-08"
+    }
+  ]
+}

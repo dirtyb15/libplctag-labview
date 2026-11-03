@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "candidate_ids": [
+    "platform-choice-list",
+    "chip-document",
+    "library-cursor-choice",
+    "fork-document",
+    "platform-switch-file"
+  ],
+  "evidence": "Monitor with list, processor, pointer, branching route and selector lever each convey selection with different shapes.",
+  "scope": "Provisional concept preflight; collection-wide review pending"
+}

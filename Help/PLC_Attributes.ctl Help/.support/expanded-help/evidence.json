@@ -1,0 +1,33 @@
+{
+  "source_hashes": {
+    "PLC_Attributes.ctl": "c8c62430f9a92e8e780edff2fcdf323e72a3e94ab5c54d944c69e6ca47955f99",
+    "Create_Tag.vi": "12cb7082e3abfe690c2b7aaefc92d7fae03968407307887a4af0a6af33319e6d",
+    "SimpleReadWrite.vi": "e3d6286d319d8ebbc3f2391261845d1fb0d32c0f4181857f746cf12f9c81ed94"
+  },
+  "original_html_sha256": "dfc0b9280b51d84fd69e6eaf820737b696baff529bd1fa6f28bb1439d5413243",
+  "local_c_root": "../libplctag",
+  "upstream": "https://github.com/libplctag/libplctag",
+  "comparison_commit": "7712ed7f1ee05ba0ebfca641b3f5c43da52a66ed",
+  "visual_checks": "unverified per existing user publication choice",
+  "c_hashes": {
+    "src/libplctag/protocols/ab/ab_common.c": "8fedc46ae965b2383e8efae9172e646034a19aeca5f86c7d1a68b5deaf933db1",
+    "src/libplctag/protocols/ab/cip.c": "4753a7864ea66fd7766f56bacc35b8903ac9f9951cb201b5d563a0df7d5d4180",
+    "src/libplctag/protocols/ab/session.c": "42151329a621b3afb389337552f6c21128e3b352b1124fdac7f39ef0d958dc2c",
+    "src/libplctag/protocols/ab/pccc.c": "6fd4b90c286aa532efe25d1ed57a42a52985defe4bcb13c81a56198c903b6636",
+    "src/libplctag/lib/lib.c": "d1c1781d135d5509731c2d29576ed6a99b31dfaa3392a701d10192ce6f882ce3",
+    "src/libplctag/lib/libplctag.h": "208d474d97e1d18bf4c65156e4d338c26fc1dbd05c4da2390ec7e13ee115fc51"
+  },
+  "binary_hashes": {
+    "plctag32.dll": "a52b7c0954cb1364948dffdc40828a8acf0cd72539a41654da3bd823687ea824",
+    "plctag64.dll": "936e197eded4ffd642d7d45c27b8945650d206c918ddcc3fda0ca041a34e6bde",
+    "libplctag64.so": "50b646e37093094b80126ab7fff584223e42ca113b511751af32214b350db82e"
+  },
+  "published_html_sha256": "7a98bfc8c0c03f3812d3e460ae619fa366611110541f80af152858d51f5b3cf7",
+  "validation": {
+    "html_structure": "passed",
+    "local_links_and_anchors": "passed",
+    "dropdown_coverage": "passed",
+    "source_hashes": "stable",
+    "visual_rendering": "unverified under existing user choice"
+  }
+}

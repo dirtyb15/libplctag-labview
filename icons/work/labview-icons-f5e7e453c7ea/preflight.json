@@ -1,0 +1,12 @@
+{
+  "evidence": "Open ring, broken links, open hand, turned key and raised barrier have distinct shapes and differ from the closed lock options.",
+  "candidate_ids": [
+    "unlock-open-ring",
+    "unlock-chain",
+    "unlock-hand",
+    "unlock-key",
+    "unlock-gate"
+  ],
+  "result": "PASS",
+  "scope": "Provisional concept preflight; full collection review pending"
+}

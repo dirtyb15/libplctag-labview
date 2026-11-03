@@ -1,0 +1,115 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The type and tray are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "All three separated type characters and receiving shape survive."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large barred I32 is above a blue receiving tray."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "All three separated type characters and receiving shape survive."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-09",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The arrow and syringe remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the upward arrow remains visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large I32 label sits above a syringe with an upward draw arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the upward arrow remains visible."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-10",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Type and buffer arrow are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the arrow points outward from the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large I32 label sits above a blue buffer and outward orange arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the arrow points outward from the buffer."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-11",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The dial and arrow remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The three I32 characters and the downward arrow remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large I32 label sits above an orange dial and downward output arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The three I32 characters and the downward arrow remain visible."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "evidence": "The five options use printer, syringe and arrow, receiving tray, buffer and outward arrow, and dial and down arrow. Similar overall layouts are allowed by the user.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-09",
+      "candidate-07",
+      "candidate-10",
+      "candidate-11"
+    ]
+  }
+}

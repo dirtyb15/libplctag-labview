@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "run_id": "cb844e3182e7419382dbf4a87c7fdb38",
+  "request": "Read signed 32-bit integer from tag buffer at offset",
+  "summary_name": "Read I32",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_I32.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-03T12:35:25.729481+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "i32-printer",
+      "concept_summary": "Signed 32-bit value from printer",
+      "prompt": "One SQUARE flat icon on white for reading a signed 32-bit integer from a buffer. Draw a large simple NAVY PRINTER at top, and below it a very large WHITE PAPER SHEET outlined in blue emerging downward. On the paper write exactly I32 in huge BOLD BLACK letters, with capital I having wide top and bottom crossbars and distinct from digit 1. I32 must fill most of the page and remain fully readable at 30x18. No other words, no shadow, no tags, no extra details. Center all artwork in central 70 percent of square.",
+      "signature": {
+        "objects": "printer, typed paper",
+        "cue": "I32 paper emerges",
+        "orientation": "vertical",
+        "composition": "navy printer above wide white I32 output",
+        "metaphor": "printout"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-01.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "Printer and paper are clear, but I32 is crowded in the lower paper and the 3 and 2 merge at 30x18.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The printer takes too much height and the characters are tight."
+        }
+      },
+      "reviewed_sha256": "4ada934484ee638644818bafd7e301d5651b5257d27899ba4f65ef03352f0a26"
+    },
+    {
+      "concept_id": "i32-syringe",
+      "concept_summary": "Draw signed 32-bit value",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 32-bit value. On LEFT place enormous bold BLACK I32 with capital I having wide top and bottom crossbars, distinct from digit 1. On RIGHT a large simple BLUE SYRINGE is vertical, plunger pulled upward, metaphor for drawing data from a buffer. I32 and syringe are side by side and separated, I32 occupies most of width and is unambiguously readable at 30x18. Only I32 text, no other words, no shadow or tag. Center the art in central 70 percent of square.",
+      "signature": {
+        "objects": "syringe, typed label",
+        "cue": "syringe pulls data",
+        "orientation": "horizontal",
+        "composition": "black I32 left, vertical syringe right",
+        "metaphor": "draw with syringe"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-02.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The needle and syringe are visible, but at 30x18 I32 is squeezed against the syringe, and the 3 and 2 merge. A syringe also does not establish whether it draws or injects.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The label is crowded and the pictured action has no direction cue."
+        }
+      },
+      "reviewed_sha256": "7fc7c7e6dfef9dd7a48b125c830228a2845c1a7f529cf6f0c7044b54e348f1f5"
+    },
+    {
+      "concept_id": "i32-basket",
+      "concept_summary": "Receive signed 32-bit value in basket",
+      "prompt": "One SQUARE flat icon on white for reading signed 32-bit data. A huge BLUE WOVEN BASKET with an unmistakable arch handle and large U-shaped body dominates the canvas. Inside the basket body put a white rectangular inset carrying enormous bold BLACK I32. Capital I has wide horizontal top and bottom bars, distinct from digit 1. The full I32 must be readable at 30x18. Only I32 text, no arrows, monitor, envelope, tags or shadows. Simple large shapes, all within the central 70 percent of square.",
+      "signature": {
+        "objects": "basket, value",
+        "cue": "value caught by basket",
+        "orientation": "vertical",
+        "composition": "large handled basket surrounds white I32 inset",
+        "metaphor": "catch value"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-03.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The basket weave becomes clutter and the I32 label is too small to distinguish all three letters at 30x18.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The basket and weave consume the available space."
+        }
+      },
+      "reviewed_sha256": "1418f2a87d08603764b32ddea2acb1f75e74bb33fa68c3bd609099d8fdf31a09"
+    },
+    {
+      "concept_id": "i32-outward",
+      "concept_summary": "Signed 32-bit data exits ring",
+      "prompt": "One SQUARE flat icon on white for reading a signed 32-bit integer. A large BLUE CIRCULAR PORT is at left. At right of port is enormous bold BLACK I32, with capital I visibly having wide top and bottom bars different from digit 1. A short thick ORANGE ARROW points RIGHT from port toward the label. I32 must be unambiguously readable at 30x18. Only I32 text, no tag, hand, monitor, key or shadow. Keep all shapes within middle 70 percent of square.",
+      "signature": {
+        "objects": "port and type",
+        "cue": "value moves outward",
+        "orientation": "horizontal",
+        "composition": "circular port left, orange right arrow center, I32 right",
+        "metaphor": "output port"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-04.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The port is a solid blue dot rather than a recognizable buffer, while the I32 characters become too small and tightly packed at 30x18.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The dot and arrow reduce text width and the port lacks structure."
+        }
+      },
+      "reviewed_sha256": "e394d2f4189a66dffe39ff759059258f563d237d149731852b54e6aaba86366d"
+    },
+    {
+      "concept_id": "i32-dial",
+      "concept_summary": "Dial retrieves signed 32-bit value",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 32-bit integer. Draw a large ORANGE ROTARY DIAL above left, a thick BLUE DOWNWARD OUTPUT ARROW at right, and huge bold BLACK I32 across the bottom. The capital I has wide top and bottom bars, distinct from digit 1. The large orange dial is a solid circle with one black pointer, no numbers or tiny ticks. All I32 characters must be unambiguously legible at 30x18. No tag, eye, envelope, microscope, monitor, other text or shadow. Keep everything inside central 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "objects": "value label and rotary dial",
+        "cue": "selection dial outputs typed value",
+        "composition": "large orange dial above black I32 with blue downward arrow at side",
+        "metaphor": "rotary output"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-05.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "At 30x18 the I32 label has merged strokes; the orange gauge also echoes Tag Status candidate 05.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The dial and arrow leave insufficient space for the three-character datatype."
+        }
+      },
+      "reviewed_sha256": "71408644509d5eb5c096dc5ce0d58ad20958b07ef9cafa9c1ea2df210d76973d"
+    },
+    {
+      "concept_id": "i32-printer",
+      "concept_summary": "Signed 32-bit value from printer",
+      "prompt": "One square icon on pure white for reading a signed 32-bit integer. Place the three large black characters I 3 2 in a single horizontal row across most of the square, with generous WHITE GAPS between characters. The capital I must have wide horizontal bars at top and bottom. Below the text draw a simple small but bold BLUE PRINTER output tray with an upward paper sheet that carries the characters, so I32 is the dominant shape. No tiny lines, no other text, no shadows, no tag. The exact label I32 with three separated characters MUST be readable at 30x18. Center entire image in square.",
+      "signature": {
+        "objects": "printer, typed paper",
+        "cue": "I32 paper emerges",
+        "orientation": "vertical",
+        "composition": "navy printer above wide white I32 output",
+        "metaphor": "printout"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-06.png",
+      "qa": {
+        "30x23": {
+          "evidence": "I32 is legible with barred I and separated digits.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A large barred I32 label appears above a blue printer; the printer is a readout metaphor.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "All three I32 characters are separately readable; the small printer remains identifiable.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The characters remain recognizable with softened details.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "I32 has clear gaps and the printer outline remains.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "8788c86618949dbe51ee6e2a467bf1b9e5271ef2728c5c67b7f190575a16117f",
+      "salt": "i5ow26eypr"
+    },
+    {
+      "concept_id": "i32-basket",
+      "concept_summary": "Receive signed 32-bit value in basket",
+      "prompt": "One SQUARE flat icon on white for retrieving signed 32-bit data. Draw an enormous white label with three widely spaced BOLD BLACK characters I 3 2, filling nearly the entire width of the canvas. Capital I has wide bars on top and bottom, distinct from 1. Under this label a simple THICK BLUE BASKET with a large U-shaped body catches it. No basket weave, no detailed handles, no shadows or additional text. Every character of I32 must be unmistakably legible at 30x18. Center the large simple artwork on square.",
+      "signature": {
+        "objects": "basket, value",
+        "cue": "value caught by basket",
+        "orientation": "vertical",
+        "composition": "large handled basket surrounds white I32 inset",
+        "metaphor": "catch value"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-07.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The type and tray are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "All three separated type characters and receiving shape survive."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large barred I32 is above a blue receiving tray."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "All three separated type characters and receiving shape survive."
+        }
+      },
+      "reviewed_sha256": "7994f1a49b549c8faa5578200b8ae73aa3eae2f65e7f937fc3c66081bbbfe2e0",
+      "salt": "1w1dk87iht"
+    },
+    {
+      "concept_id": "i32-tile-stream",
+      "concept_summary": "Signed 32-bit tiles exit buffer",
+      "prompt": "One SQUARE flat software icon on pure white for READING a signed 32-bit integer. Draw a thick NAVY BUFFER BLOCK along the lower left edge. From it emerge THREE LARGE ORANGE SQUARE TILES, arranged as a rising staircase left to right, with big white gaps between tiles. Put one enormous WHITE character on each tile, exactly capital I on first, digit 3 on second, digit 2 on third. The capital I MUST have wide horizontal top and bottom bars so it is not mistaken for 1. Tile labels I, 3, and 2 must each be unmistakably readable at 30x18 and in that order. No other text, arrows, tags, hand or shadow. Keep central 70 percent of square.",
+      "signature": {
+        "composition": "three orange letter tiles ascending diagonally from blue buffer",
+        "metaphor": "stream output",
+        "orientation": "diagonal",
+        "cue": "I32 tiles emerge from buffer",
+        "objects": "three character tiles and buffer"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-08.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "correction": "Show a clear read or extraction action, and keep the type characters legible as one label.",
+          "rule_id": "VIS-SEM-001",
+          "evidence": "Three separated character tiles ascend like a chart above a blue baseline; no recognizable buffer or extraction action appears."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Keep I32 together with large characters and clear spaces.",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The rising tile arrangement separates I, 3 and 2 into separate objects; the glyphs are too small to reliably read as the single I32 type label."
+        },
+        "29x29": {
+          "evidence": "Each tile shows one character in order.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The three separated characters soften but remain visible.",
+          "result": "WARN"
+        },
+        "16x16": {
+          "evidence": "Character details merge at stress size.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "6261f56cfc1381c50c700229c81642175522767cf2297271fb842516cd5dbe13"
+    },
+    {
+      "concept_id": "i32-syringe",
+      "concept_summary": "Draw signed 32-bit value",
+      "prompt": "One square flat icon on white for reading a signed 32-bit integer. Huge bold BLACK I32 across the top, with WIDE WHITE GAPS between I, 3 and 2. Capital I has wide bars top and bottom and is not a digit 1. Below the label is a simple BLUE SYRINGE with a large plunger and a big upward arrow showing it draws a value. Text dominates and is readable at 30x18. No extra text, shadows or tag.",
+      "signature": {
+        "objects": "syringe, typed label",
+        "cue": "syringe pulls data",
+        "orientation": "horizontal",
+        "composition": "black I32 left, vertical syringe right",
+        "metaphor": "draw with syringe"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 2,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-09.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The arrow and syringe remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the upward arrow remains visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large I32 label sits above a syringe with an upward draw arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the upward arrow remains visible."
+        }
+      },
+      "reviewed_sha256": "5127df58c0e8ce0dca27d58e47844a4c786d74d91b2ba9574742cc15dd599237",
+      "salt": "8p1b1zz01f"
+    },
+    {
+      "concept_id": "i32-outward",
+      "concept_summary": "Signed 32-bit data exits ring",
+      "prompt": "One square flat icon on white for reading signed 32-bit data. Write huge BLACK I32 across the TOP with WIDE WHITE GAPS between the three characters. The capital I has broad horizontal bars top and bottom and is distinct from 1. Below, draw a simple bold BLUE BUFFER RECTANGLE with one thick ORANGE RIGHT ARROW pointing out of its right side. The I32 label dominates the icon and must read clearly at 30x18. No other text, no shadows.",
+      "signature": {
+        "objects": "port and type",
+        "cue": "value moves outward",
+        "orientation": "horizontal",
+        "composition": "circular port left, orange right arrow center, I32 right",
+        "metaphor": "output port"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 4,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-10.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Type and buffer arrow are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the arrow points outward from the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large I32 label sits above a blue buffer and outward orange arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I32 is legible and the arrow points outward from the buffer."
+        }
+      },
+      "reviewed_sha256": "daec3ccbb25aa47545797f8ed95f3bc9957d844e350ca6d20880713ad55ebf57",
+      "salt": "uvvzogiifr"
+    },
+    {
+      "concept_id": "i32-dial",
+      "concept_summary": "Dial retrieves signed 32-bit value",
+      "prompt": "One square flat icon on white for reading a signed 32-bit integer. Write three very large black characters I 3 2 across the top in one horizontal line with generous white gaps. The capital I has wide horizontal bars top and bottom, distinct from digit 1. Below the text show a simple large ORANGE DIAL with a bold black needle and a BLUE DOWNWARD OUTPUT ARROW to its right. I32 is most prominent and must be readable at 30x18. No other text or shadows.",
+      "signature": {
+        "orientation": "vertical",
+        "objects": "value label and rotary dial",
+        "cue": "selection dial outputs typed value",
+        "composition": "large orange dial above black I32 with blue downward arrow at side",
+        "metaphor": "rotary output"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-57965eee2429\\candidates\\candidate-11.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The dial and arrow remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The three I32 characters and the downward arrow remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large I32 label sits above an orange dial and downward output arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main type and cue remain visible with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The three I32 characters and the downward arrow remain visible."
+        }
+      },
+      "reviewed_sha256": "20ccb3763aec082f767c4ae7591cf36d082c7a3cc0044c35a7df742a5e758170",
+      "salt": "bqbzcr1uqo"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "i32-printer",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "Printer and paper are clear, but I32 is crowded in the lower paper and the 3 and 2 merge at 30x18.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+      "likely_cause_hypothesis": "The printer takes too much height and the characters are tight.",
+      "retry_result": "PASS after review of candidate-06"
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "i32-syringe",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The needle and syringe are visible, but at 30x18 I32 is squeezed against the syringe, and the 3 and 2 merge. A syringe also does not establish whether it draws or injects.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+      "likely_cause_hypothesis": "The label is crowded and the pictured action has no direction cue.",
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "i32-basket",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The basket weave becomes clutter and the I32 label is too small to distinguish all three letters at 30x18.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+      "likely_cause_hypothesis": "The basket and weave consume the available space.",
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "i32-outward",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The port is a solid blue dot rather than a recognizable buffer, while the I32 characters become too small and tightly packed at 30x18.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+      "likely_cause_hypothesis": "The dot and arrow reduce text width and the port lacks structure.",
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "i32-dial",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "At 30x18 the I32 label has merged strokes; the orange gauge also echoes Tag Status candidate 05.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+      "likely_cause_hypothesis": "The dial and arrow leave insufficient space for the three-character datatype.",
+      "retry_result": "PASS after review of candidate-11"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "All five need I32 legibility corrections; the syringe direction and gauge overlap also need attention.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "i32-printer",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Black type label above a small blue base has the same dominant layout as Read I8 candidate 09, which places black I8 above a blue envelope.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different silhouette and placement than a type label above a blue base.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-06"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Large type above a small blue base resembles Read I8 envelope candidate 09, and the other first attempts need legibility corrections. Candidate 07 was retired at preflight; do not generate.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "concept_id": "i32-tile-stream",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "Three separated character tiles ascend like a chart above a blue baseline; no recognizable buffer or extraction action appears.",
+      "measured_value": "source",
+      "corrective_instruction": "Show a clear read or extraction action, and keep the type characters legible as one label.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "concept_id": "i32-tile-stream",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The rising tile arrangement separates I, 3 and 2 into separate objects; the glyphs are too small to reliably read as the single I32 type label.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Keep I32 together with large characters and clear spaces.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The stair-step tiles do not visibly originate from a buffer and look like a rising chart; the printer revision repeats the I8 envelope layout and other concepts fail legibility.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "User relaxed similarity restrictions. The printer design is recognizable as a printer with legible I32; the remaining four need legibility or action corrections.",
+      "retry_result": "PASS after comparison of the final selected set"
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "evidence": "The five options use printer, syringe and arrow, receiving tray, buffer and outward arrow, and dial and down arrow. Similar overall layouts are allowed by the user.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-09",
+      "candidate-07",
+      "candidate-10",
+      "candidate-11"
+    ]
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned cvvsh3mup6.md",
+    "manifest.json",
+    "Read I32 option 1 1024x1024 i5ow26eypr.png",
+    "Read I32 option 1 29x29 i5ow26eypr.png",
+    "Read I32 option 1 30x18 i5ow26eypr.png",
+    "Read I32 option 1 30x23 i5ow26eypr.png",
+    "Read I32 option 1 i5ow26eypr.ico",
+    "Read I32 option 2 1024x1024 8p1b1zz01f.png",
+    "Read I32 option 2 29x29 8p1b1zz01f.png",
+    "Read I32 option 2 30x18 8p1b1zz01f.png",
+    "Read I32 option 2 30x23 8p1b1zz01f.png",
+    "Read I32 option 2 8p1b1zz01f.ico",
+    "Read I32 option 3 1024x1024 1w1dk87iht.png",
+    "Read I32 option 3 1w1dk87iht.ico",
+    "Read I32 option 3 29x29 1w1dk87iht.png",
+    "Read I32 option 3 30x18 1w1dk87iht.png",
+    "Read I32 option 3 30x23 1w1dk87iht.png",
+    "Read I32 option 4 1024x1024 uvvzogiifr.png",
+    "Read I32 option 4 29x29 uvvzogiifr.png",
+    "Read I32 option 4 30x18 uvvzogiifr.png",
+    "Read I32 option 4 30x23 uvvzogiifr.png",
+    "Read I32 option 4 uvvzogiifr.ico",
+    "Read I32 option 5 1024x1024 bqbzcr1uqo.png",
+    "Read I32 option 5 29x29 bqbzcr1uqo.png",
+    "Read I32 option 5 30x18 bqbzcr1uqo.png",
+    "Read I32 option 5 30x23 bqbzcr1uqo.png",
+    "Read I32 option 5 bqbzcr1uqo.ico"
+  ]
+}

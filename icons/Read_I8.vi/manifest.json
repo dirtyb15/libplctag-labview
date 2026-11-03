@@ -1,0 +1,1928 @@
+{
+  "run_id": "dc288f1bd2ba4520b195f4b7f3e564ad",
+  "request": "Read signed 8-bit integer from tag buffer at offset",
+  "summary_name": "Read I8",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Crane lifts signed byte",
+      "salt": "jtvevz4dmi",
+      "source_file": "Read I8 option 1 1024x1024 jtvevz4dmi.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read I8 option 1 29x29 jtvevz4dmi.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              185,
+              47,
+              839,
+              971
+            ],
+            "source_artwork_size": [
+              654,
+              924
+            ],
+            "rendered_artwork_size": [
+              19,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.02922077922077922,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 1 30x23 jtvevz4dmi.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              185,
+              47,
+              839,
+              971
+            ],
+            "source_artwork_size": [
+              654,
+              924
+            ],
+            "rendered_artwork_size": [
+              15,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.022727272727272728,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 1 30x18 jtvevz4dmi.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              185,
+              47,
+              839,
+              971
+            ],
+            "source_artwork_size": [
+              654,
+              924
+            ],
+            "rendered_artwork_size": [
+              11,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.017316017316017316,
+            "offset": [
+              9,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read I8 option 1 jtvevz4dmi.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            10,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015151515151515152,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            13,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01948051948051948,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            16,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.023809523809523808,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            21,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.032467532467532464,
+          "offset": [
+            5,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            27,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04112554112554113,
+          "offset": [
+            6,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            33,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.049783549783549784,
+          "offset": [
+            7,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            44,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.0670995670995671,
+          "offset": [
+            10,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            89,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13636363636363635,
+          "offset": [
+            19,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            185,
+            47,
+            839,
+            971
+          ],
+          "source_artwork_size": [
+            654,
+            924
+          ],
+          "rendered_artwork_size": [
+            180,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2748917748917749,
+          "offset": [
+            38,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The I8 block and suspension remain visible."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "I8 and suspended block remain distinct."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "Barred I and both orange counters of 8 remain distinguishable; hook softens."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The small hook and letter details soften."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "A navy hook lifts an orange block labeled I8 with barred I."
+          }
+        },
+        "source_sha256": "cfbf604052fcadc7fd60665ac15520e24795f357030bc38c22e1825bde84393e",
+        "distinctness": {
+          "evidence": "Crane lifts a value block, message envelope receives a value, a magnet attracts a block, an output arrow exits a display, and a microscope inspects the type. These have different silhouettes; collection-wide typed and opposing-action comparisons remain pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-09",
+            "candidate-03",
+            "candidate-04",
+            "candidate-07"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "i8-crane",
+      "candidate_id": "candidate-01",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read I8 option 1 1024x1024 jtvevz4dmi.png": "4aa38334f71686ac6be59707eb31eeb824081320da44d92f7c3d0ac928847a83",
+        "Read I8 option 1 29x29 jtvevz4dmi.png": "4808b1cc9012a0663add8cab77aa8719b09bf01e0bd4ae41fac9b90695a220cb",
+        "Read I8 option 1 30x23 jtvevz4dmi.png": "cdfd47f98f464dc009604288b4d15f64327c17c264d10a2b6bb21cd9e6d265ad",
+        "Read I8 option 1 30x18 jtvevz4dmi.png": "d9bc161d2999b39db3f77ea91d36fca9a081cdf76e2f51ca2d4148fb1ccfac73",
+        "Read I8 option 1 jtvevz4dmi.ico": "ec56a1a2e59f4bbc87b366d9b36d30ac06f08a40f90dad8fd698fc093ccc6e20"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Signed byte received in envelope",
+      "salt": "0n6wyexvw0",
+      "source_file": "Read I8 option 2 1024x1024 0n6wyexvw0.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read I8 option 2 29x29 0n6wyexvw0.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              167,
+              105,
+              856,
+              914
+            ],
+            "source_artwork_size": [
+              689,
+              809
+            ],
+            "rendered_artwork_size": [
+              23,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03337453646477132,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 2 30x23 0n6wyexvw0.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              167,
+              105,
+              856,
+              914
+            ],
+            "source_artwork_size": [
+              689,
+              809
+            ],
+            "rendered_artwork_size": [
+              18,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02595797280593325,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 2 30x18 0n6wyexvw0.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              167,
+              105,
+              856,
+              914
+            ],
+            "source_artwork_size": [
+              689,
+              809
+            ],
+            "rendered_artwork_size": [
+              14,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.019777503090234856,
+            "offset": [
+              8,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read I8 option 2 0n6wyexvw0.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            12,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.0173053152039555,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            15,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.022249690976514216,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            19,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.027194066749072928,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            26,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.037082818294190356,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            32,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04697156983930779,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            39,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05686032138442522,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            53,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07663782447466007,
+          "offset": [
+            5,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            107,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1557478368355995,
+          "offset": [
+            10,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            167,
+            105,
+            856,
+            914
+          ],
+          "source_artwork_size": [
+            689,
+            809
+          ],
+          "rendered_artwork_size": [
+            216,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.31396786155747836,
+          "offset": [
+            20,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "evidence": "Barred I, two 8 counters, and envelope V are distinct.",
+            "result": "PASS"
+          },
+          "16x16": {
+            "evidence": "Characters and envelope remain but edges soften.",
+            "result": "WARN"
+          },
+          "source": {
+            "evidence": "Large barred I8 emerges above the blue V of an open envelope, representing receipt.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "Both 8 counters and barred I remain visible above the envelope V.",
+            "result": "PASS"
+          },
+          "30x23": {
+            "evidence": "I8 remains large with the envelope beneath.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "5fdf47cf8f19b736d1f9544aa1105b6e0592db2634617b9697b97dcf329305e1",
+        "distinctness": {
+          "evidence": "Crane lifts a value block, message envelope receives a value, a magnet attracts a block, an output arrow exits a display, and a microscope inspects the type. These have different silhouettes; collection-wide typed and opposing-action comparisons remain pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-09",
+            "candidate-03",
+            "candidate-04",
+            "candidate-07"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "i8-envelope",
+      "candidate_id": "candidate-09",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read I8 option 2 1024x1024 0n6wyexvw0.png": "ac8b1458caeba01972254d6cd56c60152e49a6722061b3950a82cfccaa07d1b0",
+        "Read I8 option 2 29x29 0n6wyexvw0.png": "f95a6114c3101f7467bb419dc5ef9473eda7246cbbec8b7b8e6b9308923ac73e",
+        "Read I8 option 2 30x23 0n6wyexvw0.png": "54f1868894195b6c60003dd76c656f1ff966256ae701345b090d06b51424c7db",
+        "Read I8 option 2 30x18 0n6wyexvw0.png": "d56996aa1f5379eb7d050b8abfc5da0e99a3aaf208d4210648948c8b9a1633b9",
+        "Read I8 option 2 0n6wyexvw0.ico": "74ce89ba741cd98ee7c58c0c9001b8e61287f9e8fbba48663cc60e1f982f4394"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Magnet retrieves signed byte",
+      "salt": "gztqxcfa8g",
+      "source_file": "Read I8 option 3 1024x1024 gztqxcfa8g.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read I8 option 3 29x29 gztqxcfa8g.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              61,
+              305,
+              958,
+              744
+            ],
+            "source_artwork_size": [
+              897,
+              439
+            ],
+            "rendered_artwork_size": [
+              27,
+              13
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.030100334448160536,
+            "offset": [
+              1,
+              8
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 3 30x23 gztqxcfa8g.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              61,
+              305,
+              958,
+              744
+            ],
+            "source_artwork_size": [
+              897,
+              439
+            ],
+            "rendered_artwork_size": [
+              28,
+              14
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.03121516164994426,
+            "offset": [
+              1,
+              4
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 3 30x18 gztqxcfa8g.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              61,
+              305,
+              958,
+              744
+            ],
+            "source_artwork_size": [
+              897,
+              439
+            ],
+            "rendered_artwork_size": [
+              28,
+              14
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.03121516164994426,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read I8 option 3 gztqxcfa8g.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            14,
+            7
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.01560758082497213,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            18,
+            9
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020066889632107024,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            22,
+            11
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.024526198439241916,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            30,
+            15
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.033444816053511704,
+          "offset": [
+            1,
+            8
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            38,
+            19
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.042363433667781496,
+          "offset": [
+            1,
+            10
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            46,
+            23
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05128205128205128,
+          "offset": [
+            1,
+            12
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            62,
+            30
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06911928651059086,
+          "offset": [
+            1,
+            17
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            126,
+            62
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14046822742474915,
+          "offset": [
+            1,
+            33
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            61,
+            305,
+            958,
+            744
+          ],
+          "source_artwork_size": [
+            897,
+            439
+          ],
+          "rendered_artwork_size": [
+            254,
+            124
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2831661092530658,
+          "offset": [
+            1,
+            66
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Magnet and readable I8 remain."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Barred I and 8 are distinguishable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The label, I crossbars and two 8 holes remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The 8 holes soften at stress size."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "A blue horseshoe magnet attracts an orange I8 value tile."
+          }
+        },
+        "source_sha256": "35d56915e0eee635877860c9bab03dde8286a148749dcfa8a1253c4b92d630b2",
+        "distinctness": {
+          "evidence": "Crane lifts a value block, message envelope receives a value, a magnet attracts a block, an output arrow exits a display, and a microscope inspects the type. These have different silhouettes; collection-wide typed and opposing-action comparisons remain pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-09",
+            "candidate-03",
+            "candidate-04",
+            "candidate-07"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "i8-magnet",
+      "candidate_id": "candidate-03",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read I8 option 3 1024x1024 gztqxcfa8g.png": "58114a6c01f8cbbe8556922d0d3f5dd73642e7ec7986def4fde2b3eae41a9271",
+        "Read I8 option 3 29x29 gztqxcfa8g.png": "1780cb39dc7b34705e12509293f619f48ce981148e451b7cbb400992aee0ef81",
+        "Read I8 option 3 30x23 gztqxcfa8g.png": "731bba3bb997cb299d13f1caac83e6eb8dee95c81267513b5b3b32c87c8178f7",
+        "Read I8 option 3 30x18 gztqxcfa8g.png": "035a543e7b777ab3ce3b289abf8738492fb5861f4907b261ce33c86a86bb82d6",
+        "Read I8 option 3 gztqxcfa8g.ico": "bdc639ef97a395958dda0b1a1eef41023f046dd89e254322c060d0c812034e64"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Display retrieved signed byte",
+      "salt": "k8bvdymdqh",
+      "source_file": "Read I8 option 4 1024x1024 k8bvdymdqh.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read I8 option 4 29x29 k8bvdymdqh.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              98,
+              155,
+              926,
+              944
+            ],
+            "source_artwork_size": [
+              828,
+              789
+            ],
+            "rendered_artwork_size": [
+              27,
+              26
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03260869565217391,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 4 30x23 k8bvdymdqh.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              98,
+              155,
+              926,
+              944
+            ],
+            "source_artwork_size": [
+              828,
+              789
+            ],
+            "rendered_artwork_size": [
+              22,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.026615969581749048,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 4 30x18 k8bvdymdqh.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              98,
+              155,
+              926,
+              944
+            ],
+            "source_artwork_size": [
+              828,
+              789
+            ],
+            "rendered_artwork_size": [
+              17,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.020278833967046894,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read I8 option 4 k8bvdymdqh.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016908212560386472,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            18,
+            17
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.021739130434782608,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            22,
+            21
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.026570048309178744,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            30,
+            29
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.036231884057971016,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            38,
+            36
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04589371980676329,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            46,
+            44
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05555555555555555,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            62,
+            59
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.0748792270531401,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            126,
+            120
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.15217391304347827,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            98,
+            155,
+            926,
+            944
+          ],
+          "source_artwork_size": [
+            828,
+            789
+          ],
+          "rendered_artwork_size": [
+            254,
+            242
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.30676328502415456,
+          "offset": [
+            1,
+            7
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Barred I and both 8 holes survive."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Large I8 and arrow are clear."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "I8 is readable and arrow points down from display."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "Arrow and label remain but details soften."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "A display shows I8 with a downward output arrow."
+          }
+        },
+        "source_sha256": "4847619edc396b1992a90f4ec57117e0cabea2f295259de2fb93a0e8d1c134c3",
+        "distinctness": {
+          "evidence": "Crane lifts a value block, message envelope receives a value, a magnet attracts a block, an output arrow exits a display, and a microscope inspects the type. These have different silhouettes; collection-wide typed and opposing-action comparisons remain pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-09",
+            "candidate-03",
+            "candidate-04",
+            "candidate-07"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "i8-display",
+      "candidate_id": "candidate-04",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read I8 option 4 1024x1024 k8bvdymdqh.png": "e601a7fe9ab3420894cd7fe07872580198968a935af075544814c54c70ce4fcf",
+        "Read I8 option 4 29x29 k8bvdymdqh.png": "a8ec78f57aafea8ac56a7c243cf16bebd15d2b5dbb9daad8de5e85ae5d0fde03",
+        "Read I8 option 4 30x23 k8bvdymdqh.png": "08388faaff9c980deb560c8be0d08d492c0c011553f1f6c0205f986ee7e734a3",
+        "Read I8 option 4 30x18 k8bvdymdqh.png": "fbd21a0cc33fcb6103b4bf29e7d4f3b16fbf9e93522e9861603cdb8cc08b8eb6",
+        "Read I8 option 4 k8bvdymdqh.ico": "6eedb19a040041a136b0a6477743a6ef348f22fef984b528dd4443595ce6853a"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Signed byte inspected under microscope",
+      "salt": "upfzl03fee",
+      "source_file": "Read I8 option 5 1024x1024 upfzl03fee.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read I8 option 5 29x29 upfzl03fee.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              183,
+              36,
+              842,
+              1002
+            ],
+            "source_artwork_size": [
+              659,
+              966
+            ],
+            "rendered_artwork_size": [
+              18,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.027950310559006212,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 5 30x23 upfzl03fee.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              183,
+              36,
+              842,
+              1002
+            ],
+            "source_artwork_size": [
+              659,
+              966
+            ],
+            "rendered_artwork_size": [
+              14,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.021739130434782608,
+            "offset": [
+              8,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read I8 option 5 30x18 upfzl03fee.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              183,
+              36,
+              842,
+              1002
+            ],
+            "source_artwork_size": [
+              659,
+              966
+            ],
+            "rendered_artwork_size": [
+              11,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.016563146997929608,
+            "offset": [
+              9,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read I8 option 5 upfzl03fee.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            10,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014492753623188406,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            12,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018633540372670808,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            15,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.022774327122153208,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            20,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.031055900621118012,
+          "offset": [
+            6,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            26,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.039337474120082816,
+          "offset": [
+            7,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            31,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.047619047619047616,
+          "offset": [
+            8,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            42,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06418219461697723,
+          "offset": [
+            11,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            86,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13043478260869565,
+          "offset": [
+            21,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            183,
+            36,
+            842,
+            1002
+          ],
+          "source_artwork_size": [
+            659,
+            966
+          ],
+          "rendered_artwork_size": [
+            173,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2629399585921325,
+          "offset": [
+            41,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "evidence": "A blue microscope sits above a large black I8 label.",
+            "result": "PASS"
+          },
+          "16x16": {
+            "evidence": "Microscope outline survives while character detail softens.",
+            "result": "WARN"
+          },
+          "30x23": {
+            "evidence": "The barred I and two 8 counters remain visible.",
+            "result": "PASS"
+          },
+          "29x29": {
+            "evidence": "The microscope and both characters remain distinct.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "Microscope profile and I8 remain identifiable, though the letters are tightly spaced.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "cc6c9b0daa95ad5bfc43e02fbf42dfe68c485952af1e0168ff18e350fddf577d",
+        "distinctness": {
+          "evidence": "Crane lifts a value block, message envelope receives a value, a magnet attracts a block, an output arrow exits a display, and a microscope inspects the type. These have different silhouettes; collection-wide typed and opposing-action comparisons remain pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-09",
+            "candidate-03",
+            "candidate-04",
+            "candidate-07"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "i8-lens",
+      "candidate_id": "candidate-07",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read I8 option 5 1024x1024 upfzl03fee.png": "98e655ce3ff23185cb5fa8d5299ab8e3cf1e47cc067f3ee97ee707519e443f9a",
+        "Read I8 option 5 29x29 upfzl03fee.png": "44f9450f33979d16929a3f5cc0f8d92cb21db270d7f4e8c87bfa36024b8d2ad5",
+        "Read I8 option 5 30x23 upfzl03fee.png": "7e81e176ce6e51842391d1f8e8b59f4ebdda19515f81437b18f709e1c3b5d71c",
+        "Read I8 option 5 30x18 upfzl03fee.png": "42eba8c831b1af669eb351d7dbbc09101904d835112f7bd7e4da4c5bba2398b3",
+        "Read I8 option 5 upfzl03fee.ico": "8bcf97fd0a0e26512404eca21bc6aa489c7206aedfd89e5cfb28e8d6b7515b02"
+      }
+    }
+  ]
+}

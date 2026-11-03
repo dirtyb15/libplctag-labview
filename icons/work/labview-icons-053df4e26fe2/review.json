@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Tile, eye, fork, tray and magnifier give five different compositions.",
+    "result": "PASS"
+  }
+}

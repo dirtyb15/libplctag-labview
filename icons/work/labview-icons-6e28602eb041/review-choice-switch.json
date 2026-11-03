@@ -1,0 +1,92 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-07",
+      "candidate-04",
+      "candidate-08"
+    ],
+    "result": "FAIL",
+    "evidence": "Candidate 07 has the same orange shape emerging from navy receptacle as Create Tag candidate 15 at 30x18; replace it. Compare the remaining concepts again afterward."
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Computer is beside two files, one marked with a large green check."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Monitor and both file options are distinct."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Computer, selected top file, and second file remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The check and files remain but folds soften."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Check and two stacked files remain visible."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange file and check above a blue drawer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Drawer and file remain distinct."
+        },
+        "30x18": {
+          "correction": "Use a selection concept without an upright orange object over a blue receptacle.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL",
+          "evidence": "The dominant orange upright form emerging from a navy container resembles Create Tag candidate 15."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The file and drawer remain; details soften."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "File and check remain."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue selector lever is beside a checked orange file."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Lever, file and check remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The round switch and checked file remain distinct."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The major shapes remain; the check edges soften."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The selector and check are recognizable."
+        }
+      }
+    }
+  ]
+}

@@ -421,7 +421,8 @@
           "evidence": "The tag and arrowheads survive; the B counters soften."
         }
       },
-      "reviewed_sha256": "ecf181c32efb668ceaee826dc75b741cd05defca714c668ea2c0af282d679614"
+      "reviewed_sha256": "ecf181c32efb668ceaee826dc75b741cd05defca714c668ea2c0af282d679614",
+      "salt": "p7vluhdme4"
     },
     {
       "concept_id": "tag-vertical-span",
@@ -460,7 +461,8 @@
           "evidence": "The arrow survives; the B becomes coarser."
         }
       },
-      "reviewed_sha256": "b78c13d6fbfa111086be31a5f7ad9218ed424f369a5e5dffd22ec3852066557b"
+      "reviewed_sha256": "b78c13d6fbfa111086be31a5f7ad9218ed424f369a5e5dffd22ec3852066557b",
+      "salt": "7tavv4vnp5"
     },
     {
       "concept_id": "byte-block-count",
@@ -499,7 +501,8 @@
           "evidence": "The tag and B remain; the small gap between blocks narrows."
         }
       },
-      "reviewed_sha256": "daa93ffe942bfbb66d9eed999c3183f92eddfa301e25be1752356a8eb3d69e2a"
+      "reviewed_sha256": "daa93ffe942bfbb66d9eed999c3183f92eddfa301e25be1752356a8eb3d69e2a",
+      "salt": "ss71p7sq11"
     },
     {
       "concept_id": "byte-count-panel",
@@ -538,7 +541,8 @@
           "evidence": "#B is recognizable but the hash gaps are narrow."
         }
       },
-      "reviewed_sha256": "c05e07538d1b023a6a1afbfeb270ffc9fe2fe23cd23206eca4bc51c6cce37fc4"
+      "reviewed_sha256": "c05e07538d1b023a6a1afbfeb270ffc9fe2fe23cd23206eca4bc51c6cce37fc4",
+      "salt": "9u19qjyhvk"
     },
     {
       "concept_id": "tag-diagonal-ruler",
@@ -664,6 +668,87 @@
         }
       },
       "reviewed_sha256": "641ab1e868fb3dd7d807c8984379ce874ac744accc0ae02da7092e4c58c6597c"
+    },
+    {
+      "concept_id": "byte-count-tag",
+      "concept_summary": "Byte count inside tag outline",
+      "prompt": "Exactly one SQUARE flat software icon on pure white. Make a single very wide horizontal dark navy outline of a tag, pointed at right, with a single large round hole at the point. Inside the tag put the exact two very large bold characters #B in black, meaning number of bytes. Make both the hash opening and the two holes of B generously large and clearly readable at 30 by 18 pixels. The tag outline encloses both characters, not a tag floating above them. No other text, no arrows, no underline, no shadow. Keep artwork centered with generous white margins.",
+      "signature": {
+        "composition": "count mark inside a wide tag outline",
+        "metaphor": "byte-count tag",
+        "cue": "large #B count of bytes",
+        "orientation": "horizontal",
+        "objects": "tag outline and count mark"
+      },
+      "candidate_id": "candidate-17",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-17.png",
+      "qa": {
+        "29x29": {
+          "evidence": "The tag outline encloses a visible hash and B.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The hash opening and B counters survive in the horizontal tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Both characters and tag outline remain distinct.",
+          "result": "PASS"
+        },
+        "source": {
+          "result": "FAIL",
+          "correction": "Reduce the whole tag to the central 70 percent of the canvas while keeping the #B bold.",
+          "evidence": "The horizontal tag outline extends within about two percent of each side of the master, leaving cramped edge clearance.",
+          "rule_id": "VIS-MARGIN-005"
+        },
+        "16x16": {
+          "evidence": "The hash and B soften but the outlined tag silhouette remains.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "e5d0868a643c761f564bb139530c7102cdff8d4581c5729a29df99414b270088"
+    },
+    {
+      "concept_id": "byte-count-tag",
+      "concept_summary": "Byte count inside tag outline",
+      "prompt": "One SQUARE flat software icon on pure white. In the center draw a wide navy outlined tag with a pointed right end and round hole, enclosing the exact large bold black characters #B for number of bytes. Both B counters and hash openings must be large and readable at 30x18 pixels. The entire tag must fit inside the central 70 percent of canvas width and central 70 percent of canvas height; leave no less than 15 percent empty white margin on all sides. No other objects, writing, arrows, underline, or shadow.",
+      "signature": {
+        "composition": "count mark inside a wide tag outline",
+        "metaphor": "byte-count tag",
+        "cue": "large #B count of bytes",
+        "orientation": "horizontal",
+        "objects": "tag outline and count mark"
+      },
+      "candidate_id": "candidate-18",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-18.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The enclosed characters soften at stress size, while the tag silhouette remains visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "The navy tag outline contains a bold #B with separate counters and has clear white edge space."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The hash and B counters remain distinct inside the tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The outlined tag and enclosed count characters are recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag point, hash and two B counters remain recognizable."
+        }
+      },
+      "reviewed_sha256": "eac2d124adab7eae67b748cb4f11fa7afb920807bcc743759a4a61b9cffb73da",
+      "salt": "0csmtluef6"
     }
   ],
   "failures": [
@@ -678,7 +763,8 @@
       "observed_problem": "A B inside a tag has no size or count cue and may be read as a Boolean or byte datatype tag.",
       "measured_value": "source",
       "corrective_instruction": "Add a strong measurement or count symbol to the B-tag.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "candidate_id": "candidate-03",
@@ -691,7 +777,8 @@
       "observed_problem": "A B above a box containing a tag does not communicate a size or count.",
       "measured_value": "source",
       "corrective_instruction": "Add an explicit count or capacity cue distinct from simple tag packaging.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
     },
     {
       "candidate_id": "candidate-04",
@@ -704,7 +791,8 @@
       "observed_problem": "A tag over a panel marked only B communicates a byte label rather than the buffer's size or count.",
       "measured_value": "source",
       "corrective_instruction": "Use a large count symbol with B in a readout so it represents byte count.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
     },
     {
       "candidate_id": "candidate-05",
@@ -717,13 +805,15 @@
       "observed_problem": "Orange brackets enclosing a blue tag repeat the dominant orange-brackets-around-blue-object structure of PLC_Attributes.ctl candidate-14.",
       "measured_value": "source",
       "corrective_instruction": "Use a structurally different size metaphor rather than a bracketed central object.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Three options label bytes without conveying size or count. The bracketed tag resembles the separately reviewed PLC attributes cluster. Retain the vertical dimension concept and revise the rest."
+      "observed_problem": "Three options label bytes without conveying size or count. The bracketed tag resembles the separately reviewed PLC attributes cluster. Retain the vertical dimension concept and revise the rest.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-06",
@@ -736,7 +826,8 @@
       "observed_problem": "The orange dimension arrowheads collapse into blunt bars, weakening the size cue.",
       "measured_value": "30x18",
       "corrective_instruction": "Use much larger arrowheads with more separation from the arrow shaft.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "candidate_id": "candidate-02",
@@ -749,7 +840,8 @@
       "observed_problem": "On closer comparison the arrowheads compress into near-square ends, weakening the dimension cue.",
       "measured_value": "30x18",
       "corrective_instruction": "Make the top and bottom arrowheads significantly larger than the shaft.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-11"
     },
     {
       "candidate_id": "candidate-07",
@@ -762,7 +854,8 @@
       "observed_problem": "The B collapses to a dark blob and cannot reliably indicate bytes.",
       "measured_value": "30x18",
       "corrective_instruction": "Make B substantially larger and use fewer large count blocks.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
     },
     {
       "candidate_id": "candidate-08",
@@ -775,7 +868,8 @@
       "observed_problem": "The hash mark merges into a dark shape at 30x18, so the byte-count label is not reliably readable.",
       "measured_value": "30x18",
       "corrective_instruction": "Widen the hash openings and simplify the readout so #B has more pixels.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
     },
     {
       "candidate_id": "candidate-09",
@@ -788,13 +882,15 @@
       "observed_problem": "The C-shaped jaws grip a tag and closely resemble the tag-clamp lock/unlock concepts, implying clamping rather than size.",
       "measured_value": "source",
       "corrective_instruction": "Replace the clamp with a distinctly measuring or counting concept.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Both dimension-arrow options lose their arrowheads at 30x18, the B and #B count marks become unclear in two others, and the C-shaped jaw design resembles the lock/unlock clamp. Revise before final comparison."
+      "observed_problem": "Both dimension-arrow options lose their arrowheads at 30x18, the B and #B count marks become unclear in two others, and the C-shaped jaw design resembles the lock/unlock clamp. Revise before final comparison.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-14",
@@ -807,13 +903,15 @@
       "observed_problem": "The ruler's white notches largely disappear, leaving an orange diagonal band across a tag and weakening the measuring cue.",
       "measured_value": "30x18",
       "corrective_instruction": "Use a much thicker ruler with two huge high-contrast ticks, or a different measurement cue.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The horizontal and vertical measurement arrows, counted blocks and #B readout differ in layout, but the diagonal ruler loses its measurement notches at 30x18. Replace it and compare the final five again."
+      "observed_problem": "The horizontal and vertical measurement arrows, counted blocks and #B readout differ in layout, but the diagonal ruler loses its measurement notches at 30x18. Replace it and compare the final five again.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-15",
@@ -826,7 +924,8 @@
       "observed_problem": "The orange bar has two full-width black bands and resembles a striped band rather than a ruler.",
       "measured_value": "source",
       "corrective_instruction": "Use short partial tick marks from one edge of an unmistakable ruler silhouette.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
     },
     {
       "candidate_id": "candidate-15",
@@ -839,13 +938,15 @@
       "observed_problem": "At 30x18 the bar reads as a striped diagonal mark, not reliably as a measuring tool.",
       "measured_value": "30x18",
       "corrective_instruction": "Use partial ruler ticks that preserve the measuring-tool silhouette.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The full-width stripes on the ruler read as a striped bar. Revise the last option before comparing the final five."
+      "observed_problem": "The full-width stripes on the ruler read as a striped bar. Revise the last option before comparing the final five.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-16",
@@ -858,25 +959,71 @@
       "observed_problem": "The B is too small and its counters become indistinct; the ruler ticks also merge into the diagonal band.",
       "measured_value": "30x18",
       "corrective_instruction": "Retire this crowded concept and use a layout with a much larger byte mark and distinct size cue.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The diagonal-ruler concept has exhausted three attempts and still loses its byte mark at 30x18. Retire it and introduce a distinct fifth concept."
+      "observed_problem": "The diagonal-ruler concept has exhausted three attempts and still loses its byte mark at 30x18. Retire it and introduce a distinct fifth concept.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-17",
+      "option_number": 5,
+      "concept_id": "byte-count-tag",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-MARGIN-005",
+      "result": "FAIL",
+      "observed_problem": "The horizontal tag outline extends within about two percent of each side of the master, leaving cramped edge clearance.",
+      "measured_value": "source",
+      "corrective_instruction": "Reduce the whole tag to the central 70 percent of the canvas while keeping the #B bold.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
     }
   ],
   "distinctness": {
-    "result": "FAIL",
+    "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
     "candidate_ids": [
       "candidate-10",
       "candidate-11",
       "candidate-12",
       "candidate-13",
-      "candidate-16"
+      "candidate-18"
     ],
-    "evidence": "The diagonal-ruler concept has exhausted three attempts and still loses its byte mark at 30x18. Retire it and introduce a distinct fifth concept."
+    "result": "PASS"
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned e50s4lyg0s.md",
+    "manifest.json",
+    "Tag Size option 1 1024x1024 p7vluhdme4.png",
+    "Tag Size option 1 29x29 p7vluhdme4.png",
+    "Tag Size option 1 30x18 p7vluhdme4.png",
+    "Tag Size option 1 30x23 p7vluhdme4.png",
+    "Tag Size option 1 p7vluhdme4.ico",
+    "Tag Size option 2 1024x1024 7tavv4vnp5.png",
+    "Tag Size option 2 29x29 7tavv4vnp5.png",
+    "Tag Size option 2 30x18 7tavv4vnp5.png",
+    "Tag Size option 2 30x23 7tavv4vnp5.png",
+    "Tag Size option 2 7tavv4vnp5.ico",
+    "Tag Size option 3 1024x1024 ss71p7sq11.png",
+    "Tag Size option 3 29x29 ss71p7sq11.png",
+    "Tag Size option 3 30x18 ss71p7sq11.png",
+    "Tag Size option 3 30x23 ss71p7sq11.png",
+    "Tag Size option 3 ss71p7sq11.ico",
+    "Tag Size option 4 1024x1024 9u19qjyhvk.png",
+    "Tag Size option 4 29x29 9u19qjyhvk.png",
+    "Tag Size option 4 30x18 9u19qjyhvk.png",
+    "Tag Size option 4 30x23 9u19qjyhvk.png",
+    "Tag Size option 4 9u19qjyhvk.ico",
+    "Tag Size option 5 0csmtluef6.ico",
+    "Tag Size option 5 1024x1024 0csmtluef6.png",
+    "Tag Size option 5 29x29 0csmtluef6.png",
+    "Tag Size option 5 30x18 0csmtluef6.png",
+    "Tag Size option 5 30x23 0csmtluef6.png"
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat icon on pure white for reading a signed 8-bit value from a buffer. On the LEFT show one short thick NAVY VERTICAL DISPENSER SLOT. From that slot to the RIGHT emerges a very large horizontal ORANGE rectangular value ticket. On the ticket write exactly I8 in HUGE BOLD WHITE characters filling most of the ticket; the capital I has broad horizontal top and bottom bars to differ from digit 1. Entire I8 must be unmistakably legible at 30x18. No arrows, no other text, no tap, no key, no shadow, no hand. Keep the design within central 70 percent of square.",
+  "signature": {
+    "objects": "slot and labeled value ticket",
+    "orientation": "horizontal",
+    "cue": "I8 emerges from slot",
+    "composition": "blue vertical slot left, large orange horizontal I8 ticket emerging right",
+    "metaphor": "ticket dispense"
+  },
+  "concept_summary": "Signed byte dispensed from slot",
+  "concept_id": "i8-ticket"
+}

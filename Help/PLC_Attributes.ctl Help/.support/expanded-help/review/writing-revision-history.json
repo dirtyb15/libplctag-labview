@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "latest_archive": "ef989e69d4ef3c1ee5d041630cc1f95d016e5213a5835f9cac45f974958efb9c",
+  "batches": [
+    {
+      "number": 1,
+      "source_archive": "4c2e27a616e6a8bb8b76f3eaeee4c38db0a537e08c3a4ee619461ff82ba91fab",
+      "from_snapshot_sha256": "6e66e9ef19b44aecee62bfe6c4d7955843241619bac55d3f318f4891e55a8091",
+      "to_snapshot_sha256": "9107413ce30d979e0d231197ba0175b123aec21a0afcbc743db4533e47f9bbf4",
+      "original_artifact_sha256": "8eab95f3f2fec336815e8a08eda2e4bfd836c9b80dfaa3a980f8f67e600dc397",
+      "current_artifact_sha256": "e44b77242c078e8cbbae70ae1bdfa27e44eb40c0623d3de6193d0bdd343645e3"
+    },
+    {
+      "number": 2,
+      "source_archive": "2117b4d0ba070c8c21e44576872eef3aade575620295b828ad3a9200d49d1f20",
+      "from_snapshot_sha256": "319dd6f624b1e649c1efb1a55dffffe79a28efcd503dad3af06bbc9e9b11b353",
+      "to_snapshot_sha256": "be79fc0b9850341cd4ae769cc1e90dea2686e39164132ac93052d6de589b286b",
+      "original_artifact_sha256": "a9253012d53fa4aa575dd73b2f95bf9162070c80bde4976088a53c12a061f1b8",
+      "current_artifact_sha256": "7a98bfc8c0c03f3812d3e460ae619fa366611110541f80af152858d51f5b3cf7"
+    }
+  ],
+  "obligations": [
+    {
+      "id": "bf153a39466d6c7cb7a3",
+      "batch": 1,
+      "source_archive": "4c2e27a616e6a8bb8b76f3eaeee4c38db0a537e08c3a4ee619461ff82ba91fab",
+      "source_archive_sha256": "33b1a3860ea2c10701f17769479fd45f0345a391a40edc2538e0d314e0c288af",
+      "source_snapshot_sha256": "6e66e9ef19b44aecee62bfe6c4d7955843241619bac55d3f318f4891e55a8091",
+      "source_artifact_sha256": "8eab95f3f2fec336815e8a08eda2e4bfd836c9b80dfaa3a980f8f67e600dc397",
+      "source_section_id": "section-5",
+      "source_unit_id": "unit-20",
+      "original_text": "The field label cpu refers to the PLC's central processing unit, but the value selects a family rather than an exact catalog number. The C lookup compares the following recognized family names without regard to letter case. The saved dropdown contains six entries:",
+      "original_method": "approachable-fk/2.0",
+      "original_counts": {
+        "words": 37,
+        "sentences": 2,
+        "syllables": 64,
+        "estimated_grade": 12.04
+      }
+    },
+    {
+      "id": "ca4b10de973b8f7f4f40",
+      "batch": 2,
+      "source_archive": "2117b4d0ba070c8c21e44576872eef3aade575620295b828ad3a9200d49d1f20",
+      "source_archive_sha256": "d03b2e8890be243a137dfa954f2cab87e3b95ac1438eeb0652add713eda44818",
+      "source_snapshot_sha256": "319dd6f624b1e649c1efb1a55dffffe79a28efcd503dad3af06bbc9e9b11b353",
+      "source_artifact_sha256": "a9253012d53fa4aa575dd73b2f95bf9162070c80bde4976088a53c12a061f1b8",
+      "source_section_id": "section-1",
+      "source_unit_id": "unit-1",
+      "original_text": "PLC_Attributes.ctl describes which controller to reach and which value to access inside it. A programmable logic controller (PLC) runs the logic for a machine or process. The LabVIEW virtual instrument (VI) Create_Tag.vi uses this cluster to create a library tag: a software object that holds the connection settings and a local copy of the requested data.",
+      "original_method": "approachable-fk/2.0",
+      "original_counts": {
+        "words": 60,
+        "sentences": 3,
+        "syllables": 101,
+        "estimated_grade": 12.07
+      }
+    }
+  ],
+  "latest_archive_sha256": "4d7393c0496a0027cccb91cbaab590f97fe7beb0fc4d55a9829834fae4ad8532"
+}

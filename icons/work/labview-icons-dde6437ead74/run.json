@@ -52,7 +52,8 @@
           "evidence": "The triangle and bubble survive while message lines merge."
         }
       },
-      "reviewed_sha256": "c5c6c3776d97316dfa6f9df4ba2724d65fbd3c538d7b4268a4d52c3e8f36368e"
+      "reviewed_sha256": "c5c6c3776d97316dfa6f9df4ba2724d65fbd3c538d7b4268a4d52c3e8f36368e",
+      "salt": "fw5guqbijp"
     },
     {
       "concept_id": "error-book",
@@ -91,7 +92,8 @@
           "evidence": "The open-book silhouette survives; small warning details merge."
         }
       },
-      "reviewed_sha256": "b7dbee74459a81ec5153248fe6d98669b473e6cde71038f9e6b2bec50e9a9f69"
+      "reviewed_sha256": "b7dbee74459a81ec5153248fe6d98669b473e6cde71038f9e6b2bec50e9a9f69",
+      "salt": "csufdfhbau"
     },
     {
       "concept_id": "warning-bubble",
@@ -212,7 +214,8 @@
           "evidence": "The i and triangle survive; the letter dot becomes coarse."
         }
       },
-      "reviewed_sha256": "fe6659e16bf85d90c82cbf5f711251c1734aaf3761d1db961327903186863131"
+      "reviewed_sha256": "fe6659e16bf85d90c82cbf5f711251c1734aaf3761d1db961327903186863131",
+      "salt": "hc0jgdeugu"
     },
     {
       "concept_id": "error-info-symbols",
@@ -294,7 +297,8 @@
           "evidence": "The direction and major shapes survive while the bar gap narrows."
         }
       },
-      "reviewed_sha256": "62a57ccf4ea4f1d7e93d520cf6a4a9459c2d6f08501518a76bca3c26b599e886"
+      "reviewed_sha256": "62a57ccf4ea4f1d7e93d520cf6a4a9459c2d6f08501518a76bca3c26b599e886",
+      "salt": "5513b041my"
     },
     {
       "concept_id": "quoted-error",
@@ -311,7 +315,71 @@
       "option_number": 3,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-08.png",
-      "qa": {}
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The quotation pairs soften but the central red exclamation and side marks remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The paired blue quotation marks and red exclamation remain distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The exclamation remains separate from the quotes."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The red exclamation and surrounding dark quotation marks are recognizable."
+        },
+        "source": {
+          "rule_id": "VIS-MARGIN-005",
+          "evidence": "The quotation marks approach the left and right canvas edges, leaving about three percent clearance and risking clipping.",
+          "correction": "Keep the same quoted exclamation but scale the entire group down and leave at least ten percent white space on every side.",
+          "result": "FAIL"
+        }
+      },
+      "reviewed_sha256": "d307b6d84fddd7dd41a135eaaa716fdde9405a782f1c310a141ebc4e088ab878"
+    },
+    {
+      "concept_id": "quoted-error",
+      "concept_summary": "Quoted error description",
+      "prompt": "Create one SQUARE flat icon on pure white. A single bold red exclamation mark is centered between oversized dark navy opening and closing double quotation marks, conveying an error description. The entire grouped artwork must occupy only the central 70 percent of canvas width and height, with a generous completely empty white margin at least 15 percent on all four sides. Thick simple shapes with separated marks, crisp legibility at 30 by 18 pixels. No other text, no border, no shadows, no extra symbols.",
+      "signature": {
+        "metaphor": "error message quotation",
+        "objects": "quotation marks and exclamation",
+        "cue": "quoted error text",
+        "composition": "red exclamation between large blue quotation marks",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-09.png",
+      "qa": {
+        "29x29": {
+          "evidence": "The exclamation and opposing quote pairs remain separated.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Quote pairs soften at this stress size but the red exclamation and dark side marks remain visible.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The central red mark and the dark paired quotes are recognizable.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "The red exclamation sits between navy quotation marks with clear white margins and no extraneous elements.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The quotation shapes flank a visible red exclamation with a separated dot.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "ff490ad43699b8918912cd52f59bd24e0e5041d79786ff41b39cd9845e984836",
+      "salt": "fw3f9gj3ju"
     }
   ],
   "failures": [
@@ -326,7 +394,8 @@
       "observed_problem": "The round outlined bubble with a diagonal tail resembles the magnifying-glass silhouette used by Read_U8.vi candidate-06.",
       "measured_value": "source",
       "corrective_instruction": "Replace the round ring-and-tail layout with a structurally different error-description concept.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
     },
     {
       "candidate_id": "candidate-04",
@@ -339,13 +408,15 @@
       "observed_problem": "The left block, rightward arrow, and right text-bars layout repeats the buffer-to-U8 structure of Read_U8.vi candidate-01.",
       "measured_value": "source",
       "corrective_instruction": "Use a materially different arrangement or conversion metaphor.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The round bubble resembles the U8 magnifier, and the error-to-bars layout repeats the U8 buffer-to-value structure. Replace both and compare actual images again."
+      "observed_problem": "The round bubble resembles the U8 magnifier, and the error-to-bars layout repeats the U8 buffer-to-value structure. Replace both and compare actual images again.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-06",
@@ -358,7 +429,8 @@
       "observed_problem": "A triangle above a blue circle containing a white i strongly resembles Datatype.ctl candidate-06, which has a triangle above a blue dial containing an I.",
       "measured_value": "source",
       "corrective_instruction": "Replace with a silhouette that does not use a triangle over a blue circular I/i.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
     },
     {
       "candidate_id": "candidate-06",
@@ -371,15 +443,71 @@
       "observed_problem": "The triangle-over-blue-circle structure remains too similar to the datatype selector.",
       "measured_value": "30x18",
       "corrective_instruction": "Use a different dominant silhouette for the error description.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The separated triangle and information circle is too similar to the datatype selector's triangle over blue I dial. Keep the curved decode candidate and replace the circle option."
+      "observed_problem": "The separated triangle and information circle is too similar to the datatype selector's triangle over blue I dial. Keep the curved decode candidate and replace the circle option.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "concept_id": "quoted-error",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-MARGIN-005",
+      "result": "FAIL",
+      "observed_problem": "The quotation marks approach the left and right canvas edges, leaving about three percent clearance and risking clipping.",
+      "measured_value": "source",
+      "corrective_instruction": "Keep the same quoted exclamation but scale the entire group down and leave at least ten percent white space on every side.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
     }
   ],
-  "distinctness": {},
-  "published": false
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-09",
+      "candidate-07",
+      "candidate-05"
+    ],
+    "evidence": "The speech bubble beside warning, open book, quoted exclamation, curved decode arrow and information triangle are visibly different compositions."
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "Error Info option 1 1024x1024 fw5guqbijp.png",
+    "Error Info option 1 29x29 fw5guqbijp.png",
+    "Error Info option 1 30x18 fw5guqbijp.png",
+    "Error Info option 1 30x23 fw5guqbijp.png",
+    "Error Info option 1 fw5guqbijp.ico",
+    "Error Info option 2 1024x1024 csufdfhbau.png",
+    "Error Info option 2 29x29 csufdfhbau.png",
+    "Error Info option 2 30x18 csufdfhbau.png",
+    "Error Info option 2 30x23 csufdfhbau.png",
+    "Error Info option 2 csufdfhbau.ico",
+    "Error Info option 3 1024x1024 fw3f9gj3ju.png",
+    "Error Info option 3 29x29 fw3f9gj3ju.png",
+    "Error Info option 3 30x18 fw3f9gj3ju.png",
+    "Error Info option 3 30x23 fw3f9gj3ju.png",
+    "Error Info option 3 fw3f9gj3ju.ico",
+    "Error Info option 4 1024x1024 5513b041my.png",
+    "Error Info option 4 29x29 5513b041my.png",
+    "Error Info option 4 30x18 5513b041my.png",
+    "Error Info option 4 30x23 5513b041my.png",
+    "Error Info option 4 5513b041my.ico",
+    "Error Info option 5 1024x1024 hc0jgdeugu.png",
+    "Error Info option 5 29x29 hc0jgdeugu.png",
+    "Error Info option 5 30x18 hc0jgdeugu.png",
+    "Error Info option 5 30x23 hc0jgdeugu.png",
+    "Error Info option 5 hc0jgdeugu.ico",
+    "lessonsLearned 02u5qlh4hm.md",
+    "manifest.json"
+  ]
 }

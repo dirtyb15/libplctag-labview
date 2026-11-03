@@ -1,0 +1,69 @@
+{
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "Press, separate plus above tag, and open carton with plus use distinct structures. The tag cutout inside the large plus is not identifiable at 30x18, and the gear is a known Choose_Lib conflict.",
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-14",
+      "candidate-09",
+      "candidate-15",
+      "candidate-05"
+    ]
+  },
+  "candidates": [
+    {
+      "qa": {
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The green hole in the white tag is small."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A white tag is cut out of the center of a large green plus."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The white center looks like a rectangular hole rather than a recognizable tag.",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Use a much larger tag silhouette and tag hole within the plus."
+        },
+        "30x23": {
+          "result": "FAIL",
+          "evidence": "The tag hole vanishes and its pointed end loses definition, leaving an ambiguous white horizontal slot.",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Enlarge the tag cutout and green hole and make the pointed end unmistakable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The green plus survives but the tag detail disappears."
+        }
+      },
+      "candidate_id": "candidate-14"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag hole, carton flaps and plus are separate."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag emerges from a navy open carton bearing a large white plus; compared with the destroy trash bin, this has wide side flaps and a plus rather than bin slats."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large tag, open side flaps and white creation plus survive."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag and white plus remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and plus remain but the side flaps soften."
+        }
+      },
+      "candidate_id": "candidate-15"
+    }
+  ]
+}

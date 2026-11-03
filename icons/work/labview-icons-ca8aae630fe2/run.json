@@ -224,6 +224,464 @@
         }
       },
       "reviewed_sha256": "7e35e59c0306b5cfcc5588571a2296dd536d8c814573629c67ce24276404d523"
+    },
+    {
+      "concept_id": "read-diagonal-to-tag",
+      "concept_summary": "Controller outputs tag down-left",
+      "prompt": "One SQUARE flat software icon on pure white representing reading a PLC tag into a local buffer. Put a dark navy industrial controller at UPPER RIGHT with one large white display and two wide module divisions. Put a large orange tag at LOWER LEFT. Between them place a very thick blue arrow pointing DOWN and LEFT away from the controller toward the tag. Leave a generous white gap around the arrowhead so it remains obvious at 30 by 18. This is data leaving the PLC, not entering it. Keep all shapes centered inside the middle 70 percent of canvas, no letters, shadows, tiny marks or borders.",
+      "signature": {
+        "metaphor": "controller output",
+        "cue": "down-left extraction",
+        "orientation": "diagonal-down-left",
+        "composition": "controller upper right, tag lower left, arrow connects outward",
+        "objects": "PLC, diagonal arrow, tag"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-06.png",
+      "qa": {
+        "30x18": {
+          "correction": "Use a different action and arrangement than the write curved route.",
+          "result": "FAIL",
+          "evidence": "The curved transfer remains readily confusable with the opposed Write_Tag curved transfer at small size.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "16x16": {
+          "evidence": "The controller and tag survive but the arrowhead softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The blue curved arrow leaves the controller toward the orange tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The down-left arrow remains visible.",
+          "result": "PASS"
+        },
+        "source": {
+          "correction": "Use a different silhouette, not a mirrored curved controller and tag route.",
+          "result": "FAIL",
+          "evidence": "The generator made a curved controller-to-tag route. It closely mirrors Write_Tag candidate-07, which shows a curved tag-to-controller route; both have the same three dominant components.",
+          "rule_id": "VIS-DISTINCT-012"
+        }
+      },
+      "reviewed_sha256": "1d3ac487708f4f5ac3b20120df6b6fead0d930fccced9b7a20610f927c3a8a2d"
+    },
+    {
+      "concept_id": "download",
+      "concept_summary": "Download tag",
+      "prompt": "One SQUARE flat icon on white for receiving tag data into a local buffer after a PLC read. A large bold BLUE downward arrow points into a wide dark NAVY open receiving tray. Inside the tray is a LARGE bright ORANGE tag with a large white hole, visibly separated from the navy tray by a thick white gap. The arrowhead, tag, tag hole, and tray must remain distinct at 30x18 pixels. No wireless symbol, no text or shadows, center within 70 percent of the canvas with wide white margins.",
+      "signature": {
+        "cue": "inbound",
+        "orientation": "varied",
+        "metaphor": "Download tag",
+        "objects": "Download tag",
+        "composition": "A bold blue downward arrow into an orange tray containing a tag silhouette."
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-07.png",
+      "qa": {
+        "30x18": {
+          "evidence": "The down arrow, tag hole and receiving tray remain visible.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The tray and arrow survive while the tag hole softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "Tag, hole, tray and downward arrow are distinguishable.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The orange tag remains separate from the dark tray.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A blue downward arrow delivers an orange tag into a contrasting navy tray.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "6be60c6aef83c1798830c9c98a4c315b510580bd03bc79a62c1273440ba1881d",
+      "salt": "w07zpmtjmd"
+    },
+    {
+      "concept_id": "read-output-up",
+      "concept_summary": "Tag emitted above controller",
+      "prompt": "One SQUARE flat icon on a pure white background for reading a tag from a PLC. Put a large simple NAVY industrial PLC at the BOTTOM, with one white display and two broad module divisions. Above the PLC a very thick orange arrow points UP away from the PLC toward a large orange TAG at the TOP. The tag has a large clear white hole. The arrowhead is large and separated by white space so it remains obvious at 30x18. This shows data leaving the PLC. No words, shadow or border. All artwork centered within the middle 70 percent of the square canvas.",
+      "signature": {
+        "composition": "PLC below arrow and tag above",
+        "objects": "controller, upward arrow, tag",
+        "cue": "upward output from PLC",
+        "orientation": "vertical-up",
+        "metaphor": "controller output"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-08.png",
+      "qa": {
+        "source": {
+          "correction": "Replace with a read concept whose dominant silhouette is not a vertical tag-arrow-PLC stack.",
+          "evidence": "A tag, vertical upward arrow, and PLC repeat the same three-element vertical transfer composition as Write_Tag candidate-02 with top and bottom objects swapped.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x18": {
+          "correction": "Use a structurally different read metaphor.",
+          "evidence": "The same blue PLC, orange upward arrow, and orange tag arrangement is readily confused with the write icon.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow points up from the PLC toward the tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The three colored regions remain, though the arrowhead softens."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag and upward arrow are visible above the controller."
+        }
+      },
+      "reviewed_sha256": "ed5e337ef47f2aa2a542bc9837fd14d368444bd274dc97d8b4184a32a7db579d"
+    },
+    {
+      "concept_id": "read-eye-controller",
+      "concept_summary": "Inspect controller tag",
+      "prompt": "One SQUARE flat software icon on white for reading a PLC tag. Draw a bold blue EYE across the TOP. Below it draw a large simple dark navy industrial controller with a big white display and two thick module divisions. On the controller display place a large orange tag silhouette with a clear white hole. Eye and controller are two large shapes. Make the eye and embedded tag recognizable at 30x18. No arrow, no letters, no shadow; keep all artwork inside central 70 percent of canvas.",
+      "signature": {
+        "composition": "large eye above PLC containing tag",
+        "objects": "eye, PLC, tag",
+        "cue": "eye views PLC and tag",
+        "orientation": "vertical",
+        "metaphor": "inspection of PLC tag"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-09.png",
+      "qa": {
+        "source": {
+          "correction": "Replace the eye-over-object design with an explicit transfer and a different silhouette.",
+          "evidence": "The large blue eye above a rectangular object repeats the dominant eye-over-content silhouette of Read_I16 candidate-07; the embedded tag may look like inspecting a controller display rather than fetching data.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x18": {
+          "correction": "Use a distinct source-to-buffer action.",
+          "evidence": "The large eye over rectangular content remains similar to the signed-read eye motif and does not show a transfer.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL"
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Eye and tag inside controller remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The eye and orange patch survive."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The eye, controller and orange tag are visible."
+        }
+      },
+      "reviewed_sha256": "a4a75b57d0e319d0de4097abc2b3ec602931df334d97f2bdee939953e35c669a"
+    },
+    {
+      "concept_id": "read-pull-tab",
+      "concept_summary": "Pull tag out of PLC",
+      "prompt": "One SQUARE flat software icon on white representing reading a tag from a PLC. At right draw a large simple NAVY rectangular industrial controller with a large white display and two broad module divisions. At left a simple BLUE hand grips an ORANGE tag that protrudes out of the controller LEFTWARD, visibly pulling it away. The tag has a large white hole. Use three simple large shapes and obvious leftward extraction; no arrow, text, wireless symbols, tiny detail or shadows. Keep all art within central 70 percent of square canvas, with broad white margins. Must be recognizable at 30x18 pixels.",
+      "signature": {
+        "composition": "controller right, tag emerging left into hand",
+        "metaphor": "manual extraction",
+        "cue": "hand grasps tag exiting PLC",
+        "objects": "hand, tag, controller",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-10.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The tag appears attached to the controller; extraction is not evident.",
+          "result": "WARN"
+        },
+        "source": {
+          "correction": "Add a large explicit arrow pointing away from the controller.",
+          "evidence": "A hand holds a tag at the side of a controller, but there is no indication whether it is inserting or removing the tag.",
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL"
+        },
+        "29x29": {
+          "evidence": "The hand, tag and device are visible but the action direction is unclear.",
+          "result": "WARN"
+        },
+        "16x16": {
+          "evidence": "Hand and device remain with unclear direction.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "correction": "Make the outward motion explicit with a large separated arrow.",
+          "evidence": "The tag and hand suggest either insertion or removal; read and write cannot be distinguished.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL"
+        }
+      },
+      "reviewed_sha256": "b47c98f3544a0555b63c32b8ba95c5a67da97473baa741faa5eebc3b059d8075"
+    },
+    {
+      "concept_id": "read-funnel",
+      "concept_summary": "Tag received through funnel",
+      "prompt": "One SQUARE flat icon on pure white for receiving PLC tag data into a local buffer. A large orange tag with a big white hole is ABOVE a broad BLUE FUNNEL whose wide open top receives it. The funnel neck leads into a dark navy rectangular buffer at the bottom. Clear white gaps keep the tag, funnel and buffer distinguishable. This is a funnel, NOT a tray, not a wireless symbol. Three large simple shapes, no text or shadows, generous white margins and recognizable at 30x18 pixels.",
+      "signature": {
+        "composition": "tag above broad funnel and buffer below",
+        "metaphor": "buffer intake",
+        "cue": "tag descends through funnel to buffer",
+        "objects": "tag, funnel, local buffer",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-11.png",
+      "qa": {
+        "30x23": {
+          "evidence": "The tag hole softens; the funnel remains prominent.",
+          "result": "WARN"
+        },
+        "source": {
+          "correction": "Use an explicit transfer or receiving symbol rather than a funnel.",
+          "evidence": "The funnel is the dominant conventional filter symbol, suggesting filtering tag data rather than reading it.",
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL"
+        },
+        "29x29": {
+          "evidence": "The tag, funnel and base remain separate.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The filter silhouette and orange tag remain.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "correction": "Replace the filter metaphor with recognizable read transfer.",
+          "evidence": "The funnel strongly communicates filtering and the source of the tag is absent.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL"
+        }
+      },
+      "reviewed_sha256": "87d64410c14e3e90e36c5f1eba8329d55bde59e019d0fc041f42544e19729e35"
+    },
+    {
+      "concept_id": "read-pull-tab",
+      "concept_summary": "Pull tag out of PLC",
+      "prompt": "One square flat icon on pure white for reading a tag from a PLC. At right a dark navy industrial controller with a white display and two broad module divisions. To its left a large orange tag with a white circular hole is being pulled away by a simple blue hand. Above the hand and tag draw one LARGE thick BLACK arrow pointing LEFT AWAY from the controller, making the extraction direction explicit. Keep hand, tag, controller and arrow very simple and all recognizable at 30x18. No other text, no shadows; artwork fits the central 70 percent of canvas.",
+      "signature": {
+        "composition": "controller right, tag emerging left into hand",
+        "metaphor": "manual extraction",
+        "cue": "hand grasps tag exiting PLC",
+        "objects": "hand, tag, controller",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-12",
+      "option_number": 1,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-12.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The left arrow, blue hand, orange tag and navy device remain distinct."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Hand and tag details soften, while the leftward arrow and device remain."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow points away from the controller toward the hand."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large leftward arrow remains visible above the hand, tag and controller."
+        },
+        "source": {
+          "result": "WARN",
+          "evidence": "A hand holds the tag beside a PLC, with a prominent leftward arrow showing extraction. Side margins are narrow but the artwork is not clipped."
+        }
+      },
+      "reviewed_sha256": "e981d8b91005bc443fbfa3a5e9e4b39ead079ebca05767e55b97de35682a4f3f",
+      "salt": "8a75qi0p5y"
+    },
+    {
+      "concept_id": "read-tag-to-buffer",
+      "concept_summary": "Tag received into local buffer",
+      "prompt": "One SQUARE flat icon on pure white for reading tag data into a local buffer. Place a large orange tag with white hole in the UPPER RIGHT. Place a large simple navy open buffer box in the LOWER LEFT. A thick BLUE diagonal arrow points DOWN and LEFT from the tag into the box, with a big distinct arrowhead and generous white separation from both objects. No controller, no funnel, no words, no other symbols. All three shapes are large and simple, legible at 30x18; place artwork in the middle 70 percent of the square canvas, no shadow.",
+      "signature": {
+        "composition": "orange tag upper right, arrow down-left to navy buffer lower left",
+        "objects": "tag, arrow, buffer",
+        "metaphor": "local buffer reception",
+        "cue": "down-left transfer into buffer",
+        "orientation": "diagonal-down-left"
+      },
+      "candidate_id": "candidate-13",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-13.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The arrow points down-left to the buffer and tag remains visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and diagonal arrow survive but the tray detail softens."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and arrow remain separate."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Choose a different silhouette and layout.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "The diagonal tag-to-buffer arrangement resembles the U8 card-extraction icon at native size."
+        },
+        "source": {
+          "result": "FAIL",
+          "correction": "Use a structure other than diagonal upper-right tag and lower-left buffer.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "The orange tag in the upper right and blue diagonal arrow to a navy buffer at lower left repeats the same dominant arrangement as Read_U8 candidate-08, differing chiefly in arrow direction and label."
+        }
+      },
+      "reviewed_sha256": "b3a8e4668f386235848a571fd6e38e6f39094cc06a68e36d773d1d86d27fa22e"
+    },
+    {
+      "concept_id": "read-scanner",
+      "concept_summary": "Scanner reads tag",
+      "prompt": "One SQUARE flat icon on pure white for reading a PLC software tag. A large simple BLUE handheld barcode scanner in upper left aims a single broad RED SCANNING BEAM at a large ORANGE tag in lower right. The tag has one big white hole and no writing. Scanner has one broad handle and rectangular head. Use only three large simple objects with clear gaps; no eye, hand, text, numerals, shadow, or controller. Ensure scanner and tag are recognizable at 30x18 pixels, in central 70 percent of square.",
+      "signature": {
+        "metaphor": "scan",
+        "cue": "scanner beam on tag",
+        "composition": "scanner upper left aims at horizontal tag lower right",
+        "objects": "scanner and tag",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-14",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-14.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Scanner, beam and tag retain distinct shapes."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The scanner handle and beam remain recognizable."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue handheld scanner shines a red beam on an orange tag."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag hole, red beam and scanner silhouette are visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main three color regions remain; edges soften."
+        }
+      },
+      "reviewed_sha256": "408e50903e5f2a6aacd96739ed50cb2267efed5a02593131de5abe8804f74c20",
+      "salt": "9nphrltw4l"
+    },
+    {
+      "concept_id": "read-receiver",
+      "concept_summary": "Receive tag signal",
+      "prompt": "One SQUARE flat icon on pure white for reading tag data. On the LEFT draw one large upright ORANGE tag with a big white hole. In the center draw TWO bold separated curved BLUE radio signal arcs. On the RIGHT draw a simple large NAVY receiver with one broad blue screen. The waves must visibly originate from tag and reach receiver. No eye, hand, arrows, text, letters, numerals, shadow or other devices. Use large separated shapes that remain clear at 30x18; all art in central 70 percent of square.",
+      "signature": {
+        "metaphor": "receive signal",
+        "cue": "arcs point from tag to receiver",
+        "composition": "upright tag on left, radio arcs center, receiver on right",
+        "objects": "tag, radio arcs, receiver",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-15",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-15.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, arcs and receiver remain distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The paired arcs and receiver screen survive."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag sends two blue signal arcs toward a navy receiver; this is a visual metaphor for reading."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Tag, arcs and receiver are visibly separate."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arcs soften between recognizable tag and receiver."
+        }
+      },
+      "reviewed_sha256": "7f97fb87e3a985867391c9fd570847f605a293e0f1105f470a2f9570b9ad81fa",
+      "salt": "8pq8yzq9ev"
+    },
+    {
+      "concept_id": "read-open-book",
+      "concept_summary": "Read a tag in an open book",
+      "prompt": "One SQUARE flat software icon on pure white for READING a software tag. Draw one LARGE OPEN BOOK seen from the front, with TWO broad white pages outlined in thick NAVY, a clear navy center spine, and a single LARGE ORANGE TAG with white hole printed on the RIGHT PAGE. The tag takes up most of that page. Left page is blank. Big simple geometry; no arrow, hand, eye, scanner, letters, numerals, tiny details or shadows. The book silhouette and tag must be recognizable at 30x18 pixels; keep the design in the central 70 percent of square canvas.",
+      "signature": {
+        "objects": "open book and tag",
+        "cue": "tag on book page",
+        "composition": "wide open navy book with orange tag on right page",
+        "metaphor": "reading",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-16",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-ca8aae630fe2\\candidates\\candidate-16.png",
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Book silhouette and tag remain separate."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Book outline, spine, tag and hole are clear."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An open navy book contains a large orange tag on its right page."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The book and tag remain visible while the hole softens."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The two page outlines, spine and tag remain recognizable."
+        }
+      },
+      "reviewed_sha256": "f089bbcb13b8726577c9f978e8c20f9bf40b053b3c2621e41f02f78101a1b90a",
+      "salt": "eih2ako60z"
     }
   ],
   "failures": [
@@ -238,7 +696,8 @@
       "observed_problem": "The PLC-to-tag composition is a mirror of the write-tag PLC-and-tag concept.",
       "measured_value": "30x18",
       "corrective_instruction": "Choose a visibly different transfer composition from both read and write options.",
-      "likely_cause_hypothesis": "The same overall shapes recur in another option or opposing VI."
+      "likely_cause_hypothesis": "The same overall shapes recur in another option or opposing VI.",
+      "retry_result": "PASS after review of candidate-12"
     },
     {
       "candidate_id": "candidate-02",
@@ -251,7 +710,8 @@
       "observed_problem": "The downward arrow over tag closely matches candidate 05.",
       "measured_value": "30x18",
       "corrective_instruction": "Choose a visibly different transfer composition from both read and write options.",
-      "likely_cause_hypothesis": "The same overall shapes recur in another option or opposing VI."
+      "likely_cause_hypothesis": "The same overall shapes recur in another option or opposing VI.",
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "candidate_id": "candidate-03",
@@ -264,7 +724,8 @@
       "observed_problem": "A transmitter and radio-wave arcs appear above an orange tag; this suggests a wireless transport not required by the VI.",
       "measured_value": "source",
       "corrective_instruction": "Use a transport-neutral cue for reading a PLC tag.",
-      "likely_cause_hypothesis": "Radio-wave geometry implies wireless transmission."
+      "likely_cause_hypothesis": "Radio-wave geometry implies wireless transmission.",
+      "retry_result": "PASS after review of candidate-15"
     },
     {
       "candidate_id": "candidate-04",
@@ -277,7 +738,8 @@
       "observed_problem": "The outgoing arrow can be read as extracting a value or sending data, not specifically reading a PLC tag.",
       "measured_value": "30x18",
       "corrective_instruction": "Show a clearly identifiable source and destination for the read action.",
-      "likely_cause_hypothesis": "Neither PLC nor destination buffer is represented."
+      "likely_cause_hypothesis": "Neither PLC nor destination buffer is represented.",
+      "retry_result": "PASS after review of candidate-16"
     },
     {
       "candidate_id": "candidate-05",
@@ -290,25 +752,260 @@
       "observed_problem": "The tag and tray merge, obscuring the object being read.",
       "measured_value": "30x18",
       "corrective_instruction": "Separate and contrast the tag from the receiving tray.",
-      "likely_cause_hypothesis": "Tag and tray have the same orange fill and are crowded."
+      "likely_cause_hypothesis": "Tag and tray have the same orange fill and are crowded.",
+      "retry_result": "PASS after review of candidate-07"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Candidates 02 and 05 both use a downward blue arrow above orange tag/tray; candidate 01 mirrors the PLC-and-tag composition in Write_Tag."
+      "observed_problem": "Candidates 02 and 05 both use a downward blue arrow above orange tag/tray; candidate 01 mirrors the PLC-and-tag composition in Write_Tag.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "read-diagonal-to-tag",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The curved transfer remains readily confusable with the opposed Write_Tag curved transfer at small size.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different action and arrangement than the write curved route.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "read-diagonal-to-tag",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The generator made a curved controller-to-tag route. It closely mirrors Write_Tag candidate-07, which shows a curved tag-to-controller route; both have the same three dominant components.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a different silhouette, not a mirrored curved controller and tag route.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The curved PLC-to-tag image mirrors the opposite write transfer, and three older candidates remain failed. Keep the contrasting tray candidate provisionally and replace the conflicts.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "concept_id": "read-output-up",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "A tag, vertical upward arrow, and PLC repeat the same three-element vertical transfer composition as Write_Tag candidate-02 with top and bottom objects swapped.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace with a read concept whose dominant silhouette is not a vertical tag-arrow-PLC stack.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "concept_id": "read-output-up",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The same blue PLC, orange upward arrow, and orange tag arrangement is readily confused with the write icon.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a structurally different read metaphor.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "concept_id": "read-eye-controller",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The large blue eye above a rectangular object repeats the dominant eye-over-content silhouette of Read_I16 candidate-07; the embedded tag may look like inspecting a controller display rather than fetching data.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace the eye-over-object design with an explicit transfer and a different silhouette.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-15"
+    },
+    {
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "concept_id": "read-eye-controller",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The large eye over rectangular content remains similar to the signed-read eye motif and does not show a transfer.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a distinct source-to-buffer action.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-15"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The vertical PLC/tag stack resembles Write_Tag candidate-02 and the eye-over-content motif resembles Read_I16. Both need different concepts.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 1,
+      "concept_id": "read-pull-tab",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A hand holds a tag at the side of a controller, but there is no indication whether it is inserting or removing the tag.",
+      "measured_value": "source",
+      "corrective_instruction": "Add a large explicit arrow pointing away from the controller.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 1,
+      "concept_id": "read-pull-tab",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The tag and hand suggest either insertion or removal; read and write cannot be distinguished.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the outward motion explicit with a large separated arrow.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 2,
+      "concept_id": "read-funnel",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "The funnel is the dominant conventional filter symbol, suggesting filtering tag data rather than reading it.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an explicit transfer or receiving symbol rather than a funnel.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 2,
+      "concept_id": "read-funnel",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The funnel strongly communicates filtering and the source of the tag is absent.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Replace the filter metaphor with recognizable read transfer.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The hand has no unambiguous outward direction and the funnel suggests filtering; other candidates remain failed. Retain the receiving tray and redesign the rest.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-13",
+      "option_number": 2,
+      "concept_id": "read-tag-to-buffer",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The diagonal tag-to-buffer arrangement resembles the U8 card-extraction icon at native size.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Choose a different silhouette and layout.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-13",
+      "option_number": 2,
+      "concept_id": "read-tag-to-buffer",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The orange tag in the upper right and blue diagonal arrow to a navy buffer at lower left repeats the same dominant arrangement as Read_U8 candidate-08, differing chiefly in arrow direction and label.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a structure other than diagonal upper-right tag and lower-left buffer.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The arrowed hand has a clear extraction direction but the diagonal tag-to-buffer composition repeats an unsigned getter layout. Other older candidates remain failed.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Scanner and signal receiver have distinct arrangements from the hand and download tray; the old arrow-and-tag design remains failed and must be replaced before final review.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
-    "result": "FAIL",
     "candidate_ids": [
-      "candidate-01",
-      "candidate-02",
-      "candidate-03",
-      "candidate-04",
-      "candidate-05"
+      "candidate-12",
+      "candidate-14",
+      "candidate-15",
+      "candidate-16",
+      "candidate-07"
     ],
-    "evidence": "Candidates 02 and 05 both use a downward blue arrow above orange tag/tray; candidate 01 mirrors the PLC-and-tag composition in Write_Tag."
+    "evidence": "Hand pulling from controller, scanner and beam, radio receiver, open book, and downward arrow to tray have different structures. Comparison with the entire collection remains pending.",
+    "result": "PASS"
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned ere7lkretd.md",
+    "manifest.json",
+    "Read Tag option 1 1024x1024 8a75qi0p5y.png",
+    "Read Tag option 1 29x29 8a75qi0p5y.png",
+    "Read Tag option 1 30x18 8a75qi0p5y.png",
+    "Read Tag option 1 30x23 8a75qi0p5y.png",
+    "Read Tag option 1 8a75qi0p5y.ico",
+    "Read Tag option 2 1024x1024 9nphrltw4l.png",
+    "Read Tag option 2 29x29 9nphrltw4l.png",
+    "Read Tag option 2 30x18 9nphrltw4l.png",
+    "Read Tag option 2 30x23 9nphrltw4l.png",
+    "Read Tag option 2 9nphrltw4l.ico",
+    "Read Tag option 3 1024x1024 8pq8yzq9ev.png",
+    "Read Tag option 3 29x29 8pq8yzq9ev.png",
+    "Read Tag option 3 30x18 8pq8yzq9ev.png",
+    "Read Tag option 3 30x23 8pq8yzq9ev.png",
+    "Read Tag option 3 8pq8yzq9ev.ico",
+    "Read Tag option 4 1024x1024 eih2ako60z.png",
+    "Read Tag option 4 29x29 eih2ako60z.png",
+    "Read Tag option 4 30x18 eih2ako60z.png",
+    "Read Tag option 4 30x23 eih2ako60z.png",
+    "Read Tag option 4 eih2ako60z.ico",
+    "Read Tag option 5 1024x1024 w07zpmtjmd.png",
+    "Read Tag option 5 29x29 w07zpmtjmd.png",
+    "Read Tag option 5 30x18 w07zpmtjmd.png",
+    "Read Tag option 5 30x23 w07zpmtjmd.png",
+    "Read Tag option 5 w07zpmtjmd.ico"
+  ]
 }

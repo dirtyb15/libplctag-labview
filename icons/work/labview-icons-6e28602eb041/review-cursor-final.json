@@ -1,0 +1,40 @@
+{
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-09",
+      "candidate-04",
+      "candidate-08"
+    ],
+    "evidence": "The monitor with two checked options, processor and file, pointer selecting a puzzle module, converging branches, and selector lever use different structures. Full collection review remains pending."
+  },
+  "candidates": [
+    {
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Two colored modules and pointer remain visible with a clear notch."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The pointer and interlocking puzzle profiles remain clear."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both modules and pointer are distinct."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A black cursor points at the orange of two puzzle-shaped module choices."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The two modules and pointer survive with softened edges."
+        }
+      },
+      "candidate_id": "candidate-09"
+    }
+  ]
+}

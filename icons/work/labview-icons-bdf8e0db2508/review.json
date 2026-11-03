@@ -1,0 +1,140 @@
+{
+  "distinctness": {
+    "result": "PASS",
+    "evidence": "Loop, two lanes, wave, double arrow and diagonal flow offer different compositions.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  },
+  "candidates": [
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ]
+}

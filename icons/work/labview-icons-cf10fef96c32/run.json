@@ -31,6 +31,10 @@
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-01.png",
       "qa": {
+        "30x18": {
+          "evidence": "The closed shackle, navy body and white tag cutout remain visible. The current unlock set uses a ring, chain, palm, key and raised gate, not a padlock.",
+          "result": "PASS"
+        },
         "source": {
           "result": "PASS",
           "evidence": "Closed navy padlock with a white tag cutout."
@@ -43,19 +47,13 @@
           "result": "PASS",
           "evidence": "Closed shackle and cutout remain visible."
         },
-        "30x18": {
-          "result": "FAIL",
-          "evidence": "Closed lock still resembles the open-padlock unlock candidate in overall silhouette.",
-          "rule_id": "VIS-DISTINCT-012",
-          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
-          "correction": "Design a structurally different silhouette for this operation."
-        },
         "16x16": {
           "result": "PASS",
           "evidence": "Closed lock remains visible; the tag cutout is simplified."
         }
       },
-      "reviewed_sha256": "c92e5d584b11483dacec62bcf34c2a2178cbd8f7f66343b07ba2584c20b09e6e"
+      "reviewed_sha256": "c92e5d584b11483dacec62bcf34c2a2178cbd8f7f66343b07ba2584c20b09e6e",
+      "salt": "ktohthg39u"
     },
     {
       "concept_id": "tag-lock",
@@ -73,6 +71,12 @@
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-02.png",
       "qa": {
+        "30x18": {
+          "correction": "Use a different lock silhouette without a diagonal tag with lower-right badge.",
+          "evidence": "Diagonal blue tag with lower-right badge repeats the composition of Destroy Tag candidate 01; differing badge marks are insufficient.",
+          "result": "FAIL",
+          "rule_id": "VIS-DISTINCT-012"
+        },
         "source": {
           "result": "PASS",
           "evidence": "Blue tag with orange closed padlock at lower right."
@@ -84,13 +88,6 @@
         "30x23": {
           "result": "PASS",
           "evidence": "Tag and lock remain visible."
-        },
-        "30x18": {
-          "result": "FAIL",
-          "evidence": "Tag plus orange lock repeats the unlock tag-plus-lock layout.",
-          "rule_id": "VIS-DISTINCT-012",
-          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
-          "correction": "Design a structurally different silhouette for this operation."
         },
         "16x16": {
           "result": "WARN",
@@ -160,6 +157,10 @@
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-04.png",
       "qa": {
+        "30x18": {
+          "evidence": "A closed orange padlock remains visible within a blue shield; no current unlock candidate uses a shield.",
+          "result": "PASS"
+        },
         "source": {
           "result": "PASS",
           "evidence": "Orange closed padlock inside a blue shield."
@@ -172,19 +173,13 @@
           "result": "PASS",
           "evidence": "Shield and lock remain visible."
         },
-        "30x18": {
-          "result": "FAIL",
-          "evidence": "Shield-and-lock structure closely matches the unlock shield option.",
-          "rule_id": "VIS-DISTINCT-012",
-          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
-          "correction": "Design a structurally different silhouette for this operation."
-        },
         "16x16": {
           "result": "WARN",
           "evidence": "Shield and orange lock survive, but the shackle is small."
         }
       },
-      "reviewed_sha256": "4dd870519f4a051d1af50c5a72f230ab4424376396d52975d0ffbeee719df1a7"
+      "reviewed_sha256": "4dd870519f4a051d1af50c5a72f230ab4424376396d52975d0ffbeee719df1a7",
+      "salt": "gvsnt3oex8"
     },
     {
       "concept_id": "clamp",
@@ -202,6 +197,12 @@
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-05.png",
       "qa": {
+        "30x18": {
+          "evidence": "The blue C-shaped clamp to the left of an orange value or tag resembles Read I8 candidate 03 horseshoe magnet layout.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL",
+          "correction": "Use a different silhouette than the C shape with orange object on the right."
+        },
         "source": {
           "result": "PASS",
           "evidence": "A blue clamp grips an orange tag."
@@ -214,19 +215,214 @@
           "result": "PASS",
           "evidence": "Clamp and tag remain discernible."
         },
-        "30x18": {
-          "result": "FAIL",
-          "evidence": "Clamp-and-tag structure closely matches the unlock clamp option and risks confusion with the size caliper.",
-          "rule_id": "VIS-DISTINCT-012",
-          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
-          "correction": "Design a structurally different silhouette for this operation."
-        },
         "16x16": {
           "result": "WARN",
           "evidence": "Clamp body and tag remain; screw detail softens."
         }
       },
       "reviewed_sha256": "06e6610f7174e8d3473900d6b3316d086acff397a86ccdbb61dadd2093b31a3c"
+    },
+    {
+      "concept_id": "lock-bolt",
+      "concept_summary": "Sliding bolt locks tag",
+      "prompt": "One SQUARE flat software icon on pure white for locking a PLC tag. A large ORANGE TAG with a prominent white hole is centered BEHIND a horizontal dark NAVY SLIDING DOOR BOLT. The large blue bolt crosses the middle of the tag and passes through two thick blue U-shaped brackets at left and right; the bolt is visibly CLOSED. Three broad simple shapes, with the tag still recognizable. No padlock, key, shield, hand, arrow, writing or shadow. Keep all art in central 70 percent of square, legible at 30x18.",
+      "signature": {
+        "cue": "solid bolt bars access",
+        "composition": "horizontal blue bolt through two brackets over orange tag",
+        "metaphor": "closed bolt",
+        "orientation": "horizontal",
+        "objects": "bolt, tag"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-06.png",
+      "qa": {
+        "16x16": {
+          "evidence": "The bolt and tag soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "Bolt and tag are visible.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A horizontal dark bolt crosses an orange tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The horizontal fastener remains.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Upright tag crossed by a horizontal bar repeats the dominant construction of Destroy Tag shredder candidate 08.",
+          "rule_id": "VIS-DISTINCT-012",
+          "result": "FAIL",
+          "correction": "Choose a different lock silhouette without a horizontal bar across an upright tag."
+        }
+      },
+      "reviewed_sha256": "42d1bfb846a56d68ded3b620c3374b188a3ebaae46aee23c5f05039370e81d8d"
+    },
+    {
+      "concept_id": "lock-cage",
+      "concept_summary": "Tag secured inside cage",
+      "prompt": "One SQUARE flat icon on white for locking a PLC tag. Draw a large upright NAVY RECTANGULAR SECURITY CAGE with thick outer frame, top and bottom, and exactly TWO THICK VERTICAL BARS across it. Inside the cage behind the bars place a big ORANGE TAG with a white hole, visibly held inside. Use oversized simple shapes, broad gaps, no padlock, key, shield, hand, arrows, text or shadow. Cage and tag must be readable at 30x18. Keep artwork centered within the middle 70 percent of the square.",
+      "signature": {
+        "cue": "barred enclosure prevents access",
+        "composition": "upright blue barred cage with orange tag inside",
+        "metaphor": "secure enclosure",
+        "orientation": "vertical",
+        "objects": "cage and tag"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-07.png",
+      "qa": {
+        "16x16": {
+          "evidence": "The frame and tag remain as bar details soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The frame and both bars remain distinct.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Orange tag is enclosed behind two dark vertical cage bars.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The tag hole and vertical bars remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The cage, tag and separate bars remain recognizable.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "407a80346bb4d2943e1d5113aced2d5a231406a6ac60378bbb3e063d34aad67e",
+      "salt": "2cny9ep7cl"
+    },
+    {
+      "concept_id": "lock-safe",
+      "concept_summary": "Tag secured inside safe",
+      "prompt": "One SQUARE flat software icon on white for locking a PLC tag. Draw a large solid NAVY CLOSED SAFE DOOR, square with rounded corners. On the LEFT of the door show a huge WHITE ROUND SAFE WHEEL with three thick spokes; on the RIGHT show one bold ORANGE TAG silhouette with a white hole. The square safe and wheel should dominate and remain obvious at 30x18. No padlock, shield, bars, arrow, check mark, text, numbers, shadow, or blue C shape. All art in central 70 percent of square.",
+      "signature": {
+        "metaphor": "safe",
+        "composition": "large safe door with white wheel left and orange tag right",
+        "orientation": "horizontal",
+        "objects": "safe and tag",
+        "cue": "closed safe wheel"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-08.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Wheel and tag are distinct.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The large wheel, safe face and tag remain recognizable.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A three-spoke white safe wheel and orange tag sit on a navy square safe door.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The wheel spokes and tag survive.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The wheel spokes soften.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "3abac3ea18f8c367567275f0539aadfdcf699740128f6bdfb15670c783322f6c",
+      "salt": "vr0di9894s"
+    },
+    {
+      "concept_id": "lock-zipper",
+      "concept_summary": "Tag sealed in zipped pouch",
+      "prompt": "One SQUARE flat software icon on white for locking a PLC tag. Draw a large BLUE ZIPPERED POUCH with a thick horizontal closed zipper along its TOP edge, zipper pull at right. In the MIDDLE of the pouch place one big ORANGE TAG with a white hole, showing the tag held inside. Pouch outline is a broad rounded rectangle, not a tag shape; no horizontal bar crossing the tag. Use very thick simplified details, visible at 30x18. No padlock, shield, cage bars, hands, arrows, lettering, or shadows. All artwork in central 70 percent of square.",
+      "signature": {
+        "metaphor": "sealed pouch",
+        "composition": "blue closed zipper across top of orange pouch with navy tag",
+        "orientation": "vertical",
+        "objects": "zipper and tag",
+        "cue": "closed zipper over contained tag"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-09.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Tag and pouch remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The large orange tag on a blue rectangle with white stripe resembles Tag Status candidate 06, and zipper teeth merge into a stripe.",
+          "result": "FAIL",
+          "correction": "Use a substantially different securing silhouette without a blue rectangular background and centered orange tag.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "source": {
+          "evidence": "An orange tag sits on a blue pouch under a white zipper.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Fine zipper teeth merge.",
+          "result": "WARN"
+        },
+        "16x16": {
+          "evidence": "Zipper details merge.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "8a62dd1d03875b045d488880f66ed6c1b73181f8d10f0512d9a49d691f90d5f0"
+    },
+    {
+      "concept_id": "lock-anchor",
+      "concept_summary": "Tag anchored securely",
+      "prompt": "One SQUARE flat software icon on pure white for locking a PLC tag in place. Draw a huge, simple NAVY SHIP ANCHOR with a vertical shaft and two broad upward-curving flukes. Directly above the anchor attach one large ORANGE TAG with a white hole to the anchor ring, visibly securing it. The whole shape is a bold anchor silhouette with orange tag on top, no square background. No chains, padlocks, shields, keys, hands, arrows, text or shadows. Very simple thick shapes that survive 30x18; keep artwork in central 70 percent of square.",
+      "signature": {
+        "objects": "anchor and tag",
+        "metaphor": "anchoring",
+        "composition": "big blue anchor under orange tag joined by short tether",
+        "cue": "tag secured to anchor",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-cf10fef96c32\\candidates\\candidate-10.png",
+      "qa": {
+        "source": {
+          "evidence": "An orange tag attaches to a large dark ship anchor, a metaphor for securing it.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The tag hole and small anchor ring soften.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "Anchor outline and orange tag remain separate.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "Anchor flukes, shaft and tag remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The anchor and attached tag are recognizable.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "c383ea739d3e7bad85581f210c414a4907a5ea8180542634d8dcaf46666b3697",
+      "salt": "xaj6ax1vtj"
     }
   ],
   "failures": [
@@ -241,7 +437,8 @@
       "observed_problem": "Closed lock still resembles the open-padlock unlock candidate in overall silhouette.",
       "measured_value": "30x18",
       "corrective_instruction": "Design a structurally different silhouette for this operation.",
-      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+      "retry_result": "PASS after review of candidate-01"
     },
     {
       "candidate_id": "candidate-02",
@@ -254,7 +451,8 @@
       "observed_problem": "Tag plus orange lock repeats the unlock tag-plus-lock layout.",
       "measured_value": "30x18",
       "corrective_instruction": "Design a structurally different silhouette for this operation.",
-      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+      "retry_result": "PASS after review of candidate-08"
     },
     {
       "candidate_id": "candidate-03",
@@ -267,7 +465,8 @@
       "observed_problem": "The generated blue piece resembles a key entering a red socket rather than a latch securing a tag.",
       "measured_value": "source",
       "corrective_instruction": "Use an unmistakable locking metaphor without key-in-socket imagery.",
-      "likely_cause_hypothesis": "The form reads as a key or plug rather than a closed latch."
+      "likely_cause_hypothesis": "The form reads as a key or plug rather than a closed latch.",
+      "retry_result": "PASS after review of candidate-07"
     },
     {
       "candidate_id": "candidate-03",
@@ -280,7 +479,8 @@
       "observed_problem": "The connection remains visible, but the lock action is ambiguous.",
       "measured_value": "30x18",
       "corrective_instruction": "Design a structurally different silhouette for this operation.",
-      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+      "retry_result": "PASS after review of candidate-07"
     },
     {
       "candidate_id": "candidate-04",
@@ -293,7 +493,8 @@
       "observed_problem": "Shield-and-lock structure closely matches the unlock shield option.",
       "measured_value": "30x18",
       "corrective_instruction": "Design a structurally different silhouette for this operation.",
-      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+      "retry_result": "PASS after review of candidate-04"
     },
     {
       "candidate_id": "candidate-05",
@@ -306,25 +507,134 @@
       "observed_problem": "Clamp-and-tag structure closely matches the unlock clamp option and risks confusion with the size caliper.",
       "measured_value": "30x18",
       "corrective_instruction": "Design a structurally different silhouette for this operation.",
-      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap."
+      "likely_cause_hypothesis": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag."
+      "observed_problem": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "tag-lock",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Diagonal blue tag with lower-right badge repeats the composition of Destroy Tag candidate 01; differing badge marks are insufficient.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different lock silhouette without a diagonal tag with lower-right badge.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The former unlock padlock, shield and clamp analogues were superseded by open ring, broken chain, open palm, turned key and raised barrier. The lock tag-and-badge resembles Destroy Tag candidate 01, and candidate 03 reads as key in socket. Replace both before reassessing.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 2,
+      "concept_id": "lock-bolt",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Upright tag crossed by a horizontal bar repeats the dominant construction of Destroy Tag shredder candidate 08.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Choose a different lock silhouette without a horizontal bar across an upright tag.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "clamp",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The blue C-shaped clamp to the left of an orange value or tag resembles Read I8 candidate 03 horseshoe magnet layout.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different silhouette than the C shape with orange object on the right.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The bolt across an upright tag resembles Destroy Tag shredder candidate 08, and the blue C clamp plus orange tag resembles Read I8 magnet candidate 03. The cage is distinct. Replace the close pairs.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-09",
+      "option_number": 5,
+      "concept_id": "lock-zipper",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The large orange tag on a blue rectangle with white stripe resembles Tag Status candidate 06, and zipper teeth merge into a stripe.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a substantially different securing silhouette without a blue rectangular background and centered orange tag.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The safe wheel, cage, padlock and shield differ; the blue rectangular pouch with orange tag and white stripe repeats Tag Status candidate 06 at 30x18. Replace the pouch.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
-    "result": "FAIL",
     "candidate_ids": [
       "candidate-01",
-      "candidate-02",
-      "candidate-03",
+      "candidate-08",
+      "candidate-07",
       "candidate-04",
-      "candidate-05"
+      "candidate-10"
     ],
-    "evidence": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag."
+    "evidence": "Closed padlock, safe wheel, cage bars, shield and anchor have different structures. Directly compared against current unlock concepts: open ring, broken links, palm, turning key and raised gate use different shapes. Collection-wide review remains pending.",
+    "result": "PASS"
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned eobstbbxw2.md",
+    "Lock option 1 1024x1024 ktohthg39u.png",
+    "Lock option 1 29x29 ktohthg39u.png",
+    "Lock option 1 30x18 ktohthg39u.png",
+    "Lock option 1 30x23 ktohthg39u.png",
+    "Lock option 1 ktohthg39u.ico",
+    "Lock option 2 1024x1024 vr0di9894s.png",
+    "Lock option 2 29x29 vr0di9894s.png",
+    "Lock option 2 30x18 vr0di9894s.png",
+    "Lock option 2 30x23 vr0di9894s.png",
+    "Lock option 2 vr0di9894s.ico",
+    "Lock option 3 1024x1024 2cny9ep7cl.png",
+    "Lock option 3 29x29 2cny9ep7cl.png",
+    "Lock option 3 2cny9ep7cl.ico",
+    "Lock option 3 30x18 2cny9ep7cl.png",
+    "Lock option 3 30x23 2cny9ep7cl.png",
+    "Lock option 4 1024x1024 gvsnt3oex8.png",
+    "Lock option 4 29x29 gvsnt3oex8.png",
+    "Lock option 4 30x18 gvsnt3oex8.png",
+    "Lock option 4 30x23 gvsnt3oex8.png",
+    "Lock option 4 gvsnt3oex8.ico",
+    "Lock option 5 1024x1024 xaj6ax1vtj.png",
+    "Lock option 5 29x29 xaj6ax1vtj.png",
+    "Lock option 5 30x18 xaj6ax1vtj.png",
+    "Lock option 5 30x23 xaj6ax1vtj.png",
+    "Lock option 5 xaj6ax1vtj.ico",
+    "manifest.json"
+  ]
 }

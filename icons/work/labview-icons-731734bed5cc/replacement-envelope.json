@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "orientation": "vertical",
+    "cue": "I8 emerging from envelope",
+    "composition": "blue open envelope below black I8",
+    "metaphor": "message receipt",
+    "objects": "open envelope and typed value"
+  },
+  "concept_id": "i8-envelope",
+  "prompt": "One SQUARE flat software icon on pure white representing reading a signed 8-bit value from a buffer. The upper HALF contains enormous BOLD BLACK I8 text, with a capital I that has wide horizontal top and bottom bars and cannot look like 1. Below that label draw a very large simplified BLUE OPEN ENVELOPE with a crisp V-shaped opening, clearly containing the bottom of the value. This is a data value received as a message. Make I8 very large and clearly readable at 30x18. Only I8 characters, no other text, no hand, no tag, no device, no plus sign, no shadows. Keep all artwork centered within the central 70 percent of square.",
+  "concept_summary": "Signed byte received in envelope"
+}

@@ -1,0 +1,42 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-08",
+      "candidate-07",
+      "candidate-05"
+    ],
+    "evidence": "The speech bubble, open book, quoted exclamation, curved decode arrow and information triangle have different arrangements.",
+    "result": "PASS"
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The quotation pairs soften but the central red exclamation and side marks remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The paired blue quotation marks and red exclamation remain distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The exclamation remains separate from the quotes."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The red exclamation and surrounding dark quotation marks are recognizable."
+        },
+        "source": {
+          "rule_id": "VIS-MARGIN-005",
+          "evidence": "The quotation marks approach the left and right canvas edges, leaving about three percent clearance and risking clipping.",
+          "correction": "Keep the same quoted exclamation but scale the entire group down and leave at least ten percent white space on every side.",
+          "result": "FAIL"
+        }
+      }
+    }
+  ]
+}

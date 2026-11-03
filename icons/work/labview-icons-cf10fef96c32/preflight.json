@@ -1,0 +1,12 @@
+{
+  "candidate_ids": [
+    "padlock",
+    "lock-safe",
+    "lock-cage",
+    "shield",
+    "lock-anchor"
+  ],
+  "evidence": "Padlock, safe, cage, shield and anchor silhouettes are different from current unlock release motifs.",
+  "scope": "Provisional concept preflight; full collection review pending",
+  "result": "PASS"
+}

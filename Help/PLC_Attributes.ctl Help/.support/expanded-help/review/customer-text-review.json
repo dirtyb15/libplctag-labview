@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "be79fc0b9850341cd4ae769cc1e90dea2686e39164132ac93052d6de589b286b",
+  "policy_sha256": "7a8db29065372d996ec1be13ea331e7d6743a6d048f2acebb8850c1ad0638fd6",
+  "artifact_sha256": "7a98bfc8c0c03f3812d3e460ae619fa366611110541f80af152858d51f5b3cf7",
+  "reviewer": "Codex",
+  "notes_log": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\Help\\PLC_Attributes.ctl Help\\PLC_Attributes.ctl.review-notes.md",
+  "notes_sha256": null,
+  "log_key": "3275b58c316f058f3378",
+  "sections": [
+    {
+      "id": "section-1",
+      "content_sha256": "173e1d06531d6dc08cf810f2586a3211c8bfcc5547ee21030e069081b4ad81fe",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The opening defines PLC and a library tag, names the consuming VI, and separates string menus from numeric enums."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The fresh control read supplies all eight string types and defaults; the wrapper read proves how the cluster is consumed."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-2",
+      "content_sha256": "a68ac6e19ca5942b4cf5d1d578216e4faf8f1ab83e1526d530699027a5f21015",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The delivery-address explanation connects the Ethernet endpoint, route, controller family and data name before discussing sizes."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The Create_Tag wiring and AB session construction support the endpoint-to-route-to-data model."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-3",
+      "content_sha256": "2fffb86c62543b8267a196e4c942b0a4ae5de172c82a981831f7b376e5c0c7af",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The table documents all eight controls, their exact C keys and saved defaults, with expected text formats, byte units and hardware examples."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "Saved defaults match read_ctl; the current VI trims all eight and emits the keys shown. The local AB C code supports sizing and family dispatch."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-4",
+      "content_sha256": "d274ab6dd882a830dbeb48fac02ea771e8491c88536c526aab4fd59fbe0a4369",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The protocol section explains both accepted AB spellings and the sole saved menu entry; the Modbus paragraph limits the scope of AB recipes."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The saved menu contains ab-eip; libplctag documents the underscore alias and separate Modbus attribute meanings."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-5",
+      "content_sha256": "23febd7cf2402e3dbe783cda24a7c269faa1fa19766d579e6fd4349c08ec225c",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "Every saved CPU menu entry is explained, including the unsupported CGLX, FLEXLOGIX and FLGX strings, and how to supply the missing slc500 value."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The extracted six menu values were compared with get_plc_type in the local C code and the pinned 2.7.2 source."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-6",
+      "content_sha256": "7fe85ca52c7990d97265486065a1bfe36b14905f4020b7c01ae5b2594cf050da",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The family table groups every accepted lookup spelling by its actual dispatch and states the limits for Micro800, generic devices and older mapped Logix access."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "All accepted aliases match get_plc_type. No model-specific Omron or generic recipe is claimed, and the always-emitted path constraint is disclosed."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-7",
+      "content_sha256": "0cf6d60253aebf19b4381da3b03b99da04f7905f857cd1eb07d2f95c26365039",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The route section teaches endpoint, chassis backplane and processor slot; lists all 18 saved choices; then explains longer and DH+ routes."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The local cip parser supports numeric pairs, IPv4 segments and the special final A/B DH+ segment; Rockwell manuals establish chassis/bridge roles."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-8",
+      "content_sha256": "9cff22daad759cf589785b91b56889c22c333d743f9de4c2a034de4c35edbd85",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The naming section distinguishes controller scope, program scope, arrays and members from SLC file/element/bit addressing, with typed examples."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The PCCC parser and SLC manual support file addresses. Rockwell data-access guidance supports External Access restrictions and structure-member limits."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-9",
+      "content_sha256": "ba1cd7112252d046630d163189df598a925c6db7303f3ddab90e80110fc611dc",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The size section maps signed integer and real types to byte widths and getters, then traces ten 2-byte SLC elements to offsets 0 through 18."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The local and pinned AB source distinguish initial-read Logix allocation from address-derived SLC sizing; typed getters match the existing help interfaces."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-10",
+      "content_sha256": "bc4b86e0fcc1be9cac25a9493e5ab9cd78f99b961c742b5ddd3e1177bacc09b3",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "All six saved debug choices and the separate numeric zero case are explained with logging scope, exact NONE matching and version-specific reset behavior."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "Create_Tag compares exact trimmed NONE; the local create C path tests debug > 0; header constants enumerate levels 0 through 5."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-11",
+      "content_sha256": "67b5d92ea4656559993132fc10a522cb01c388aa57c7e240c8a24fb8f5be8032",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "Four full cluster recipes cover SLC integer/float and ControlLogix DINT/REAL data, with real hardware assumptions, correct getters and a CompactLogix qualification."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The fresh SimpleReadWrite read proves float access and the write request. Recipes are labeled illustrative and are not claimed as hardware tests."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-12",
+      "content_sha256": "3a4aa1f5d81238c3f9a70bde86ddb45d0159ad5198bb05fb1ce8a1653b30e0e2",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The construction section preserves the exact seven attributes, optional debug suffix, empty SLC path and unescaped ampersand behavior, with source navigation."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "The fresh Create_Tag read matches the concatenation order, whitespace trims and debug branch. C parser attributes use ampersand delimiters."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    },
+    {
+      "id": "section-13",
+      "content_sha256": "43a10dbaabfd8fda796d52aa6f5b4affc842ca3a88c1d780f133bc241949afef",
+      "criteria": {
+        "process": {
+          "status": "PASS",
+          "reason": "This section explains the control and caller use without incidental research or authoring narration."
+        },
+        "subject": {
+          "status": "PASS",
+          "reason": "The procedure moves from verified hardware settings through create/read/getter/cleanup, and the symptom table ties failures to specific fields."
+        },
+        "integrity": {
+          "status": "PASS",
+          "reason": "Existing VI interfaces support timeout, raw statuses and LabVIEW errors. Cleanup and retargeting guidance preserves handle ownership and lifetime."
+        },
+        "coverage": {
+          "status": "PASS",
+          "reason": "All current paragraphs, code and table cells in this section were read, including rows excluded from numerical scoring."
+        }
+      }
+    }
+  ],
+  "resolutions": {},
+  "whole_document_review": {
+    "status": "PASS",
+    "reason": "The page keeps detailed system behavior and inline help links, explains needed limits, and contains no incidental account of how the document was authored."
+  },
+  "events": [],
+  "change_obligations": [],
+  "analysis_issues": [],
+  "unresolved_technical_gaps": [],
+  "screening": [],
+  "notes_required": false
+}

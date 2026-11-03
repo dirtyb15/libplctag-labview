@@ -1,0 +1,67 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-06",
+      "candidate-03",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "result": "FAIL",
+    "evidence": "The ticket looks like a flag with no legible dispenser or read action. Microscope, crane, magnet and output display are distinct. Replace ticket and reassess."
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "evidence": "A plain orange I8 rectangle attached to a blue vertical line resembles a flag; the promised dispenser and extraction are absent.",
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL",
+          "correction": "Use an explicit retrieval action and an unambiguous buffer object."
+        },
+        "16x16": {
+          "evidence": "Label survives with softened edges.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "I8 remains readable.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "I8 characters are large and clear.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The barred I and 8 are legible but the read action is absent.",
+          "result": "PASS"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "source": {
+          "evidence": "A blue microscope sits above a large black I8 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Microscope outline survives while character detail softens.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The barred I and two 8 counters remain visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The microscope and both characters remain distinct.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Microscope profile and I8 remain identifiable, though the letters are tightly spaced.",
+          "result": "PASS"
+        }
+      }
+    }
+  ]
+}

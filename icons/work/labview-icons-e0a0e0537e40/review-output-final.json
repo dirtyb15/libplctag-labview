@@ -1,0 +1,40 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-19",
+      "candidate-09",
+      "candidate-15",
+      "candidate-17"
+    ],
+    "evidence": "The press, diagonal plus-to-tag arrow, separate vertical plus over tag, open carton, and two-roller conveyor have visibly different compositions. The plus output uses a four-arm plus and diagonal flow, unlike the earlier library gear-to-object horizontal layout. Full collection-wide and opposing-action comparison remains required.",
+    "result": "PASS"
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-19",
+      "qa": {
+        "16x16": {
+          "evidence": "The tag and arrow remain but edges soften.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "A green plus at upper left leads through a thick black diagonal arrow toward an orange tag at lower right.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The plus, diagonal arrow and tag hole survive as separate components.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The plus, down-right arrow and tag remain clearly separated.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The arrow points to the orange tag and the plus has four arms.",
+          "result": "PASS"
+        }
+      }
+    }
+  ]
+}

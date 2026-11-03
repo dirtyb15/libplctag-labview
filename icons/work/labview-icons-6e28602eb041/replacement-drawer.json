@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat software icon on pure white for selecting a software library. Draw a large open NAVY FILE DRAWER at bottom. One LARGE ORANGE FILE SHEET with folded corner rises out of the drawer. Beside the top of this file add one LARGE GREEN CHECK MARK to show the selected library. Three simple bold shapes, clearly separated. No gears, plus signs, arrows, text, numbers, shadows or monitor. Must remain recognizable at 30x18, central 70 percent of square.",
+  "concept_summary": "Chosen file in library drawer",
+  "signature": {
+    "cue": "check above file selected from drawer",
+    "orientation": "vertical",
+    "metaphor": "pick library",
+    "composition": "open drawer below, file and check above",
+    "objects": "drawer, library file, checkmark"
+  },
+  "concept_id": "library-drawer"
+}

@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RSRC FormatVersion="3" Type="LVCC" Encoding="mac_roman">
+  <LIBN>
+    <!-- Library Names -->
+    <Section Index="0" Format="inline">
+      <Library>libplctag-labview.lvlib</Library>
+      </Section>
+    </LIBN>
+  <LVSR>
+    <!-- LabView Save Record -->
+    <Section Index="0" Name="PLC_Attributes.ctl" Format="inline">
+      <Version Major="19" Minor="0" Bugfix="0" Stage="release" Build="0" />
+      <Library Protected="0" PasswordHash="d41d8cd98f00b204e9800998ecf8427e" HashType="MD5" />
+      <Execution State="1" Priority="1" PrefExecSyst="-1" BadSignal="0" BadNode="0" BadSubVILink="0" BadSubVI="0" NotReservable="0" IsReentrant="0" CloseAfterCall="0" PooledReentrancy="0" LoadFP="0" HasNoBD="0" ShowFPOnLoad="0" DynamicDispatch="0" HasSetBP="0" RunOnOpen="0" ShowFPOnCall="0" BadCompile="0" IsSubroutine="0" DSRecord="0" CompilerBug="0" TypeDefVI="1" StrictTypeDefVI="0" BadDDO="0" CtlChanged="0" SaveParallel="0" LibIssuesNoRun="0" AllowAutoPrealloc="0" EvalWatermark="0" StdntWatermark="0" HasInsaneItems="0" PropTypesIssues="0" BrokenPolyVI="0" />
+      <Execution2 TaggedAndNotEdited="0" HideInstanceVICaption="0" SystemVI="0" VisibleVI="0" XDebugWindowVI="0" TemplateMask="0" SuppressXaction="1" AlwaysCallsParent="0" UndoRedoChangedNoTypes="0" InlinableDiagram="0" SourceOnly="1" InlineIfPossible="0" TransactionFailing="0" SSEOptiMask="0" StudentOnlyMask="0" EvalOnlyMask="0" AllowPolyTypeAdapt="0" ShouldInline="0" RecalcFPDSOs="0" MarkForPolyVI="0" VICanPassLVClassToDLL="0" UndoRedoInProgress="0" DrawInstanceIcon="0" ShowPolySelector="0" ClearIndMask="0" DefaultGrownView="0" DoNotClone="0" IsPrivateDataForUDClass="0" InstanceVI="0" DefaultErrorHandling="1" RemotePanel="0" SuppressInstanceHalo="0" />
+      <ButtonsHidden RunButton="0" ViBhBit1="0" ViBhBit2="1" ViBhBit3="1" ViBhBit4="1" FreeRunButton="1" ViBhBit6="0" AbortButton="1" ViBhBit8="0" ViBhBit9="0" ViBhBit10="0" ViBhBit11="0" ViBhBit12="0" ViBhBit13="0" ViBhBit14="0" ViBhBit15="0" />
+      <Instrument Type="Control" Signature="20061480ebbeef3f80f13805574ed33f" InStBit0="0" InStBit1="0" InStBit2="0" InStBit3="0" InStBit4="0" InStBit5="0" InStBit6="0" InStBit7="0" InStBit8="0" DebugCapable="1" InStBit10="0" InStBit11="0" InStBit12="0" InStBit13="0" InStBit14="0" PrintAfterExec="0" InStBit16="0" InStBit17="0" InStBit18="0" InStBit19="0" InStBit20="0" InStBit21="0" InStBit22="0" InStBit23="0" InStBit24="0" InStBit25="0" InStBit26="0" InStBit27="0" InStBit28="0" InStBit29="0" InStBit30="1" InStBit31="0" />
+      <FrontPanel CtrlIndStyle="0" ShowScrollBar="3" ShowTitleBar="1" ToolBarVisible="1" ShowMenuBar="1" AutoCenter="0" SizeToScreen="0" NoRuntimePopUp="0" MarkReturnBtn="0" ViFpBit9="0" ScaleProportn="0" ViFpBit11="0" ViFpBit12="0" ViFpBit13="0" ViFpBit14="0" ViFpBit15="0" />
+      <Flags0C AutoHndlMenus="1" />
+      <Flags12 WndFloatUnk1="0" WndBit2="1" WndCanClose="1" WndCanResize="1" WndCanMinimize="1" WndTransparent="0" WndFloatUnk9="0" />
+      <Unknown Flags10="3" Field28="0" Field2C="0" Field30="0" AlignGridFP="12" AlignGridBD="16" Field4C="0" Field50Hash="00c031f766894e3f808e035b9e12b73f" Field70="4096" Field74="0" Field78Hash="5a6fa2332a0ced3f72e209db0835e23f" InlineStg="1" Field8C="4294967295" />
+      <Field90 Format="bin" File="PLC_Attributes_LVSR_Field90.bin" />
+      </Section>
+    </LVSR>
+  <RTSG>
+    <!-- Runtime Signature Guid -->
+    <Section Index="0" Format="inline">
+      <Guid>88552d771a271a2646637fc437f90ff4</Guid>
+      </Section>
+    </RTSG>
+  <LIvi>
+    <!-- LinkObj Refs for VI -->
+    <Section Index="0" Format="inline">
+      <LVCC>
+        <!--  VI To Lib Object Ref  -->
+        <VILB LinkSaveFlag="2">
+          <LinkSaveQualName />
+          <LinkSavePathRef Ident="PTH0" TpVal="1">
+            <String />
+            <String>libplctag-labview.lvlib</String>
+            </LinkSavePathRef>
+          </VILB>
+        </LVCC>
+      </Section>
+    </LIvi>
+  <CONP>
+    <!-- Connector Pane Type Map -->
+    <Section Index="0" Format="inline">
+      <TypeDesc TypeID="1" />
+      </Section>
+    </CONP>
+  <vers>
+    <!-- Version block -->
+    <Section Index="4" Format="inline">
+      <Version Major="19" Minor="0" Bugfix="0" Stage="release" Build="0" Language="0" Info="19.0" Comment="" />
+      </Section>
+    <Section Index="7" Format="inline">
+      <Version Major="19" Minor="0" Bugfix="0" Stage="release" Build="0" Language="0" Info="19.0" Comment="" />
+      </Section>
+    <Section Index="8" Format="inline">
+      <Version Major="19" Minor="0" Bugfix="0" Stage="release" Build="0" Language="0" Info="19.0" Comment="" />
+      </Section>
+    <Section Index="9" Format="inline">
+      <Version Major="19" Minor="0" Bugfix="0" Stage="release" Build="0" Language="0" Info="19.0" Comment="" />
+      </Section>
+    <Section Index="10" Format="inline">
+      <Version Major="19" Minor="0" Bugfix="0" Stage="release" Build="0" Language="0" Info="19.0" Comment="" />
+      </Section>
+    </vers>
+  <STRG>
+    <!-- String description / descriptions list -->
+    <Section Index="0" Format="inline">
+      <String EOLN="LF">
+        <Chunk>Groups the string attributes used by Create_Tag.vi to select a protocol, gateway, route, controller type and tag. It also holds element size, element count and debug text. For an ordinary Logix tag, enter the element size in bytes; the saved empty size can cause creation to fail in version 2.0.22.</Chunk>
+        <Chunk />
+        <Chunk>Create_Tag.vi trims the fields and forms the library attribute string. A debug level of NONE omits the debug attribute; in version 2.0.22, the shared library debug level becomes zero. This control alone does not create a tag or contact a controller. In upstream 2.7.2, the NONE debug choice leaves the existing library debug level unchanged. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.</Chunk>
+        <Chunk />
+        </String>
+      </Section>
+    </STRG>
+  <ICON>
+    <!-- Icon 32x32 1bpp -->
+    <Section Index="0" Format="png" File="PLC_Attributes_ICON.png" />
+    </ICON>
+  <icl4>
+    <!-- Icon Large 32x32 4bpp -->
+    <Section Index="0" Format="png" File="PLC_Attributes_icl4.png" />
+    </icl4>
+  <icl8>
+    <!-- Icon Large 32x32 8bpp -->
+    <Section Index="0" Format="png" File="PLC_Attributes_icl8.png" />
+    </icl8>
+  <CPC2>
+    <!-- Connector Pane Content Type v2 -->
+    <Section Index="0" Format="inline">
+      <TypeDesc TypeID="1" />
+      </Section>
+    </CPC2>
+  <LIfp>
+    <!-- LinkObj Refs for Front Panel -->
+    <Section Index="0" Format="inline">
+      <FPHP />
+      </Section>
+    </LIfp>
+  <FPEx>
+    <!-- Generic block -->
+    <Section Index="0" Format="bin" File="PLC_Attributes_FPEx.bin" />
+    </FPEx>
+  <FPHb>
+    <!-- Front Panel Heap ver b -->
+    <Section Index="0" Format="xml" File="PLC_Attributes_FPHb.xml" />
+    </FPHb>
+  <FPSE>
+    <!-- Front Panel Size Estimate -->
+    <Section Index="0" Value="156" Format="inline" />
+    </FPSE>
+  <VPDP>
+    <!-- VI Primitive Dependency Flags -->
+    <Section Index="0" Format="bin" File="PLC_Attributes_VPDP.bin" />
+    </VPDP>
+  <LIbd>
+    <!-- LinkObj Refs for Block diagram -->
+    <Section Index="0" Format="inline">
+      <BDHP />
+      </Section>
+    </LIbd>
+  <BDEx>
+    <!-- Generic block -->
+    <Section Index="0" Format="bin" File="PLC_Attributes_BDEx.bin" />
+    </BDEx>
+  <BDHb>
+    <!-- Block Diagram Heap ver b -->
+    <Section Index="0" Format="xml" File="PLC_Attributes_BDHb.xml" />
+    </BDHb>
+  <BDSE>
+    <!-- Block Diagram Size Estimate -->
+    <Section Index="0" Value="7" Format="inline" />
+    </BDSE>
+  <VITS>
+    <!-- Virtual Instrument Tag Strings -->
+    <Section Index="0" Format="bin" File="PLC_Attributes_VITS.bin" />
+    </VITS>
+  <DTHP>
+    <!-- Data Types for Heap -->
+    <Section Index="0" Format="inline">
+      <!-- Heap TypeID  1 = Consolidated TypeID  8: Cluster -->
+      <!-- Heap TypeID  2 = Consolidated TypeID  9: Cluster -->
+      <!-- Heap TypeID  3 = Consolidated TypeID 10: String -->
+      <!-- Heap TypeID  4 = Consolidated TypeID 11: NumInt32 -->
+      <!-- Heap TypeID  5 = Consolidated TypeID 12: String -->
+      <!-- Heap TypeID  6 = Consolidated TypeID 13: String -->
+      <!-- Heap TypeID  7 = Consolidated TypeID 14: String -->
+      <!-- Heap TypeID  8 = Consolidated TypeID 15: NumInt32 -->
+      <!-- Heap TypeID  9 = Consolidated TypeID 16: String -->
+      <!-- Heap TypeID 10 = Consolidated TypeID 17: NumInt32 -->
+      <!-- Heap TypeID 11 = Consolidated TypeID 18: String -->
+      <!-- Heap TypeID 12 = Consolidated TypeID 19: String -->
+      <!-- Heap TypeID 13 = Consolidated TypeID 20: NumInt32 -->
+      <!-- Heap TypeID 14 = Consolidated TypeID 21: String -->
+      <TypeDescSlice IndexShift="8" Count="14" />
+      </Section>
+    </DTHP>
+  <MUID>
+    <!-- Map Unique Identifier -->
+    <Section Index="0" Value="202" Format="inline" />
+    </MUID>
+  <HBIN>
+    <!-- Generic block -->
+    <Section Index="0" Format="bin" File="PLC_Attributes_HBIN.bin" />
+    </HBIN>
+  <HBUF>
+    <!-- Generic block -->
+    <Section Index="0" Format="bin" File="PLC_Attributes_HBUF.bin" />
+    </HBUF>
+  <HIST>
+    <!-- Changes History -->
+    <Section Index="0" Format="bin" File="PLC_Attributes_HIST.bin" />
+    </HIST>
+  <VCTP>
+    <!-- VI Consolidated Data Types -->
+    <Section Index="0" Format="inline">
+      <!-- FlatTypeID 0: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="protocol" />
+      <!-- FlatTypeID 1: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="path" />
+      <!-- FlatTypeID 2: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="gatewayIP" />
+      <!-- FlatTypeID 3: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="cpu" />
+      <!-- FlatTypeID 4: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="element size" />
+      <!-- FlatTypeID 5: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="element count" />
+      <!-- FlatTypeID 6: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="tag name" />
+      <!-- FlatTypeID 7: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" Label="debug level" />
+      <!-- FlatTypeID 8: Type Descriptor which stores type definition -->
+      <TypeDesc Type="TypeDef" Flag1="0x0" Format="inline">
+        <TypeDesc Type="Cluster" Nested="True" Format="inline" Label="PLC Attributes">
+          <TypeDesc TypeID="0" />
+          <TypeDesc TypeID="1" />
+          <TypeDesc TypeID="2" />
+          <TypeDesc TypeID="3" />
+          <TypeDesc TypeID="4" />
+          <TypeDesc TypeID="5" />
+          <TypeDesc TypeID="6" />
+          <TypeDesc TypeID="7" />
+          </TypeDesc>
+        <Label Text="libplctag-labview.lvlib" />
+        <Label Text="PLC_Attributes.ctl" />
+        </TypeDesc>
+      <!-- FlatTypeID 9: Type Descriptor with single number as data -->
+      <TypeDesc Type="NumUInt8" Prop1="0" Format="inline" />
+      <!-- FlatTypeID 10: Type Descriptor with data consisting of repeated Block -->
+      <TypeDesc Type="RepeatedBlock" NumRepeats="792" Format="inline">
+        <TypeDesc TypeID="9" />
+        </TypeDesc>
+      <!-- FlatTypeID 11: Type Descriptor with single number as data -->
+      <TypeDesc Type="NumInt32" Prop1="0" Format="inline" />
+      <!-- FlatTypeID 12: Type Descriptor with data consisting of repeated Block; DSInit settings array -->
+      <TypeDesc Type="RepeatedBlock" NumRepeats="51" Format="inline">
+        <TypeDesc TypeID="11" />
+        </TypeDesc>
+      <!-- FlatTypeID 13: Type Descriptor with single number as data -->
+      <TypeDesc Type="NumUInt32" Prop1="0" Format="inline" Label="flg" />
+      <!-- FlatTypeID 14: Type Descriptor with Number Pointer as data -->
+      <TypeDesc Type="Ptr" Format="inline" Label="oRt" />
+      <!-- FlatTypeID 15: Type Descriptor with single number as data -->
+      <TypeDesc Type="NumUInt32" Prop1="0" Format="inline" Label="eof" />
+      <!-- FlatTypeID 16: Type Descriptor which Clusters together other TDs into a struct -->
+      <TypeDesc Type="Cluster" Format="inline" Label="udf">
+        <TypeDesc TypeID="13" />
+        <TypeDesc TypeID="14" />
+        <TypeDesc TypeID="15" />
+        </TypeDesc>
+      <!-- FlatTypeID 17: Type Descriptor with String data -->
+      <TypeDesc Type="String" Prop1="0xFFFFFFFF" Format="inline" />
+      <!-- FlatTypeID 18: Type Descriptor which Clusters together other TDs into a struct -->
+      <TypeDesc Type="Cluster" Format="inline" Label="txd">
+        <TypeDesc TypeID="17" />
+        <TypeDesc TypeID="17" />
+        <TypeDesc TypeID="17" />
+        <TypeDesc TypeID="17" />
+        <TypeDesc TypeID="17" />
+        <TypeDesc TypeID="17" />
+        <TypeDesc TypeID="17" />
+        <TypeDesc TypeID="17" />
+        </TypeDesc>
+      <!-- FlatTypeID 19: Type Descriptor which Clusters together other TDs into a struct -->
+      <TypeDesc Type="Cluster" Format="inline">
+        <TypeDesc TypeID="16" />
+        <TypeDesc TypeID="18" />
+        </TypeDesc>
+      <!-- FlatTypeID 20: Type Descriptor which Clusters together other TDs into a struct -->
+      <TypeDesc Type="Cluster" Format="inline" Label="PLC Attributes">
+        <TypeDesc TypeID="0" />
+        <TypeDesc TypeID="1" />
+        <TypeDesc TypeID="2" />
+        <TypeDesc TypeID="3" />
+        <TypeDesc TypeID="4" />
+        <TypeDesc TypeID="5" />
+        <TypeDesc TypeID="6" />
+        <TypeDesc TypeID="7" />
+        </TypeDesc>
+      <!-- FlatTypeID 21: Type Descriptor with single number as data -->
+      <TypeDesc Type="NumInt16" Prop1="0" Format="inline" />
+      <!-- FlatTypeID 22: Type Descriptor with single number as data -->
+      <TypeDesc Type="NumUInt16" Prop1="0" Format="inline" />
+      <!-- FlatTypeID 23: Type Descriptor with single number as data -->
+      <TypeDesc Type="NumInt8" Prop1="0" Format="inline" />
+      <!-- FlatTypeID 24: Type Descriptor with Block based data -->
+      <TypeDesc Type="Block" BlockSize="0x4" Format="inline" />
+      <!-- FlatTypeID 25: Type Descriptor which Clusters together other TDs into a struct; Front Panel DCO definition -->
+      <TypeDesc Type="Cluster" Format="inline">
+        <TypeDesc TypeID="21" />
+        <TypeDesc TypeID="22" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="23" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="9" />
+        <TypeDesc TypeID="11" />
+        <TypeDesc TypeID="24" />
+        <TypeDesc TypeID="24" />
+        <TypeDesc TypeID="24" />
+        </TypeDesc>
+      <!-- FlatTypeID 26: Type Descriptor with data consisting of repeated Block; Table of Front Panel DCOs -->
+      <TypeDesc Type="RepeatedBlock" NumRepeats="1" Format="inline">
+        <TypeDesc TypeID="25" />
+        </TypeDesc>
+      <!-- FlatTypeID 27: Type Descriptor with Void data -->
+      <TypeDesc Type="Void" Format="inline" />
+      <TopLevel>
+        <!-- When Consolidated Type is referred to in other blocks, the TypeID is Index from this list -->
+        <TypeDesc Index="1" FlatTypeID="8" />
+        <TypeDesc Index="2" FlatTypeID="10" />
+        <TypeDesc Index="3" FlatTypeID="12" />
+        <TypeDesc Index="4" FlatTypeID="19" />
+        <TypeDesc Index="5" FlatTypeID="20" />
+        <TypeDesc Index="6" FlatTypeID="26" />
+        <TypeDesc Index="7" FlatTypeID="27" />
+        <TypeDesc Index="8" FlatTypeID="20" />
+        <TypeDesc Index="9" FlatTypeID="20" />
+        <TypeDesc Index="10" FlatTypeID="4" />
+        <TypeDesc Index="11" FlatTypeID="11" />
+        <TypeDesc Index="12" FlatTypeID="7" />
+        <TypeDesc Index="13" FlatTypeID="6" />
+        <TypeDesc Index="14" FlatTypeID="5" />
+        <TypeDesc Index="15" FlatTypeID="11" />
+        <TypeDesc Index="16" FlatTypeID="3" />
+        <TypeDesc Index="17" FlatTypeID="11" />
+        <TypeDesc Index="18" FlatTypeID="1" />
+        <TypeDesc Index="19" FlatTypeID="2" />
+        <TypeDesc Index="20" FlatTypeID="11" />
+        <TypeDesc Index="21" FlatTypeID="0" />
+        </TopLevel>
+      </Section>
+    </VCTP>
+  <FTAB>
+    <!-- Font Table -->
+    <Section Index="128" Prop1="0x10002" Prop3="3" Format="inline">
+      <Font Prop2="15" Prop3="1024" Prop4="0" Prop6="15" Prop7="216" Prop8="213">
+        <Name>Segoe UI</Name>
+        </Font>
+      <Font Prop2="15" Prop3="1024" Prop4="0" Prop6="15" Prop7="216" Prop8="213">
+        <Name>Segoe UI</Name>
+        </Font>
+      <Font Prop2="15" Prop3="1024" Prop4="0" Prop6="15" Prop7="216" Prop8="213">
+        <Name>Segoe UI</Name>
+        </Font>
+      <Font Prop2="32768" Prop3="33792" Prop4="32768" Prop6="16" Prop7="32767" Prop8="1">
+        <Name>0</Name>
+        </Font>
+      </Section>
+    </FTAB>
+  </RSRC>

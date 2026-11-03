@@ -52,7 +52,8 @@
           "evidence": "The arrow and buffer remain; U8 loses clear detail at the stress size."
         }
       },
-      "reviewed_sha256": "0cc1ded9c932dbe4c3adae468a5950b7932349214cffd70ce9661edb861cba40"
+      "reviewed_sha256": "0cc1ded9c932dbe4c3adae468a5950b7932349214cffd70ce9661edb861cba40",
+      "salt": "y7td5u93di"
     },
     {
       "concept_id": "lifted-value",
@@ -91,7 +92,8 @@
           "evidence": "The tray and U8 survive; the 8 counters shrink."
         }
       },
-      "reviewed_sha256": "c2a9dc7439734b7aa0d6fce37cc030a4dcf62c734830dd391c999703554b6aba"
+      "reviewed_sha256": "c2a9dc7439734b7aa0d6fce37cc030a4dcf62c734830dd391c999703554b6aba",
+      "salt": "jmek0oh1bw"
     },
     {
       "concept_id": "read-lens",
@@ -255,7 +257,8 @@
           "evidence": "The lens remains and the U8 is recognizable but its small counters soften."
         }
       },
-      "reviewed_sha256": "fcf2a000294c66710a4955e0a65375fa0773f5026ed1942f4003356c975b0dc1"
+      "reviewed_sha256": "fcf2a000294c66710a4955e0a65375fa0773f5026ed1942f4003356c975b0dc1",
+      "salt": "zbklc0mqsy"
     },
     {
       "concept_id": "value-spout",
@@ -294,7 +297,8 @@
           "evidence": "U8 is recognizable but counters soften at 16x16."
         }
       },
-      "reviewed_sha256": "6bc56e855c86b868e160e2eeb0744879844e02a3a17707a012ff65d282cefa19"
+      "reviewed_sha256": "6bc56e855c86b868e160e2eeb0744879844e02a3a17707a012ff65d282cefa19",
+      "salt": "gyijyrlq3v"
     },
     {
       "concept_id": "diagonal-output-card",
@@ -333,7 +337,8 @@
           "evidence": "The diagonal direction remains while U8 counters soften at 16x16."
         }
       },
-      "reviewed_sha256": "6faa1904061dd4670275fe6186206f4987da6a7f1389e93e0952a0c04ed001f1"
+      "reviewed_sha256": "6faa1904061dd4670275fe6186206f4987da6a7f1389e93e0952a0c04ed001f1",
+      "salt": "anny91wosx"
     }
   ],
   "failures": [
@@ -348,7 +353,8 @@
       "observed_problem": "At 30x18 the U8 strokes run together and the two 8 counters are too small for reliable reading.",
       "measured_value": "30x18",
       "corrective_instruction": "Separate U and 8, enlarge both counters and simplify the lens.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-06"
     },
     {
       "candidate_id": "candidate-04",
@@ -361,7 +367,8 @@
       "observed_problem": "The U8 card above a tray and upward arrow repeats the same structure as candidate-02; changing the card color does not distinguish it.",
       "measured_value": "source",
       "corrective_instruction": "Use a structurally different extraction metaphor.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
     },
     {
       "candidate_id": "candidate-04",
@@ -374,7 +381,8 @@
       "observed_problem": "The italic angled U8 has small counters and is difficult to distinguish reliably.",
       "measured_value": "30x18",
       "corrective_instruction": "Use upright large characters with clear space and counters in a different composition.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
     },
     {
       "candidate_id": "candidate-05",
@@ -387,19 +395,22 @@
       "observed_problem": "The small 8 counters and tight U8 spacing make the exact type difficult to read reliably.",
       "measured_value": "30x18",
       "corrective_instruction": "Enlarge U8, increase letter spacing and open the 8 counters.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Candidates 02 and 04 both show a tray under an upward arrow with U8 above; candidates 03, 04 and 05 also lose reliable U8 legibility at 30x18. Revisions and a new comparison are required."
+      "observed_problem": "Candidates 02 and 04 both show a tray under an upward arrow with U8 above; candidates 03, 04 and 05 also lose reliable U8 legibility at 30x18. Revisions and a new comparison are required.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The previously failed card still repeats candidate 02's tray and upward arrow. The revised lens and outlet resolve U8 readability; a structurally different fifth concept remains necessary."
+      "observed_problem": "The previously failed card still repeats candidate 02's tray and upward arrow. The revised lens and outlet resolve U8 readability; a structurally different fifth concept remains necessary.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
@@ -413,5 +424,35 @@
     ],
     "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned pr2m8o0t57.md",
+    "manifest.json",
+    "Read U8 option 1 1024x1024 y7td5u93di.png",
+    "Read U8 option 1 29x29 y7td5u93di.png",
+    "Read U8 option 1 30x18 y7td5u93di.png",
+    "Read U8 option 1 30x23 y7td5u93di.png",
+    "Read U8 option 1 y7td5u93di.ico",
+    "Read U8 option 2 1024x1024 jmek0oh1bw.png",
+    "Read U8 option 2 29x29 jmek0oh1bw.png",
+    "Read U8 option 2 30x18 jmek0oh1bw.png",
+    "Read U8 option 2 30x23 jmek0oh1bw.png",
+    "Read U8 option 2 jmek0oh1bw.ico",
+    "Read U8 option 3 1024x1024 zbklc0mqsy.png",
+    "Read U8 option 3 29x29 zbklc0mqsy.png",
+    "Read U8 option 3 30x18 zbklc0mqsy.png",
+    "Read U8 option 3 30x23 zbklc0mqsy.png",
+    "Read U8 option 3 zbklc0mqsy.ico",
+    "Read U8 option 4 1024x1024 anny91wosx.png",
+    "Read U8 option 4 29x29 anny91wosx.png",
+    "Read U8 option 4 30x18 anny91wosx.png",
+    "Read U8 option 4 30x23 anny91wosx.png",
+    "Read U8 option 4 anny91wosx.ico",
+    "Read U8 option 5 1024x1024 gyijyrlq3v.png",
+    "Read U8 option 5 29x29 gyijyrlq3v.png",
+    "Read U8 option 5 30x18 gyijyrlq3v.png",
+    "Read U8 option 5 30x23 gyijyrlq3v.png",
+    "Read U8 option 5 gyijyrlq3v.ico"
+  ]
 }

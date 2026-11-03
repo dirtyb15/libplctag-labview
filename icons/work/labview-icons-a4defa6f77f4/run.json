@@ -31,31 +31,29 @@
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-01.png",
       "qa": {
-        "source": {
-          "result": "PASS",
-          "evidence": "Navy tag with red X; separated shapes and clear margins."
-        },
-        "29x29": {
-          "result": "PASS",
-          "evidence": "Tag and X are distinct."
+        "16x16": {
+          "evidence": "The tag and X remain clear while edges soften.",
+          "result": "WARN"
         },
         "30x23": {
-          "result": "PASS",
-          "evidence": "Tag and X remain separate."
+          "evidence": "The red X remains visible against the navy tag.",
+          "result": "PASS"
         },
         "30x18": {
-          "result": "FAIL",
-          "evidence": "X remains visible, but the overall tag-and-badge composition closely resembles the create-tag plus option.",
-          "rule_id": "VIS-DISTINCT-012",
-          "cause": "The same tag-plus-badge layout appears across operations.",
-          "correction": "Use a different dominant silhouette and composition from create-tag and the other deletion options."
+          "evidence": "The dominant diagonal tag and red X are recognizable and differ from the current create concepts.",
+          "result": "PASS"
         },
-        "16x16": {
-          "result": "PASS",
-          "evidence": "Tag and X remain recognizable."
+        "29x29": {
+          "evidence": "The tag, hole and red X remain separate.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A navy diagonal tag carries a large red X at its lower right. The previously conflicting create plus badge was retired; the current create set uses press, plus above tag, carton, conveyor and diagonal plus output.",
+          "result": "PASS"
         }
       },
-      "reviewed_sha256": "87ea17a073d575339c561a8f2a9d54288ffe03cf9e9d28e6f1977ea388b77389"
+      "reviewed_sha256": "87ea17a073d575339c561a8f2a9d54288ffe03cf9e9d28e6f1977ea388b77389",
+      "salt": "aqg9aewq0v"
     },
     {
       "concept_id": "bin",
@@ -94,7 +92,8 @@
           "evidence": "Tag and bin remain recognizable despite losing bin slots."
         }
       },
-      "reviewed_sha256": "aa32714a5002d8f7ee3364ff52510ed87e4677d54f6c92e597a928bd35cb50c0"
+      "reviewed_sha256": "aa32714a5002d8f7ee3364ff52510ed87e4677d54f6c92e597a928bd35cb50c0",
+      "salt": "qw75p0t2cp"
     },
     {
       "concept_id": "minus",
@@ -221,6 +220,255 @@
         }
       },
       "reviewed_sha256": "36accb98418662c7d341991fc0370256bd199e93d865002648f8725fe612bac4"
+    },
+    {
+      "concept_id": "tag-remove-circle",
+      "concept_summary": "Tag removed in prohibition circle",
+      "prompt": "One SQUARE flat software icon on pure white for destroying or removing a PLC tag. Draw one LARGE RED PROHIBITION CIRCLE with a thick red diagonal slash across it. In the center behind the slash put one large NAVY TAG silhouette with a white hole. The red circle and slash should dominate the outer shape and remain distinct from the tag at 30x18. This represents removal, no plus, no lettering, no shadows, no extra border. Keep the entire icon centered in the middle 70 percent of the white square.",
+      "signature": {
+        "metaphor": "remove tag",
+        "orientation": "centered",
+        "cue": "large red prohibition slash over tag",
+        "objects": "tag, prohibition circle",
+        "composition": "horizontal tag centered inside large circle and slash"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-06.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The red circle and diagonal slash remain dominant."
+        },
+        "source": {
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL",
+          "evidence": "A crossed-out tag inside a prohibition sign commonly means tags are forbidden or unavailable rather than an action to destroy an existing tag.",
+          "correction": "Use an explicit disposal action rather than a prohibition sign."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The prohibition sign remains clear but communicates restriction rather than destruction."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The circle, slash and tag remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The crossed-out tag remains recognizable."
+        }
+      },
+      "reviewed_sha256": "a454487187cb1668e6d7e0a5c94593a15675b5fc6a8f7df4761d88e525cc50fc"
+    },
+    {
+      "concept_id": "shred",
+      "concept_summary": "Tag through shredder",
+      "prompt": "One SQUARE flat icon on white for destroying a PLC tag. A big blue tag with large white hole enters a broad bright RED SHREDDER SLOT. Below the slot show exactly THREE VERY WIDE, SHORT BLUE SHREDS, with VERY LARGE WHITE GAPS between them. Each strip is a big simple shape. The tag, slot and three separated strips must stay recognizable at 30x18 pixels. Do not show a press, a plus, or fine strips. No words, shadows or border. Keep all art in the central 70 percent of square canvas.",
+      "signature": {
+        "cue": "Tag through shredder",
+        "metaphor": "Tag through shredder",
+        "composition": "A large blue tag entering a simple red horizontal shredder slot from above.",
+        "objects": "tag and destruction cue",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 4,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-07.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and red slot remain while the lower lines merge."
+        },
+        "source": {
+          "rule_id": "VIS-CONCEPT-002",
+          "result": "FAIL",
+          "evidence": "The three blue shapes below the slot are horizontal bars, not vertical shreds, so the illustration does not clearly show shredding.",
+          "correction": "Show three broad vertical strips hanging down from the slot, separated by clear gaps."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "evidence": "The horizontal lines merge and fail to convey shredding.",
+          "correction": "Show fewer broad vertical strips with clear white space."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Horizontal blue bars remain separate but resemble lines rather than shreds."
+        },
+        "30x23": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "evidence": "The horizontal bars look like a list under the slot rather than shredded fragments.",
+          "correction": "Make three short vertical strips with large gaps."
+        }
+      },
+      "reviewed_sha256": "62482b995e96bf009045356c744256ca371ce03dabc0f7560c27288631e21db0"
+    },
+    {
+      "concept_id": "shred",
+      "concept_summary": "Tag through shredder",
+      "prompt": "One SQUARE flat icon on pure white for destroying a tag in a shredder. Draw a large BLUE TAG with a big white hole entering a thick RED HORIZONTAL SHREDDER SLOT from above. BELOW THE SLOT draw exactly THREE BROAD BLUE VERTICAL RECTANGULAR STRIPS hanging straight downward, like a paper shredder output. The strips must be VERTICAL, NOT horizontal bars, and must have huge WHITE gaps between them. Tag, red slot and separated strips all readable at 30x18. No plus, no lettering or shadow, keep everything inside the central 70 percent of the square.",
+      "signature": {
+        "cue": "Tag through shredder",
+        "metaphor": "Tag through shredder",
+        "composition": "A large blue tag entering a simple red horizontal shredder slot from above.",
+        "objects": "tag and destruction cue",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 4,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-08.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag, red shredder slot and three vertical shreds remain distinct."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag, slot and three strips remain, with softened edges."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag enters a red slot, with three broad separate vertical blue strips below."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "All three strips and their white gaps remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The red slot and three separated hanging strips survive; the tag hole is visible."
+        }
+      },
+      "reviewed_sha256": "dcd1c62395041b2ebfb0e5fedfda12bd18bda1b3a88caa6f5e5009c6023bbc80",
+      "salt": "gsv4ib0jvu"
+    },
+    {
+      "concept_id": "tag-erase",
+      "concept_summary": "Tag being erased",
+      "prompt": "Exactly one SQUARE flat icon on pure white for destroying an existing software tag. Draw a LARGE dark navy TAG tilted slightly, with a large white hole. A very large red-and-white rectangular ERASER is wiping away the lower right half of the tag; the wiped portion is white empty space. Show two or three LARGE separated navy fragments next to the eraser to make the removal action clear. No pencil, no lightning bolt, no plus, no words or shadow. Bold simple shapes must remain identifiable at 30x18; all art in central 70 percent of square canvas.",
+      "signature": {
+        "objects": "tag, eraser",
+        "composition": "tag left with broad eraser crossing right side and missing portion",
+        "orientation": "diagonal",
+        "metaphor": "erase",
+        "cue": "eraser removes tag"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-09.png",
+      "qa": {
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The white eraser tip begins to blend with the white background."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "A navy tag and red shape remain without clear eraser detail."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A red-and-white eraser removes part of a navy tag, leaving two fragments."
+        },
+        "30x23": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Give the eraser tip a thick dark outline and remove tiny fragments.",
+          "evidence": "The white eraser tip and missing tag merge into the background, leaving a red shape that no longer clearly reads as an eraser."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Add a dark outline around a larger eraser and simplify its surroundings.",
+          "evidence": "The red shape and blue tag do not clearly convey erasing because the white eraser tip disappears."
+        }
+      },
+      "reviewed_sha256": "539c6dbe1078d25348bdf9dd5aaa746abc2a2fb7e536e0e7084c24ee10992e95"
+    },
+    {
+      "concept_id": "tag-erase",
+      "concept_summary": "Tag being erased",
+      "prompt": "One SQUARE flat icon on pure white for deleting a software tag. Show a large navy tag with a white hole. A huge RED AND WHITE ERASER diagonally rubs away the right end of the tag. Draw a VERY THICK BLACK OUTLINE around the entire eraser, especially around its white tip, so the white tip stays visible against the background at 30x18 pixels. The erased part is a clean empty white gap; no debris or little fragments. The eraser and tag must be large simple distinct shapes, all within central 70 percent of the square. No text, lightning or shadow.",
+      "signature": {
+        "objects": "tag, eraser",
+        "composition": "tag left with broad eraser crossing right side and missing portion",
+        "orientation": "diagonal",
+        "metaphor": "erase",
+        "cue": "eraser removes tag"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-10.png",
+      "qa": {
+        "source": {
+          "evidence": "A thickly outlined red and white eraser removes the end of the navy tag.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The red eraser and dark outline remain but fine detail softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The tag and outlined eraser are distinct.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The outlined white tip survives against the background.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The white eraser tip remains outlined and recognizable.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "1dba063fb4d0a46849255710770301e468b1271117789fcc6f23366d88d13a3e",
+      "salt": "1cnsnqvg0i"
+    },
+    {
+      "concept_id": "tag-cut",
+      "concept_summary": "Scissors cut tag",
+      "prompt": "One SQUARE flat software icon on white for destroying a tag. Draw a LARGE horizontal dark navy tag with one large white circular hole on its left end. Across the right end, show a LARGE RED PAIR OF SCISSORS cutting through the tag; scissors have two oversized round finger holes and two short thick blades. A clean white gap splits off the cut end. Make the tag, scissors and cut gap clear at 30x18 pixels. No lightning, no plus, no words or shadows; all artwork fits within the central 70 percent of the square canvas with wide white margins.",
+      "signature": {
+        "orientation": "horizontal",
+        "objects": "tag and scissors",
+        "composition": "large red scissors cutting through horizontal navy tag",
+        "metaphor": "cutting",
+        "cue": "scissors cut tag"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-a4defa6f77f4\\candidates\\candidate-11.png",
+      "qa": {
+        "source": {
+          "evidence": "Large red scissors cut a horizontal navy tag.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The handles and tag remain visible, with softened blade detail.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "Both scissor rings and tag hole remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Two rings and the cutting blades are visible against the tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Scissors and tag remain separate.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "2f703bc7692d32ffe07aad5ef9d80e913d6fa0c6a89bad18f56b2143d06dd0bc",
+      "salt": "9trl2c9ehp"
     }
   ],
   "failures": [
@@ -235,7 +483,8 @@
       "observed_problem": "X remains visible, but the overall tag-and-badge composition closely resembles the create-tag plus option.",
       "measured_value": "30x18",
       "corrective_instruction": "Use a different dominant silhouette and composition from create-tag and the other deletion options.",
-      "likely_cause_hypothesis": "The same tag-plus-badge layout appears across operations."
+      "likely_cause_hypothesis": "The same tag-plus-badge layout appears across operations.",
+      "retry_result": "PASS after review of candidate-01"
     },
     {
       "candidate_id": "candidate-03",
@@ -248,7 +497,8 @@
       "observed_problem": "Tag-and-badge composition closely resembles both create-tag plus and destroy-tag X.",
       "measured_value": "30x18",
       "corrective_instruction": "Use a different dominant silhouette and composition from create-tag and the other deletion options.",
-      "likely_cause_hypothesis": "The same tag-plus-badge layout appears across operations."
+      "likely_cause_hypothesis": "The same tag-plus-badge layout appears across operations.",
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "candidate_id": "candidate-04",
@@ -261,7 +511,8 @@
       "observed_problem": "The shreds merge into a pale blue blur, so the shredder cue is ambiguous.",
       "measured_value": "30x18",
       "corrective_instruction": "Use fewer, thicker and widely separated strips and a recognizable shredder.",
-      "likely_cause_hypothesis": "Fine shred strips merge during reduction."
+      "likely_cause_hypothesis": "Fine shred strips merge during reduction.",
+      "retry_result": "PASS after review of candidate-08"
     },
     {
       "candidate_id": "candidate-05",
@@ -274,25 +525,162 @@
       "observed_problem": "A red lightning bolt splits a blue tag; the result suggests a fault or broken connection rather than deleting a software tag.",
       "measured_value": "source",
       "corrective_instruction": "Use an unmistakable deletion or disposal metaphor without a lightning bolt.",
-      "likely_cause_hypothesis": "The lightning bolt is a familiar error or fault cue."
+      "likely_cause_hypothesis": "The lightning bolt is a familiar error or fault cue.",
+      "retry_result": "PASS after review of candidate-11"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Candidates 01 and 03 both use a navy tag with a red lower-right badge; candidates 02 and 04 both show a tag entering a red receptacle at small size."
+      "observed_problem": "Candidates 01 and 03 both use a navy tag with a red lower-right badge; candidates 02 and 04 both show a tag entering a red receptacle at small size.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The original create badge collision has been removed from that set, but the destroy minus badge repeats the destroy X layout, shredder strips merge, and the lightning tag suggests a fault. Replace those three and reassess all five.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 3,
+      "concept_id": "tag-remove-circle",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "A crossed-out tag inside a prohibition sign commonly means tags are forbidden or unavailable rather than an action to destroy an existing tag.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an explicit disposal action rather than a prohibition sign.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-07",
+      "option_number": 4,
+      "concept_id": "shred",
+      "attempt_number": 2,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "The three blue shapes below the slot are horizontal bars, not vertical shreds, so the illustration does not clearly show shredding.",
+      "measured_value": "source",
+      "corrective_instruction": "Show three broad vertical strips hanging down from the slot, separated by clear gaps.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
+    },
+    {
+      "candidate_id": "candidate-07",
+      "option_number": 4,
+      "concept_id": "shred",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The horizontal lines merge and fail to convey shredding.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Show fewer broad vertical strips with clear white space.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
+    },
+    {
+      "candidate_id": "candidate-07",
+      "option_number": 4,
+      "concept_id": "shred",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The horizontal bars look like a list under the slot rather than shredded fragments.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Make three short vertical strips with large gaps.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The X and bin remain provisionally distinct, but the prohibition sign suggests restriction and the horizontal shredder output does not show shreds. The old lightning draft is also failed.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "concept_id": "tag-erase",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The white eraser tip and missing tag merge into the background, leaving a red shape that no longer clearly reads as an eraser.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Give the eraser tip a thick dark outline and remove tiny fragments.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "concept_id": "tag-erase",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The red shape and blue tag do not clearly convey erasing because the white eraser tip disappears.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Add a dark outline around a larger eraser and simplify its surroundings.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag with X, tag in bin, and vertical shredder are different silhouettes. The eraser loses its tip at required sizes and the lightning draft remains semantically failed.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
-    "result": "FAIL",
+    "result": "PASS",
+    "evidence": "The X badge, waste bin, diagonal outlined eraser, vertical shredder strips, and scissors have distinct silhouettes. The Create Tag set uses a press, plus symbols, carton, and conveyor; its carton and press differ in shape and action from the red slatted bin and the shredding strips. Full collection comparison remains pending.",
     "candidate_ids": [
       "candidate-01",
       "candidate-02",
-      "candidate-03",
-      "candidate-04",
-      "candidate-05"
-    ],
-    "evidence": "Candidates 01 and 03 both use a navy tag with a red lower-right badge; candidates 02 and 04 both show a tag entering a red receptacle at small size."
+      "candidate-10",
+      "candidate-08",
+      "candidate-11"
+    ]
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "Destroy Tag option 1 1024x1024 aqg9aewq0v.png",
+    "Destroy Tag option 1 29x29 aqg9aewq0v.png",
+    "Destroy Tag option 1 30x18 aqg9aewq0v.png",
+    "Destroy Tag option 1 30x23 aqg9aewq0v.png",
+    "Destroy Tag option 1 aqg9aewq0v.ico",
+    "Destroy Tag option 2 1024x1024 qw75p0t2cp.png",
+    "Destroy Tag option 2 29x29 qw75p0t2cp.png",
+    "Destroy Tag option 2 30x18 qw75p0t2cp.png",
+    "Destroy Tag option 2 30x23 qw75p0t2cp.png",
+    "Destroy Tag option 2 qw75p0t2cp.ico",
+    "Destroy Tag option 3 1024x1024 1cnsnqvg0i.png",
+    "Destroy Tag option 3 1cnsnqvg0i.ico",
+    "Destroy Tag option 3 29x29 1cnsnqvg0i.png",
+    "Destroy Tag option 3 30x18 1cnsnqvg0i.png",
+    "Destroy Tag option 3 30x23 1cnsnqvg0i.png",
+    "Destroy Tag option 4 1024x1024 gsv4ib0jvu.png",
+    "Destroy Tag option 4 29x29 gsv4ib0jvu.png",
+    "Destroy Tag option 4 30x18 gsv4ib0jvu.png",
+    "Destroy Tag option 4 30x23 gsv4ib0jvu.png",
+    "Destroy Tag option 4 gsv4ib0jvu.ico",
+    "Destroy Tag option 5 1024x1024 9trl2c9ehp.png",
+    "Destroy Tag option 5 29x29 9trl2c9ehp.png",
+    "Destroy Tag option 5 30x18 9trl2c9ehp.png",
+    "Destroy Tag option 5 30x23 9trl2c9ehp.png",
+    "Destroy Tag option 5 9trl2c9ehp.ico",
+    "lessonsLearned tyhqm4zqya.md",
+    "manifest.json"
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "candidate_ids": [
+    "i16-left-exit",
+    "eye-value",
+    "i16-corner-eject",
+    "i16-curved-output",
+    "i16-side-drop"
+  ],
+  "evidence": "The leftward lower arrow, eye above label, down-left corner extraction, curved output, and label beside a vertical downward output are structurally different in plan. The former horizontal box-and-arrow duplicated the leftward layout and was rejected. Compare the new vertical side arrangement with unsigned U8 dispenser art at 30x18; the latter places its downward output centrally above the type, not beside it.",
+  "scope": "Provisional concept preflight; not visual acceptance",
+  "result": "PASS"
+}

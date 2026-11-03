@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "metaphor": "receive signal",
+    "cue": "arcs point from tag to receiver",
+    "composition": "upright tag on left, radio arcs center, receiver on right",
+    "objects": "tag, radio arcs, receiver",
+    "orientation": "horizontal"
+  },
+  "prompt": "One SQUARE flat icon on pure white for reading tag data. On the LEFT draw one large upright ORANGE tag with a big white hole. In the center draw TWO bold separated curved BLUE radio signal arcs. On the RIGHT draw a simple large NAVY receiver with one broad blue screen. The waves must visibly originate from tag and reach receiver. No eye, hand, arrows, text, letters, numerals, shadow or other devices. Use large separated shapes that remain clear at 30x18; all art in central 70 percent of square.",
+  "concept_id": "read-receiver",
+  "concept_summary": "Receive tag signal"
+}

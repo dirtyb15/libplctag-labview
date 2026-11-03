@@ -1,0 +1,12 @@
+{
+  "concept_id": "i32-tile-stream",
+  "concept_summary": "Signed 32-bit tiles exit buffer",
+  "prompt": "One SQUARE flat software icon on pure white for READING a signed 32-bit integer. Draw a thick NAVY BUFFER BLOCK along the lower left edge. From it emerge THREE LARGE ORANGE SQUARE TILES, arranged as a rising staircase left to right, with big white gaps between tiles. Put one enormous WHITE character on each tile, exactly capital I on first, digit 3 on second, digit 2 on third. The capital I MUST have wide horizontal top and bottom bars so it is not mistaken for 1. Tile labels I, 3, and 2 must each be unmistakably readable at 30x18 and in that order. No other text, arrows, tags, hand or shadow. Keep central 70 percent of square.",
+  "signature": {
+    "composition": "three orange letter tiles ascending diagonally from blue buffer",
+    "metaphor": "stream output",
+    "orientation": "diagonal",
+    "cue": "I32 tiles emerge from buffer",
+    "objects": "three character tiles and buffer"
+  }
+}

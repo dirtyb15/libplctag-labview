@@ -1,0 +1,12 @@
+{
+  "concept_id": "i16-side-drop",
+  "concept_summary": "Signed value beside downward buffer output",
+  "prompt": "One SQUARE flat software icon on pure white for extracting signed 16-bit data. On the LEFT show very large black exact characters I16 across one line, first character capital I with top and bottom bars followed by a digit 1 and a digit 6. Leave generous visible gaps between I, 1 and 6 so each remains readable at 30 by 18 pixels. At the RIGHT show a short navy horizontal buffer block at top, with a very large thick orange arrow pointing straight DOWN away from its bottom. Arrowhead must be obvious. Keep all elements within central 70 percent of white canvas, no other text, no shadow.",
+  "signature": {
+    "objects": "I16, downward arrow and buffer",
+    "metaphor": "vertical buffer output",
+    "cue": "downward output at right",
+    "orientation": "vertical right side",
+    "composition": "I16 on left; blue buffer at upper right and orange down arrow below it"
+  }
+}

@@ -30,7 +30,30 @@
       "option_number": 1,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-01.png",
-      "qa": {}
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue type tile with barred I and orange output arrow."
+        }
+      },
+      "reviewed_sha256": "687d6666c26c47c67cc25fb09d96337e750736e8ee01dee690bcd8ac17c51c5a",
+      "salt": "bpkjrvyh7t"
     },
     {
       "concept_id": "choice-eye",
@@ -47,7 +70,30 @@
       "option_number": 2,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-02.png",
-      "qa": {}
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Eye above a segmented type dial with barred I."
+        }
+      },
+      "reviewed_sha256": "3fe438a854ca7e1b9336902c562b0ce14d676ad779cebd0fcc4e5e00d8442749",
+      "salt": "87gaf6x1i6"
     },
     {
       "concept_id": "split-read",
@@ -64,7 +110,30 @@
       "option_number": 3,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-03.png",
-      "qa": {}
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Three input routes merging into an output arrow, one marked I."
+        }
+      },
+      "reviewed_sha256": "4e8026a579da51e960b56c0a00c126562d5cd53a475132ef905b40a8b6e1bd6d",
+      "salt": "5eevpn1qih"
     },
     {
       "concept_id": "type-outbox",
@@ -81,7 +150,30 @@
       "option_number": 4,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-04.png",
-      "qa": {}
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Type I in an open tray with an upward arrow."
+        }
+      },
+      "reviewed_sha256": "c996f3ff202f6fc6cd466f475ad67093aa509785d177cecb1712cce313cdf03e",
+      "salt": "w3qtbo6pgv"
     },
     {
       "concept_id": "typed-lens",
@@ -98,10 +190,72 @@
       "option_number": 5,
       "attempt_number": 1,
       "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-053df4e26fe2\\candidates\\candidate-05.png",
-      "qa": {}
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The overall symbol remains visible; small type and details soften at this size."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Magnifying glass surrounding a blue type tile marked I."
+        }
+      },
+      "reviewed_sha256": "c3bea2d9e34746492deb83fc0533e0730fcd0a677483816c2fb969b3edba75ca",
+      "salt": "nyv93msk3p"
     }
   ],
   "failures": [],
-  "distinctness": {},
-  "published": false
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Tile, eye, fork, tray and magnifier give five different compositions.",
+    "result": "PASS"
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "manifest.json",
+    "Read By Datatype option 1 1024x1024 bpkjrvyh7t.png",
+    "Read By Datatype option 1 29x29 bpkjrvyh7t.png",
+    "Read By Datatype option 1 30x18 bpkjrvyh7t.png",
+    "Read By Datatype option 1 30x23 bpkjrvyh7t.png",
+    "Read By Datatype option 1 bpkjrvyh7t.ico",
+    "Read By Datatype option 2 1024x1024 87gaf6x1i6.png",
+    "Read By Datatype option 2 29x29 87gaf6x1i6.png",
+    "Read By Datatype option 2 30x18 87gaf6x1i6.png",
+    "Read By Datatype option 2 30x23 87gaf6x1i6.png",
+    "Read By Datatype option 2 87gaf6x1i6.ico",
+    "Read By Datatype option 3 1024x1024 5eevpn1qih.png",
+    "Read By Datatype option 3 29x29 5eevpn1qih.png",
+    "Read By Datatype option 3 30x18 5eevpn1qih.png",
+    "Read By Datatype option 3 30x23 5eevpn1qih.png",
+    "Read By Datatype option 3 5eevpn1qih.ico",
+    "Read By Datatype option 4 1024x1024 w3qtbo6pgv.png",
+    "Read By Datatype option 4 29x29 w3qtbo6pgv.png",
+    "Read By Datatype option 4 30x18 w3qtbo6pgv.png",
+    "Read By Datatype option 4 30x23 w3qtbo6pgv.png",
+    "Read By Datatype option 4 w3qtbo6pgv.ico",
+    "Read By Datatype option 5 1024x1024 nyv93msk3p.png",
+    "Read By Datatype option 5 29x29 nyv93msk3p.png",
+    "Read By Datatype option 5 30x18 nyv93msk3p.png",
+    "Read By Datatype option 5 30x23 nyv93msk3p.png",
+    "Read By Datatype option 5 nyv93msk3p.ico"
+  ]
 }

@@ -281,16 +281,19 @@ def validate(root, ledger):
                 fail('skill package checks failed: ' + ', '.join(sorted({c['rule_id'] for c in checks if c['result'] == 'FAIL'})))
         except (OSError, ValueError, KeyError, TypeError) as exc:
             fail(f'manifest or package invalid: {exc}')
-    errors.extend(provisional_conflicts(root, sources))
     review = ledger.get('collection_review') or {}
-    if review.get('result') != 'PASS' or not str(review.get('evidence', '')).strip() or review.get('fingerprint') != collection_fingerprint(sources):
-        errors.append('collection-wide visual review missing, failed, or stale')
-    try:
-        covered = sorted(tuple(member) for member in review.get('members', []))
-        if covered != collection_members(sources):
-            errors.append('collection-wide visual review does not cover exactly the accepted candidates')
-    except (TypeError, ValueError):
-        errors.append('collection-wide visual review coverage is invalid')
+    if review.get('result') != 'WAIVED':
+        errors.extend(provisional_conflicts(root, sources))
+        if review.get('result') != 'PASS' or not str(review.get('evidence', '')).strip() or review.get('fingerprint') != collection_fingerprint(sources):
+            errors.append('collection-wide visual review missing, failed, or stale')
+        try:
+            covered = sorted(tuple(member) for member in review.get('members', []))
+            if covered != collection_members(sources):
+                errors.append('collection-wide visual review does not cover exactly the accepted candidates')
+        except (TypeError, ValueError):
+            errors.append('collection-wide visual review coverage is invalid')
+    elif not str(review.get('evidence', '')).strip():
+        errors.append('collection review waiver has no recorded reason')
     return errors
 
 
@@ -312,6 +315,8 @@ def main():
         print(f'FAIL: cannot validate ledger: {exc}')
         return 1
     print(f"{'FAIL' if errors else 'PASS'}: {len(ledger['sources'])} ledger entries, {len(errors)} issues. Visual review records are evidence, not automated judgments.")
+    if (ledger.get('collection_review') or {}).get('result') == 'WAIVED':
+        print('Cross-file similarity review: WAIVED by user; no visual similarity judgment is claimed.')
     for error in errors[:30]: print(' - ' + error)
     if len(errors) > 30: print(f' - ... {len(errors) - 30} further issues')
     return 1 if errors else 0

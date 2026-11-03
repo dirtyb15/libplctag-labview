@@ -220,7 +220,8 @@
           "evidence": "Gear and frame survive while terminal details merge."
         }
       },
-      "reviewed_sha256": "c81701fefccace69cef76505ed29900cc5fa61c7784575e1e02567557594dca2"
+      "reviewed_sha256": "c81701fefccace69cef76505ed29900cc5fa61c7784575e1e02567557594dca2",
+      "salt": "izmx44n2h8"
     },
     {
       "concept_id": "rack-sliders",
@@ -302,7 +303,8 @@
           "evidence": "Wrench and rack remain while internal details merge."
         }
       },
-      "reviewed_sha256": "e1b34413f6b0e152b0fe090632720a86dd5ce6729b4997eb36528874626bcb04"
+      "reviewed_sha256": "e1b34413f6b0e152b0fe090632720a86dd5ce6729b4997eb36528874626bcb04",
+      "salt": "by207n8f80"
     },
     {
       "concept_id": "rack-fields",
@@ -384,7 +386,8 @@
           "evidence": "The rack and orange knobs remain, though fine pointers soften."
         }
       },
-      "reviewed_sha256": "4943873d24bddd989ab84f59aca76bebde9fd7e5bcacd878b6eafa5c73dcfd9a"
+      "reviewed_sha256": "4943873d24bddd989ab84f59aca76bebde9fd7e5bcacd878b6eafa5c73dcfd9a",
+      "salt": "wo1gj8kj30"
     },
     {
       "concept_id": "rack-sliders",
@@ -423,7 +426,8 @@
           "evidence": "The rack and sliders survive, while terminal detail merges."
         }
       },
-      "reviewed_sha256": "77f4596c058f97a6fc21263d31a1050ef943e25bf7cd6fd843ef177dbb1fd04a"
+      "reviewed_sha256": "77f4596c058f97a6fc21263d31a1050ef943e25bf7cd6fd843ef177dbb1fd04a",
+      "salt": "1tm7psp1nl"
     },
     {
       "concept_id": "rack-fields",
@@ -563,7 +567,8 @@
           "evidence": "The frame and braces survive, while the small lower terminals merge."
         }
       },
-      "reviewed_sha256": "85f8c79e3c07c37d07ab2c7103feeb32f8a68c51d258eed7dc2f88e87d5ec554"
+      "reviewed_sha256": "85f8c79e3c07c37d07ab2c7103feeb32f8a68c51d258eed7dc2f88e87d5ec554",
+      "salt": "koh6mrowum"
     }
   ],
   "failures": [
@@ -578,7 +583,8 @@
       "observed_problem": "Rack includes unrequested small PLC lettering and many tiny panel marks.",
       "measured_value": "source",
       "corrective_instruction": "Use a plain unlabeled industrial automation rack with only three thick module slots and simple sliders.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "candidate_id": "candidate-01",
@@ -591,7 +597,8 @@
       "observed_problem": "PLC lettering collapses to indistinct pale pixels in the rack.",
       "measured_value": "30x18",
       "corrective_instruction": "Remove all lettering and fine panel details.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "candidate_id": "candidate-02",
@@ -604,7 +611,8 @@
       "observed_problem": "The source depicts a game controller, not an industrial programmable logic controller.",
       "measured_value": "source",
       "corrective_instruction": "Depict a rectangular industrial PLC rack with vertical modules; no gamepad, handles or buttons.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
     },
     {
       "candidate_id": "candidate-03",
@@ -617,7 +625,8 @@
       "observed_problem": "The PLC rack contains unsolicited lettering and many miniature details.",
       "measured_value": "source",
       "corrective_instruction": "Use a simple unlabeled industrial PLC rack over three thick field bars.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "candidate_id": "candidate-03",
@@ -630,7 +639,8 @@
       "observed_problem": "The small PLC text and module details dissolve into ambiguous blocks.",
       "measured_value": "30x18",
       "corrective_instruction": "Remove the lettering and simplify the rack silhouette.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "candidate_id": "candidate-04",
@@ -643,13 +653,15 @@
       "observed_problem": "The controller is a video-game gamepad, not an industrial PLC.",
       "measured_value": "source",
       "corrective_instruction": "Use an industrial rectangular PLC module with screw terminals and two simple configuration knobs.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Two candidates depict gamepads instead of PLCs, and two rack designs include unreadable incidental letters. Retain the gear module and review a corrected final set."
+      "observed_problem": "Two candidates depict gamepads instead of PLCs, and two rack designs include unreadable incidental letters. Retain the gear module and review a corrected final set.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-06",
@@ -662,7 +674,8 @@
       "observed_problem": "The rack is a plain rectangle with two hairline dividers and lacks recognizable industrial PLC features.",
       "measured_value": "source",
       "corrective_instruction": "Add a large terminal strip and distinct module form while keeping sliders.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "candidate_id": "candidate-06",
@@ -675,7 +688,8 @@
       "observed_problem": "The rack looks like a generic dark block next to sliders, not identifiable PLC hardware.",
       "measured_value": "30x18",
       "corrective_instruction": "Use larger terminal blocks and strong module divisions.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
     },
     {
       "candidate_id": "candidate-08",
@@ -688,7 +702,8 @@
       "observed_problem": "Three undetailed rectangles above bars do not identify industrial PLC equipment.",
       "measured_value": "source",
       "corrective_instruction": "Add large industrial terminal blocks and a mounting profile while retaining the three list bars.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "candidate_id": "candidate-08",
@@ -701,13 +716,15 @@
       "observed_problem": "The rectangular blocks and bars are ambiguous generic list geometry.",
       "measured_value": "30x18",
       "corrective_instruction": "Show a bold terminal strip and an industrial mounting outline.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Rack-with-sliders and rack-with-list images are over-simplified generic blocks that no longer establish PLC context. Retain the industrial wrench, knobs and gear options, then compare replacements."
+      "observed_problem": "Rack-with-sliders and rack-with-list images are over-simplified generic blocks that no longer establish PLC context. Retain the industrial wrench, knobs and gear options, then compare replacements.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-11",
@@ -720,13 +737,15 @@
       "observed_problem": "The three orange list bars merge into one orange block, losing the list cue.",
       "measured_value": "30x18",
       "corrective_instruction": "Replace the list with fewer, larger separated configuration elements.",
-      "likely_cause_hypothesis": "Three rows and their gaps occupy too few pixels."
+      "likely_cause_hypothesis": "Three rows and their gaps occupy too few pixels.",
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The rack-and-list candidate loses its separate rows at 30x18; replace it and compare the final selection."
+      "observed_problem": "The rack-and-list candidate loses its separate rows at 30x18; replace it and compare the final selection.",
+      "retry_result": "PASS after comparison of the final selected set"
     },
     {
       "candidate_id": "candidate-13",
@@ -739,13 +758,15 @@
       "observed_problem": "Orange brace tips extend to within approximately one percent of each side of the source canvas, leaving insufficient edge clearance.",
       "measured_value": "source",
       "corrective_instruction": "Keep the complete rack and both braces within the central 75 percent of the square canvas.",
-      "likely_cause_hypothesis": "The grouping braces are almost edge-to-edge."
+      "likely_cause_hypothesis": "The grouping braces are almost edge-to-edge.",
+      "retry_result": "PASS after review of candidate-14"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "The cluster-braces image has insufficient source edge clearance; replace it before final comparison."
+      "observed_problem": "The cluster-braces image has insufficient source edge clearance; replace it before final comparison.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
@@ -759,5 +780,35 @@
     ],
     "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned 2z3dhtvq4t.md",
+    "manifest.json",
+    "PLC Attributes option 1 1024x1024 1tm7psp1nl.png",
+    "PLC Attributes option 1 1tm7psp1nl.ico",
+    "PLC Attributes option 1 29x29 1tm7psp1nl.png",
+    "PLC Attributes option 1 30x18 1tm7psp1nl.png",
+    "PLC Attributes option 1 30x23 1tm7psp1nl.png",
+    "PLC Attributes option 2 1024x1024 by207n8f80.png",
+    "PLC Attributes option 2 29x29 by207n8f80.png",
+    "PLC Attributes option 2 30x18 by207n8f80.png",
+    "PLC Attributes option 2 30x23 by207n8f80.png",
+    "PLC Attributes option 2 by207n8f80.ico",
+    "PLC Attributes option 3 1024x1024 koh6mrowum.png",
+    "PLC Attributes option 3 29x29 koh6mrowum.png",
+    "PLC Attributes option 3 30x18 koh6mrowum.png",
+    "PLC Attributes option 3 30x23 koh6mrowum.png",
+    "PLC Attributes option 3 koh6mrowum.ico",
+    "PLC Attributes option 4 1024x1024 wo1gj8kj30.png",
+    "PLC Attributes option 4 29x29 wo1gj8kj30.png",
+    "PLC Attributes option 4 30x18 wo1gj8kj30.png",
+    "PLC Attributes option 4 30x23 wo1gj8kj30.png",
+    "PLC Attributes option 4 wo1gj8kj30.ico",
+    "PLC Attributes option 5 1024x1024 izmx44n2h8.png",
+    "PLC Attributes option 5 29x29 izmx44n2h8.png",
+    "PLC Attributes option 5 30x18 izmx44n2h8.png",
+    "PLC Attributes option 5 30x23 izmx44n2h8.png",
+    "PLC Attributes option 5 izmx44n2h8.ico"
+  ]
 }

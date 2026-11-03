@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat icon on white showing selection of a software library. On the LEFT draw a LARGE BLUE SELECTOR SWITCH: a thick dark navy circular base with one thick blue toggle lever pointing diagonally UP RIGHT. On the RIGHT draw one large orange file sheet with a folded white corner. A bold GREEN CHECK MARK sits on the orange file. Use clean simple shapes with white gaps, no arrows, text, numbers, shadows, folder, monitor or gear. Legible at 30x18; all art centered within central 70 percent of square.",
+  "concept_summary": "Switch chooses library file",
+  "signature": {
+    "cue": "switch points to file",
+    "orientation": "horizontal",
+    "metaphor": "selection switch",
+    "composition": "large diagonal toggle left, orange file right",
+    "objects": "switch and file"
+  },
+  "concept_id": "platform-switch-file"
+}

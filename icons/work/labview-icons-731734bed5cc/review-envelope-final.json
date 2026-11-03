@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-09",
+      "qa": {
+        "29x29": {
+          "evidence": "Barred I, two 8 counters, and envelope V are distinct.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Characters and envelope remain but edges soften.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "Large barred I8 emerges above the blue V of an open envelope, representing receipt.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Both 8 counters and barred I remain visible above the envelope V.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "I8 remains large with the envelope beneath.",
+          "result": "PASS"
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "evidence": "Crane lifts a value block, message envelope receives a value, a magnet attracts a block, an output arrow exits a display, and a microscope inspects the type. These have different silhouettes; collection-wide typed and opposing-action comparisons remain pending.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-09",
+      "candidate-03",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "result": "PASS"
+  }
+}

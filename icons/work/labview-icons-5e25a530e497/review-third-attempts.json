@@ -1,0 +1,73 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-11",
+      "qa": {
+        "30x23": {
+          "evidence": "The arrowhead softens as it approaches the I.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "Cylinder and digit 6 sit about five percent from the canvas sides, leaving cramped margins.",
+          "result": "FAIL",
+          "rule_id": "VIS-MARGIN-005",
+          "correction": "Use a different compact composition with larger white margins."
+        },
+        "16x16": {
+          "evidence": "The cylinder and dark glyphs survive but type detail softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "Separated I, 1 and 6 can be read beside the cylinder.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The arrow becomes a blue bar touching the I, losing an unambiguous extraction direction.",
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Retire this concept and use a larger separated extraction cue."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-12",
+      "qa": {
+        "30x23": {
+          "evidence": "The spaced type is increasingly small inside the tray.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The tray and arrow approach the canvas edges, leaving cramped margins.",
+          "result": "FAIL",
+          "rule_id": "VIS-MARGIN-005",
+          "correction": "Use a smaller, simpler composition with clear margins."
+        },
+        "16x16": {
+          "evidence": "Arrow and tray survive, while the small type disappears.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The spread letters are visible but occupy a small share of the canvas height.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The tiny I, 1 and 6 blur into dark fragments within the tray.",
+          "result": "FAIL",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Retire the tray layout and enlarge the exact type label."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "evidence": "The cylinder arrow loses its head and the tray type is unreadable at 30x18; the two vertical extraction concepts also resemble one another. Both three-attempt concepts need replacement.",
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-11",
+      "candidate-07",
+      "candidate-12",
+      "candidate-09",
+      "candidate-10"
+    ]
+  }
+}

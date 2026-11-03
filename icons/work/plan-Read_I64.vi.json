@@ -1,0 +1,67 @@
+{
+  "request": "reading from tag buffer I64 at offset",
+  "summary_name": "Read I64",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "buffer-arrow",
+      "concept_summary": "Typed buffer transfer",
+      "signature": {
+        "metaphor": "buffer-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a large BLUE rectangular buffer and a bold ORANGE horizontal arrow pointing AWAY from the buffer. The arrow must clearly show data going out of the buffer.",
+        "orientation": "buffer-arrow"
+      },
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a large BLUE rectangular buffer and a bold ORANGE horizontal arrow pointing AWAY from the buffer. The arrow must clearly show data going out of the buffer. Center the entire design within the square."
+    },
+    {
+      "concept_id": "cylinder-arrow",
+      "concept_summary": "Typed cylinder transfer",
+      "signature": {
+        "metaphor": "cylinder-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a large BLUE cylindrical buffer and a thick ORANGE vertical arrow pointing AWAY from the cylinder. Make arrow direction obvious for data going out of the cylinder.",
+        "orientation": "cylinder-arrow"
+      },
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a large BLUE cylindrical buffer and a thick ORANGE vertical arrow pointing AWAY from the cylinder. Make arrow direction obvious for data going out of the cylinder. Center the entire design within the square."
+    },
+    {
+      "concept_id": "tray-arrow",
+      "concept_summary": "Typed tray transfer",
+      "signature": {
+        "metaphor": "tray-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a wide BLUE U-shaped tray and one large ORANGE vertical arrow pointing AWAY from the tray. The arrow visibly indicates data going out of the tray.",
+        "orientation": "tray-arrow"
+      },
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a wide BLUE U-shaped tray and one large ORANGE vertical arrow pointing AWAY from the tray. The arrow visibly indicates data going out of the tray. Center the entire design within the square."
+    },
+    {
+      "concept_id": "card-arrow",
+      "concept_summary": "Typed card transfer",
+      "signature": {
+        "metaphor": "card-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a simple BLUE card-shaped buffer at left and a thick ORANGE arrow pointing AWAY from the card, clearly indicating data going out of it.",
+        "orientation": "card-arrow"
+      },
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a simple BLUE card-shaped buffer at left and a thick ORANGE arrow pointing AWAY from the card, clearly indicating data going out of it. Center the entire design within the square."
+    },
+    {
+      "concept_id": "socket-arrow",
+      "concept_summary": "Typed socket transfer",
+      "signature": {
+        "metaphor": "socket-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type draw a large BLUE circular buffer socket, plus a thick ORANGE diagonal arrow pointing AWAY from the socket. The arrow must visibly indicate data going out of the socket.",
+        "orientation": "socket-arrow"
+      },
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type draw a large BLUE circular buffer socket, plus a thick ORANGE diagonal arrow pointing AWAY from the socket. The arrow must visibly indicate data going out of the socket. Center the entire design within the square."
+    }
+  ]
+}

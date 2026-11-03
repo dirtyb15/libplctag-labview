@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat icon on white for choosing a platform-specific software library. On the LEFT a large blue computer monitor with solid blue screen; on the RIGHT TWO LARGE vertically stacked orange file sheets with folded corners. A very large GREEN CHECK MARK overlaps ONLY the upper file to clearly indicate selection. Monitor and files are separated by white gap. Use thick bold shapes, no arrows, no tiny text, no letters, no shadows. All within central 70 percent, recognizable at 30x18.",
+  "concept_summary": "Platform selects one library from a list",
+  "signature": {
+    "cue": "check selects one file",
+    "orientation": "horizontal",
+    "metaphor": "choice list",
+    "composition": "monitor left, two file sheets right with check",
+    "objects": "platform monitor, file list, checkmark"
+  },
+  "concept_id": "platform-choice-list"
+}

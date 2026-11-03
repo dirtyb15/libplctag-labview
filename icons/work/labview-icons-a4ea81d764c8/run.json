@@ -52,7 +52,8 @@
           "evidence": "The zigzag becomes coarser but the dominant tag-and-pulse form survives."
         }
       },
-      "reviewed_sha256": "6ffa0bdf2b8b7f30be47c76645779cd1420bd7b8d6f79ac9780ee331ea1a3e82"
+      "reviewed_sha256": "6ffa0bdf2b8b7f30be47c76645779cd1420bd7b8d6f79ac9780ee331ea1a3e82",
+      "salt": "qnn10cmt9j"
     },
     {
       "concept_id": "status-lights",
@@ -91,7 +92,8 @@
           "evidence": "The lights soften but remain grouped as an indicator panel."
         }
       },
-      "reviewed_sha256": "063c1398f7db3076aeadfece0509ab58901a382f9cd3121a33f95d58516ae964"
+      "reviewed_sha256": "063c1398f7db3076aeadfece0509ab58901a382f9cd3121a33f95d58516ae964",
+      "salt": "lf3mrnimew"
     },
     {
       "concept_id": "status-query",
@@ -130,7 +132,8 @@
           "evidence": "The mark and tag remain but the question-mark dot becomes smaller."
         }
       },
-      "reviewed_sha256": "ad0ae8db4ca7418ffc849abde8fe3c24dc0733e29e6d1a4243fa70869cb87839"
+      "reviewed_sha256": "ad0ae8db4ca7418ffc849abde8fe3c24dc0733e29e6d1a4243fa70869cb87839",
+      "salt": "cqzczmxz9d"
     },
     {
       "concept_id": "status-report",
@@ -210,7 +213,8 @@
           "evidence": "Gauge and tag survive while needle detail softens."
         }
       },
-      "reviewed_sha256": "35e7e911a98cce93a69876294fa1cd89843e0eaf221626be81fb7b92a67bf44e"
+      "reviewed_sha256": "35e7e911a98cce93a69876294fa1cd89843e0eaf221626be81fb7b92a67bf44e",
+      "salt": "0wn6g6olrw"
     },
     {
       "concept_id": "status-report-page",
@@ -249,7 +253,8 @@
           "evidence": "The page and orange tag remain, while the tag hole softens."
         }
       },
-      "reviewed_sha256": "6ef7abbecfed5d8cb4fcde603fb29c2804bf8ab9a77940001bab32b609c004b3"
+      "reviewed_sha256": "6ef7abbecfed5d8cb4fcde603fb29c2804bf8ab9a77940001bab32b609c004b3",
+      "salt": "fccwy38jk6"
     }
   ],
   "failures": [
@@ -264,13 +269,15 @@
       "observed_problem": "Tag at left beside a lined speech bubble repeats the left-object/right-bubble structure of Error_Info.vi candidate-02.",
       "measured_value": "source",
       "corrective_instruction": "Use a substantially different status-report arrangement and compare against the error-information artwork.",
-      "likely_cause_hypothesis": null
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-06"
     },
     {
       "qa_stage": "source_visual",
       "rule_id": "VIS-DISTINCT-012",
       "result": "FAIL",
-      "observed_problem": "Pulse, indicators, question tag and gauge differ within this set. The tag-left/speech-bubble-right candidate repeats the Error_Info speech layout and must be redesigned before collection acceptance."
+      "observed_problem": "Pulse, indicators, question tag and gauge differ within this set. The tag-left/speech-bubble-right candidate repeats the Error_Info speech layout and must be redesigned before collection acceptance.",
+      "retry_result": "PASS after comparison of the final selected set"
     }
   ],
   "distinctness": {
@@ -284,5 +291,35 @@
     ],
     "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
   },
-  "published": false
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned kkuuxfrtcb.md",
+    "manifest.json",
+    "Tag Status option 1 1024x1024 qnn10cmt9j.png",
+    "Tag Status option 1 29x29 qnn10cmt9j.png",
+    "Tag Status option 1 30x18 qnn10cmt9j.png",
+    "Tag Status option 1 30x23 qnn10cmt9j.png",
+    "Tag Status option 1 qnn10cmt9j.ico",
+    "Tag Status option 2 1024x1024 lf3mrnimew.png",
+    "Tag Status option 2 29x29 lf3mrnimew.png",
+    "Tag Status option 2 30x18 lf3mrnimew.png",
+    "Tag Status option 2 30x23 lf3mrnimew.png",
+    "Tag Status option 2 lf3mrnimew.ico",
+    "Tag Status option 3 1024x1024 cqzczmxz9d.png",
+    "Tag Status option 3 29x29 cqzczmxz9d.png",
+    "Tag Status option 3 30x18 cqzczmxz9d.png",
+    "Tag Status option 3 30x23 cqzczmxz9d.png",
+    "Tag Status option 3 cqzczmxz9d.ico",
+    "Tag Status option 4 1024x1024 fccwy38jk6.png",
+    "Tag Status option 4 29x29 fccwy38jk6.png",
+    "Tag Status option 4 30x18 fccwy38jk6.png",
+    "Tag Status option 4 30x23 fccwy38jk6.png",
+    "Tag Status option 4 fccwy38jk6.ico",
+    "Tag Status option 5 0wn6g6olrw.ico",
+    "Tag Status option 5 1024x1024 0wn6g6olrw.png",
+    "Tag Status option 5 29x29 0wn6g6olrw.png",
+    "Tag Status option 5 30x18 0wn6g6olrw.png",
+    "Tag Status option 5 30x23 0wn6g6olrw.png"
+  ]
 }

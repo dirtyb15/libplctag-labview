@@ -1,0 +1,71 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-12",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The press remains recognizable while the tag hole softens."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A navy press sits over a new orange tag, with a separate green plus. The opposed destroy shredder draft places a blue tag above a red shredder and has no plus."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Press structure, plus, orange tag and tag hole remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The press, green plus and tag remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The press crossbar, large plus and orange tag with light hole survive."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-13",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The plus and tag survive but the stripe remains ambiguous."
+        },
+        "source": {
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use an unmistakable construction metaphor rather than a plain stick.",
+          "result": "FAIL",
+          "evidence": "The supposed wand is just a featureless orange diagonal bar; plus and tag do not show that it is a wand or a creation action."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag and plus are clear but the orange bar has no recognizable wand features."
+        },
+        "30x23": {
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Replace or redesign the bar as a recognizable object.",
+          "result": "FAIL",
+          "evidence": "The bar is a short diagonal stripe and has no recognizable creation role."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Use a clearer and simpler creation mechanism.",
+          "result": "FAIL",
+          "evidence": "The three disconnected shapes read as a tag, plus and arbitrary orange stripe."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-13",
+      "candidate-09",
+      "candidate-11",
+      "candidate-05"
+    ],
+    "result": "FAIL",
+    "evidence": "The press and separated plus are distinct; the wand is an unidentifiable bar, and the page and gear conflict with other files. Replace the remaining failed concepts."
+  }
+}

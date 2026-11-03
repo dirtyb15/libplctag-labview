@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Provisional concept preflight; not visual acceptance",
+  "evidence": "Provisional signature comparison: dropdown, selected list, rotary dial, flanking arrows, and cursor have different layouts. Each uses one large I to reduce crowding; small-size readability and cross-VI distinction still require visual review.",
+  "candidate_ids": [
+    "dropdown",
+    "selected-list",
+    "type-dial",
+    "cycle-type",
+    "type-cursor"
+  ]
+}

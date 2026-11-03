@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-18",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The thick green plus surrounds a separate white tag with a green hole."
+        },
+        "30x23": {
+          "evidence": "The white tag shrinks to a short pale block and the green hole merges into the cross.",
+          "result": "FAIL",
+          "correction": "Retire this three-attempt concept; the plus and tag compete for too few pixels.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "30x18": {
+          "evidence": "The dominant green plus survives but its white center is not reliably identifiable as a tag.",
+          "result": "FAIL",
+          "correction": "Use a structurally different concept with a larger standalone tag.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The green plus remains but the tag loses its distinct shape."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag is small within the cross, though the point and hole are visible."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "evidence": "The press, separate plus, carton and conveyor are locally distinct; the tag inside the cross has failed all three attempts to preserve both plus and tag at 30x18 and must be retired.",
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-18",
+      "candidate-09",
+      "candidate-15",
+      "candidate-17"
+    ]
+  }
+}

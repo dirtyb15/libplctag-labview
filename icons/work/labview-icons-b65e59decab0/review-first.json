@@ -1,0 +1,149 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "White barred I and orange chevron sit inside a blue dropdown field with clear margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The I and chevron remain separated within the field."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Dropdown outline, barred I and chevron remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "White barred I and orange chevron are distinct against the blue field."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The dropdown and main cues survive; chevron detail is coarser."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A selected blue I row sits above two gray list rows; the list has clear margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Selected I row and lower rows remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I and separate list rows remain visible."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The black barred I is readable but has modest contrast against the blue selection row."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "List structure survives; black I has reduced contrast."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Large barred I sits inside an orange circular selector and top pointer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Circle, top pointer and I are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The top pointer begins to merge with the circular frame."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "At 30x18 the pointer merges into the ring, leaving a barred I in a circle that resembles an information symbol.",
+          "rule_id": "SMALL-ACTION-006",
+          "cause": "The dial pointer is too small and lacks separation from the ring.",
+          "correction": "Use a much larger separated dial pointer and visible tick positions to convey an adjustable selector."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The circular silhouette remains, but the tiny pointer merges with it."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The intended datatype tile is invisible; a barred I sits alone between two outward arrows and suggests distribution rather than a selector.",
+          "rule_id": "VIS-CONCEPT-002",
+          "cause": "The white tile has no edge against the white background.",
+          "correction": "Enclose the I in a solid high-contrast tile and make large side arrows read as navigation controls."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The barred I and both arrows are distinct."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Both arrows remain, but the selected tile is absent."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The unframed I and outward arrows do not clearly represent selection or cycling.",
+          "rule_id": "SMALL-ACTION-006",
+          "cause": "The requested tile disappears against the background.",
+          "correction": "Add a clear colored tile behind the I and separated navigation arrow buttons."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The center I and outward arrow shapes remain visible."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large barred I in a blue tile is touched at its upper-right edge by an orange cursor."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tile, I and cursor remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The barred I and pointer silhouette remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The I tile and large upper-right cursor survive, with the cursor tip at the tile."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tile and I survive; cursor detail becomes coarser."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "The list, dropdown, dial, flanking arrows and cursor have distinct layouts, but the dial can be mistaken for an information symbol and the arrows lost their tile. Replace the failed images and compare the final selected five again."
+  }
+}

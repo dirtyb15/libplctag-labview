@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-13",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange brace tips extend to within approximately one percent of each side of the source canvas, leaving insufficient edge clearance.",
+          "rule_id": "VIS-MARGIN-005",
+          "cause": "The grouping braces are almost edge-to-edge.",
+          "correction": "Keep the complete rack and both braces within the central 75 percent of the square canvas."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack and orange grouping braces are visibly separated in the processed preview."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Curly brace silhouettes remain distinct on both sides of the rack."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Both braces and the three module panels remain visible after fitting."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Braces and rack survive; terminal detail merges."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-07",
+      "candidate-13",
+      "candidate-09",
+      "candidate-05"
+    ],
+    "evidence": "The cluster-braces image has insufficient source edge clearance; replace it before final comparison."
+  }
+}

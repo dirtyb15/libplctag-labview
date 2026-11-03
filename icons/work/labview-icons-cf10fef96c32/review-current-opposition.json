@@ -1,0 +1,117 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "30x18": {
+          "evidence": "The closed shackle, navy body and white tag cutout remain visible. The current unlock set uses a ring, chain, palm, key and raised gate, not a padlock.",
+          "result": "PASS"
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Closed navy padlock with a white tag cutout."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Closed shackle and tag cutout are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Closed shackle and cutout remain visible."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Closed lock remains visible; the tag cutout is simplified."
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "30x18": {
+          "correction": "Use a different lock silhouette without a diagonal tag with lower-right badge.",
+          "evidence": "Diagonal blue tag with lower-right badge repeats the composition of Destroy Tag candidate 01; differing badge marks are insufficient.",
+          "result": "FAIL",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag with orange closed padlock at lower right."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and closed lock are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and lock remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and lock silhouettes remain, but the shackle is small."
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "30x18": {
+          "evidence": "A closed orange padlock remains visible within a blue shield; no current unlock candidate uses a shield.",
+          "result": "PASS"
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange closed padlock inside a blue shield."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Shield and padlock are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Shield and lock remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Shield and orange lock survive, but the shackle is small."
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "30x18": {
+          "evidence": "The clamp grips a tag; the former unlocked clamp was superseded. Current Tag Size designs use dimension arrows and byte labels instead of a clamp.",
+          "result": "PASS"
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue clamp grips an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain discernible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Clamp body and tag remain; screw detail softens."
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "The former unlock padlock, shield and clamp analogues were superseded by open ring, broken chain, open palm, turned key and raised barrier. The lock tag-and-badge resembles Destroy Tag candidate 01, and candidate 03 reads as key in socket. Replace both before reassessing.",
+    "result": "FAIL"
+  }
+}

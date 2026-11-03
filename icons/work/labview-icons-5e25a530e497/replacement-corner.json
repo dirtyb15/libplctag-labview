@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat icon on pure white for extracting a signed 16-bit value from a local buffer. Show a navy L-shaped buffer corner in the upper right and a thick orange arrow pointing diagonally DOWN and LEFT away from the corner. Put large black characters I16 across the lower part; the capital I has wide horizontal serifs and it must be visibly separated from digit 1, and 1 separated from 6. Keep arrow and letters readable at 30x18. Wide whitespace, no other labels, no shadow; all shapes inside central 70 percent of canvas.",
+  "concept_id": "i16-corner-eject",
+  "signature": {
+    "composition": "large I16 lower left with arrow from upper right corner buffer",
+    "orientation": "diagonal down-left",
+    "metaphor": "corner buffer extraction",
+    "objects": "I16, diagonal arrow and corner buffer",
+    "cue": "diagonal extraction"
+  },
+  "concept_summary": "Signed value ejected from corner"
+}

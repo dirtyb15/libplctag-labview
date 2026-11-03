@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-16",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A diagonal orange ruler with partial black ticks crosses a dark tag, with B below."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Ruler ticks and B remain visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The B and ticks begin to shrink."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The B is too small and its counters become indistinct; the ruler ticks also merge into the diagonal band.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Retire this crowded concept and use a layout with a much larger byte mark and distinct size cue."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The small B and ruler marks lose detail."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-11",
+      "candidate-12",
+      "candidate-13",
+      "candidate-16"
+    ],
+    "evidence": "The diagonal-ruler concept has exhausted three attempts and still loses its byte mark at 30x18. Retire it and introduce a distinct fifth concept."
+  }
+}

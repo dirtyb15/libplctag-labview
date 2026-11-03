@@ -1,0 +1,12 @@
+{
+  "concept_id": "new-tag-conveyor",
+  "prompt": "One SQUARE flat icon on pure white for creating a new PLC tag. Draw a LARGE ORANGE TAG with a large white round hole resting on a short dark NAVY CONVEYOR BELT, represented by a thick horizontal platform and two very large white circular rollers. At upper right, separate from the tag, show a bold GREEN PLUS SIGN meaning new. Use only simple large geometry; the belt, tag and plus must all be recognizable at 30x18 pixels. No arrows, no gear, no pencil, no letters, no shadows. All art lies within the central 70 percent of the square canvas with generous white margins.",
+  "signature": {
+    "objects": "tag, conveyor, plus",
+    "composition": "tag on horizontal roller conveyor with large plus at upper right",
+    "cue": "tag produced on conveyor",
+    "orientation": "horizontal",
+    "metaphor": "tag production"
+  },
+  "concept_summary": "New tag on production line"
+}

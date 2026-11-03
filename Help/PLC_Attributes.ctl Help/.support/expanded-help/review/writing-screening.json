@@ -1,0 +1,190 @@
+{
+  "snapshot_sha256": "be79fc0b9850341cd4ae769cc1e90dea2686e39164132ac93052d6de589b286b",
+  "policy_sha256": "4a5aac9b9225cbd38c652e41646f1e7037b7cfc36bfc9d748b6f34eefa0bdced",
+  "revision_history_sha256": "0d0a83e5daed00a0b8858e4e12c31b17a6c4ea4bfd3979d0a66e66c5269b8a51",
+  "findings": [
+    {
+      "id": "a4d96ff8233f14957acb",
+      "section_id": "section-2",
+      "unit_id": "unit-6",
+      "kind": "acronym_first_use",
+      "detail": "SLC may need its full term before this use"
+    },
+    {
+      "id": "c810ca8722636a2dd7d2",
+      "section_id": "section-2",
+      "unit_id": "unit-6",
+      "kind": "acronym_first_use",
+      "detail": "N7 may need its full term before this use"
+    },
+    {
+      "id": "0774f003bedc68fe42e0",
+      "section_id": "section-3",
+      "unit_id": "unit-11",
+      "kind": "acronym_first_use",
+      "detail": "DH may need its full term before this use"
+    },
+    {
+      "id": "becb570b56573ffa1297",
+      "section_id": "section-3",
+      "unit_id": "unit-12",
+      "kind": "acronym_first_use",
+      "detail": "EN2T may need its full term before this use"
+    },
+    {
+      "id": "8b9b244a562998b526e2",
+      "section_id": "section-3",
+      "unit_id": "unit-13",
+      "kind": "acronym_first_use",
+      "detail": "LGX may need its full term before this use"
+    },
+    {
+      "id": "ae883a913cf2e710a0a9",
+      "section_id": "section-3",
+      "unit_id": "unit-14",
+      "kind": "acronym_first_use",
+      "detail": "F8 may need its full term before this use"
+    },
+    {
+      "id": "66b3af311e309f47976c",
+      "section_id": "section-3",
+      "unit_id": "unit-14",
+      "kind": "acronym_first_use",
+      "detail": "DINT may need its full term before this use"
+    },
+    {
+      "id": "f4aa37579e8d84fb1b0f",
+      "section_id": "section-3",
+      "unit_id": "unit-14",
+      "kind": "acronym_first_use",
+      "detail": "REAL may need its full term before this use"
+    },
+    {
+      "id": "697e679f5a585941d74d",
+      "section_id": "section-3",
+      "unit_id": "unit-16",
+      "kind": "acronym_first_use",
+      "detail": "B3 may need its full term before this use"
+    },
+    {
+      "id": "405a534c5c1994d84868",
+      "section_id": "section-3",
+      "unit_id": "unit-17",
+      "kind": "acronym_first_use",
+      "detail": "NONE may need its full term before this use"
+    },
+    {
+      "id": "765f19721ca44bf5c97d",
+      "section_id": "section-5",
+      "unit_id": "unit-24",
+      "kind": "acronym_first_use",
+      "detail": "CGLX may need its full term before this use"
+    },
+    {
+      "id": "c1d465c7f89bcc3a3e9a",
+      "section_id": "section-5",
+      "unit_id": "unit-27",
+      "kind": "acronym_first_use",
+      "detail": "FLGX may need its full term before this use"
+    },
+    {
+      "id": "c470c6be52b208308735",
+      "section_id": "section-6",
+      "unit_id": "unit-36",
+      "kind": "acronym_first_use",
+      "detail": "PCCC may need its full term before this use"
+    },
+    {
+      "id": "388fbd8625282b52f9eb",
+      "section_id": "section-6",
+      "unit_id": "unit-37",
+      "kind": "acronym_first_use",
+      "detail": "NJ may need its full term before this use"
+    },
+    {
+      "id": "562eb441d419e2fcd605",
+      "section_id": "section-6",
+      "unit_id": "unit-37",
+      "kind": "acronym_first_use",
+      "detail": "NX may need its full term before this use"
+    },
+    {
+      "id": "b73191e41695849aec07",
+      "section_id": "section-7",
+      "unit_id": "unit-61",
+      "kind": "long_sentence",
+      "detail": "44 words in a sentence; advisory inspection, not a word-count limit"
+    },
+    {
+      "id": "c41bbc9bcc5e9394ec74",
+      "section_id": "section-7",
+      "unit_id": "unit-63",
+      "kind": "acronym_first_use",
+      "detail": "DHRIO may need its full term before this use"
+    },
+    {
+      "id": "4e13acac50caa4643617",
+      "section_id": "section-9",
+      "unit_id": "unit-78",
+      "kind": "acronym_first_use",
+      "detail": "SINT may need its full term before this use"
+    },
+    {
+      "id": "0ff2343535503c157cfd",
+      "section_id": "section-9",
+      "unit_id": "unit-79",
+      "kind": "acronym_first_use",
+      "detail": "INT may need its full term before this use"
+    },
+    {
+      "id": "91ac6b012b3261a4c1a3",
+      "section_id": "section-9",
+      "unit_id": "unit-82",
+      "kind": "acronym_first_use",
+      "detail": "LINT may need its full term before this use"
+    },
+    {
+      "id": "459e393962f1aaf3a956",
+      "section_id": "section-10",
+      "unit_id": "unit-86",
+      "kind": "acronym_first_use",
+      "detail": "INFO may need its full term before this use"
+    },
+    {
+      "id": "f3ebbd1bcb3972844471",
+      "section_id": "section-10",
+      "unit_id": "unit-89",
+      "kind": "acronym_first_use",
+      "detail": "ERROR may need its full term before this use"
+    },
+    {
+      "id": "03ea7d431496c3f9a341",
+      "section_id": "section-10",
+      "unit_id": "unit-90",
+      "kind": "acronym_first_use",
+      "detail": "WARN may need its full term before this use"
+    },
+    {
+      "id": "ac27dbbadd778a41826c",
+      "section_id": "section-10",
+      "unit_id": "unit-92",
+      "kind": "acronym_first_use",
+      "detail": "DETAIL may need its full term before this use"
+    },
+    {
+      "id": "ec1d7fa996b98ecd0faf",
+      "section_id": "section-10",
+      "unit_id": "unit-93",
+      "kind": "acronym_first_use",
+      "detail": "SPEW may need its full term before this use"
+    },
+    {
+      "id": "b93120a0834a0a848e7a",
+      "section_id": "section-13",
+      "unit_id": "unit-124",
+      "kind": "acronym_first_use",
+      "detail": "CPU may need its full term before this use"
+    }
+  ],
+  "status": "SCREENING ONLY — SEMANTIC REVIEW REQUIRED"
+}

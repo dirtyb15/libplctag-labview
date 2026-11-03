@@ -1,0 +1,102 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "16x16": {
+          "evidence": "The plus remains recognizable in the tag.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The centered plus and tag hole remain clear.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A white symbol centered inside a horizontal navy tag is the same dominant silhouette and layout as Tag_Status candidate-03, differing primarily in the interior glyph.",
+          "result": "FAIL",
+          "correction": "Replace the internal-glyph tag with a structurally different creation composition.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x18": {
+          "evidence": "The navy horizontal tag with central white glyph remains visually close to the status question-mark tag.",
+          "result": "FAIL",
+          "correction": "Change the dominant outline and arrangement.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x23": {
+          "evidence": "The plus remains visible within the tag.",
+          "result": "PASS"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-10",
+      "qa": {
+        "16x16": {
+          "evidence": "The green arrow and orange source survive but the tag identity is lost.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The tag is small but the green diagonal arrow is visible.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "Two configuration sliders feed a green arrow pointing toward a small tag.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The tag is an indistinct blue block; configuration-to-tag creation cannot be reliably recognized.",
+          "result": "FAIL",
+          "correction": "Retire the crowded configuration transfer concept.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "30x23": {
+          "evidence": "The tag is reduced to a small blue block, losing its hole and identifying shape.",
+          "result": "FAIL",
+          "correction": "Retire this three-attempt concept and use fewer larger components.",
+          "rule_id": "SMALL-RECOG-001"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-11",
+      "qa": {
+        "16x16": {
+          "evidence": "Page and large orange patch remain; plus softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The page, orange tag and plus remain separate.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "The outlined folded page containing an orange tag repeats the dominant page-with-tag layout of Tag_Status candidate-06; the small lower plus is the main difference.",
+          "result": "FAIL",
+          "correction": "Replace with a different dominant silhouette from the status report page.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x18": {
+          "evidence": "The page and orange tag dominate and can be mistaken for the status report page.",
+          "result": "FAIL",
+          "correction": "Use a non-page creation metaphor.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x23": {
+          "evidence": "The plus and tag are visible within the page.",
+          "result": "PASS"
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "evidence": "The inset tag and folded page conflict respectively with Tag_Status question-tag and report-page designs. Configuration transfer remains unreadable, and the gear concept conflicts with Choose_Lib. Only the separated plus-over-tag option is provisionally retained.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-10",
+      "candidate-09",
+      "candidate-11",
+      "candidate-05"
+    ],
+    "result": "FAIL"
+  }
+}

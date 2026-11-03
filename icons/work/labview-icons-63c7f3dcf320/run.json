@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "run_id": "0a6fcc808a064aa8b9671de01600b545",
+  "request": "Get size of a PLC tag",
+  "summary_name": "Tag Size",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-63c7f3dcf320",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Tag_Size.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:53:45.073736+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "ruler",
+      "concept_summary": "Tag beside ruler",
+      "prompt": "One square icon on pure white: A large blue tag above a thick orange ruler with three clear tick marks. Symbolize measuring tag size. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Tag beside ruler",
+        "objects": "Tag beside ruler",
+        "composition": "A large blue tag above a thick orange ruler with three clear tick marks.",
+        "cue": "measurement",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-63c7f3dcf320\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag sits over an orange ruler with three white marks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and ruler are separate and tick marks are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Most ruler marks are weakened."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The ruler ticks nearly disappear, leaving an unmarked orange bar.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Essential tool or tag details are lost during reduction.",
+          "correction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and orange bar remain but tick marks disappear."
+        }
+      },
+      "reviewed_sha256": "57ca02f7f0fa62403d8d169906eefcd8a9d77bfc188fe6bb56721d5105c92bf9"
+    },
+    {
+      "concept_id": "dimension",
+      "concept_summary": "Tag dimension arrows",
+      "prompt": "One square icon on pure white: A blue tag above a thick orange horizontal double-headed dimension arrow. Symbolize measuring tag size. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Tag dimension arrows",
+        "objects": "Tag dimension arrows",
+        "composition": "A blue tag above a thick orange horizontal double-headed dimension arrow.",
+        "cue": "measurement",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-63c7f3dcf320\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag sits above an orange double-headed dimension arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and two arrowheads are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The double-headed arrow remains separate from the tag."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag and dimension arrow remain visible but share the tag-over-horizontal-bar layout of candidate 01.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Both designs place a blue tag over an orange horizontal measuring element.",
+          "correction": "Use a different measurement composition from candidate 01."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag remains; the arrowheads soften."
+        }
+      },
+      "reviewed_sha256": "91e25aa839fd52459a4ba6667f74a8bc59fa2fa703f3abbcf02525cbbb438cb4"
+    },
+    {
+      "concept_id": "caliper",
+      "concept_summary": "Caliper measures tag",
+      "prompt": "One square icon on pure white: A simple blue caliper with open jaws around an orange tag. Symbolize measuring tag size. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Caliper measures tag",
+        "objects": "Caliper measures tag",
+        "composition": "A simple blue caliper with open jaws around an orange tag.",
+        "cue": "measurement",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-63c7f3dcf320\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue caliper jaws surround an orange tag; the tool has several fine marks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The caliper and tag silhouette are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The orange tag loses its hole and fine caliper marks fade."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The orange tag becomes a featureless block and caliper details merge.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Essential tool or tag details are lost during reduction.",
+          "correction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Only broad caliper and orange-block silhouettes survive."
+        }
+      },
+      "reviewed_sha256": "7e3b3cb68c731b2e7136fdc6018102cc063ba792ac3d675ec647b7d5162eabc1"
+    },
+    {
+      "concept_id": "tape",
+      "concept_summary": "Tag measuring tape",
+      "prompt": "One square icon on pure white: A bold orange measuring tape curling around a large blue tag. Symbolize measuring tag size. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Tag measuring tape",
+        "objects": "Tag measuring tape",
+        "composition": "A bold orange measuring tape curling around a large blue tag.",
+        "cue": "measurement",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-63c7f3dcf320\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange measuring tape curls around a blue tag with multiple fine ticks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and wrapped tape remain distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tape tick marks merge."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The tape becomes a thick orange band with no readable measurement marks.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Essential tool or tag details are lost during reduction.",
+          "correction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and orange band remain but the tape detail disappears."
+        }
+      },
+      "reviewed_sha256": "7ac4ed046feb8654cfdad33b8951a4d543445e616540348e5db1ebc6ef6a075b"
+    },
+    {
+      "concept_id": "balance",
+      "concept_summary": "Tag size scale",
+      "prompt": "One square icon on pure white: A large blue tag on a simple orange weighing scale with one pointer. Symbolize measuring tag size. Thick simple flat geometry, generous margins, no text, border or shadow.",
+      "signature": {
+        "metaphor": "Tag size scale",
+        "objects": "Tag size scale",
+        "composition": "A large blue tag on a simple orange weighing scale with one pointer.",
+        "cue": "measurement",
+        "orientation": "varied"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-63c7f3dcf320\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The tag sits on a weighing scale, conveying weight rather than buffer size.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "A scale is the conventional symbol for weight.",
+          "correction": "Use a size or capacity measurement metaphor, not a weighing scale."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and scale remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The scale dial fades."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag remains above an orange object but dial detail is weak."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and orange scale silhouette remain."
+        }
+      },
+      "reviewed_sha256": "057c5b86ac8a1b79347df4714658045e608f5857111113c1ae4ed5e9c6e69ff8"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "ruler",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The ruler ticks nearly disappear, leaving an unmarked orange bar.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features.",
+      "likely_cause_hypothesis": "Essential tool or tag details are lost during reduction."
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "dimension",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag and dimension arrow remain visible but share the tag-over-horizontal-bar layout of candidate 01.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different measurement composition from candidate 01.",
+      "likely_cause_hypothesis": "Both designs place a blue tag over an orange horizontal measuring element."
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "caliper",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The orange tag becomes a featureless block and caliper details merge.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features.",
+      "likely_cause_hypothesis": "Essential tool or tag details are lost during reduction."
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "tape",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The tape becomes a thick orange band with no readable measurement marks.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge the measurement cue and tag, with fewer, thicker, separated features.",
+      "likely_cause_hypothesis": "Essential tool or tag details are lost during reduction."
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "balance",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "The tag sits on a weighing scale, conveying weight rather than buffer size.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a size or capacity measurement metaphor, not a weighing scale.",
+      "likely_cause_hypothesis": "A scale is the conventional symbol for weight."
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 01 and 02 both show a blue tag above a horizontal orange measurement element; their silhouettes are too similar at small size."
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 01 and 02 both show a blue tag above a horizontal orange measurement element; their silhouettes are too similar at small size."
+  },
+  "published": false
+}

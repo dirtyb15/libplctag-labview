@@ -1,0 +1,12 @@
+{
+  "concept_id": "byte-count-panel",
+  "concept_summary": "Tag byte-count display",
+  "signature": {
+    "metaphor": "byte count readout",
+    "objects": "tag and count panel",
+    "cue": "hash and B count symbol",
+    "composition": "tag above boxed #B",
+    "orientation": "vertical"
+  },
+  "prompt": "One SQUARE 1:1 flat software icon on white for tag buffer byte count. A large blue tag above an orange rectangular digital readout. The readout contains the exact large bold black characters #B, widely separated, meaning number of bytes. Make every stroke thick, the two holes in B large and the symbol legible at 30x18. No other writing, no shadow, generous margin."
+}

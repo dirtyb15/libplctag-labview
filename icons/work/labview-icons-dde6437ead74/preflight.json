@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Provisional concept preflight; not visual acceptance",
+  "candidate_ids": [
+    "error-speech",
+    "error-book",
+    "error-information",
+    "error-decode-curve",
+    "quoted-error"
+  ],
+  "evidence": "A warning beside a speech bubble, an open reference book with warning, a warning enclosed in a round bubble, an error tile feeding message bars, and an information mark inside a warning triangle use different dominant structures. The previous error-speech master is reused with documented provenance. Compare warning-bubble with error-speech and Tag_Status's report page, and inspect the i and arrow at native sizes. The round bubble and horizontal conversion layouts were rejected against U8 getters. Replacement preflight uses vertically separated warning/info symbols and a diagonal curved conversion path; inspect actual silhouettes against all getter and other error options. The triangle-over-I circle was rejected against Datatype. The pending replacement uses a red exclamation between blue quotation marks; verify the symbols at 30x18 and compare all other icons after generation."
+}

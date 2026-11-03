@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "objects": "open box, tag, plus",
+    "composition": "orange tag above open navy box with green plus on front",
+    "cue": "plus on box and tag emerging",
+    "metaphor": "new tag output",
+    "orientation": "vertical"
+  },
+  "prompt": "One SQUARE flat icon on pure white for creating a new PLC tag. Draw a wide dark NAVY OPEN BOX in the lower half, with a very large WHITE PLUS SIGN centered on the front of the box. Above it, a large ORANGE TAG with one large white circular hole rises out of the open top. The tag and the plus must be large, separate, and recognizable at 30x18 pixels. The box is a three-dimensional open carton with two broad side flaps, NOT a tray, not a trash can. No arrow, no other words, no shadow, wide white margins; all artwork centered in middle 70 percent of the canvas.",
+  "concept_summary": "New tag emerges from box",
+  "concept_id": "new-tag-box"
+}

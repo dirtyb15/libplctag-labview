@@ -1,0 +1,65 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-14",
+      "candidate-15",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "result": "FAIL",
+    "evidence": "Scanner and signal receiver have distinct arrangements from the hand and download tray; the old arrow-and-tag design remains failed and must be replaced before final review."
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-14",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Scanner, beam and tag retain distinct shapes."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The scanner handle and beam remain recognizable."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue handheld scanner shines a red beam on an orange tag."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag hole, red beam and scanner silhouette are visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The main three color regions remain; edges soften."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-15",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, arcs and receiver remain distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The paired arcs and receiver screen survive."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag sends two blue signal arcs toward a navy receiver; this is a visual metaphor for reading."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Tag, arcs and receiver are visibly separate."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arcs soften between recognizable tag and receiver."
+        }
+      }
+    }
+  ]
+}

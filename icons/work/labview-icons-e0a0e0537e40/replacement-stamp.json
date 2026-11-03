@@ -1,0 +1,12 @@
+{
+  "concept_summary": "Stamp produces tag",
+  "prompt": "One SQUARE flat icon on pure white for creating a new PLC tag. Show a simple navy MANUFACTURING PRESS as a wide horizontal bar with one bold centered downward stamping head. Beneath the press a large orange tag with a white round hole is emerging, fully recognizable. Include a large separate GREEN PLUS to the LEFT of the tag to explicitly indicate creation. Use thick simple shapes, not a trash shredder or printer with fine lines. The press, plus, tag and hole must be recognizable at 30x18. All art fits within central 70 percent of the square canvas, no lettering or shadows.",
+  "signature": {
+    "metaphor": "manufacture",
+    "composition": "blue press above orange tag emerging below",
+    "objects": "press, tag",
+    "orientation": "vertical",
+    "cue": "tag emerging from press"
+  },
+  "concept_id": "new-tag-stamp"
+}

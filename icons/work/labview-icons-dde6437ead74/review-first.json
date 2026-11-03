@@ -1,0 +1,144 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle is beside a blue speech bubble with message lines."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle and lined bubble are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The exclamation and message bubble remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Warning symbol and bubble remain recognizable and separated."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The triangle and bubble survive while message lines merge."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An open book has a warning on one page and text lines on the other."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The open-book outline, warning and lines remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Both pages and the warning are recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The book shape, warning triangle and message lines remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The open-book silhouette survives; small warning details merge."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The round outlined bubble with a diagonal tail resembles the magnifying-glass silhouette used by Read_U8.vi candidate-06.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Replace the round ring-and-tail layout with a structurally different error-description concept."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The warning is visible inside the ring."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The warning and ring remain distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The round outline and tail still resemble a magnifying glass."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The warning remains but the bubble tail resembles a handle."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The left block, rightward arrow, and right text-bars layout repeats the buffer-to-U8 structure of Read_U8.vi candidate-01.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a materially different arrangement or conversion metaphor."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The error tile, arrow and two bars are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arrow and message bars remain distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The layout remains similar to the typed getter at small size."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The three horizontal components survive as blocks."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle contains a large white information i."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle and i remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The information dot and stem remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The information i remains recognizable within the warning triangle."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The i and triangle survive; the letter dot becomes coarse."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "The round bubble resembles the U8 magnifier, and the error-to-bars layout repeats the U8 buffer-to-value structure. Replace both and compare actual images again."
+  }
+}

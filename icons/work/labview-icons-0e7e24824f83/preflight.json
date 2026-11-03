@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Provisional concept preflight; not visual acceptance",
+  "evidence": "Provisional signature comparison: rack with sliders, diagonal wrench, field list, paired knobs, and an internal gear have different layouts. The network-only concept was retired. Actual-art and cross-VI comparison remain required. Replacement preflight: rack enclosed by braces differs structurally from rack with side sliders, rack with diagonal wrench, rack over paired knobs, and gear inside rack. Reject prior rack with right-hand nodes as too similar to side sliders. Final actual-image comparison remains required.",
+  "candidate_ids": [
+    "rack-sliders",
+    "controller-wrench",
+    "plc-knobs",
+    "rack-gear",
+    "rack-in-braces"
+  ]
+}

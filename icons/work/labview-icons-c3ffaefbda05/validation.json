@@ -1,0 +1,3928 @@
+{
+  "qa_status": "PASS",
+  "checks": [
+    {
+      "rule_id": "NAME-SALT-001",
+      "severity": "mandatory",
+      "description": "Accepted options use unique permanent salts",
+      "result": "PASS",
+      "measured_value": [
+        "8ify9kx7eg",
+        "8k22l387ue",
+        "5l0n0s63uh",
+        "5mx1cp704o",
+        "yn6rkvhyno"
+      ],
+      "threshold": "all unique"
+    },
+    {
+      "rule_id": "NAME-OPTION-003",
+      "severity": "mandatory",
+      "description": "Accepted options use unique option numbers",
+      "result": "PASS",
+      "measured_value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "threshold": "all unique"
+    },
+    {
+      "rule_id": "FILE-BACKGROUND-001",
+      "severity": "mandatory",
+      "description": "Option declares a supported background mode",
+      "result": "PASS",
+      "measured_value": "white",
+      "threshold": [
+        "white",
+        "transparent"
+      ]
+    },
+    {
+      "rule_id": "NAME-OPTION-001",
+      "severity": "mandatory",
+      "description": "All option filenames share valid summary, option, and salt values",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no errors"
+    },
+    {
+      "rule_id": "NAME-OPTION-002",
+      "severity": "mandatory",
+      "description": "Filename option numbers and salts match option metadata",
+      "result": "PASS",
+      "measured_value": {
+        "option_number": 1,
+        "salt": "8ify9kx7eg"
+      },
+      "threshold": "all filenames agree"
+    },
+    {
+      "rule_id": "FILE-PNG-009",
+      "severity": "mandatory",
+      "description": "Declared source dimensions match the normalized master size",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.396624,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 1 1024x1024 8ify9kx7eg.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "FILE-PNG-007",
+      "severity": "mandatory",
+      "description": "Option declares every exact derivative canvas",
+      "result": "PASS",
+      "measured_value": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "threshold": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          30,
+          18
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        29,
+        29
+      ],
+      "threshold": [
+        29,
+        29
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.526754,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 1 29x29 8ify9kx7eg.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.028183716075156576,
+        "height_scale": 0.028314028314028315,
+        "offset": [
+          1,
+          3
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        23
+      ],
+      "threshold": [
+        30,
+        23
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.572464,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 1 30x23 8ify9kx7eg.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.027139874739039668,
+        "height_scale": 0.02702702702702703,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        18
+      ],
+      "threshold": [
+        30,
+        18
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.455556,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 1 30x18 8ify9kx7eg.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.020876826722338204,
+        "height_scale": 0.02059202059202059,
+        "offset": [
+          5,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-ICO-002",
+      "severity": "mandatory",
+      "description": "File has an ICO header and is not a renamed PNG",
+      "result": "PASS",
+      "measured_value": "0000010009001010",
+      "threshold": "00000100 ICO header"
+    },
+    {
+      "rule_id": "FILE-ICO-003",
+      "severity": "mandatory",
+      "description": "File opens as ICO",
+      "result": "PASS",
+      "measured_value": "ICO",
+      "threshold": "ICO"
+    },
+    {
+      "rule_id": "FILE-ICO-004",
+      "severity": "mandatory",
+      "description": "ICO contains all required frames",
+      "result": "PASS",
+      "measured_value": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "threshold": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-ICO-005",
+      "severity": "mandatory",
+      "description": "Required ICO frames decode at their declared sizes",
+      "result": "PASS",
+      "measured_value": {
+        "corrupt": [],
+        "missing": []
+      },
+      "threshold": "every required frame decodes"
+    },
+    {
+      "rule_id": "FILE-ICO-006",
+      "severity": "mandatory",
+      "description": "ICO has a valid 256x256 entry",
+      "result": "PASS",
+      "measured_value": true,
+      "threshold": true
+    },
+    {
+      "rule_id": "FILE-ICO-008",
+      "severity": "mandatory",
+      "description": "Required ICO frames match the declared white background",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no frames with a non-white outer background"
+    },
+    {
+      "rule_id": "NAME-ICO-001",
+      "severity": "mandatory",
+      "description": "ICO filename matches the naming convention",
+      "result": "PASS",
+      "measured_value": "Set U32 option 1 8ify9kx7eg.ico",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.014613778705636743,
+        "height_scale": 0.014157014157014158,
+        "offset": [
+          1,
+          2
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.018789144050104383,
+        "height_scale": 0.019305019305019305,
+        "offset": [
+          1,
+          2
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.022964509394572025,
+        "height_scale": 0.023166023166023165,
+        "offset": [
+          1,
+          3
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.031315240083507306,
+        "height_scale": 0.03088803088803089,
+        "offset": [
+          1,
+          4
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.03966597077244259,
+        "height_scale": 0.039897039897039896,
+        "offset": [
+          1,
+          4
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.04801670146137787,
+        "height_scale": 0.047619047619047616,
+        "offset": [
+          1,
+          5
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.06471816283924843,
+        "height_scale": 0.06435006435006435,
+        "offset": [
+          1,
+          7
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.1315240083507307,
+        "height_scale": 0.13127413127413126,
+        "offset": [
+          1,
+          13
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.2651356993736952,
+        "height_scale": 0.2651222651222651,
+        "offset": [
+          1,
+          25
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021287001287001287,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-BACKGROUND-001",
+      "severity": "mandatory",
+      "description": "Option declares a supported background mode",
+      "result": "PASS",
+      "measured_value": "white",
+      "threshold": [
+        "white",
+        "transparent"
+      ]
+    },
+    {
+      "rule_id": "NAME-OPTION-001",
+      "severity": "mandatory",
+      "description": "All option filenames share valid summary, option, and salt values",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no errors"
+    },
+    {
+      "rule_id": "NAME-OPTION-002",
+      "severity": "mandatory",
+      "description": "Filename option numbers and salts match option metadata",
+      "result": "PASS",
+      "measured_value": {
+        "option_number": 2,
+        "salt": "8k22l387ue"
+      },
+      "threshold": "all filenames agree"
+    },
+    {
+      "rule_id": "FILE-PNG-009",
+      "severity": "mandatory",
+      "description": "Declared source dimensions match the normalized master size",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.362218,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 2 1024x1024 8k22l387ue.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "FILE-PNG-007",
+      "severity": "mandatory",
+      "description": "Option declares every exact derivative canvas",
+      "result": "PASS",
+      "measured_value": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "threshold": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          30,
+          18
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        29,
+        29
+      ],
+      "threshold": [
+        29,
+        29
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.46849,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 2 29x29 8k22l387ue.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.027382256297918947,
+        "height_scale": 0.0274949083503055,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        23
+      ],
+      "threshold": [
+        30,
+        23
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.371014,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 2 30x23 8k22l387ue.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.02190580503833516,
+        "height_scale": 0.021384928716904276,
+        "offset": [
+          5,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        18
+      ],
+      "threshold": [
+        30,
+        18
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.283333,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 2 30x18 8k22l387ue.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.01642935377875137,
+        "height_scale": 0.016293279022403257,
+        "offset": [
+          7,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-ICO-002",
+      "severity": "mandatory",
+      "description": "File has an ICO header and is not a renamed PNG",
+      "result": "PASS",
+      "measured_value": "0000010009001010",
+      "threshold": "00000100 ICO header"
+    },
+    {
+      "rule_id": "FILE-ICO-003",
+      "severity": "mandatory",
+      "description": "File opens as ICO",
+      "result": "PASS",
+      "measured_value": "ICO",
+      "threshold": "ICO"
+    },
+    {
+      "rule_id": "FILE-ICO-004",
+      "severity": "mandatory",
+      "description": "ICO contains all required frames",
+      "result": "PASS",
+      "measured_value": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "threshold": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-ICO-005",
+      "severity": "mandatory",
+      "description": "Required ICO frames decode at their declared sizes",
+      "result": "PASS",
+      "measured_value": {
+        "corrupt": [],
+        "missing": []
+      },
+      "threshold": "every required frame decodes"
+    },
+    {
+      "rule_id": "FILE-ICO-006",
+      "severity": "mandatory",
+      "description": "ICO has a valid 256x256 entry",
+      "result": "PASS",
+      "measured_value": true,
+      "threshold": true
+    },
+    {
+      "rule_id": "FILE-ICO-008",
+      "severity": "mandatory",
+      "description": "Required ICO frames match the declared white background",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no frames with a non-white outer background"
+    },
+    {
+      "rule_id": "NAME-ICO-001",
+      "severity": "mandatory",
+      "description": "ICO filename matches the naming convention",
+      "result": "PASS",
+      "measured_value": "Set U32 option 2 8k22l387ue.ico",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.014238773274917854,
+        "height_scale": 0.014256619144602852,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.018619934282584884,
+        "height_scale": 0.018329938900203666,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.02190580503833516,
+        "height_scale": 0.02240325865580448,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.03066812705366922,
+        "height_scale": 0.03054989816700611,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.038335158817086525,
+        "height_scale": 0.038696537678207736,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.047097480832420595,
+        "height_scale": 0.04684317718940937,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.06352683461117196,
+        "height_scale": 0.06313645621181263,
+        "offset": [
+          3,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.12814895947426067,
+        "height_scale": 0.12830957230142567,
+        "offset": [
+          5,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.25848849945235486,
+        "height_scale": 0.25865580448065173,
+        "offset": [
+          10,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021095290251916757,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-BACKGROUND-001",
+      "severity": "mandatory",
+      "description": "Option declares a supported background mode",
+      "result": "PASS",
+      "measured_value": "white",
+      "threshold": [
+        "white",
+        "transparent"
+      ]
+    },
+    {
+      "rule_id": "NAME-OPTION-001",
+      "severity": "mandatory",
+      "description": "All option filenames share valid summary, option, and salt values",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no errors"
+    },
+    {
+      "rule_id": "NAME-OPTION-002",
+      "severity": "mandatory",
+      "description": "Filename option numbers and salts match option metadata",
+      "result": "PASS",
+      "measured_value": {
+        "option_number": 3,
+        "salt": "5l0n0s63uh"
+      },
+      "threshold": "all filenames agree"
+    },
+    {
+      "rule_id": "FILE-PNG-009",
+      "severity": "mandatory",
+      "description": "Declared source dimensions match the normalized master size",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.411664,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 3 1024x1024 5l0n0s63uh.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "FILE-PNG-007",
+      "severity": "mandatory",
+      "description": "Option declares every exact derivative canvas",
+      "result": "PASS",
+      "measured_value": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "threshold": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          30,
+          18
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        29,
+        29
+      ],
+      "threshold": [
+        29,
+        29
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.545779,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 3 29x29 5l0n0s63uh.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.028242677824267783,
+        "height_scale": 0.028601694915254237,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        23
+      ],
+      "threshold": [
+        30,
+        23
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.433333,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 3 30x23 5l0n0s63uh.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.021966527196652718,
+        "height_scale": 0.022245762711864406,
+        "offset": [
+          4,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        18
+      ],
+      "threshold": [
+        30,
+        18
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.32037,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 3 30x18 5l0n0s63uh.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.016736401673640166,
+        "height_scale": 0.01694915254237288,
+        "offset": [
+          7,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-ICO-002",
+      "severity": "mandatory",
+      "description": "File has an ICO header and is not a renamed PNG",
+      "result": "PASS",
+      "measured_value": "0000010009001010",
+      "threshold": "00000100 ICO header"
+    },
+    {
+      "rule_id": "FILE-ICO-003",
+      "severity": "mandatory",
+      "description": "File opens as ICO",
+      "result": "PASS",
+      "measured_value": "ICO",
+      "threshold": "ICO"
+    },
+    {
+      "rule_id": "FILE-ICO-004",
+      "severity": "mandatory",
+      "description": "ICO contains all required frames",
+      "result": "PASS",
+      "measured_value": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "threshold": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-ICO-005",
+      "severity": "mandatory",
+      "description": "Required ICO frames decode at their declared sizes",
+      "result": "PASS",
+      "measured_value": {
+        "corrupt": [],
+        "missing": []
+      },
+      "threshold": "every required frame decodes"
+    },
+    {
+      "rule_id": "FILE-ICO-006",
+      "severity": "mandatory",
+      "description": "ICO has a valid 256x256 entry",
+      "result": "PASS",
+      "measured_value": true,
+      "threshold": true
+    },
+    {
+      "rule_id": "FILE-ICO-008",
+      "severity": "mandatory",
+      "description": "Required ICO frames match the declared white background",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no frames with a non-white outer background"
+    },
+    {
+      "rule_id": "NAME-ICO-001",
+      "severity": "mandatory",
+      "description": "ICO filename matches the naming convention",
+      "result": "PASS",
+      "measured_value": "Set U32 option 3 5l0n0s63uh.ico",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.014644351464435146,
+        "height_scale": 0.014830508474576272,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.01882845188284519,
+        "height_scale": 0.019067796610169493,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.02301255230125523,
+        "height_scale": 0.023305084745762712,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.03138075313807531,
+        "height_scale": 0.03177966101694915,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.0397489539748954,
+        "height_scale": 0.04025423728813559,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.04811715481171548,
+        "height_scale": 0.04766949152542373,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.06485355648535565,
+        "height_scale": 0.0646186440677966,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.13179916317991633,
+        "height_scale": 0.13135593220338984,
+        "offset": [
+          1,
+          2
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.26569037656903766,
+        "height_scale": 0.2658898305084746,
+        "offset": [
+          1,
+          2
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021059322033898306,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-BACKGROUND-001",
+      "severity": "mandatory",
+      "description": "Option declares a supported background mode",
+      "result": "PASS",
+      "measured_value": "white",
+      "threshold": [
+        "white",
+        "transparent"
+      ]
+    },
+    {
+      "rule_id": "NAME-OPTION-001",
+      "severity": "mandatory",
+      "description": "All option filenames share valid summary, option, and salt values",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no errors"
+    },
+    {
+      "rule_id": "NAME-OPTION-002",
+      "severity": "mandatory",
+      "description": "Filename option numbers and salts match option metadata",
+      "result": "PASS",
+      "measured_value": {
+        "option_number": 4,
+        "salt": "5mx1cp704o"
+      },
+      "threshold": "all filenames agree"
+    },
+    {
+      "rule_id": "FILE-PNG-009",
+      "severity": "mandatory",
+      "description": "Declared source dimensions match the normalized master size",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.378974,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 4 1024x1024 5mx1cp704o.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "FILE-PNG-007",
+      "severity": "mandatory",
+      "description": "Option declares every exact derivative canvas",
+      "result": "PASS",
+      "measured_value": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "threshold": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          30,
+          18
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        29,
+        29
+      ],
+      "threshold": [
+        29,
+        29
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.48038,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 4 29x29 5mx1cp704o.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.028242677824267783,
+        "height_scale": 0.028132992327365727,
+        "offset": [
+          1,
+          3
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        23
+      ],
+      "threshold": [
+        30,
+        23
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.536232,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 4 30x23 5mx1cp704o.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.027196652719665274,
+        "height_scale": 0.026854219948849106,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        18
+      ],
+      "threshold": [
+        30,
+        18
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.446296,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 4 30x18 5mx1cp704o.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.02092050209205021,
+        "height_scale": 0.020460358056265986,
+        "offset": [
+          5,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-ICO-002",
+      "severity": "mandatory",
+      "description": "File has an ICO header and is not a renamed PNG",
+      "result": "PASS",
+      "measured_value": "0000010009001010",
+      "threshold": "00000100 ICO header"
+    },
+    {
+      "rule_id": "FILE-ICO-003",
+      "severity": "mandatory",
+      "description": "File opens as ICO",
+      "result": "PASS",
+      "measured_value": "ICO",
+      "threshold": "ICO"
+    },
+    {
+      "rule_id": "FILE-ICO-004",
+      "severity": "mandatory",
+      "description": "ICO contains all required frames",
+      "result": "PASS",
+      "measured_value": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "threshold": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-ICO-005",
+      "severity": "mandatory",
+      "description": "Required ICO frames decode at their declared sizes",
+      "result": "PASS",
+      "measured_value": {
+        "corrupt": [],
+        "missing": []
+      },
+      "threshold": "every required frame decodes"
+    },
+    {
+      "rule_id": "FILE-ICO-006",
+      "severity": "mandatory",
+      "description": "ICO has a valid 256x256 entry",
+      "result": "PASS",
+      "measured_value": true,
+      "threshold": true
+    },
+    {
+      "rule_id": "FILE-ICO-008",
+      "severity": "mandatory",
+      "description": "Required ICO frames match the declared white background",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no frames with a non-white outer background"
+    },
+    {
+      "rule_id": "NAME-ICO-001",
+      "severity": "mandatory",
+      "description": "ICO filename matches the naming convention",
+      "result": "PASS",
+      "measured_value": "Set U32 option 4 5mx1cp704o.ico",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.014644351464435146,
+        "height_scale": 0.014066496163682864,
+        "offset": [
+          1,
+          2
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.01882845188284519,
+        "height_scale": 0.01918158567774936,
+        "offset": [
+          1,
+          2
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.02301255230125523,
+        "height_scale": 0.023017902813299233,
+        "offset": [
+          1,
+          3
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.03138075313807531,
+        "height_scale": 0.0319693094629156,
+        "offset": [
+          1,
+          3
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.0397489539748954,
+        "height_scale": 0.03964194373401535,
+        "offset": [
+          1,
+          4
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.04811715481171548,
+        "height_scale": 0.04859335038363171,
+        "offset": [
+          1,
+          5
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.06485355648535565,
+        "height_scale": 0.06521739130434782,
+        "offset": [
+          1,
+          6
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.13179916317991633,
+        "height_scale": 0.13171355498721227,
+        "offset": [
+          1,
+          12
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.26569037656903766,
+        "height_scale": 0.2659846547314578,
+        "offset": [
+          1,
+          24
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.021278772378516626,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-BACKGROUND-001",
+      "severity": "mandatory",
+      "description": "Option declares a supported background mode",
+      "result": "PASS",
+      "measured_value": "white",
+      "threshold": [
+        "white",
+        "transparent"
+      ]
+    },
+    {
+      "rule_id": "NAME-OPTION-001",
+      "severity": "mandatory",
+      "description": "All option filenames share valid summary, option, and salt values",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no errors"
+    },
+    {
+      "rule_id": "NAME-OPTION-002",
+      "severity": "mandatory",
+      "description": "Filename option numbers and salts match option metadata",
+      "result": "PASS",
+      "measured_value": {
+        "option_number": 5,
+        "salt": "yn6rkvhyno"
+      },
+      "threshold": "all filenames agree"
+    },
+    {
+      "rule_id": "FILE-PNG-009",
+      "severity": "mandatory",
+      "description": "Declared source dimensions match the normalized master size",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        1024,
+        1024
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.346607,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 5 1024x1024 yn6rkvhyno.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "FILE-PNG-007",
+      "severity": "mandatory",
+      "description": "Option declares every exact derivative canvas",
+      "result": "PASS",
+      "measured_value": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "threshold": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          30,
+          18
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        29,
+        29
+      ],
+      "threshold": [
+        29,
+        29
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.469679,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 5 29x29 yn6rkvhyno.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.028846153846153848,
+        "height_scale": 0.02833158447009444,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        23
+      ],
+      "threshold": [
+        30,
+        23
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.365217,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 5 30x23 yn6rkvhyno.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.022435897435897436,
+        "height_scale": 0.022035676810073453,
+        "offset": [
+          4,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-PNG-002",
+      "severity": "mandatory",
+      "description": "File opens as PNG",
+      "result": "PASS",
+      "measured_value": "PNG",
+      "threshold": "PNG"
+    },
+    {
+      "rule_id": "FILE-PNG-003",
+      "severity": "mandatory",
+      "description": "Actual dimensions match expected dimensions",
+      "result": "PASS",
+      "measured_value": [
+        30,
+        18
+      ],
+      "threshold": [
+        30,
+        18
+      ]
+    },
+    {
+      "rule_id": "FILE-PNG-004",
+      "severity": "mandatory",
+      "description": "PNG mode matches the declared white background",
+      "result": "PASS",
+      "measured_value": "RGB",
+      "threshold": "RGB"
+    },
+    {
+      "rule_id": "FILE-PNG-008",
+      "severity": "mandatory",
+      "description": "PNG outer corners match the declared white background",
+      "result": "PASS",
+      "measured_value": [
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "threshold": "all corners == opaque white"
+    },
+    {
+      "rule_id": "FILE-PNG-005",
+      "severity": "mandatory",
+      "description": "PNG is not blank or nearly blank",
+      "result": "PASS",
+      "measured_value": 0.277778,
+      "threshold": ">= 0.002 foreground fraction"
+    },
+    {
+      "rule_id": "NAME-PNG-001",
+      "severity": "mandatory",
+      "description": "Filename dimensions match file dimensions",
+      "result": "PASS",
+      "measured_value": "Set U32 option 5 30x18 yn6rkvhyno.png",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.017094017094017096,
+        "height_scale": 0.016789087093389297,
+        "offset": [
+          7,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "FILE-ICO-002",
+      "severity": "mandatory",
+      "description": "File has an ICO header and is not a renamed PNG",
+      "result": "PASS",
+      "measured_value": "0000010009001010",
+      "threshold": "00000100 ICO header"
+    },
+    {
+      "rule_id": "FILE-ICO-003",
+      "severity": "mandatory",
+      "description": "File opens as ICO",
+      "result": "PASS",
+      "measured_value": "ICO",
+      "threshold": "ICO"
+    },
+    {
+      "rule_id": "FILE-ICO-004",
+      "severity": "mandatory",
+      "description": "ICO contains all required frames",
+      "result": "PASS",
+      "measured_value": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "threshold": [
+        [
+          16,
+          16
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ]
+    },
+    {
+      "rule_id": "FILE-ICO-005",
+      "severity": "mandatory",
+      "description": "Required ICO frames decode at their declared sizes",
+      "result": "PASS",
+      "measured_value": {
+        "corrupt": [],
+        "missing": []
+      },
+      "threshold": "every required frame decodes"
+    },
+    {
+      "rule_id": "FILE-ICO-006",
+      "severity": "mandatory",
+      "description": "ICO has a valid 256x256 entry",
+      "result": "PASS",
+      "measured_value": true,
+      "threshold": true
+    },
+    {
+      "rule_id": "FILE-ICO-008",
+      "severity": "mandatory",
+      "description": "Required ICO frames match the declared white background",
+      "result": "PASS",
+      "measured_value": [],
+      "threshold": "no frames with a non-white outer background"
+    },
+    {
+      "rule_id": "NAME-ICO-001",
+      "severity": "mandatory",
+      "description": "ICO filename matches the naming convention",
+      "result": "PASS",
+      "measured_value": "Set U32 option 5 yn6rkvhyno.ico",
+      "threshold": null
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.014957264957264958,
+        "height_scale": 0.014690451206715634,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.019230769230769232,
+        "height_scale": 0.01888772298006296,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.023504273504273504,
+        "height_scale": 0.023084994753410283,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.030982905982905984,
+        "height_scale": 0.03147953830010493,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.03952991452991453,
+        "height_scale": 0.03987408184679958,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.04807692307692308,
+        "height_scale": 0.048268625393494226,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.06517094017094018,
+        "height_scale": 0.06505771248688352,
+        "offset": [
+          1,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.13247863247863248,
+        "height_scale": 0.1322140608604407,
+        "offset": [
+          2,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    },
+    {
+      "rule_id": "PROCESS-GEOMETRY-001",
+      "severity": "mandatory",
+      "description": "Artwork scaling is proportional, centered, and uncropped",
+      "result": "PASS",
+      "measured_value": {
+        "width_scale": 0.266025641025641,
+        "height_scale": 0.26652675760755506,
+        "offset": [
+          3,
+          1
+        ],
+        "uncropped": true,
+        "centered": true
+      },
+      "threshold": {
+        "scale_difference_max": 0.02106837606837607,
+        "uncropped": true,
+        "centered": true
+      }
+    }
+  ]
+}

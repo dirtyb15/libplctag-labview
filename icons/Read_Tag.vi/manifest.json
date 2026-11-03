@@ -1,0 +1,1928 @@
+{
+  "run_id": "da53d276d8b848fb896e53bc782cc243",
+  "request": "Read a PLC tag into a local buffer",
+  "summary_name": "Read Tag",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Pull tag out of PLC",
+      "salt": "8a75qi0p5y",
+      "source_file": "Read Tag option 1 1024x1024 8a75qi0p5y.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read Tag option 1 29x29 8a75qi0p5y.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              40,
+              197,
+              984,
+              816
+            ],
+            "source_artwork_size": [
+              944,
+              619
+            ],
+            "rendered_artwork_size": [
+              27,
+              18
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.028601694915254237,
+            "offset": [
+              1,
+              5
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 1 30x23 8a75qi0p5y.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              40,
+              197,
+              984,
+              816
+            ],
+            "source_artwork_size": [
+              944,
+              619
+            ],
+            "rendered_artwork_size": [
+              28,
+              18
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.029661016949152543,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 1 30x18 8a75qi0p5y.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              40,
+              197,
+              984,
+              816
+            ],
+            "source_artwork_size": [
+              944,
+              619
+            ],
+            "rendered_artwork_size": [
+              24,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.025848142164781908,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read Tag option 1 8a75qi0p5y.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            14,
+            9
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014830508474576272,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            18,
+            12
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.019067796610169493,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            22,
+            14
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.023305084745762712,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            30,
+            20
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03177966101694915,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            38,
+            25
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04025423728813559,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            46,
+            30
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.048728813559322036,
+          "offset": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            62,
+            41
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06567796610169492,
+          "offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            126,
+            83
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13347457627118645,
+          "offset": [
+            1,
+            22
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            40,
+            197,
+            984,
+            816
+          ],
+          "source_artwork_size": [
+            944,
+            619
+          ],
+          "rendered_artwork_size": [
+            254,
+            167
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2690677966101695,
+          "offset": [
+            1,
+            44
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The left arrow, blue hand, orange tag and navy device remain distinct."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "Hand and tag details soften, while the leftward arrow and device remain."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The arrow points away from the controller toward the hand."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The large leftward arrow remains visible above the hand, tag and controller."
+          },
+          "source": {
+            "result": "WARN",
+            "evidence": "A hand holds the tag beside a PLC, with a prominent leftward arrow showing extraction. Side margins are narrow but the artwork is not clipped."
+          }
+        },
+        "source_sha256": "e981d8b91005bc443fbfa3a5e9e4b39ead079ebca05767e55b97de35682a4f3f",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-12",
+            "candidate-14",
+            "candidate-15",
+            "candidate-16",
+            "candidate-07"
+          ],
+          "evidence": "Hand pulling from controller, scanner and beam, radio receiver, open book, and downward arrow to tray have different structures. Comparison with the entire collection remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "read-pull-tab",
+      "candidate_id": "candidate-12",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read Tag option 1 1024x1024 8a75qi0p5y.png": "e0e3ee2b0e28648ac9221da0797de1119d523e2a0dd2f27064c7f010531c5deb",
+        "Read Tag option 1 29x29 8a75qi0p5y.png": "05a998f6e5a69c22a4e712e8f8457ae6044fa1a03d0485e396404d9c558b7983",
+        "Read Tag option 1 30x23 8a75qi0p5y.png": "6c5082632b3cf98c5f5e76d7e4315226e1251dc4ebca40a35d3bfc6a27d811c3",
+        "Read Tag option 1 30x18 8a75qi0p5y.png": "2c92323b41f009f793be6b55d0851a9d9c754d4e7b63f5cdbb96ccafe8365041",
+        "Read Tag option 1 8a75qi0p5y.ico": "a6d7a606b127096a913b90b5258ba718a14d43bd9869e5b6b7c753332681e427"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Scanner reads tag",
+      "salt": "9nphrltw4l",
+      "source_file": "Read Tag option 2 1024x1024 9nphrltw4l.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read Tag option 2 29x29 9nphrltw4l.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              56,
+              101,
+              943,
+              971
+            ],
+            "source_artwork_size": [
+              887,
+              870
+            ],
+            "rendered_artwork_size": [
+              27,
+              26
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.030439684329199548,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 2 30x23 9nphrltw4l.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              56,
+              101,
+              943,
+              971
+            ],
+            "source_artwork_size": [
+              887,
+              870
+            ],
+            "rendered_artwork_size": [
+              21,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02413793103448276,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 2 30x18 9nphrltw4l.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              56,
+              101,
+              943,
+              971
+            ],
+            "source_artwork_size": [
+              887,
+              870
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01839080459770115,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read Tag option 2 9nphrltw4l.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015783540022547914,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            18,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020293122886133032,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            22,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02480270574971815,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            30,
+            29
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.033821871476888386,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            38,
+            37
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04284103720405862,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            46,
+            45
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05186020293122886,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            62,
+            61
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06989853438556934,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            126,
+            124
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14205186020293123,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            56,
+            101,
+            943,
+            971
+          ],
+          "source_artwork_size": [
+            887,
+            870
+          ],
+          "rendered_artwork_size": [
+            254,
+            249
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.28635851183765504,
+          "offset": [
+            1,
+            3
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Scanner, beam and tag retain distinct shapes."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The scanner handle and beam remain recognizable."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "A blue handheld scanner shines a red beam on an orange tag."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The tag hole, red beam and scanner silhouette are visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The main three color regions remain; edges soften."
+          }
+        },
+        "source_sha256": "408e50903e5f2a6aacd96739ed50cb2267efed5a02593131de5abe8804f74c20",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-12",
+            "candidate-14",
+            "candidate-15",
+            "candidate-16",
+            "candidate-07"
+          ],
+          "evidence": "Hand pulling from controller, scanner and beam, radio receiver, open book, and downward arrow to tray have different structures. Comparison with the entire collection remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "read-scanner",
+      "candidate_id": "candidate-14",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read Tag option 2 1024x1024 9nphrltw4l.png": "d1d2e0ffbe8de52c759661943564878ef3be98baacfd2c7c4116b36abeea3c0b",
+        "Read Tag option 2 29x29 9nphrltw4l.png": "f1bfe7f5cffa147b68d27c8d1efc9e1cde8ef1bf55c28d1ed5e7dfe591d939da",
+        "Read Tag option 2 30x23 9nphrltw4l.png": "1473cf1cb5aa5850cabfccc38856e2e81c8b1c1ed68bd002469980f6e5bd7b35",
+        "Read Tag option 2 30x18 9nphrltw4l.png": "e08da48342c093cc724c61343c29ec0e5cf4a3b7dc31bdde34742095007a32c6",
+        "Read Tag option 2 9nphrltw4l.ico": "a8ec41d792138b6b29ffb233909fbfa31050ffc282efcd8ddfd1a4bfc0896ea6"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Receive tag signal",
+      "salt": "8pq8yzq9ev",
+      "source_file": "Read Tag option 3 1024x1024 8pq8yzq9ev.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read Tag option 3 29x29 8pq8yzq9ev.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              50,
+              240,
+              978,
+              751
+            ],
+            "source_artwork_size": [
+              928,
+              511
+            ],
+            "rendered_artwork_size": [
+              27,
+              15
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.029094827586206896,
+            "offset": [
+              1,
+              7
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 3 30x23 8pq8yzq9ev.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              50,
+              240,
+              978,
+              751
+            ],
+            "source_artwork_size": [
+              928,
+              511
+            ],
+            "rendered_artwork_size": [
+              28,
+              15
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.03017241379310345,
+            "offset": [
+              1,
+              4
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 3 30x18 8pq8yzq9ev.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              50,
+              240,
+              978,
+              751
+            ],
+            "source_artwork_size": [
+              928,
+              511
+            ],
+            "rendered_artwork_size": [
+              28,
+              15
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.03017241379310345,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read Tag option 3 8pq8yzq9ev.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            14,
+            8
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015086206896551725,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            18,
+            10
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01939655172413793,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            22,
+            12
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.023706896551724137,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            30,
+            17
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.032327586206896554,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            38,
+            21
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.040948275862068964,
+          "offset": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            46,
+            25
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04956896551724138,
+          "offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            62,
+            34
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.0668103448275862,
+          "offset": [
+            1,
+            15
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            126,
+            69
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13577586206896552,
+          "offset": [
+            1,
+            29
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            50,
+            240,
+            978,
+            751
+          ],
+          "source_artwork_size": [
+            928,
+            511
+          ],
+          "rendered_artwork_size": [
+            254,
+            140
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.27370689655172414,
+          "offset": [
+            1,
+            58
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Tag, arcs and receiver remain distinguishable."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The paired arcs and receiver screen survive."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "An orange tag sends two blue signal arcs toward a navy receiver; this is a visual metaphor for reading."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "Tag, arcs and receiver are visibly separate."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The arcs soften between recognizable tag and receiver."
+          }
+        },
+        "source_sha256": "7f97fb87e3a985867391c9fd570847f605a293e0f1105f470a2f9570b9ad81fa",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-12",
+            "candidate-14",
+            "candidate-15",
+            "candidate-16",
+            "candidate-07"
+          ],
+          "evidence": "Hand pulling from controller, scanner and beam, radio receiver, open book, and downward arrow to tray have different structures. Comparison with the entire collection remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "read-receiver",
+      "candidate_id": "candidate-15",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read Tag option 3 1024x1024 8pq8yzq9ev.png": "0d687f7ef026761c16b75f9a9e2a291cd81a107616998f0aaec6d3a074d66518",
+        "Read Tag option 3 29x29 8pq8yzq9ev.png": "8ab95d5ac7a971bc1c3647520061647704d309aef2f55519c9ba1d9f4ac487e9",
+        "Read Tag option 3 30x23 8pq8yzq9ev.png": "540e61ed4e9bcee8155baf099d5383ee19d3c7f35b36281c43c0e0e3f896d01c",
+        "Read Tag option 3 30x18 8pq8yzq9ev.png": "20dbd6588394e934403368e184c8a080c454ee153652ead3bdace982fa6ae108",
+        "Read Tag option 3 8pq8yzq9ev.ico": "9620ebb698d0d690717c150317173372ac4f87dedc66e0aa4efc5fb4cd0f9553"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Read a tag in an open book",
+      "salt": "eih2ako60z",
+      "source_file": "Read Tag option 4 1024x1024 eih2ako60z.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read Tag option 4 29x29 eih2ako60z.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              53,
+              173,
+              972,
+              855
+            ],
+            "source_artwork_size": [
+              919,
+              682
+            ],
+            "rendered_artwork_size": [
+              27,
+              20
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.029379760609358,
+            "offset": [
+              1,
+              4
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 4 30x23 eih2ako60z.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              53,
+              173,
+              972,
+              855
+            ],
+            "source_artwork_size": [
+              919,
+              682
+            ],
+            "rendered_artwork_size": [
+              28,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.030467899891186073,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 4 30x18 eih2ako60z.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              53,
+              173,
+              972,
+              855
+            ],
+            "source_artwork_size": [
+              919,
+              682
+            ],
+            "rendered_artwork_size": [
+              22,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02346041055718475,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read Tag option 4 eih2ako60z.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            14,
+            10
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015233949945593036,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            18,
+            13
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01958650707290533,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            22,
+            16
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.023939064200217627,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            30,
+            22
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03264417845484222,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            38,
+            28
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.041349292709466814,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            46,
+            34
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05005440696409141,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            62,
+            46
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06746463547334058,
+          "offset": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            126,
+            94
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13710554951033732,
+          "offset": [
+            1,
+            17
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            53,
+            173,
+            972,
+            855
+          ],
+          "source_artwork_size": [
+            919,
+            682
+          ],
+          "rendered_artwork_size": [
+            254,
+            188
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2763873775843308,
+          "offset": [
+            1,
+            34
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Book silhouette and tag remain separate."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Book outline, spine, tag and hole are clear."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "An open navy book contains a large orange tag on its right page."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The book and tag remain visible while the hole softens."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The two page outlines, spine and tag remain recognizable."
+          }
+        },
+        "source_sha256": "f089bbcb13b8726577c9f978e8c20f9bf40b053b3c2621e41f02f78101a1b90a",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-12",
+            "candidate-14",
+            "candidate-15",
+            "candidate-16",
+            "candidate-07"
+          ],
+          "evidence": "Hand pulling from controller, scanner and beam, radio receiver, open book, and downward arrow to tray have different structures. Comparison with the entire collection remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "read-open-book",
+      "candidate_id": "candidate-16",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read Tag option 4 1024x1024 eih2ako60z.png": "201992c26d4625d632492e17679045f5d3f417ff39ddc0dfa88a9443309fa6a0",
+        "Read Tag option 4 29x29 eih2ako60z.png": "21757665271c09d74575dd064fcffa7e9b98b581a090de628f5311b9ce8bfbab",
+        "Read Tag option 4 30x23 eih2ako60z.png": "ed018382a42fdaf4e176311fb70a09566330d70ca971796f5dd72f72dfdcf8b3",
+        "Read Tag option 4 30x18 eih2ako60z.png": "b33ab85916354ba814e37965e8ec6f6f825fa1e0a58b4380dec94765cd67097c",
+        "Read Tag option 4 eih2ako60z.ico": "281247a29311b2e92adec5205ea5efc10234a9bef4d49aca63376d161307cee9"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Download tag",
+      "salt": "w07zpmtjmd",
+      "source_file": "Read Tag option 5 1024x1024 w07zpmtjmd.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read Tag option 5 29x29 w07zpmtjmd.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              160,
+              154,
+              864,
+              869
+            ],
+            "source_artwork_size": [
+              704,
+              715
+            ],
+            "rendered_artwork_size": [
+              27,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03776223776223776,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 5 30x23 w07zpmtjmd.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              160,
+              154,
+              864,
+              869
+            ],
+            "source_artwork_size": [
+              704,
+              715
+            ],
+            "rendered_artwork_size": [
+              21,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02937062937062937,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read Tag option 5 30x18 w07zpmtjmd.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              160,
+              154,
+              864,
+              869
+            ],
+            "source_artwork_size": [
+              704,
+              715
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.022377622377622378,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read Tag option 5 w07zpmtjmd.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.019580419580419582,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            18,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.025174825174825177,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            22,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.03076923076923077,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            30,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.04195804195804196,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            37,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.05314685314685315,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            45,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.06433566433566433,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            61,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.08671328671328671,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            124,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.17622377622377622,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            154,
+            864,
+            869
+          ],
+          "source_artwork_size": [
+            704,
+            715
+          ],
+          "rendered_artwork_size": [
+            250,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.35524475524475524,
+          "offset": [
+            3,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "evidence": "The down arrow, tag hole and receiving tray remain visible.",
+            "result": "PASS"
+          },
+          "16x16": {
+            "evidence": "The tray and arrow survive while the tag hole softens.",
+            "result": "WARN"
+          },
+          "29x29": {
+            "evidence": "Tag, hole, tray and downward arrow are distinguishable.",
+            "result": "PASS"
+          },
+          "30x23": {
+            "evidence": "The orange tag remains separate from the dark tray.",
+            "result": "PASS"
+          },
+          "source": {
+            "evidence": "A blue downward arrow delivers an orange tag into a contrasting navy tray.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "6be60c6aef83c1798830c9c98a4c315b510580bd03bc79a62c1273440ba1881d",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-12",
+            "candidate-14",
+            "candidate-15",
+            "candidate-16",
+            "candidate-07"
+          ],
+          "evidence": "Hand pulling from controller, scanner and beam, radio receiver, open book, and downward arrow to tray have different structures. Comparison with the entire collection remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "download",
+      "candidate_id": "candidate-07",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read Tag option 5 1024x1024 w07zpmtjmd.png": "fdc5d37a9de8328dbee81b1f90d2842be71de83308e3e93c483ac883d4b5525e",
+        "Read Tag option 5 29x29 w07zpmtjmd.png": "ca2d4574dd20b058d0aa84d61a04dacfeac9c8d9a8c35c1336a2d05c59a34703",
+        "Read Tag option 5 30x23 w07zpmtjmd.png": "bfbd76cee993dbae5b4459f6a969f19dc2437427e39dfe29e6ecf5a809b05f8a",
+        "Read Tag option 5 30x18 w07zpmtjmd.png": "e5097f401f1726fbf36ddf23c559dea664f54120dd91ce5432f15383763eecba",
+        "Read Tag option 5 w07zpmtjmd.ico": "109babc7b9223be0560a4ca1eefd3891fd82887134a4ed6bd7f65d43c56d70b1"
+      }
+    }
+  ]
+}

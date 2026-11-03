@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "A dark report page contains an orange tag and one white status line; the page avoids the error icon's speech-bubble layout."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The folded page, tag and status line are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag and single line remain visible within the page."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange tag, white status line and page fold remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The page and orange tag remain, while the tag hole softens."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-06",
+      "candidate-05"
+    ],
+    "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
+  }
+}

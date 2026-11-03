@@ -1,0 +1,12 @@
+{
+  "concept_summary": "Tag packet sent to controller",
+  "concept_id": "write-envelope-controller",
+  "prompt": "One SQUARE 1:1 flat icon on pure white for writing PLC tag data. A large orange envelope with a white tag-shaped mark appears at upper left; a large navy industrial controller with two module divisions and a white display appears at lower right. A bold blue arrow points diagonally DOWN and RIGHT from the envelope toward the controller; give its point a white outline so it remains distinct from the controller. Three simple major shapes only, no lettering, no border, no shadow, all art within central 70 percent of square canvas.",
+  "signature": {
+    "orientation": "horizontal",
+    "cue": "tagged packet toward controller",
+    "objects": "envelope, tag, controller",
+    "composition": "tag embedded on envelope at left, controller at right with incoming arrow",
+    "metaphor": "packet dispatch"
+  }
+}

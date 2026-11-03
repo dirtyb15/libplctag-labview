@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat software icon on pure white for reading a signed 8-bit value from a buffer. A LARGE ORANGE rectangular VALUE CARD dominates the top half and bears exactly I8 in HUGE BOLD WHITE letters. The capital I has very wide top and bottom bars so it cannot resemble digit 1. Below the card a simple BLUE HAND with thick thumb and fingers visibly pulls the card LEFT out of a DARK NAVY BUFFER SLOT on the right. Make the I8 occupy most of the whole icon and readable at 30x18. Only I8, no other lettering, no tag, no key, no eye, no arrows, no shadows. All art centered in middle 70 percent of square.",
+  "concept_id": "i8-pull-card",
+  "concept_summary": "Hand pulls signed byte from buffer",
+  "signature": {
+    "composition": "large orange I8 value above blue hand and navy buffer at right",
+    "metaphor": "hand extraction",
+    "orientation": "horizontal",
+    "objects": "buffer, hand, typed value",
+    "cue": "hand pulls I8 card"
+  }
+}

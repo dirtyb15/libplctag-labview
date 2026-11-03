@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "composition": "large eye above PLC containing tag",
+    "objects": "eye, PLC, tag",
+    "cue": "eye views PLC and tag",
+    "orientation": "vertical",
+    "metaphor": "inspection of PLC tag"
+  },
+  "concept_summary": "Inspect controller tag",
+  "concept_id": "read-eye-controller",
+  "prompt": "One SQUARE flat software icon on white for reading a PLC tag. Draw a bold blue EYE across the TOP. Below it draw a large simple dark navy industrial controller with a big white display and two thick module divisions. On the controller display place a large orange tag silhouette with a clear white hole. Eye and controller are two large shapes. Make the eye and embedded tag recognizable at 30x18. No arrow, no letters, no shadow; keep all artwork inside central 70 percent of canvas."
+}

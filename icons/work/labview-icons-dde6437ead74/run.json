@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "run_id": "ed5066ff928943cd96a1f4671d7d8f86",
+  "request": "Error_Info.vi calls plc_tag_decode_error to turn an error code into descriptive text",
+  "summary_name": "Error Info",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Error_Info.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T22:33:12.783302+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "error-speech",
+      "concept_summary": "Error description bubble",
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. A red warning triangle with white exclamation point at left, next to a blue speech bubble with two thick white lines at right. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins.",
+      "signature": {
+        "metaphor": "error message",
+        "objects": "warning triangle and message bubble",
+        "cue": "error description or decode",
+        "composition": "triangle left and bubble right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle is beside a blue speech bubble with message lines."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle and lined bubble are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The exclamation and message bubble remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Warning symbol and bubble remain recognizable and separated."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The triangle and bubble survive while message lines merge."
+        }
+      },
+      "reviewed_sha256": "c5c6c3776d97316dfa6f9df4ba2724d65fbd3c538d7b4268a4d52c3e8f36368e",
+      "salt": "fw5guqbijp"
+    },
+    {
+      "concept_id": "error-book",
+      "concept_summary": "Error reference page",
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. An open blue book with a large red warning triangle on its left page and two thick dark-blue text bars on its right page. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins.",
+      "signature": {
+        "metaphor": "reference lookup",
+        "objects": "open book, warning and text bars",
+        "cue": "error description or decode",
+        "composition": "open book with warning on one page",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An open book has a warning on one page and text lines on the other."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The open-book outline, warning and lines remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Both pages and the warning are recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The book shape, warning triangle and message lines remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The open-book silhouette survives; small warning details merge."
+        }
+      },
+      "reviewed_sha256": "b7dbee74459a81ec5153248fe6d98669b473e6cde71038f9e6b2bec50e9a9f69",
+      "salt": "csufdfhbau"
+    },
+    {
+      "concept_id": "warning-bubble",
+      "concept_summary": "Warning in message bubble",
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white for an error-description VI. A large dark-blue ROUND speech bubble encloses one large red warning triangle with a bold white exclamation mark inside it. The bubble must have a single thick lower-left tail. Show no tiny text or other objects. Make the warning, exclamation, and bubble distinct at 30x18. Thick geometry, generous white margin, no shadow or border.",
+      "signature": {
+        "metaphor": "error description bubble",
+        "objects": "speech bubble and warning triangle",
+        "cue": "error message",
+        "composition": "warning triangle inside round speech bubble",
+        "orientation": "circular"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The round outlined bubble with a diagonal tail resembles the magnifying-glass silhouette used by Read_U8.vi candidate-06.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Replace the round ring-and-tail layout with a structurally different error-description concept."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The warning is visible inside the ring."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The warning and ring remain distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The round outline and tail still resemble a magnifying glass."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The warning remains but the bubble tail resembles a handle."
+        }
+      },
+      "reviewed_sha256": "4baf63adcd38acb88c5e87c141933861973eb0623bc605b7d31ec5a7d6a47a04"
+    },
+    {
+      "concept_id": "decode-error",
+      "concept_summary": "Decode error code",
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. A large red square containing one white exclamation mark on the left; a thick orange arrow points right to two large dark-blue horizontal message bars. This represents converting an error code to a message. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins.",
+      "signature": {
+        "metaphor": "code-to-message",
+        "objects": "error tile, arrow and text bars",
+        "cue": "error description or decode",
+        "composition": "error tile left arrow to message lines right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The left block, rightward arrow, and right text-bars layout repeats the buffer-to-U8 structure of Read_U8.vi candidate-01.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a materially different arrangement or conversion metaphor."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The error tile, arrow and two bars are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arrow and message bars remain distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The layout remains similar to the typed getter at small size."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The three horizontal components survive as blocks."
+        }
+      },
+      "reviewed_sha256": "b6928188c07c277085393311f30d3dbebabe229f147d5eb40a5f464426a321b6"
+    },
+    {
+      "concept_id": "error-information",
+      "concept_summary": "Error information",
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. A large red warning triangle containing a large white lowercase i with a very large square dot. It represents information about an error. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins.",
+      "signature": {
+        "metaphor": "error information badge",
+        "objects": "warning triangle and information mark",
+        "cue": "error description or decode",
+        "composition": "large i inside triangle",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle contains a large white information i."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle and i remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The information dot and stem remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The information i remains recognizable within the warning triangle."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The i and triangle survive; the letter dot becomes coarse."
+        }
+      },
+      "reviewed_sha256": "fe6659e16bf85d90c82cbf5f711251c1734aaf3761d1db961327903186863131",
+      "salt": "hc0jgdeugu"
+    },
+    {
+      "concept_id": "error-info-symbols",
+      "concept_summary": "Error and information symbols",
+      "prompt": "Create one SQUARE 1:1 flat icon on a pure white background representing descriptive information about an error. A large red warning triangle containing a white exclamation mark is positioned ABOVE a large solid dark-blue circular information symbol containing a bold white lowercase i. Keep the triangle and circle separated by a wide white gap; both symbols must be large at 30x18. No speech bubbles, magnifying glasses, other text, shadows or border; generous margins.",
+      "signature": {
+        "metaphor": "error information",
+        "objects": "warning triangle and information circle",
+        "cue": "separate information badge",
+        "composition": "warning above information circle",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-06.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A triangle above a blue circle containing a white i strongly resembles Datatype.ctl candidate-06, which has a triangle above a blue dial containing an I.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Replace with a silhouette that does not use a triangle over a blue circular I/i."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Warning and information symbols are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The information dot softens."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The triangle-over-blue-circle structure remains too similar to the datatype selector.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a different dominant silhouette for the error description."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The triangle and blue circle remain recognizable."
+        }
+      },
+      "reviewed_sha256": "67ba114247747cd9ec4a6570ddec30c6bc5ea2db83cf348354c7ce5595cbc792"
+    },
+    {
+      "concept_id": "error-decode-curve",
+      "concept_summary": "Error decoded to text",
+      "prompt": "Create one SQUARE 1:1 flat software icon on pure white for converting an error code to a message. Place one large red warning triangle with a white exclamation in the UPPER LEFT, two broad blue horizontal message bars in the LOWER RIGHT, and one thick orange curved arrow bending downward from the triangle toward the bars. The arrow must curve, not be a straight horizontal arrow. Keep all shapes simple, large and separated at 30x18. No words, no shadows or decorative border, generous margin.",
+      "signature": {
+        "metaphor": "error decoding",
+        "objects": "warning mark, curved arrow and message lines",
+        "cue": "curved transformation arrow",
+        "composition": "warning upper left, message lower right, curved connector",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-07.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A warning triangle connects via a curved arrow to message bars."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The triangle, curved arrow and separate bars are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow bends toward the text bars."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The red warning, curved orange arrow and two blue message bars remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The direction and major shapes survive while the bar gap narrows."
+        }
+      },
+      "reviewed_sha256": "62a57ccf4ea4f1d7e93d520cf6a4a9459c2d6f08501518a76bca3c26b599e886",
+      "salt": "5513b041my"
+    },
+    {
+      "concept_id": "quoted-error",
+      "concept_summary": "Quoted error description",
+      "prompt": "Create exactly one SQUARE 1:1 flat software icon on a pure white background, for an error-description message. Put one LARGE red exclamation mark in the center between two oversized dark-blue quotation marks, one opening quote on the left and one closing quote on the right. Use bold simple geometric shapes; leave wide gaps so the quotes and exclamation remain recognizable at 30x18 pixels. No circle, no triangle, no tag, no other words, no border, no shadows; generous white margin.",
+      "signature": {
+        "metaphor": "error message quotation",
+        "objects": "quotation marks and exclamation",
+        "cue": "quoted error text",
+        "composition": "red exclamation between large blue quotation marks",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-08.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The quotation pairs soften but the central red exclamation and side marks remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The paired blue quotation marks and red exclamation remain distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The exclamation remains separate from the quotes."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The red exclamation and surrounding dark quotation marks are recognizable."
+        },
+        "source": {
+          "rule_id": "VIS-MARGIN-005",
+          "evidence": "The quotation marks approach the left and right canvas edges, leaving about three percent clearance and risking clipping.",
+          "correction": "Keep the same quoted exclamation but scale the entire group down and leave at least ten percent white space on every side.",
+          "result": "FAIL"
+        }
+      },
+      "reviewed_sha256": "d307b6d84fddd7dd41a135eaaa716fdde9405a782f1c310a141ebc4e088ab878"
+    },
+    {
+      "concept_id": "quoted-error",
+      "concept_summary": "Quoted error description",
+      "prompt": "Create one SQUARE flat icon on pure white. A single bold red exclamation mark is centered between oversized dark navy opening and closing double quotation marks, conveying an error description. The entire grouped artwork must occupy only the central 70 percent of canvas width and height, with a generous completely empty white margin at least 15 percent on all four sides. Thick simple shapes with separated marks, crisp legibility at 30 by 18 pixels. No other text, no border, no shadows, no extra symbols.",
+      "signature": {
+        "metaphor": "error message quotation",
+        "objects": "quotation marks and exclamation",
+        "cue": "quoted error text",
+        "composition": "red exclamation between large blue quotation marks",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-dde6437ead74\\candidates\\candidate-09.png",
+      "qa": {
+        "29x29": {
+          "evidence": "The exclamation and opposing quote pairs remain separated.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Quote pairs soften at this stress size but the red exclamation and dark side marks remain visible.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The central red mark and the dark paired quotes are recognizable.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "The red exclamation sits between navy quotation marks with clear white margins and no extraneous elements.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The quotation shapes flank a visible red exclamation with a separated dot.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "ff490ad43699b8918912cd52f59bd24e0e5041d79786ff41b39cd9845e984836",
+      "salt": "fw3f9gj3ju"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "warning-bubble",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The round outlined bubble with a diagonal tail resembles the magnifying-glass silhouette used by Read_U8.vi candidate-06.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace the round ring-and-tail layout with a structurally different error-description concept.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "decode-error",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The left block, rightward arrow, and right text-bars layout repeats the buffer-to-U8 structure of Read_U8.vi candidate-01.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a materially different arrangement or conversion metaphor.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The round bubble resembles the U8 magnifier, and the error-to-bars layout repeats the U8 buffer-to-value structure. Replace both and compare actual images again.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 3,
+      "concept_id": "error-info-symbols",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "A triangle above a blue circle containing a white i strongly resembles Datatype.ctl candidate-06, which has a triangle above a blue dial containing an I.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace with a silhouette that does not use a triangle over a blue circular I/i.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 3,
+      "concept_id": "error-info-symbols",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The triangle-over-blue-circle structure remains too similar to the datatype selector.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a different dominant silhouette for the error description.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The separated triangle and information circle is too similar to the datatype selector's triangle over blue I dial. Keep the curved decode candidate and replace the circle option.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "concept_id": "quoted-error",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-MARGIN-005",
+      "result": "FAIL",
+      "observed_problem": "The quotation marks approach the left and right canvas edges, leaving about three percent clearance and risking clipping.",
+      "measured_value": "source",
+      "corrective_instruction": "Keep the same quoted exclamation but scale the entire group down and leave at least ten percent white space on every side.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-09",
+      "candidate-07",
+      "candidate-05"
+    ],
+    "evidence": "The speech bubble beside warning, open book, quoted exclamation, curved decode arrow and information triangle are visibly different compositions."
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "Error Info option 1 1024x1024 fw5guqbijp.png",
+    "Error Info option 1 29x29 fw5guqbijp.png",
+    "Error Info option 1 30x18 fw5guqbijp.png",
+    "Error Info option 1 30x23 fw5guqbijp.png",
+    "Error Info option 1 fw5guqbijp.ico",
+    "Error Info option 2 1024x1024 csufdfhbau.png",
+    "Error Info option 2 29x29 csufdfhbau.png",
+    "Error Info option 2 30x18 csufdfhbau.png",
+    "Error Info option 2 30x23 csufdfhbau.png",
+    "Error Info option 2 csufdfhbau.ico",
+    "Error Info option 3 1024x1024 fw3f9gj3ju.png",
+    "Error Info option 3 29x29 fw3f9gj3ju.png",
+    "Error Info option 3 30x18 fw3f9gj3ju.png",
+    "Error Info option 3 30x23 fw3f9gj3ju.png",
+    "Error Info option 3 fw3f9gj3ju.ico",
+    "Error Info option 4 1024x1024 5513b041my.png",
+    "Error Info option 4 29x29 5513b041my.png",
+    "Error Info option 4 30x18 5513b041my.png",
+    "Error Info option 4 30x23 5513b041my.png",
+    "Error Info option 4 5513b041my.ico",
+    "Error Info option 5 1024x1024 hc0jgdeugu.png",
+    "Error Info option 5 29x29 hc0jgdeugu.png",
+    "Error Info option 5 30x18 hc0jgdeugu.png",
+    "Error Info option 5 30x23 hc0jgdeugu.png",
+    "Error Info option 5 hc0jgdeugu.ico",
+    "lessonsLearned 02u5qlh4hm.md",
+    "manifest.json"
+  ]
+}

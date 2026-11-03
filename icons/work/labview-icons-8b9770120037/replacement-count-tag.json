@@ -1,0 +1,12 @@
+{
+  "prompt": "Exactly one SQUARE flat software icon on pure white. Make a single very wide horizontal dark navy outline of a tag, pointed at right, with a single large round hole at the point. Inside the tag put the exact two very large bold characters #B in black, meaning number of bytes. Make both the hash opening and the two holes of B generously large and clearly readable at 30 by 18 pixels. The tag outline encloses both characters, not a tag floating above them. No other text, no arrows, no underline, no shadow. Keep artwork centered with generous white margins.",
+  "concept_id": "byte-count-tag",
+  "concept_summary": "Byte count inside tag outline",
+  "signature": {
+    "composition": "count mark inside a wide tag outline",
+    "metaphor": "byte-count tag",
+    "cue": "large #B count of bytes",
+    "orientation": "horizontal",
+    "objects": "tag outline and count mark"
+  }
+}

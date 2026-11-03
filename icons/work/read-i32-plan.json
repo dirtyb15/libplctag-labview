@@ -1,0 +1,67 @@
+{
+  "summary_name": "Read I32",
+  "background_mode": "white",
+  "request": "Read signed 32-bit integer from tag buffer at offset",
+  "concepts": [
+    {
+      "concept_summary": "Signed 32-bit value from printer",
+      "prompt": "One SQUARE flat icon on white for reading a signed 32-bit integer from a buffer. Draw a large simple NAVY PRINTER at top, and below it a very large WHITE PAPER SHEET outlined in blue emerging downward. On the paper write exactly I32 in huge BOLD BLACK letters, with capital I having wide top and bottom crossbars and distinct from digit 1. I32 must fill most of the page and remain fully readable at 30x18. No other words, no shadow, no tags, no extra details. Center all artwork in central 70 percent of square.",
+      "concept_id": "i32-printer",
+      "signature": {
+        "objects": "printer, typed paper",
+        "cue": "I32 paper emerges",
+        "orientation": "vertical",
+        "composition": "navy printer above wide white I32 output",
+        "metaphor": "printout"
+      }
+    },
+    {
+      "concept_summary": "Draw signed 32-bit value",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 32-bit value. On LEFT place enormous bold BLACK I32 with capital I having wide top and bottom crossbars, distinct from digit 1. On RIGHT a large simple BLUE SYRINGE is vertical, plunger pulled upward, metaphor for drawing data from a buffer. I32 and syringe are side by side and separated, I32 occupies most of width and is unambiguously readable at 30x18. Only I32 text, no other words, no shadow or tag. Center the art in central 70 percent of square.",
+      "concept_id": "i32-syringe",
+      "signature": {
+        "objects": "syringe, typed label",
+        "cue": "syringe pulls data",
+        "orientation": "horizontal",
+        "composition": "black I32 left, vertical syringe right",
+        "metaphor": "draw with syringe"
+      }
+    },
+    {
+      "concept_summary": "Receive signed 32-bit value in basket",
+      "prompt": "One SQUARE flat icon on white for reading signed 32-bit data. A huge BLUE WOVEN BASKET with an unmistakable arch handle and large U-shaped body dominates the canvas. Inside the basket body put a white rectangular inset carrying enormous bold BLACK I32. Capital I has wide horizontal top and bottom bars, distinct from digit 1. The full I32 must be readable at 30x18. Only I32 text, no arrows, monitor, envelope, tags or shadows. Simple large shapes, all within the central 70 percent of square.",
+      "concept_id": "i32-basket",
+      "signature": {
+        "objects": "basket, value",
+        "cue": "value caught by basket",
+        "orientation": "vertical",
+        "composition": "large handled basket surrounds white I32 inset",
+        "metaphor": "catch value"
+      }
+    },
+    {
+      "concept_summary": "Signed 32-bit data exits ring",
+      "prompt": "One SQUARE flat icon on white for reading a signed 32-bit integer. A large BLUE CIRCULAR PORT is at left. At right of port is enormous bold BLACK I32, with capital I visibly having wide top and bottom bars different from digit 1. A short thick ORANGE ARROW points RIGHT from port toward the label. I32 must be unambiguously readable at 30x18. Only I32 text, no tag, hand, monitor, key or shadow. Keep all shapes within middle 70 percent of square.",
+      "concept_id": "i32-outward",
+      "signature": {
+        "objects": "port and type",
+        "cue": "value moves outward",
+        "orientation": "horizontal",
+        "composition": "circular port left, orange right arrow center, I32 right",
+        "metaphor": "output port"
+      }
+    },
+    {
+      "concept_id": "i32-dial",
+      "concept_summary": "Dial retrieves signed 32-bit value",
+      "signature": {
+        "orientation": "vertical",
+        "objects": "value label and rotary dial",
+        "cue": "selection dial outputs typed value",
+        "composition": "large orange dial above black I32 with blue downward arrow at side",
+        "metaphor": "rotary output"
+      },
+      "prompt": "One SQUARE flat software icon on white for reading a signed 32-bit integer. Draw a large ORANGE ROTARY DIAL above left, a thick BLUE DOWNWARD OUTPUT ARROW at right, and huge bold BLACK I32 across the bottom. The capital I has wide top and bottom bars, distinct from digit 1. The large orange dial is a solid circle with one black pointer, no numbers or tiny ticks. All I32 characters must be unambiguously legible at 30x18. No tag, eye, envelope, microscope, monitor, other text or shadow. Keep everything inside central 70 percent of square."
+    }
+  ]
+}

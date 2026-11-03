@@ -1,0 +1,12 @@
+{
+  "concept_id": "new-tag-from-blocks",
+  "concept_summary": "Tag assembled from blocks",
+  "prompt": "Exactly one SQUARE flat software icon on pure white for creating a new tag from configuration. On left show TWO large separated orange squares stacked vertically. In the center show a large thick black PLUS sign, and on right a large solid navy tag with a large white hole. Keep the blocks, plus and tag clearly separated by white gaps and easily recognizable at 30x18. No gear, no arrows, no text, no shadows, no borders; all art in central 70 percent of the square canvas.",
+  "signature": {
+    "metaphor": "build new tag",
+    "cue": "block combination creates tag",
+    "orientation": "horizontal",
+    "objects": "separate blocks, plus, tag",
+    "composition": "two orange blocks on left, large plus in center, outlined blue tag on right"
+  }
+}

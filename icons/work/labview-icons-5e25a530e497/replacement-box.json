@@ -1,0 +1,12 @@
+{
+  "concept_id": "i16-read-pointer",
+  "signature": {
+    "cue": "pointer extraction",
+    "orientation": "vertical pointer",
+    "composition": "I16 above downward pointer touching short outlined buffer",
+    "metaphor": "read pointer",
+    "objects": "I16 and pointer and buffer"
+  },
+  "prompt": "Create one SQUARE flat icon on pure white showing extraction of a signed 16-bit value. In the upper part show exact large black characters I16: capital I with broad top and bottom bars, followed by 1 and 6, with large white gaps between every character. At the lower left show a navy outlined horizontal buffer box, and at its right show a large orange arrow pointing RIGHT out of the box, extending beyond it. Make type and arrowhead visible at 30x18 pixels. The entire artwork fits within central 70 percent of canvas width and height. No magnifier, eye, other text, shadows, or detail.",
+  "concept_summary": "Pointer selects signed value from buffer"
+}

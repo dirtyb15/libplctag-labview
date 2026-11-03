@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat software icon on white for reading a signed 8-bit integer. Draw an enormous BOLD BLACK I8 centered across the LOWER HALF, clearly visible at 30x18. The capital I has wide horizontal bars at top and bottom and is visibly distinct from digit 1. Above the label draw a LARGE simplified BLUE MICROSCOPE angled down toward the I8, with one thick lens tube and a curved supporting arm; no eyes, no magnifying glass. Only the two characters I8, no other text or numbers. No shadows. Fit all artwork inside central 70 percent of square.",
+  "signature": {
+    "objects": "microscope objective and value label",
+    "orientation": "vertical",
+    "cue": "objective points to value",
+    "composition": "microscope above oversized I8 on white",
+    "metaphor": "microscope"
+  },
+  "concept_summary": "Signed byte inspected under microscope",
+  "concept_id": "i8-lens"
+}

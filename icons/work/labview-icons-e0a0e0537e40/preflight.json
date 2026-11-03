@@ -1,0 +1,12 @@
+{
+  "candidate_ids": [
+    "new-tag-stamp",
+    "new-plus-generates-tag",
+    "new-tag-plus-above",
+    "new-tag-box",
+    "new-tag-conveyor"
+  ],
+  "scope": "Provisional concept preflight; not visual acceptance",
+  "result": "PASS",
+  "evidence": "The proposed diagonal plus-to-tag output replaces the failed nested cross. Compare its actual silhouette against both the plus-above-tag option and Choose_Lib gear-to-output: the arrow, spacing, and clear four-arm plus must create a substantial difference rather than relying on color alone. Press, carton and conveyor have separate dominant structures."
+}

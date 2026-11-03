@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "metaphor": "scan",
+    "cue": "scanner beam on tag",
+    "composition": "scanner upper left aims at horizontal tag lower right",
+    "objects": "scanner and tag",
+    "orientation": "diagonal"
+  },
+  "prompt": "One SQUARE flat icon on pure white for reading a PLC software tag. A large simple BLUE handheld barcode scanner in upper left aims a single broad RED SCANNING BEAM at a large ORANGE tag in lower right. The tag has one big white hole and no writing. Scanner has one broad handle and rectangular head. Use only three large simple objects with clear gaps; no eye, hand, text, numerals, shadow, or controller. Ensure scanner and tag are recognizable at 30x18 pixels, in central 70 percent of square.",
+  "concept_id": "read-scanner",
+  "concept_summary": "Scanner reads tag"
+}

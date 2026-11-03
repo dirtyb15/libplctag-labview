@@ -1,0 +1,142 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-10",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag with a large B sits below a horizontal double-headed dimension arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag, B and two large arrowheads remain clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Both arrowheads and the B are distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The opposing orange arrowheads and B remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and arrowheads survive; the B counters soften."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-11",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A vertical double-headed dimension arrow stands beside a tag and B."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The two large arrowheads and B are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The vertical measurement cue and B survive."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Both arrowheads remain recognizable and B retains its two counters."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arrow survives; the B becomes coarser."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-12",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large tag and B sit beside two separate byte blocks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "B, tag and two blocks remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The B retains its two openings and the blocks remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "B is legible beside the tag and two orange count blocks."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and B remain; the small gap between blocks narrows."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-13",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag sits above a large #B byte-count mark and an orange underline."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "#B and the tag are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The hash and B counters remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The hash opening and B counters remain recognizable beneath the tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "#B is recognizable but the hash gaps are narrow."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-14",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange ruler with two notches crosses the tag diagonally, with B below."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Ruler, tag and B are distinguishable."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Ruler notches begin to soften."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The ruler's white notches largely disappear, leaving an orange diagonal band across a tag and weakening the measuring cue.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Use a much thicker ruler with two huge high-contrast ticks, or a different measurement cue."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The diagonal band and B remain but the ruler markings disappear."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-11",
+      "candidate-12",
+      "candidate-13",
+      "candidate-14"
+    ],
+    "evidence": "The horizontal and vertical measurement arrows, counted blocks and #B readout differ in layout, but the diagonal ruler loses its measurement notches at 30x18. Replace it and compare the final five again."
+  }
+}

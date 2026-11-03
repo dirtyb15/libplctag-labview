@@ -1,0 +1,44 @@
+{
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "The revised hand design no longer identifies the target as a controller. Correct it before completing the set.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-03",
+      "candidate-07",
+      "candidate-08"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag hole is visible, but the lower slot lacks PLC features."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The large tag hole survives while the device remains a plain base."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Finger and tag remain, but the lower base has no distinctive PLC identity."
+        },
+        "source": {
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL",
+          "correction": "Restore a large PLC face with display and two modules, reduce hand size, and center with wide margins.",
+          "evidence": "The lower object has become a plain two-part slot, not a recognizable industrial controller; the hand is also very close to the top edge."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Give the PLC a large white display and broad module divisions while keeping the tag readable.",
+          "evidence": "The base reads as a tray rather than a PLC, so this resembles a generic tag insertion."
+        }
+      }
+    }
+  ]
+}

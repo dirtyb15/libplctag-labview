@@ -1,0 +1,2123 @@
+{
+  "snapshot_sha256": "319dd6f624b1e649c1efb1a55dffffe79a28efcd503dad3af06bbc9e9b11b353",
+  "policy_sha256": "4a5aac9b9225cbd38c652e41646f1e7037b7cfc36bfc9d748b6f34eefa0bdced",
+  "snapshot": {
+    "artifact": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\Help\\PLC_Attributes.ctl Help\\.support\\expanded-help\\PLC_Attributes.ctl.html",
+    "artifact_sha256": "a9253012d53fa4aa575dd73b2f95bf9162070c80bde4976088a53c12a061f1b8",
+    "profile": {
+      "audience": "LabVIEW developer who is new to PLCs and industrial networks",
+      "prerequisites": "Basic LabVIEW controls, wires and error clusters; PLC terms introduced in the text"
+    },
+    "sections": [
+      {
+        "id": "section-1",
+        "title": "Purpose and scope",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-1",
+            "kind": "paragraph",
+            "text": "PLC_Attributes.ctl describes which controller to reach and which value to access inside it. A programmable logic controller (PLC) runs the logic for a machine or process. The LabVIEW virtual instrument (VI) Create_Tag.vi uses this cluster to create a library tag: a software object that holds the connection settings and a local copy of the requested data."
+          },
+          {
+            "id": "unit-2",
+            "kind": "paragraph",
+            "text": "Supply the network address, the route to the controller, its family, and an existing tag name or data-file address. Then state how many values you need and their byte size where required. The saved values are examples; they do not describe every installation. This control alone sends no network requests."
+          },
+          {
+            "id": "unit-3",
+            "kind": "paragraph",
+            "text": "All eight fields store strings, including the numbers. Four have dropdown suggestions: protocol, path, cpu, and debug level. These are string combo boxes, not LabVIEW numeric enums. Their menu entries are listed below. The C library decides whether a string is valid; an entry in the menu does not prove support."
+          },
+          {
+            "id": "unit-4",
+            "kind": "paragraph",
+            "text": "This topic covers the current wrapper and the 2.7.2 source behavior discussed below. The bundled libraries identify themselves as 2.7.2; their exact build provenance is not established. Older 2.0.22 behavior is called out where it changes the advice."
+          }
+        ]
+      },
+      {
+        "id": "section-2",
+        "title": "How the fields work together",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-5",
+            "kind": "paragraph",
+            "text": "Think of the settings as a delivery address. gatewayIP is the first Ethernet device LabVIEW reaches. Its Internet Protocol (IP) address identifies that endpoint. path gives further directions through that device, if needed. cpu tells the library which controller family is at the destination. tag name identifies the data within that controller."
+          },
+          {
+            "id": "unit-6",
+            "kind": "paragraph",
+            "text": "ControlLogix usually uses names such as TankLevel or Recipe[0]. SLC 500 uses typed data files, such as N7:0. Those are two ways to name controller data, not two ways to set a network address. A library tag does not create a new variable in the PLC."
+          },
+          {
+            "id": "unit-7",
+            "kind": "paragraph",
+            "text": "element size and element count describe the requested data block. One element might be one integer or one floating-point value. A byte holds eight bits. A bit holds a single on/off state. Byte size affects how the returned buffer must be read; it does not convert one PLC data type into another."
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "title": "Fields and saved values",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-8",
+            "kind": "paragraph",
+            "text": "Start here for each field's purpose and expected input. Follow the sections below for dropdown choices, route details and complete hardware examples. Enter the value only, without quotation marks or an attribute prefix such as gateway=."
+          },
+          {
+            "id": "unit-9",
+            "kind": "table-row",
+            "text": "Control / C attribute | Saved value | Meaning, expected input and examples"
+          },
+          {
+            "id": "unit-10",
+            "kind": "table-row",
+            "text": "protocolprotocol | ab_eip | Selects the communication driver. For the Allen-Bradley examples here, use ab_eip or ab-eip. EtherNet/IP is the industrial protocol carried over Ethernet; selecting it does not configure the computer's network card.Use the same driver for a ControlLogix controller and a supported Ethernet SLC 5/05. The cpu field selects their different data-access methods. The saved dropdown contains ab-eip."
+          },
+          {
+            "id": "unit-11",
+            "kind": "table-row",
+            "text": "pathpath | 1,0 | The route after reaching the gateway. For a ControlLogix chassis, 1,0 means cross the backplane to the controller in slot 0; 1,3 targets slot 3. The second number is the controller slot, not the Ethernet module slot.For a direct Ethernet SLC 5/05, use an empty field. A Data Highway Plus (DH+) bridge needs a different route. This field is not a disk path, tag name, subnet mask or RSLinx driver name. See Understanding path."
+          },
+          {
+            "id": "unit-12",
+            "kind": "table-row",
+            "text": "gatewayIPgateway | 192.168.1.40 | The Internet Protocol (IP) address or host name of the first device libplctag contacts. For direct SLC 5/05 access, enter the SLC's Ethernet address. For a ControlLogix processor reached through a 1756-EN2T, enter that module's address.Examples: 192.168.1.40, 10.20.30.40, or a host name your computer can resolve. A supported nonstandard port can be written as 10.20.30.40:44819; ordinary EtherNet/IP uses port 44818. Do not add http://. This is not necessarily the router used by the computer to leave its subnet."
+          },
+          {
+            "id": "unit-13",
+            "kind": "table-row",
+            "text": "cpucpu | LGX | The controller family, which selects the library's address format and message handling. Use controllogix or lgx for native Logix tag names; use slc500 for SLC data-file addresses. This is not a processor serial number, chassis slot or computer processor type.Examples: ControlLogix cpu=controllogix with TankLevel; SLC 5/05 cpu=slc500 with N7:0. Enter only the value in the control. Modern library docs prefer the attribute name plc, but this wrapper sends the still-recognized name cpu."
+          },
+          {
+            "id": "unit-14",
+            "kind": "table-row",
+            "text": "element sizeelem_size | Empty | Byte size of one value, expressed as decimal text. Typical values are 2 for a 16-bit integer and 4 for a 32-bit integer or single-precision float. Thus, SLC N7:0 uses 2 bytes and F8:0 uses 4; Logix DINT and REAL both use 4 but need different getters.Use the true PLC type. The newer Logix code learns the size during its initial read, and the newer SLC code derives it from the file address. The older Logix code may need this field to allocate the buffer. Supplying the correct explicit size is useful for these simple scalar examples. It is not a way to force a type change."
+          },
+          {
+            "id": "unit-15",
+            "kind": "table-row",
+            "text": "element countelem_count | 1 | How many consecutive elements to access, as a positive decimal integer. Use 1 for a scalar. Use 10 with SLC N7:0 for integers N7:0 through N7:9, if they exist. Use 5 with Logix Recipe[10] for five elements starting at index 10.This is a count of values, not bytes or a polling period. Ten 2-byte integers need 20 buffer bytes. The count must fit the real PLC array or file and the device's transfer limits. Zero and negative counts are invalid in the checked 2.7.2 implementation."
+          },
+          {
+            "id": "unit-16",
+            "kind": "table-row",
+            "text": "tag namename | din_LCEDiveVC | The existing data item to access. For Logix: TankLevel, Recipe[10], Pump.Speed, or Program:MainProgram.TankLevel. Copy the real name and scope from the PLC project; these examples are invented.For SLC: N7:0 is an integer element and F8:0 is a floating-point element. B3:0/5 selects bit 5 of binary-file word 0. Use the address, rather than a ladder-program symbol or comment. Do not put the IP address or chassis route here."
+          },
+          {
+            "id": "unit-17",
+            "kind": "table-row",
+            "text": "debug leveldebug, unless omitted | NONE | Controls library diagnostic output. Choose NONE for no debug attribute, or numeric text 1 through 5 for increasing detail. For example, 3 requests informational messages and 4 adds more detail while diagnosing a failed connection.This affects the shared loaded library, not just this cluster's tag. Messages go through the library's logging mechanism; they are not returned in the LabVIEW error cluster. In 2.7.2, NONE leaves an existing debug level unchanged. See the full level table below."
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "title": "Protocol choices",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-18",
+            "kind": "paragraph",
+            "text": "The saved menu offers only ab-eip. The saved default ab_eip is an accepted alternate spelling. Both select the Allen-Bradley EtherNet/IP driver. Keep that driver for the SLC and Logix examples in this help."
+          },
+          {
+            "id": "unit-19",
+            "kind": "paragraph",
+            "text": "The C project also has a Modbus driver over Transmission Control Protocol (TCP). Its path means a unit identifier, and its names identify coils or registers. That is a different configuration: changing only protocol does not adapt these Allen-Bradley settings. See the protocol-specific rules in the libplctag attribute guide."
+          }
+        ]
+      },
+      {
+        "id": "section-5",
+        "title": "Controller family: saved dropdown choices",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-20",
+            "kind": "paragraph",
+            "text": "The field label cpu means central processing unit. Here, it selects the PLC family, not an exact catalog number. The C lookup accepts uppercase or lowercase letters for known family names. The saved dropdown has six entries:"
+          },
+          {
+            "id": "unit-21",
+            "kind": "table-row",
+            "text": "Saved choice | Meaning and use"
+          },
+          {
+            "id": "unit-22",
+            "kind": "table-row",
+            "text": "lgx | Accepted Logix-family alias. Also matches the saved default LGX. Uses native symbolic tag access for ControlLogix and CompactLogix."
+          },
+          {
+            "id": "unit-23",
+            "kind": "table-row",
+            "text": "COMPACTLOGIX | Accepted Logix-family alias. Use for CompactLogix hardware; choose the route for its actual Ethernet interface and model."
+          },
+          {
+            "id": "unit-24",
+            "kind": "table-row",
+            "text": "CGLX | Not recognized by the checked 2.7.2 lookup or current local C lookup. The accepted alias is clgx, with the letters in a different order. Prefer the clearer compactlogix."
+          },
+          {
+            "id": "unit-25",
+            "kind": "table-row",
+            "text": "CONTROLLOGIX | Accepted. Selects native Logix access. Enter the Ethernet endpoint, route to the processor and the real symbolic tag name."
+          },
+          {
+            "id": "unit-26",
+            "kind": "table-row",
+            "text": "FLEXLOGIX | Present in this older menu, but absent from the checked controller-type lookup. Do not treat it as a supported value for these libraries. A FlexLogix installation needs separate model, bridge and library compatibility checks."
+          },
+          {
+            "id": "unit-27",
+            "kind": "table-row",
+            "text": "FLGX | Also absent from the checked lookup. This menu abbreviation is not an accepted replacement for lgx and does not establish FlexLogix support."
+          },
+          {
+            "id": "unit-28",
+            "kind": "paragraph",
+            "text": "A SLC 500 user must supply slc500, even though it is missing from the saved suggestions. Wire that string into the cluster field if the front-panel instance restricts typing. The wrapper passes it through; it does not translate menu labels. The menu can therefore be incomplete or out of date."
+          }
+        ]
+      },
+      {
+        "id": "section-6",
+        "title": "Other family values accepted by the C lookup",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-29",
+            "kind": "paragraph",
+            "text": "The following are C string choices, not added menu entries. Use a value that matches the hardware at the end of the route. They identify different message formats; they are not interchangeable ways to reach the same data."
+          },
+          {
+            "id": "unit-30",
+            "kind": "table-row",
+            "text": "Value / aliases | Hardware and expectations"
+          },
+          {
+            "id": "unit-31",
+            "kind": "table-row",
+            "text": "slc500, slc | SLC 500 data-file access. A direct SLC 5/05 example uses an empty path and N7:0. A SLC reached over DH+ needs a supported bridge route. This value does not add Ethernet hardware to a serial-only processor."
+          },
+          {
+            "id": "unit-32",
+            "kind": "table-row",
+            "text": "controllogix, lgx, logix, contrologix, compactlogix, clgx | All select the native Logix family in this lookup. Prefer the full, correctly spelled family name. Use symbolic names, such as TankLevel; route to the actual processor."
+          },
+          {
+            "id": "unit-33",
+            "kind": "table-row",
+            "text": "plc5, plc | PLC-5 data-file access. Needs compatible Ethernet hardware/firmware or a supported DH+ bridge. The similar-looking SLC address syntax does not make PLC-5 and SLC messages identical."
+          },
+          {
+            "id": "unit-34",
+            "kind": "table-row",
+            "text": "micrologix, mlgx | MicroLogix family using data-file addresses. The access path depends on the model and any gateway. MicroLogix and Micro800 are different families."
+          },
+          {
+            "id": "unit-35",
+            "kind": "table-row",
+            "text": "micro800, micrologix800, mlgx800 | Micro800 family using symbolic names and connected messages. Its route rules differ from ControlLogix. Library guidance requires no path attribute, while this wrapper always emits one, even when blank. Use a wrapper that can omit it before relying on Micro800 support."
+          },
+          {
+            "id": "unit-36",
+            "kind": "table-row",
+            "text": "logixpccc, lgxpccc, lgxplc5, logixplc5, lgx-pccc, logix-pccc, lgx-plc5, logix-plc5 | Logix through its older PLC-5-style data access. PCCC means Programmable Controller Communication Commands. This mode needs PLC/SLC data-table mapping in the Logix project. Use native controllogix for ordinary symbolic tags."
+          },
+          {
+            "id": "unit-37",
+            "kind": "table-row",
+            "text": "omron-njnx, omron-nj, omron-nx, njnx, nx1p2 | Recognized Omron NJ/NX family values. These dispatch to the Omron implementation. Use its model-specific route, data-type and variable-access instructions; the Allen-Bradley examples here do not configure an Omron controller."
+          },
+          {
+            "id": "unit-38",
+            "kind": "table-row",
+            "text": "generic, cip | Advanced Common Industrial Protocol (CIP) device mode. This is not automatic PLC detection and does not make every EtherNet/IP device readable as a Logix tag. It needs a service-specific setup beyond these basic examples."
+          }
+        ]
+      },
+      {
+        "id": "section-7",
+        "title": "Understanding path",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-39",
+            "kind": "paragraph",
+            "text": "A ControlLogix system can have several plug-in modules in a chassis. Its backplane is the internal link between those modules. The Ethernet module may receive a message first, then pass it across the backplane to the processor that owns the tag. The gatewayIP reaches the Ethernet module; the path describes what to do next."
+          },
+          {
+            "id": "unit-40",
+            "kind": "paragraph",
+            "text": "For the usual chassis route, enter comma-separated port and destination pairs. In 1,3, port 1 means the backplane and destination 3 means chassis slot 3. Slots are numbered from zero. If the Ethernet module is in slot 1 and the processor is in slot 3, use the Ethernet module's IP address and path=1,3. Do not use 1,1 merely because the Ethernet module is in slot 1."
+          },
+          {
+            "id": "unit-41",
+            "kind": "paragraph",
+            "text": "The saved route menu contains every value below. These choices all use the same backplane-port rule. Pick the processor slot from the real hardware configuration; a number in the menu does not mean that the chassis has that many slots."
+          },
+          {
+            "id": "unit-42",
+            "kind": "table-row",
+            "text": "Saved choice | Destination after the gateway"
+          },
+          {
+            "id": "unit-43",
+            "kind": "table-row",
+            "text": "1,0 | Backplane port 1 to processor slot 0."
+          },
+          {
+            "id": "unit-44",
+            "kind": "table-row",
+            "text": "1,1 | Backplane port 1 to processor slot 1."
+          },
+          {
+            "id": "unit-45",
+            "kind": "table-row",
+            "text": "1,2 | Backplane port 1 to processor slot 2."
+          },
+          {
+            "id": "unit-46",
+            "kind": "table-row",
+            "text": "1,3 | Backplane port 1 to processor slot 3."
+          },
+          {
+            "id": "unit-47",
+            "kind": "table-row",
+            "text": "1,4 | Backplane port 1 to processor slot 4."
+          },
+          {
+            "id": "unit-48",
+            "kind": "table-row",
+            "text": "1,5 | Backplane port 1 to processor slot 5."
+          },
+          {
+            "id": "unit-49",
+            "kind": "table-row",
+            "text": "1,6 | Backplane port 1 to processor slot 6."
+          },
+          {
+            "id": "unit-50",
+            "kind": "table-row",
+            "text": "1,7 | Backplane port 1 to processor slot 7."
+          },
+          {
+            "id": "unit-51",
+            "kind": "table-row",
+            "text": "1,8 | Backplane port 1 to processor slot 8."
+          },
+          {
+            "id": "unit-52",
+            "kind": "table-row",
+            "text": "1,9 | Backplane port 1 to processor slot 9."
+          },
+          {
+            "id": "unit-53",
+            "kind": "table-row",
+            "text": "1,10 | Backplane port 1 to processor slot 10."
+          },
+          {
+            "id": "unit-54",
+            "kind": "table-row",
+            "text": "1,11 | Backplane port 1 to processor slot 11."
+          },
+          {
+            "id": "unit-55",
+            "kind": "table-row",
+            "text": "1,12 | Backplane port 1 to processor slot 12."
+          },
+          {
+            "id": "unit-56",
+            "kind": "table-row",
+            "text": "1,13 | Backplane port 1 to processor slot 13."
+          },
+          {
+            "id": "unit-57",
+            "kind": "table-row",
+            "text": "1,14 | Backplane port 1 to processor slot 14."
+          },
+          {
+            "id": "unit-58",
+            "kind": "table-row",
+            "text": "1,15 | Backplane port 1 to processor slot 15."
+          },
+          {
+            "id": "unit-59",
+            "kind": "table-row",
+            "text": "1,16 | Backplane port 1 to processor slot 16."
+          },
+          {
+            "id": "unit-60",
+            "kind": "table-row",
+            "text": "1,17 | Backplane port 1 to processor slot 17."
+          },
+          {
+            "id": "unit-61",
+            "kind": "paragraph",
+            "text": "A longer route can cross more than one chassis or network. For example, 1,4,2,10.20.30.40,1,0 describes this assumed layout: cross the first backplane to an Ethernet bridge in slot 4; leave its port 2 for address 10.20.30.40; then cross that device's backplane to slot 0. This is a route example, not a universal port map. Confirm each module's port numbers and routing support."
+          },
+          {
+            "id": "unit-62",
+            "kind": "paragraph",
+            "text": "For a direct SLC 5/05 Ethernet connection, leave path empty. The PLC is already the endpoint. The native SLC path is not the processor's physical rack slot; adding 1,0 is not needed. A plain non-DH+ route can be ignored by the SLC library, which does not mean it successfully routed through another chassis."
+          },
+          {
+            "id": "unit-63",
+            "kind": "paragraph",
+            "text": "For an SLC 5/04 on Data Highway Plus (DH+), the first Ethernet device may be a ControlLogix bridge. The library has a special final route segment, A:source:destination or B:source:destination, for the bridge's DH+ channel. The preceding pairs reach the 1756-DHRIO module, which bridges the chassis to the DH+ network. The segment must be last. The C parser reads node numbers as decimal; convert a node address shown in octal before entering it. For instance, octal 10 is decimal 8."
+          },
+          {
+            "id": "unit-64",
+            "kind": "paragraph",
+            "text": "A DH+ route needs the actual bridge slot, channel, source setting and target node. Confirm them with the controls engineer and the 1756-DHRIO manual, connection paths and routing sections. Do not substitute a normal ControlLogix slot route for the bridge-specific form."
+          },
+          {
+            "id": "unit-65",
+            "kind": "paragraph",
+            "text": "To find a route, start with the electrical drawings and the live hardware tree in Studio 5000 or RSLinx/FactoryTalk Linx. Identify the Ethernet endpoint first, then each module or network hop to the processor. A software browse path may include a computer driver name; that name is not part of libplctag's numeric route. Rockwell's ControlFLASH manual illustrates the distinction between an Ethernet address, backplane and slot."
+          }
+        ]
+      },
+      {
+        "id": "section-8",
+        "title": "Tag names and data-file addresses",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-66",
+            "kind": "paragraph",
+            "text": "For ControlLogix, open the project in Studio 5000 Logix Designer. Controller Tags contains names visible at controller scope. Program Tags contains names local to a program. Use TankLevel for a controller-scoped tag, or Program:MainProgram.TankLevel for that tag in program MainProgram. An array index selects a starting element, such as Recipe[10]; a dot selects a structure member, such as Pump.Speed."
+          },
+          {
+            "id": "unit-67",
+            "kind": "paragraph",
+            "text": "Check the tag's type and External Access setting. None prevents external access; read-only access cannot support a write. Reading a whole structure can also fail when a member is restricted. Rockwell explains these restrictions in Logix 5000 Controllers Data Access. The names shown here must be replaced with real tags from the target project."
+          },
+          {
+            "id": "unit-68",
+            "kind": "paragraph",
+            "text": "For an SLC 500, open Data Files in RSLogix 500 and find the address and file type. In N7:0, N means integer data, 7 is the file number and 0 is the element number. In F8:0, F means floating-point data. A project can use other file numbers, so a float need not be in file 8. A friendly symbol assigned in the ladder editor is not the PCCC address to send."
+          },
+          {
+            "id": "unit-69",
+            "kind": "table-row",
+            "text": "SLC example | Meaning | Typical local access"
+          },
+          {
+            "id": "unit-70",
+            "kind": "table-row",
+            "text": "N7:0 | First 16-bit signed integer in integer file 7. | Size 2, count 1; Read_I16.vi at byte offset 0."
+          },
+          {
+            "id": "unit-71",
+            "kind": "table-row",
+            "text": "N7:10, count 4 | Four integers starting at element 10, through element 13. | 8 bytes total; Read_I16.vi at offsets 0, 2, 4 and 6."
+          },
+          {
+            "id": "unit-72",
+            "kind": "table-row",
+            "text": "F8:0 | First 32-bit floating-point value in float file 8. | Size 4, count 1; Read_Float.vi at byte offset 0."
+          },
+          {
+            "id": "unit-73",
+            "kind": "table-row",
+            "text": "B3:0 | A full 16-bit word of binary flags. | Size 2, count 1; read the word and test the desired bit."
+          },
+          {
+            "id": "unit-74",
+            "kind": "table-row",
+            "text": "B3:0/5 | A single bit, bit 5 of word 0. This differs from reading the entire word. | Use supported bit-tag behavior. Newer integer getters yield 0 or 1. Do not assume the same bit-write behavior in older libraries."
+          },
+          {
+            "id": "unit-75",
+            "kind": "paragraph",
+            "text": "See the data-file chapters of the SLC 500 Instruction Set Reference Manual for the address layout and other file types. Timers, counters, strings and whole structures have layouts beyond a single integer or float. Do not guess their byte sizes from the number of visible fields."
+          }
+        ]
+      },
+      {
+        "id": "section-9",
+        "title": "Element size, count and local byte offsets",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-76",
+            "kind": "paragraph",
+            "text": "The field values describe the data you request from the PLC. The typed LabVIEW getter then interprets bytes already held in the library's local buffer. Choose the getter to match the PLC type. Setting size 4 does not make an integer a float: both occupy four bytes but encode values in different ways."
+          },
+          {
+            "id": "unit-77",
+            "kind": "table-row",
+            "text": "PLC type | Bytes per value | Example getter"
+          },
+          {
+            "id": "unit-78",
+            "kind": "table-row",
+            "text": "Logix SINT (signed 8-bit integer) | 1 | Read_I8.vi"
+          },
+          {
+            "id": "unit-79",
+            "kind": "table-row",
+            "text": "Logix INT (signed 16-bit integer) / SLC integer N file | 2 | Read_I16.vi"
+          },
+          {
+            "id": "unit-80",
+            "kind": "table-row",
+            "text": "Logix DINT (signed 32-bit integer) | 4 | Read_I32.vi"
+          },
+          {
+            "id": "unit-81",
+            "kind": "table-row",
+            "text": "Logix REAL (single-precision float) / SLC float F file | 4 | Read_Float.vi"
+          },
+          {
+            "id": "unit-82",
+            "kind": "table-row",
+            "text": "Logix LINT (signed 64-bit integer), where supported | 8 | Read_I64.vi"
+          },
+          {
+            "id": "unit-83",
+            "kind": "paragraph",
+            "text": "For ten SLC integers starting at N7:0, enter size 2 and count 10. After a successful tag read, the buffer contains 20 bytes. The first integer starts at byte offset 0, the second at 2 and the tenth at 18. The getter offset is relative to that buffer; it is not the SLC file number or the array's original PLC index."
+          },
+          {
+            "id": "unit-84",
+            "kind": "paragraph",
+            "text": "In the checked 2.7.2 C source, native Logix tags start without a data buffer. An initial read learns the type and size from the controller. SLC sizing comes from its parsed file address. In older 2.0.22 code, an empty size for an ordinary Logix tag can lead to an invalid zero-size buffer. Use explicit correct sizes for simple values when supporting that older library, and check creation status."
+          },
+          {
+            "id": "unit-85",
+            "kind": "paragraph",
+            "text": "For current data, complete Read_Tag.vi before using a typed getter. Check Tag_Size.vi before indexing the buffer. A successful getter or setter concerns local data; a setter alone does not prove that a controller write has completed."
+          }
+        ]
+      },
+      {
+        "id": "section-10",
+        "title": "Debug dropdown: every level",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-86",
+            "kind": "paragraph",
+            "text": "The saved menu offers NONE and numeric strings 1 through 5. Enter numeric text for a level; the wrapper does not translate words such as INFO into a number. The names in the table describe the C constants."
+          },
+          {
+            "id": "unit-87",
+            "kind": "table-row",
+            "text": "Choice | Meaning and when to use it"
+          },
+          {
+            "id": "unit-88",
+            "kind": "table-row",
+            "text": "NONE | The wrapper omits the debug attribute only for this exact trimmed, uppercase text. In 2.7.2, this leaves the library's current level unchanged. It does not actively turn off logging enabled by another tag."
+          },
+          {
+            "id": "unit-89",
+            "kind": "table-row",
+            "text": "1 — ERROR | Errors: a low-volume choice for serious failures."
+          },
+          {
+            "id": "unit-90",
+            "kind": "table-row",
+            "text": "2 — WARN | Warnings as well as errors: useful when attributes or responses look wrong."
+          },
+          {
+            "id": "unit-91",
+            "kind": "table-row",
+            "text": "3 — INFO | General progress and state information: a useful starting point for diagnosis."
+          },
+          {
+            "id": "unit-92",
+            "kind": "table-row",
+            "text": "4 — DETAIL | More detailed internal activity: useful for tracing a connection or request problem."
+          },
+          {
+            "id": "unit-93",
+            "kind": "table-row",
+            "text": "5 — SPEW | The most verbose level: use for a focused trace. Large log volume can affect performance and expose addresses, tag names or data."
+          },
+          {
+            "id": "unit-94",
+            "kind": "table-row",
+            "text": "0 — not a saved menu entry | The C constant for no debug output. However, the checked 2.7.2 create path changes the shared level only for a value greater than zero. Passing 0 here does not reset a level already enabled. Use the library function plc_tag_set_debug_level(0) when an explicit reset is needed; this control does not call that function."
+          },
+          {
+            "id": "unit-95",
+            "kind": "paragraph",
+            "text": "The older 2.0.22 create path resets the shared level to zero when debug is omitted. That differs from 2.7.2. Keep this version difference in mind when a second tag changes logging. Use clean numeric text; do not rely on the parser accepting a numeric prefix in a malformed value."
+          }
+        ]
+      },
+      {
+        "id": "section-11",
+        "title": "Complete hardware examples",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-96",
+            "kind": "paragraph",
+            "text": "These are configuration examples, not discovered devices or completed hardware tests. All example names and addresses must be replaced or confirmed. An empty path below means an empty string, not the word empty. Use the existing file or tag and a count that fits it."
+          },
+          {
+            "id": "unit-97",
+            "kind": "table-row",
+            "text": "Field | SLC 5/05 integer block | SLC 5/05 float | ControlLogix DINT | ControlLogix REAL"
+          },
+          {
+            "id": "unit-98",
+            "kind": "table-row",
+            "text": "protocol | ab_eip | ab_eip | ab_eip | ab_eip"
+          },
+          {
+            "id": "unit-99",
+            "kind": "table-row",
+            "text": "gatewayIP | 192.168.1.50 | 192.168.1.50 | 192.168.1.40 | 192.168.1.40"
+          },
+          {
+            "id": "unit-100",
+            "kind": "table-row",
+            "text": "path | Empty | Empty | 1,0 | 1,3"
+          },
+          {
+            "id": "unit-101",
+            "kind": "table-row",
+            "text": "cpu | slc500 | slc500 | controllogix | controllogix"
+          },
+          {
+            "id": "unit-102",
+            "kind": "table-row",
+            "text": "element size | 2 | 4 | 4 | 4"
+          },
+          {
+            "id": "unit-103",
+            "kind": "table-row",
+            "text": "element count | 10 | 1 | 1 | 1"
+          },
+          {
+            "id": "unit-104",
+            "kind": "table-row",
+            "text": "tag name | N7:0 | F8:0 | ProductionCount | TankLevel"
+          },
+          {
+            "id": "unit-105",
+            "kind": "table-row",
+            "text": "debug level | NONE | NONE | NONE | NONE"
+          },
+          {
+            "id": "unit-106",
+            "kind": "table-row",
+            "text": "After a successful read | Read_I16.vi, offsets 0 through 18 in steps of 2. | Read_Float.vi, offset 0. | Read_I32.vi, offset 0. | Read_Float.vi, offset 0."
+          },
+          {
+            "id": "unit-107",
+            "kind": "table-row",
+            "text": "Hardware assumption | Direct SLC 5/05 Ethernet access with firmware that supports the required EtherNet/IP/PCCC messages. | Ethernet module at the gateway address; processor in chassis slot 0. | Ethernet module at the gateway address; processor in chassis slot 3."
+          },
+          {
+            "id": "unit-108",
+            "kind": "paragraph",
+            "text": "The SLC 5/04 has DH+ rather than the SLC 5/05's Ethernet interface. It needs a supported bridge for this network access. Other SLC models can need other gateways; a serial cable or an Ethernet-to-serial converter alone does not prove compatibility. Check the controller's channels in the SLC 500 Modular Hardware Style User Manual and the gateway's own manual."
+          },
+          {
+            "id": "unit-109",
+            "kind": "paragraph",
+            "text": "For CompactLogix, a common native configuration uses cpu=compactlogix, an existing symbolic tag and, on models with the usual virtual backplane route, path=1,0. Verify the model and Ethernet port before copying it. An embedded Ethernet port and a separate chassis Ethernet module need not use the same route."
+          },
+          {
+            "id": "unit-110",
+            "kind": "paragraph",
+            "text": "SimpleReadWrite.vi passes this cluster to Create_Tag.vi, then uses float getters and a float setter. Its data must therefore be a suitable 32-bit floating-point item, such as the SLC F8:0 or Logix REAL examples. Supplying the integer example does not cause that VI to switch to an integer getter. It also requests a write, so use the example only when that write is intended."
+          }
+        ]
+      },
+      {
+        "id": "section-12",
+        "title": "What Create_Tag.vi sends to C",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-111",
+            "kind": "paragraph",
+            "text": "The VI trims leading and trailing whitespace from all eight fields. It builds the following string, keeping the field values as text. It always includes the seven main attributes, even if a value is empty. It adds &debug=value unless the trimmed debug text is exactly NONE."
+          },
+          {
+            "id": "unit-112",
+            "kind": "code",
+            "text": "protocol={protocol}&gateway={gatewayIP}&path={path}&cpu={cpu}&elem_size={element size}&elem_count={element count}&name={tag name}"
+          },
+          {
+            "id": "unit-113",
+            "kind": "paragraph",
+            "text": "For the SLC integer-block example, the result is:"
+          },
+          {
+            "id": "unit-114",
+            "kind": "code",
+            "text": "protocol=ab_eip&gateway=192.168.1.50&path=&cpu=slc500&elem_size=2&elem_count=10&name=N7:0"
+          },
+          {
+            "id": "unit-115",
+            "kind": "paragraph",
+            "text": "The empty path= is intentional for that direct SLC example. The VI passes this string and a separate timeout to plc_tag_create. It does not escape special characters: & starts another attribute, so do not put it inside a field value. Do not append extra attributes as an improvised workaround; use a wrapper that explicitly supports them."
+          },
+          {
+            "id": "unit-116",
+            "kind": "paragraph",
+            "text": "The C implementation is maintained in the libplctag Git project. The controller-family lookup and sizing rules are in src/libplctag/protocols/ab/ab_common.c; route encoding is in src/libplctag/protocols/ab/cip.c. These paths are relative to that C repository, not this help folder. The complete attribute guide covers options that this eight-field wrapper does not expose."
+          }
+        ]
+      },
+      {
+        "id": "section-13",
+        "title": "First connection and troubleshooting",
+        "level": 2,
+        "units": [
+          {
+            "id": "unit-117",
+            "kind": "list-item",
+            "text": "Confirm the controller model, Ethernet endpoint, route, data name and type with the PLC project. Check that the computer can reach that endpoint. A ping reply alone does not prove that the PLC supports the required messages."
+          },
+          {
+            "id": "unit-118",
+            "kind": "list-item",
+            "text": "Fill this cluster using the matching hardware example. Start with one known scalar and count 1. For SLC, choose the actual data-file address. For Logix, check scope and External Access."
+          },
+          {
+            "id": "unit-119",
+            "kind": "list-item",
+            "text": "Call Create_Tag.vi with a clear incoming error and a suitable timeout, such as 1000 milliseconds. The timeout is a separate input. A positive wait can delay LabVIEW's user interface because this library node uses that thread."
+          },
+          {
+            "id": "unit-120",
+            "kind": "list-item",
+            "text": "Check both the LabVIEW error cluster and the raw error code. With timeout zero, creation can continue after the call returns; check Tag_Status.vi until it is ready or reports an error. Keep only a valid, successfully created handle."
+          },
+          {
+            "id": "unit-121",
+            "kind": "list-item",
+            "text": "Complete Read_Tag.vi, check its result, then use the getter that matches the PLC data type. Validate the returned buffer size and each byte offset. A plausible value alone does not prove that the read succeeded."
+          },
+          {
+            "id": "unit-122",
+            "kind": "list-item",
+            "text": "Release a created handle with Destroy_Tag.vi when finished. Preserve earlier errors while still arranging for cleanup to execute. Changing the cluster after creation does not retarget a handle that already exists; create a new tag with the new settings."
+          },
+          {
+            "id": "unit-123",
+            "kind": "table-row",
+            "text": "Symptom | Settings to inspect first"
+          },
+          {
+            "id": "unit-124",
+            "kind": "table-row",
+            "text": "Cannot create or connect | Gateway address, network access, controller firmware, protocol and CPU string. Replace unsupported menu entries such as CGLX with an accepted value."
+          },
+          {
+            "id": "unit-125",
+            "kind": "table-row",
+            "text": "ControlLogix reachable, tag unavailable | Processor slot in path, exact tag name, program scope and External Access. The Ethernet module can answer while the processor route is wrong."
+          },
+          {
+            "id": "unit-126",
+            "kind": "table-row",
+            "text": "SLC address rejected | Use slc500 and a real data-file address, such as N7:0. Check file number, element range and whether direct or bridged access is required."
+          },
+          {
+            "id": "unit-127",
+            "kind": "table-row",
+            "text": "Values look wrong | PLC type, matching getter, count, starting element and byte offset. A REAL and a DINT are both 4 bytes but require different interpretations."
+          },
+          {
+            "id": "unit-128",
+            "kind": "table-row",
+            "text": "Logging stays enabled after NONE | The library version and its shared debug state. The 2.7.2 create path does not reset a previously enabled level."
+          }
+        ]
+      }
+    ]
+  },
+  "measurement": {
+    "schema_version": 2,
+    "tool": "approachable-fk/2.0 (English heuristic; one syllable per numeric token)",
+    "method": "approachable-fk/2.0",
+    "target": 9.0,
+    "review_band": [
+      8.0,
+      10.0
+    ],
+    "advisory": false,
+    "policy": {
+      "numeric_token_syllables": 1,
+      "target_grade": 9.0,
+      "failure_threshold": 12.0,
+      "failure_operator": ">=",
+      "comparison_basis": "unrounded",
+      "max_rewrite_batches": 3
+    },
+    "blocking_findings": [
+      {
+        "unit_id": "unit-1",
+        "kind": "grade_threshold",
+        "text": "PLC_Attributes.ctl describes which controller to reach and which value to access inside it. A programmable logic controller (PLC) runs the logic for a machine or process. The LabVIEW virtual instrument (VI) Create_Tag.vi uses this cluster to create a library tag: a software object that holds the connection settings and a local copy of the requested data.",
+        "original_text": "PLC_Attributes.ctl describes which controller to reach and which value to access inside it. A programmable logic controller (PLC) runs the logic for a machine or process. The LabVIEW virtual instrument (VI) Create_Tag.vi uses this cluster to create a library tag: a software object that holds the connection settings and a local copy of the requested data.",
+        "text_sha256": "c281f1885c2344c9c75a5ed65a227d9f9fed37710c11f92a2b173a0ab66fbbee",
+        "short_sample": false,
+        "requires_revision": true,
+        "words": 60,
+        "sentences": 3,
+        "syllables": 101,
+        "estimated_grade": 12.07,
+        "estimated_grade_unrounded": 12.073333333333334,
+        "at_or_above_threshold": true,
+        "band": "above",
+        "id": "2a4aa08c98ec0f681377",
+        "section_id": "section-1",
+        "section_title": "Purpose and scope",
+        "threshold": 12.0
+      }
+    ],
+    "measured_units": 44,
+    "failing_units": 1,
+    "language": "en",
+    "syllable_overrides": {},
+    "limitations": "Estimated English syllables; punctuation cannot prove grammatical completeness. Numeric tokens count as one word and one syllable by local convention, not pronunciation. Review selected text, abbreviations, identifiers, and technical pronunciations. Short samples are unstable. Scores do not measure comprehension or accuracy.",
+    "sections": [
+      {
+        "id": "section-1",
+        "title": "Purpose and scope",
+        "assessed": [
+          {
+            "unit_id": "unit-1",
+            "kind": "paragraph",
+            "text": "PLC_Attributes.ctl describes which controller to reach and which value to access inside it. A programmable logic controller (PLC) runs the logic for a machine or process. The LabVIEW virtual instrument (VI) Create_Tag.vi uses this cluster to create a library tag: a software object that holds the connection settings and a local copy of the requested data.",
+            "original_text": "PLC_Attributes.ctl describes which controller to reach and which value to access inside it. A programmable logic controller (PLC) runs the logic for a machine or process. The LabVIEW virtual instrument (VI) Create_Tag.vi uses this cluster to create a library tag: a software object that holds the connection settings and a local copy of the requested data.",
+            "text_sha256": "c281f1885c2344c9c75a5ed65a227d9f9fed37710c11f92a2b173a0ab66fbbee",
+            "short_sample": false,
+            "requires_revision": true,
+            "words": 60,
+            "sentences": 3,
+            "syllables": 101,
+            "estimated_grade": 12.07,
+            "estimated_grade_unrounded": 12.073333333333334,
+            "at_or_above_threshold": true,
+            "band": "above"
+          },
+          {
+            "unit_id": "unit-2",
+            "kind": "paragraph",
+            "text": "Supply the network address, the route to the controller, its family, and an existing tag name or data-file address. Then state how many values you need and their byte size where required. The saved values are examples; they do not describe every installation. This control alone sends no network requests.",
+            "original_text": "Supply the network address, the route to the controller, its family, and an existing tag name or data-file address. Then state how many values you need and their byte size where required. The saved values are examples; they do not describe every installation. This control alone sends no network requests.",
+            "text_sha256": "f4a6ae8818b7f43ac0d5061d3c6ba1bd0232ad6f746484396d0e88040733c06d",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 51,
+            "sentences": 4,
+            "syllables": 78,
+            "estimated_grade": 7.43,
+            "estimated_grade_unrounded": 7.429558823529412,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-3",
+            "kind": "paragraph",
+            "text": "All eight fields store strings, including the numbers. Four have dropdown suggestions: protocol, path, cpu, and debug level. These are string combo boxes, not LabVIEW numeric enums. Their menu entries are listed below. The C library decides whether a string is valid; an entry in the menu does not prove support.",
+            "original_text": "All eight fields store strings, including the numbers. Four have dropdown suggestions: protocol, path, cpu, and debug level. These are string combo boxes, not LabVIEW numeric enums. Their menu entries are listed below. The C library decides whether a string is valid; an entry in the menu does not prove support.",
+            "text_sha256": "e8eb945f66cd66c8155a38ca6d412667f99c770489247f758ef304699e3ee2e7",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 51,
+            "sentences": 5,
+            "syllables": 80,
+            "estimated_grade": 6.9,
+            "estimated_grade_unrounded": 6.897803921568627,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-4",
+            "kind": "paragraph",
+            "text": "This topic covers the current wrapper and the 2.7.2 source behavior discussed below. The bundled libraries identify themselves as 2.7.2; their exact build provenance is not established. Older 2.0.22 behavior is called out where it changes the advice.",
+            "original_text": "This topic covers the current wrapper and the 2.7.2 source behavior discussed below. The bundled libraries identify themselves as 2.7.2; their exact build provenance is not established. Older 2.0.22 behavior is called out where it changes the advice.",
+            "text_sha256": "f4f0e3598abf5c67d1ce3d5aea181c3d39c0adc32ff4793849cc9f4e2f1dd4d4",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 41,
+            "sentences": 3,
+            "syllables": 66,
+            "estimated_grade": 8.74,
+            "estimated_grade_unrounded": 8.735121951219512,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [],
+        "words": 203,
+        "sentences": 15,
+        "syllables": 325,
+        "estimated_grade": 8.58,
+        "estimated_grade_unrounded": 8.579625615763547,
+        "at_or_above_threshold": false,
+        "band": "within"
+      },
+      {
+        "id": "section-2",
+        "title": "How the fields work together",
+        "assessed": [
+          {
+            "unit_id": "unit-5",
+            "kind": "paragraph",
+            "text": "Think of the settings as a delivery address. gatewayIP is the first Ethernet device LabVIEW reaches. Its Internet Protocol (IP) address identifies that endpoint. path gives further directions through that device, if needed. cpu tells the library which controller family is at the destination. tag name identifies the data within that controller.",
+            "original_text": "Think of the settings as a delivery address. gatewayIP is the first Ethernet device LabVIEW reaches. Its Internet Protocol (IP) address identifies that endpoint. path gives further directions through that device, if needed. cpu tells the library which controller family is at the destination. tag name identifies the data within that controller.",
+            "text_sha256": "b520e463deb88875d5f7a80ccdeb62911b74e6deabfe52b0c304be1efa7049d9",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 52,
+            "sentences": 6,
+            "syllables": 96,
+            "estimated_grade": 9.57,
+            "estimated_grade_unrounded": 9.574615384615385,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-6",
+            "kind": "paragraph",
+            "text": "ControlLogix usually uses names such as TankLevel or Recipe[0]. SLC 500 uses typed data files, such as N7:0. Those are two ways to name controller data, not two ways to set a network address. A library tag does not create a new variable in the PLC.",
+            "original_text": "ControlLogix usually uses names such as TankLevel or Recipe[0]. SLC 500 uses typed data files, such as N7:0. Those are two ways to name controller data, not two ways to set a network address. A library tag does not create a new variable in the PLC.",
+            "text_sha256": "d53f19399bf96ce16167083e4b8f6a796f443ba6f7178295a02e14b9852224f0",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 49,
+            "sentences": 4,
+            "syllables": 75,
+            "estimated_grade": 7.25,
+            "estimated_grade_unrounded": 7.248724489795919,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-7",
+            "kind": "paragraph",
+            "text": "element size and element count describe the requested data block. One element might be one integer or one floating-point value. A byte holds eight bits. A bit holds a single on/off state. Byte size affects how the returned buffer must be read; it does not convert one PLC data type into another.",
+            "original_text": "element size and element count describe the requested data block. One element might be one integer or one floating-point value. A byte holds eight bits. A bit holds a single on/off state. Byte size affects how the returned buffer must be read; it does not convert one PLC data type into another.",
+            "text_sha256": "eaec0361102bed4e847720eeec229ce9b27d69c419789b8c2919549a2ec6e9af",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 54,
+            "sentences": 5,
+            "syllables": 78,
+            "estimated_grade": 5.67,
+            "estimated_grade_unrounded": 5.666444444444444,
+            "at_or_above_threshold": false,
+            "band": "below"
+          }
+        ],
+        "excluded": [],
+        "words": 155,
+        "sentences": 15,
+        "syllables": 249,
+        "estimated_grade": 7.4,
+        "estimated_grade_unrounded": 7.396129032258065,
+        "at_or_above_threshold": false,
+        "band": "below"
+      },
+      {
+        "id": "section-3",
+        "title": "Fields and saved values",
+        "assessed": [
+          {
+            "unit_id": "unit-8",
+            "kind": "paragraph",
+            "text": "Start here for each field's purpose and expected input. Follow the sections below for dropdown choices, route details and complete hardware examples. Enter the value only, without quotation marks or an attribute prefix such as gateway=.",
+            "original_text": "Start here for each field's purpose and expected input. Follow the sections below for dropdown choices, route details and complete hardware examples. Enter the value only, without quotation marks or an attribute prefix such as gateway=.",
+            "text_sha256": "95579e72f646cb0e6041475f17fcd38f9977832ab1067db70979bf1a62af8c51",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 36,
+            "sentences": 3,
+            "syllables": 60,
+            "estimated_grade": 8.76,
+            "estimated_grade_unrounded": 8.756666666666666,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-9",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Control / C attribute | Saved value | Meaning, expected input and examples"
+          },
+          {
+            "unit_id": "unit-10",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "protocolprotocol | ab_eip | Selects the communication driver. For the Allen-Bradley examples here, use ab_eip or ab-eip. EtherNet/IP is the industrial protocol carried over Ethernet; selecting it does not configure the computer's network card.Use the same driver for a ControlLogix controller and a supported Ethernet SLC 5/05. The cpu field selects their different data-access methods. The saved dropdown contains ab-eip."
+          },
+          {
+            "unit_id": "unit-11",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "pathpath | 1,0 | The route after reaching the gateway. For a ControlLogix chassis, 1,0 means cross the backplane to the controller in slot 0; 1,3 targets slot 3. The second number is the controller slot, not the Ethernet module slot.For a direct Ethernet SLC 5/05, use an empty field. A Data Highway Plus (DH+) bridge needs a different route. This field is not a disk path, tag name, subnet mask or RSLinx driver name. See Understanding path."
+          },
+          {
+            "unit_id": "unit-12",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "gatewayIPgateway | 192.168.1.40 | The Internet Protocol (IP) address or host name of the first device libplctag contacts. For direct SLC 5/05 access, enter the SLC's Ethernet address. For a ControlLogix processor reached through a 1756-EN2T, enter that module's address.Examples: 192.168.1.40, 10.20.30.40, or a host name your computer can resolve. A supported nonstandard port can be written as 10.20.30.40:44819; ordinary EtherNet/IP uses port 44818. Do not add http://. This is not necessarily the router used by the computer to leave its subnet."
+          },
+          {
+            "unit_id": "unit-13",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "cpucpu | LGX | The controller family, which selects the library's address format and message handling. Use controllogix or lgx for native Logix tag names; use slc500 for SLC data-file addresses. This is not a processor serial number, chassis slot or computer processor type.Examples: ControlLogix cpu=controllogix with TankLevel; SLC 5/05 cpu=slc500 with N7:0. Enter only the value in the control. Modern library docs prefer the attribute name plc, but this wrapper sends the still-recognized name cpu."
+          },
+          {
+            "unit_id": "unit-14",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "element sizeelem_size | Empty | Byte size of one value, expressed as decimal text. Typical values are 2 for a 16-bit integer and 4 for a 32-bit integer or single-precision float. Thus, SLC N7:0 uses 2 bytes and F8:0 uses 4; Logix DINT and REAL both use 4 but need different getters.Use the true PLC type. The newer Logix code learns the size during its initial read, and the newer SLC code derives it from the file address. The older Logix code may need this field to allocate the buffer. Supplying the correct explicit size is useful for these simple scalar examples. It is not a way to force a type change."
+          },
+          {
+            "unit_id": "unit-15",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "element countelem_count | 1 | How many consecutive elements to access, as a positive decimal integer. Use 1 for a scalar. Use 10 with SLC N7:0 for integers N7:0 through N7:9, if they exist. Use 5 with Logix Recipe[10] for five elements starting at index 10.This is a count of values, not bytes or a polling period. Ten 2-byte integers need 20 buffer bytes. The count must fit the real PLC array or file and the device's transfer limits. Zero and negative counts are invalid in the checked 2.7.2 implementation."
+          },
+          {
+            "unit_id": "unit-16",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "tag namename | din_LCEDiveVC | The existing data item to access. For Logix: TankLevel, Recipe[10], Pump.Speed, or Program:MainProgram.TankLevel. Copy the real name and scope from the PLC project; these examples are invented.For SLC: N7:0 is an integer element and F8:0 is a floating-point element. B3:0/5 selects bit 5 of binary-file word 0. Use the address, rather than a ladder-program symbol or comment. Do not put the IP address or chassis route here."
+          },
+          {
+            "unit_id": "unit-17",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "debug leveldebug, unless omitted | NONE | Controls library diagnostic output. Choose NONE for no debug attribute, or numeric text 1 through 5 for increasing detail. For example, 3 requests informational messages and 4 adds more detail while diagnosing a failed connection.This affects the shared loaded library, not just this cluster's tag. Messages go through the library's logging mechanism; they are not returned in the LabVIEW error cluster. In 2.7.2, NONE leaves an existing debug level unchanged. See the full level table below."
+          }
+        ],
+        "words": 36,
+        "sentences": 3,
+        "syllables": 60,
+        "estimated_grade": 8.76,
+        "estimated_grade_unrounded": 8.756666666666666,
+        "at_or_above_threshold": false,
+        "band": "within"
+      },
+      {
+        "id": "section-4",
+        "title": "Protocol choices",
+        "assessed": [
+          {
+            "unit_id": "unit-18",
+            "kind": "paragraph",
+            "text": "The saved menu offers only ab-eip. The saved default ab_eip is an accepted alternate spelling. Both select the Allen-Bradley EtherNet/IP driver. Keep that driver for the SLC and Logix examples in this help.",
+            "original_text": "The saved menu offers only ab-eip. The saved default ab_eip is an accepted alternate spelling. Both select the Allen-Bradley EtherNet/IP driver. Keep that driver for the SLC and Logix examples in this help.",
+            "text_sha256": "24b13283a81a61369c19984d936b2473f1f11684129d17aa460dd766d445eeb1",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 37,
+            "sentences": 4,
+            "syllables": 59,
+            "estimated_grade": 6.83,
+            "estimated_grade_unrounded": 6.833716216216216,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-19",
+            "kind": "paragraph",
+            "text": "The C project also has a Modbus driver over Transmission Control Protocol (TCP). Its path means a unit identifier, and its names identify coils or registers. That is a different configuration: changing only protocol does not adapt these Allen-Bradley settings. See the protocol-specific rules in the libplctag attribute guide.",
+            "original_text": "The C project also has a Modbus driver over Transmission Control Protocol (TCP). Its path means a unit identifier, and its names identify coils or registers. That is a different configuration: changing only protocol does not adapt these Allen-Bradley settings. See the protocol-specific rules in the libplctag attribute guide.",
+            "text_sha256": "4ff55dd897c1a3f4bfebd620162e520890ec77e704977e8af6ae4eccdb0fef82",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 51,
+            "sentences": 4,
+            "syllables": 95,
+            "estimated_grade": 11.36,
+            "estimated_grade_unrounded": 11.362892156862745,
+            "at_or_above_threshold": false,
+            "band": "above"
+          }
+        ],
+        "excluded": [],
+        "words": 88,
+        "sentences": 8,
+        "syllables": 154,
+        "estimated_grade": 9.35,
+        "estimated_grade_unrounded": 9.35,
+        "at_or_above_threshold": false,
+        "band": "within"
+      },
+      {
+        "id": "section-5",
+        "title": "Controller family: saved dropdown choices",
+        "assessed": [
+          {
+            "unit_id": "unit-20",
+            "kind": "paragraph",
+            "text": "The field label cpu means central processing unit. Here, it selects the PLC family, not an exact catalog number. The C lookup accepts uppercase or lowercase letters for known family names.",
+            "original_text": "The field label cpu means central processing unit. Here, it selects the PLC family, not an exact catalog number. The C lookup accepts uppercase or lowercase letters for known family names. The saved dropdown has six entries:",
+            "text_sha256": "f2eff1521ffecdeb64afd7d32e8b7fb7479a974ff462a7bd748b13df9fb22f57",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 31,
+            "sentences": 3,
+            "syllables": 55,
+            "estimated_grade": 9.38,
+            "estimated_grade_unrounded": 9.375483870967741,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-28",
+            "kind": "paragraph",
+            "text": "A SLC 500 user must supply slc500, even though it is missing from the saved suggestions. Wire that string into the cluster field if the front-panel instance restricts typing. The wrapper passes it through; it does not translate menu labels. The menu can therefore be incomplete or out of date.",
+            "original_text": "A SLC 500 user must supply slc500, even though it is missing from the saved suggestions. Wire that string into the cluster field if the front-panel instance restricts typing. The wrapper passes it through; it does not translate menu labels. The menu can therefore be incomplete or out of date.",
+            "text_sha256": "b16750c844228ad2bd6c0b8d89306bf1bc4b4be9125fa3567fc87dc931882076",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 52,
+            "sentences": 4,
+            "syllables": 76,
+            "estimated_grade": 6.73,
+            "estimated_grade_unrounded": 6.726153846153847,
+            "at_or_above_threshold": false,
+            "band": "below"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-20",
+            "reason": "Unterminated fragment; check selection manually.",
+            "text": "The saved dropdown has six entries:"
+          },
+          {
+            "unit_id": "unit-21",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Saved choice | Meaning and use"
+          },
+          {
+            "unit_id": "unit-22",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "lgx | Accepted Logix-family alias. Also matches the saved default LGX. Uses native symbolic tag access for ControlLogix and CompactLogix."
+          },
+          {
+            "unit_id": "unit-23",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "COMPACTLOGIX | Accepted Logix-family alias. Use for CompactLogix hardware; choose the route for its actual Ethernet interface and model."
+          },
+          {
+            "unit_id": "unit-24",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "CGLX | Not recognized by the checked 2.7.2 lookup or current local C lookup. The accepted alias is clgx, with the letters in a different order. Prefer the clearer compactlogix."
+          },
+          {
+            "unit_id": "unit-25",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "CONTROLLOGIX | Accepted. Selects native Logix access. Enter the Ethernet endpoint, route to the processor and the real symbolic tag name."
+          },
+          {
+            "unit_id": "unit-26",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "FLEXLOGIX | Present in this older menu, but absent from the checked controller-type lookup. Do not treat it as a supported value for these libraries. A FlexLogix installation needs separate model, bridge and library compatibility checks."
+          },
+          {
+            "unit_id": "unit-27",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "FLGX | Also absent from the checked lookup. This menu abbreviation is not an accepted replacement for lgx and does not establish FlexLogix support."
+          }
+        ],
+        "words": 83,
+        "sentences": 7,
+        "syllables": 131,
+        "estimated_grade": 7.66,
+        "estimated_grade_unrounded": 7.658382099827883,
+        "at_or_above_threshold": false,
+        "band": "below"
+      },
+      {
+        "id": "section-6",
+        "title": "Other family values accepted by the C lookup",
+        "assessed": [
+          {
+            "unit_id": "unit-29",
+            "kind": "paragraph",
+            "text": "The following are C string choices, not added menu entries. Use a value that matches the hardware at the end of the route. They identify different message formats; they are not interchangeable ways to reach the same data.",
+            "original_text": "The following are C string choices, not added menu entries. Use a value that matches the hardware at the end of the route. They identify different message formats; they are not interchangeable ways to reach the same data.",
+            "text_sha256": "0dd3b66c8e0d2b594a6f04446d0650de08fec01f13290f9e06481ca0c98b5962",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 38,
+            "sentences": 3,
+            "syllables": 58,
+            "estimated_grade": 7.36,
+            "estimated_grade_unrounded": 7.360526315789474,
+            "at_or_above_threshold": false,
+            "band": "below"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-30",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Value / aliases | Hardware and expectations"
+          },
+          {
+            "unit_id": "unit-31",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "slc500, slc | SLC 500 data-file access. A direct SLC 5/05 example uses an empty path and N7:0. A SLC reached over DH+ needs a supported bridge route. This value does not add Ethernet hardware to a serial-only processor."
+          },
+          {
+            "unit_id": "unit-32",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "controllogix, lgx, logix, contrologix, compactlogix, clgx | All select the native Logix family in this lookup. Prefer the full, correctly spelled family name. Use symbolic names, such as TankLevel; route to the actual processor."
+          },
+          {
+            "unit_id": "unit-33",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "plc5, plc | PLC-5 data-file access. Needs compatible Ethernet hardware/firmware or a supported DH+ bridge. The similar-looking SLC address syntax does not make PLC-5 and SLC messages identical."
+          },
+          {
+            "unit_id": "unit-34",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "micrologix, mlgx | MicroLogix family using data-file addresses. The access path depends on the model and any gateway. MicroLogix and Micro800 are different families."
+          },
+          {
+            "unit_id": "unit-35",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "micro800, micrologix800, mlgx800 | Micro800 family using symbolic names and connected messages. Its route rules differ from ControlLogix. Library guidance requires no path attribute, while this wrapper always emits one, even when blank. Use a wrapper that can omit it before relying on Micro800 support."
+          },
+          {
+            "unit_id": "unit-36",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "logixpccc, lgxpccc, lgxplc5, logixplc5, lgx-pccc, logix-pccc, lgx-plc5, logix-plc5 | Logix through its older PLC-5-style data access. PCCC means Programmable Controller Communication Commands. This mode needs PLC/SLC data-table mapping in the Logix project. Use native controllogix for ordinary symbolic tags."
+          },
+          {
+            "unit_id": "unit-37",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "omron-njnx, omron-nj, omron-nx, njnx, nx1p2 | Recognized Omron NJ/NX family values. These dispatch to the Omron implementation. Use its model-specific route, data-type and variable-access instructions; the Allen-Bradley examples here do not configure an Omron controller."
+          },
+          {
+            "unit_id": "unit-38",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "generic, cip | Advanced Common Industrial Protocol (CIP) device mode. This is not automatic PLC detection and does not make every EtherNet/IP device readable as a Logix tag. It needs a service-specific setup beyond these basic examples."
+          }
+        ],
+        "words": 38,
+        "sentences": 3,
+        "syllables": 58,
+        "estimated_grade": 7.36,
+        "estimated_grade_unrounded": 7.360526315789474,
+        "at_or_above_threshold": false,
+        "band": "below"
+      },
+      {
+        "id": "section-7",
+        "title": "Understanding path",
+        "assessed": [
+          {
+            "unit_id": "unit-39",
+            "kind": "paragraph",
+            "text": "A ControlLogix system can have several plug-in modules in a chassis. Its backplane is the internal link between those modules. The Ethernet module may receive a message first, then pass it across the backplane to the processor that owns the tag. The gatewayIP reaches the Ethernet module; the path describes what to do next.",
+            "original_text": "A ControlLogix system can have several plug-in modules in a chassis. Its backplane is the internal link between those modules. The Ethernet module may receive a message first, then pass it across the backplane to the processor that owns the tag. The gatewayIP reaches the Ethernet module; the path describes what to do next.",
+            "text_sha256": "f83760df2492522b2eda348da1420ccecf6affdc04cb77f7c46dc8c71a05db12",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 55,
+            "sentences": 4,
+            "syllables": 87,
+            "estimated_grade": 8.44,
+            "estimated_grade_unrounded": 8.437954545454545,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-40",
+            "kind": "paragraph",
+            "text": "For the usual chassis route, enter comma-separated port and destination pairs. In 1,3, port 1 means the backplane and destination 3 means chassis slot 3. Slots are numbered from zero. If the Ethernet module is in slot 1 and the processor is in slot 3, use the Ethernet module's IP address and path=1,3. Do not use 1,1 merely because the Ethernet module is in slot 1.",
+            "original_text": "For the usual chassis route, enter comma-separated port and destination pairs. In 1,3, port 1 means the backplane and destination 3 means chassis slot 3. Slots are numbered from zero. If the Ethernet module is in slot 1 and the processor is in slot 3, use the Ethernet module's IP address and path=1,3. Do not use 1,1 merely because the Ethernet module is in slot 1.",
+            "text_sha256": "926e008a5510b6082527bd89c6bfac6e97426fb2a9e1009504ca507518bc6bab",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 71,
+            "sentences": 5,
+            "syllables": 104,
+            "estimated_grade": 7.23,
+            "estimated_grade_unrounded": 7.232507042253521,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-41",
+            "kind": "paragraph",
+            "text": "The saved route menu contains every value below. These choices all use the same backplane-port rule. Pick the processor slot from the real hardware configuration; a number in the menu does not mean that the chassis has that many slots.",
+            "original_text": "The saved route menu contains every value below. These choices all use the same backplane-port rule. Pick the processor slot from the real hardware configuration; a number in the menu does not mean that the chassis has that many slots.",
+            "text_sha256": "e3d661188ecea4fdc6c45d36fb6ab33d62e7a2a17ded80d78432e3a681389588",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 41,
+            "sentences": 3,
+            "syllables": 59,
+            "estimated_grade": 6.72,
+            "estimated_grade_unrounded": 6.720487804878049,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-61",
+            "kind": "paragraph",
+            "text": "A longer route can cross more than one chassis or network. For example, 1,4,2,10.20.30.40,1,0 describes this assumed layout: cross the first backplane to an Ethernet bridge in slot 4; leave its port 2 for address 10.20.30.40; then cross that device's backplane to slot 0. This is a route example, not a universal port map. Confirm each module's port numbers and routing support.",
+            "original_text": "A longer route can cross more than one chassis or network. For example, 1,4,2,10.20.30.40,1,0 describes this assumed layout: cross the first backplane to an Ethernet bridge in slot 4; leave its port 2 for address 10.20.30.40; then cross that device's backplane to slot 0. This is a route example, not a universal port map. Confirm each module's port numbers and routing support.",
+            "text_sha256": "e09a3618871c306a4dcb98170f3fe64649bab6653db4b1630aeb9d0f83fa1b78",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 71,
+            "sentences": 4,
+            "syllables": 95,
+            "estimated_grade": 7.12,
+            "estimated_grade_unrounded": 7.1212323943661975,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-62",
+            "kind": "paragraph",
+            "text": "For a direct SLC 5/05 Ethernet connection, leave path empty. The PLC is already the endpoint. The native SLC path is not the processor's physical rack slot; adding 1,0 is not needed. A plain non-DH+ route can be ignored by the SLC library, which does not mean it successfully routed through another chassis.",
+            "original_text": "For a direct SLC 5/05 Ethernet connection, leave path empty. The PLC is already the endpoint. The native SLC path is not the processor's physical rack slot; adding 1,0 is not needed. A plain non-DH+ route can be ignored by the SLC library, which does not mean it successfully routed through another chassis.",
+            "text_sha256": "53261694c98365f8174a6d765035c1ad9b9aa5ed20317edada323ff86a96e27e",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 56,
+            "sentences": 4,
+            "syllables": 91,
+            "estimated_grade": 9.05,
+            "estimated_grade_unrounded": 9.045,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-63",
+            "kind": "paragraph",
+            "text": "For an SLC 5/04 on Data Highway Plus (DH+), the first Ethernet device may be a ControlLogix bridge. The library has a special final route segment, A:source:destination or B:source:destination, for the bridge's DH+ channel. The preceding pairs reach the 1756-DHRIO module, which bridges the chassis to the DH+ network. The segment must be last. The C parser reads node numbers as decimal; convert a node address shown in octal before entering it. For instance, octal 10 is decimal 8.",
+            "original_text": "For an SLC 5/04 on Data Highway Plus (DH+), the first Ethernet device may be a ControlLogix bridge. The library has a special final route segment, A:source:destination or B:source:destination, for the bridge's DH+ channel. The preceding pairs reach the 1756-DHRIO module, which bridges the chassis to the DH+ network. The segment must be last. The C parser reads node numbers as decimal; convert a node address shown in octal before entering it. For instance, octal 10 is decimal 8.",
+            "text_sha256": "2e9ea56adf4d4500be3c3620a61caa9017e1d1f8126c522765e72cb81003ebe5",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 85,
+            "sentences": 6,
+            "syllables": 135,
+            "estimated_grade": 8.68,
+            "estimated_grade_unrounded": 8.676176470588235,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-64",
+            "kind": "paragraph",
+            "text": "A DH+ route needs the actual bridge slot, channel, source setting and target node. Confirm them with the controls engineer and the 1756-DHRIO manual, connection paths and routing sections. Do not substitute a normal ControlLogix slot route for the bridge-specific form.",
+            "original_text": "A DH+ route needs the actual bridge slot, channel, source setting and target node. Confirm them with the controls engineer and the 1756-DHRIO manual, connection paths and routing sections. Do not substitute a normal ControlLogix slot route for the bridge-specific form.",
+            "text_sha256": "cdc880bdfdcee9586be31aeaab5f81dff69910ec8fcaca47441748441df8391c",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 43,
+            "sentences": 3,
+            "syllables": 69,
+            "estimated_grade": 8.93,
+            "estimated_grade_unrounded": 8.934883720930232,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-65",
+            "kind": "paragraph",
+            "text": "To find a route, start with the electrical drawings and the live hardware tree in Studio 5000 or RSLinx/FactoryTalk Linx. Identify the Ethernet endpoint first, then each module or network hop to the processor. A software browse path may include a computer driver name; that name is not part of libplctag's numeric route. Rockwell's ControlFLASH manual illustrates the distinction between an Ethernet address, backplane and slot.",
+            "original_text": "To find a route, start with the electrical drawings and the live hardware tree in Studio 5000 or RSLinx/FactoryTalk Linx. Identify the Ethernet endpoint first, then each module or network hop to the processor. A software browse path may include a computer driver name; that name is not part of libplctag's numeric route. Rockwell's ControlFLASH manual illustrates the distinction between an Ethernet address, backplane and slot.",
+            "text_sha256": "2735cf96e8e174dd05bdd9ff8023000acdb1e050978ef5549ec2775267a1c619",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 67,
+            "sentences": 4,
+            "syllables": 108,
+            "estimated_grade": 9.96,
+            "estimated_grade_unrounded": 9.96339552238806,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-42",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Saved choice | Destination after the gateway"
+          },
+          {
+            "unit_id": "unit-43",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,0 | Backplane port 1 to processor slot 0."
+          },
+          {
+            "unit_id": "unit-44",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,1 | Backplane port 1 to processor slot 1."
+          },
+          {
+            "unit_id": "unit-45",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,2 | Backplane port 1 to processor slot 2."
+          },
+          {
+            "unit_id": "unit-46",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,3 | Backplane port 1 to processor slot 3."
+          },
+          {
+            "unit_id": "unit-47",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,4 | Backplane port 1 to processor slot 4."
+          },
+          {
+            "unit_id": "unit-48",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,5 | Backplane port 1 to processor slot 5."
+          },
+          {
+            "unit_id": "unit-49",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,6 | Backplane port 1 to processor slot 6."
+          },
+          {
+            "unit_id": "unit-50",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,7 | Backplane port 1 to processor slot 7."
+          },
+          {
+            "unit_id": "unit-51",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,8 | Backplane port 1 to processor slot 8."
+          },
+          {
+            "unit_id": "unit-52",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,9 | Backplane port 1 to processor slot 9."
+          },
+          {
+            "unit_id": "unit-53",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,10 | Backplane port 1 to processor slot 10."
+          },
+          {
+            "unit_id": "unit-54",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,11 | Backplane port 1 to processor slot 11."
+          },
+          {
+            "unit_id": "unit-55",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,12 | Backplane port 1 to processor slot 12."
+          },
+          {
+            "unit_id": "unit-56",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,13 | Backplane port 1 to processor slot 13."
+          },
+          {
+            "unit_id": "unit-57",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,14 | Backplane port 1 to processor slot 14."
+          },
+          {
+            "unit_id": "unit-58",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,15 | Backplane port 1 to processor slot 15."
+          },
+          {
+            "unit_id": "unit-59",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,16 | Backplane port 1 to processor slot 16."
+          },
+          {
+            "unit_id": "unit-60",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1,17 | Backplane port 1 to processor slot 17."
+          }
+        ],
+        "words": 489,
+        "sentences": 33,
+        "syllables": 748,
+        "estimated_grade": 8.24,
+        "estimated_grade_unrounded": 8.238988659602157,
+        "at_or_above_threshold": false,
+        "band": "within"
+      },
+      {
+        "id": "section-8",
+        "title": "Tag names and data-file addresses",
+        "assessed": [
+          {
+            "unit_id": "unit-66",
+            "kind": "paragraph",
+            "text": "For ControlLogix, open the project in Studio 5000 Logix Designer. Controller Tags contains names visible at controller scope. Program Tags contains names local to a program. Use TankLevel for a controller-scoped tag, or Program:MainProgram.TankLevel for that tag in program MainProgram. An array index selects a starting element, such as Recipe[10]; a dot selects a structure member, such as Pump.Speed.",
+            "original_text": "For ControlLogix, open the project in Studio 5000 Logix Designer. Controller Tags contains names visible at controller scope. Program Tags contains names local to a program. Use TankLevel for a controller-scoped tag, or Program:MainProgram.TankLevel for that tag in program MainProgram. An array index selects a starting element, such as Recipe[10]; a dot selects a structure member, such as Pump.Speed.",
+            "text_sha256": "fd61a6d8377ba815ed2e3b7a27aa0b4d66df4488a33daa4fbdd9919995a6466e",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 64,
+            "sentences": 5,
+            "syllables": 108,
+            "estimated_grade": 9.31,
+            "estimated_grade_unrounded": 9.3145,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-67",
+            "kind": "paragraph",
+            "text": "Check the tag's type and External Access setting. None prevents external access; read-only access cannot support a write. Reading a whole structure can also fail when a member is restricted. Rockwell explains these restrictions in Logix 5000 Controllers Data Access. The names shown here must be replaced with real tags from the target project.",
+            "original_text": "Check the tag's type and External Access setting. None prevents external access; read-only access cannot support a write. Reading a whole structure can also fail when a member is restricted. Rockwell explains these restrictions in Logix 5000 Controllers Data Access. The names shown here must be replaced with real tags from the target project.",
+            "text_sha256": "94f4ef3419eafc4b5625efffa8d2a07362c8f004e1a001eefa260c1a36065f06",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 55,
+            "sentences": 5,
+            "syllables": 86,
+            "estimated_grade": 7.15,
+            "estimated_grade_unrounded": 7.150909090909091,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-68",
+            "kind": "paragraph",
+            "text": "For an SLC 500, open Data Files in RSLogix 500 and find the address and file type. In N7:0, N means integer data, 7 is the file number and 0 is the element number. In F8:0, F means floating-point data. A project can use other file numbers, so a float need not be in file 8. A friendly symbol assigned in the ladder editor is not the PCCC address to send.",
+            "original_text": "For an SLC 500, open Data Files in RSLogix 500 and find the address and file type. In N7:0, N means integer data, 7 is the file number and 0 is the element number. In F8:0, F means floating-point data. A project can use other file numbers, so a float need not be in file 8. A friendly symbol assigned in the ladder editor is not the PCCC address to send.",
+            "text_sha256": "4b4f29b1427d5a9448c03cef4d2204f3cabf8a989ca25ae9d97f0a68d00d28b8",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 76,
+            "sentences": 5,
+            "syllables": 105,
+            "estimated_grade": 6.64,
+            "estimated_grade_unrounded": 6.640631578947368,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-75",
+            "kind": "paragraph",
+            "text": "See the data-file chapters of the SLC 500 Instruction Set Reference Manual for the address layout and other file types. Timers, counters, strings and whole structures have layouts beyond a single integer or float. Do not guess their byte sizes from the number of visible fields.",
+            "original_text": "See the data-file chapters of the SLC 500 Instruction Set Reference Manual for the address layout and other file types. Timers, counters, strings and whole structures have layouts beyond a single integer or float. Do not guess their byte sizes from the number of visible fields.",
+            "text_sha256": "ddb2be161854af57b2abd0fe0b8c4dc403cda6c00dcc4c37370abad5306054f7",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 47,
+            "sentences": 3,
+            "syllables": 70,
+            "estimated_grade": 8.09,
+            "estimated_grade_unrounded": 8.094468085106383,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-69",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "SLC example | Meaning | Typical local access"
+          },
+          {
+            "unit_id": "unit-70",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "N7:0 | First 16-bit signed integer in integer file 7. | Size 2, count 1; Read_I16.vi at byte offset 0."
+          },
+          {
+            "unit_id": "unit-71",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "N7:10, count 4 | Four integers starting at element 10, through element 13. | 8 bytes total; Read_I16.vi at offsets 0, 2, 4 and 6."
+          },
+          {
+            "unit_id": "unit-72",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "F8:0 | First 32-bit floating-point value in float file 8. | Size 4, count 1; Read_Float.vi at byte offset 0."
+          },
+          {
+            "unit_id": "unit-73",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "B3:0 | A full 16-bit word of binary flags. | Size 2, count 1; read the word and test the desired bit."
+          },
+          {
+            "unit_id": "unit-74",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "B3:0/5 | A single bit, bit 5 of word 0. This differs from reading the entire word. | Use supported bit-tag behavior. Newer integer getters yield 0 or 1. Do not assume the same bit-write behavior in older libraries."
+          }
+        ],
+        "words": 242,
+        "sentences": 18,
+        "syllables": 369,
+        "estimated_grade": 7.65,
+        "estimated_grade_unrounded": 7.645895316804408,
+        "at_or_above_threshold": false,
+        "band": "below"
+      },
+      {
+        "id": "section-9",
+        "title": "Element size, count and local byte offsets",
+        "assessed": [
+          {
+            "unit_id": "unit-76",
+            "kind": "paragraph",
+            "text": "The field values describe the data you request from the PLC. The typed LabVIEW getter then interprets bytes already held in the library's local buffer. Choose the getter to match the PLC type. Setting size 4 does not make an integer a float: both occupy four bytes but encode values in different ways.",
+            "original_text": "The field values describe the data you request from the PLC. The typed LabVIEW getter then interprets bytes already held in the library's local buffer. Choose the getter to match the PLC type. Setting size 4 does not make an integer a float: both occupy four bytes but encode values in different ways.",
+            "text_sha256": "a3360073ae17e0fb1c9b8466e249da71c309de86602df53071f06f26c8c62e2a",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 53,
+            "sentences": 4,
+            "syllables": 83,
+            "estimated_grade": 8.06,
+            "estimated_grade_unrounded": 8.056745283018868,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-83",
+            "kind": "paragraph",
+            "text": "For ten SLC integers starting at N7:0, enter size 2 and count 10. After a successful tag read, the buffer contains 20 bytes. The first integer starts at byte offset 0, the second at 2 and the tenth at 18. The getter offset is relative to that buffer; it is not the SLC file number or the array's original PLC index.",
+            "original_text": "For ten SLC integers starting at N7:0, enter size 2 and count 10. After a successful tag read, the buffer contains 20 bytes. The first integer starts at byte offset 0, the second at 2 and the tenth at 18. The getter offset is relative to that buffer; it is not the SLC file number or the array's original PLC index.",
+            "text_sha256": "aec80eca56fc32a58bfe078fff18bed2eb243cc8f4f4e37589e289a80bc74747",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 63,
+            "sentences": 4,
+            "syllables": 94,
+            "estimated_grade": 8.16,
+            "estimated_grade_unrounded": 8.158849206349206,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-84",
+            "kind": "paragraph",
+            "text": "In the checked 2.7.2 C source, native Logix tags start without a data buffer. An initial read learns the type and size from the controller. SLC sizing comes from its parsed file address. In older 2.0.22 code, an empty size for an ordinary Logix tag can lead to an invalid zero-size buffer. Use explicit correct sizes for simple values when supporting that older library, and check creation status.",
+            "original_text": "In the checked 2.7.2 C source, native Logix tags start without a data buffer. An initial read learns the type and size from the controller. SLC sizing comes from its parsed file address. In older 2.0.22 code, an empty size for an ordinary Logix tag can lead to an invalid zero-size buffer. Use explicit correct sizes for simple values when supporting that older library, and check creation status.",
+            "text_sha256": "e8db8990ab3b1da0775f314dd13e2d2efcc8b03a98354f1a995294a64f040ddd",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 71,
+            "sentences": 5,
+            "syllables": 108,
+            "estimated_grade": 7.9,
+            "estimated_grade_unrounded": 7.897295774647887,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-85",
+            "kind": "paragraph",
+            "text": "For current data, complete Read_Tag.vi before using a typed getter. Check Tag_Size.vi before indexing the buffer. A successful getter or setter concerns local data; a setter alone does not prove that a controller write has completed.",
+            "original_text": "For current data, complete Read_Tag.vi before using a typed getter. Check Tag_Size.vi before indexing the buffer. A successful getter or setter concerns local data; a setter alone does not prove that a controller write has completed.",
+            "text_sha256": "8d828aeda568987764901131c8d8db7bb0277642a999af7db08a07b7d138e947",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 40,
+            "sentences": 3,
+            "syllables": 63,
+            "estimated_grade": 8.2,
+            "estimated_grade_unrounded": 8.195,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-77",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "PLC type | Bytes per value | Example getter"
+          },
+          {
+            "unit_id": "unit-78",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Logix SINT (signed 8-bit integer) | 1 | Read_I8.vi"
+          },
+          {
+            "unit_id": "unit-79",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Logix INT (signed 16-bit integer) / SLC integer N file | 2 | Read_I16.vi"
+          },
+          {
+            "unit_id": "unit-80",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Logix DINT (signed 32-bit integer) | 4 | Read_I32.vi"
+          },
+          {
+            "unit_id": "unit-81",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Logix REAL (single-precision float) / SLC float F file | 4 | Read_Float.vi"
+          },
+          {
+            "unit_id": "unit-82",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Logix LINT (signed 64-bit integer), where supported | 8 | Read_I64.vi"
+          }
+        ],
+        "words": 227,
+        "sentences": 16,
+        "syllables": 348,
+        "estimated_grade": 8.03,
+        "estimated_grade_unrounded": 8.032992841409692,
+        "at_or_above_threshold": false,
+        "band": "within"
+      },
+      {
+        "id": "section-10",
+        "title": "Debug dropdown: every level",
+        "assessed": [
+          {
+            "unit_id": "unit-86",
+            "kind": "paragraph",
+            "text": "The saved menu offers NONE and numeric strings 1 through 5. Enter numeric text for a level; the wrapper does not translate words such as INFO into a number. The names in the table describe the C constants.",
+            "original_text": "The saved menu offers NONE and numeric strings 1 through 5. Enter numeric text for a level; the wrapper does not translate words such as INFO into a number. The names in the table describe the C constants.",
+            "text_sha256": "b971c2cf424f97e6b3f45866be5c66f2269cb339303ac73e9b4383422b2889d3",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 38,
+            "sentences": 3,
+            "syllables": 60,
+            "estimated_grade": 7.98,
+            "estimated_grade_unrounded": 7.981578947368421,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-95",
+            "kind": "paragraph",
+            "text": "The older 2.0.22 create path resets the shared level to zero when debug is omitted. That differs from 2.7.2. Keep this version difference in mind when a second tag changes logging. Use clean numeric text; do not rely on the parser accepting a numeric prefix in a malformed value.",
+            "original_text": "The older 2.0.22 create path resets the shared level to zero when debug is omitted. That differs from 2.7.2. Keep this version difference in mind when a second tag changes logging. Use clean numeric text; do not rely on the parser accepting a numeric prefix in a malformed value.",
+            "text_sha256": "dca571be97104fbd7d3f4bd88e174352f695231b9f3f9f45bc439e9ec925d685",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 51,
+            "sentences": 4,
+            "syllables": 75,
+            "estimated_grade": 6.74,
+            "estimated_grade_unrounded": 6.735441176470588,
+            "at_or_above_threshold": false,
+            "band": "below"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-87",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Choice | Meaning and when to use it"
+          },
+          {
+            "unit_id": "unit-88",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "NONE | The wrapper omits the debug attribute only for this exact trimmed, uppercase text. In 2.7.2, this leaves the library's current level unchanged. It does not actively turn off logging enabled by another tag."
+          },
+          {
+            "unit_id": "unit-89",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "1 — ERROR | Errors: a low-volume choice for serious failures."
+          },
+          {
+            "unit_id": "unit-90",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "2 — WARN | Warnings as well as errors: useful when attributes or responses look wrong."
+          },
+          {
+            "unit_id": "unit-91",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "3 — INFO | General progress and state information: a useful starting point for diagnosis."
+          },
+          {
+            "unit_id": "unit-92",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "4 — DETAIL | More detailed internal activity: useful for tracing a connection or request problem."
+          },
+          {
+            "unit_id": "unit-93",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "5 — SPEW | The most verbose level: use for a focused trace. Large log volume can affect performance and expose addresses, tag names or data."
+          },
+          {
+            "unit_id": "unit-94",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "0 — not a saved menu entry | The C constant for no debug output. However, the checked 2.7.2 create path changes the shared level only for a value greater than zero. Passing 0 here does not reset a level already enabled. Use the library function plc_tag_set_debug_level(0) when an explicit reset is needed; this control does not call that function."
+          }
+        ],
+        "words": 89,
+        "sentences": 7,
+        "syllables": 135,
+        "estimated_grade": 7.27,
+        "estimated_grade_unrounded": 7.267447833065811,
+        "at_or_above_threshold": false,
+        "band": "below"
+      },
+      {
+        "id": "section-11",
+        "title": "Complete hardware examples",
+        "assessed": [
+          {
+            "unit_id": "unit-96",
+            "kind": "paragraph",
+            "text": "These are configuration examples, not discovered devices or completed hardware tests. All example names and addresses must be replaced or confirmed. An empty path below means an empty string, not the word empty. Use the existing file or tag and a count that fits it.",
+            "original_text": "These are configuration examples, not discovered devices or completed hardware tests. All example names and addresses must be replaced or confirmed. An empty path below means an empty string, not the word empty. Use the existing file or tag and a count that fits it.",
+            "text_sha256": "6c692372826785b343aeb50c932b7a12627715ceeef6849516313fb1da59698a",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 45,
+            "sentences": 4,
+            "syllables": 71,
+            "estimated_grade": 7.42,
+            "estimated_grade_unrounded": 7.415277777777778,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-108",
+            "kind": "paragraph",
+            "text": "The SLC 5/04 has DH+ rather than the SLC 5/05's Ethernet interface. It needs a supported bridge for this network access. Other SLC models can need other gateways; a serial cable or an Ethernet-to-serial converter alone does not prove compatibility. Check the controller's channels in the SLC 500 Modular Hardware Style User Manual and the gateway's own manual.",
+            "original_text": "The SLC 5/04 has DH+ rather than the SLC 5/05's Ethernet interface. It needs a supported bridge for this network access. Other SLC models can need other gateways; a serial cable or an Ethernet-to-serial converter alone does not prove compatibility. Check the controller's channels in the SLC 500 Modular Hardware Style User Manual and the gateway's own manual.",
+            "text_sha256": "927d674312b651d0a03e697ef2c635dc065471071e63deb1dee75a310361b94e",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 63,
+            "sentences": 4,
+            "syllables": 110,
+            "estimated_grade": 11.16,
+            "estimated_grade_unrounded": 11.155674603174603,
+            "at_or_above_threshold": false,
+            "band": "above"
+          },
+          {
+            "unit_id": "unit-109",
+            "kind": "paragraph",
+            "text": "For CompactLogix, a common native configuration uses cpu=compactlogix, an existing symbolic tag and, on models with the usual virtual backplane route, path=1,0. Verify the model and Ethernet port before copying it. An embedded Ethernet port and a separate chassis Ethernet module need not use the same route.",
+            "original_text": "For CompactLogix, a common native configuration uses cpu=compactlogix, an existing symbolic tag and, on models with the usual virtual backplane route, path=1,0. Verify the model and Ethernet port before copying it. An embedded Ethernet port and a separate chassis Ethernet module need not use the same route.",
+            "text_sha256": "163bccdf7d8da6129faf80636a02e5ab82c29061af5784c8a1bc865000b58da5",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 50,
+            "sentences": 3,
+            "syllables": 88,
+            "estimated_grade": 11.68,
+            "estimated_grade_unrounded": 11.678,
+            "at_or_above_threshold": false,
+            "band": "above"
+          },
+          {
+            "unit_id": "unit-110",
+            "kind": "paragraph",
+            "text": "SimpleReadWrite.vi passes this cluster to Create_Tag.vi, then uses float getters and a float setter. Its data must therefore be a suitable 32-bit floating-point item, such as the SLC F8:0 or Logix REAL examples. Supplying the integer example does not cause that VI to switch to an integer getter. It also requests a write, so use the example only when that write is intended.",
+            "original_text": "SimpleReadWrite.vi passes this cluster to Create_Tag.vi, then uses float getters and a float setter. Its data must therefore be a suitable 32-bit floating-point item, such as the SLC F8:0 or Logix REAL examples. Supplying the integer example does not cause that VI to switch to an integer getter. It also requests a write, so use the example only when that write is intended.",
+            "text_sha256": "be0ee856664cbb666223de11f3aff017396cd17c2e2d3e077f54a221a2744630",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 70,
+            "sentences": 4,
+            "syllables": 109,
+            "estimated_grade": 9.61,
+            "estimated_grade_unrounded": 9.609285714285715,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-97",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Field | SLC 5/05 integer block | SLC 5/05 float | ControlLogix DINT | ControlLogix REAL"
+          },
+          {
+            "unit_id": "unit-98",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "protocol | ab_eip | ab_eip | ab_eip | ab_eip"
+          },
+          {
+            "unit_id": "unit-99",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "gatewayIP | 192.168.1.50 | 192.168.1.50 | 192.168.1.40 | 192.168.1.40"
+          },
+          {
+            "unit_id": "unit-100",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "path | Empty | Empty | 1,0 | 1,3"
+          },
+          {
+            "unit_id": "unit-101",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "cpu | slc500 | slc500 | controllogix | controllogix"
+          },
+          {
+            "unit_id": "unit-102",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "element size | 2 | 4 | 4 | 4"
+          },
+          {
+            "unit_id": "unit-103",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "element count | 10 | 1 | 1 | 1"
+          },
+          {
+            "unit_id": "unit-104",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "tag name | N7:0 | F8:0 | ProductionCount | TankLevel"
+          },
+          {
+            "unit_id": "unit-105",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "debug level | NONE | NONE | NONE | NONE"
+          },
+          {
+            "unit_id": "unit-106",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "After a successful read | Read_I16.vi, offsets 0 through 18 in steps of 2. | Read_Float.vi, offset 0. | Read_I32.vi, offset 0. | Read_Float.vi, offset 0."
+          },
+          {
+            "unit_id": "unit-107",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Hardware assumption | Direct SLC 5/05 Ethernet access with firmware that supports the required EtherNet/IP/PCCC messages. | Ethernet module at the gateway address; processor in chassis slot 0. | Ethernet module at the gateway address; processor in chassis slot 3."
+          }
+        ],
+        "words": 228,
+        "sentences": 15,
+        "syllables": 378,
+        "estimated_grade": 9.9,
+        "estimated_grade_unrounded": 9.901157894736842,
+        "at_or_above_threshold": false,
+        "band": "within"
+      },
+      {
+        "id": "section-12",
+        "title": "What Create_Tag.vi sends to C",
+        "assessed": [
+          {
+            "unit_id": "unit-111",
+            "kind": "paragraph",
+            "text": "The VI trims leading and trailing whitespace from all eight fields. It builds the following string, keeping the field values as text. It always includes the seven main attributes, even if a value is empty. It adds &debug=value unless the trimmed debug text is exactly NONE.",
+            "original_text": "The VI trims leading and trailing whitespace from all eight fields. It builds the following string, keeping the field values as text. It always includes the seven main attributes, even if a value is empty. It adds &debug=value unless the trimmed debug text is exactly NONE.",
+            "text_sha256": "3e46e015964c1047364c154241bdaaf49dc6de7ca6fd07b80f5785651235813a",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 47,
+            "sentences": 4,
+            "syllables": 73,
+            "estimated_grade": 7.32,
+            "estimated_grade_unrounded": 7.320159574468085,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-115",
+            "kind": "paragraph",
+            "text": "The empty path= is intentional for that direct SLC example. The VI passes this string and a separate timeout to plc_tag_create. It does not escape special characters: & starts another attribute, so do not put it inside a field value. Do not append extra attributes as an improvised workaround; use a wrapper that explicitly supports them.",
+            "original_text": "The empty path= is intentional for that direct SLC example. The VI passes this string and a separate timeout to plc_tag_create. It does not escape special characters: & starts another attribute, so do not put it inside a field value. Do not append extra attributes as an improvised workaround; use a wrapper that explicitly supports them.",
+            "text_sha256": "47dd5e75dc4f6a8cd8e5cd7e8cc48285aaf9ec20a37b117e19335593c24073ce",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 57,
+            "sentences": 4,
+            "syllables": 94,
+            "estimated_grade": 9.43,
+            "estimated_grade_unrounded": 9.427149122807018,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-116",
+            "kind": "paragraph",
+            "text": "The C implementation is maintained in the libplctag Git project. The controller-family lookup and sizing rules are in src/libplctag/protocols/ab/ab_common.c; route encoding is in src/libplctag/protocols/ab/cip.c. These paths are relative to that C repository, not this help folder. The complete attribute guide covers options that this eight-field wrapper does not expose.",
+            "original_text": "The C implementation is maintained in the libplctag Git project. The controller-family lookup and sizing rules are in src/libplctag/protocols/ab/ab_common.c; route encoding is in src/libplctag/protocols/ab/cip.c. These paths are relative to that C repository, not this help folder. The complete attribute guide covers options that this eight-field wrapper does not expose.",
+            "text_sha256": "edea3f53834a740cafb309fa46fcb17539f6e9668a6f449d41d388801761d8db",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 62,
+            "sentences": 4,
+            "syllables": 99,
+            "estimated_grade": 9.3,
+            "estimated_grade_unrounded": 9.296935483870968,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-112",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "protocol={protocol}&gateway={gatewayIP}&path={path}&cpu={cpu}&elem_size={element size}&elem_count={element count}&name={tag name}"
+          },
+          {
+            "unit_id": "unit-113",
+            "reason": "Unterminated fragment; check selection manually.",
+            "text": "For the SLC integer-block example, the result is:"
+          },
+          {
+            "unit_id": "unit-114",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "protocol=ab_eip&gateway=192.168.1.50&path=&cpu=slc500&elem_size=2&elem_count=10&name=N7:0"
+          }
+        ],
+        "words": 166,
+        "sentences": 12,
+        "syllables": 266,
+        "estimated_grade": 8.71,
+        "estimated_grade_unrounded": 8.713433734939759,
+        "at_or_above_threshold": false,
+        "band": "within"
+      },
+      {
+        "id": "section-13",
+        "title": "First connection and troubleshooting",
+        "assessed": [
+          {
+            "unit_id": "unit-117",
+            "kind": "list-item",
+            "text": "Confirm the controller model, Ethernet endpoint, route, data name and type with the PLC project. Check that the computer can reach that endpoint. A ping reply alone does not prove that the PLC supports the required messages.",
+            "original_text": "Confirm the controller model, Ethernet endpoint, route, data name and type with the PLC project. Check that the computer can reach that endpoint. A ping reply alone does not prove that the PLC supports the required messages.",
+            "text_sha256": "bdf14fc5fbf526e9d964944ae3c200d90fc2baf642acd1939baa91c72639dbc2",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 37,
+            "sentences": 3,
+            "syllables": 59,
+            "estimated_grade": 8.04,
+            "estimated_grade_unrounded": 8.036216216216216,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-118",
+            "kind": "list-item",
+            "text": "Fill this cluster using the matching hardware example. Start with one known scalar and count 1. For SLC, choose the actual data-file address. For Logix, check scope and External Access.",
+            "original_text": "Fill this cluster using the matching hardware example. Start with one known scalar and count 1. For SLC, choose the actual data-file address. For Logix, check scope and External Access.",
+            "text_sha256": "4081d17b0e58af74bb86d3d5e8d45d89fd23f13b891521cff0982d5f0031c811",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 31,
+            "sentences": 4,
+            "syllables": 47,
+            "estimated_grade": 5.32,
+            "estimated_grade_unrounded": 5.322822580645162,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-119",
+            "kind": "list-item",
+            "text": "Call Create_Tag.vi with a clear incoming error and a suitable timeout, such as 1000 milliseconds. The timeout is a separate input. A positive wait can delay LabVIEW's user interface because this library node uses that thread.",
+            "original_text": "Call Create_Tag.vi with a clear incoming error and a suitable timeout, such as 1000 milliseconds. The timeout is a separate input. A positive wait can delay LabVIEW's user interface because this library node uses that thread.",
+            "text_sha256": "3401c86e7098912fdd54e4cf31baa182b29fffde323551bc57aacd6d6c95f720",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 38,
+            "sentences": 3,
+            "syllables": 62,
+            "estimated_grade": 8.6,
+            "estimated_grade_unrounded": 8.602631578947369,
+            "at_or_above_threshold": false,
+            "band": "within"
+          },
+          {
+            "unit_id": "unit-120",
+            "kind": "list-item",
+            "text": "Check both the LabVIEW error cluster and the raw error code. With timeout zero, creation can continue after the call returns; check Tag_Status.vi until it is ready or reports an error. Keep only a valid, successfully created handle.",
+            "original_text": "Check both the LabVIEW error cluster and the raw error code. With timeout zero, creation can continue after the call returns; check Tag_Status.vi until it is ready or reports an error. Keep only a valid, successfully created handle.",
+            "text_sha256": "a5b6e82acdabdee461bad703fbc203be3a816939da3d7006a97e6962d56af568",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 40,
+            "sentences": 3,
+            "syllables": 62,
+            "estimated_grade": 7.9,
+            "estimated_grade_unrounded": 7.9,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-121",
+            "kind": "list-item",
+            "text": "Complete Read_Tag.vi, check its result, then use the getter that matches the PLC data type. Validate the returned buffer size and each byte offset. A plausible value alone does not prove that the read succeeded.",
+            "original_text": "Complete Read_Tag.vi, check its result, then use the getter that matches the PLC data type. Validate the returned buffer size and each byte offset. A plausible value alone does not prove that the read succeeded.",
+            "text_sha256": "7063b199cf5cc7e9cdcf0c035b39de91dd61bebfe02eeb7e5e9206f2005c9000",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 37,
+            "sentences": 3,
+            "syllables": 54,
+            "estimated_grade": 6.44,
+            "estimated_grade_unrounded": 6.441621621621621,
+            "at_or_above_threshold": false,
+            "band": "below"
+          },
+          {
+            "unit_id": "unit-122",
+            "kind": "list-item",
+            "text": "Release a created handle with Destroy_Tag.vi when finished. Preserve earlier errors while still arranging for cleanup to execute. Changing the cluster after creation does not retarget a handle that already exists; create a new tag with the new settings.",
+            "original_text": "Release a created handle with Destroy_Tag.vi when finished. Preserve earlier errors while still arranging for cleanup to execute. Changing the cluster after creation does not retarget a handle that already exists; create a new tag with the new settings.",
+            "text_sha256": "58a5ce0991364a813be66e2c847f9cc14ef5034e624347f144c1f5e8cff83edd",
+            "short_sample": false,
+            "requires_revision": false,
+            "words": 41,
+            "sentences": 3,
+            "syllables": 65,
+            "estimated_grade": 8.45,
+            "estimated_grade_unrounded": 8.447317073170732,
+            "at_or_above_threshold": false,
+            "band": "within"
+          }
+        ],
+        "excluded": [
+          {
+            "unit_id": "unit-123",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Symptom | Settings to inspect first"
+          },
+          {
+            "unit_id": "unit-124",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Cannot create or connect | Gateway address, network access, controller firmware, protocol and CPU string. Replace unsupported menu entries such as CGLX with an accepted value."
+          },
+          {
+            "unit_id": "unit-125",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "ControlLogix reachable, tag unavailable | Processor slot in path, exact tag name, program scope and External Access. The Ethernet module can answer while the processor route is wrong."
+          },
+          {
+            "unit_id": "unit-126",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "SLC address rejected | Use slc500 and a real data-file address, such as N7:0. Check file number, element range and whether direct or bridged access is required."
+          },
+          {
+            "unit_id": "unit-127",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Values look wrong | PLC type, matching getter, count, starting element and byte offset. A REAL and a DINT are both 4 bytes but require different interpretations."
+          },
+          {
+            "unit_id": "unit-128",
+            "reason": "Non-narrative element; reviewed separately for clarity.",
+            "text": "Logging stays enabled after NONE | The library version and its shared debug state. The 2.7.2 create path does not reset a previously enabled level."
+          }
+        ],
+        "words": 224,
+        "sentences": 19,
+        "syllables": 349,
+        "estimated_grade": 7.39,
+        "estimated_grade_unrounded": 7.392716165413534,
+        "at_or_above_threshold": false,
+        "band": "below"
+      }
+    ],
+    "combined": {
+      "words": 2268,
+      "sentences": 171,
+      "syllables": 3570,
+      "estimated_grade": 8.16,
+      "estimated_grade_unrounded": 8.156705653021442,
+      "at_or_above_threshold": false,
+      "band": "within"
+    }
+  }
+}

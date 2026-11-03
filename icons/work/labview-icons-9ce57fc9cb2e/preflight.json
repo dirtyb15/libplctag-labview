@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Local concept planning; cross-file similarity review waived by user",
+  "candidate_ids": [
+    "buffer-arrow",
+    "cylinder-arrow",
+    "tray-arrow",
+    "card-arrow",
+    "socket-arrow"
+  ],
+  "evidence": "Five transfer cues use different buffer shapes and arrow positions. Shared type layout is permitted by user."
+}

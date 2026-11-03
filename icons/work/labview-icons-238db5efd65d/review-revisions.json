@@ -1,0 +1,65 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-03",
+      "candidate-07",
+      "candidate-05"
+    ],
+    "evidence": "Left input, vertical upward transfer, diagonal incoming arrow and curved transfer differ in layout, but the fifth hand design still reads like a button press and needs correction. Compare the side-input design with PLC read after its rejected draft is replaced.",
+    "result": "FAIL"
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The left arrow and tag remain distinct beside the controller."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Controller face, leftward arrow and orange tag are distinguishable."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A black left arrow above an orange tag indicates movement into the blue controller slot."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The controller and orange tag survive; arrowhead softens."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The black arrow points into the controller and tag remains visible."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The curved arrowhead remains visible against the controller."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange curved path and rightward tip contrast with the navy controller."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag and curved orange arrow lead into a navy controller with a white outline separating the arrow tip."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The curved path survives but controller details simplify."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag, curve and incoming arrowhead are identifiable."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1928 @@
+{
+  "run_id": "83995451bb8f4f3b8c04e733ff46bf0e",
+  "request": "Destroy a PLC tag",
+  "summary_name": "Destroy Tag",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Tag with cross",
+      "salt": "aqg9aewq0v",
+      "source_file": "Destroy Tag option 1 1024x1024 aqg9aewq0v.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Destroy Tag option 1 29x29 aqg9aewq0v.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              111,
+              147,
+              909,
+              883
+            ],
+            "source_artwork_size": [
+              798,
+              736
+            ],
+            "rendered_artwork_size": [
+              27,
+              25
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03383458646616541,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 1 30x23 aqg9aewq0v.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              111,
+              147,
+              909,
+              883
+            ],
+            "source_artwork_size": [
+              798,
+              736
+            ],
+            "rendered_artwork_size": [
+              23,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.028532608695652172,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 1 30x18 aqg9aewq0v.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              111,
+              147,
+              909,
+              883
+            ],
+            "source_artwork_size": [
+              798,
+              736
+            ],
+            "rendered_artwork_size": [
+              17,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.021739130434782608,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Destroy Tag option 1 aqg9aewq0v.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.017543859649122806,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            18,
+            17
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.022556390977443608,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            22,
+            20
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02756892230576441,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            30,
+            28
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03759398496240601,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            38,
+            35
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.047619047619047616,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            46,
+            42
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05764411027568922,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            62,
+            57
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07769423558897243,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            126,
+            116
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.15789473684210525,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            147,
+            909,
+            883
+          ],
+          "source_artwork_size": [
+            798,
+            736
+          ],
+          "rendered_artwork_size": [
+            254,
+            234
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3182957393483709,
+          "offset": [
+            1,
+            11
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "16x16": {
+            "evidence": "The tag and X remain clear while edges soften.",
+            "result": "WARN"
+          },
+          "30x23": {
+            "evidence": "The red X remains visible against the navy tag.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "The dominant diagonal tag and red X are recognizable and differ from the current create concepts.",
+            "result": "PASS"
+          },
+          "29x29": {
+            "evidence": "The tag, hole and red X remain separate.",
+            "result": "PASS"
+          },
+          "source": {
+            "evidence": "A navy diagonal tag carries a large red X at its lower right. The previously conflicting create plus badge was retired; the current create set uses press, plus above tag, carton, conveyor and diagonal plus output.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "87ea17a073d575339c561a8f2a9d54288ffe03cf9e9d28e6f1977ea388b77389",
+        "distinctness": {
+          "result": "PASS",
+          "evidence": "The X badge, waste bin, diagonal outlined eraser, vertical shredder strips, and scissors have distinct silhouettes. The Create Tag set uses a press, plus symbols, carton, and conveyor; its carton and press differ in shape and action from the red slatted bin and the shredding strips. Full collection comparison remains pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-10",
+            "candidate-08",
+            "candidate-11"
+          ]
+        }
+      },
+      "concept_id": "cross",
+      "candidate_id": "candidate-01",
+      "qa_status": "PASS",
+      "sha256": {
+        "Destroy Tag option 1 1024x1024 aqg9aewq0v.png": "7e2340f90699cfeef095d1dd13a2c5171b01b92ac46a5a8530a1cb774b789395",
+        "Destroy Tag option 1 29x29 aqg9aewq0v.png": "6a568c2d755336c594fa3f749285ff1f1ee30471b072423ccbbc4a8938b8a341",
+        "Destroy Tag option 1 30x23 aqg9aewq0v.png": "16ec7573c5039f5374caa0cbdac8bc21ba8bba4b4acdee69e27d4291c928b8eb",
+        "Destroy Tag option 1 30x18 aqg9aewq0v.png": "025d5f356ae9d9c03f418ca2451d245fe244cc099c952fa5762e13fe529ce93b",
+        "Destroy Tag option 1 aqg9aewq0v.ico": "cf18316fc82fc90049f9fc06fcc4f5a8156d81142f709b18aa967c57ba278426"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Tag in bin",
+      "salt": "qw75p0t2cp",
+      "source_file": "Destroy Tag option 2 1024x1024 qw75p0t2cp.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Destroy Tag option 2 29x29 qw75p0t2cp.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              237,
+              126,
+              787,
+              897
+            ],
+            "source_artwork_size": [
+              550,
+              771
+            ],
+            "rendered_artwork_size": [
+              19,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03501945525291829,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 2 30x23 qw75p0t2cp.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              237,
+              126,
+              787,
+              897
+            ],
+            "source_artwork_size": [
+              550,
+              771
+            ],
+            "rendered_artwork_size": [
+              15,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.027237354085603113,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 2 30x18 qw75p0t2cp.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              237,
+              126,
+              787,
+              897
+            ],
+            "source_artwork_size": [
+              550,
+              771
+            ],
+            "rendered_artwork_size": [
+              11,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.020752269779507133,
+            "offset": [
+              9,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Destroy Tag option 2 qw75p0t2cp.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            10,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.018158236057068743,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            13,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.023346303501945526,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            16,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.028534370946822308,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            21,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.038910505836575876,
+          "offset": [
+            5,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            27,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04928664072632944,
+          "offset": [
+            6,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            33,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05966277561608301,
+          "offset": [
+            7,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            44,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.08041504539559015,
+          "offset": [
+            10,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            90,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.16342412451361868,
+          "offset": [
+            19,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            237,
+            126,
+            787,
+            897
+          ],
+          "source_artwork_size": [
+            550,
+            771
+          ],
+          "rendered_artwork_size": [
+            181,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.32944228274967574,
+          "offset": [
+            37,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "Blue tag enters red waste bin; the delete metaphor is clear."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Tag and bin are separable."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Tag and bin remain distinguishable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "Tag entering the bin is recognizable."
+          },
+          "16x16": {
+            "result": "PASS",
+            "evidence": "Tag and bin remain recognizable despite losing bin slots."
+          }
+        },
+        "source_sha256": "aa32714a5002d8f7ee3364ff52510ed87e4677d54f6c92e597a928bd35cb50c0",
+        "distinctness": {
+          "result": "PASS",
+          "evidence": "The X badge, waste bin, diagonal outlined eraser, vertical shredder strips, and scissors have distinct silhouettes. The Create Tag set uses a press, plus symbols, carton, and conveyor; its carton and press differ in shape and action from the red slatted bin and the shredding strips. Full collection comparison remains pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-10",
+            "candidate-08",
+            "candidate-11"
+          ]
+        }
+      },
+      "concept_id": "bin",
+      "candidate_id": "candidate-02",
+      "qa_status": "PASS",
+      "sha256": {
+        "Destroy Tag option 2 1024x1024 qw75p0t2cp.png": "c416f2855a23e1bab16ef141086e0014a2033b8c63a82be361125f6aedda2d2d",
+        "Destroy Tag option 2 29x29 qw75p0t2cp.png": "e1f6c1943317c068004dfd1c3a21aafe578f67f5a0ddab4e19c82cc55de3981a",
+        "Destroy Tag option 2 30x23 qw75p0t2cp.png": "febab21f5fc4148241469760553029c1ed9c261d15e5ef395bc523e22fef8d23",
+        "Destroy Tag option 2 30x18 qw75p0t2cp.png": "6888dad2ed204f056ff3ba976b1a16ddc7f7cd97fdf2e0c7ca93d0649008e43e",
+        "Destroy Tag option 2 qw75p0t2cp.ico": "14a8e5c978aeddb60e5f5d0dd049df1c3fc8f6510fa797577774ab3c84172d4b"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Tag being erased",
+      "salt": "1cnsnqvg0i",
+      "source_file": "Destroy Tag option 3 1024x1024 1cnsnqvg0i.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Destroy Tag option 3 29x29 1cnsnqvg0i.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              58,
+              117,
+              981,
+              887
+            ],
+            "source_artwork_size": [
+              923,
+              770
+            ],
+            "rendered_artwork_size": [
+              27,
+              23
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.02925243770314193,
+            "offset": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 3 30x23 1cnsnqvg0i.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              58,
+              117,
+              981,
+              887
+            ],
+            "source_artwork_size": [
+              923,
+              770
+            ],
+            "rendered_artwork_size": [
+              25,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02727272727272727,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 3 30x18 1cnsnqvg0i.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              58,
+              117,
+              981,
+              887
+            ],
+            "source_artwork_size": [
+              923,
+              770
+            ],
+            "rendered_artwork_size": [
+              19,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02077922077922078,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Destroy Tag option 3 1cnsnqvg0i.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            14,
+            12
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015167930660888408,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            18,
+            15
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01950162513542795,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            22,
+            18
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.023835319609967497,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            30,
+            25
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.032502708559046585,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            38,
+            32
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.041170097508125676,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            46,
+            38
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04983748645720477,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            62,
+            52
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06717226435536294,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            126,
+            105
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13651137594799567,
+          "offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            117,
+            981,
+            887
+          ],
+          "source_artwork_size": [
+            923,
+            770
+          ],
+          "rendered_artwork_size": [
+            254,
+            212
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.27518959913326113,
+          "offset": [
+            1,
+            22
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "evidence": "A thickly outlined red and white eraser removes the end of the navy tag.",
+            "result": "PASS"
+          },
+          "16x16": {
+            "evidence": "The red eraser and dark outline remain but fine detail softens.",
+            "result": "WARN"
+          },
+          "29x29": {
+            "evidence": "The tag and outlined eraser are distinct.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "The outlined white tip survives against the background.",
+            "result": "PASS"
+          },
+          "30x23": {
+            "evidence": "The white eraser tip remains outlined and recognizable.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "1dba063fb4d0a46849255710770301e468b1271117789fcc6f23366d88d13a3e",
+        "distinctness": {
+          "result": "PASS",
+          "evidence": "The X badge, waste bin, diagonal outlined eraser, vertical shredder strips, and scissors have distinct silhouettes. The Create Tag set uses a press, plus symbols, carton, and conveyor; its carton and press differ in shape and action from the red slatted bin and the shredding strips. Full collection comparison remains pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-10",
+            "candidate-08",
+            "candidate-11"
+          ]
+        }
+      },
+      "concept_id": "tag-erase",
+      "candidate_id": "candidate-10",
+      "qa_status": "PASS",
+      "sha256": {
+        "Destroy Tag option 3 1024x1024 1cnsnqvg0i.png": "7641d056675135c2fa49f249c93fadda3a5c0b3d7ce3c8664123fa25fae3f6d1",
+        "Destroy Tag option 3 29x29 1cnsnqvg0i.png": "8b9399e513a1db56c1e0fbcfc30b70fe3434ca24f5e5a6eadcb6adfcbe507205",
+        "Destroy Tag option 3 30x23 1cnsnqvg0i.png": "ff8a684032cf0764a53fe0dd9f1428cf36618497c93869b1cc584e84eaa00198",
+        "Destroy Tag option 3 30x18 1cnsnqvg0i.png": "f2b238cf0b0eae76fde1e551d2d7aa3e39cc5ee5bd8b0175579781070e161f25",
+        "Destroy Tag option 3 1cnsnqvg0i.ico": "fb42b6fc9ee94c3fa53526a9d68b2bb1e8e8c8e907653ad827abc946fe855130"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Tag through shredder",
+      "salt": "gsv4ib0jvu",
+      "source_file": "Destroy Tag option 4 1024x1024 gsv4ib0jvu.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Destroy Tag option 4 29x29 gsv4ib0jvu.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              150,
+              103,
+              874,
+              918
+            ],
+            "source_artwork_size": [
+              724,
+              815
+            ],
+            "rendered_artwork_size": [
+              24,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.033128834355828224,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 4 30x23 gsv4ib0jvu.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              150,
+              103,
+              874,
+              918
+            ],
+            "source_artwork_size": [
+              724,
+              815
+            ],
+            "rendered_artwork_size": [
+              19,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.025766871165644172,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 4 30x18 gsv4ib0jvu.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              150,
+              103,
+              874,
+              918
+            ],
+            "source_artwork_size": [
+              724,
+              815
+            ],
+            "rendered_artwork_size": [
+              14,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.0196319018404908,
+            "offset": [
+              8,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Destroy Tag option 4 gsv4ib0jvu.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            12,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.01717791411042945,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            16,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.022085889570552148,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            20,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.026993865030674847,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            27,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03680981595092025,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            34,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.046625766871165646,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            41,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05644171779141104,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            55,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07607361963190185,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            112,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.15460122699386503,
+          "offset": [
+            8,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            150,
+            103,
+            874,
+            918
+          ],
+          "source_artwork_size": [
+            724,
+            815
+          ],
+          "rendered_artwork_size": [
+            226,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3116564417177914,
+          "offset": [
+            15,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The tag, red shredder slot and three vertical shreds remain distinct."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The tag, slot and three strips remain, with softened edges."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "A blue tag enters a red slot, with three broad separate vertical blue strips below."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "All three strips and their white gaps remain visible."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The red slot and three separated hanging strips survive; the tag hole is visible."
+          }
+        },
+        "source_sha256": "dcd1c62395041b2ebfb0e5fedfda12bd18bda1b3a88caa6f5e5009c6023bbc80",
+        "distinctness": {
+          "result": "PASS",
+          "evidence": "The X badge, waste bin, diagonal outlined eraser, vertical shredder strips, and scissors have distinct silhouettes. The Create Tag set uses a press, plus symbols, carton, and conveyor; its carton and press differ in shape and action from the red slatted bin and the shredding strips. Full collection comparison remains pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-10",
+            "candidate-08",
+            "candidate-11"
+          ]
+        }
+      },
+      "concept_id": "shred",
+      "candidate_id": "candidate-08",
+      "qa_status": "PASS",
+      "sha256": {
+        "Destroy Tag option 4 1024x1024 gsv4ib0jvu.png": "02e8dab195565ded15b33783904eac719587e61a72ac7d1130639b490e08cef1",
+        "Destroy Tag option 4 29x29 gsv4ib0jvu.png": "a58a8fd8513e59954fd7ae932fd17b06b8f796e7ade8c756fd9c1abfc175d8cd",
+        "Destroy Tag option 4 30x23 gsv4ib0jvu.png": "315ade50ddd1b4600c6c256224d428ca56f96e043e7c1e564937fe6a80c8fa72",
+        "Destroy Tag option 4 30x18 gsv4ib0jvu.png": "071c7d09ce056b977e2aca576e7b63e90665c8dc0a8ea2a02783f46957fd4f15",
+        "Destroy Tag option 4 gsv4ib0jvu.ico": "8342364ec1ac3f9912fdb68a6ae5478070b6b335945433367961c89f48194b23"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Scissors cut tag",
+      "salt": "9trl2c9ehp",
+      "source_file": "Destroy Tag option 5 1024x1024 9trl2c9ehp.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Destroy Tag option 5 29x29 9trl2c9ehp.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              104,
+              270,
+              922,
+              759
+            ],
+            "source_artwork_size": [
+              818,
+              489
+            ],
+            "rendered_artwork_size": [
+              27,
+              16
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03300733496332518,
+            "offset": [
+              1,
+              6
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 5 30x23 9trl2c9ehp.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              104,
+              270,
+              922,
+              759
+            ],
+            "source_artwork_size": [
+              818,
+              489
+            ],
+            "rendered_artwork_size": [
+              28,
+              17
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.034229828850855744,
+            "offset": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "file": "Destroy Tag option 5 30x18 9trl2c9ehp.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              104,
+              270,
+              922,
+              759
+            ],
+            "source_artwork_size": [
+              818,
+              489
+            ],
+            "rendered_artwork_size": [
+              27,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.032719836400818,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Destroy Tag option 5 9trl2c9ehp.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            14,
+            8
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.017114914425427872,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            18,
+            11
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.022004889975550123,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            22,
+            13
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02689486552567237,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            30,
+            18
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03667481662591687,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            38,
+            23
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04645476772616137,
+          "offset": [
+            1,
+            8
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            46,
+            27
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05623471882640587,
+          "offset": [
+            1,
+            10
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            62,
+            37
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07579462102689487,
+          "offset": [
+            1,
+            13
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            126,
+            75
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.15403422982885084,
+          "offset": [
+            1,
+            26
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            104,
+            270,
+            922,
+            759
+          ],
+          "source_artwork_size": [
+            818,
+            489
+          ],
+          "rendered_artwork_size": [
+            254,
+            152
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3105134474327628,
+          "offset": [
+            1,
+            52
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "evidence": "Large red scissors cut a horizontal navy tag.",
+            "result": "PASS"
+          },
+          "16x16": {
+            "evidence": "The handles and tag remain visible, with softened blade detail.",
+            "result": "WARN"
+          },
+          "29x29": {
+            "evidence": "Both scissor rings and tag hole remain visible.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "Two rings and the cutting blades are visible against the tag.",
+            "result": "PASS"
+          },
+          "30x23": {
+            "evidence": "Scissors and tag remain separate.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "2f703bc7692d32ffe07aad5ef9d80e913d6fa0c6a89bad18f56b2143d06dd0bc",
+        "distinctness": {
+          "result": "PASS",
+          "evidence": "The X badge, waste bin, diagonal outlined eraser, vertical shredder strips, and scissors have distinct silhouettes. The Create Tag set uses a press, plus symbols, carton, and conveyor; its carton and press differ in shape and action from the red slatted bin and the shredding strips. Full collection comparison remains pending.",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-10",
+            "candidate-08",
+            "candidate-11"
+          ]
+        }
+      },
+      "concept_id": "tag-cut",
+      "candidate_id": "candidate-11",
+      "qa_status": "PASS",
+      "sha256": {
+        "Destroy Tag option 5 1024x1024 9trl2c9ehp.png": "36dc1851d79958f1af5668a736e4f6632c8c457575b18b0e2c233de5ec272e72",
+        "Destroy Tag option 5 29x29 9trl2c9ehp.png": "5254e1314e6d0ce4d67b5368887c5a458091f503586fca935e20b8cbbff92fc9",
+        "Destroy Tag option 5 30x23 9trl2c9ehp.png": "763694570dd65bb654330493b44f999309ba0e7df8b9d63fd6d30394fcf523e0",
+        "Destroy Tag option 5 30x18 9trl2c9ehp.png": "3b05083805822290292c4df9998ee849eee9674c05b4ac2f393192fb0c8902ee",
+        "Destroy Tag option 5 9trl2c9ehp.ico": "1210fc5797dbbe5fc9befa937585684ce243a1e4d562d4af10e67cf8f0e79f19"
+      }
+    }
+  ]
+}

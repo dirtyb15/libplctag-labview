@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Post-generation concept assessment; supersedes preserved original preflight",
+  "evidence": "The five generated images show exchange, opposing lanes, a value with input and output, a two-way arrow, and input/output at a tag. The wave design is an abstract float exchange without an explicit PLC; smaller arrowheads soften at icon sizes. Similarity to other VIs was waived by the user.",
+  "candidate_ids": [
+    "tag-exchange-loop",
+    "plc-buffer-rails",
+    "float-exchange",
+    "read-write-switch",
+    "tag-input-output"
+  ]
+}

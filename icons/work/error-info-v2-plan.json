@@ -1,0 +1,67 @@
+{
+  "request": "Error_Info.vi calls plc_tag_decode_error to turn an error code into descriptive text",
+  "summary_name": "Error Info",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "error-speech",
+      "concept_summary": "Error description bubble",
+      "signature": {
+        "metaphor": "error message",
+        "objects": "warning triangle and message bubble",
+        "cue": "error description or decode",
+        "composition": "triangle left and bubble right",
+        "orientation": "horizontal"
+      },
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. A red warning triangle with white exclamation point at left, next to a blue speech bubble with two thick white lines at right. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins."
+    },
+    {
+      "concept_id": "error-book",
+      "concept_summary": "Error reference page",
+      "signature": {
+        "metaphor": "reference lookup",
+        "objects": "open book, warning and text bars",
+        "cue": "error description or decode",
+        "composition": "open book with warning on one page",
+        "orientation": "horizontal"
+      },
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. An open blue book with a large red warning triangle on its left page and two thick dark-blue text bars on its right page. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins."
+    },
+    {
+      "concept_id": "warning-bubble",
+      "concept_summary": "Warning in message bubble",
+      "signature": {
+        "metaphor": "error description bubble",
+        "objects": "speech bubble and warning triangle",
+        "cue": "error message",
+        "composition": "warning triangle inside round speech bubble",
+        "orientation": "circular"
+      },
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white for an error-description VI. A large dark-blue ROUND speech bubble encloses one large red warning triangle with a bold white exclamation mark inside it. The bubble must have a single thick lower-left tail. Show no tiny text or other objects. Make the warning, exclamation, and bubble distinct at 30x18. Thick geometry, generous white margin, no shadow or border."
+    },
+    {
+      "concept_id": "decode-error",
+      "concept_summary": "Decode error code",
+      "signature": {
+        "metaphor": "code-to-message",
+        "objects": "error tile, arrow and text bars",
+        "cue": "error description or decode",
+        "composition": "error tile left arrow to message lines right",
+        "orientation": "horizontal"
+      },
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. A large red square containing one white exclamation mark on the left; a thick orange arrow points right to two large dark-blue horizontal message bars. This represents converting an error code to a message. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins."
+    },
+    {
+      "concept_id": "error-information",
+      "concept_summary": "Error information",
+      "signature": {
+        "metaphor": "error information badge",
+        "objects": "warning triangle and information mark",
+        "cue": "error description or decode",
+        "composition": "large i inside triangle",
+        "orientation": "vertical"
+      },
+      "prompt": "Exactly one SQUARE 1:1 flat icon on pure white, for converting a libplctag error code into its descriptive message. A large red warning triangle containing a large white lowercase i with a very large square dot. It represents information about an error. Keep all elements thick and recognizable at 30x18 pixels. No other text, no extra badges, no shadow or decorative border, generous margins."
+    }
+  ]
+}

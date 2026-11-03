@@ -1,0 +1,3 @@
+Builds the libplctag library path for the LabVIEW target. Windows cases select plctag32.dll or plctag64.dll; Linux x64 selects libplctag64.so. On the first call, the filename is appended to the application directory and retained for later calls in that execution instance. Other targets return an empty path.
+
+Initialize with a clear error and check both outputs. Later calls return the retained path even if an incoming error is present. The VI does not check that the library exists or loads; check the calling node too. The bundled binaries contain version string 2.7.2.

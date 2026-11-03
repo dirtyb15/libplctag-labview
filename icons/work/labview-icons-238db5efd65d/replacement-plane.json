@@ -1,0 +1,12 @@
+{
+  "prompt": "Create exactly one SQUARE simple flat icon on a pure white background for sending a tag value to an industrial PLC. On the left draw one large orange PAPER PLANE pointing RIGHT, with a single very large white circular tag hole near its tail; the orange plane itself acts as a tag being sent. On the right draw a large dark navy rectangular controller with a white display and two broad vertical module sections. The sharp plane nose points into the controller with a narrow white gap; NO additional arrow, NO letters, NO other shapes, no shadow. Both the plane direction and controller silhouette must be unmistakable at 30x18. All artwork is centered within the middle 70 percent of the square canvas with generous white margins.",
+  "concept_id": "write-send-plane",
+  "signature": {
+    "orientation": "horizontal",
+    "composition": "large orange tag-plane aimed right into PLC",
+    "cue": "plane points into controller",
+    "metaphor": "paper plane send",
+    "objects": "tag-shaped paper plane and controller"
+  },
+  "concept_summary": "Tag sent toward controller"
+}

@@ -1,0 +1,12 @@
+{
+  "concept_id": "error-info-symbols",
+  "concept_summary": "Error and information symbols",
+  "signature": {
+    "metaphor": "error information",
+    "objects": "warning triangle and information circle",
+    "cue": "separate information badge",
+    "composition": "warning above information circle",
+    "orientation": "vertical"
+  },
+  "prompt": "Create one SQUARE 1:1 flat icon on a pure white background representing descriptive information about an error. A large red warning triangle containing a white exclamation mark is positioned ABOVE a large solid dark-blue circular information symbol containing a bold white lowercase i. Keep the triangle and circle separated by a wide white gap; both symbols must be large at 30x18. No speech bubbles, magnifying glasses, other text, shadows or border; generous margins."
+}

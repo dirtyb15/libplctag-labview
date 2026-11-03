@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "run_id": "edc81a1aec9c4d38876ceda186f6e073",
+  "request": "Read signed 8-bit integer from tag buffer at offset",
+  "summary_name": "Read I8",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-85ed43c05748",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_I8.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-03T12:12:57.757364+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "i8-crane",
+      "concept_summary": "Crane lifts signed byte",
+      "prompt": "One SQUARE flat software icon on pure white for READING a signed 8 bit integer. Show a large dark navy CRANE HOOK above a large orange rectangular block, visibly lifting it. On the block write exactly I8 in EXTRA LARGE BOLD WHITE SANS-SERIF text. Capital I MUST have broad horizontal bars at top and bottom, so it cannot look like digit 1. Make I8 occupy almost the whole block and stay legible at 30x18. No other text, no arrows, no shadows, no monitor, no hand. Keep artwork within middle 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "crane above hanging labeled block",
+        "metaphor": "retrieval crane",
+        "objects": "crane hook, I8 value block",
+        "cue": "hook lifts value"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-85ed43c05748\\candidates\\candidate-01.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i8-faucet",
+      "concept_summary": "Signed byte from valve",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 8-bit integer. Draw one large navy TAP with a short spout pointing downward. Below the spout hangs one large ORANGE ROUND DROPLET with white bold text I8 centered inside. The capital I has broad horizontal top and bottom bars, distinct from 1. I8 must be enormous and readable at 30x18. No other text, no arrows, no tag shape, no shadow. Use bold simplified shapes, central 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "navy tap above orange I8 droplet",
+        "metaphor": "valve extraction",
+        "objects": "valve and I8 droplet",
+        "cue": "value emerges from tap"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-85ed43c05748\\candidates\\candidate-02.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i8-magnet",
+      "concept_summary": "Magnet retrieves signed byte",
+      "prompt": "One SQUARE flat software icon on pure white for reading signed 8-bit data. On LEFT a large BLUE U-shaped HORSESHOE MAGNET opening to the right, on RIGHT one large ORANGE rectangular value tile being pulled toward it. On the tile write exactly I8 in very large bold white sans-serif letters. Capital I has wide horizontal top and bottom bars so it cannot resemble 1. Make I8 readable at 30x18. No other text, no arrows, no hand, no shadows. Art centered within middle 70 percent of square.",
+      "signature": {
+        "orientation": "horizontal",
+        "composition": "large U magnet left, orange labeled tile right",
+        "metaphor": "magnet retrieval",
+        "objects": "horseshoe magnet, I8 tile",
+        "cue": "value attracted to magnet"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-85ed43c05748\\candidates\\candidate-03.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i8-grabber",
+      "concept_summary": "Gripper retrieves signed byte",
+      "prompt": "One SQUARE flat icon on pure white for reading signed 8-bit integer data. Draw a simple large BLUE ROBOT GRIPPER with TWO thick jaws gripping an ORANGE SQUARE VALUE TILE from left and right. Center bold WHITE I8 on the tile, filling almost all of it. Capital I MUST have broad top and bottom crossbars and look distinct from the digit 1. I8 readable at 30x18. No arrow, no human hand, no other text or shadows. Center bold art within middle 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "blue claw grips orange labeled tile from above",
+        "metaphor": "robot gripper",
+        "objects": "claw and I8 tile",
+        "cue": "claw grips typed value"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-85ed43c05748\\candidates\\candidate-04.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i8-key",
+      "concept_summary": "Signed byte key extracted from buffer",
+      "prompt": "One SQUARE flat software icon on white for retrieving a signed 8-bit value. A large dark navy circular BUFFER SOCKET sits lower left. An oversized ORANGE KEY-SHAPED VALUE TILE angles upward right as though being removed from the socket, with a broad rectangular head holding huge WHITE I8. Capital I has prominent horizontal top and bottom bars, never a digit 1. Keep the letters and silhouette clear at 30x18. No other text, no arrows, no shadow, no monitor. Artwork inside central 70 percent of square.",
+      "signature": {
+        "orientation": "diagonal",
+        "composition": "orange I8 key diagonally outside blue socket",
+        "metaphor": "key retrieval",
+        "objects": "key-shaped value and buffer socket",
+        "cue": "value pulled from socket"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-85ed43c05748\\candidates\\candidate-05.png",
+      "qa": {}
+    }
+  ],
+  "failures": [],
+  "distinctness": {},
+  "published": false
+}

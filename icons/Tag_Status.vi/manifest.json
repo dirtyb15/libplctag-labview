@@ -1,0 +1,1928 @@
+{
+  "run_id": "d9074ef56be0452fb8fc4b6f3cf25b60",
+  "request": "Tag_Status.vi calls plc_tag_status and returns the current tag status code",
+  "summary_name": "Tag Status",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Tag status pulse",
+      "salt": "qnn10cmt9j",
+      "source_file": "Tag Status option 1 1024x1024 qnn10cmt9j.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Status option 1 29x29 qnn10cmt9j.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              169,
+              191,
+              856,
+              837
+            ],
+            "source_artwork_size": [
+              687,
+              646
+            ],
+            "rendered_artwork_size": [
+              27,
+              25
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.039301310043668124,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 1 30x23 qnn10cmt9j.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              169,
+              191,
+              856,
+              837
+            ],
+            "source_artwork_size": [
+              687,
+              646
+            ],
+            "rendered_artwork_size": [
+              22,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.032507739938080496,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 1 30x18 qnn10cmt9j.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              169,
+              191,
+              856,
+              837
+            ],
+            "source_artwork_size": [
+              687,
+              646
+            ],
+            "rendered_artwork_size": [
+              17,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02476780185758514,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Status option 1 qnn10cmt9j.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.020378457059679767,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            18,
+            17
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.026200873362445413,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            22,
+            21
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.03202328966521106,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            30,
+            28
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.043668122270742356,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            38,
+            36
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.055312954876273655,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            46,
+            43
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.06695778748180495,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            62,
+            58
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.09024745269286755,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            126,
+            118
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.18340611353711792,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            169,
+            191,
+            856,
+            837
+          ],
+          "source_artwork_size": [
+            687,
+            646
+          ],
+          "rendered_artwork_size": [
+            254,
+            239
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3697234352256186,
+          "offset": [
+            1,
+            8
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A blue tag sits above an orange pulse trace; no success or failure is asserted."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Tag and zigzag line are distinct."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The pulse peak and tag remain recognizable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The orange pulse remains distinct from the blue tag."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The zigzag becomes coarser but the dominant tag-and-pulse form survives."
+          }
+        },
+        "source_sha256": "6ffa0bdf2b8b7f30be47c76645779cd1420bd7b8d6f79ac9780ee331ea1a3e82",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-06",
+            "candidate-05"
+          ],
+          "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
+        }
+      },
+      "concept_id": "status-pulse",
+      "candidate_id": "candidate-01",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Status option 1 1024x1024 qnn10cmt9j.png": "ea98db2bc381af78989340190f540adafce0e047d0c150d1ec4b69f706af7c67",
+        "Tag Status option 1 29x29 qnn10cmt9j.png": "7e09ce5a1d07ad7d704ceafc116710f57cbb377e63f27f72268b90e07bd9d21f",
+        "Tag Status option 1 30x23 qnn10cmt9j.png": "1b9e7d5bd2f620450a69781cdcd816c3d98fcdda677327ba33102b8fd14eca7f",
+        "Tag Status option 1 30x18 qnn10cmt9j.png": "74f54f10aed1d556ad8ebcad820513fad5f9ef5b8aeec2ce8321d5ae39cc51ab",
+        "Tag Status option 1 qnn10cmt9j.ico": "48b5b26b0b087d216c4a7f1300ecd2217a5c08a79abc0bd751dc8c285f294dd6"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Tag status indicators",
+      "salt": "lf3mrnimew",
+      "source_file": "Tag Status option 2 1024x1024 lf3mrnimew.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Status option 2 29x29 lf3mrnimew.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              67,
+              132,
+              946,
+              917
+            ],
+            "source_artwork_size": [
+              879,
+              785
+            ],
+            "rendered_artwork_size": [
+              27,
+              24
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.030716723549488054,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 2 30x23 lf3mrnimew.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              67,
+              132,
+              946,
+              917
+            ],
+            "source_artwork_size": [
+              879,
+              785
+            ],
+            "rendered_artwork_size": [
+              24,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.0267515923566879,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 2 30x18 lf3mrnimew.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              67,
+              132,
+              946,
+              917
+            ],
+            "source_artwork_size": [
+              879,
+              785
+            ],
+            "rendered_artwork_size": [
+              18,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02038216560509554,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Status option 2 lf3mrnimew.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015927189988623434,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            18,
+            16
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020477815699658702,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            22,
+            20
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02502844141069397,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            30,
+            27
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.034129692832764506,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            38,
+            34
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04323094425483504,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            46,
+            41
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05233219567690557,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            62,
+            55
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07053469852104664,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            126,
+            113
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14334470989761092,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            67,
+            132,
+            946,
+            917
+          ],
+          "source_artwork_size": [
+            879,
+            785
+          ],
+          "rendered_artwork_size": [
+            254,
+            227
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.28896473265073946,
+          "offset": [
+            1,
+            14
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A tag is beside an orange three-light panel with no individual state selected."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "All three white lights and tag remain separate."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Three indicator circles remain distinguishable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The three unselected indicators and tag remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The lights soften but remain grouped as an indicator panel."
+          }
+        },
+        "source_sha256": "063c1398f7db3076aeadfece0509ab58901a382f9cd3121a33f95d58516ae964",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-06",
+            "candidate-05"
+          ],
+          "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
+        }
+      },
+      "concept_id": "status-lights",
+      "candidate_id": "candidate-02",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Status option 2 1024x1024 lf3mrnimew.png": "fef5d942d473f1f932c958908a556d1b918fdb2a98af92abfff87ccd3094d404",
+        "Tag Status option 2 29x29 lf3mrnimew.png": "a02293aea9c76a3fd3487a6b7304e2451c1e675d22ee4743836d5206907f580a",
+        "Tag Status option 2 30x23 lf3mrnimew.png": "43d3c9761e235d2162f9b1b276357841ffb18d9d2c8e1b9575a69687fb4256e7",
+        "Tag Status option 2 30x18 lf3mrnimew.png": "da811cea8ec2c417cc1494c2ec84756f95b192bfd537730081c64d5e01faf60a",
+        "Tag Status option 2 lf3mrnimew.ico": "a44a49740546480cd479a6ea697aa51f77612e14a34a50bd0c23053e2debd642"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Query tag state",
+      "salt": "cqzczmxz9d",
+      "source_file": "Tag Status option 3 1024x1024 cqzczmxz9d.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Status option 3 29x29 cqzczmxz9d.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              89,
+              234,
+              935,
+              823
+            ],
+            "source_artwork_size": [
+              846,
+              589
+            ],
+            "rendered_artwork_size": [
+              27,
+              19
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.031914893617021274,
+            "offset": [
+              1,
+              5
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 3 30x23 cqzczmxz9d.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              89,
+              234,
+              935,
+              823
+            ],
+            "source_artwork_size": [
+              846,
+              589
+            ],
+            "rendered_artwork_size": [
+              28,
+              19
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.03309692671394799,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 3 30x18 cqzczmxz9d.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              89,
+              234,
+              935,
+              823
+            ],
+            "source_artwork_size": [
+              846,
+              589
+            ],
+            "rendered_artwork_size": [
+              23,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.027164685908319185,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Status option 3 cqzczmxz9d.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            14,
+            10
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016548463356973995,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            18,
+            13
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.02127659574468085,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            22,
+            15
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.026004728132387706,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            30,
+            21
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03546099290780142,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            38,
+            26
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04491725768321513,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            46,
+            32
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.054373522458628844,
+          "offset": [
+            1,
+            8
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            62,
+            43
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07328605200945626,
+          "offset": [
+            1,
+            10
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            126,
+            88
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14893617021276595,
+          "offset": [
+            1,
+            20
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            89,
+            234,
+            935,
+            823
+          ],
+          "source_artwork_size": [
+            846,
+            589
+          ],
+          "rendered_artwork_size": [
+            254,
+            177
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.30023640661938533,
+          "offset": [
+            1,
+            39
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "WARN",
+            "evidence": "A large white question mark in the tag suggests a status query, though it may also suggest an unknown tag."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The question mark and tag silhouette are clear."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The question mark remains distinct from the tag hole."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The large question mark remains recognizable within the tag."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The mark and tag remain but the question-mark dot becomes smaller."
+          }
+        },
+        "source_sha256": "ad0ae8db4ca7418ffc849abde8fe3c24dc0733e29e6d1a4243fa70869cb87839",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-06",
+            "candidate-05"
+          ],
+          "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
+        }
+      },
+      "concept_id": "status-query",
+      "candidate_id": "candidate-03",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Status option 3 1024x1024 cqzczmxz9d.png": "372ab90c08d1662c6aeafef1162e3822ef7805362e07eeabd5bb0f6628b41dcd",
+        "Tag Status option 3 29x29 cqzczmxz9d.png": "fca0943ba2262a78d2bf90b29a1f82b5d928eead8c3eeadccab50c8b0535dda9",
+        "Tag Status option 3 30x23 cqzczmxz9d.png": "106b9b6fcca21d1cab938a2c2dac12217a9e161043aa5fd8104d473568d62d71",
+        "Tag Status option 3 30x18 cqzczmxz9d.png": "6436ee75d928d0daa38554289d35ec579a80d69ab9b9b7607a8d1589eea86c98",
+        "Tag Status option 3 cqzczmxz9d.ico": "41f4165ff9b13074d27e600142f95d0c81b72199e2a30ba90bd9ad6e991e1ed8"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Tag status report page",
+      "salt": "fccwy38jk6",
+      "source_file": "Tag Status option 4 1024x1024 fccwy38jk6.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Status option 4 29x29 fccwy38jk6.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              149,
+              95,
+              881,
+              929
+            ],
+            "source_artwork_size": [
+              732,
+              834
+            ],
+            "rendered_artwork_size": [
+              24,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03237410071942446,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 4 30x23 fccwy38jk6.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              149,
+              95,
+              881,
+              929
+            ],
+            "source_artwork_size": [
+              732,
+              834
+            ],
+            "rendered_artwork_size": [
+              18,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.025179856115107913,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 4 30x18 fccwy38jk6.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              149,
+              95,
+              881,
+              929
+            ],
+            "source_artwork_size": [
+              732,
+              834
+            ],
+            "rendered_artwork_size": [
+              14,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.019184652278177457,
+            "offset": [
+              8,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Status option 4 fccwy38jk6.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            12,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016786570743405275,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            16,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.02158273381294964,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            19,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.026378896882494004,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            26,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03597122302158273,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            33,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.045563549160671464,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            40,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05515587529976019,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            54,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07434052757793765,
+          "offset": [
+            5,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            111,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1510791366906475,
+          "offset": [
+            8,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            149,
+            95,
+            881,
+            929
+          ],
+          "source_artwork_size": [
+            732,
+            834
+          ],
+          "rendered_artwork_size": [
+            223,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.30455635491606714,
+          "offset": [
+            16,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "WARN",
+            "evidence": "A dark report page contains an orange tag and one white status line; the page avoids the error icon's speech-bubble layout."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The folded page, tag and status line are distinct."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The tag and single line remain visible within the page."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The orange tag, white status line and page fold remain recognizable."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The page and orange tag remain, while the tag hole softens."
+          }
+        },
+        "source_sha256": "6ef7abbecfed5d8cb4fcde603fb29c2804bf8ab9a77940001bab32b609c004b3",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-06",
+            "candidate-05"
+          ],
+          "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
+        }
+      },
+      "concept_id": "status-report-page",
+      "candidate_id": "candidate-06",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Status option 4 1024x1024 fccwy38jk6.png": "4d1211c4b231cde87d461c279e5254cdce0605f21418bd0407b89a1596b825af",
+        "Tag Status option 4 29x29 fccwy38jk6.png": "a4152a846a48e351a84e34288df83c841b138ca386e5288b0c83ab8d010924b4",
+        "Tag Status option 4 30x23 fccwy38jk6.png": "422e599ecfe3bb8d13fcc4b2fb389f454cf7c961b8afc284502f43909f9ff99d",
+        "Tag Status option 4 30x18 fccwy38jk6.png": "d0f19fe2082d4c2a5245dc0f9ee8408d88aa599e63b58d898b9bf78199ccbe63",
+        "Tag Status option 4 fccwy38jk6.ico": "6dd1fd3b17df9efca0fcbdfffb7e057efa85d5d40b65341999dec21bcfd1badc"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Tag status dial",
+      "salt": "0wn6g6olrw",
+      "source_file": "Tag Status option 5 1024x1024 0wn6g6olrw.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Status option 5 29x29 0wn6g6olrw.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              80,
+              115,
+              939,
+              922
+            ],
+            "source_artwork_size": [
+              859,
+              807
+            ],
+            "rendered_artwork_size": [
+              27,
+              25
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03143189755529686,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 5 30x23 0wn6g6olrw.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              80,
+              115,
+              939,
+              922
+            ],
+            "source_artwork_size": [
+              859,
+              807
+            ],
+            "rendered_artwork_size": [
+              22,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.026022304832713755,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Status option 5 30x18 0wn6g6olrw.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              80,
+              115,
+              939,
+              922
+            ],
+            "source_artwork_size": [
+              859,
+              807
+            ],
+            "rendered_artwork_size": [
+              17,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01982651796778191,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Status option 5 0wn6g6olrw.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.01629802095459837,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            18,
+            17
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020954598370197905,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            22,
+            21
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.025611175785797437,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            30,
+            28
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.034924330616996506,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            38,
+            36
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04423748544819558,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            46,
+            43
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05355064027939464,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            62,
+            58
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07217694994179279,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            126,
+            118
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14668218859138532,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            80,
+            115,
+            939,
+            922
+          ],
+          "source_artwork_size": [
+            859,
+            807
+          ],
+          "rendered_artwork_size": [
+            254,
+            239
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2956926658905704,
+          "offset": [
+            1,
+            8
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A tag sits below a neutral semicircular gauge and pointer, conveying a generic state."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Gauge arc, pointer and tag are separate."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The gauge needle remains visible above the tag."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The orange arc, black needle and blue tag remain distinguishable."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "Gauge and tag survive while needle detail softens."
+          }
+        },
+        "source_sha256": "35e7e911a98cce93a69876294fa1cd89843e0eaf221626be81fb7b92a67bf44e",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-06",
+            "candidate-05"
+          ],
+          "evidence": "The five actual layouts are tag over pulse, tag beside three indicator lights, question mark inside tag, tag on a report page, and gauge above tag. The report page is a single document silhouette rather than Error_Info's separate triangle and speech bubble. Collection-wide visual review is still required."
+        }
+      },
+      "concept_id": "status-dial",
+      "candidate_id": "candidate-05",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Status option 5 1024x1024 0wn6g6olrw.png": "58d5158a744727bb20a454c522d9ea2b9cdcea80178b98fffc6c38cb3867ea98",
+        "Tag Status option 5 29x29 0wn6g6olrw.png": "5ce175d8f317efc242d19a9a2050d56c479e4b4730b22771851f1185c5cdf6d7",
+        "Tag Status option 5 30x23 0wn6g6olrw.png": "01de09c1a9c95d33b4e848e1741981500f74028150b962c20933f2c6a79977bf",
+        "Tag Status option 5 30x18 0wn6g6olrw.png": "9fe4926c1908e61a3759e9e023f3b8a2919043f06ce0af6d62a27da33d9fcb21",
+        "Tag Status option 5 0wn6g6olrw.ico": "e753c94399fb074f6d1c4edd84e463554cde419f1a7bc44a294133bce091382f"
+      }
+    }
+  ]
+}

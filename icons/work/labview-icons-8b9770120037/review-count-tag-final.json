@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-18",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The enclosed characters soften at stress size, while the tag silhouette remains visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "The navy tag outline contains a bold #B with separate counters and has clear white edge space."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The hash and B counters remain distinct inside the tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The outlined tag and enclosed count characters are recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag point, hash and two B counters remain recognizable."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-11",
+      "candidate-12",
+      "candidate-13",
+      "candidate-18"
+    ],
+    "result": "PASS"
+  }
+}

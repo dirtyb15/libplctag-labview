@@ -1,0 +1,6 @@
+{
+  "candidate_id": "candidate-12",
+  "result": "FAIL",
+  "evidence": "Rack at left and stacked nodes at right substantially overlap the accepted rack-and-sliders arrangement; retired before generation.",
+  "replacement": "rack-in-braces"
+}

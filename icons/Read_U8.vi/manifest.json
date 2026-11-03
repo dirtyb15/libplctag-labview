@@ -1,0 +1,1928 @@
+{
+  "run_id": "f45173932cdd4e2ca118c2b5f50b2777",
+  "request": "Read_U8.vi retrieves an unsigned 8-bit value from a local tag buffer",
+  "summary_name": "Read U8",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Buffer outputs U8",
+      "salt": "y7td5u93di",
+      "source_file": "Read U8 option 1 1024x1024 y7td5u93di.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read U8 option 1 29x29 y7td5u93di.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              31,
+              383,
+              992,
+              660
+            ],
+            "source_artwork_size": [
+              961,
+              277
+            ],
+            "rendered_artwork_size": [
+              27,
+              8
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.02809573361082206,
+            "offset": [
+              1,
+              10
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 1 30x23 y7td5u93di.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              31,
+              383,
+              992,
+              660
+            ],
+            "source_artwork_size": [
+              961,
+              277
+            ],
+            "rendered_artwork_size": [
+              28,
+              8
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.029136316337148804,
+            "offset": [
+              1,
+              7
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 1 30x18 y7td5u93di.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              31,
+              383,
+              992,
+              660
+            ],
+            "source_artwork_size": [
+              961,
+              277
+            ],
+            "rendered_artwork_size": [
+              28,
+              8
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.029136316337148804,
+            "offset": [
+              1,
+              5
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read U8 option 1 y7td5u93di.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            14,
+            4
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014568158168574402,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            18,
+            5
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018730489073881373,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            22,
+            6
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.022892819979188347,
+          "offset": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            30,
+            9
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.031217481789802288,
+          "offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            38,
+            11
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.03954214360041623,
+          "offset": [
+            1,
+            14
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            46,
+            13
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.047866805411030174,
+          "offset": [
+            1,
+            17
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            62,
+            18
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06451612903225806,
+          "offset": [
+            1,
+            23
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            126,
+            36
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13111342351716962,
+          "offset": [
+            1,
+            46
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            31,
+            383,
+            992,
+            660
+          ],
+          "source_artwork_size": [
+            961,
+            277
+          ],
+          "rendered_artwork_size": [
+            254,
+            73
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2643080124869927,
+          "offset": [
+            1,
+            91
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "WARN",
+            "evidence": "A buffer, outward arrow and U8 are clear; the source elements approach the side edges."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The outward arrow and U8 are visible."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The U8 and buffer-to-value direction remain distinguishable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The U and 8 remain recognizable alongside the outward arrow, though the characters are close."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The arrow and buffer remain; U8 loses clear detail at the stress size."
+          }
+        },
+        "source_sha256": "0cc1ded9c932dbe4c3adae468a5950b7932349214cffd70ce9661edb861cba40",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-06",
+            "candidate-08",
+            "candidate-07"
+          ],
+          "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
+        }
+      },
+      "concept_id": "buffer-to-value",
+      "candidate_id": "candidate-01",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read U8 option 1 1024x1024 y7td5u93di.png": "69a20684cd126e8c043435d16dfac30fb0d9acf68b15777d0fbd806aa0dbd2a8",
+        "Read U8 option 1 29x29 y7td5u93di.png": "682fefa0f1e94a9668fd785e223d5d3fcf545a03ee7f8433a7de8f8f370482db",
+        "Read U8 option 1 30x23 y7td5u93di.png": "41b683cc855599afccc79ef59be9dc23d29fa73478208610f34f4670db785de5",
+        "Read U8 option 1 30x18 y7td5u93di.png": "969e4a099943d20a07fe310b672c4f9f152ea290e359599b7ea65ba85d915314",
+        "Read U8 option 1 y7td5u93di.ico": "8328fe7b7e03418cbfdb3621f69f65f2e3ed22c04f61873452b5efba5b412c08"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "U8 lifted from tray",
+      "salt": "jmek0oh1bw",
+      "source_file": "Read U8 option 2 1024x1024 jmek0oh1bw.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read U8 option 2 29x29 jmek0oh1bw.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              160,
+              80,
+              877,
+              966
+            ],
+            "source_artwork_size": [
+              717,
+              886
+            ],
+            "rendered_artwork_size": [
+              22,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.030474040632054177,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 2 30x23 jmek0oh1bw.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              160,
+              80,
+              877,
+              966
+            ],
+            "source_artwork_size": [
+              717,
+              886
+            ],
+            "rendered_artwork_size": [
+              17,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.023702031602708805,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 2 30x18 jmek0oh1bw.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              160,
+              80,
+              877,
+              966
+            ],
+            "source_artwork_size": [
+              717,
+              886
+            ],
+            "rendered_artwork_size": [
+              13,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01805869074492099,
+            "offset": [
+              8,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read U8 option 2 jmek0oh1bw.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            11,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.01580135440180587,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            15,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020316027088036117,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            18,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.024830699774266364,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            24,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.033860045146726865,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            31,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04288939051918736,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            37,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05191873589164785,
+          "offset": [
+            5,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            50,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06997742663656885,
+          "offset": [
+            7,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            102,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14221218961625282,
+          "offset": [
+            13,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            160,
+            80,
+            877,
+            966
+          ],
+          "source_artwork_size": [
+            717,
+            886
+          ],
+          "rendered_artwork_size": [
+            206,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2866817155756208,
+          "offset": [
+            25,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A large U8 sits over an upward arrow and open tray."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "U8, arrow and tray are distinct."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "U8 and upward arrow remain legible."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The large U8 and upward extraction arrow remain visible, with tight character spacing."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The tray and U8 survive; the 8 counters shrink."
+          }
+        },
+        "source_sha256": "c2a9dc7439734b7aa0d6fce37cc030a4dcf62c734830dd391c999703554b6aba",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-06",
+            "candidate-08",
+            "candidate-07"
+          ],
+          "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
+        }
+      },
+      "concept_id": "lifted-value",
+      "candidate_id": "candidate-02",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read U8 option 2 1024x1024 jmek0oh1bw.png": "2be551af34b49ce487c872209a557f0bc76cc6b6f6b87524bfb493ddb20a4391",
+        "Read U8 option 2 29x29 jmek0oh1bw.png": "05ddb9ddc7bdba8fa7689a659a028ca451f38a624bbc2beb93e2ee016bde1093",
+        "Read U8 option 2 30x23 jmek0oh1bw.png": "45ff22b3ea17e1e2c979c645fb24d69a74db2ac4feed3eed756f8bee54789ecd",
+        "Read U8 option 2 30x18 jmek0oh1bw.png": "9edc8f1413c49b01b4d52bd069b49d614308d6e32859ef9ad06601b9c0c9d472",
+        "Read U8 option 2 jmek0oh1bw.ico": "a3029e7789b8df8738ca6eb156f090473767c0238b75304fc2774971c451c485"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Read U8 through lens",
+      "salt": "zbklc0mqsy",
+      "source_file": "Read U8 option 3 1024x1024 zbklc0mqsy.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read U8 option 3 29x29 zbklc0mqsy.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              111,
+              100,
+              922,
+              955
+            ],
+            "source_artwork_size": [
+              811,
+              855
+            ],
+            "rendered_artwork_size": [
+              26,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.031578947368421054,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 3 30x23 zbklc0mqsy.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              111,
+              100,
+              922,
+              955
+            ],
+            "source_artwork_size": [
+              811,
+              855
+            ],
+            "rendered_artwork_size": [
+              20,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02456140350877193,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 3 30x18 zbklc0mqsy.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              111,
+              100,
+              922,
+              955
+            ],
+            "source_artwork_size": [
+              811,
+              855
+            ],
+            "rendered_artwork_size": [
+              15,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01871345029239766,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read U8 option 3 zbklc0mqsy.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            13,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016374269005847954,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            17,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.021052631578947368,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            21,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.025730994152046785,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            28,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03508771929824561,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            36,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.044444444444444446,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            44,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05380116959064327,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            59,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07251461988304093,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            120,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14736842105263157,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            111,
+            100,
+            922,
+            955
+          ],
+          "source_artwork_size": [
+            811,
+            855
+          ],
+          "rendered_artwork_size": [
+            241,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2970760233918129,
+          "offset": [
+            7,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "The lens encloses a spaced U and 8 with large white counters and has a clear margin."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Both U8 characters and the lens are clear."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The 8 has two visible openings; lens and handle remain distinct."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "A separated U and 8 with visible counters remain readable in the lens."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The lens remains and the U8 is recognizable but its small counters soften."
+          }
+        },
+        "source_sha256": "fcf2a000294c66710a4955e0a65375fa0773f5026ed1942f4003356c975b0dc1",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-06",
+            "candidate-08",
+            "candidate-07"
+          ],
+          "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
+        }
+      },
+      "concept_id": "read-lens",
+      "candidate_id": "candidate-06",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read U8 option 3 1024x1024 zbklc0mqsy.png": "02144c85707afd58a33716a7938f5d2987b751a8e50963550ac623dc1e04a656",
+        "Read U8 option 3 29x29 zbklc0mqsy.png": "105ff2fa814c9c681d52c754f8b42718cbeae83bafd833b28c684ff629dc4f7b",
+        "Read U8 option 3 30x23 zbklc0mqsy.png": "1c53fba85a5a25187e85cb582745657a8313d330e2846afc7d3700a314e5c900",
+        "Read U8 option 3 30x18 zbklc0mqsy.png": "b1653d62f9a89843e0bbe72582bd8911f3daaabe04137ecbf0e88e425ad22147",
+        "Read U8 option 3 zbklc0mqsy.ico": "dc5d177e7c2ac061695e22215363b683b14f52079e7daceda63b8a5f1b6005d4"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "U8 card extracted diagonally",
+      "salt": "anny91wosx",
+      "source_file": "Read U8 option 4 1024x1024 anny91wosx.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read U8 option 4 29x29 anny91wosx.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              28,
+              71,
+              1004,
+              967
+            ],
+            "source_artwork_size": [
+              976,
+              896
+            ],
+            "rendered_artwork_size": [
+              27,
+              25
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.027663934426229508,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 4 30x23 anny91wosx.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              28,
+              71,
+              1004,
+              967
+            ],
+            "source_artwork_size": [
+              976,
+              896
+            ],
+            "rendered_artwork_size": [
+              23,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.0234375,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 4 30x18 anny91wosx.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              28,
+              71,
+              1004,
+              967
+            ],
+            "source_artwork_size": [
+              976,
+              896
+            ],
+            "rendered_artwork_size": [
+              17,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.017857142857142856,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read U8 option 4 anny91wosx.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014344262295081968,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            18,
+            17
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018442622950819672,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            22,
+            20
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.022540983606557378,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            30,
+            28
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.030737704918032786,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            38,
+            35
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.0389344262295082,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            46,
+            42
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.0471311475409836,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            62,
+            57
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06352459016393443,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            126,
+            116
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1290983606557377,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            71,
+            1004,
+            967
+          ],
+          "source_artwork_size": [
+            976,
+            896
+          ],
+          "rendered_artwork_size": [
+            254,
+            233
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.26024590163934425,
+          "offset": [
+            1,
+            11
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "WARN",
+            "evidence": "An orange U8 card is reached by a diagonal arrow from a lower-left buffer; the source has narrow side clearance but no clipping."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The large U8 and diagonal arrow remain separated."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "U8 and both 8 counters remain visible on the card."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "U8 is recognizable and the diagonal extraction arrow remains distinct from the lower buffer."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The diagonal direction remains while U8 counters soften at 16x16."
+          }
+        },
+        "source_sha256": "6faa1904061dd4670275fe6186206f4987da6a7f1389e93e0952a0c04ed001f1",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-06",
+            "candidate-08",
+            "candidate-07"
+          ],
+          "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
+        }
+      },
+      "concept_id": "diagonal-output-card",
+      "candidate_id": "candidate-08",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read U8 option 4 1024x1024 anny91wosx.png": "c40524441394bc5bad95ace77b862a5366ea53fdb1b14827ca88804257c7dc1f",
+        "Read U8 option 4 29x29 anny91wosx.png": "a9e3f61608f86b2ad5b6e463da5eef947eaee5d8997a1a9e0cf2a5d9ded3fabe",
+        "Read U8 option 4 30x23 anny91wosx.png": "c854423bf7385e4f66cf6677b8876b8822d234b456d7a89bd1bde9f9979482cc",
+        "Read U8 option 4 30x18 anny91wosx.png": "31eea1ce8de36b5d2de5afddf7db7fde7ebcad8222f8c42346f9599c0e226316",
+        "Read U8 option 4 anny91wosx.ico": "93113ca61e67be52b42464e9259c5d83b79990aa2f8261c38160fd7d5dfd1add"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "U8 dispensed from buffer",
+      "salt": "gyijyrlq3v",
+      "source_file": "Read U8 option 5 1024x1024 gyijyrlq3v.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Read U8 option 5 29x29 gyijyrlq3v.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              75,
+              81,
+              957,
+              982
+            ],
+            "source_artwork_size": [
+              882,
+              901
+            ],
+            "rendered_artwork_size": [
+              26,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.029966703662597113,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 5 30x23 gyijyrlq3v.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              75,
+              81,
+              957,
+              982
+            ],
+            "source_artwork_size": [
+              882,
+              901
+            ],
+            "rendered_artwork_size": [
+              21,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.023307436182019976,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Read U8 option 5 30x18 gyijyrlq3v.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              75,
+              81,
+              957,
+              982
+            ],
+            "source_artwork_size": [
+              882,
+              901
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.017758046614872364,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Read U8 option 5 gyijyrlq3v.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.01553829078801332,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            18,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01997780244173141,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            22,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.0244173140954495,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            29,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.033296337402885685,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            37,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.042175360710321866,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            45,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.051054384017758046,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            61,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06881243063263041,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            123,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13984461709211987,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            75,
+            81,
+            957,
+            982
+          ],
+          "source_artwork_size": [
+            882,
+            901
+          ],
+          "rendered_artwork_size": [
+            249,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.28190899001109876,
+          "offset": [
+            3,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "Large separated U and 8 sit below a downward outlet; both 8 counters are open."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Outlet, U and 8 are separate and clear."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The U8 and downward output cue are readable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "U8 is legible with two separate openings in the 8, below the orange outlet."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "U8 is recognizable but counters soften at 16x16."
+          }
+        },
+        "source_sha256": "6bc56e855c86b868e160e2eeb0744879844e02a3a17707a012ff65d282cefa19",
+        "distinctness": {
+          "result": "PASS",
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-06",
+            "candidate-08",
+            "candidate-07"
+          ],
+          "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
+        }
+      },
+      "concept_id": "value-spout",
+      "candidate_id": "candidate-07",
+      "qa_status": "PASS",
+      "sha256": {
+        "Read U8 option 5 1024x1024 gyijyrlq3v.png": "886560708b557d99ea24e20e21a4399d4fb9cb948c070809c7fd207b59e18cde",
+        "Read U8 option 5 29x29 gyijyrlq3v.png": "6c5ed06343583723eaf13bd62c7726360dc1e3a59ce98df6218ee0e03a435c28",
+        "Read U8 option 5 30x23 gyijyrlq3v.png": "284967c52d0785bc23762a1f3562fea04d86f6c9036c99f4c240aaa0a567b571",
+        "Read U8 option 5 30x18 gyijyrlq3v.png": "4fc55a0611425c65f216a4cf3ed81cff5b774f8abc32b83211cfa61bb0e54a4b",
+        "Read U8 option 5 gyijyrlq3v.ico": "ab26c4e243aefeface2c7023f7db7deb95b0d0c2779f826947a44ae1a00129d8"
+      }
+    }
+  ]
+}

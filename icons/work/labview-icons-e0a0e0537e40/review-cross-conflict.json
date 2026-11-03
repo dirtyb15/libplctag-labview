@@ -1,0 +1,44 @@
+{
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "The prior cross-file review identified a gear-to-blue-object conflict with Choose_Lib; all five create candidates have at least one failed review and need replacement or correction.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Use a substantially different construction metaphor.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "The orange gear, rightward dark arrow and blue destination reproduce the Choose_Lib signature at small size."
+        },
+        "source": {
+          "result": "FAIL",
+          "correction": "Replace with a creation concept whose main silhouette is not gear to blue object.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "Orange gear pointing right to a blue tag matches the dominant gear-to-blue-object composition in Choose_Lib candidate-02; the reviewed cross-file contact sheet records this conflict."
+        },
+        "16x16": {
+          "evidence": "Gear and destination survive; the arrow softens.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The orange gear and blue tag are visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "Gear, arrow and tag remain distinguishable.",
+          "result": "PASS"
+        }
+      }
+    }
+  ]
+}

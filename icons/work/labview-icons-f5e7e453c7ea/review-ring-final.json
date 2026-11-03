@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The open ring and black outward arrow remain visible, with a small tag at the end."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An arrow points through the open gap of a blue ring toward a tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag hole and arrow edges soften."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Open ring, arrow and tag are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The gap and outward direction are recognizable."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "evidence": "Open ring and exit arrow, broken links, open hand, turned key, and raised barrier have different silhouettes. The current lock designs use a closed padlock, lock shield and clamp; none repeats these release designs. Full collection comparison remains pending.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "PASS"
+  }
+}

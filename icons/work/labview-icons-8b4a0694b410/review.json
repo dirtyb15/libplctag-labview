@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "source": {
+          "evidence": "F64 appears above a rectangular buffer and rightward output arrow.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F64 and a rectangular buffer and rightward output arrow remain visible.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The type and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "F, 6 and 4 remain legible and the output arrow survives.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F64 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "source": {
+          "evidence": "F64 appears above a cylindrical buffer and upward output arrow.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F64 and a cylindrical buffer and upward output arrow remain visible.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The type and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "F, 6 and 4 remain legible and the output arrow survives.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F64 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "source": {
+          "evidence": "F64 appears above a U-shaped tray and upward output arrow.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F64 and a U-shaped tray and upward output arrow remain visible.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The type and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "F, 6 and 4 remain legible and the output arrow survives.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F64 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "source": {
+          "evidence": "F64 appears above a lined card and rightward output arrow.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F64 and a lined card and rightward output arrow remain visible.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The type and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "F, 6 and 4 remain legible and the output arrow survives.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F64 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "source": {
+          "evidence": "F64 appears above a circular socket and diagonal outward arrow.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "F64 and a circular socket and diagonal outward arrow remain visible.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The type and arrow remain recognizable with softened detail.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "F, 6 and 4 remain legible and the output arrow survives.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "F64 remains distinguishable and the outgoing arrow is visible.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ],
+  "distinctness": {
+    "evidence": "Options use rectangle, cylinder, tray, lined card and socket with outward arrows; related silhouettes are permitted by user.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "PASS"
+  }
+}

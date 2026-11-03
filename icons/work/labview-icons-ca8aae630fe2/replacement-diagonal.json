@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat software icon on pure white representing reading a PLC tag into a local buffer. Put a dark navy industrial controller at UPPER RIGHT with one large white display and two wide module divisions. Put a large orange tag at LOWER LEFT. Between them place a very thick blue arrow pointing DOWN and LEFT away from the controller toward the tag. Leave a generous white gap around the arrowhead so it remains obvious at 30 by 18. This is data leaving the PLC, not entering it. Keep all shapes centered inside the middle 70 percent of canvas, no letters, shadows, tiny marks or borders.",
+  "concept_summary": "Controller outputs tag down-left",
+  "signature": {
+    "metaphor": "controller output",
+    "cue": "down-left extraction",
+    "orientation": "diagonal-down-left",
+    "composition": "controller upper right, tag lower left, arrow connects outward",
+    "objects": "PLC, diagonal arrow, tag"
+  },
+  "concept_id": "read-diagonal-to-tag"
+}

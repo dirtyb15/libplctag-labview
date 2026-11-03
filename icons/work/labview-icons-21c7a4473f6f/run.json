@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "run_id": "3fa3b1443e104d0f874ffd748f760b7b",
+  "request": "reading from tag buffer I64 at offset",
+  "summary_name": "Read I64",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-21c7a4473f6f",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_I64.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-03T12:53:49.626450+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "buffer-arrow",
+      "concept_summary": "Typed buffer transfer",
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a large BLUE rectangular buffer and a bold ORANGE horizontal arrow pointing AWAY from the buffer. The arrow must clearly show data going out of the buffer. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "buffer-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a large BLUE rectangular buffer and a bold ORANGE horizontal arrow pointing AWAY from the buffer. The arrow must clearly show data going out of the buffer.",
+        "orientation": "buffer-arrow"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-21c7a4473f6f\\candidates\\candidate-01.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I64 and the rectangular buffer and rightward arrow remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I, 6 and 4 are legible; the outward arrow survives."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Barred I64 appears above a rectangular buffer and rightward arrow, showing outward transfer."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I64 is distinguishable and the outgoing arrow is visible."
+        }
+      },
+      "reviewed_sha256": "63f04718596d93e0aef50bba16bc7e02a9f561a056e06a4ba67c449caab13bc1",
+      "salt": "0o76ovgmly"
+    },
+    {
+      "concept_id": "cylinder-arrow",
+      "concept_summary": "Typed cylinder transfer",
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a large BLUE cylindrical buffer and a thick ORANGE vertical arrow pointing AWAY from the cylinder. Make arrow direction obvious for data going out of the cylinder. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "cylinder-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a large BLUE cylindrical buffer and a thick ORANGE vertical arrow pointing AWAY from the cylinder. Make arrow direction obvious for data going out of the cylinder.",
+        "orientation": "cylinder-arrow"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-21c7a4473f6f\\candidates\\candidate-02.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I64 and the cylindrical buffer and upward arrow remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I, 6 and 4 are legible; the outward arrow survives."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Barred I64 appears above a cylindrical buffer and upward arrow, showing outward transfer."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I64 is distinguishable and the outgoing arrow is visible."
+        }
+      },
+      "reviewed_sha256": "29e946b4e74c4e39c57da19a648f43b34600fd78d0542da5faf258073ed7c1d3",
+      "salt": "grrdqkw09s"
+    },
+    {
+      "concept_id": "tray-arrow",
+      "concept_summary": "Typed tray transfer",
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a wide BLUE U-shaped tray and one large ORANGE vertical arrow pointing AWAY from the tray. The arrow visibly indicates data going out of the tray. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "tray-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a wide BLUE U-shaped tray and one large ORANGE vertical arrow pointing AWAY from the tray. The arrow visibly indicates data going out of the tray.",
+        "orientation": "tray-arrow"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-21c7a4473f6f\\candidates\\candidate-03.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I64 and the U-shaped tray and upward arrow remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I, 6 and 4 are legible; the outward arrow survives."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Barred I64 appears above a U-shaped tray and upward arrow, showing outward transfer."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I64 is distinguishable and the outgoing arrow is visible."
+        }
+      },
+      "reviewed_sha256": "3f479f7506b688d810f13edbd000e4f00d9d26c265f2dfcf4c6c1dc9ee199d82",
+      "salt": "mhs1v5q8vi"
+    },
+    {
+      "concept_id": "card-arrow",
+      "concept_summary": "Typed card transfer",
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type show a simple BLUE card-shaped buffer at left and a thick ORANGE arrow pointing AWAY from the card, clearly indicating data going out of it. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "card-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type show a simple BLUE card-shaped buffer at left and a thick ORANGE arrow pointing AWAY from the card, clearly indicating data going out of it.",
+        "orientation": "card-arrow"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-21c7a4473f6f\\candidates\\candidate-04.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I64 and the blue card with signal waves and rightward arrow remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I, 6 and 4 are legible; the outward arrow survives."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Barred I64 appears above a blue card with signal waves and rightward arrow, showing outward transfer."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I64 is distinguishable and the outgoing arrow is visible."
+        }
+      },
+      "reviewed_sha256": "6093b01cda7046bc4211962efff830108dd952270f477cead54c530131159d17",
+      "salt": "sn34oa3vfs"
+    },
+    {
+      "concept_id": "socket-arrow",
+      "concept_summary": "Typed socket transfer",
+      "prompt": "One SQUARE flat software icon on white for reading from a tag buffer a value of datatype I64. Across the TOP place exactly I64 in HUGE BOLD BLACK characters with large WHITE GAPS between each character. Capital I, if present, MUST have broad horizontal top and bottom bars, clearly different from digit 1. The exact label I64 must dominate the image and remain legible at 30x18 pixels. No other text, no shadows. Below the type draw a large BLUE circular buffer socket, plus a thick ORANGE diagonal arrow pointing AWAY from the socket. The arrow must visibly indicate data going out of the socket. Center the entire design within the square.",
+      "signature": {
+        "metaphor": "socket-arrow",
+        "objects": "type label, buffer, arrow",
+        "cue": "out of buffer",
+        "composition": "Below the type draw a large BLUE circular buffer socket, plus a thick ORANGE diagonal arrow pointing AWAY from the socket. The arrow must visibly indicate data going out of the socket.",
+        "orientation": "socket-arrow"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-21c7a4473f6f\\candidates\\candidate-05.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I64 and the circular socket and diagonal arrow remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I, 6 and 4 are legible; the outward arrow survives."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Barred I64 appears above a circular socket and diagonal arrow, showing outward transfer."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I64 is distinguishable and the outgoing arrow is visible."
+        }
+      },
+      "reviewed_sha256": "43ba9f0af472aac8eb47bf61d474283aad7029f8dd9352152ae09872a79e3064",
+      "salt": "s1utgdp57c"
+    }
+  ],
+  "failures": [],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "The options use rectangle, cylinder, tray, signal card and socket with outward arrows; related silhouettes are allowed."
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "manifest.json",
+    "Read I64 option 1 0o76ovgmly.ico",
+    "Read I64 option 1 1024x1024 0o76ovgmly.png",
+    "Read I64 option 1 29x29 0o76ovgmly.png",
+    "Read I64 option 1 30x18 0o76ovgmly.png",
+    "Read I64 option 1 30x23 0o76ovgmly.png",
+    "Read I64 option 2 1024x1024 grrdqkw09s.png",
+    "Read I64 option 2 29x29 grrdqkw09s.png",
+    "Read I64 option 2 30x18 grrdqkw09s.png",
+    "Read I64 option 2 30x23 grrdqkw09s.png",
+    "Read I64 option 2 grrdqkw09s.ico",
+    "Read I64 option 3 1024x1024 mhs1v5q8vi.png",
+    "Read I64 option 3 29x29 mhs1v5q8vi.png",
+    "Read I64 option 3 30x18 mhs1v5q8vi.png",
+    "Read I64 option 3 30x23 mhs1v5q8vi.png",
+    "Read I64 option 3 mhs1v5q8vi.ico",
+    "Read I64 option 4 1024x1024 sn34oa3vfs.png",
+    "Read I64 option 4 29x29 sn34oa3vfs.png",
+    "Read I64 option 4 30x18 sn34oa3vfs.png",
+    "Read I64 option 4 30x23 sn34oa3vfs.png",
+    "Read I64 option 4 sn34oa3vfs.ico",
+    "Read I64 option 5 1024x1024 s1utgdp57c.png",
+    "Read I64 option 5 29x29 s1utgdp57c.png",
+    "Read I64 option 5 30x18 s1utgdp57c.png",
+    "Read I64 option 5 30x23 s1utgdp57c.png",
+    "Read I64 option 5 s1utgdp57c.ico"
+  ]
+}

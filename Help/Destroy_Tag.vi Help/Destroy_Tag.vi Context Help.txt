@@ -1,0 +1,3 @@
+Destroys an existing tag and releases the library reference. Check error out and error code. When the call ran and error out is clear, a zero code indicates success; a negative code reports a library failure. An incoming error skips destruction and outputs code 0. To clean up after an earlier error, preserve that error separately and provide a no-error cluster to this call. The handle must not be used after successful destruction.
+
+In upstream 2.7.2, a zero or invalid-range handle can return -25; an unknown positive handle returns -19. The bundled binaries contain version string 2.7.2.

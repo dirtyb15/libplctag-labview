@@ -1,0 +1,65 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "White barred I is inside a blue dial with an orange segmented arc and a large separate downward pointer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The pointer, dial, arc and barred I are visibly separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The pointer and barred I remain recognizable; some arc divisions soften."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange pointer, dark round dial and white I remain legible; the arc still indicates a scale."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Dial, I and pointer remain, while the small arc divisions merge."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A white barred I is contained in a blue tile between separate orange left and right navigation triangles."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tile, barred I and both triangular buttons are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Both navigation triangles flank the clearly framed I tile."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The white barred I and both orange navigation triangles remain readable and separated."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The central I and opposing triangles survive; edges are coarse."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-06",
+      "candidate-08",
+      "candidate-05"
+    ],
+    "evidence": "The five actual previews use distinct structures: a horizontal dropdown with down chevron, a stacked list with highlighted row, a round dial with pointer and arc, a square tile between opposite navigation buttons, and a tile touched by a diagonal cursor. These differ in layout and selection cue at 30x18. This is within-set review only; collection-wide review remains outstanding."
+  }
+}

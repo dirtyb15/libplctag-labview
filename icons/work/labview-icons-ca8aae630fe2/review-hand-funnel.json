@@ -1,0 +1,73 @@
+{
+  "distinctness": {
+    "evidence": "The hand has no unambiguous outward direction and the funnel suggests filtering; other candidates remain failed. Retain the receiving tray and redesign the rest.",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-11",
+      "candidate-09",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "result": "FAIL"
+  },
+  "candidates": [
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "The tag appears attached to the controller; extraction is not evident.",
+          "result": "WARN"
+        },
+        "source": {
+          "correction": "Add a large explicit arrow pointing away from the controller.",
+          "evidence": "A hand holds a tag at the side of a controller, but there is no indication whether it is inserting or removing the tag.",
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL"
+        },
+        "29x29": {
+          "evidence": "The hand, tag and device are visible but the action direction is unclear.",
+          "result": "WARN"
+        },
+        "16x16": {
+          "evidence": "Hand and device remain with unclear direction.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "correction": "Make the outward motion explicit with a large separated arrow.",
+          "evidence": "The tag and hand suggest either insertion or removal; read and write cannot be distinguished.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL"
+        }
+      },
+      "candidate_id": "candidate-10"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "The tag hole softens; the funnel remains prominent.",
+          "result": "WARN"
+        },
+        "source": {
+          "correction": "Use an explicit transfer or receiving symbol rather than a funnel.",
+          "evidence": "The funnel is the dominant conventional filter symbol, suggesting filtering tag data rather than reading it.",
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL"
+        },
+        "29x29": {
+          "evidence": "The tag, funnel and base remain separate.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The filter silhouette and orange tag remain.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "correction": "Replace the filter metaphor with recognizable read transfer.",
+          "evidence": "The funnel strongly communicates filtering and the source of the tag is absent.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL"
+        }
+      },
+      "candidate_id": "candidate-11"
+    }
+  ]
+}

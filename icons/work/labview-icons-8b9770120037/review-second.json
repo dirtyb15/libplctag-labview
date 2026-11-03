@@ -1,0 +1,150 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large B is inside a tag under a horizontal double-headed dimension arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "B and arrow are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The arrowheads are less distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The orange dimension arrowheads collapse into blunt bars, weakening the size cue.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Use much larger arrowheads with more separation from the arrow shaft."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "B and orange bar survive; arrowheads are indistinct."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is beside a vertical double-headed arrow with B below."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag, arrow and B are distinguishable."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The small arrowheads soften."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "On closer comparison the arrowheads compress into near-square ends, weakening the dimension cue.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Make the top and bottom arrowheads significantly larger than the shaft."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and B survive; arrowheads are ambiguous."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is beside three orange blocks with B above them."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Blocks remain separate; the B is small."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The B counters become difficult to see."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The B collapses to a dark blob and cannot reliably indicate bytes.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Make B substantially larger and use fewer large count blocks."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The byte mark is not readable in the stress frame."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is above a readout with the requested #B byte-count mark."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The # and B are distinguishable."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The # openings narrow."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The hash mark merges into a dark shape at 30x18, so the byte-count label is not reliably readable.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Widen the hash openings and simplify the readout so #B has more pixels."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The count mark is not reliably legible at 16x16."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-09",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The C-shaped jaws grip a tag and closely resemble the tag-clamp lock/unlock concepts, implying clamping rather than size.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Replace the clamp with a distinctly measuring or counting concept."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The B and jaws are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The C shape remains but reads as a clamp."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The B remains visible while the clamp metaphor is ambiguous."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The C and B remain in the stress frame."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-07",
+      "candidate-08",
+      "candidate-09"
+    ],
+    "evidence": "Both dimension-arrow options lose their arrowheads at 30x18, the B and #B count marks become unclear in two others, and the C-shaped jaw design resembles the lock/unlock clamp. Revise before final comparison."
+  }
+}

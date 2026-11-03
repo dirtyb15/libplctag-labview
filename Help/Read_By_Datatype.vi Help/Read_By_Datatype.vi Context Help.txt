@@ -1,0 +1,3 @@
+Reads a typed value from an existing tag's local data buffer. Datatype selects the typed read; offset is the zero-based starting byte. The result is returned as a variant containing the selected numeric type. Use Read_Tag.vi first when fresh controller data is needed.
+
+The BOOL choice returns a U8 (unsigned 8-bit integer) in the variant, not a Boolean. Check error out and validate the handle and selected byte range. Legacy getters can return valid-looking values on failure. The legacy FLOAT (single-precision) getter can produce an indeterminate value for a missing buffer or bad offset. In upstream 2.7.2, integer bit tags ignore the offset; FLOAT and DOUBLE getters reject bit tags. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.

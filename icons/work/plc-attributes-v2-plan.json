@@ -1,0 +1,67 @@
+{
+  "request": "PLC configuration attributes cluster",
+  "summary_name": "PLC Attributes",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "rack-sliders",
+      "concept_summary": "PLC rack with sliders",
+      "signature": {
+        "metaphor": "configuration panel",
+        "objects": "PLC rack and slider controls",
+        "cue": "adjustment",
+        "composition": "rack left, sliders right",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A simplified dark-blue PLC rack at left and two thick orange slider controls at right. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "controller-wrench",
+      "concept_summary": "Controller with wrench",
+      "signature": {
+        "metaphor": "tool adjustment",
+        "objects": "controller and wrench",
+        "cue": "wrench",
+        "composition": "wrench crosses controller diagonally",
+        "orientation": "diagonal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A large dark-blue controller silhouette with one large orange wrench crossing it diagonally. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "rack-fields",
+      "concept_summary": "PLC field list",
+      "signature": {
+        "metaphor": "attribute list",
+        "objects": "controller and field lines",
+        "cue": "field rows",
+        "composition": "rack above three list bars",
+        "orientation": "vertical"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A dark-blue PLC rack above three short orange horizontal field bars arranged vertically. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "plc-knobs",
+      "concept_summary": "Controller with knobs",
+      "signature": {
+        "metaphor": "hardware settings",
+        "objects": "controller and two knobs",
+        "cue": "knob pointers",
+        "composition": "controller center with knobs below",
+        "orientation": "vertical"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A bold blue controller above two large orange circular adjustment knobs with thick pointer marks. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow."
+    },
+    {
+      "concept_id": "rack-gear",
+      "concept_summary": "PLC rack configuration",
+      "signature": {
+        "metaphor": "controller configuration",
+        "objects": "PLC rack and gear",
+        "cue": "gear",
+        "composition": "gear centered inside controller",
+        "orientation": "vertical"
+      },
+      "prompt": "One standalone square software icon on pure white: a dark-blue simplified PLC controller outline with one large orange gear centered inside it. Represents the PLC attributes configuration cluster. Thick flat geometry, generous margin, no text, no border or shadow."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Closed navy padlock with a white tag cutout."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Closed shackle and tag cutout are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Closed shackle and cutout remain visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Closed lock still resembles the open-padlock unlock candidate in overall silhouette.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Closed lock remains visible; the tag cutout is simplified."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag with orange closed padlock at lower right."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and closed lock are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and lock remain visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag plus orange lock repeats the unlock tag-plus-lock layout.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and lock silhouettes remain, but the shackle is small."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The generated blue piece resembles a key entering a red socket rather than a latch securing a tag.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The form reads as a key or plug rather than a closed latch.",
+          "correction": "Use an unmistakable locking metaphor without key-in-socket imagery."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Blue key-like shape and red socket are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The shapes remain distinguishable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The connection remains visible, but the lock action is ambiguous.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The blue and red forms remain."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange closed padlock inside a blue shield."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Shield and padlock are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Shield and lock remain visible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Shield-and-lock structure closely matches the unlock shield option.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Shield and orange lock survive, but the shackle is small."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue clamp grips an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Clamp and tag remain discernible."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Clamp-and-tag structure closely matches the unlock clamp option and risks confusion with the size caliper.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Opposing operations reuse the same principal composition and differ mainly in a small open/closed gap.",
+          "correction": "Design a structurally different silhouette for this operation."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Clamp body and tag remain; screw detail softens."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Every concept has an opposing lock/unlock counterpart with substantially the same silhouette: padlock, tag-and-padlock, latch, shield-and-padlock, or clamp-and-tag."
+  }
+}

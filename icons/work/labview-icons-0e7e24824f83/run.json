@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "run_id": "28c7edf07dd3405b81051f73a6bf0af4",
+  "request": "PLC configuration attributes cluster",
+  "summary_name": "PLC Attributes",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\PLC_Attributes.ctl",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T20:58:44.341455+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "rack-sliders",
+      "concept_summary": "PLC rack with sliders",
+      "prompt": "One standalone square software icon on a pure white background: A simplified dark-blue PLC rack at left and two thick orange slider controls at right. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "configuration panel",
+        "objects": "PLC rack and slider controls",
+        "cue": "adjustment",
+        "composition": "rack left, sliders right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Rack includes unrequested small PLC lettering and many tiny panel marks.",
+          "rule_id": "VIS-DETAIL-004",
+          "correction": "Use a plain unlabeled industrial automation rack with only three thick module slots and simple sliders."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Rack and sliders remain but the PLC letters and small marks are indistinct."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Sliders remain visible while the rack text becomes unreadable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "PLC lettering collapses to indistinct pale pixels in the rack.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Remove all lettering and fine panel details."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Rack and sliders survive as blocks; fine details disappear."
+        }
+      },
+      "reviewed_sha256": "bf9069d78ddfdf2ba55775757a36f9de20de582e4c60c3dde18ff603403f9642"
+    },
+    {
+      "concept_id": "controller-wrench",
+      "concept_summary": "Controller with wrench",
+      "prompt": "One standalone square software icon on a pure white background: A large dark-blue controller silhouette with one large orange wrench crossing it diagonally. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "tool adjustment",
+        "objects": "controller and wrench",
+        "cue": "wrench",
+        "composition": "wrench crosses controller diagonally",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The source depicts a game controller, not an industrial programmable logic controller.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Depict a rectangular industrial PLC rack with vertical modules; no gamepad, handles or buttons."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Gamepad and wrench remain visible but convey the wrong object."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Gamepad silhouette persists and implies a gaming device."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The gamepad and wrench remain identifiable but the metaphor is wrong."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The wrong gamepad silhouette and wrench dominate."
+        }
+      },
+      "reviewed_sha256": "b84eba88ac15e7d1c9ac65dc4c32f9cd1e7bf96c95d9ac5055257da5f2ece030"
+    },
+    {
+      "concept_id": "rack-fields",
+      "concept_summary": "PLC field list",
+      "prompt": "One standalone square software icon on a pure white background: A dark-blue PLC rack above three short orange horizontal field bars arranged vertically. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "attribute list",
+        "objects": "controller and field lines",
+        "cue": "field rows",
+        "composition": "rack above three list bars",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The PLC rack contains unsolicited lettering and many miniature details.",
+          "rule_id": "VIS-DETAIL-004",
+          "correction": "Use a simple unlabeled industrial PLC rack over three thick field bars."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Rack and field bars are visible; tiny lettering and slots blur."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The lettering becomes indistinct and field bars remain."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The small PLC text and module details dissolve into ambiguous blocks.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Remove the lettering and simplify the rack silhouette."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Rack and bars survive while details merge."
+        }
+      },
+      "reviewed_sha256": "20fea0117809076e647b277b4bc63277d9139f5dad05e956aae21d42a5915264"
+    },
+    {
+      "concept_id": "plc-knobs",
+      "concept_summary": "Controller with knobs",
+      "prompt": "One standalone square software icon on a pure white background: A bold blue controller above two large orange circular adjustment knobs with thick pointer marks. Flat thick geometry, generous margin; any I must be clearly barred and legible, no other text, no border or shadow.",
+      "signature": {
+        "metaphor": "hardware settings",
+        "objects": "controller and two knobs",
+        "cue": "knob pointers",
+        "composition": "controller center with knobs below",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The controller is a video-game gamepad, not an industrial PLC.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use an industrial rectangular PLC module with screw terminals and two simple configuration knobs."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Gamepad and knobs are visible but the subject is wrong."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Gaming controller silhouette remains."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "Gamepad and paired knobs survive but misrepresent the source."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Gamepad silhouette remains dominant."
+        }
+      },
+      "reviewed_sha256": "e9788d78c3420df779879daf1f01a3d89f5439ebe9d7711b8d224d729bb67fd6"
+    },
+    {
+      "concept_id": "rack-gear",
+      "concept_summary": "PLC rack configuration",
+      "prompt": "One standalone square software icon on pure white: a dark-blue simplified PLC controller outline with one large orange gear centered inside it. Represents the PLC attributes configuration cluster. Thick flat geometry, generous margin, no text, no border or shadow.",
+      "signature": {
+        "metaphor": "controller configuration",
+        "objects": "PLC rack and gear",
+        "cue": "gear",
+        "composition": "gear centered inside controller",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A dark industrial control module outline surrounds an orange gear, with clear outer margin."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Module outline and gear remain recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The gear stays separate from the module outline."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Orange gear and dark rectangular controller frame remain distinct; fine terminal dots soften."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Gear and frame survive while terminal details merge."
+        }
+      },
+      "reviewed_sha256": "c81701fefccace69cef76505ed29900cc5fa61c7784575e1e02567557594dca2",
+      "salt": "izmx44n2h8"
+    },
+    {
+      "concept_id": "rack-sliders",
+      "concept_summary": "PLC rack with sliders",
+      "prompt": "Square 1:1 software icon on white. At left, a simple industrial programmable logic controller: a dark-blue horizontal rectangular rack with three plain vertical module divisions. At right, two large orange vertical slider controls. No letters or numbers anywhere, no screens, no extra small details. This is an industrial automation module, not a game controller. Thick flat shapes, generous margin, no shadow.",
+      "signature": {
+        "metaphor": "configuration panel",
+        "objects": "PLC rack and slider controls",
+        "cue": "adjustment",
+        "composition": "rack left, sliders right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-06.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The rack is a plain rectangle with two hairline dividers and lacks recognizable industrial PLC features.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add a large terminal strip and distinct module form while keeping sliders."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tiny slot lines fade and the sliders remain."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Rack dividers soften substantially."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The rack looks like a generic dark block next to sliders, not identifiable PLC hardware.",
+          "rule_id": "SMALL-SHAPE-004",
+          "correction": "Use larger terminal blocks and strong module divisions."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Sliders remain and the rack collapses to a block."
+        }
+      },
+      "reviewed_sha256": "b2d1e85fe5de0273ef2d51e108a6415060aaca005330bf45dfe4671cc3544010"
+    },
+    {
+      "concept_id": "controller-wrench",
+      "concept_summary": "Controller with wrench",
+      "prompt": "Square 1:1 software icon on white. Depict a dark-blue rectangular industrial automation PLC rack with three simple vertical modules; place one large orange wrench diagonally across it. Clearly mechanical industrial equipment, absolutely no video-game controller, gamepad, handles or joystick. No text or numbers. Thick simple flat shapes, generous margin, no shadow.",
+      "signature": {
+        "metaphor": "tool adjustment",
+        "objects": "controller and wrench",
+        "cue": "wrench",
+        "composition": "wrench crosses controller diagonally",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 2,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-07.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large wrench crosses a rectangular industrial PLC rack with modules and terminals."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Wrench and rack remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The diagonal wrench remains clear on the rack."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange wrench and rack silhouette stay visible; small terminal marks merge."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Wrench and rack remain while internal details merge."
+        }
+      },
+      "reviewed_sha256": "e1b34413f6b0e152b0fe090632720a86dd5ce6729b4997eb36528874626bcb04",
+      "salt": "by207n8f80"
+    },
+    {
+      "concept_id": "rack-fields",
+      "concept_summary": "PLC field list",
+      "prompt": "Square 1:1 software icon on white. Draw an industrial PLC rack as a dark-blue horizontal rectangle split into three plain vertical modules, above three thick short orange list bars. Show only these shapes, no letters, words, numbers, buttons, tiny indicators or gamepad. Represents an industrial PLC's configuration attributes. Thick flat shapes, generous margin, no shadow.",
+      "signature": {
+        "metaphor": "attribute list",
+        "objects": "controller and field lines",
+        "cue": "field rows",
+        "composition": "rack above three list bars",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-08.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Three undetailed rectangles above bars do not identify industrial PLC equipment.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add large industrial terminal blocks and a mounting profile while retaining the three list bars."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Blocks and bars are distinct but the rack is generic."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The three plain modules lack identifying hardware features."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The rectangular blocks and bars are ambiguous generic list geometry.",
+          "rule_id": "SMALL-SHAPE-004",
+          "correction": "Show a bold terminal strip and an industrial mounting outline."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Only generic blocks and bars remain."
+        }
+      },
+      "reviewed_sha256": "0c4313e29a1f56f15fa22f9e8ded4514054411c18f2d5243a7af07ed571c3917"
+    },
+    {
+      "concept_id": "plc-knobs",
+      "concept_summary": "Controller with knobs",
+      "prompt": "Square 1:1 software icon on white. Show a dark-blue rectangular industrial PLC rack with three plain vertical slots, positioned above two large orange adjustment knobs. Each knob has one thick pointer. The PLC is industrial automation hardware, not a gamepad or game controller. No text, numbers or tiny detail. Bold flat shapes, generous margin, no shadow.",
+      "signature": {
+        "metaphor": "hardware settings",
+        "objects": "controller and two knobs",
+        "cue": "knob pointers",
+        "composition": "controller center with knobs below",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 4,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-09.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A rectangular industrial rack with three modules sits above two orange adjustment knobs."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack, paired knobs and white knob pointers remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Two round knobs are distinct beneath the rack."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The rack outline, white module slots and paired knob silhouettes remain distinct."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and orange knobs remain, though fine pointers soften."
+        }
+      },
+      "reviewed_sha256": "4943873d24bddd989ab84f59aca76bebde9fd7e5bcacd878b6eafa5c73dcfd9a",
+      "salt": "wo1gj8kj30"
+    },
+    {
+      "concept_id": "rack-sliders",
+      "concept_summary": "PLC rack with sliders",
+      "prompt": "One square 1:1 simple software icon on white. At left, show a recognizable industrial PLC module: a compact dark-blue rectangular enclosure with three large white vertical module panels and a thick row of three large square terminal ports across its bottom. At right, two large orange sliders at different positions. No writing or tiny details, no gaming device. Bold geometry, generous clear margins, no border or shadow.",
+      "signature": {
+        "metaphor": "configuration panel",
+        "objects": "PLC rack and slider controls",
+        "cue": "adjustment",
+        "composition": "rack left, sliders right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 1,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-10.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue industrial rack with three white module panels and terminal squares sits beside two orange sliders."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The rack, module panels and sliders are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The two sliders and rack panel pattern remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The rack outline and two orange sliders remain distinguishable; tiny terminal squares soften."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and sliders survive, while terminal detail merges."
+        }
+      },
+      "reviewed_sha256": "77f4596c058f97a6fc21263d31a1050ef943e25bf7cd6fd843ef177dbb1fd04a",
+      "salt": "1tm7psp1nl"
+    },
+    {
+      "concept_id": "rack-fields",
+      "concept_summary": "PLC field list",
+      "prompt": "One square 1:1 simple software icon on white. Above, show a small industrial PLC rack in dark-blue: a rectangular casing with three large white vertical module slots and a bold bottom row of three round terminal ports. Below, place three thick orange horizontal list bars. The rack must look like industrial automation equipment, not three blank rectangles. No writing, no gamepad, no tiny details. Thick flat shapes, generous margin, no shadow.",
+      "signature": {
+        "metaphor": "attribute list",
+        "objects": "controller and field lines",
+        "cue": "field rows",
+        "composition": "rack above three list bars",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 3,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-11.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An industrial rack is above three thick orange list bars; it has no lettering."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack and the three rows are separately visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The rack is identifiable while the row gaps become thin."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The three orange list bars merge into one orange block, losing the list cue.",
+          "rule_id": "SMALL-SHAPE-004",
+          "correction": "Replace the list with fewer, larger separated configuration elements.",
+          "cause": "Three rows and their gaps occupy too few pixels."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and orange region remain but the rows merge."
+        }
+      },
+      "reviewed_sha256": "0e78e48d0437436f751262c87af705d7110711a5efc84fba57f2ff4a4b510f5a"
+    },
+    {
+      "concept_id": "rack-attribute-cluster",
+      "concept_summary": "PLC rack with attribute cluster",
+      "prompt": "Create one SQUARE 1:1 simple icon on white for industrial PLC configuration attributes. At left draw a dark-blue industrial PLC module: a rectangle with three large white module slots and a bold lower strip of three large terminals. At right draw two LARGE separate orange square setting nodes, one above the other, connected to the rack by a single thick orange bracket. The two nodes must have a very wide white gap so they remain distinct at small sizes. No letters, no tiny details, no gamepad. Thick flat shapes, generous margin, no shadow.",
+      "signature": {
+        "metaphor": "configuration cluster",
+        "objects": "PLC rack and two joined setting nodes",
+        "cue": "connected property nodes",
+        "composition": "rack left and two large connected squares right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-12",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-12.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "rack-in-braces",
+      "concept_summary": "PLC attribute cluster",
+      "prompt": "Create one SQUARE 1:1 simple software icon on a pure white background for a LabVIEW PLC configuration cluster. Show a dark-blue rectangular industrial PLC module in the center with three broad white module slots and three large terminals along its bottom. Enclose the module between one large orange left curly brace and one large orange right curly brace. The braces and module must be bold, separated and visible at 30 by 18 pixels. The braces represent grouped attributes. No words, no numerals, no video-game controller, no small details, no shadow.",
+      "signature": {
+        "metaphor": "structured configuration",
+        "objects": "industrial rack and enclosing braces",
+        "cue": "grouping braces",
+        "composition": "PLC rack centered between large curly braces",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-13",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-13.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange brace tips extend to within approximately one percent of each side of the source canvas, leaving insufficient edge clearance.",
+          "rule_id": "VIS-MARGIN-005",
+          "cause": "The grouping braces are almost edge-to-edge.",
+          "correction": "Keep the complete rack and both braces within the central 75 percent of the square canvas."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack and orange grouping braces are visibly separated in the processed preview."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Curly brace silhouettes remain distinct on both sides of the rack."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Both braces and the three module panels remain visible after fitting."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Braces and rack survive; terminal detail merges."
+        }
+      },
+      "reviewed_sha256": "2ad9befebaf111c3abe66a7416a1bdbbdb1455b4763a04eb962f163946e8c0f5"
+    },
+    {
+      "concept_id": "rack-in-braces",
+      "concept_summary": "PLC attribute cluster",
+      "prompt": "Create exactly one SQUARE 1:1 icon on pure white. IMPORTANT: place the entire illustration strictly inside the central 70 percent of the canvas, leaving a wide plain white margin on every side. Show a small dark-blue industrial PLC module with three broad white vertical module slots and three bold bottom terminals. Put a large orange curly brace to its left and another orange curly brace to its right, framing it as a configuration cluster. All shapes thick and simple, no words, no numerals, no gamepad, no shadow, no border.",
+      "signature": {
+        "metaphor": "structured configuration",
+        "objects": "industrial rack and enclosing braces",
+        "cue": "grouping braces",
+        "composition": "PLC rack centered between large curly braces",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-14",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-0e7e24824f83\\candidates\\candidate-14.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Orange curly braces enclose a blue industrial rack; all elements have clear white margin."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both braces and the three rack slots remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Braces, rack and module divisions remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The two braces frame the white-slotted rack; terminal details soften."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The frame and braces survive, while the small lower terminals merge."
+        }
+      },
+      "reviewed_sha256": "85f8c79e3c07c37d07ab2c7103feeb32f8a68c51d258eed7dc2f88e87d5ec554",
+      "salt": "koh6mrowum"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "rack-sliders",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DETAIL-004",
+      "result": "FAIL",
+      "observed_problem": "Rack includes unrequested small PLC lettering and many tiny panel marks.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a plain unlabeled industrial automation rack with only three thick module slots and simple sliders.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "rack-sliders",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "PLC lettering collapses to indistinct pale pixels in the rack.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Remove all lettering and fine panel details.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "controller-wrench",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "The source depicts a game controller, not an industrial programmable logic controller.",
+      "measured_value": "source",
+      "corrective_instruction": "Depict a rectangular industrial PLC rack with vertical modules; no gamepad, handles or buttons.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "rack-fields",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DETAIL-004",
+      "result": "FAIL",
+      "observed_problem": "The PLC rack contains unsolicited lettering and many miniature details.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a simple unlabeled industrial PLC rack over three thick field bars.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "rack-fields",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The small PLC text and module details dissolve into ambiguous blocks.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Remove the lettering and simplify the rack silhouette.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "plc-knobs",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "The controller is a video-game gamepad, not an industrial PLC.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an industrial rectangular PLC module with screw terminals and two simple configuration knobs.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Two candidates depict gamepads instead of PLCs, and two rack designs include unreadable incidental letters. Retain the gear module and review a corrected final set.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "rack-sliders",
+      "attempt_number": 2,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "The rack is a plain rectangle with two hairline dividers and lacks recognizable industrial PLC features.",
+      "measured_value": "source",
+      "corrective_instruction": "Add a large terminal strip and distinct module form while keeping sliders.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "rack-sliders",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-SHAPE-004",
+      "result": "FAIL",
+      "observed_problem": "The rack looks like a generic dark block next to sliders, not identifiable PLC hardware.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use larger terminal blocks and strong module divisions.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "concept_id": "rack-fields",
+      "attempt_number": 2,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "Three undetailed rectangles above bars do not identify industrial PLC equipment.",
+      "measured_value": "source",
+      "corrective_instruction": "Add large industrial terminal blocks and a mounting profile while retaining the three list bars.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 3,
+      "concept_id": "rack-fields",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-SHAPE-004",
+      "result": "FAIL",
+      "observed_problem": "The rectangular blocks and bars are ambiguous generic list geometry.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Show a bold terminal strip and an industrial mounting outline.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Rack-with-sliders and rack-with-list images are over-simplified generic blocks that no longer establish PLC context. Retain the industrial wrench, knobs and gear options, then compare replacements.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 3,
+      "concept_id": "rack-fields",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-SHAPE-004",
+      "result": "FAIL",
+      "observed_problem": "The three orange list bars merge into one orange block, losing the list cue.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Replace the list with fewer, larger separated configuration elements.",
+      "likely_cause_hypothesis": "Three rows and their gaps occupy too few pixels.",
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The rack-and-list candidate loses its separate rows at 30x18; replace it and compare the final selection.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-13",
+      "option_number": 3,
+      "concept_id": "rack-in-braces",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-MARGIN-005",
+      "result": "FAIL",
+      "observed_problem": "Orange brace tips extend to within approximately one percent of each side of the source canvas, leaving insufficient edge clearance.",
+      "measured_value": "source",
+      "corrective_instruction": "Keep the complete rack and both braces within the central 75 percent of the square canvas.",
+      "likely_cause_hypothesis": "The grouping braces are almost edge-to-edge.",
+      "retry_result": "PASS after review of candidate-14"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The cluster-braces image has insufficient source edge clearance; replace it before final comparison.",
+      "retry_result": "PASS after comparison of the final selected set"
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-07",
+      "candidate-14",
+      "candidate-09",
+      "candidate-05"
+    ],
+    "evidence": "The actual five designs have distinct configurations at 30x18: rack with two side sliders, rack crossed by a diagonal wrench, rack enclosed by curly braces, rack above two knobs, and gear inside rack. This is within-set review only; collection-wide comparison remains outstanding."
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned 2z3dhtvq4t.md",
+    "manifest.json",
+    "PLC Attributes option 1 1024x1024 1tm7psp1nl.png",
+    "PLC Attributes option 1 1tm7psp1nl.ico",
+    "PLC Attributes option 1 29x29 1tm7psp1nl.png",
+    "PLC Attributes option 1 30x18 1tm7psp1nl.png",
+    "PLC Attributes option 1 30x23 1tm7psp1nl.png",
+    "PLC Attributes option 2 1024x1024 by207n8f80.png",
+    "PLC Attributes option 2 29x29 by207n8f80.png",
+    "PLC Attributes option 2 30x18 by207n8f80.png",
+    "PLC Attributes option 2 30x23 by207n8f80.png",
+    "PLC Attributes option 2 by207n8f80.ico",
+    "PLC Attributes option 3 1024x1024 koh6mrowum.png",
+    "PLC Attributes option 3 29x29 koh6mrowum.png",
+    "PLC Attributes option 3 30x18 koh6mrowum.png",
+    "PLC Attributes option 3 30x23 koh6mrowum.png",
+    "PLC Attributes option 3 koh6mrowum.ico",
+    "PLC Attributes option 4 1024x1024 wo1gj8kj30.png",
+    "PLC Attributes option 4 29x29 wo1gj8kj30.png",
+    "PLC Attributes option 4 30x18 wo1gj8kj30.png",
+    "PLC Attributes option 4 30x23 wo1gj8kj30.png",
+    "PLC Attributes option 4 wo1gj8kj30.ico",
+    "PLC Attributes option 5 1024x1024 izmx44n2h8.png",
+    "PLC Attributes option 5 29x29 izmx44n2h8.png",
+    "PLC Attributes option 5 30x18 izmx44n2h8.png",
+    "PLC Attributes option 5 30x23 izmx44n2h8.png",
+    "PLC Attributes option 5 izmx44n2h8.ico"
+  ]
+}

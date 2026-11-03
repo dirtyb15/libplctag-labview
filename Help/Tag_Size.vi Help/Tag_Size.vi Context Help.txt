@@ -1,0 +1,3 @@
+Returns the size in bytes of a tag's local data buffer. Check error out and the returned tag size. A negative size is a library error; do not use it as a buffer length.
+
+Upstream 2.7.2 also sets tag status to OK after a successful size query. The bundled binaries contain version string 2.7.2.

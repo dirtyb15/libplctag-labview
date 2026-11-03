@@ -1,0 +1,67 @@
+{
+  "request": "Unlock an existing PLC tag",
+  "concepts": [
+    {
+      "concept_summary": "Tag exits open door",
+      "prompt": "One SQUARE flat software icon on white for unlocking a PLC tag. Draw a LARGE OPEN BLUE DOOR at right, visibly angled open with a white doorway behind it. A large ORANGE TAG with white hole moves LEFT out of the doorway, with one bold black LEFT ARROW over it. Use simple thick shapes and separation. No padlock, shield, clamp, chain, writing or shadow. All art in central 70 percent of square; recognizable at 30x18.",
+      "concept_id": "unlock-door",
+      "signature": {
+        "orientation": "horizontal",
+        "composition": "open door at right with tag moving left",
+        "metaphor": "open doorway",
+        "objects": "open door, tag",
+        "cue": "tag leaves doorway"
+      }
+    },
+    {
+      "concept_summary": "Tag freed from chain",
+      "prompt": "One SQUARE flat icon on white for unlocking a PLC tag. Draw a large ORANGE TAG with a white hole at upper right. Two LARGE BROKEN BLUE CHAIN LINKS separate from it down toward lower left, with a very wide white gap between the links to show release. Large simple chain shapes, no padlock, lightning, explosion, scissors, text, shadow, arrow or shield. The tag and separated links must be clear at 30x18; keep artwork in central 70 percent of square.",
+      "concept_id": "unlock-chain",
+      "signature": {
+        "orientation": "diagonal",
+        "composition": "two separated chain links diagonally beside tag",
+        "metaphor": "broken chain",
+        "objects": "chain and tag",
+        "cue": "chain separates from tag"
+      }
+    },
+    {
+      "concept_summary": "Hand releases tag",
+      "prompt": "One SQUARE flat icon on white for unlocking and releasing a PLC tag. Show a broad BLUE OPEN PALM at bottom with all fingers clearly extended and separated from a large ORANGE TAG above it. A large BLACK UP ARROW beside the tag indicates it is free and moving away from the open palm. No grasping hand, padlock, shield, clamp, writing, shadow or box. Use large simple clear shapes readable at 30x18, centered in middle 70 percent of square.",
+      "concept_id": "unlock-hand",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "blue open palm below orange tag and upward black arrow",
+        "metaphor": "release",
+        "objects": "open hand and tag",
+        "cue": "open palm lets tag go"
+      }
+    },
+    {
+      "concept_summary": "Key turned to release",
+      "prompt": "One SQUARE flat icon on pure white for unlocking. Draw a large ORANGE KEY diagonally from lower left to upper right with a large round handle and two obvious teeth. Above the key draw one thick BLUE CURVED ARROW sweeping counterclockwise to show turning the key and releasing a lock. Key and arrow are large, separated and easily recognizable at 30x18. No padlock, socket, tag, text, numerals, shield, shadows, or other objects. All artwork in center 70 percent of square.",
+      "concept_id": "unlock-key",
+      "signature": {
+        "orientation": "diagonal",
+        "composition": "large orange key and bold curved blue turn arrow",
+        "metaphor": "unlock with key",
+        "objects": "key and curved arrow",
+        "cue": "key turns to unlock"
+      }
+    },
+    {
+      "concept_summary": "Raised barrier releases tag",
+      "prompt": "One SQUARE flat icon on white for releasing a locked PLC tag. A huge BLUE BARRIER GATE is raised diagonally upward from its base on the left, leaving an unobstructed path. A large ORANGE TAG with white hole passes to the right underneath the raised gate, with a thick black right arrow. Use very simple large shapes; do not draw a padlock, door, clamp, shield, chain, text or shadow. Must stay recognizable at 30x18. Entire design within middle 70 percent of square.",
+      "concept_id": "unlock-gate",
+      "signature": {
+        "orientation": "diagonal",
+        "composition": "large angled barrier above tag traveling right",
+        "metaphor": "raised gate",
+        "objects": "raised gate arm and tag",
+        "cue": "barrier lifted for tag"
+      }
+    }
+  ],
+  "background_mode": "white",
+  "summary_name": "Unlock Tag"
+}

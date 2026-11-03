@@ -1,0 +1,12 @@
+{
+  "concept_summary": "Tag secured inside safe",
+  "signature": {
+    "metaphor": "safe",
+    "composition": "large safe door with white wheel left and orange tag right",
+    "orientation": "horizontal",
+    "objects": "safe and tag",
+    "cue": "closed safe wheel"
+  },
+  "concept_id": "lock-safe",
+  "prompt": "One SQUARE flat software icon on white for locking a PLC tag. Draw a large solid NAVY CLOSED SAFE DOOR, square with rounded corners. On the LEFT of the door show a huge WHITE ROUND SAFE WHEEL with three thick spokes; on the RIGHT show one bold ORANGE TAG silhouette with a white hole. The square safe and wheel should dominate and remain obvious at 30x18. No padlock, shield, bars, arrow, check mark, text, numbers, shadow, or blue C shape. All art in central 70 percent of square."
+}

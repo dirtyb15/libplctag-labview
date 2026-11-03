@@ -1,0 +1,123 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The rack is a plain rectangle with two hairline dividers and lacks recognizable industrial PLC features.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add a large terminal strip and distinct module form while keeping sliders."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tiny slot lines fade and the sliders remain."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Rack dividers soften substantially."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The rack looks like a generic dark block next to sliders, not identifiable PLC hardware.",
+          "rule_id": "SMALL-SHAPE-004",
+          "correction": "Use larger terminal blocks and strong module divisions."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Sliders remain and the rack collapses to a block."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large wrench crosses a rectangular industrial PLC rack with modules and terminals."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Wrench and rack remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The diagonal wrench remains clear on the rack."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange wrench and rack silhouette stay visible; small terminal marks merge."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Wrench and rack remain while internal details merge."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Three undetailed rectangles above bars do not identify industrial PLC equipment.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add large industrial terminal blocks and a mounting profile while retaining the three list bars."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Blocks and bars are distinct but the rack is generic."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The three plain modules lack identifying hardware features."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The rectangular blocks and bars are ambiguous generic list geometry.",
+          "rule_id": "SMALL-SHAPE-004",
+          "correction": "Show a bold terminal strip and an industrial mounting outline."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Only generic blocks and bars remain."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-09",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A rectangular industrial rack with three modules sits above two orange adjustment knobs."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack, paired knobs and white knob pointers remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Two round knobs are distinct beneath the rack."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The rack outline, white module slots and paired knob silhouettes remain distinct."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and orange knobs remain, though fine pointers soften."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-07",
+      "candidate-08",
+      "candidate-09",
+      "candidate-05"
+    ],
+    "evidence": "Rack-with-sliders and rack-with-list images are over-simplified generic blocks that no longer establish PLC context. Retain the industrial wrench, knobs and gear options, then compare replacements."
+  }
+}

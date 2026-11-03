@@ -1,0 +1,3 @@
+Releases the external tag lock. Check error out and error code, and pair the call with a successful lock. This node runs on the user interface (UI) thread; on Windows, that thread must own the mutex. An incoming error skips the call, so preserve earlier errors separately and supply a no-error cluster for cleanup.
+
+On Windows, a thread that locks twice must unlock twice. In the legacy library, a competing lock can block the unlock. Use LabVIEW synchronization for shared-tag sequences. In upstream 2.7.2 on Windows, the acquiring operating-system thread must release the mutex and must match repeated acquisitions with releases. The bundled binaries contain version string 2.7.2. Legacy behavior above may differ.

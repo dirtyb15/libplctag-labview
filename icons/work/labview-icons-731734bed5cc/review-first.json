@@ -1,0 +1,146 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The I8 block and suspension remain visible."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I8 and suspended block remain distinct."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Barred I and both orange counters of 8 remain distinguishable; hook softens."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The small hook and letter details soften."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A navy hook lifts an orange block labeled I8 with barred I."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The label is small within the droplet."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The faucet and label are visible."
+        },
+        "30x18": {
+          "correction": "Retire the droplet concept or make the label much larger and higher contrast.",
+          "result": "FAIL",
+          "evidence": "The eight counter spaces merge and I8 is not reliably readable in the small drop.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label disappears."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A navy faucet releases an orange I8 droplet."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Magnet and readable I8 remain."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Barred I and 8 are distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The label, I crossbars and two 8 holes remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The 8 holes soften at stress size."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue horseshoe magnet attracts an orange I8 value tile."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Barred I and both 8 holes survive."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Large I8 and arrow are clear."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "I8 is readable and arrow points down from display."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Arrow and label remain but details soften."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A display shows I8 with a downward output arrow."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The angled label is small."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I8 and key shape are visible."
+        },
+        "30x18": {
+          "correction": "Use an unrotated and larger I8 label.",
+          "result": "FAIL",
+          "evidence": "The angled I8 label is too small and softened to read reliably.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label loses detail."
+        },
+        "source": {
+          "correction": "Use a different extraction metaphor that does not resemble a key or lock.",
+          "result": "FAIL",
+          "evidence": "The key inserted in a socket suggests unlocking rather than reading a typed buffer value and risks confusion with Unlock.vi.",
+          "rule_id": "VIS-SEM-001"
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "The crane, faucet, magnet, display and key have different silhouettes, but the faucet label becomes unreadable and the key suggests unlock. Replacements are required before acceptance.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  }
+}

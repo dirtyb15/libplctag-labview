@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-17",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The barred I, digit 1 and digit 6 are separate, and the arrow points downward."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The wide type softens but the blue cap and orange downward arrow remain clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I16 remains legible with a visible gap from the side arrow."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Spaced I16 sits to the left of a blue buffer cap and large downward orange arrow, with clear margins."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The signed I16 label and distinct downward arrowhead survive."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-13",
+      "candidate-07",
+      "candidate-14",
+      "candidate-15",
+      "candidate-17"
+    ],
+    "evidence": "The five designs use a left-pointing horizontal output below type, eye over type, diagonal corner extraction, curved output from a block, and a downward arrow beside type. The U8 reference uses a centered down arrow over the value, making its arrangement different from the signed side arrow. Further comparison with all types and setters remains required."
+  }
+}

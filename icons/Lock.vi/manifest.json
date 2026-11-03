@@ -1,0 +1,1928 @@
+{
+  "run_id": "c5d3b0a990d44c6d9b6c960093b8c228",
+  "request": "Lock a PLC tag",
+  "summary_name": "Lock",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Closed padlock",
+      "salt": "ktohthg39u",
+      "source_file": "Lock option 1 1024x1024 ktohthg39u.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Lock option 1 29x29 ktohthg39u.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              236,
+              147,
+              788,
+              867
+            ],
+            "source_artwork_size": [
+              552,
+              720
+            ],
+            "rendered_artwork_size": [
+              21,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.0375,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 1 30x23 ktohthg39u.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              236,
+              147,
+              788,
+              867
+            ],
+            "source_artwork_size": [
+              552,
+              720
+            ],
+            "rendered_artwork_size": [
+              16,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.029166666666666667,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 1 30x18 ktohthg39u.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              236,
+              147,
+              788,
+              867
+            ],
+            "source_artwork_size": [
+              552,
+              720
+            ],
+            "rendered_artwork_size": [
+              12,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.022222222222222223,
+            "offset": [
+              9,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Lock option 1 ktohthg39u.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            11,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.019444444444444445,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            14,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.025,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            17,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.030555555555555555,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            23,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.041666666666666664,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            29,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.05277777777777778,
+          "offset": [
+            5,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            35,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.06388888888888888,
+          "offset": [
+            6,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            48,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.08611111111111111,
+          "offset": [
+            8,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            97,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.175,
+          "offset": [
+            15,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            236,
+            147,
+            788,
+            867
+          ],
+          "source_artwork_size": [
+            552,
+            720
+          ],
+          "rendered_artwork_size": [
+            195,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3527777777777778,
+          "offset": [
+            30,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "evidence": "The closed shackle, navy body and white tag cutout remain visible. The current unlock set uses a ring, chain, palm, key and raised gate, not a padlock.",
+            "result": "PASS"
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "Closed navy padlock with a white tag cutout."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Closed shackle and tag cutout are visible."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Closed shackle and cutout remain visible."
+          },
+          "16x16": {
+            "result": "PASS",
+            "evidence": "Closed lock remains visible; the tag cutout is simplified."
+          }
+        },
+        "source_sha256": "c92e5d584b11483dacec62bcf34c2a2178cbd8f7f66343b07ba2584c20b09e6e",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-08",
+            "candidate-07",
+            "candidate-04",
+            "candidate-10"
+          ],
+          "evidence": "Closed padlock, safe wheel, cage bars, shield and anchor have different structures. Directly compared against current unlock concepts: open ring, broken links, palm, turning key and raised gate use different shapes. Collection-wide review remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "padlock",
+      "candidate_id": "candidate-01",
+      "qa_status": "PASS",
+      "sha256": {
+        "Lock option 1 1024x1024 ktohthg39u.png": "eff3867c55de7f2ddb21b7339e12833fa53e5cc0d19bdec42825380a9247ec47",
+        "Lock option 1 29x29 ktohthg39u.png": "b014f63dd4122b77c59b92de872b892e033030f92afcd21d8f9af79f6a4d25a0",
+        "Lock option 1 30x23 ktohthg39u.png": "294f919a62e9e18c16aba000f6c823ad678d50c60b26cf4f6310e8718ea066e0",
+        "Lock option 1 30x18 ktohthg39u.png": "101081d4661d0740973a3122e9a26fe60526f85746fa47df0ac4d831852e26f9",
+        "Lock option 1 ktohthg39u.ico": "8fadaf75e5e669fd1e5e15a5f45cf36174c18ef877f5a906be7404bdf43c4281"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Tag secured inside safe",
+      "salt": "vr0di9894s",
+      "source_file": "Lock option 2 1024x1024 vr0di9894s.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Lock option 2 29x29 vr0di9894s.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              83,
+              95,
+              941,
+              928
+            ],
+            "source_artwork_size": [
+              858,
+              833
+            ],
+            "rendered_artwork_size": [
+              27,
+              26
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03146853146853147,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 2 30x23 vr0di9894s.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              83,
+              95,
+              941,
+              928
+            ],
+            "source_artwork_size": [
+              858,
+              833
+            ],
+            "rendered_artwork_size": [
+              22,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.025210084033613446,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 2 30x18 vr0di9894s.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              83,
+              95,
+              941,
+              928
+            ],
+            "source_artwork_size": [
+              858,
+              833
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01920768307322929,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Lock option 2 vr0di9894s.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016317016317016316,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            18,
+            17
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.02097902097902098,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            22,
+            21
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02564102564102564,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            30,
+            29
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03496503496503497,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            38,
+            37
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04428904428904429,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            46,
+            45
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.053613053613053616,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            62,
+            60
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07226107226107226,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            126,
+            122
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14685314685314685,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            83,
+            95,
+            941,
+            928
+          ],
+          "source_artwork_size": [
+            858,
+            833
+          ],
+          "rendered_artwork_size": [
+            254,
+            247
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.29603729603729606,
+          "offset": [
+            1,
+            4
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "evidence": "Wheel and tag are distinct.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "The large wheel, safe face and tag remain recognizable.",
+            "result": "PASS"
+          },
+          "source": {
+            "evidence": "A three-spoke white safe wheel and orange tag sit on a navy square safe door.",
+            "result": "PASS"
+          },
+          "30x23": {
+            "evidence": "The wheel spokes and tag survive.",
+            "result": "PASS"
+          },
+          "16x16": {
+            "evidence": "The wheel spokes soften.",
+            "result": "WARN"
+          }
+        },
+        "source_sha256": "3abac3ea18f8c367567275f0539aadfdcf699740128f6bdfb15670c783322f6c",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-08",
+            "candidate-07",
+            "candidate-04",
+            "candidate-10"
+          ],
+          "evidence": "Closed padlock, safe wheel, cage bars, shield and anchor have different structures. Directly compared against current unlock concepts: open ring, broken links, palm, turning key and raised gate use different shapes. Collection-wide review remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "lock-safe",
+      "candidate_id": "candidate-08",
+      "qa_status": "PASS",
+      "sha256": {
+        "Lock option 2 1024x1024 vr0di9894s.png": "16d0feb6239db53a6cd04d7f1617fb0bf4d65542f08ce7f251d099ad5cba1ba9",
+        "Lock option 2 29x29 vr0di9894s.png": "02cb26d4da791fc137a6e0473eb4f8e26b07f8b1cdf49fee567b4aedab321a5a",
+        "Lock option 2 30x23 vr0di9894s.png": "57dc90e4240274ff4d0811c89c9336cf721fc9425a6a9d39b978db4613f3f99e",
+        "Lock option 2 30x18 vr0di9894s.png": "8c836b91af35ced566d7ff1852afd298821af696daf5561919b9ee6754f25abf",
+        "Lock option 2 vr0di9894s.ico": "ef7a56ceaaaa4e4c02d12017cf881e90f84ab9e4f8a224e72ef1494a1982ef8f"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Tag secured inside cage",
+      "salt": "2cny9ep7cl",
+      "source_file": "Lock option 3 1024x1024 2cny9ep7cl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Lock option 3 29x29 2cny9ep7cl.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              132,
+              137,
+              892,
+              888
+            ],
+            "source_artwork_size": [
+              760,
+              751
+            ],
+            "rendered_artwork_size": [
+              27,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.035526315789473684,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 3 30x23 2cny9ep7cl.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              132,
+              137,
+              892,
+              888
+            ],
+            "source_artwork_size": [
+              760,
+              751
+            ],
+            "rendered_artwork_size": [
+              21,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02796271637816245,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 3 30x18 2cny9ep7cl.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              132,
+              137,
+              892,
+              888
+            ],
+            "source_artwork_size": [
+              760,
+              751
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02130492676431425,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Lock option 3 2cny9ep7cl.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.018421052631578946,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            18,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.02368421052631579,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            22,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02894736842105263,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            30,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.039473684210526314,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            38,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.05,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            46,
+            45
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.060526315789473685,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            62,
+            61
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.08157894736842106,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            126,
+            125
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.16578947368421051,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            132,
+            137,
+            892,
+            888
+          ],
+          "source_artwork_size": [
+            760,
+            751
+          ],
+          "rendered_artwork_size": [
+            254,
+            251
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.33421052631578946,
+          "offset": [
+            1,
+            2
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "16x16": {
+            "evidence": "The frame and tag remain as bar details soften.",
+            "result": "WARN"
+          },
+          "29x29": {
+            "evidence": "The frame and both bars remain distinct.",
+            "result": "PASS"
+          },
+          "source": {
+            "evidence": "Orange tag is enclosed behind two dark vertical cage bars.",
+            "result": "PASS"
+          },
+          "30x23": {
+            "evidence": "The tag hole and vertical bars remain visible.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "The cage, tag and separate bars remain recognizable.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "407a80346bb4d2943e1d5113aced2d5a231406a6ac60378bbb3e063d34aad67e",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-08",
+            "candidate-07",
+            "candidate-04",
+            "candidate-10"
+          ],
+          "evidence": "Closed padlock, safe wheel, cage bars, shield and anchor have different structures. Directly compared against current unlock concepts: open ring, broken links, palm, turning key and raised gate use different shapes. Collection-wide review remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "lock-cage",
+      "candidate_id": "candidate-07",
+      "qa_status": "PASS",
+      "sha256": {
+        "Lock option 3 1024x1024 2cny9ep7cl.png": "126b726eb15c67e2efec2112ecdaca1912e74712ad72ffab46dfc59fd974a113",
+        "Lock option 3 29x29 2cny9ep7cl.png": "b946ffbe0fd5ff74c3ea9ef23c59c89a5742c355739725faa0b9cf20a042fba9",
+        "Lock option 3 30x23 2cny9ep7cl.png": "a5e2db8842fdca998d8b6b739936dd6dbbc29036cdaff9f348087efe96dd050d",
+        "Lock option 3 30x18 2cny9ep7cl.png": "b1063b2fe40b689181066057eaf6cbc93fe661f93beaa465a15acaef5eb41fe5",
+        "Lock option 3 2cny9ep7cl.ico": "67439402eb57b62caa2b8bd8ad2200bbc43f637993616e91278a9ded06a40a1e"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Lock shield",
+      "salt": "gvsnt3oex8",
+      "source_file": "Lock option 4 1024x1024 gvsnt3oex8.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Lock option 4 29x29 gvsnt3oex8.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              133,
+              94,
+              891,
+              932
+            ],
+            "source_artwork_size": [
+              758,
+              838
+            ],
+            "rendered_artwork_size": [
+              24,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.032219570405727926,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 4 30x23 gvsnt3oex8.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              133,
+              94,
+              891,
+              932
+            ],
+            "source_artwork_size": [
+              758,
+              838
+            ],
+            "rendered_artwork_size": [
+              19,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.025059665871121718,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 4 30x18 gvsnt3oex8.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              133,
+              94,
+              891,
+              932
+            ],
+            "source_artwork_size": [
+              758,
+              838
+            ],
+            "rendered_artwork_size": [
+              14,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01909307875894988,
+            "offset": [
+              8,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Lock option 4 gvsnt3oex8.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            13,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016706443914081145,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            16,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.021479713603818614,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            20,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.026252983293556086,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            27,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03579952267303103,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            34,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.045346062052505964,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            42,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05489260143198091,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            56,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07398568019093078,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            114,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.15035799522673032,
+          "offset": [
+            7,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            133,
+            94,
+            891,
+            932
+          ],
+          "source_artwork_size": [
+            758,
+            838
+          ],
+          "rendered_artwork_size": [
+            230,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3031026252983294,
+          "offset": [
+            13,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "evidence": "A closed orange padlock remains visible within a blue shield; no current unlock candidate uses a shield.",
+            "result": "PASS"
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "Orange closed padlock inside a blue shield."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Shield and padlock are separate."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Shield and lock remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "Shield and orange lock survive, but the shackle is small."
+          }
+        },
+        "source_sha256": "4dd870519f4a051d1af50c5a72f230ab4424376396d52975d0ffbeee719df1a7",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-08",
+            "candidate-07",
+            "candidate-04",
+            "candidate-10"
+          ],
+          "evidence": "Closed padlock, safe wheel, cage bars, shield and anchor have different structures. Directly compared against current unlock concepts: open ring, broken links, palm, turning key and raised gate use different shapes. Collection-wide review remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "shield",
+      "candidate_id": "candidate-04",
+      "qa_status": "PASS",
+      "sha256": {
+        "Lock option 4 1024x1024 gvsnt3oex8.png": "8263274fdad7cdcd6147b1b7225f3048b60dae9cd2c22ea3c68dff263b3b58a1",
+        "Lock option 4 29x29 gvsnt3oex8.png": "4a6f6fb40bc8cb954843b756245c249f74ba7140a8d2b1cdcabd1ea016e53cc8",
+        "Lock option 4 30x23 gvsnt3oex8.png": "17fefc36519875bb823ab334a573b09001f9a624216b2d26f8761ad0df00802e",
+        "Lock option 4 30x18 gvsnt3oex8.png": "ba40ced9967e9f146e8ccb79ae72a89fab8285bf3463490d6b0b55e49c904625",
+        "Lock option 4 gvsnt3oex8.ico": "2cb4d087a9ec8e2fc4e575795df7b284d4146ba570a8024a3c0d60d78827fb34"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Tag anchored securely",
+      "salt": "xaj6ax1vtj",
+      "source_file": "Lock option 5 1024x1024 xaj6ax1vtj.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Lock option 5 29x29 xaj6ax1vtj.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              144,
+              47,
+              896,
+              999
+            ],
+            "source_artwork_size": [
+              752,
+              952
+            ],
+            "rendered_artwork_size": [
+              21,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.028361344537815126,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 5 30x23 xaj6ax1vtj.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              144,
+              47,
+              896,
+              999
+            ],
+            "source_artwork_size": [
+              752,
+              952
+            ],
+            "rendered_artwork_size": [
+              17,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.022058823529411766,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Lock option 5 30x18 xaj6ax1vtj.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              144,
+              47,
+              896,
+              999
+            ],
+            "source_artwork_size": [
+              752,
+              952
+            ],
+            "rendered_artwork_size": [
+              13,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01680672268907563,
+            "offset": [
+              8,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Lock option 5 xaj6ax1vtj.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            11,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014705882352941176,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            14,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018907563025210083,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            17,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.023109243697478993,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            24,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.031512605042016806,
+          "offset": [
+            4,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            30,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.03991596638655462,
+          "offset": [
+            5,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            36,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04831932773109244,
+          "offset": [
+            6,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            49,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06512605042016807,
+          "offset": [
+            7,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            100,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1323529411764706,
+          "offset": [
+            14,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            144,
+            47,
+            896,
+            999
+          ],
+          "source_artwork_size": [
+            752,
+            952
+          ],
+          "rendered_artwork_size": [
+            201,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2668067226890756,
+          "offset": [
+            27,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "evidence": "An orange tag attaches to a large dark ship anchor, a metaphor for securing it.",
+            "result": "PASS"
+          },
+          "16x16": {
+            "evidence": "The tag hole and small anchor ring soften.",
+            "result": "WARN"
+          },
+          "30x23": {
+            "evidence": "Anchor outline and orange tag remain separate.",
+            "result": "PASS"
+          },
+          "29x29": {
+            "evidence": "Anchor flukes, shaft and tag remain visible.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "The anchor and attached tag are recognizable.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "c383ea739d3e7bad85581f210c414a4907a5ea8180542634d8dcaf46666b3697",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-08",
+            "candidate-07",
+            "candidate-04",
+            "candidate-10"
+          ],
+          "evidence": "Closed padlock, safe wheel, cage bars, shield and anchor have different structures. Directly compared against current unlock concepts: open ring, broken links, palm, turning key and raised gate use different shapes. Collection-wide review remains pending.",
+          "result": "PASS"
+        }
+      },
+      "concept_id": "lock-anchor",
+      "candidate_id": "candidate-10",
+      "qa_status": "PASS",
+      "sha256": {
+        "Lock option 5 1024x1024 xaj6ax1vtj.png": "0c6ea93d3ff2ab751027112c45c6cbe4d98f587b27881efa5a1cf5dabe67bb31",
+        "Lock option 5 29x29 xaj6ax1vtj.png": "28215ee28232be69a5e236012ebc819721114129f1d666d0d3c063459a21572d",
+        "Lock option 5 30x23 xaj6ax1vtj.png": "a9b961b8cb3665e7be42fae415bb42c64941efcbed2a94f216941e5bea1cd5ae",
+        "Lock option 5 30x18 xaj6ax1vtj.png": "3f72b3ba7fbf637128e05665d88424ad5b1ce523b4040fee91809761f2c98612",
+        "Lock option 5 xaj6ax1vtj.ico": "9afd921d2b7788ae116fbe19e9041a708d46a341c42a4a090865bdbfcafae00a"
+      }
+    }
+  ]
+}

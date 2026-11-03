@@ -1,0 +1,3 @@
+Starts a write of local tag data to the controller. Use a nonnegative timeout in milliseconds; zero can return a pending status. Check error out and error code, and wait for completion when pending. A positive wait runs on the LabVIEW user interface thread and can delay the interface. A successful local setter alone does not confirm a controller write. When other bytes must be retained, read the tag before modifying its local buffer.
+
+Upstream 2.7.2 returns -7 for a negative timeout and can return -39 if another operation is in flight. The bundled binaries contain version string 2.7.2.

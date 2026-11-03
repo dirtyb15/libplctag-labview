@@ -1,0 +1,152 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Navy tag with red X; separated shapes and clear margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and X are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and X remain separate."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "X remains visible, but the overall tag-and-badge composition closely resembles the create-tag plus option.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same tag-plus-badge layout appears across operations.",
+          "correction": "Use a different dominant silhouette and composition from create-tag and the other deletion options."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and X remain recognizable."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag enters red waste bin; the delete metaphor is clear."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and bin are separable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and bin remain distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Tag entering the bin is recognizable."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and bin remain recognizable despite losing bin slots."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Navy tag with red minus badge; clear margins."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and minus remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and minus remain distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag-and-badge composition closely resembles both create-tag plus and destroy-tag X.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same tag-plus-badge layout appears across operations.",
+          "correction": "Use a different dominant silhouette and composition from create-tag and the other deletion options."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and minus are recognizable."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag enters a shredder; source includes several thin shredding strips."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and shredder are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The shreds begin to merge."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The shreds merge into a pale blue blur, so the shredder cue is ambiguous.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Fine shred strips merge during reduction.",
+          "correction": "Use fewer, thicker and widely separated strips and a recognizable shredder."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The shredder detail is not recognizable."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A red lightning bolt splits a blue tag; the result suggests a fault or broken connection rather than deleting a software tag.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The lightning bolt is a familiar error or fault cue.",
+          "correction": "Use an unmistakable deletion or disposal metaphor without a lightning bolt."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag fragments and lightning remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Two fragments and lightning are visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The red lightning remains visible but suggests a tag fault."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Dominant blue fragments and red bolt remain visible."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 01 and 03 both use a navy tag with a red lower-right badge; candidates 02 and 04 both show a tag entering a red receptacle at small size."
+  }
+}

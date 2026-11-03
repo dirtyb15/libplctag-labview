@@ -1,0 +1,40 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-08",
+      "candidate-07",
+      "candidate-04",
+      "candidate-10"
+    ],
+    "evidence": "Closed padlock, safe wheel, cage bars, shield and anchor have different structures. Directly compared against current unlock concepts: open ring, broken links, palm, turning key and raised gate use different shapes. Collection-wide review remains pending.",
+    "result": "PASS"
+  },
+  "candidates": [
+    {
+      "qa": {
+        "source": {
+          "evidence": "An orange tag attaches to a large dark ship anchor, a metaphor for securing it.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The tag hole and small anchor ring soften.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "Anchor outline and orange tag remain separate.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "Anchor flukes, shaft and tag remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The anchor and attached tag are recognizable.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-10"
+    }
+  ]
+}

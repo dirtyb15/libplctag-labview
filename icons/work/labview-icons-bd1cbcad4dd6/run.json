@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "run_id": "f45173932cdd4e2ca118c2b5f50b2777",
+  "request": "Read_U8.vi retrieves an unsigned 8-bit value from a local tag buffer",
+  "summary_name": "Read U8",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_U8.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T21:47:56.201128+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "buffer-to-value",
+      "concept_summary": "Buffer outputs U8",
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A compact navy rectangular tag-buffer block at left; a bold orange right-pointing arrow exits toward very large black text U8 on the right. The arrow points away from the buffer. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows.",
+      "signature": {
+        "metaphor": "buffer extraction",
+        "objects": "buffer, outgoing arrow and U8",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "buffer left, value right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "A buffer, outward arrow and U8 are clear; the source elements approach the side edges."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The outward arrow and U8 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The U8 and buffer-to-value direction remain distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The U and 8 remain recognizable alongside the outward arrow, though the characters are close."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arrow and buffer remain; U8 loses clear detail at the stress size."
+        }
+      },
+      "reviewed_sha256": "0cc1ded9c932dbe4c3adae468a5950b7932349214cffd70ce9661edb861cba40",
+      "salt": "y7td5u93di"
+    },
+    {
+      "concept_id": "lifted-value",
+      "concept_summary": "U8 lifted from tray",
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A large black U8 floats above a simple dark-blue open tray; one thick orange arrow rises from the tray toward U8. The text U8 is the largest element. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows.",
+      "signature": {
+        "metaphor": "upward extraction",
+        "objects": "open tray, up arrow and U8",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "tray below value, arrow upward",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large U8 sits over an upward arrow and open tray."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U8, arrow and tray are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U8 and upward arrow remain legible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large U8 and upward extraction arrow remain visible, with tight character spacing."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tray and U8 survive; the 8 counters shrink."
+        }
+      },
+      "reviewed_sha256": "c2a9dc7439734b7aa0d6fce37cc030a4dcf62c734830dd391c999703554b6aba",
+      "salt": "jmek0oh1bw"
+    },
+    {
+      "concept_id": "read-lens",
+      "concept_summary": "Read U8 through lens",
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A large thick dark-blue magnifying glass enclosing clearly legible bold black text U8. The simple orange handle points down-right. The U8 fills most of the lens. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows.",
+      "signature": {
+        "metaphor": "inspection",
+        "objects": "magnifying lens and U8",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "lens around value, handle diagonal",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "U8 is inside a magnifying glass whose rim approaches the source edges."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The lens and U8 are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "U8 fills most of the lens and the 8 counters narrow."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "At 30x18 the U8 strokes run together and the two 8 counters are too small for reliable reading.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Separate U and 8, enlarge both counters and simplify the lens."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The magnifier survives but U8 is not reliably legible at 16x16."
+        }
+      },
+      "reviewed_sha256": "d6ff7c8203efafd64f1c86c89925a88003ddd40b8343e4f8ee00f08c1ad20a21"
+    },
+    {
+      "concept_id": "output-slot",
+      "concept_summary": "U8 output from slot",
+      "prompt": "Exactly one SQUARE 1:1 software icon on pure white for reading an unsigned 8-bit value from a local tag buffer. A large orange card bearing bold black U8 emerges upward at an angle from a dark-blue horizontal buffer slot. An unmistakable thick arrow on the slot points outward toward the card. Text must be exactly U8, large, bold and legible at 30x18 pixels; no other text or numerals. Do not depict writing or a PLC transaction. Flat high contrast geometry, very generous whitespace, no border or shadows.",
+      "signature": {
+        "metaphor": "buffer slot output",
+        "objects": "slot and value card",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "U8 card emerges diagonally from slot",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The U8 card above a tray and upward arrow repeats the same structure as candidate-02; changing the card color does not distinguish it.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a structurally different extraction metaphor."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The inclined U8 card and tray are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The angled text becomes less clear."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The italic angled U8 has small counters and is difficult to distinguish reliably.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Use upright large characters with clear space and counters in a different composition."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The text loses clarity at the stress size."
+        }
+      },
+      "reviewed_sha256": "51476fd0ca2f5c23fa1140ca7480760c83759bf9c7faef2985848dc18fb2bf63"
+    },
+    {
+      "concept_id": "value-spout",
+      "concept_summary": "U8 dispensed from buffer",
+      "prompt": "One square 1:1 flat icon on pure white for reading a U8 value from a tag buffer. A dark-blue horizontal buffer block at top has a large orange downward-pointing triangular outlet directly beneath its center. Below the outlet put large bold black U8. The U8 must be clear and legible at 30x18; no other text. The outlet points away from the buffer, representing a getter. Thick geometry, generous whitespace, no shadows or border.",
+      "signature": {
+        "metaphor": "value dispensing",
+        "objects": "buffer spout and U8",
+        "cue": "downward output",
+        "composition": "buffer over U8 with downward spout",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A buffer and downward outlet dispense U8."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The outlet and U8 remain distinct."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The U8 characters are close together."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The small 8 counters and tight U8 spacing make the exact type difficult to read reliably.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Enlarge U8, increase letter spacing and open the 8 counters."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The outlet survives but the datatype text is not reliably readable."
+        }
+      },
+      "reviewed_sha256": "a81b2ad0a5dc6ab6814eb868e1a95eea23664bdd80da32cb53dbe930993ae531"
+    },
+    {
+      "concept_id": "read-lens",
+      "concept_summary": "Read U8 through lens",
+      "prompt": "One SQUARE 1:1 clean software icon on pure white. A thick dark-blue magnifying-glass ring encloses two widely spaced characters U 8 in very large black simple block type; both holes in the 8 must be exceptionally large and open. An orange short diagonal handle extends to lower right. Reading an unsigned 8-bit buffer value. Text exactly U8, no other text. Entire artwork within central 75 percent; thick shapes, no shadows.",
+      "signature": {
+        "metaphor": "inspection",
+        "objects": "magnifying lens and U8",
+        "cue": "retrieve unsigned 8-bit value",
+        "composition": "lens around value, handle diagonal",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-06.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The lens encloses a spaced U and 8 with large white counters and has a clear margin."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both U8 characters and the lens are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The 8 has two visible openings; lens and handle remain distinct."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "A separated U and 8 with visible counters remain readable in the lens."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The lens remains and the U8 is recognizable but its small counters soften."
+        }
+      },
+      "reviewed_sha256": "fcf2a000294c66710a4955e0a65375fa0773f5026ed1942f4003356c975b0dc1",
+      "salt": "zbklc0mqsy"
+    },
+    {
+      "concept_id": "value-spout",
+      "concept_summary": "U8 dispensed from buffer",
+      "prompt": "One SQUARE 1:1 clean software icon on pure white for reading a U8 value from a buffer. A compact navy horizontal buffer block at the top has one bold orange down-pointing triangle below it; beneath the triangle place very large black uppercase U and numeral 8 with a noticeable wide gap between the characters. The 8 must have two exceptionally large open white holes so it remains identifiable at 30x18 pixels. No other text. Bold flat shapes, generous whitespace, no border or shadow.",
+      "signature": {
+        "metaphor": "value dispensing",
+        "objects": "buffer spout and U8",
+        "cue": "downward output",
+        "composition": "buffer over U8 with downward spout",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-07.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Large separated U and 8 sit below a downward outlet; both 8 counters are open."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Outlet, U and 8 are separate and clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The U8 and downward output cue are readable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U8 is legible with two separate openings in the 8, below the orange outlet."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "U8 is recognizable but counters soften at 16x16."
+        }
+      },
+      "reviewed_sha256": "6bc56e855c86b868e160e2eeb0744879844e02a3a17707a012ff65d282cefa19",
+      "salt": "gyijyrlq3v"
+    },
+    {
+      "concept_id": "diagonal-output-card",
+      "concept_summary": "U8 card extracted diagonally",
+      "prompt": "Create exactly one SQUARE 1:1 flat icon on white, showing retrieval of an unsigned 8-bit value from a tag buffer. Place a small dark-blue rectangular buffer in the LOWER LEFT and a large orange value card in the UPPER RIGHT. A single thick blue arrow rises diagonally from the buffer toward the card; it must not be vertical or horizontal. The card shows only very large black upright U8, with generous space between U and 8 and two big white holes inside the 8. No tray, no other text, no border or shadows; generous white margins.",
+      "signature": {
+        "metaphor": "buffer card extraction",
+        "objects": "buffer, diagonal arrow, U8 card",
+        "cue": "upward-right extraction",
+        "composition": "buffer lower left, U8 card upper right",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bd1cbcad4dd6\\candidates\\candidate-08.png",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "An orange U8 card is reached by a diagonal arrow from a lower-left buffer; the source has narrow side clearance but no clipping."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The large U8 and diagonal arrow remain separated."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U8 and both 8 counters remain visible on the card."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U8 is recognizable and the diagonal extraction arrow remains distinct from the lower buffer."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The diagonal direction remains while U8 counters soften at 16x16."
+        }
+      },
+      "reviewed_sha256": "6faa1904061dd4670275fe6186206f4987da6a7f1389e93e0952a0c04ed001f1",
+      "salt": "anny91wosx"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "read-lens",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "At 30x18 the U8 strokes run together and the two 8 counters are too small for reliable reading.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Separate U and 8, enlarge both counters and simplify the lens.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-06"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "output-slot",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The U8 card above a tray and upward arrow repeats the same structure as candidate-02; changing the card color does not distinguish it.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a structurally different extraction metaphor.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "output-slot",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The italic angled U8 has small counters and is difficult to distinguish reliably.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use upright large characters with clear space and counters in a different composition.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-08"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "value-spout",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The small 8 counters and tight U8 spacing make the exact type difficult to read reliably.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Enlarge U8, increase letter spacing and open the 8 counters.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidates 02 and 04 both show a tray under an upward arrow with U8 above; candidates 03, 04 and 05 also lose reliable U8 legibility at 30x18. Revisions and a new comparison are required.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The previously failed card still repeats candidate 02's tray and upward arrow. The revised lens and outlet resolve U8 readability; a structurally different fifth concept remains necessary.",
+      "retry_result": "PASS after comparison of the final selected set"
+    }
+  ],
+  "distinctness": {
+    "result": "PASS",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-06",
+      "candidate-08",
+      "candidate-07"
+    ],
+    "evidence": "The actual previews show a horizontal buffer-to-value arrow, a tray with upward extraction, a magnifying lens enclosing U8, a diagonal arrow to a raised colored value card, and a downward outlet over U8. Their dominant shapes and layouts differ at 30x18. U8 is readable in each. This is within-set review; typed-width and whole-collection comparison remain pending."
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned pr2m8o0t57.md",
+    "manifest.json",
+    "Read U8 option 1 1024x1024 y7td5u93di.png",
+    "Read U8 option 1 29x29 y7td5u93di.png",
+    "Read U8 option 1 30x18 y7td5u93di.png",
+    "Read U8 option 1 30x23 y7td5u93di.png",
+    "Read U8 option 1 y7td5u93di.ico",
+    "Read U8 option 2 1024x1024 jmek0oh1bw.png",
+    "Read U8 option 2 29x29 jmek0oh1bw.png",
+    "Read U8 option 2 30x18 jmek0oh1bw.png",
+    "Read U8 option 2 30x23 jmek0oh1bw.png",
+    "Read U8 option 2 jmek0oh1bw.ico",
+    "Read U8 option 3 1024x1024 zbklc0mqsy.png",
+    "Read U8 option 3 29x29 zbklc0mqsy.png",
+    "Read U8 option 3 30x18 zbklc0mqsy.png",
+    "Read U8 option 3 30x23 zbklc0mqsy.png",
+    "Read U8 option 3 zbklc0mqsy.ico",
+    "Read U8 option 4 1024x1024 anny91wosx.png",
+    "Read U8 option 4 29x29 anny91wosx.png",
+    "Read U8 option 4 30x18 anny91wosx.png",
+    "Read U8 option 4 30x23 anny91wosx.png",
+    "Read U8 option 4 anny91wosx.ico",
+    "Read U8 option 5 1024x1024 gyijyrlq3v.png",
+    "Read U8 option 5 29x29 gyijyrlq3v.png",
+    "Read U8 option 5 30x18 gyijyrlq3v.png",
+    "Read U8 option 5 30x23 gyijyrlq3v.png",
+    "Read U8 option 5 gyijyrlq3v.ico"
+  ]
+}

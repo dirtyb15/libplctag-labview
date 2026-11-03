@@ -1,0 +1,67 @@
+{
+  "request": "Tag_Status.vi calls plc_tag_status and returns the current tag status code",
+  "summary_name": "Tag Status",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "status-pulse",
+      "concept_summary": "Tag status pulse",
+      "signature": {
+        "metaphor": "status signal",
+        "objects": "tag and pulse",
+        "cue": "current status, not predetermined success",
+        "composition": "tag above heartbeat trace",
+        "orientation": "vertical"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large blue tag above a thick orange heartbeat trace; the zigzag must be bold and clearly visible. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow."
+    },
+    {
+      "concept_id": "status-lights",
+      "concept_summary": "Tag status indicators",
+      "signature": {
+        "metaphor": "variable indicator",
+        "objects": "tag and multiple lights",
+        "cue": "current status, not predetermined success",
+        "composition": "tag left and vertical three-light panel right",
+        "orientation": "horizontal"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A simple blue tag at left, and at right a tall orange panel containing three large separate white circular indicator lights. No single light is selected. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow."
+    },
+    {
+      "concept_id": "status-query",
+      "concept_summary": "Query tag state",
+      "signature": {
+        "metaphor": "status query",
+        "objects": "tag and question mark",
+        "cue": "current status, not predetermined success",
+        "composition": "large question mark inside tag",
+        "orientation": "vertical"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large navy tag with a large white question mark centered inside. The question mark asks for the tag's current status; it does not indicate an error. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow."
+    },
+    {
+      "concept_id": "status-report",
+      "concept_summary": "Tag status report",
+      "signature": {
+        "metaphor": "state report",
+        "objects": "tag and speech bubble",
+        "cue": "current status, not predetermined success",
+        "composition": "tag left and speech bubble right",
+        "orientation": "horizontal"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large navy tag at left beside a large orange rectangular speech bubble at right containing two simple thick white horizontal status lines. No letters. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow."
+    },
+    {
+      "concept_id": "status-dial",
+      "concept_summary": "Tag status dial",
+      "signature": {
+        "metaphor": "state gauge",
+        "objects": "tag inside dial and needle",
+        "cue": "current status, not predetermined success",
+        "composition": "round dial around tag with pointer above",
+        "orientation": "circular"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on white for querying the current status of a PLC tag. A large orange open semicircular gauge arc with a dark-blue tag in its center and a thick black pointer above the arc. The pointer is neutral, showing a generic status rather than success or failure. Show no checkmark, no red error warning, no success/failure result, no extra text or tiny detail. Thick clean geometry, high contrast, generous white margin, no border or shadow."
+    }
+  ]
+}

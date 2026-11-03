@@ -1,0 +1,65 @@
+{
+  "distinctness": {
+    "result": "PASS",
+    "evidence": "The X badge, waste bin, diagonal outlined eraser, vertical shredder strips, and scissors have distinct silhouettes. The Create Tag set uses a press, plus symbols, carton, and conveyor; its carton and press differ in shape and action from the red slatted bin and the shredding strips. Full collection comparison remains pending.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-10",
+      "candidate-08",
+      "candidate-11"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-10",
+      "qa": {
+        "source": {
+          "evidence": "A thickly outlined red and white eraser removes the end of the navy tag.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The red eraser and dark outline remain but fine detail softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The tag and outlined eraser are distinct.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The outlined white tip survives against the background.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The white eraser tip remains outlined and recognizable.",
+          "result": "PASS"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-11",
+      "qa": {
+        "source": {
+          "evidence": "Large red scissors cut a horizontal navy tag.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The handles and tag remain visible, with softened blade detail.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "Both scissor rings and tag hole remain visible.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Two rings and the cutting blades are visible against the tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Scissors and tag remain separate.",
+          "result": "PASS"
+        }
+      }
+    }
+  ]
+}

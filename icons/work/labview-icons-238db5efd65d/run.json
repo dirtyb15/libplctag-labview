@@ -1,0 +1,803 @@
+{
+  "schema_version": 1,
+  "run_id": "a229685eea644bfb83e3a602115e1991",
+  "request": "Write_Tag.vi calls plc_tag_write to send a local tag buffer to a PLC",
+  "summary_name": "Write Tag",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Write_Tag.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-03T11:02:54.834114+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "write-insert-tag",
+      "concept_summary": "Tag entering controller slot",
+      "prompt": "One SQUARE flat icon on pure white for writing a tag buffer into a PLC. Draw a single large dark blue rectangular industrial controller with a large white display and two broad module divisions. At the right edge show a large orange tag half inserted into an unmistakable white horizontal input slot in the controller, as if feeding data into it. No arrow, no other writing or symbols. Thick clean geometry, generous white margins, no shadow.",
+      "signature": {
+        "metaphor": "tag insertion",
+        "objects": "PLC module with input slot, tag",
+        "cue": "tag partly inserted into PLC",
+        "composition": "orange tag crosses slot on right of PLC",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "rule_id": "VIS-SEM-001",
+          "evidence": "The orange tag appears attached to a controller side, with no cue distinguishing insertion from removal.",
+          "correction": "Add an unambiguous inward action cue."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag and controller survive, but direction remains ambiguous."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The orange form is attached at the side without visible direction."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "evidence": "The side tag looks like a connected tab or plug and does not indicate a write direction.",
+          "correction": "Add a large inward arrow."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The controller and orange tab remain visible."
+        }
+      },
+      "reviewed_sha256": "fd89cb63dcc18282bd13f4812a3035457661e523e64a8cf680d7cbe6dec008c9"
+    },
+    {
+      "concept_id": "write-plc-top",
+      "concept_summary": "Tag sent upward to controller",
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. At top draw a large simple blue industrial controller, rectangular and containing two thick module divisions. Below it place one large orange tag and a thick orange arrow pointing UP into the controller. Keep the arrowhead large and clearly separate.",
+      "signature": {
+        "metaphor": "controller receiving",
+        "objects": "controller, tag, arrow",
+        "cue": "upward transfer",
+        "composition": "controller above tag with upward arrow",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The orange tag points upward via a large arrow toward a blue controller."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, upward arrow and controller remain identifiable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow points toward the controller and the tag remains separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "A large upward arrow remains visible between the tag and PLC."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The controller and arrow remain, while the tag hole softens."
+        }
+      },
+      "reviewed_sha256": "b651d71508a4cb9ff7878bc07b989ea31fe42f932a9d943f9616219e1ba460aa",
+      "salt": "p6zqyd2ko5"
+    },
+    {
+      "concept_id": "write-enter-port",
+      "concept_summary": "Arrow enters controller port",
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. Draw a large navy controller module occupying the right half, with a white square display and two thick vertical divisions. From upper left a large orange arrow points diagonally DOWN and RIGHT into the controller. No tag symbol and no other objects.",
+      "signature": {
+        "metaphor": "controller input port",
+        "objects": "controller, inbound arrow",
+        "cue": "arrow entering controller",
+        "composition": "large PLC with diagonal arrow entering from upper left",
+        "orientation": "diagonal-down-right"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A bold diagonal orange arrow points into a simple blue industrial controller."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The incoming arrowhead and controller face are recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The diagonal arrow points to the controller."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The arrow tip blends with the controller edge, but its diagonal entry remains apparent."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arrow and controller silhouette remain distinct."
+        }
+      },
+      "reviewed_sha256": "11e87ba82d44c245f9b49a93958db11861030095bfca1c907e3a09352d876daa",
+      "salt": "6gdpn6noie"
+    },
+    {
+      "concept_id": "write-curved-route",
+      "concept_summary": "Curved tag-to-controller transfer",
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. Place an orange tag at the upper left and a simplified dark-blue rectangular PLC module at lower right. Join them with a thick curved blue arrow whose large point enters the controller. Keep the PLC display and module divisions very simple.",
+      "signature": {
+        "metaphor": "curved data transfer",
+        "objects": "tag, curved arrow, controller",
+        "cue": "curved arrow into PLC",
+        "composition": "tag upper left and controller lower right joined by curved arrow",
+        "orientation": "curved down-right"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag connects to a controller by a curved blue arrow."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The blue arrowhead merges with the dark blue controller."
+        },
+        "30x23": {
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "evidence": "The curved blue arrow blends into the controller and its arrowhead is not clearly separated.",
+          "correction": "Use a high-contrast orange arrowhead with clear space at the controller."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "rule_id": "SMALL-ACTION-006",
+          "evidence": "The blue curve meets the blue controller without a discernible arrowhead.",
+          "correction": "Make the arrow a contrasting color and enlarge its tip."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The curved path survives but its direction is ambiguous."
+        }
+      },
+      "reviewed_sha256": "6e4b26d08b4a7947279b92d4e350caeb897af5c3a6d83b927a2668b031de9b4b"
+    },
+    {
+      "concept_id": "write-press-controller",
+      "concept_summary": "Press tag data into controller",
+      "prompt": "One SQUARE flat icon on pure white for writing a tag to an industrial controller. Draw a simplified dark navy rectangular PLC module with two broad vertical divisions and a large white display. Above its right side show an orange tag being pressed into the controller by a simple bold blue fingertip from the upper right. Show the hand as a minimal pointing finger silhouette, with only one finger. No arrows, no lettering, no shadows, wide white margins. All major shapes should remain distinct at 30x18 pixels.",
+      "signature": {
+        "metaphor": "manual send",
+        "objects": "controller, tag, pointing hand",
+        "cue": "hand pressing tag into controller",
+        "composition": "controller below with orange tag pressed by hand from side",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A fingertip presses an orange tag into the top of a controller."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The hand tip and tag touch; the small tag hole softens."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Hand and tag stay separate by color, but the tag looks like a button."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The orange tag hole disappears and the fingertip appears to press a button on the controller, not transfer tag data.",
+          "correction": "Use a larger recognizable tag and preserve its hole or choose a clearer transfer action."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Finger and controller remain while the tag identity is lost."
+        }
+      },
+      "reviewed_sha256": "0a414756a6933b57756c955a4732949ea2bbb898dde5427f7161e1e78c88ab2e"
+    },
+    {
+      "concept_id": "write-insert-tag",
+      "concept_summary": "Tag entering controller slot",
+      "prompt": "One square flat software icon on pure white representing tag data being written into a PLC. A large blue industrial controller with a wide white display occupies the left. At its right edge is an orange tag partly inserted into a slot. Immediately above the tag draw a large bold black arrow pointing LEFT into the controller, explicitly indicating the direction of insertion. Keep controller, tag and arrow distinct and legible at 30x18. All shapes centered within 75 percent of canvas; no other writing or shadows.",
+      "signature": {
+        "metaphor": "tag insertion",
+        "objects": "PLC module with input slot, tag",
+        "cue": "tag partly inserted into PLC",
+        "composition": "orange tag crosses slot on right of PLC",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-06.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The left arrow and tag remain distinct beside the controller."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Controller face, leftward arrow and orange tag are distinguishable."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A black left arrow above an orange tag indicates movement into the blue controller slot."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The controller and orange tag survive; arrowhead softens."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The black arrow points into the controller and tag remains visible."
+        }
+      },
+      "reviewed_sha256": "4c4c0cc3e027ed12f65ab1c99f8f54664a27c76aa0cd479389bb7e167dff5692",
+      "salt": "3q0kqt9v10"
+    },
+    {
+      "concept_id": "write-curved-route",
+      "concept_summary": "Curved tag-to-controller transfer",
+      "prompt": "One square flat icon on pure white for writing tag data to a PLC. An orange tag is at upper left, a simple dark-blue controller at lower right. Join them with a thick ORANGE curved arrow bending downward and then pointing RIGHT into the controller. Make the arrowhead large and surround its tip with a wide WHITE gap or white outline so the arrow cannot merge into the dark blue controller at 30x18 pixels. The tag, arrow and controller are large simple shapes. No other words, no fine detail or shadows; generous white margins.",
+      "signature": {
+        "metaphor": "curved data transfer",
+        "objects": "tag, curved arrow, controller",
+        "cue": "curved arrow into PLC",
+        "composition": "tag upper left and controller lower right joined by curved arrow",
+        "orientation": "curved down-right"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 4,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-07.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The curved arrowhead remains visible against the controller."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange curved path and rightward tip contrast with the navy controller."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag and curved orange arrow lead into a navy controller with a white outline separating the arrow tip."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The curved path survives but controller details simplify."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag, curve and incoming arrowhead are identifiable."
+        }
+      },
+      "reviewed_sha256": "b39f39522020d6c79ef36efcca9d25b87786ecfdeaf8b7ebec68afb86fdf9c46",
+      "salt": "ome9k4fwsz"
+    },
+    {
+      "concept_id": "write-press-controller",
+      "concept_summary": "Press tag data into controller",
+      "prompt": "One square flat icon on pure white for writing tag data into an industrial PLC. At bottom a simple dark navy controller with two module divisions. Above the controller is a VERY LARGE orange tag with a very large round WHITE HOLE near the top; its full outline and hole must be easy to recognize at 30x18 pixels. A simple blue pointing finger presses the top of the large tag down into a wide slot. Use a large tag, finger, and controller only; avoid making the tag resemble a small button. Center all shapes in the middle 70 percent of the canvas with broad white margins. No text, shadow or extra details.",
+      "signature": {
+        "metaphor": "manual send",
+        "objects": "controller, tag, pointing hand",
+        "cue": "hand pressing tag into controller",
+        "composition": "controller below with orange tag pressed by hand from side",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-08.png",
+      "qa": {
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag hole is visible, but the lower slot lacks PLC features."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The large tag hole survives while the device remains a plain base."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Finger and tag remain, but the lower base has no distinctive PLC identity."
+        },
+        "source": {
+          "rule_id": "VIS-SEM-001",
+          "result": "FAIL",
+          "correction": "Restore a large PLC face with display and two modules, reduce hand size, and center with wide margins.",
+          "evidence": "The lower object has become a plain two-part slot, not a recognizable industrial controller; the hand is also very close to the top edge."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Give the PLC a large white display and broad module divisions while keeping the tag readable.",
+          "evidence": "The base reads as a tray rather than a PLC, so this resembles a generic tag insertion."
+        }
+      },
+      "reviewed_sha256": "41f4a96f2c7d42fc2fc6082678b957706d8bc6d1c795d2c8ec03e826b4446592"
+    },
+    {
+      "concept_id": "write-press-controller",
+      "concept_summary": "Press tag data into controller",
+      "prompt": "Exactly one square flat icon on pure white: a small blue pointing finger pushes a large orange tag into the top of a LARGE recognizable industrial PLC at the bottom. The PLC must be a wide dark navy rectangle with a VERY LARGE WHITE DISPLAY on the left and two broad vertical module divisions on the right, so it is clearly a PLC rather than a tray. The orange tag must have a big round white hole. Leave visible gaps separating the finger, tag and PLC; all must remain recognizable at 30x18 pixels. Entire artwork fits inside central 70 percent of both canvas width and height with generous empty margins. No other writing, no shadows, no extra decoration.",
+      "signature": {
+        "metaphor": "manual send",
+        "objects": "controller, tag, pointing hand",
+        "cue": "hand pressing tag into controller",
+        "composition": "controller below with orange tag pressed by hand from side",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 5,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-09.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "write-envelope-controller",
+      "concept_summary": "Tag packet sent to controller",
+      "prompt": "One SQUARE 1:1 flat icon on pure white for writing PLC tag data. A large orange envelope with a white tag-shaped mark appears at upper left; a large navy industrial controller with two module divisions and a white display appears at lower right. A bold blue arrow points diagonally DOWN and RIGHT from the envelope toward the controller; give its point a white outline so it remains distinct from the controller. Three simple major shapes only, no lettering, no border, no shadow, all art within central 70 percent of square canvas.",
+      "signature": {
+        "orientation": "horizontal",
+        "cue": "tagged packet toward controller",
+        "objects": "envelope, tag, controller",
+        "composition": "tag embedded on envelope at left, controller at right with incoming arrow",
+        "metaphor": "packet dispatch"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-10.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange envelope bearing a tag sends via a diagonal blue arrow to a PLC."
+        },
+        "30x23": {
+          "evidence": "The arrow blends with the blue PLC; the embedded tag is too small to identify.",
+          "correction": "Use a contrasting orange arrow with larger tip and simplify the envelope.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL"
+        },
+        "30x18": {
+          "evidence": "The tag mark becomes a white blur and the blue arrowhead merges with the controller, obscuring dispatch.",
+          "correction": "Simplify the envelope and use a larger high-contrast arrow tip.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL"
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The envelope flap and embedded tag begin to crowd."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The envelope and controller survive, while the transfer arrow merges."
+        }
+      },
+      "reviewed_sha256": "aaf0df34d6c8ad8516205debc3e32b8ef6218c80f05fbfd313de56098f0f7676"
+    },
+    {
+      "concept_id": "write-envelope-controller",
+      "concept_summary": "Tag packet sent to controller",
+      "prompt": "Create exactly one SQUARE icon on pure white for sending tag data to a PLC. At upper left a single large ORANGE ENVELOPE with a large simple WHITE TAG SILHOUETTE taking up most of its front. At lower right a simple dark NAVY PLC with one big white display and two broad module divisions. Between them a VERY THICK BLACK diagonal arrow points DOWN and RIGHT into the controller; its large arrowhead must be separated from the navy controller by a thick WHITE OUTLINE and remain unmistakable at 30x18 pixels. Keep the tag mark large and simple. The three large objects fit within the central 70 percent of canvas; no words, shadows or tiny details.",
+      "signature": {
+        "orientation": "horizontal",
+        "cue": "tagged packet toward controller",
+        "objects": "envelope, tag, controller",
+        "composition": "tag embedded on envelope at left, controller at right with incoming arrow",
+        "metaphor": "packet dispatch"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-11.png",
+      "qa": {
+        "source": {
+          "evidence": "A large white tag on an envelope leads via a black diagonal arrow to a blue PLC.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The tag marking is larger, but the black arrow meets the PLC.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "correction": "Provide more white space around an enlarged arrow and a simpler envelope marking.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL",
+          "evidence": "At native size the arrowhead is absorbed into the controller edge and the tag mark is not distinct."
+        },
+        "16x16": {
+          "evidence": "Envelope and PLC survive; the action cue merges.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "correction": "Separate the arrow tip physically from the controller and make its outline wider.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL",
+          "evidence": "The black arrowhead merges into the dark controller despite its white border."
+        }
+      },
+      "reviewed_sha256": "d3e02536fa33993b5cf7290cd6c486ad3d0d368793198874e74b0c529864e58a"
+    },
+    {
+      "concept_id": "write-envelope-controller",
+      "concept_summary": "Tag packet sent to controller",
+      "prompt": "One SQUARE 1:1 flat software icon on pure white. Show a very large orange ENVELOPE with a large white tag-shaped marking at upper left. At lower right show a dark navy industrial PLC with white display and two simple modules. BETWEEN them, floating separately in WHITE SPACE, draw a large bold BLACK diagonal arrow pointing DOWN RIGHT toward the PLC. Leave a very large white gap between the arrowhead and the controller; do not overlap the arrow with either object. Keep envelope mark, separated arrowhead, and controller legible at 30x18. No other text, shadows, borders or fine details; all art fits the central 70 percent of the square canvas.",
+      "signature": {
+        "orientation": "horizontal",
+        "cue": "tagged packet toward controller",
+        "objects": "envelope, tag, controller",
+        "composition": "tag embedded on envelope at left, controller at right with incoming arrow",
+        "metaphor": "packet dispatch"
+      },
+      "candidate_id": "candidate-12",
+      "option_number": 5,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-12.png",
+      "qa": {
+        "30x18": {
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL",
+          "evidence": "The tiny arrow becomes dark pixels and the embedded tag mark is not identifiable.",
+          "correction": "Use a larger action cue and avoid a small nested marking."
+        },
+        "30x23": {
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL",
+          "evidence": "The small floating diagonal arrow compresses and its head is indistinct.",
+          "correction": "Retire the packet layout and simplify the transfer metaphor."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The arrow is separated but much smaller than the envelope."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Envelope and device shapes survive but the transfer cue fades."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Envelope and PLC are separated by a diagonal black arrow."
+        }
+      },
+      "reviewed_sha256": "4828ac91573f0a35b703fb2e1f8b36f1ed4c981d8098ffc063df3b38b44af18a"
+    },
+    {
+      "concept_id": "write-send-plane",
+      "concept_summary": "Tag sent toward controller",
+      "prompt": "Create exactly one SQUARE simple flat icon on a pure white background for sending a tag value to an industrial PLC. On the left draw one large orange PAPER PLANE pointing RIGHT, with a single very large white circular tag hole near its tail; the orange plane itself acts as a tag being sent. On the right draw a large dark navy rectangular controller with a white display and two broad vertical module sections. The sharp plane nose points into the controller with a narrow white gap; NO additional arrow, NO letters, NO other shapes, no shadow. Both the plane direction and controller silhouette must be unmistakable at 30x18. All artwork is centered within the middle 70 percent of the square canvas with generous white margins.",
+      "signature": {
+        "orientation": "horizontal",
+        "composition": "large orange tag-plane aimed right into PLC",
+        "cue": "plane points into controller",
+        "metaphor": "paper plane send",
+        "objects": "tag-shaped paper plane and controller"
+      },
+      "candidate_id": "candidate-13",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-238db5efd65d\\candidates\\candidate-13.png",
+      "qa": {
+        "16x16": {
+          "evidence": "The plane keeps its rightward silhouette while its wing folds soften.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The plane points right at the controller and the tag hole remains visible.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "An orange tag-hole paper plane points directly into a dark controller, with a clear white separation at its nose.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The orange pointed plane and white hole remain visible beside the controller.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The orange plane wings, tag hole and controller remain distinguishable.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "7c3474652d8b1ad3c8173310041af00429b98af7f215897d4365f55dd139bf59",
+      "salt": "qy377yoijb"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "write-insert-tag",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "The orange tag appears attached to a controller side, with no cue distinguishing insertion from removal.",
+      "measured_value": "source",
+      "corrective_instruction": "Add an unambiguous inward action cue.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-06"
+    },
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "write-insert-tag",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The side tag looks like a connected tab or plug and does not indicate a write direction.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Add a large inward arrow.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-06"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "write-curved-route",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The curved blue arrow blends into the controller and its arrowhead is not clearly separated.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Use a high-contrast orange arrowhead with clear space at the controller.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "write-curved-route",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The blue curve meets the blue controller without a discernible arrowhead.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the arrow a contrasting color and enlarge its tip.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-07"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "write-press-controller",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The orange tag hole disappears and the fingertip appears to press a button on the controller, not transfer tag data.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a larger recognizable tag and preserve its hole or choose a clearer transfer action.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The vertical transfer and diagonal input differ, but the attached tag lacks direction, the curved arrow blends into the PLC, and the hand presses what looks like a button at 30x18. Revise these candidates before acceptance.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Left input, vertical upward transfer, diagonal incoming arrow and curved transfer differ in layout, but the fifth hand design still reads like a button press and needs correction. Compare the side-input design with PLC read after its rejected draft is replaced.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 5,
+      "concept_id": "write-press-controller",
+      "attempt_number": 2,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "The lower object has become a plain two-part slot, not a recognizable industrial controller; the hand is also very close to the top edge.",
+      "measured_value": "source",
+      "corrective_instruction": "Restore a large PLC face with display and two modules, reduce hand size, and center with wide margins.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 5,
+      "concept_id": "write-press-controller",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The base reads as a tray rather than a PLC, so this resembles a generic tag insertion.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Give the PLC a large white display and broad module divisions while keeping the tag readable.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The revised hand design no longer identifies the target as a controller. Correct it before completing the set.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 5,
+      "concept_id": "write-envelope-controller",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The arrow blends with the blue PLC; the embedded tag is too small to identify.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Use a contrasting orange arrow with larger tip and simplify the envelope.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 5,
+      "concept_id": "write-envelope-controller",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The tag mark becomes a white blur and the blue arrowhead merges with the controller, obscuring dispatch.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Simplify the envelope and use a larger high-contrast arrow tip.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The packet adds a different envelope silhouette, but the tag mark and diagonal arrowhead do not survive 30x18; revise before acceptance.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 5,
+      "concept_id": "write-envelope-controller",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "At native size the arrowhead is absorbed into the controller edge and the tag mark is not distinct.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Provide more white space around an enlarged arrow and a simpler envelope marking.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 5,
+      "concept_id": "write-envelope-controller",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The black arrowhead merges into the dark controller despite its white border.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Separate the arrow tip physically from the controller and make its outline wider.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Packet and diagonal arrow cannot yet be evaluated as an accepted concept because its arrowhead merges into the PLC at required sizes.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-12",
+      "option_number": 5,
+      "concept_id": "write-envelope-controller",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The tiny arrow becomes dark pixels and the embedded tag mark is not identifiable.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a larger action cue and avoid a small nested marking.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-12",
+      "option_number": 5,
+      "concept_id": "write-envelope-controller",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The small floating diagonal arrow compresses and its head is indistinct.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Retire the packet layout and simplify the transfer metaphor.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Packet transfer exhausted three attempts without a reliable arrow and tag mark at 30x18. Retire the concept.",
+      "retry_result": "PASS after comparison of the final selected set"
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-03",
+      "candidate-07",
+      "candidate-13"
+    ],
+    "result": "PASS",
+    "evidence": "The actual artworks show a tag entering a side slot with left arrow, a tag sent upward, a single diagonal inlet arrow, a curved tag transfer, and a rightward paper plane into a controller. Their dominant compositions differ. Recheck all against the final Read_Tag icons and the wider collection."
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned jamvrflrex.md",
+    "manifest.json",
+    "Write Tag option 1 1024x1024 3q0kqt9v10.png",
+    "Write Tag option 1 29x29 3q0kqt9v10.png",
+    "Write Tag option 1 30x18 3q0kqt9v10.png",
+    "Write Tag option 1 30x23 3q0kqt9v10.png",
+    "Write Tag option 1 3q0kqt9v10.ico",
+    "Write Tag option 2 1024x1024 p6zqyd2ko5.png",
+    "Write Tag option 2 29x29 p6zqyd2ko5.png",
+    "Write Tag option 2 30x18 p6zqyd2ko5.png",
+    "Write Tag option 2 30x23 p6zqyd2ko5.png",
+    "Write Tag option 2 p6zqyd2ko5.ico",
+    "Write Tag option 3 1024x1024 6gdpn6noie.png",
+    "Write Tag option 3 29x29 6gdpn6noie.png",
+    "Write Tag option 3 30x18 6gdpn6noie.png",
+    "Write Tag option 3 30x23 6gdpn6noie.png",
+    "Write Tag option 3 6gdpn6noie.ico",
+    "Write Tag option 4 1024x1024 ome9k4fwsz.png",
+    "Write Tag option 4 29x29 ome9k4fwsz.png",
+    "Write Tag option 4 30x18 ome9k4fwsz.png",
+    "Write Tag option 4 30x23 ome9k4fwsz.png",
+    "Write Tag option 4 ome9k4fwsz.ico",
+    "Write Tag option 5 1024x1024 qy377yoijb.png",
+    "Write Tag option 5 29x29 qy377yoijb.png",
+    "Write Tag option 5 30x18 qy377yoijb.png",
+    "Write Tag option 5 30x23 qy377yoijb.png",
+    "Write Tag option 5 qy377yoijb.ico"
+  ]
+}

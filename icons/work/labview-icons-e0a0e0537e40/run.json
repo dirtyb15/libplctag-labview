@@ -1,0 +1,1292 @@
+{
+  "schema_version": 1,
+  "run_id": "6e9fd8e6aecb4555b11adefd24acf27b",
+  "request": "Create a PLC tag and return its handle",
+  "summary_name": "Create Tag",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Create_Tag.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T19:34:37.923284+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "tag-plus",
+      "concept_summary": "Tag plus sign",
+      "prompt": "One square icon on pure white: One large dark blue luggage tag silhouette with a bold green plus sign overlapping its lower right, symbolizing creation of a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "tag",
+        "orientation": "varied",
+        "cue": "plus overlay",
+        "composition": "plus overlay",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Blue tag with a green plus, both large and separated."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag hole and plus are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and plus remain recognizable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Tag and plus survive, but their overall composition closely matches the destroy-tag badge candidates.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "A tag with a lower-right badge is reused by opposite operation.",
+          "correction": "Use a substantially different creation composition from the destroy set."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Tag and plus remain discernible."
+        }
+      },
+      "reviewed_sha256": "d6220feaa4d05d9ac0243f8e213c12f44f75accc5bfa42c8e2669437d7075e2d"
+    },
+    {
+      "concept_id": "tag-pencil",
+      "concept_summary": "Tag and pencil",
+      "prompt": "One square icon on pure white: One large dark blue tag silhouette with a thick orange pencil diagonally across it, symbolizing creating a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "writing",
+        "orientation": "varied",
+        "cue": "pencil diagonally on tag",
+        "composition": "pencil diagonally on tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange pencil crosses a blue tag, a common edit symbol rather than creation.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action cue suggests editing or decoration rather than creation.",
+          "correction": "Use an unmistakable creation cue in a distinct structure."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Pencil and tag remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Pencil and tag are separated."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Pencil over tag still reads as editing."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Pencil and tag remain recognizable."
+        }
+      },
+      "reviewed_sha256": "6d3043bf4712221218aae7bdf59433b278f3aa82044b27319783fb389dfc61c7"
+    },
+    {
+      "concept_id": "tag-spark",
+      "concept_summary": "Tag with creation spark",
+      "prompt": "One square icon on pure white: One large dark blue tag silhouette below a large orange four-point creation sparkle, symbolizing creating a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "emergence",
+        "orientation": "varied",
+        "cue": "spark above tag",
+        "composition": "spark above tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange sparkle over blue tag; sparkle does not unambiguously communicate creation.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The action cue suggests editing or decoration rather than creation.",
+          "correction": "Use an unmistakable creation cue in a distinct structure."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Sparkle and tag remain separated."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Sparkle loses sharp detail but remains above the tag."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The small four-point mark is ambiguous as an action cue."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The sparkle reduces to a small orange blob."
+        }
+      },
+      "reviewed_sha256": "b9237e334a9854fa70419c3a64e6ac52cd6aacde8dd5c0d0505357b9ab2b74e6"
+    },
+    {
+      "concept_id": "tag-assembly",
+      "concept_summary": "Tag assembled from pieces",
+      "prompt": "One square icon on pure white: A dark blue tag outline at right and two large orange pieces pointing into it from the left, symbolizing building a PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "assembly",
+        "orientation": "varied",
+        "cue": "pieces converge into tag",
+        "composition": "pieces converge into tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Two puzzle pieces approach an outlined tag; construction concept is not explicit."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Pieces and tag outline remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Piece joins become less distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "Puzzle joints merge with the tag outline, obscuring assembly.",
+          "rule_id": "SMALL-SHAPE-004",
+          "cause": "Puzzle gaps become too small.",
+          "correction": "Use larger separated elements and a clear construction action."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag outline and orange pieces remain visible but joins are lost."
+        }
+      },
+      "reviewed_sha256": "3e8fa85b4ee6e8a06f0e6433a0f5ba6d4064064336e6d2c83255e8692992c4e4"
+    },
+    {
+      "concept_id": "tag-output",
+      "concept_summary": "New tag from generator",
+      "prompt": "One square icon on pure white: A bold orange gear at left, black rightward arrow and dark blue tag at right, symbolizing a newly generated PLC tag. Use flat simple bold geometry, generous margins, no text, no border, no shadow.",
+      "signature": {
+        "metaphor": "generation",
+        "orientation": "varied",
+        "cue": "gear arrow tag",
+        "composition": "gear arrow tag",
+        "objects": "tag with action"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-05.png",
+      "qa": {
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Use a substantially different construction metaphor.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "The orange gear, rightward dark arrow and blue destination reproduce the Choose_Lib signature at small size."
+        },
+        "source": {
+          "result": "FAIL",
+          "correction": "Replace with a creation concept whose main silhouette is not gear to blue object.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "Orange gear pointing right to a blue tag matches the dominant gear-to-blue-object composition in Choose_Lib candidate-02; the reviewed cross-file contact sheet records this conflict."
+        },
+        "16x16": {
+          "evidence": "Gear and destination survive; the arrow softens.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "The orange gear and blue tag are visible.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "Gear, arrow and tag remain distinguishable.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "6b90d0bbdc1baea6d38f999297b721b122b915b2630314ec0c83a7f7469cf813"
+    },
+    {
+      "concept_id": "new-tag-inset-plus",
+      "concept_summary": "Creation plus inside tag",
+      "prompt": "Exactly one SQUARE flat software icon on pure white for creating a new PLC tag. Show a LARGE dark navy horizontal tag silhouette pointed on the RIGHT with one large white hole near the tip. Inside the center of the tag show one HUGE white PLUS sign cut out of the tag, with thick arms. The plus is part of the tag interior, not a badge. The tag, plus and hole must remain distinct at 30x18 pixels. No other elements, letters, border or shadow. All art in the central 70 percent of the white square.",
+      "signature": {
+        "metaphor": "new tag",
+        "cue": "large plus cutout",
+        "orientation": "horizontal",
+        "objects": "large tag, internal plus",
+        "composition": "plus centered inside solid horizontal tag"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-06.png",
+      "qa": {
+        "16x16": {
+          "evidence": "The plus remains recognizable in the tag.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The centered plus and tag hole remain clear.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A white symbol centered inside a horizontal navy tag is the same dominant silhouette and layout as Tag_Status candidate-03, differing primarily in the interior glyph.",
+          "result": "FAIL",
+          "correction": "Replace the internal-glyph tag with a structurally different creation composition.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x18": {
+          "evidence": "The navy horizontal tag with central white glyph remains visually close to the status question-mark tag.",
+          "result": "FAIL",
+          "correction": "Change the dominant outline and arrangement.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x23": {
+          "evidence": "The plus remains visible within the tag.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "a7bd0ee600cccd0c1358aff402a54c5eceadcc77c95f09272cc3e02bbb6f8b84"
+    },
+    {
+      "concept_id": "new-tag-from-blocks",
+      "concept_summary": "Tag assembled from blocks",
+      "prompt": "Exactly one SQUARE flat software icon on pure white for creating a new tag from configuration. On left show TWO large separated orange squares stacked vertically. In the center show a large thick black PLUS sign, and on right a large solid navy tag with a large white hole. Keep the blocks, plus and tag clearly separated by white gaps and easily recognizable at 30x18. No gear, no arrows, no text, no shadows, no borders; all art in central 70 percent of the square canvas.",
+      "signature": {
+        "metaphor": "build new tag",
+        "cue": "block combination creates tag",
+        "orientation": "horizontal",
+        "objects": "separate blocks, plus, tag",
+        "composition": "two orange blocks on left, large plus in center, outlined blue tag on right"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-07.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Two blocks, plus and tag remain separate.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Two blocks plus a complete tag read as adding an existing tag to blocks, not producing a new tag from configuration.",
+          "result": "FAIL",
+          "rule_id": "VIS-SEM-001",
+          "correction": "Show a clear formation or output action toward the new tag."
+        },
+        "16x16": {
+          "evidence": "Blocks, plus and tag survive as separate shapes.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "Blocks and plus are visible beside the tag.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "At native size the blocks plus tag still suggest addition of separate items rather than creation.",
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Show configuration transforming into a tag, with a visible output cue."
+        }
+      },
+      "reviewed_sha256": "536f9f5b1aed23019c7cfec6a8e7d50609a607ecc468a1c5d34d43a10add4be9"
+    },
+    {
+      "concept_id": "new-tag-from-blocks",
+      "concept_summary": "Tag assembled from blocks",
+      "prompt": "One SQUARE flat icon on pure white for creating a tag from configuration. At UPPER RIGHT show two large orange configuration blocks. At LOWER LEFT show one large dark navy tag with a white hole. Between them put a thick black arrow pointing diagonally DOWN LEFT FROM the blocks TOWARD the tag, showing the tag is produced from the configuration. Keep a wide white gap around a large arrowhead; all components remain identifiable at 30x18 pixels. No gear, no extra symbols or text, no shadow. All art within central 70 percent of square canvas.",
+      "signature": {
+        "metaphor": "build new tag",
+        "cue": "block combination creates tag",
+        "orientation": "horizontal",
+        "objects": "separate blocks, plus, tag",
+        "composition": "two orange blocks on left, large plus in center, outlined blue tag on right"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-08.png",
+      "qa": {
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The arrowhead is indistinguishable from the dark tag, obscuring the formation action.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Use a large contrasting arrowhead with white clearance."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The configuration sliders are recognizable but the arrow is small."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Two orange configuration sliders point diagonally toward a new blue tag."
+        },
+        "30x23": {
+          "result": "FAIL",
+          "evidence": "The diagonal arrow is narrow and its tip blends with the dark tag.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Enlarge the arrowhead and separate it from the tag with a wide white gap."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The configuration and tag remain while the arrow softens."
+        }
+      },
+      "reviewed_sha256": "82634dfe6e732aebaadccb0f369ae1b6ea7c5dbdbda24c65e37f1d2cb7e79160"
+    },
+    {
+      "concept_id": "new-tag-plus-above",
+      "concept_summary": "Add symbol produces new tag",
+      "prompt": "One SQUARE flat icon on white for creating a new PLC tag. Show a very large thick GREEN PLUS SIGN in the UPPER half, separate from an equally large horizontal ORANGE TAG in the LOWER half. The tag has a large white hole at its right tip. The plus is not a small badge and does not touch or overlap the tag; it clearly indicates creating a tag. Both shapes must remain recognizable at 30x18. No letters, no border, no shadow; all artwork centered in the middle 70 percent of the square canvas.",
+      "signature": {
+        "composition": "green plus above separate orange horizontal tag",
+        "orientation": "vertical",
+        "objects": "large plus and tag",
+        "metaphor": "new tag",
+        "cue": "large plus above tag"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-09.png",
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The plus shape and tag hole survive at the smallest required size."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Both plus and tag remain clear and separate."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A large green plus is separate above an orange horizontal tag with a white hole."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The green plus and tag remain recognizable."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "The plus and orange tag remain distinguishable."
+        }
+      },
+      "reviewed_sha256": "ba9fb949436464435f564314f42a708f3e130f00bb2b4bab5691132b96611a3b",
+      "salt": "xyhncyzrjk"
+    },
+    {
+      "concept_id": "new-tag-from-blocks",
+      "concept_summary": "Tag assembled from blocks",
+      "prompt": "One SQUARE flat icon on white for creating a new PLC tag from configuration. At upper right draw two LARGE orange rectangular configuration sliders, with VERY THICK white marks. At lower left draw a large dark blue tag with white hole. Between them place one ENORMOUS GREEN DIAGONAL ARROW pointing DOWN LEFT toward the tag, with a very large arrowhead completely surrounded by an obvious WIDE WHITE GAP and NOT TOUCHING either the sliders or the tag. The arrowhead must remain readable at 30x18 pixels. Three bold shapes only, no words, shadows or extra decoration. All artwork inside central 70 percent of square canvas.",
+      "signature": {
+        "metaphor": "build new tag",
+        "cue": "block combination creates tag",
+        "orientation": "horizontal",
+        "objects": "separate blocks, plus, tag",
+        "composition": "two orange blocks on left, large plus in center, outlined blue tag on right"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 2,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-10.png",
+      "qa": {
+        "16x16": {
+          "evidence": "The green arrow and orange source survive but the tag identity is lost.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The tag is small but the green diagonal arrow is visible.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "Two configuration sliders feed a green arrow pointing toward a small tag.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The tag is an indistinct blue block; configuration-to-tag creation cannot be reliably recognized.",
+          "result": "FAIL",
+          "correction": "Retire the crowded configuration transfer concept.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "30x23": {
+          "evidence": "The tag is reduced to a small blue block, losing its hole and identifying shape.",
+          "result": "FAIL",
+          "correction": "Retire this three-attempt concept and use fewer larger components.",
+          "rule_id": "SMALL-RECOG-001"
+        }
+      },
+      "reviewed_sha256": "33357b742a71bec8a9ad442c34f6dee84c6ea577d971479db61b5d9d46126996"
+    },
+    {
+      "concept_id": "new-tag-template",
+      "concept_summary": "New tag template",
+      "prompt": "Exactly one SQUARE flat icon on pure white for creating a new tag. Draw a large vertical dark blue OUTLINED DOCUMENT with a folded upper right corner. Inside the document place one large orange TAG with a large white hole in its upper half, and a large thick GREEN PLUS in its lower half, both clearly separated. The document represents a new tag template; the plus clearly means create. Make the page, tag, hole and plus recognizable at 30x18. No words, no shadow, no other symbols; centered in middle 70 percent of canvas.",
+      "signature": {
+        "orientation": "vertical page",
+        "composition": "outlined vertical page enclosing orange tag and green plus",
+        "cue": "large plus beside tag on sheet",
+        "objects": "sheet, tag, plus",
+        "metaphor": "new tag document"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-11.png",
+      "qa": {
+        "16x16": {
+          "evidence": "Page and large orange patch remain; plus softens.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The page, orange tag and plus remain separate.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "The outlined folded page containing an orange tag repeats the dominant page-with-tag layout of Tag_Status candidate-06; the small lower plus is the main difference.",
+          "result": "FAIL",
+          "correction": "Replace with a different dominant silhouette from the status report page.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x18": {
+          "evidence": "The page and orange tag dominate and can be mistaken for the status report page.",
+          "result": "FAIL",
+          "correction": "Use a non-page creation metaphor.",
+          "rule_id": "VIS-DISTINCT-012"
+        },
+        "30x23": {
+          "evidence": "The plus and tag are visible within the page.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "9f0230dd3edd0574acfd735cd81fae50c4c588f0a5fd135fcb539a8a395d3ba1"
+    },
+    {
+      "concept_id": "new-tag-stamp",
+      "concept_summary": "Stamp produces tag",
+      "prompt": "One SQUARE flat icon on pure white for creating a new PLC tag. Show a simple navy MANUFACTURING PRESS as a wide horizontal bar with one bold centered downward stamping head. Beneath the press a large orange tag with a white round hole is emerging, fully recognizable. Include a large separate GREEN PLUS to the LEFT of the tag to explicitly indicate creation. Use thick simple shapes, not a trash shredder or printer with fine lines. The press, plus, tag and hole must be recognizable at 30x18. All art fits within central 70 percent of the square canvas, no lettering or shadows.",
+      "signature": {
+        "metaphor": "manufacture",
+        "composition": "blue press above orange tag emerging below",
+        "objects": "press, tag",
+        "orientation": "vertical",
+        "cue": "tag emerging from press"
+      },
+      "candidate_id": "candidate-12",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-12.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The press remains recognizable while the tag hole softens."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A navy press sits over a new orange tag, with a separate green plus. The opposed destroy shredder draft places a blue tag above a red shredder and has no plus."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Press structure, plus, orange tag and tag hole remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The press, green plus and tag remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The press crossbar, large plus and orange tag with light hole survive."
+        }
+      },
+      "reviewed_sha256": "ac94c373e8de3b81f416d9c6098f9220ad8208f1a256795875989c1e9c2c6368",
+      "salt": "dauml0ihbk"
+    },
+    {
+      "concept_id": "new-tag-wand",
+      "concept_summary": "Creation wand and tag",
+      "prompt": "One SQUARE flat software icon on pure white symbolizing create a new tag. Place a LARGE solid navy tag with large white hole at upper right. At lower left show a simple short orange MAGIC WAND pointing diagonally toward the tag. Between wand and tag show a LARGE GREEN PLUS SIGN, not tiny sparkles. The wand, plus, and tag are separated by wide white space, with thick shapes that remain recognizable at 30x18. No pencil tip, no other decorations, no text or shadow; all art inside central 70 percent of the square canvas.",
+      "signature": {
+        "metaphor": "creation wand",
+        "composition": "wand lower left points toward large tag at upper right, plus in open space",
+        "objects": "wand, tag, plus",
+        "orientation": "diagonal",
+        "cue": "large plus emitted by wand"
+      },
+      "candidate_id": "candidate-13",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-13.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The plus and tag survive but the stripe remains ambiguous."
+        },
+        "source": {
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use an unmistakable construction metaphor rather than a plain stick.",
+          "result": "FAIL",
+          "evidence": "The supposed wand is just a featureless orange diagonal bar; plus and tag do not show that it is a wand or a creation action."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag and plus are clear but the orange bar has no recognizable wand features."
+        },
+        "30x23": {
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Replace or redesign the bar as a recognizable object.",
+          "result": "FAIL",
+          "evidence": "The bar is a short diagonal stripe and has no recognizable creation role."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Use a clearer and simpler creation mechanism.",
+          "result": "FAIL",
+          "evidence": "The three disconnected shapes read as a tag, plus and arbitrary orange stripe."
+        }
+      },
+      "reviewed_sha256": "5b37dc9c89d23210250cf3b8ec5684d73dedf581e77416f6ca7e66e58ea50ae5"
+    },
+    {
+      "concept_id": "new-plus-tag-cutout",
+      "concept_summary": "Tag inside creation cross",
+      "prompt": "Exactly one SQUARE flat software icon on pure white for creating a tag. Draw ONE HUGE GREEN PLUS SIGN taking the center of the canvas. In the middle of the plus cut out a LARGE WHITE TAG silhouette, horizontal and pointed right, with one small green round hole near the tip. The plus is the dominant outside silhouette and the tag fits entirely inside it. Make the plus and tag distinctly recognizable at 30x18 pixels. No badge, no other objects, no text, no border, no shadow; leave at least 12 percent white margin on all sides.",
+      "signature": {
+        "objects": "large plus, tag",
+        "composition": "large green plus with white tag cutout centered",
+        "cue": "tag-shaped cutout in plus",
+        "metaphor": "create action",
+        "orientation": "centered"
+      },
+      "candidate_id": "candidate-14",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-14.png",
+      "qa": {
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The green hole in the white tag is small."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A white tag is cut out of the center of a large green plus."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The white center looks like a rectangular hole rather than a recognizable tag.",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Use a much larger tag silhouette and tag hole within the plus."
+        },
+        "30x23": {
+          "result": "FAIL",
+          "evidence": "The tag hole vanishes and its pointed end loses definition, leaving an ambiguous white horizontal slot.",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Enlarge the tag cutout and green hole and make the pointed end unmistakable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The green plus survives but the tag detail disappears."
+        }
+      },
+      "reviewed_sha256": "035a3ead6874687828c0e9f73325330beecf044127fceb49f6df113444ec2ae6"
+    },
+    {
+      "concept_id": "new-tag-box",
+      "concept_summary": "New tag emerges from box",
+      "prompt": "One SQUARE flat icon on pure white for creating a new PLC tag. Draw a wide dark NAVY OPEN BOX in the lower half, with a very large WHITE PLUS SIGN centered on the front of the box. Above it, a large ORANGE TAG with one large white circular hole rises out of the open top. The tag and the plus must be large, separate, and recognizable at 30x18 pixels. The box is a three-dimensional open carton with two broad side flaps, NOT a tray, not a trash can. No arrow, no other words, no shadow, wide white margins; all artwork centered in middle 70 percent of the canvas.",
+      "signature": {
+        "objects": "open box, tag, plus",
+        "composition": "orange tag above open navy box with green plus on front",
+        "cue": "plus on box and tag emerging",
+        "metaphor": "new tag output",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-15",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-15.png",
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag hole, carton flaps and plus are separate."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag emerges from a navy open carton bearing a large white plus; compared with the destroy trash bin, this has wide side flaps and a plus rather than bin slats."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large tag, open side flaps and white creation plus survive."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag and white plus remain recognizable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and plus remain but the side flaps soften."
+        }
+      },
+      "reviewed_sha256": "4081b126454f689c702f43d2142b73efc2d3ef7b42a79c651badfc771f5788c4",
+      "salt": "ebr5zcr8rh"
+    },
+    {
+      "concept_id": "new-plus-tag-cutout",
+      "concept_summary": "Tag inside creation cross",
+      "prompt": "Exactly one SQUARE flat icon on pure white for creating a tag. Draw ONE MASSIVE GREEN PLUS SIGN as the dominant outside silhouette. Cut a MASSIVE WHITE TAG shape out of the center, pointed sharply right, taking nearly the entire width of the plus. Put a VERY LARGE GREEN ROUND HOLE at the pointed right end of that tag; the hole must be much larger than a typical detail. The white tag and its green hole must both be unmistakable at 30 by 18 pixels, while the green plus remains recognizable. No other objects, no text, no border or shadow. Keep the whole icon inside central 75 percent of the canvas.",
+      "signature": {
+        "objects": "large plus, tag",
+        "composition": "large green plus with white tag cutout centered",
+        "cue": "tag-shaped cutout in plus",
+        "metaphor": "create action",
+        "orientation": "centered"
+      },
+      "candidate_id": "candidate-16",
+      "option_number": 2,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-16.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The central tag and two green blocks survive but the plus is weak."
+        },
+        "source": {
+          "correction": "Keep thick green horizontal arms around a smaller but clearly pointed tag and a large tag hole.",
+          "result": "FAIL",
+          "rule_id": "VIS-CONCEPT-002",
+          "evidence": "The enlarged white tag occupies almost the whole horizontal arm of the green cross, reducing it to a thin outline; the dominant plus is no longer clear."
+        },
+        "30x18": {
+          "correction": "Use a thicker cross and retain substantial green horizontal arms.",
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The horizontal cross arm becomes an outline around the tag, weakening the creation plus."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag hole is visible but the horizontal plus arms appear as thin borders."
+        },
+        "30x23": {
+          "correction": "Increase cross thickness and leave more green at both sides of the tag.",
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The cross looks like two green blocks above and below an outlined tag, not an obvious plus."
+        }
+      },
+      "reviewed_sha256": "d943401bfd090f1f512b10f2fbfe53dae55da2bda250068cffde230ab8f269ec"
+    },
+    {
+      "concept_id": "new-tag-conveyor",
+      "concept_summary": "New tag on production line",
+      "prompt": "One SQUARE flat icon on pure white for creating a new PLC tag. Draw a LARGE ORANGE TAG with a large white round hole resting on a short dark NAVY CONVEYOR BELT, represented by a thick horizontal platform and two very large white circular rollers. At upper right, separate from the tag, show a bold GREEN PLUS SIGN meaning new. Use only simple large geometry; the belt, tag and plus must all be recognizable at 30x18 pixels. No arrows, no gear, no pencil, no letters, no shadows. All art lies within the central 70 percent of the square canvas with generous white margins.",
+      "signature": {
+        "objects": "tag, conveyor, plus",
+        "composition": "tag on horizontal roller conveyor with large plus at upper right",
+        "cue": "tag produced on conveyor",
+        "orientation": "horizontal",
+        "metaphor": "tag production"
+      },
+      "candidate_id": "candidate-17",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-17.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag, plus and roller ends remain though smaller details soften."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag sits on a two-roller navy conveyor with a separate green plus above."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag and plus remain recognizable and two white roller circles distinguish the belt from the receiving tray."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag hole, conveyor rollers and plus remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag, two roller circles and green plus survive."
+        }
+      },
+      "reviewed_sha256": "94a60e2379e50045b8ce140e94ca49b767bee247626ae61a35bd0dc354a277e6",
+      "salt": "px65ltq9ul"
+    },
+    {
+      "concept_id": "new-plus-tag-cutout",
+      "concept_summary": "Tag inside creation cross",
+      "prompt": "Exactly one SQUARE flat icon on white for create new tag. Draw a HUGE solid GREEN PLUS whose horizontal arm and vertical arm are both very thick and remain unmistakably plus-shaped. At the center place a WHITE TAG with a pointed right end and an oversized green circular hole. The white tag occupies only the CENTRAL 50 PERCENT of the plus width, leaving broad solid green areas visible to its left and right as well as above and below, so the plus is not cut into disconnected blocks. Make the tag hole and point large enough for 30x18 pixels. No other objects, no text, shadow or border. Keep the entire artwork in the center 75 percent of the square canvas.",
+      "signature": {
+        "objects": "large plus, tag",
+        "composition": "large green plus with white tag cutout centered",
+        "cue": "tag-shaped cutout in plus",
+        "metaphor": "create action",
+        "orientation": "centered"
+      },
+      "candidate_id": "candidate-18",
+      "option_number": 2,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-18.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "The thick green plus surrounds a separate white tag with a green hole."
+        },
+        "30x23": {
+          "evidence": "The white tag shrinks to a short pale block and the green hole merges into the cross.",
+          "result": "FAIL",
+          "correction": "Retire this three-attempt concept; the plus and tag compete for too few pixels.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "30x18": {
+          "evidence": "The dominant green plus survives but its white center is not reliably identifiable as a tag.",
+          "result": "FAIL",
+          "correction": "Use a structurally different concept with a larger standalone tag.",
+          "rule_id": "SMALL-RECOG-001"
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The green plus remains but the tag loses its distinct shape."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag is small within the cross, though the point and hole are visible."
+        }
+      },
+      "reviewed_sha256": "f1c2acba042f72ce161ecdba30257d1c663d90e71c36877ec72f21020f1f0309"
+    },
+    {
+      "concept_id": "new-plus-generates-tag",
+      "concept_summary": "Create symbol outputs tag",
+      "prompt": "Exactly one SQUARE flat software icon on pure white for creating a new tag. At UPPER LEFT draw a huge thick GREEN PLUS. At LOWER RIGHT draw a large ORANGE TAG pointed right with a large white circular hole. Between them, floating separately in white space, draw a VERY LARGE thick BLACK ARROW pointing diagonally DOWN and RIGHT from the plus toward the tag. The plus, arrowhead and tag are three big simple clearly separated objects, all recognizable at 30x18 pixels. No gear, no circles except the tag hole, no text or shadow. Keep all art in the central 70 percent of square canvas with broad white margins.",
+      "signature": {
+        "cue": "plus produces tag",
+        "metaphor": "new tag output",
+        "objects": "large plus, downward arrow, tag",
+        "composition": "large plus at upper left, tag lower right, downward-right arrow",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-19",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-e0a0e0537e40\\candidates\\candidate-19.png",
+      "qa": {
+        "16x16": {
+          "evidence": "The tag and arrow remain but edges soften.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "A green plus at upper left leads through a thick black diagonal arrow toward an orange tag at lower right.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The plus, diagonal arrow and tag hole survive as separate components.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "The plus, down-right arrow and tag remain clearly separated.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The arrow points to the orange tag and the plus has four arms.",
+          "result": "PASS"
+        }
+      },
+      "reviewed_sha256": "e2729baee436fb73be86926f9525836f80718130af34be884d1799a9104749fe",
+      "salt": "l41wxu1guy"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "tag-plus",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Tag and plus survive, but their overall composition closely matches the destroy-tag badge candidates.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a substantially different creation composition from the destroy set.",
+      "likely_cause_hypothesis": "A tag with a lower-right badge is reused by opposite operation.",
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "tag-pencil",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "Orange pencil crosses a blue tag, a common edit symbol rather than creation.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an unmistakable creation cue in a distinct structure.",
+      "likely_cause_hypothesis": "The action cue suggests editing or decoration rather than creation.",
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "tag-spark",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "Orange sparkle over blue tag; sparkle does not unambiguously communicate creation.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an unmistakable creation cue in a distinct structure.",
+      "likely_cause_hypothesis": "The action cue suggests editing or decoration rather than creation.",
+      "retry_result": "PASS after review of candidate-09"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "tag-assembly",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-SHAPE-004",
+      "result": "FAIL",
+      "observed_problem": "Puzzle joints merge with the tag outline, obscuring assembly.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use larger separated elements and a clear construction action.",
+      "likely_cause_hypothesis": "Puzzle gaps become too small.",
+      "retry_result": "PASS after review of candidate-15"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Candidate 01 uses the same tag-plus-badge silhouette as destroy-tag candidates 01 and 03; the opposite functions need visibly different structures.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "tag-output",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The orange gear, rightward dark arrow and blue destination reproduce the Choose_Lib signature at small size.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a substantially different construction metaphor.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-17"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "tag-output",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Orange gear pointing right to a blue tag matches the dominant gear-to-blue-object composition in Choose_Lib candidate-02; the reviewed cross-file contact sheet records this conflict.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace with a creation concept whose main silhouette is not gear to blue object.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-17"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The prior cross-file review identified a gear-to-blue-object conflict with Choose_Lib; all five create candidates have at least one failed review and need replacement or correction.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-07",
+      "option_number": 2,
+      "concept_id": "new-tag-from-blocks",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-SEM-001",
+      "result": "FAIL",
+      "observed_problem": "Two blocks plus a complete tag read as adding an existing tag to blocks, not producing a new tag from configuration.",
+      "measured_value": "source",
+      "corrective_instruction": "Show a clear formation or output action toward the new tag.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-07",
+      "option_number": 2,
+      "concept_id": "new-tag-from-blocks",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "At native size the blocks plus tag still suggest addition of separate items rather than creation.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Show configuration transforming into a tag, with a visible output cue.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The centered plus in a horizontal tag differs from the destroy drafts with external badges; the blocks plus complete tag is semantically ambiguous and other older concepts remain failed.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "concept_id": "new-tag-from-blocks",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The arrowhead is indistinguishable from the dark tag, obscuring the formation action.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a large contrasting arrowhead with white clearance.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 2,
+      "concept_id": "new-tag-from-blocks",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The diagonal arrow is narrow and its tip blends with the dark tag.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Enlarge the arrowhead and separate it from the tag with a wide white gap.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The inset plus and large separate plus above tag use different structures; the configuration arrow is too small and the remaining old concepts are failed. Compare future options and destroy icons before final acceptance.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "new-tag-inset-plus",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "A white symbol centered inside a horizontal navy tag is the same dominant silhouette and layout as Tag_Status candidate-03, differing primarily in the interior glyph.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace the internal-glyph tag with a structurally different creation composition.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "new-tag-inset-plus",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The navy horizontal tag with central white glyph remains visually close to the status question-mark tag.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Change the dominant outline and arrangement.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 2,
+      "concept_id": "new-tag-from-blocks",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The tag is an indistinct blue block; configuration-to-tag creation cannot be reliably recognized.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Retire the crowded configuration transfer concept.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-10",
+      "option_number": 2,
+      "concept_id": "new-tag-from-blocks",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The tag is reduced to a small blue block, losing its hole and identifying shape.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Retire this three-attempt concept and use fewer larger components.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 4,
+      "concept_id": "new-tag-template",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The outlined folded page containing an orange tag repeats the dominant page-with-tag layout of Tag_Status candidate-06; the small lower plus is the main difference.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace with a different dominant silhouette from the status report page.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-15"
+    },
+    {
+      "candidate_id": "candidate-11",
+      "option_number": 4,
+      "concept_id": "new-tag-template",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The page and orange tag dominate and can be mistaken for the status report page.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a non-page creation metaphor.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-15"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The inset tag and folded page conflict respectively with Tag_Status question-tag and report-page designs. Configuration transfer remains unreadable, and the gear concept conflicts with Choose_Lib. Only the separated plus-over-tag option is provisionally retained.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-13",
+      "option_number": 2,
+      "concept_id": "new-tag-wand",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "The supposed wand is just a featureless orange diagonal bar; plus and tag do not show that it is a wand or a creation action.",
+      "measured_value": "source",
+      "corrective_instruction": "Use an unmistakable construction metaphor rather than a plain stick.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-13",
+      "option_number": 2,
+      "concept_id": "new-tag-wand",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The bar is a short diagonal stripe and has no recognizable creation role.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Replace or redesign the bar as a recognizable object.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-13",
+      "option_number": 2,
+      "concept_id": "new-tag-wand",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The three disconnected shapes read as a tag, plus and arbitrary orange stripe.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a clearer and simpler creation mechanism.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The press and separated plus are distinct; the wand is an unidentifiable bar, and the page and gear conflict with other files. Replace the remaining failed concepts.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-14",
+      "option_number": 2,
+      "concept_id": "new-plus-tag-cutout",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The white center looks like a rectangular hole rather than a recognizable tag.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a much larger tag silhouette and tag hole within the plus.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-14",
+      "option_number": 2,
+      "concept_id": "new-plus-tag-cutout",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The tag hole vanishes and its pointed end loses definition, leaving an ambiguous white horizontal slot.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Enlarge the tag cutout and green hole and make the pointed end unmistakable.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Press, separate plus above tag, and open carton with plus use distinct structures. The tag cutout inside the large plus is not identifiable at 30x18, and the gear is a known Choose_Lib conflict.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-16",
+      "option_number": 2,
+      "concept_id": "new-plus-tag-cutout",
+      "attempt_number": 2,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "The enlarged white tag occupies almost the whole horizontal arm of the green cross, reducing it to a thin outline; the dominant plus is no longer clear.",
+      "measured_value": "source",
+      "corrective_instruction": "Keep thick green horizontal arms around a smaller but clearly pointed tag and a large tag hole.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-16",
+      "option_number": 2,
+      "concept_id": "new-plus-tag-cutout",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The horizontal cross arm becomes an outline around the tag, weakening the creation plus.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a thicker cross and retain substantial green horizontal arms.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-16",
+      "option_number": 2,
+      "concept_id": "new-plus-tag-cutout",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The cross looks like two green blocks above and below an outlined tag, not an obvious plus.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Increase cross thickness and leave more green at both sides of the tag.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The press, plus over tag, carton and conveyor have different shapes; the tag-inside-cross design does not preserve its plus silhouette and needs revision.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-18",
+      "option_number": 2,
+      "concept_id": "new-plus-tag-cutout",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The white tag shrinks to a short pale block and the green hole merges into the cross.",
+      "measured_value": "30x23",
+      "corrective_instruction": "Retire this three-attempt concept; the plus and tag compete for too few pixels.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "candidate_id": "candidate-18",
+      "option_number": 2,
+      "concept_id": "new-plus-tag-cutout",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "The dominant green plus survives but its white center is not reliably identifiable as a tag.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a structurally different concept with a larger standalone tag.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-19"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The press, separate plus, carton and conveyor are locally distinct; the tag inside the cross has failed all three attempts to preserve both plus and tag at 30x18 and must be retired.",
+      "retry_result": "PASS after comparison of the final selected set"
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-19",
+      "candidate-09",
+      "candidate-15",
+      "candidate-17"
+    ],
+    "evidence": "The press, diagonal plus-to-tag arrow, separate vertical plus over tag, open carton, and two-roller conveyor have visibly different compositions. The plus output uses a four-arm plus and diagonal flow, unlike the earlier library gear-to-object horizontal layout. Full collection-wide and opposing-action comparison remains required.",
+    "result": "PASS"
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "Create Tag option 1 1024x1024 dauml0ihbk.png",
+    "Create Tag option 1 29x29 dauml0ihbk.png",
+    "Create Tag option 1 30x18 dauml0ihbk.png",
+    "Create Tag option 1 30x23 dauml0ihbk.png",
+    "Create Tag option 1 dauml0ihbk.ico",
+    "Create Tag option 2 1024x1024 l41wxu1guy.png",
+    "Create Tag option 2 29x29 l41wxu1guy.png",
+    "Create Tag option 2 30x18 l41wxu1guy.png",
+    "Create Tag option 2 30x23 l41wxu1guy.png",
+    "Create Tag option 2 l41wxu1guy.ico",
+    "Create Tag option 3 1024x1024 xyhncyzrjk.png",
+    "Create Tag option 3 29x29 xyhncyzrjk.png",
+    "Create Tag option 3 30x18 xyhncyzrjk.png",
+    "Create Tag option 3 30x23 xyhncyzrjk.png",
+    "Create Tag option 3 xyhncyzrjk.ico",
+    "Create Tag option 4 1024x1024 ebr5zcr8rh.png",
+    "Create Tag option 4 29x29 ebr5zcr8rh.png",
+    "Create Tag option 4 30x18 ebr5zcr8rh.png",
+    "Create Tag option 4 30x23 ebr5zcr8rh.png",
+    "Create Tag option 4 ebr5zcr8rh.ico",
+    "Create Tag option 5 1024x1024 px65ltq9ul.png",
+    "Create Tag option 5 29x29 px65ltq9ul.png",
+    "Create Tag option 5 30x18 px65ltq9ul.png",
+    "Create Tag option 5 30x23 px65ltq9ul.png",
+    "Create Tag option 5 px65ltq9ul.ico",
+    "lessonsLearned jc2j7v53ds.md",
+    "manifest.json"
+  ]
+}

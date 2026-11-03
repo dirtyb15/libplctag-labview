@@ -1,0 +1,1928 @@
+{
+  "run_id": "c042ab6ce415410ab3215588c69b6702",
+  "request": "Tag_Size.vi returns the tag buffer size in bytes",
+  "summary_name": "Tag Size",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Tag with dimension arrow",
+      "salt": "p7vluhdme4",
+      "source_file": "Tag Size option 1 1024x1024 p7vluhdme4.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Size option 1 29x29 p7vluhdme4.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              91,
+              95,
+              953,
+              960
+            ],
+            "source_artwork_size": [
+              862,
+              865
+            ],
+            "rendered_artwork_size": [
+              27,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03121387283236994,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 1 30x23 p7vluhdme4.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              91,
+              95,
+              953,
+              960
+            ],
+            "source_artwork_size": [
+              862,
+              865
+            ],
+            "rendered_artwork_size": [
+              21,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.024277456647398842,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 1 30x18 p7vluhdme4.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              91,
+              95,
+              953,
+              960
+            ],
+            "source_artwork_size": [
+              862,
+              865
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.018497109826589597,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Size option 1 p7vluhdme4.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016184971098265895,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            18,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020809248554913295,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            22,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.025433526011560695,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            30,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03468208092485549,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            38,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04393063583815029,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            46,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05317919075144509,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            62,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07167630057803469,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            126,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14566473988439307,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            91,
+            95,
+            953,
+            960
+          ],
+          "source_artwork_size": [
+            862,
+            865
+          ],
+          "rendered_artwork_size": [
+            253,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.29364161849710985,
+          "offset": [
+            1,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A tag with a large B sits below a horizontal double-headed dimension arrow."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The tag, B and two large arrowheads remain clear."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "Both arrowheads and the B are distinguishable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The opposing orange arrowheads and B remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The tag and arrowheads survive; the B counters soften."
+          }
+        },
+        "source_sha256": "ecf181c32efb668ceaee826dc75b741cd05defca714c668ea2c0af282d679614",
+        "distinctness": {
+          "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-11",
+            "candidate-12",
+            "candidate-13",
+            "candidate-18"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "tag-measure-header",
+      "candidate_id": "candidate-10",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Size option 1 1024x1024 p7vluhdme4.png": "142ededca498f894ace7330b2aefb3d0163abdbc497c562cb8a59db7334929e3",
+        "Tag Size option 1 29x29 p7vluhdme4.png": "3849494c703eb0248fcaa3a26047ae2828a5d72d8a8a7f0bc126dc2d7addddfd",
+        "Tag Size option 1 30x23 p7vluhdme4.png": "7baa6698ea0391d870e35a56978d56e9114bc08b40d23a4c3e7ed48fe51961db",
+        "Tag Size option 1 30x18 p7vluhdme4.png": "8600e670e0e4d322ffe712b40e0d28e30e8fee98a77a4da2e42f3c254d4de0cf",
+        "Tag Size option 1 p7vluhdme4.ico": "fd8300e621c1fe3a683a5785f1be4ae756257d25c22cf27abb50a46344124526"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Tag byte-span measure",
+      "salt": "7tavv4vnp5",
+      "source_file": "Tag Size option 2 1024x1024 7tavv4vnp5.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Size option 2 29x29 7tavv4vnp5.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              34,
+              75,
+              979,
+              964
+            ],
+            "source_artwork_size": [
+              945,
+              889
+            ],
+            "rendered_artwork_size": [
+              27,
+              25
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.02857142857142857,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 2 30x23 7tavv4vnp5.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              34,
+              75,
+              979,
+              964
+            ],
+            "source_artwork_size": [
+              945,
+              889
+            ],
+            "rendered_artwork_size": [
+              22,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.023622047244094488,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 2 30x18 7tavv4vnp5.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              34,
+              75,
+              979,
+              964
+            ],
+            "source_artwork_size": [
+              945,
+              889
+            ],
+            "rendered_artwork_size": [
+              17,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01799775028121485,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Size option 2 7tavv4vnp5.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014814814814814815,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            18,
+            17
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01904761904761905,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            22,
+            21
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02328042328042328,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            30,
+            28
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.031746031746031744,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            38,
+            36
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04021164021164021,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            46,
+            43
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04867724867724868,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            62,
+            58
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.0656084656084656,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            126,
+            119
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13333333333333333,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            34,
+            75,
+            979,
+            964
+          ],
+          "source_artwork_size": [
+            945,
+            889
+          ],
+          "rendered_artwork_size": [
+            254,
+            239
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2687830687830688,
+          "offset": [
+            1,
+            8
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A vertical double-headed dimension arrow stands beside a tag and B."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The two large arrowheads and B are distinct."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The vertical measurement cue and B survive."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "Both arrowheads remain recognizable and B retains its two counters."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The arrow survives; the B becomes coarser."
+          }
+        },
+        "source_sha256": "b78c13d6fbfa111086be31a5f7ad9218ed424f369a5e5dffd22ec3852066557b",
+        "distinctness": {
+          "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-11",
+            "candidate-12",
+            "candidate-13",
+            "candidate-18"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "tag-vertical-span",
+      "candidate_id": "candidate-11",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Size option 2 1024x1024 7tavv4vnp5.png": "8c648a8d7a246c169258cf3f72cfffe7fa30668a61f4c0cb7cfffee005884189",
+        "Tag Size option 2 29x29 7tavv4vnp5.png": "310bb04bf1e82b8e5487db2389484682e54ae25d2abc30f3b80d0d41d984ea63",
+        "Tag Size option 2 30x23 7tavv4vnp5.png": "14ad2f14c32b0385ca3e75e9b47d33809447b3b6878ce025bdc478fb3f553638",
+        "Tag Size option 2 30x18 7tavv4vnp5.png": "1b37638aa5596c111fb2b0da60b3663e4abe83cf7004455afa27e756b6602b31",
+        "Tag Size option 2 7tavv4vnp5.ico": "e67128668606605d1d5388b8ec6472e47f9231bde3cc2f8860b0101a26b63069"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Counted buffer blocks",
+      "salt": "ss71p7sq11",
+      "source_file": "Tag Size option 3 1024x1024 ss71p7sq11.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Size option 3 29x29 ss71p7sq11.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              48,
+              107,
+              980,
+              949
+            ],
+            "source_artwork_size": [
+              932,
+              842
+            ],
+            "rendered_artwork_size": [
+              27,
+              24
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.028969957081545063,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 3 30x23 ss71p7sq11.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              48,
+              107,
+              980,
+              949
+            ],
+            "source_artwork_size": [
+              932,
+              842
+            ],
+            "rendered_artwork_size": [
+              23,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02494061757719715,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 3 30x18 ss71p7sq11.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              48,
+              107,
+              980,
+              949
+            ],
+            "source_artwork_size": [
+              932,
+              842
+            ],
+            "rendered_artwork_size": [
+              18,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.019002375296912115,
+            "offset": [
+              6,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Size option 3 ss71p7sq11.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            14,
+            13
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015021459227467811,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            18,
+            16
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.019313304721030045,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            22,
+            20
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.023605150214592276,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            30,
+            27
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.032188841201716736,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            38,
+            34
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.0407725321888412,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            46,
+            42
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04935622317596566,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            62,
+            56
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06652360515021459,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            126,
+            114
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1351931330472103,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            48,
+            107,
+            980,
+            949
+          ],
+          "source_artwork_size": [
+            932,
+            842
+          ],
+          "rendered_artwork_size": [
+            254,
+            229
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.27253218884120173,
+          "offset": [
+            1,
+            13
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A large tag and B sit beside two separate byte blocks."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "B, tag and two blocks remain distinct."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The B retains its two openings and the blocks remain separate."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "B is legible beside the tag and two orange count blocks."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The tag and B remain; the small gap between blocks narrows."
+          }
+        },
+        "source_sha256": "daa93ffe942bfbb66d9eed999c3183f92eddfa301e25be1752356a8eb3d69e2a",
+        "distinctness": {
+          "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-11",
+            "candidate-12",
+            "candidate-13",
+            "candidate-18"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "byte-block-count",
+      "candidate_id": "candidate-12",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Size option 3 1024x1024 ss71p7sq11.png": "c450550cf6ab31cf5a817ebd33a833678b23c12e5434d7044f1f0e4b99237d38",
+        "Tag Size option 3 29x29 ss71p7sq11.png": "9d77780177e6964c2cbc736d0aa43c872248490aa3be88a82ab3046d36a92daa",
+        "Tag Size option 3 30x23 ss71p7sq11.png": "837cabcda356378d3563833429897b79c8fba7c72cef8756adeb579e33e565b4",
+        "Tag Size option 3 30x18 ss71p7sq11.png": "583738aec1844b5ca807237e2e6c606240ee4285f77110b49ca968fa189d52f8",
+        "Tag Size option 3 ss71p7sq11.ico": "4e52d741c313b80e001b9abdca74706927973f43a6d61c0b50273a8aab95afb4"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Tag byte-count display",
+      "salt": "9u19qjyhvk",
+      "source_file": "Tag Size option 4 1024x1024 9u19qjyhvk.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Size option 4 29x29 9u19qjyhvk.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              58,
+              76,
+              965,
+              964
+            ],
+            "source_artwork_size": [
+              907,
+              888
+            ],
+            "rendered_artwork_size": [
+              27,
+              26
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.029768467475192944,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 4 30x23 9u19qjyhvk.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              58,
+              76,
+              965,
+              964
+            ],
+            "source_artwork_size": [
+              907,
+              888
+            ],
+            "rendered_artwork_size": [
+              21,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02364864864864865,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 4 30x18 9u19qjyhvk.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              58,
+              76,
+              965,
+              964
+            ],
+            "source_artwork_size": [
+              907,
+              888
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.018018018018018018,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Size option 4 9u19qjyhvk.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015435501653803748,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            18,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.019845644983461964,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            22,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.024255788313120176,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            30,
+            29
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03307607497243661,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            38,
+            37
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04189636163175303,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            46,
+            45
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.050716648291069456,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            62,
+            61
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06835722160970231,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            126,
+            123
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13891951488423374,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            58,
+            76,
+            965,
+            964
+          ],
+          "source_artwork_size": [
+            907,
+            888
+          ],
+          "rendered_artwork_size": [
+            254,
+            249
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.28004410143329656,
+          "offset": [
+            1,
+            3
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A tag sits above a large #B byte-count mark and an orange underline."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "#B and the tag are clear."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The hash and B counters remain visible."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The hash opening and B counters remain recognizable beneath the tag."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "#B is recognizable but the hash gaps are narrow."
+          }
+        },
+        "source_sha256": "c05e07538d1b023a6a1afbfeb270ffc9fe2fe23cd23206eca4bc51c6cce37fc4",
+        "distinctness": {
+          "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-11",
+            "candidate-12",
+            "candidate-13",
+            "candidate-18"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "byte-count-panel",
+      "candidate_id": "candidate-13",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Size option 4 1024x1024 9u19qjyhvk.png": "84da1d1af981ba42fe1b57859e6a1b69f76ddbf2b75b7d23ce3e273971b379a0",
+        "Tag Size option 4 29x29 9u19qjyhvk.png": "a4743192c200633d2bb2c09da146f741221ea8add43a1d09b63f3f5ea0c95874",
+        "Tag Size option 4 30x23 9u19qjyhvk.png": "7d75389dec3aae04f1e36a45a68b4dafca1d3757799f14ea28be3b49bbbd902d",
+        "Tag Size option 4 30x18 9u19qjyhvk.png": "18a484025020b8b7ee6fdf9ea8df0e6e7733a39d6d484446572f8fc4f485d05d",
+        "Tag Size option 4 9u19qjyhvk.ico": "30e5b1e99c5335e086a8b99c77aa8ff04fb583a86f15fae4d670be5307b4f332"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Byte count inside tag outline",
+      "salt": "0csmtluef6",
+      "source_file": "Tag Size option 5 1024x1024 0csmtluef6.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Tag Size option 5 29x29 0csmtluef6.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              102,
+              322,
+              945,
+              743
+            ],
+            "source_artwork_size": [
+              843,
+              421
+            ],
+            "rendered_artwork_size": [
+              27,
+              13
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03202846975088968,
+            "offset": [
+              1,
+              8
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 5 30x23 0csmtluef6.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              102,
+              322,
+              945,
+              743
+            ],
+            "source_artwork_size": [
+              843,
+              421
+            ],
+            "rendered_artwork_size": [
+              28,
+              14
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.033214709371293,
+            "offset": [
+              1,
+              4
+            ]
+          }
+        },
+        {
+          "file": "Tag Size option 5 30x18 0csmtluef6.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              102,
+              322,
+              945,
+              743
+            ],
+            "source_artwork_size": [
+              843,
+              421
+            ],
+            "rendered_artwork_size": [
+              28,
+              14
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.033214709371293,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        }
+      ],
+      "ico_file": "Tag Size option 5 0csmtluef6.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            14,
+            7
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.0166073546856465,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            18,
+            9
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.021352313167259787,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            22,
+            11
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02609727164887307,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            30,
+            15
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03558718861209965,
+          "offset": [
+            1,
+            8
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            38,
+            19
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.045077105575326216,
+          "offset": [
+            1,
+            10
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            46,
+            23
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.054567022538552785,
+          "offset": [
+            1,
+            12
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            62,
+            31
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07354685646500593,
+          "offset": [
+            1,
+            16
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            126,
+            63
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1494661921708185,
+          "offset": [
+            1,
+            32
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            102,
+            322,
+            945,
+            743
+          ],
+          "source_artwork_size": [
+            843,
+            421
+          ],
+          "rendered_artwork_size": [
+            254,
+            127
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.3013048635824436,
+          "offset": [
+            1,
+            64
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The enclosed characters soften at stress size, while the tag silhouette remains visible."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "The navy tag outline contains a bold #B with separate counters and has clear white edge space."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The hash and B counters remain distinct inside the tag."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The outlined tag and enclosed count characters are recognizable."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The tag point, hash and two B counters remain recognizable."
+          }
+        },
+        "source_sha256": "eac2d124adab7eae67b748cb4f11fa7afb920807bcc743759a4a61b9cffb73da",
+        "distinctness": {
+          "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
+          "candidate_ids": [
+            "candidate-10",
+            "candidate-11",
+            "candidate-12",
+            "candidate-13",
+            "candidate-18"
+          ],
+          "result": "PASS"
+        }
+      },
+      "concept_id": "byte-count-tag",
+      "candidate_id": "candidate-18",
+      "qa_status": "PASS",
+      "sha256": {
+        "Tag Size option 5 1024x1024 0csmtluef6.png": "ef5430c31d6cd1ca7f9333f3bc201fecf1ffb1731468e86ff971c3b82e2ad5f7",
+        "Tag Size option 5 29x29 0csmtluef6.png": "b011f2a0ef6cb7321061425d9631c9cb0182b8fc04e72e5bffe1ea6ecf2fa9b7",
+        "Tag Size option 5 30x23 0csmtluef6.png": "d426c52bb0c27c4311a90f12d37cab37bb27e6d0eec0289ce0dd2bcd630d6fe7",
+        "Tag Size option 5 30x18 0csmtluef6.png": "dd42fbd0977a7a58787a6503a034197fe0db76e14efabb8702e037b030f00236",
+        "Tag Size option 5 0csmtluef6.ico": "51789d989926935176d348c9a7f1287b8a670d0fdbb52546d1d495c92099015a"
+      }
+    }
+  ]
+}

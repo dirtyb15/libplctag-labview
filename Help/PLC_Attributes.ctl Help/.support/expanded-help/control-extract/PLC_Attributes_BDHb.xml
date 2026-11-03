@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SL__rootObject class="oHExt" uid="2">
+  <root class="diag" uid="3">
+    <zPlaneList elements="0" />
+    <nodeList elements="1">
+      <SL__arrayElement class="sRN" uid="7">
+        <termList elements="0" />
+        <bounds>(0, 0, 0, 0)</bounds>
+        <shortCount>1</shortCount>
+        </SL__arrayElement>
+      </nodeList>
+    <signalList elements="0" />
+    <bgColor>00FFFFFF</bgColor>
+    </root>
+  <pBounds>(0, 0, 0, 0)</pBounds>
+  <dBounds>(0, 0, 0, 0)</dBounds>
+  <instrStyle>31</instrStyle>
+  </SL__rootObject>

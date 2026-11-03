@@ -1,0 +1,68 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-10",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue industrial rack with three white module panels and terminal squares sits beside two orange sliders."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The rack, module panels and sliders are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The two sliders and rack panel pattern remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The rack outline and two orange sliders remain distinguishable; tiny terminal squares soften."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and sliders survive, while terminal detail merges."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-11",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An industrial rack is above three thick orange list bars; it has no lettering."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack and the three rows are separately visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The rack is identifiable while the row gaps become thin."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The three orange list bars merge into one orange block, losing the list cue.",
+          "rule_id": "SMALL-SHAPE-004",
+          "correction": "Replace the list with fewer, larger separated configuration elements.",
+          "cause": "Three rows and their gaps occupy too few pixels."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The rack and orange region remain but the rows merge."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-07",
+      "candidate-11",
+      "candidate-09",
+      "candidate-05"
+    ],
+    "evidence": "The rack-and-list candidate loses its separate rows at 30x18; replace it and compare the final selection."
+  }
+}

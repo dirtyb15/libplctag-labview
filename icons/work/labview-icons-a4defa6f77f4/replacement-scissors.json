@@ -1,0 +1,12 @@
+{
+  "concept_summary": "Scissors cut tag",
+  "concept_id": "tag-cut",
+  "signature": {
+    "orientation": "horizontal",
+    "objects": "tag and scissors",
+    "composition": "large red scissors cutting through horizontal navy tag",
+    "metaphor": "cutting",
+    "cue": "scissors cut tag"
+  },
+  "prompt": "One SQUARE flat software icon on white for destroying a tag. Draw a LARGE horizontal dark navy tag with one large white circular hole on its left end. Across the right end, show a LARGE RED PAIR OF SCISSORS cutting through the tag; scissors have two oversized round finger holes and two short thick blades. A clean white gap splits off the cut end. Make the tag, scissors and cut gap clear at 30x18 pixels. No lightning, no plus, no words or shadows; all artwork fits within the central 70 percent of the square canvas with wide white margins."
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Provisional concept preflight; not collection-wide visual acceptance",
+  "result": "PASS",
+  "evidence": "Five different deletion actions: X badge, disposal bin, erasing, shredding, and scissors cutting.",
+  "candidate_ids": [
+    "cross",
+    "bin",
+    "tag-erase",
+    "shred",
+    "tag-cut"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-09",
+      "candidate-08",
+      "candidate-05"
+    ],
+    "evidence": "Tag with X, tag in bin, and vertical shredder are different silhouettes. The eraser loses its tip at required sizes and the lightning draft remains semantically failed."
+  },
+  "candidates": [
+    {
+      "qa": {
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag, red shredder slot and three vertical shreds remain distinct."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag, slot and three strips remain, with softened edges."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag enters a red slot, with three broad separate vertical blue strips below."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "All three strips and their white gaps remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The red slot and three separated hanging strips survive; the tag hole is visible."
+        }
+      },
+      "candidate_id": "candidate-08"
+    },
+    {
+      "qa": {
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The white eraser tip begins to blend with the white background."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "A navy tag and red shape remain without clear eraser detail."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "A red-and-white eraser removes part of a navy tag, leaving two fragments."
+        },
+        "30x23": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Give the eraser tip a thick dark outline and remove tiny fragments.",
+          "evidence": "The white eraser tip and missing tag merge into the background, leaving a red shape that no longer clearly reads as an eraser."
+        },
+        "30x18": {
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Add a dark outline around a larger eraser and simplify its surroundings.",
+          "evidence": "The red shape and blue tag do not clearly convey erasing because the white eraser tip disappears."
+        }
+      },
+      "candidate_id": "candidate-09"
+    }
+  ]
+}

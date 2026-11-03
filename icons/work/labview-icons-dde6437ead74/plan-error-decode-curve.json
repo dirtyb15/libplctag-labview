@@ -1,0 +1,12 @@
+{
+  "concept_id": "error-decode-curve",
+  "concept_summary": "Error decoded to text",
+  "signature": {
+    "metaphor": "error decoding",
+    "objects": "warning mark, curved arrow and message lines",
+    "cue": "curved transformation arrow",
+    "composition": "warning upper left, message lower right, curved connector",
+    "orientation": "diagonal"
+  },
+  "prompt": "Create one SQUARE 1:1 flat software icon on pure white for converting an error code to a message. Place one large red warning triangle with a white exclamation in the UPPER LEFT, two broad blue horizontal message bars in the LOWER RIGHT, and one thick orange curved arrow bending downward from the triangle toward the bars. The arrow must curve, not be a straight horizontal arrow. Keep all shapes simple, large and separated at 30x18. No words, no shadows or decorative border, generous margin."
+}

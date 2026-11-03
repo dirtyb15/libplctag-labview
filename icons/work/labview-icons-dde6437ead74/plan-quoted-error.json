@@ -1,0 +1,12 @@
+{
+  "concept_id": "quoted-error",
+  "concept_summary": "Quoted error description",
+  "signature": {
+    "metaphor": "error message quotation",
+    "objects": "quotation marks and exclamation",
+    "cue": "quoted error text",
+    "composition": "red exclamation between large blue quotation marks",
+    "orientation": "horizontal"
+  },
+  "prompt": "Create exactly one SQUARE 1:1 flat software icon on a pure white background, for an error-description message. Put one LARGE red exclamation mark in the center between two oversized dark-blue quotation marks, one opening quote on the left and one closing quote on the right. Use bold simple geometric shapes; leave wide gaps so the quotes and exclamation remain recognizable at 30x18 pixels. No circle, no triangle, no tag, no other words, no border, no shadows; generous white margin."
+}

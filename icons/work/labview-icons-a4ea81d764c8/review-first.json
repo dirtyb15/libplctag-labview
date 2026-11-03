@@ -1,0 +1,142 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue tag sits above an orange pulse trace; no success or failure is asserted."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and zigzag line are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The pulse peak and tag remain recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange pulse remains distinct from the blue tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The zigzag becomes coarser but the dominant tag-and-pulse form survives."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is beside an orange three-light panel with no individual state selected."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "All three white lights and tag remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Three indicator circles remain distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The three unselected indicators and tag remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The lights soften but remain grouped as an indicator panel."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "WARN",
+          "evidence": "A large white question mark in the tag suggests a status query, though it may also suggest an unknown tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The question mark and tag silhouette are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The question mark remains distinct from the tag hole."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The large question mark remains recognizable within the tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The mark and tag remain but the question-mark dot becomes smaller."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Tag at left beside a lined speech bubble repeats the left-object/right-bubble structure of Error_Info.vi candidate-02.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a substantially different status-report arrangement and compare against the error-information artwork."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and lined bubble are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The two speech-bubble lines remain distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The tag and bubble survive, but the layout resembles Error_Info."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and bubble remain as coarse shapes."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag sits below a neutral semicircular gauge and pointer, conveying a generic state."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Gauge arc, pointer and tag are separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The gauge needle remains visible above the tag."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The orange arc, black needle and blue tag remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Gauge and tag survive while needle detail softens."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Pulse, indicators, question tag and gauge differ within this set. The tag-left/speech-bubble-right candidate repeats the Error_Info speech layout and must be redesigned before collection acceptance."
+  }
+}

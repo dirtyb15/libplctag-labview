@@ -1,0 +1,155 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue database-like buffer points to large black I16 with a barred capital I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The buffer, arrow, and I16 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The barred I and adjacent 1 nearly meet at their bases."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The I and 1 merge at the baseline, making the type ambiguous.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The text becomes a cluster of dark blocks."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue eye appears over large black I16 with a barred I."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Eye and I16 are recognizable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Eye and I16 are legible with limited character spacing."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Eye and I16 remain discernible, though I and 1 are closely spaced."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The eye remains recognizable while the type is crowded."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-08",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange upward arrow exits a blue tray containing I16."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow, tray and I16 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "I16 is crowded inside the tray."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "I16 letters merge within the tray and no longer read reliably.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Arrow and tray survive while the type merges."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-09",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "Large I16 appears over a blue buffer with an upward orange arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "I16 and extraction arrow are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The lower bars of I and 1 nearly meet."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "I and 1 merge along their bottom bars, and the extraction arrow is small.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The blue bar and orange arrow remain while the type is crowded."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-10",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "I16 appears inside an orange magnifier with no visible buffer. The result suggests searching for a type rather than extracting a value from a buffer.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The buffer and extraction action are absent.",
+          "correction": "Show an explicit read or extraction action from a buffer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Magnifier and I16 are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The glyphs crowd together."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The I and 1 merge into a dark cluster, obscuring the datatype.",
+          "rule_id": "SMALL-TEXT-007",
+          "cause": "Characters have too little separation after resampling.",
+          "correction": "Increase whitespace between characters and allocate more pixels to the datatype."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Magnifier survives but text is crowded."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-07",
+      "candidate-08",
+      "candidate-09",
+      "candidate-10"
+    ],
+    "evidence": "Candidates 08 and 09 both use a blue lower buffer and an orange upward arrow with I16; their structures are too similar."
+  }
+}

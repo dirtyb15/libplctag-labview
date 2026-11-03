@@ -1,0 +1,23 @@
+{
+  "result": "FAIL",
+  "scope": "Concept preflight before image generation",
+  "findings": [
+    {
+      "concept_id": "dial",
+      "issue": "Three type labels arranged around a dial plus the selection pointer are likely too small to survive at 30x18."
+    },
+    {
+      "concept_id": "tiles",
+      "issue": "Three separately labeled tiles and a check would crowd the required smallest canvas."
+    },
+    {
+      "concept_id": "branch",
+      "issue": "Three labels and a selection pointer on a branching route risk crowding and overlap with the library-path routing concept."
+    },
+    {
+      "concept_id": "switch",
+      "issue": "Only I and F are shown as exclusive switch positions, omitting unsigned types and BOOL from the enum."
+    }
+  ],
+  "next_step": "Replace crowded and misleading concepts with compact, globally distinct datatype-selector structures; preflight before generation."
+}

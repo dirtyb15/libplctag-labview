@@ -1,0 +1,148 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A B inside a tag has no size or count cue and may be read as a Boolean or byte datatype tag.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add a strong measurement or count symbol to the B-tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag and B are legible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The B remains clear inside the tag."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The B is visible but the image still does not convey size."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and B survive."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A vertical double-headed dimension arrow sits beside a tag, with B for bytes below."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, dimension arrow and B are distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The dimension arrow and byte B remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The arrowheads and B are distinguishable beside the tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag, dimension arrow and B remain, with reduced detail."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A B above a box containing a tag does not communicate a size or count.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add an explicit count or capacity cue distinct from simple tag packaging."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "B and boxed tag are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The tag hole begins to soften."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "B and orange tag are visible, but no size cue is present."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The B and boxed orange form remain."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A tag over a panel marked only B communicates a byte label rather than the buffer's size or count.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use a large count symbol with B in a readout so it represents byte count."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and B panel remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and the large B are distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The B is visible but its byte-count meaning is not explicit."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and B panel remain recognizable."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange brackets enclosing a blue tag repeat the dominant orange-brackets-around-blue-object structure of PLC_Attributes.ctl candidate-14.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a structurally different size metaphor rather than a bracketed central object."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, brackets and B remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Bracket silhouette and B survive."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "Brackets and tag remain, but the composition resembles the PLC cluster icon."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Brackets and B remain in the stress frame."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Three options label bytes without conveying size or count. The bracketed tag resembles the separately reviewed PLC attributes cluster. Retain the vertical dimension concept and revise the rest."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "concept_summary": "Tag sealed in zipped pouch",
+  "signature": {
+    "metaphor": "sealed pouch",
+    "composition": "blue closed zipper across top of orange pouch with navy tag",
+    "orientation": "vertical",
+    "objects": "zipper and tag",
+    "cue": "closed zipper over contained tag"
+  },
+  "concept_id": "lock-zipper",
+  "prompt": "One SQUARE flat software icon on white for locking a PLC tag. Draw a large BLUE ZIPPERED POUCH with a thick horizontal closed zipper along its TOP edge, zipper pull at right. In the MIDDLE of the pouch place one big ORANGE TAG with a white hole, showing the tag held inside. Pouch outline is a broad rounded rectangle, not a tag shape; no horizontal bar crossing the tag. Use very thick simplified details, visible at 30x18. No padlock, shield, cage bars, hands, arrows, lettering, or shadows. All artwork in central 70 percent of square."
+}

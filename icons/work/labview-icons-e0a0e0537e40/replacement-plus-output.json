@@ -1,0 +1,12 @@
+{
+  "concept_summary": "Create symbol outputs tag",
+  "signature": {
+    "cue": "plus produces tag",
+    "metaphor": "new tag output",
+    "objects": "large plus, downward arrow, tag",
+    "composition": "large plus at upper left, tag lower right, downward-right arrow",
+    "orientation": "diagonal"
+  },
+  "prompt": "Exactly one SQUARE flat software icon on pure white for creating a new tag. At UPPER LEFT draw a huge thick GREEN PLUS. At LOWER RIGHT draw a large ORANGE TAG pointed right with a large white circular hole. Between them, floating separately in white space, draw a VERY LARGE thick BLACK ARROW pointing diagonally DOWN and RIGHT from the plus toward the tag. The plus, arrowhead and tag are three big simple clearly separated objects, all recognizable at 30x18 pixels. No gear, no circles except the tag hole, no text or shadow. Keep all art in the central 70 percent of square canvas with broad white margins.",
+  "concept_id": "new-plus-generates-tag"
+}

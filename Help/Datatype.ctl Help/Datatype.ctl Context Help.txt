@@ -1,0 +1,3 @@
+Selects the type used by Read_By_Datatype.vi to read a value from a tag's local buffer. Choices cover signed and unsigned integers, single and double precision, and the Boolean (BOOL) choice. The selected read result is returned as a variant.
+
+The BOOL choice uses Read_U8.vi and returns an unsigned 8-bit integer (U8) in the variant. This control does not itself read the controller. Use a separate tag read when current controller data is needed. Validate the handle and buffer range; getter failures can return values that look valid. In upstream 2.7.2, integer bit tags ignore the offset; FLOAT and DOUBLE getters reject bit tags. The bundled binaries contain version string 2.7.2.

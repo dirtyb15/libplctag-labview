@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "scope": "Provisional concept preflight; no visual acceptance",
+  "candidate_ids": [
+    "tag-measure-header",
+    "tag-vertical-span",
+    "byte-block-count",
+    "byte-count-panel",
+    "byte-count-tag"
+  ],
+  "evidence": "Final locally reviewed concepts are a horizontal span arrow over B tag, vertical span arrow beside tag and B, counted blocks beside tag and B, tag above byte-count panel, and byte-count within tag outline. Cross-file similarity review was waived by the user."
+}

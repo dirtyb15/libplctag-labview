@@ -1,0 +1,155 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "Printer and paper are clear, but I32 is crowded in the lower paper and the 3 and 2 merge at 30x18.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The printer takes too much height and the characters are tight."
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The needle and syringe are visible, but at 30x18 I32 is squeezed against the syringe, and the 3 and 2 merge. A syringe also does not establish whether it draws or injects.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The label is crowded and the pictured action has no direction cue."
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The basket weave becomes clutter and the I32 label is too small to distinguish all three letters at 30x18.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The basket and weave consume the available space."
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "The port is a solid blue dot rather than a recognizable buffer, while the I32 characters become too small and tightly packed at 30x18.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The dot and arrow reduce text width and the port lacks structure."
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "The characters and visual cue begin to soften.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "The I32 label and associated visual are visible but closely packed.",
+          "result": "WARN"
+        },
+        "source": {
+          "evidence": "The generated source shows the planned icon and an I32 label.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The label and fine details soften further.",
+          "result": "WARN"
+        },
+        "30x18": {
+          "evidence": "At 30x18 the I32 label has merged strokes; the orange gauge also echoes Tag Status candidate 05.",
+          "rule_id": "SMALL-RECOG-001",
+          "result": "FAIL",
+          "correction": "Enlarge and separate all three I32 characters and simplify the visual action so the label reads at 30x18.",
+          "cause": "The dial and arrow leave insufficient space for the three-character datatype."
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ],
+  "distinctness": {
+    "evidence": "All five need I32 legibility corrections; the syringe direction and gauge overlap also need attention.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "FAIL"
+  }
+}

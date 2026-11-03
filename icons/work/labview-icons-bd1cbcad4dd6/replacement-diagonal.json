@@ -1,0 +1,12 @@
+{
+  "concept_id": "diagonal-output-card",
+  "concept_summary": "U8 card extracted diagonally",
+  "signature": {
+    "metaphor": "buffer card extraction",
+    "objects": "buffer, diagonal arrow, U8 card",
+    "cue": "upward-right extraction",
+    "composition": "buffer lower left, U8 card upper right",
+    "orientation": "diagonal"
+  },
+  "prompt": "Create exactly one SQUARE 1:1 flat icon on white, showing retrieval of an unsigned 8-bit value from a tag buffer. Place a small dark-blue rectangular buffer in the LOWER LEFT and a large orange value card in the UPPER RIGHT. A single thick blue arrow rises diagonally from the buffer toward the card; it must not be vertical or horizontal. The card shows only very large black upright U8, with generous space between U and 8 and two big white holes inside the 8. No tray, no other text, no border or shadows; generous white margins."
+}

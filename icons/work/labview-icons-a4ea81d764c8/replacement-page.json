@@ -1,0 +1,12 @@
+{
+  "concept_id": "status-report-page",
+  "concept_summary": "Tag status report page",
+  "signature": {
+    "metaphor": "status report document",
+    "objects": "report page, tag and status line",
+    "cue": "document status row",
+    "composition": "tag inside page above bold status line",
+    "orientation": "vertical"
+  },
+  "prompt": "Create exactly one SQUARE 1:1 flat software icon on a white background. Show a single large dark-blue report page with a folded top-right corner. Inside the page place one large orange tag shape occupying the upper half and one thick white horizontal status line in the lower half. The page itself must dominate the silhouette; the tag and one line must stay separate at 30x18 pixels. Represents a report of the current tag status. No speech bubble, no warning triangle, no checkmark, no words or numbers, no shadow. Leave generous white margins."
+}

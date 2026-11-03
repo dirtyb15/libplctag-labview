@@ -1,0 +1,3 @@
+Converts a libplctag status or error code into a diagnostic string. Wire the raw code to errorcode. The tag handle is passed through and is not used by the C decoder. Check error out for errors in the call.
+
+In upstream 2.7.2, code -39 decodes as PLCTAG_ERR_BUSY. The bundled binaries contain version string 2.7.2.

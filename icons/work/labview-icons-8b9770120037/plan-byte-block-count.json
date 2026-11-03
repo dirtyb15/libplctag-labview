@@ -1,0 +1,12 @@
+{
+  "concept_id": "byte-block-count",
+  "concept_summary": "Counted buffer blocks",
+  "signature": {
+    "metaphor": "byte block count",
+    "objects": "tag, stacked blocks and B",
+    "cue": "graduated byte blocks",
+    "composition": "tag left and three blocks plus B right",
+    "orientation": "horizontal"
+  },
+  "prompt": "One SQUARE 1:1 flat software icon on white for tag buffer byte size. At left a large blue tag with a single clear hole. To its right show three LARGE orange square blocks stacked like a short ascending count, with a large black capital B above the stack to indicate the count is in bytes. All B counters and gaps between blocks must be big enough at 30x18. No other text, no ruler ticks, no shadows, generous margins."
+}

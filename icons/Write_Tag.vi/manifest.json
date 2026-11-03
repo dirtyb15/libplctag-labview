@@ -1,0 +1,1928 @@
+{
+  "run_id": "a229685eea644bfb83e3a602115e1991",
+  "request": "Write_Tag.vi calls plc_tag_write to send a local tag buffer to a PLC",
+  "summary_name": "Write Tag",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Tag entering controller slot",
+      "salt": "3q0kqt9v10",
+      "source_file": "Write Tag option 1 1024x1024 3q0kqt9v10.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Write Tag option 1 29x29 3q0kqt9v10.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              63,
+              236,
+              962,
+              833
+            ],
+            "source_artwork_size": [
+              899,
+              597
+            ],
+            "rendered_artwork_size": [
+              27,
+              18
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.030033370411568408,
+            "offset": [
+              1,
+              5
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 1 30x23 3q0kqt9v10.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              63,
+              236,
+              962,
+              833
+            ],
+            "source_artwork_size": [
+              899,
+              597
+            ],
+            "rendered_artwork_size": [
+              28,
+              19
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.03114571746384872,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 1 30x18 3q0kqt9v10.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              63,
+              236,
+              962,
+              833
+            ],
+            "source_artwork_size": [
+              899,
+              597
+            ],
+            "rendered_artwork_size": [
+              24,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02680067001675042,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Write Tag option 1 3q0kqt9v10.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            14,
+            9
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.01557285873192436,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            18,
+            12
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020022246941045607,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            22,
+            15
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.024471635150166853,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            30,
+            20
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03337041156840934,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            38,
+            25
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.042269187986651836,
+          "offset": [
+            1,
+            7
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            46,
+            31
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05116796440489433,
+          "offset": [
+            1,
+            8
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            62,
+            41
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06896551724137931,
+          "offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            126,
+            84
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14015572858731926,
+          "offset": [
+            1,
+            22
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            63,
+            236,
+            962,
+            833
+          ],
+          "source_artwork_size": [
+            899,
+            597
+          ],
+          "rendered_artwork_size": [
+            254,
+            169
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2825361512791991,
+          "offset": [
+            1,
+            43
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The left arrow and tag remain distinct beside the controller."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "Controller face, leftward arrow and orange tag are distinguishable."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "A black left arrow above an orange tag indicates movement into the blue controller slot."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The controller and orange tag survive; arrowhead softens."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The black arrow points into the controller and tag remains visible."
+          }
+        },
+        "source_sha256": "4c4c0cc3e027ed12f65ab1c99f8f54664a27c76aa0cd479389bb7e167dff5692",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-06",
+            "candidate-02",
+            "candidate-03",
+            "candidate-07",
+            "candidate-13"
+          ],
+          "result": "PASS",
+          "evidence": "The actual artworks show a tag entering a side slot with left arrow, a tag sent upward, a single diagonal inlet arrow, a curved tag transfer, and a rightward paper plane into a controller. Their dominant compositions differ. Recheck all against the final Read_Tag icons and the wider collection."
+        }
+      },
+      "concept_id": "write-insert-tag",
+      "candidate_id": "candidate-06",
+      "qa_status": "PASS",
+      "sha256": {
+        "Write Tag option 1 1024x1024 3q0kqt9v10.png": "c325bd05349334792c2f7ff4c9597a90a7797311ba631e9e14fc30448a63b353",
+        "Write Tag option 1 29x29 3q0kqt9v10.png": "5a4d85967138bf04e6a4074de124ec883adb0d3bfd9576a90afe9bba0667ce60",
+        "Write Tag option 1 30x23 3q0kqt9v10.png": "f12963f7d41f96946d0ac2f9c6bc2e1800fd0c0cf5b98137e2f183e17765093b",
+        "Write Tag option 1 30x18 3q0kqt9v10.png": "a2ca0e4e8928930fac3f9b2f6ce86307eb09068a1858c7550bf04dec632af116",
+        "Write Tag option 1 3q0kqt9v10.ico": "f2fdf23a0cdb5e2c6ffe4a8e62151bd95b467194ef5bea3f7fbeba998e8790d1"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Tag sent upward to controller",
+      "salt": "p6zqyd2ko5",
+      "source_file": "Write Tag option 2 1024x1024 p6zqyd2ko5.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Write Tag option 2 29x29 p6zqyd2ko5.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              117,
+              96,
+              907,
+              961
+            ],
+            "source_artwork_size": [
+              790,
+              865
+            ],
+            "rendered_artwork_size": [
+              25,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03121387283236994,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 2 30x23 p6zqyd2ko5.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              117,
+              96,
+              907,
+              961
+            ],
+            "source_artwork_size": [
+              790,
+              865
+            ],
+            "rendered_artwork_size": [
+              19,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.024277456647398842,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 2 30x18 p6zqyd2ko5.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              117,
+              96,
+              907,
+              961
+            ],
+            "source_artwork_size": [
+              790,
+              865
+            ],
+            "rendered_artwork_size": [
+              15,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.018497109826589597,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Write Tag option 2 p6zqyd2ko5.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            13,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.016184971098265895,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            16,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020809248554913295,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            20,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.025433526011560695,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            27,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03468208092485549,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            35,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04393063583815029,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            42,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05317919075144509,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            57,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07167630057803469,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            115,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.14566473988439307,
+          "offset": [
+            6,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            117,
+            96,
+            907,
+            961
+          ],
+          "source_artwork_size": [
+            790,
+            865
+          ],
+          "rendered_artwork_size": [
+            232,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.29364161849710985,
+          "offset": [
+            12,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "The orange tag points upward via a large arrow toward a blue controller."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "Tag, upward arrow and controller remain identifiable."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The arrow points toward the controller and the tag remains separate."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "A large upward arrow remains visible between the tag and PLC."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The controller and arrow remain, while the tag hole softens."
+          }
+        },
+        "source_sha256": "b651d71508a4cb9ff7878bc07b989ea31fe42f932a9d943f9616219e1ba460aa",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-06",
+            "candidate-02",
+            "candidate-03",
+            "candidate-07",
+            "candidate-13"
+          ],
+          "result": "PASS",
+          "evidence": "The actual artworks show a tag entering a side slot with left arrow, a tag sent upward, a single diagonal inlet arrow, a curved tag transfer, and a rightward paper plane into a controller. Their dominant compositions differ. Recheck all against the final Read_Tag icons and the wider collection."
+        }
+      },
+      "concept_id": "write-plc-top",
+      "candidate_id": "candidate-02",
+      "qa_status": "PASS",
+      "sha256": {
+        "Write Tag option 2 1024x1024 p6zqyd2ko5.png": "b0e9676cc998ed2048905e3739d00605b5df3ce7306b744c8c30a1a36873ed1d",
+        "Write Tag option 2 29x29 p6zqyd2ko5.png": "c38e94142bc91d3feed4fdd9b93192e2ba72f3c4fdc82aa0c25d7920f9265ef8",
+        "Write Tag option 2 30x23 p6zqyd2ko5.png": "89cd2f2353709756b3e026c994921f9745a1da5a52d623fd95a2b5cc297fd858",
+        "Write Tag option 2 30x18 p6zqyd2ko5.png": "07bc44eef51877093d00ec85202c901f8b844add25a5df9732922c6860ed0144",
+        "Write Tag option 2 p6zqyd2ko5.ico": "676f7fb65557271b4acacff0ed351318b5b6469637257d35efa4bd259d5b31b2"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Arrow enters controller port",
+      "salt": "6gdpn6noie",
+      "source_file": "Write Tag option 3 1024x1024 6gdpn6noie.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Write Tag option 3 29x29 6gdpn6noie.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              59,
+              121,
+              971,
+              900
+            ],
+            "source_artwork_size": [
+              912,
+              779
+            ],
+            "rendered_artwork_size": [
+              27,
+              23
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.029605263157894735,
+            "offset": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 3 30x23 6gdpn6noie.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              59,
+              121,
+              971,
+              900
+            ],
+            "source_artwork_size": [
+              912,
+              779
+            ],
+            "rendered_artwork_size": [
+              25,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.026957637997432605,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 3 30x18 6gdpn6noie.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              59,
+              121,
+              971,
+              900
+            ],
+            "source_artwork_size": [
+              912,
+              779
+            ],
+            "rendered_artwork_size": [
+              19,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.02053915275994865,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Write Tag option 3 6gdpn6noie.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            14,
+            12
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015350877192982455,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            18,
+            15
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.019736842105263157,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            22,
+            19
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02412280701754386,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            30,
+            26
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03289473684210526,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            38,
+            32
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.041666666666666664,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            46,
+            39
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05043859649122807,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            62,
+            53
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06798245614035088,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            126,
+            108
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13815789473684212,
+          "offset": [
+            1,
+            10
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            59,
+            121,
+            971,
+            900
+          ],
+          "source_artwork_size": [
+            912,
+            779
+          ],
+          "rendered_artwork_size": [
+            254,
+            217
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.27850877192982454,
+          "offset": [
+            1,
+            19
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "source": {
+            "result": "PASS",
+            "evidence": "A bold diagonal orange arrow points into a simple blue industrial controller."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The incoming arrowhead and controller face are recognizable."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The diagonal arrow points to the controller."
+          },
+          "30x18": {
+            "result": "WARN",
+            "evidence": "The arrow tip blends with the controller edge, but its diagonal entry remains apparent."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The arrow and controller silhouette remain distinct."
+          }
+        },
+        "source_sha256": "11e87ba82d44c245f9b49a93958db11861030095bfca1c907e3a09352d876daa",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-06",
+            "candidate-02",
+            "candidate-03",
+            "candidate-07",
+            "candidate-13"
+          ],
+          "result": "PASS",
+          "evidence": "The actual artworks show a tag entering a side slot with left arrow, a tag sent upward, a single diagonal inlet arrow, a curved tag transfer, and a rightward paper plane into a controller. Their dominant compositions differ. Recheck all against the final Read_Tag icons and the wider collection."
+        }
+      },
+      "concept_id": "write-enter-port",
+      "candidate_id": "candidate-03",
+      "qa_status": "PASS",
+      "sha256": {
+        "Write Tag option 3 1024x1024 6gdpn6noie.png": "b344da4e634a6ea27ce65231514c58ba196663ba84b640b1e575eda13a01abeb",
+        "Write Tag option 3 29x29 6gdpn6noie.png": "dd1f26dec375018e01840ef7f012a23167e7d745b4b2684edf31db3a4c095aa6",
+        "Write Tag option 3 30x23 6gdpn6noie.png": "3b9a446bb7a18d780c4d1f51d00b8d6d1132301ac1a130c26935bf96c40190f9",
+        "Write Tag option 3 30x18 6gdpn6noie.png": "4bd0437440ed5b841f2cc6e3b2b0b330c515f8c96ebcaeffbe3a81de6fd80b66",
+        "Write Tag option 3 6gdpn6noie.ico": "ffcf0de4be71170f65c0105888e8bbb5ee749f3b05e01464f3fdd59e2cc933cb"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Curved tag-to-controller transfer",
+      "salt": "ome9k4fwsz",
+      "source_file": "Write Tag option 4 1024x1024 ome9k4fwsz.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Write Tag option 4 29x29 ome9k4fwsz.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              42,
+              113,
+              987,
+              930
+            ],
+            "source_artwork_size": [
+              945,
+              817
+            ],
+            "rendered_artwork_size": [
+              27,
+              23
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.02857142857142857,
+            "offset": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 4 30x23 ome9k4fwsz.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              42,
+              113,
+              987,
+              930
+            ],
+            "source_artwork_size": [
+              945,
+              817
+            ],
+            "rendered_artwork_size": [
+              24,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.025703794369645042,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 4 30x18 ome9k4fwsz.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              42,
+              113,
+              987,
+              930
+            ],
+            "source_artwork_size": [
+              945,
+              817
+            ],
+            "rendered_artwork_size": [
+              19,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.019583843329253364,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Write Tag option 4 ome9k4fwsz.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            14,
+            12
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014814814814814815,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            18,
+            16
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01904761904761905,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            22,
+            19
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02328042328042328,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            30,
+            26
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.031746031746031744,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            38,
+            33
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04021164021164021,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            46,
+            40
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04867724867724868,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            62,
+            54
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.0656084656084656,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            126,
+            109
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13333333333333333,
+          "offset": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            42,
+            113,
+            987,
+            930
+          ],
+          "source_artwork_size": [
+            945,
+            817
+          ],
+          "rendered_artwork_size": [
+            254,
+            220
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2687830687830688,
+          "offset": [
+            1,
+            18
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "29x29": {
+            "result": "PASS",
+            "evidence": "The curved arrowhead remains visible against the controller."
+          },
+          "30x18": {
+            "result": "PASS",
+            "evidence": "The orange curved path and rightward tip contrast with the navy controller."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "An orange tag and curved orange arrow lead into a navy controller with a white outline separating the arrow tip."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The curved path survives but controller details simplify."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "The tag, curve and incoming arrowhead are identifiable."
+          }
+        },
+        "source_sha256": "b39f39522020d6c79ef36efcca9d25b87786ecfdeaf8b7ebec68afb86fdf9c46",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-06",
+            "candidate-02",
+            "candidate-03",
+            "candidate-07",
+            "candidate-13"
+          ],
+          "result": "PASS",
+          "evidence": "The actual artworks show a tag entering a side slot with left arrow, a tag sent upward, a single diagonal inlet arrow, a curved tag transfer, and a rightward paper plane into a controller. Their dominant compositions differ. Recheck all against the final Read_Tag icons and the wider collection."
+        }
+      },
+      "concept_id": "write-curved-route",
+      "candidate_id": "candidate-07",
+      "qa_status": "PASS",
+      "sha256": {
+        "Write Tag option 4 1024x1024 ome9k4fwsz.png": "8f9b0168a4b60a48bd9727c1a51744336e4b574fdc73af42c6473b2a8b3a5d99",
+        "Write Tag option 4 29x29 ome9k4fwsz.png": "9a4d06e49cf9c2b95c1d914fd9328c885ec4da7f1e1d4546137d4a24dd69f4f8",
+        "Write Tag option 4 30x23 ome9k4fwsz.png": "1fa47aeb304279b61f625b50a9ad82fa5fd1002f68ad586b5e6c5d3c37a112ab",
+        "Write Tag option 4 30x18 ome9k4fwsz.png": "e2c363a5b0e4275caea06830152cb4be1761afcb09a1f37794cda5d9e4aa41dd",
+        "Write Tag option 4 ome9k4fwsz.ico": "5ace9966536afdefa310ccd5f02203bbef5b8c9da2eb424dbaa78802b4b347b3"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Tag sent toward controller",
+      "salt": "qy377yoijb",
+      "source_file": "Write Tag option 5 1024x1024 qy377yoijb.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Write Tag option 5 29x29 qy377yoijb.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              73,
+              290,
+              953,
+              745
+            ],
+            "source_artwork_size": [
+              880,
+              455
+            ],
+            "rendered_artwork_size": [
+              27,
+              14
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.03068181818181818,
+            "offset": [
+              1,
+              7
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 5 30x23 qy377yoijb.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              73,
+              290,
+              953,
+              745
+            ],
+            "source_artwork_size": [
+              880,
+              455
+            ],
+            "rendered_artwork_size": [
+              28,
+              14
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.031818181818181815,
+            "offset": [
+              1,
+              4
+            ]
+          }
+        },
+        {
+          "file": "Write Tag option 5 30x18 qy377yoijb.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              73,
+              290,
+              953,
+              745
+            ],
+            "source_artwork_size": [
+              880,
+              455
+            ],
+            "rendered_artwork_size": [
+              28,
+              14
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.031818181818181815,
+            "offset": [
+              1,
+              2
+            ]
+          }
+        }
+      ],
+      "ico_file": "Write Tag option 5 qy377yoijb.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            14,
+            7
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.015909090909090907,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            18,
+            9
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.020454545454545454,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            22,
+            11
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.025,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            30,
+            16
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03409090909090909,
+          "offset": [
+            1,
+            8
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            38,
+            20
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.04318181818181818,
+          "offset": [
+            1,
+            10
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            46,
+            24
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.05227272727272727,
+          "offset": [
+            1,
+            12
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            62,
+            32
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.07045454545454545,
+          "offset": [
+            1,
+            16
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            126,
+            65
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1431818181818182,
+          "offset": [
+            1,
+            31
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            73,
+            290,
+            953,
+            745
+          ],
+          "source_artwork_size": [
+            880,
+            455
+          ],
+          "rendered_artwork_size": [
+            254,
+            131
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.28863636363636364,
+          "offset": [
+            1,
+            62
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "16x16": {
+            "evidence": "The plane keeps its rightward silhouette while its wing folds soften.",
+            "result": "WARN"
+          },
+          "30x23": {
+            "evidence": "The plane points right at the controller and the tag hole remains visible.",
+            "result": "PASS"
+          },
+          "source": {
+            "evidence": "An orange tag-hole paper plane points directly into a dark controller, with a clear white separation at its nose.",
+            "result": "PASS"
+          },
+          "30x18": {
+            "evidence": "The orange pointed plane and white hole remain visible beside the controller.",
+            "result": "PASS"
+          },
+          "29x29": {
+            "evidence": "The orange plane wings, tag hole and controller remain distinguishable.",
+            "result": "PASS"
+          }
+        },
+        "source_sha256": "7c3474652d8b1ad3c8173310041af00429b98af7f215897d4365f55dd139bf59",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-06",
+            "candidate-02",
+            "candidate-03",
+            "candidate-07",
+            "candidate-13"
+          ],
+          "result": "PASS",
+          "evidence": "The actual artworks show a tag entering a side slot with left arrow, a tag sent upward, a single diagonal inlet arrow, a curved tag transfer, and a rightward paper plane into a controller. Their dominant compositions differ. Recheck all against the final Read_Tag icons and the wider collection."
+        }
+      },
+      "concept_id": "write-send-plane",
+      "candidate_id": "candidate-13",
+      "qa_status": "PASS",
+      "sha256": {
+        "Write Tag option 5 1024x1024 qy377yoijb.png": "27a2315f164b5a4c6f7469457c1913b8b0f9ffb91cf5f88e904d1aa366cd0019",
+        "Write Tag option 5 29x29 qy377yoijb.png": "e7cb1ee1c2a826e6914fa38fcc1be452a1ba6285d5e23349025ff778db5a8c57",
+        "Write Tag option 5 30x23 qy377yoijb.png": "74fb49f4aab7177fb93d652126bc59c52dba5da8d8f735222c7d734927954155",
+        "Write Tag option 5 30x18 qy377yoijb.png": "5e36a3abd45012adbee8999e935d5ce477a4d848213e14cc6d6726a78256a179",
+        "Write Tag option 5 qy377yoijb.ico": "4452c64954d4c784d57845e6bfa31dbb9660499b80070442460411c0247d967e"
+      }
+    }
+  ]
+}

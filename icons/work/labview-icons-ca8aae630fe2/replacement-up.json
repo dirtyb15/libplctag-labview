@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "composition": "PLC below arrow and tag above",
+    "objects": "controller, upward arrow, tag",
+    "cue": "upward output from PLC",
+    "orientation": "vertical-up",
+    "metaphor": "controller output"
+  },
+  "concept_summary": "Tag emitted above controller",
+  "concept_id": "read-output-up",
+  "prompt": "One SQUARE flat icon on a pure white background for reading a tag from a PLC. Put a large simple NAVY industrial PLC at the BOTTOM, with one white display and two broad module divisions. Above the PLC a very thick orange arrow points UP away from the PLC toward a large orange TAG at the TOP. The tag has a large clear white hole. The arrowhead is large and separated by white space so it remains obvious at 30x18. This shows data leaving the PLC. No words, shadow or border. All artwork centered within the middle 70 percent of the square canvas."
+}

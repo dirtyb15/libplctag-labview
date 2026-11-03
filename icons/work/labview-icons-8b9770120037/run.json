@@ -1,0 +1,1029 @@
+{
+  "schema_version": 1,
+  "run_id": "c042ab6ce415410ab3215588c69b6702",
+  "request": "Tag_Size.vi returns the tag buffer size in bytes",
+  "summary_name": "Tag Size",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Tag_Size.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T21:59:17.244219+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "tag-byte-mark",
+      "concept_summary": "Tag with byte-size mark",
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI returning tag buffer size in bytes. Show one large dark-blue tag silhouette with a small clear tag hole and a very large white capital B centered inside it. The B must have two large open dark-blue counters and be clearly legible at 30x18 pixels. The B represents bytes. No other text or symbols, no ruler ticks, no weighing scale, no border or shadow. Bold simple geometry and generous white margins.",
+      "signature": {
+        "metaphor": "byte-size tag",
+        "objects": "tag and large B",
+        "cue": "byte-size letter",
+        "composition": "B centered in large tag silhouette",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-01.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A B inside a tag has no size or count cue and may be read as a Boolean or byte datatype tag.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add a strong measurement or count symbol to the B-tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag and B are legible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The B remains clear inside the tag."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The B is visible but the image still does not convey size."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and B survive."
+        }
+      },
+      "reviewed_sha256": "8c87fbc02b1719ab37cd9af48eb99039516f0f8a3fbf9aa38c6512ca18812b8d"
+    },
+    {
+      "concept_id": "tag-vertical-span",
+      "concept_summary": "Tag byte-span measure",
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A large dark-blue tag at right and a thick orange vertical double-headed dimension arrow to its left. Below the tag show a large black capital B for byte size. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin.",
+      "signature": {
+        "metaphor": "vertical dimension",
+        "objects": "tag, vertical span arrow",
+        "cue": "tag buffer byte size",
+        "composition": "tag right with vertical dimension arrow to left",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-02.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is beside a vertical double-headed arrow with B below."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag, arrow and B are distinguishable."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The small arrowheads soften."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "On closer comparison the arrowheads compress into near-square ends, weakening the dimension cue.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Make the top and bottom arrowheads significantly larger than the shaft."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag and B survive; arrowheads are ambiguous."
+        }
+      },
+      "reviewed_sha256": "a43add6efc741d9410c9b3fe97e4f73dcb91890228addaf8c31587ee8a58e4de"
+    },
+    {
+      "concept_id": "tag-byte-cube",
+      "concept_summary": "Tag buffer capacity",
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A large dark-blue rectangular memory-box outline containing a simple orange tag, with one large black capital B above the box. Represent the tag buffer size in bytes. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin.",
+      "signature": {
+        "metaphor": "buffer size",
+        "objects": "tag within box and byte label",
+        "cue": "tag buffer byte size",
+        "composition": "tag inside open box with B above",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-03.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A B above a box containing a tag does not communicate a size or count.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Add an explicit count or capacity cue distinct from simple tag packaging."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "B and boxed tag are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The tag hole begins to soften."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "B and orange tag are visible, but no size cue is present."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The B and boxed orange form remain."
+        }
+      },
+      "reviewed_sha256": "b0f9ee8e0fac5d8f1d017abfe6d2b265472756fa7ddaf72888b01f57e3286f79"
+    },
+    {
+      "concept_id": "byte-count-readout",
+      "concept_summary": "Byte size readout",
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A dark-blue tag above a simple orange rectangular readout with a very large black capital B inside. B means bytes; the readout represents measured tag buffer size. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin.",
+      "signature": {
+        "metaphor": "numeric readout",
+        "objects": "tag and byte readout",
+        "cue": "tag buffer byte size",
+        "composition": "tag above B inside rectangular readout",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-04.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A tag over a panel marked only B communicates a byte label rather than the buffer's size or count.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use a large count symbol with B in a readout so it represents byte count."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag and B panel remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Tag and the large B are distinct."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The B is visible but its byte-count meaning is not explicit."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and B panel remain recognizable."
+        }
+      },
+      "reviewed_sha256": "b5dda8519657ca76e9a61387b1501e95cc07529ccf41bfe3606ec610a70ed8ce"
+    },
+    {
+      "concept_id": "tag-span-bracket",
+      "concept_summary": "Buffer span brackets",
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A blue tag in the center between two large orange outward-facing square dimension brackets; place a very large black capital B directly below the tag to indicate byte size. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin.",
+      "signature": {
+        "metaphor": "span measure",
+        "objects": "tag and span brackets",
+        "cue": "tag buffer byte size",
+        "composition": "tag centered between large brackets",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-05.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "Orange brackets enclosing a blue tag repeat the dominant orange-brackets-around-blue-object structure of PLC_Attributes.ctl candidate-14.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Use a structurally different size metaphor rather than a bracketed central object."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag, brackets and B remain visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Bracket silhouette and B survive."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "Brackets and tag remain, but the composition resembles the PLC cluster icon."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Brackets and B remain in the stress frame."
+        }
+      },
+      "reviewed_sha256": "9d670b8a228928f755f307bda538fb2b0dcc88c835f8876dcdf14cbbb3813b44"
+    },
+    {
+      "concept_id": "tag-measure-header",
+      "concept_summary": "Tag with dimension arrow",
+      "prompt": "One SQUARE 1:1 flat software icon on white. A large dark-blue tag shape with a large white B inside, both B counters clearly open. Above the tag, a thick orange horizontal double-headed dimension arrow spans the tag width, with large separated arrowheads. The B indicates bytes and the dimension arrow indicates tag buffer size. No other letters or numbers; no weighing scale, no shadow, generous white margins.",
+      "signature": {
+        "metaphor": "tag byte dimension",
+        "objects": "tag B and horizontal dimension arrow",
+        "cue": "double-headed span arrow",
+        "composition": "dimension arrow above B-tag",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-06.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large B is inside a tag under a horizontal double-headed dimension arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "B and arrow are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The arrowheads are less distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The orange dimension arrowheads collapse into blunt bars, weakening the size cue.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Use much larger arrowheads with more separation from the arrow shaft."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "B and orange bar survive; arrowheads are indistinct."
+        }
+      },
+      "reviewed_sha256": "c29954efea9f54696c7d26e41a8f3a1c7702e9036a588a55a0931d4e02aecc42"
+    },
+    {
+      "concept_id": "byte-block-count",
+      "concept_summary": "Counted buffer blocks",
+      "prompt": "One SQUARE 1:1 flat software icon on white for tag buffer byte size. At left a large blue tag with a single clear hole. To its right show three LARGE orange square blocks stacked like a short ascending count, with a large black capital B above the stack to indicate the count is in bytes. All B counters and gaps between blocks must be big enough at 30x18. No other text, no ruler ticks, no shadows, generous margins.",
+      "signature": {
+        "metaphor": "byte block count",
+        "objects": "tag, stacked blocks and B",
+        "cue": "graduated byte blocks",
+        "composition": "tag left and three blocks plus B right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-07",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-07.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is beside three orange blocks with B above them."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "Blocks remain separate; the B is small."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The B counters become difficult to see."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The B collapses to a dark blob and cannot reliably indicate bytes.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Make B substantially larger and use fewer large count blocks."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The byte mark is not readable in the stress frame."
+        }
+      },
+      "reviewed_sha256": "ad8456e61752bb1f8b2492ae3e9d49d0fcc00abcfd05b0df3595f2db4f51b41d"
+    },
+    {
+      "concept_id": "byte-count-panel",
+      "concept_summary": "Tag byte-count display",
+      "prompt": "One SQUARE 1:1 flat software icon on white for tag buffer byte count. A large blue tag above an orange rectangular digital readout. The readout contains the exact large bold black characters #B, widely separated, meaning number of bytes. Make every stroke thick, the two holes in B large and the symbol legible at 30x18. No other writing, no shadow, generous margin.",
+      "signature": {
+        "metaphor": "byte count readout",
+        "objects": "tag and count panel",
+        "cue": "hash and B count symbol",
+        "composition": "tag above boxed #B",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-08",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-08.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag is above a readout with the requested #B byte-count mark."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The # and B are distinguishable."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The # openings narrow."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The hash mark merges into a dark shape at 30x18, so the byte-count label is not reliably readable.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Widen the hash openings and simplify the readout so #B has more pixels."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The count mark is not reliably legible at 16x16."
+        }
+      },
+      "reviewed_sha256": "7e234c63ec41dc3614f3d3a804fcafd88b7bd27d4fc037c081234481ed38183d"
+    },
+    {
+      "concept_id": "tag-caliper-byte",
+      "concept_summary": "Caliper measures tag bytes",
+      "prompt": "One SQUARE 1:1 flat software icon on pure white showing tag buffer size. At center place a large dark-blue tag with a clear hole, held between two thick orange caliper jaws from above and below, forming a recognizable simple C-shaped measuring tool. Put a large black B to the right for bytes. Only three bold simple shapes; no scale ticks, no weights, no other writing, no shadow. Keep B's two holes open, generous white margins.",
+      "signature": {
+        "metaphor": "caliper size measurement",
+        "objects": "tag, caliper jaws and B",
+        "cue": "measuring jaws",
+        "composition": "tag between caliper jaws with B to right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-09",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-09.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The C-shaped jaws grip a tag and closely resemble the tag-clamp lock/unlock concepts, implying clamping rather than size.",
+          "rule_id": "VIS-DISTINCT-012",
+          "correction": "Replace the clamp with a distinctly measuring or counting concept."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The B and jaws are visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The C shape remains but reads as a clamp."
+        },
+        "30x18": {
+          "result": "WARN",
+          "evidence": "The B remains visible while the clamp metaphor is ambiguous."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The C and B remain in the stress frame."
+        }
+      },
+      "reviewed_sha256": "1d6bd7c014100a1478fad49463e548f7968d39b74427c40fea59b4c7915eb589"
+    },
+    {
+      "concept_id": "tag-measure-header",
+      "concept_summary": "Tag with dimension arrow",
+      "prompt": "SQUARE 1:1 flat icon on pure white: a large simple navy tag with a very large white B inside and two large dark counters. Above it is a bold orange HORIZONTAL double-headed dimension arrow, with HUGE solid triangular arrowheads as tall as half the tag, clearly separated from a thin short shaft. Make both arrowheads unmistakable when reduced to 30x18 pixels. Represents a tag buffer size in bytes. No other lettering, no borders, no shadows; wide margins.",
+      "signature": {
+        "metaphor": "tag byte dimension",
+        "objects": "tag B and horizontal dimension arrow",
+        "cue": "double-headed span arrow",
+        "composition": "dimension arrow above B-tag",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-10",
+      "option_number": 1,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-10.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag with a large B sits below a horizontal double-headed dimension arrow."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The tag, B and two large arrowheads remain clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Both arrowheads and the B are distinguishable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The opposing orange arrowheads and B remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and arrowheads survive; the B counters soften."
+        }
+      },
+      "reviewed_sha256": "ecf181c32efb668ceaee826dc75b741cd05defca714c668ea2c0af282d679614",
+      "salt": "p7vluhdme4"
+    },
+    {
+      "concept_id": "tag-vertical-span",
+      "concept_summary": "Tag byte-span measure",
+      "prompt": "SQUARE 1:1 flat icon on pure white: a navy tag to the right of a bold orange VERTICAL double-headed dimension arrow. Make the upper and lower solid triangular arrowheads HUGE and wide, much wider than the thin central shaft, so they remain visible at 30x18. Below the tag put a large black B with two large open white counters, for byte count. No other text, no border, no shadow, generous margins.",
+      "signature": {
+        "metaphor": "vertical dimension",
+        "objects": "tag, vertical span arrow",
+        "cue": "tag buffer byte size",
+        "composition": "tag right with vertical dimension arrow to left",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-11",
+      "option_number": 2,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-11.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A vertical double-headed dimension arrow stands beside a tag and B."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The two large arrowheads and B are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The vertical measurement cue and B survive."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Both arrowheads remain recognizable and B retains its two counters."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The arrow survives; the B becomes coarser."
+        }
+      },
+      "reviewed_sha256": "b78c13d6fbfa111086be31a5f7ad9218ed424f369a5e5dffd22ec3852066557b",
+      "salt": "7tavv4vnp5"
+    },
+    {
+      "concept_id": "byte-block-count",
+      "concept_summary": "Counted buffer blocks",
+      "prompt": "Create one SQUARE 1:1 flat icon on white for a tag buffer byte size. At left a simple dark-blue tag with one large hole. At right a VERY LARGE black capital B, as tall as the tag, with two exceptionally large white openings. Below B show two large separate orange square byte blocks with a wide gap, indicating a count of bytes. The B must remain legible at 30x18. No other text, no shadow, generous white margin.",
+      "signature": {
+        "metaphor": "byte block count",
+        "objects": "tag, stacked blocks and B",
+        "cue": "graduated byte blocks",
+        "composition": "tag left and three blocks plus B right",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-12",
+      "option_number": 3,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-12.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large tag and B sit beside two separate byte blocks."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "B, tag and two blocks remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The B retains its two openings and the blocks remain separate."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "B is legible beside the tag and two orange count blocks."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag and B remain; the small gap between blocks narrows."
+        }
+      },
+      "reviewed_sha256": "daa93ffe942bfbb66d9eed999c3183f92eddfa301e25be1752356a8eb3d69e2a",
+      "salt": "ss71p7sq11"
+    },
+    {
+      "concept_id": "byte-count-panel",
+      "concept_summary": "Tag byte-count display",
+      "prompt": "Create one SQUARE 1:1 flat icon on white for a tag's byte count. A simple dark-blue tag on top and a white readout below it with exactly two VERY LARGE dark-black characters # B. Make the hashtag extremely simple with wide open spaces, and make the capital B with two exceptionally large open white counters. Add a thick orange horizontal line below the readout. Characters must remain readable at 30x18 pixels. No other words, no shadow, generous white margins.",
+      "signature": {
+        "metaphor": "byte count readout",
+        "objects": "tag and count panel",
+        "cue": "hash and B count symbol",
+        "composition": "tag above boxed #B",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-13",
+      "option_number": 4,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-13.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A tag sits above a large #B byte-count mark and an orange underline."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "#B and the tag are clear."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The hash and B counters remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The hash opening and B counters remain recognizable beneath the tag."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "#B is recognizable but the hash gaps are narrow."
+        }
+      },
+      "reviewed_sha256": "c05e07538d1b023a6a1afbfeb270ffc9fe2fe23cd23206eca4bc51c6cce37fc4",
+      "salt": "9u19qjyhvk"
+    },
+    {
+      "concept_id": "tag-diagonal-ruler",
+      "concept_summary": "Tag measured by diagonal ruler",
+      "prompt": "One square 1:1 flat software icon on pure white showing tag buffer size in bytes. A large blue tag is crossed diagonally by a simple orange ruler with only TWO very large deep white notches, making it unmistakably a ruler even at 30x18. A large black B with two open counters is positioned separately beneath the tag. No clamp, no caliper jaws, no scales, no tiny marks or other text. Thick simple geometry, generous white margins, no shadow.",
+      "signature": {
+        "metaphor": "ruler measurement",
+        "objects": "tag, large ruler and B",
+        "cue": "large ruler notches",
+        "composition": "ruler crosses tag diagonally, B separate",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-14",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-14.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange ruler with two notches crosses the tag diagonally, with B below."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Ruler, tag and B are distinguishable."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Ruler notches begin to soften."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The ruler's white notches largely disappear, leaving an orange diagonal band across a tag and weakening the measuring cue.",
+          "rule_id": "SMALL-ACTION-006",
+          "correction": "Use a much thicker ruler with two huge high-contrast ticks, or a different measurement cue."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The diagonal band and B remain but the ruler markings disappear."
+        }
+      },
+      "reviewed_sha256": "bf64992d63ffa4148383ced90d2d67d8ff6fc793fb04782183e55824da3ee028"
+    },
+    {
+      "concept_id": "tag-diagonal-ruler",
+      "concept_summary": "Tag measured by diagonal ruler",
+      "prompt": "Create exactly one SQUARE 1:1 flat icon on white for a LabVIEW tag buffer byte size. A big dark-blue tag and a diagonal orange ruler laid across its front. The ruler must have TWO VERY LARGE black rectangular measurement tick marks crossing its entire width, with huge gaps between them; both marks must remain visible at 30x18 pixels. Put a large black B underneath with two large open white counters. No other text, no clamp, no fine detail, no shadow. Keep all art within the central 75 percent of the canvas.",
+      "signature": {
+        "metaphor": "ruler measurement",
+        "objects": "tag, large ruler and B",
+        "cue": "large ruler notches",
+        "composition": "ruler crosses tag diagonally, B separate",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-15",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-15.png",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "The orange bar has two full-width black bands and resembles a striped band rather than a ruler.",
+          "rule_id": "VIS-CONCEPT-002",
+          "correction": "Use short partial tick marks from one edge of an unmistakable ruler silhouette."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The striped band and tag are distinct, but the bar does not clearly read as a ruler."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "Two bands survive but remain visually ambiguous."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "At 30x18 the bar reads as a striped diagonal mark, not reliably as a measuring tool.",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Use partial ruler ticks that preserve the measuring-tool silhouette."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Tag, band and B survive without ruler meaning."
+        }
+      },
+      "reviewed_sha256": "228e4522cf34fd82e6c12282a09d57f87b21debd71cb3e6cb42ef8adf8b358c1"
+    },
+    {
+      "concept_id": "tag-diagonal-ruler",
+      "concept_summary": "Tag measured by diagonal ruler",
+      "prompt": "Exactly one SQUARE 1:1 flat software icon on white for tag buffer byte size. Draw a large navy tag in the back and a thick orange diagonal measuring ruler in front. The ruler has THREE SHORT, VERY THICK black tick marks that start at its upper long edge and stop halfway across the ruler; they must NOT run all the way across like black bands. Make the ruler, each separated tick, and a large black B below the tag readable at 30x18 pixels. No other text, no clamp, no shadow. Leave at least 12 percent white margin around all artwork.",
+      "signature": {
+        "metaphor": "ruler measurement",
+        "objects": "tag, large ruler and B",
+        "cue": "large ruler notches",
+        "composition": "ruler crosses tag diagonally, B separate",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-16",
+      "option_number": 5,
+      "attempt_number": 3,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-16.png",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A diagonal orange ruler with partial black ticks crosses a dark tag, with B below."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Ruler ticks and B remain visible."
+        },
+        "30x23": {
+          "result": "WARN",
+          "evidence": "The B and ticks begin to shrink."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The B is too small and its counters become indistinct; the ruler ticks also merge into the diagonal band.",
+          "rule_id": "SMALL-TEXT-007",
+          "correction": "Retire this crowded concept and use a layout with a much larger byte mark and distinct size cue."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The small B and ruler marks lose detail."
+        }
+      },
+      "reviewed_sha256": "641ab1e868fb3dd7d807c8984379ce874ac744accc0ae02da7092e4c58c6597c"
+    },
+    {
+      "concept_id": "byte-count-tag",
+      "concept_summary": "Byte count inside tag outline",
+      "prompt": "Exactly one SQUARE flat software icon on pure white. Make a single very wide horizontal dark navy outline of a tag, pointed at right, with a single large round hole at the point. Inside the tag put the exact two very large bold characters #B in black, meaning number of bytes. Make both the hash opening and the two holes of B generously large and clearly readable at 30 by 18 pixels. The tag outline encloses both characters, not a tag floating above them. No other text, no arrows, no underline, no shadow. Keep artwork centered with generous white margins.",
+      "signature": {
+        "composition": "count mark inside a wide tag outline",
+        "metaphor": "byte-count tag",
+        "cue": "large #B count of bytes",
+        "orientation": "horizontal",
+        "objects": "tag outline and count mark"
+      },
+      "candidate_id": "candidate-17",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-17.png",
+      "qa": {
+        "29x29": {
+          "evidence": "The tag outline encloses a visible hash and B.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The hash opening and B counters survive in the horizontal tag.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Both characters and tag outline remain distinct.",
+          "result": "PASS"
+        },
+        "source": {
+          "result": "FAIL",
+          "correction": "Reduce the whole tag to the central 70 percent of the canvas while keeping the #B bold.",
+          "evidence": "The horizontal tag outline extends within about two percent of each side of the master, leaving cramped edge clearance.",
+          "rule_id": "VIS-MARGIN-005"
+        },
+        "16x16": {
+          "evidence": "The hash and B soften but the outlined tag silhouette remains.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "e5d0868a643c761f564bb139530c7102cdff8d4581c5729a29df99414b270088"
+    },
+    {
+      "concept_id": "byte-count-tag",
+      "concept_summary": "Byte count inside tag outline",
+      "prompt": "One SQUARE flat software icon on pure white. In the center draw a wide navy outlined tag with a pointed right end and round hole, enclosing the exact large bold black characters #B for number of bytes. Both B counters and hash openings must be large and readable at 30x18 pixels. The entire tag must fit inside the central 70 percent of canvas width and central 70 percent of canvas height; leave no less than 15 percent empty white margin on all sides. No other objects, writing, arrows, underline, or shadow.",
+      "signature": {
+        "composition": "count mark inside a wide tag outline",
+        "metaphor": "byte-count tag",
+        "cue": "large #B count of bytes",
+        "orientation": "horizontal",
+        "objects": "tag outline and count mark"
+      },
+      "candidate_id": "candidate-18",
+      "option_number": 5,
+      "attempt_number": 2,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-8b9770120037\\candidates\\candidate-18.png",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The enclosed characters soften at stress size, while the tag silhouette remains visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "The navy tag outline contains a bold #B with separate counters and has clear white edge space."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The hash and B counters remain distinct inside the tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "The outlined tag and enclosed count characters are recognizable."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag point, hash and two B counters remain recognizable."
+        }
+      },
+      "reviewed_sha256": "eac2d124adab7eae67b748cb4f11fa7afb920807bcc743759a4a61b9cffb73da",
+      "salt": "0csmtluef6"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "concept_id": "tag-byte-mark",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "A B inside a tag has no size or count cue and may be read as a Boolean or byte datatype tag.",
+      "measured_value": "source",
+      "corrective_instruction": "Add a strong measurement or count symbol to the B-tag.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "concept_id": "tag-byte-cube",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "A B above a box containing a tag does not communicate a size or count.",
+      "measured_value": "source",
+      "corrective_instruction": "Add an explicit count or capacity cue distinct from simple tag packaging.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "concept_id": "byte-count-readout",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "A tag over a panel marked only B communicates a byte label rather than the buffer's size or count.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a large count symbol with B in a readout so it represents byte count.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "concept_id": "tag-span-bracket",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Orange brackets enclosing a blue tag repeat the dominant orange-brackets-around-blue-object structure of PLC_Attributes.ctl candidate-14.",
+      "measured_value": "source",
+      "corrective_instruction": "Use a structurally different size metaphor rather than a bracketed central object.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Three options label bytes without conveying size or count. The bracketed tag resembles the separately reviewed PLC attributes cluster. Retain the vertical dimension concept and revise the rest.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-06",
+      "option_number": 1,
+      "concept_id": "tag-measure-header",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The orange dimension arrowheads collapse into blunt bars, weakening the size cue.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use much larger arrowheads with more separation from the arrow shaft.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-10"
+    },
+    {
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "concept_id": "tag-vertical-span",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "On closer comparison the arrowheads compress into near-square ends, weakening the dimension cue.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make the top and bottom arrowheads significantly larger than the shaft.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-11"
+    },
+    {
+      "candidate_id": "candidate-07",
+      "option_number": 3,
+      "concept_id": "byte-block-count",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The B collapses to a dark blob and cannot reliably indicate bytes.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Make B substantially larger and use fewer large count blocks.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-12"
+    },
+    {
+      "candidate_id": "candidate-08",
+      "option_number": 4,
+      "concept_id": "byte-count-panel",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The hash mark merges into a dark shape at 30x18, so the byte-count label is not reliably readable.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Widen the hash openings and simplify the readout so #B has more pixels.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-13"
+    },
+    {
+      "candidate_id": "candidate-09",
+      "option_number": 5,
+      "concept_id": "tag-caliper-byte",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The C-shaped jaws grip a tag and closely resemble the tag-clamp lock/unlock concepts, implying clamping rather than size.",
+      "measured_value": "source",
+      "corrective_instruction": "Replace the clamp with a distinctly measuring or counting concept.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "Both dimension-arrow options lose their arrowheads at 30x18, the B and #B count marks become unclear in two others, and the C-shaped jaw design resembles the lock/unlock clamp. Revise before final comparison.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-14",
+      "option_number": 5,
+      "concept_id": "tag-diagonal-ruler",
+      "attempt_number": 1,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-ACTION-006",
+      "result": "FAIL",
+      "observed_problem": "The ruler's white notches largely disappear, leaving an orange diagonal band across a tag and weakening the measuring cue.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use a much thicker ruler with two huge high-contrast ticks, or a different measurement cue.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The horizontal and vertical measurement arrows, counted blocks and #B readout differ in layout, but the diagonal ruler loses its measurement notches at 30x18. Replace it and compare the final five again.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-15",
+      "option_number": 5,
+      "concept_id": "tag-diagonal-ruler",
+      "attempt_number": 2,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-CONCEPT-002",
+      "result": "FAIL",
+      "observed_problem": "The orange bar has two full-width black bands and resembles a striped band rather than a ruler.",
+      "measured_value": "source",
+      "corrective_instruction": "Use short partial tick marks from one edge of an unmistakable ruler silhouette.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
+    },
+    {
+      "candidate_id": "candidate-15",
+      "option_number": 5,
+      "concept_id": "tag-diagonal-ruler",
+      "attempt_number": 2,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-RECOG-001",
+      "result": "FAIL",
+      "observed_problem": "At 30x18 the bar reads as a striped diagonal mark, not reliably as a measuring tool.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Use partial ruler ticks that preserve the measuring-tool silhouette.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The full-width stripes on the ruler read as a striped bar. Revise the last option before comparing the final five.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-16",
+      "option_number": 5,
+      "concept_id": "tag-diagonal-ruler",
+      "attempt_number": 3,
+      "qa_stage": "small_size",
+      "rule_id": "SMALL-TEXT-007",
+      "result": "FAIL",
+      "observed_problem": "The B is too small and its counters become indistinct; the ruler ticks also merge into the diagonal band.",
+      "measured_value": "30x18",
+      "corrective_instruction": "Retire this crowded concept and use a layout with a much larger byte mark and distinct size cue.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
+    },
+    {
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-DISTINCT-012",
+      "result": "FAIL",
+      "observed_problem": "The diagonal-ruler concept has exhausted three attempts and still loses its byte mark at 30x18. Retire it and introduce a distinct fifth concept.",
+      "retry_result": "PASS after comparison of the final selected set"
+    },
+    {
+      "candidate_id": "candidate-17",
+      "option_number": 5,
+      "concept_id": "byte-count-tag",
+      "attempt_number": 1,
+      "qa_stage": "source_visual",
+      "rule_id": "VIS-MARGIN-005",
+      "result": "FAIL",
+      "observed_problem": "The horizontal tag outline extends within about two percent of each side of the master, leaving cramped edge clearance.",
+      "measured_value": "source",
+      "corrective_instruction": "Reduce the whole tag to the central 70 percent of the canvas while keeping the #B bold.",
+      "likely_cause_hypothesis": null,
+      "retry_result": "PASS after review of candidate-18"
+    }
+  ],
+  "distinctness": {
+    "evidence": "A horizontal arrow over a filled tag, a vertical arrow beside a tag, a tag with block count, a tag above an underlined count, and an outlined tag enclosing the count have different silhouettes.",
+    "candidate_ids": [
+      "candidate-10",
+      "candidate-11",
+      "candidate-12",
+      "candidate-13",
+      "candidate-18"
+    ],
+    "result": "PASS"
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "lessonsLearned e50s4lyg0s.md",
+    "manifest.json",
+    "Tag Size option 1 1024x1024 p7vluhdme4.png",
+    "Tag Size option 1 29x29 p7vluhdme4.png",
+    "Tag Size option 1 30x18 p7vluhdme4.png",
+    "Tag Size option 1 30x23 p7vluhdme4.png",
+    "Tag Size option 1 p7vluhdme4.ico",
+    "Tag Size option 2 1024x1024 7tavv4vnp5.png",
+    "Tag Size option 2 29x29 7tavv4vnp5.png",
+    "Tag Size option 2 30x18 7tavv4vnp5.png",
+    "Tag Size option 2 30x23 7tavv4vnp5.png",
+    "Tag Size option 2 7tavv4vnp5.ico",
+    "Tag Size option 3 1024x1024 ss71p7sq11.png",
+    "Tag Size option 3 29x29 ss71p7sq11.png",
+    "Tag Size option 3 30x18 ss71p7sq11.png",
+    "Tag Size option 3 30x23 ss71p7sq11.png",
+    "Tag Size option 3 ss71p7sq11.ico",
+    "Tag Size option 4 1024x1024 9u19qjyhvk.png",
+    "Tag Size option 4 29x29 9u19qjyhvk.png",
+    "Tag Size option 4 30x18 9u19qjyhvk.png",
+    "Tag Size option 4 30x23 9u19qjyhvk.png",
+    "Tag Size option 4 9u19qjyhvk.ico",
+    "Tag Size option 5 0csmtluef6.ico",
+    "Tag Size option 5 1024x1024 0csmtluef6.png",
+    "Tag Size option 5 29x29 0csmtluef6.png",
+    "Tag Size option 5 30x18 0csmtluef6.png",
+    "Tag Size option 5 30x23 0csmtluef6.png"
+  ]
+}

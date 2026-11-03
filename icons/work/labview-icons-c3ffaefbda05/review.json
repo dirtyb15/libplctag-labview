@@ -1,0 +1,142 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U32 appears above a rectangular buffer and inward rightward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 3 and 2 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U32 and the rectangular buffer and inward rightward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U32 appears above a cylindrical buffer and downward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 3 and 2 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U32 and the cylindrical buffer and downward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U32 appears above a U-shaped tray and downward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 3 and 2 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U32 and the U-shaped tray and downward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U32 appears above a card and inward leftward arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 3 and 2 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U32 and the card and inward leftward arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U32 is distinguishable and the arrow points into the buffer."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U32 appears above a cylindrical socket and inward diagonal arrow, showing transfer into the buffer."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 3 and 2 are legible; the inward arrow survives."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U32 and the cylindrical socket and inward diagonal arrow remain visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "PASS",
+    "evidence": "The options use rectangle, cylinder, tray, card and angled cylinder with inward arrows; related silhouettes are allowed."
+  }
+}
+
+

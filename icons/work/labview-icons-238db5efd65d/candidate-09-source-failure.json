@@ -1,0 +1,7 @@
+{
+  "result": "FAIL",
+  "candidate_id": "candidate-09",
+  "disposition": "Third attempt for the concept; retire it and use a new concept.",
+  "rule_id": "PROCESS-GEOMETRY-001",
+  "evidence": "The built-in generator produced a 1536 by 1024 landscape image despite the square request. The saver refused it; the original and rejected copy are preserved."
+}

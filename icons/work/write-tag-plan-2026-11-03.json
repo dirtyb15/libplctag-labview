@@ -1,0 +1,67 @@
+{
+  "request": "Write_Tag.vi calls plc_tag_write to send a local tag buffer to a PLC",
+  "summary_name": "Write Tag",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "write-plc-left",
+      "concept_summary": "Controller receives from right",
+      "signature": {
+        "metaphor": "controller input",
+        "objects": "controller, tag, arrow",
+        "cue": "leftward transfer into controller",
+        "composition": "controller left and tag right with arrow pointing left",
+        "orientation": "horizontal-left"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. At left draw a large simple blue rectangular industrial PLC module with two thick vertical divisions and one large square indicator. At right draw one orange tag, and between them a large thick arrow pointing LEFT from tag into PLC."
+    },
+    {
+      "concept_id": "write-plc-top",
+      "concept_summary": "Tag sent upward to controller",
+      "signature": {
+        "metaphor": "controller receiving",
+        "objects": "controller, tag, arrow",
+        "cue": "upward transfer",
+        "composition": "controller above tag with upward arrow",
+        "orientation": "vertical"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. At top draw a large simple blue industrial controller, rectangular and containing two thick module divisions. Below it place one large orange tag and a thick orange arrow pointing UP into the controller. Keep the arrowhead large and clearly separate."
+    },
+    {
+      "concept_id": "write-enter-port",
+      "concept_summary": "Arrow enters controller port",
+      "signature": {
+        "metaphor": "controller input port",
+        "objects": "controller, inbound arrow",
+        "cue": "arrow entering controller",
+        "composition": "large PLC with diagonal arrow entering from upper left",
+        "orientation": "diagonal-down-right"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. Draw a large navy controller module occupying the right half, with a white square display and two thick vertical divisions. From upper left a large orange arrow points diagonally DOWN and RIGHT into the controller. No tag symbol and no other objects."
+    },
+    {
+      "concept_id": "write-curved-route",
+      "concept_summary": "Curved tag-to-controller transfer",
+      "signature": {
+        "metaphor": "curved data transfer",
+        "objects": "tag, curved arrow, controller",
+        "cue": "curved arrow into PLC",
+        "composition": "tag upper left and controller lower right joined by curved arrow",
+        "orientation": "curved down-right"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. Place an orange tag at the upper left and a simplified dark-blue rectangular PLC module at lower right. Join them with a thick curved blue arrow whose large point enters the controller. Keep the PLC display and module divisions very simple."
+    },
+    {
+      "concept_id": "write-slot",
+      "concept_summary": "Tag entering controller slot",
+      "signature": {
+        "metaphor": "write into slot",
+        "objects": "controller, tag, arrow",
+        "cue": "tag entering inlet",
+        "composition": "controller bottom with tag above a downward arrow into open slot",
+        "orientation": "vertical-down"
+      },
+      "prompt": "One SQUARE 1:1 flat software icon on pure white for writing a local tag buffer to a PLC. No text, border, shadow, texture, or fine detail. Thick distinct shapes with 12 percent clear white margins. Draw a large dark-blue industrial controller across the bottom with two thick module divisions and a wide white top input slot. Above the slot put a large orange tag and a thick orange downward arrow whose large arrowhead enters the slot. No display text."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange envelope bearing a tag sends via a diagonal blue arrow to a PLC."
+        },
+        "30x23": {
+          "evidence": "The arrow blends with the blue PLC; the embedded tag is too small to identify.",
+          "correction": "Use a contrasting orange arrow with larger tip and simplify the envelope.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL"
+        },
+        "30x18": {
+          "evidence": "The tag mark becomes a white blur and the blue arrowhead merges with the controller, obscuring dispatch.",
+          "correction": "Simplify the envelope and use a larger high-contrast arrow tip.",
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL"
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The envelope flap and embedded tag begin to crowd."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The envelope and controller survive, while the transfer arrow merges."
+        }
+      },
+      "candidate_id": "candidate-10"
+    }
+  ],
+  "distinctness": {
+    "evidence": "The packet adds a different envelope silhouette, but the tag mark and diagonal arrowhead do not survive 30x18; revise before acceptance.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-03",
+      "candidate-07",
+      "candidate-10"
+    ],
+    "result": "FAIL"
+  }
+}

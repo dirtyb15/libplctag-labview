@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "composition": "green plus above separate orange horizontal tag",
+    "orientation": "vertical",
+    "objects": "large plus and tag",
+    "metaphor": "new tag",
+    "cue": "large plus above tag"
+  },
+  "concept_summary": "Add symbol produces new tag",
+  "prompt": "One SQUARE flat icon on white for creating a new PLC tag. Show a very large thick GREEN PLUS SIGN in the UPPER half, separate from an equally large horizontal ORANGE TAG in the LOWER half. The tag has a large white hole at its right tip. The plus is not a small badge and does not touch or overlap the tag; it clearly indicates creating a tag. Both shapes must remain recognizable at 30x18. No letters, no border, no shadow; all artwork centered in the middle 70 percent of the square canvas.",
+  "concept_id": "new-tag-plus-above"
+}

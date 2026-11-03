@@ -1,0 +1,8 @@
+{
+  "candidate_id": "candidate-07",
+  "result": "FAIL",
+  "rule_id": "VIS-SOURCE-SQUARE",
+  "evidence": "Image-generation tool returned a 1536x1024 PNG for a square icon. Saver refused the non-square original; preserved without modification.",
+  "sha256": "88441b8c900222fa9cd127a48f157262e2b1155ae120b6ee61d8bca410d5a3b1",
+  "file": "icons\\work\\labview-icons-b65e59decab0\\candidates\\candidate-07-rejected-landscape.png"
+}

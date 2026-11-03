@@ -1,0 +1,12 @@
+{
+  "prompt": "One SQUARE flat software icon on white for choosing a library. Draw TWO LARGE distinct rectangular LIBRARY MODULE BLOCKS side by side, one blue on left and one orange on right, each with one prominent puzzle-tab silhouette. Place a LARGE BLACK MOUSE CURSOR POINTER from lower left aimed at and touching ONLY the orange module. The cursor and two blocks must be widely separated and bold, with clear point of contact. No book, file drawer, monitor, check mark, letters, numbers, gears, shadows or tags. Simple shapes readable at 30x18. Center artwork in middle 70 percent of square.",
+  "concept_summary": "Cursor selects a library from two choices",
+  "concept_id": "library-cursor-choice",
+  "signature": {
+    "orientation": "diagonal",
+    "composition": "two separate blue and orange library puzzle blocks with large cursor",
+    "cue": "pointer touches one choice",
+    "metaphor": "pointer selection",
+    "objects": "cursor, two library blocks"
+  }
+}

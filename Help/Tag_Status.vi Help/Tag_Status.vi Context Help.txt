@@ -1,0 +1,3 @@
+Returns the current status of a tag. A raw code of 0 means OK, 1 means pending, and a negative value reports a library error. Check error out as well. Use it to monitor an operation that returned pending.
+
+In upstream 2.7.2, an invalid negative handle is returned as that negative value. The bundled binaries contain version string 2.7.2.

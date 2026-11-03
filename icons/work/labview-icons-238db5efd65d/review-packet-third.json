@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "30x18": {
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL",
+          "evidence": "The tiny arrow becomes dark pixels and the embedded tag mark is not identifiable.",
+          "correction": "Use a larger action cue and avoid a small nested marking."
+        },
+        "30x23": {
+          "rule_id": "SMALL-ACTION-006",
+          "result": "FAIL",
+          "evidence": "The small floating diagonal arrow compresses and its head is indistinct.",
+          "correction": "Retire the packet layout and simplify the transfer metaphor."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The arrow is separated but much smaller than the envelope."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Envelope and device shapes survive but the transfer cue fades."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "Envelope and PLC are separated by a diagonal black arrow."
+        }
+      },
+      "candidate_id": "candidate-12"
+    }
+  ],
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-02",
+      "candidate-03",
+      "candidate-07",
+      "candidate-12"
+    ],
+    "result": "FAIL",
+    "evidence": "Packet transfer exhausted three attempts without a reliable arrow and tag mark at 30x18. Retire the concept."
+  }
+}

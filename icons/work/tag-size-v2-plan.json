@@ -1,0 +1,67 @@
+{
+  "request": "Tag_Size.vi returns the tag buffer size in bytes",
+  "summary_name": "Tag Size",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "tag-byte-mark",
+      "concept_summary": "Tag with byte-size mark",
+      "signature": {
+        "metaphor": "byte-size tag",
+        "objects": "tag and large B",
+        "cue": "byte-size letter",
+        "composition": "B centered in large tag silhouette",
+        "orientation": "diagonal"
+      },
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI returning tag buffer size in bytes. Show one large dark-blue tag silhouette with a small clear tag hole and a very large white capital B centered inside it. The B must have two large open dark-blue counters and be clearly legible at 30x18 pixels. The B represents bytes. No other text or symbols, no ruler ticks, no weighing scale, no border or shadow. Bold simple geometry and generous white margins."
+    },
+    {
+      "concept_id": "tag-vertical-span",
+      "concept_summary": "Tag byte-span measure",
+      "signature": {
+        "metaphor": "vertical dimension",
+        "objects": "tag, vertical span arrow",
+        "cue": "tag buffer byte size",
+        "composition": "tag right with vertical dimension arrow to left",
+        "orientation": "vertical"
+      },
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A large dark-blue tag at right and a thick orange vertical double-headed dimension arrow to its left. Below the tag show a large black capital B for byte size. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin."
+    },
+    {
+      "concept_id": "tag-byte-cube",
+      "concept_summary": "Tag buffer capacity",
+      "signature": {
+        "metaphor": "buffer size",
+        "objects": "tag within box and byte label",
+        "cue": "tag buffer byte size",
+        "composition": "tag inside open box with B above",
+        "orientation": "vertical"
+      },
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A large dark-blue rectangular memory-box outline containing a simple orange tag, with one large black capital B above the box. Represent the tag buffer size in bytes. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin."
+    },
+    {
+      "concept_id": "byte-count-readout",
+      "concept_summary": "Byte size readout",
+      "signature": {
+        "metaphor": "numeric readout",
+        "objects": "tag and byte readout",
+        "cue": "tag buffer byte size",
+        "composition": "tag above B inside rectangular readout",
+        "orientation": "vertical"
+      },
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A dark-blue tag above a simple orange rectangular readout with a very large black capital B inside. B means bytes; the readout represents measured tag buffer size. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin."
+    },
+    {
+      "concept_id": "tag-span-bracket",
+      "concept_summary": "Buffer span brackets",
+      "signature": {
+        "metaphor": "span measure",
+        "objects": "tag and span brackets",
+        "cue": "tag buffer byte size",
+        "composition": "tag centered between large brackets",
+        "orientation": "horizontal"
+      },
+      "prompt": "One SQUARE 1:1 flat icon on pure white for a LabVIEW VI that returns the size in bytes of a tag buffer. A blue tag in the center between two large orange outward-facing square dimension brackets; place a very large black capital B directly below the tag to indicate byte size. Keep the B large, with two open counters, readable at 30x18 pixels. No other text, no tick marks or tiny details, no weighing scale, no shadow or border. Bold simple shapes and generous white margin."
+    }
+  ]
+}

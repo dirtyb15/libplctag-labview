@@ -1,0 +1,67 @@
+{
+  "request": "Datatype enum control for choosing the tag value type",
+  "summary_name": "Datatype",
+  "background_mode": "white",
+  "concepts": [
+    {
+      "concept_id": "dropdown",
+      "concept_summary": "Datatype dropdown",
+      "signature": {
+        "metaphor": "dropdown",
+        "objects": "field and chevron",
+        "cue": "choice",
+        "composition": "A wide dropdown field with a large I and a downward triangle",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A bold dark-blue dropdown field with a large black capital I and an orange downward triangle; represents a datatype enum selector. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow."
+    },
+    {
+      "concept_id": "dial",
+      "concept_summary": "Datatype rotary selector",
+      "signature": {
+        "metaphor": "rotary selection",
+        "objects": "dial and three type marks",
+        "cue": "pointer",
+        "composition": "A pointer on a dial aimed at one of three datatype marks",
+        "orientation": "circular"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A bold dark-blue rotary selector with a thick orange pointer aimed at one of three large separated glyphs I, U and F around it; represents choosing a datatype. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow."
+    },
+    {
+      "concept_id": "tiles",
+      "concept_summary": "Datatype tile choice",
+      "signature": {
+        "metaphor": "tile selection",
+        "objects": "three tiles and check",
+        "cue": "check",
+        "composition": "Three I U F tiles with a check over the center tile",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: Three large separated blue tiles labelled I, U and F, with a bold orange check above the center tile; represents a selected datatype. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow."
+    },
+    {
+      "concept_id": "branch",
+      "concept_summary": "Datatype branch selector",
+      "signature": {
+        "metaphor": "routing choice",
+        "objects": "fork and three large type glyphs",
+        "cue": "pointer",
+        "composition": "A branching route to three types with a pointer at one branch",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A dark-blue three-way fork ending at three large distinct capital glyphs I, U and F, with an orange arrow pointing to one branch; represents choosing a datatype. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow."
+    },
+    {
+      "concept_id": "switch",
+      "concept_summary": "Datatype switch",
+      "signature": {
+        "metaphor": "switch selection",
+        "objects": "lever and two type glyphs",
+        "cue": "lever",
+        "composition": "Two large type positions and a lever selecting one",
+        "orientation": "horizontal"
+      },
+      "prompt": "One standalone square software icon on a pure white background: A bold orange switch lever visibly pointing to a large blue I with a separate large blue F on the other side; represents choosing a datatype category. Use thick simple flat shapes, clear spacing, large legible characters, generous margin, no other text, border or shadow."
+    }
+  ]
+}

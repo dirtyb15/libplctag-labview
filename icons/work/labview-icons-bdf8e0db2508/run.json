@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "run_id": "0e4197bea9d046b794fc5bc4309828fa",
+  "request": "SimpleReadWrite.vi example: create a tag, read a float, set a float, write the tag, and clean up",
+  "summary_name": "Simple Read Write",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\SimpleReadWrite.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-02T21:21:46.003520+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "tag-exchange-loop",
+      "concept_summary": "Tag inside two-way exchange loop",
+      "prompt": "One standalone square flat software icon on pure white. Center one large simplified tag shape inside two thick curved arrows forming a nearly closed circular exchange loop; make the two arrowheads large and clearly point in opposite directions around the loop. Represents reading and writing a PLC tag in one example. Thick dark blue and orange shapes, clear gaps, no text, no border or shadow, generous margins.",
+      "signature": {
+        "metaphor": "exchange loop",
+        "objects": "tag and two curved arrows",
+        "cue": "two opposed arrows",
+        "composition": "tag centered inside loop",
+        "orientation": "circular"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-01.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag surrounded by blue and orange curved arrows.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "f47b718deef2ea663146021e756465de6f393f60d1b240a8e2a6cc5a24014e5d",
+      "salt": "o2xcxnvplb"
+    },
+    {
+      "concept_id": "plc-buffer-rails",
+      "concept_summary": "PLC and buffer with separate read and write lanes",
+      "prompt": "One standalone square flat software icon on pure white. On the left a very simple blue PLC block, on the right an orange tag-buffer block. Between them draw two large thick separated horizontal arrows, one pointing from PLC to buffer and the other from buffer to PLC, each arrowhead unambiguous. Represents both reading and writing a tag. Avoid fine details, lettering, border and shadow, generous margins.",
+      "signature": {
+        "metaphor": "two-way transfer",
+        "objects": "PLC, buffer and two opposed lanes",
+        "cue": "separate opposite arrowheads",
+        "composition": "PLC and buffer joined by stacked arrows",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-02.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue PLC and orange buffer linked by opposing arrows.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "f2fca91f1874971c42724f73beb6537e9164eb9de2c0b798e01799825b99950f",
+      "salt": "tf0az3mdqo"
+    },
+    {
+      "concept_id": "float-exchange",
+      "concept_summary": "Float value between opposed arrow brackets",
+      "prompt": "One standalone square flat software icon on white. Show a single bold dark-blue sine wave representing a floating-point value between two large orange arrow brackets; the left arrow points inward to the wave and the right arrow points outward, showing value input and output in one read/write example. Keep all three shapes separated and oversized. No letters, border or shadow, generous margins.",
+      "signature": {
+        "metaphor": "float exchange",
+        "objects": "float wave and opposed arrow brackets",
+        "cue": "incoming and outgoing arrows",
+        "composition": "wave centered between arrows pointing in opposite directions",
+        "orientation": "horizontal"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-03.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue wave between an incoming and outgoing orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "8ccf293c14f2976e87d4f5a1c302fada96a7607c0a87ac385b75cb7b7bbd96fc",
+      "salt": "hh9ojfapgj"
+    },
+    {
+      "concept_id": "read-write-switch",
+      "concept_summary": "Read/write switch between two flow directions",
+      "prompt": "One standalone square flat software icon on white. A large simple blue tag above a bold orange horizontal double-headed arrow shaped like a switch handle; both arrowheads must be large and clearly point in opposite directions. Represents a simple read-and-write tag example. Thick geometry and open gaps, no labels, border or shadows, generous margins.",
+      "signature": {
+        "metaphor": "two-way mode switch",
+        "objects": "tag and switch with two opposed arrowheads",
+        "cue": "two opposite directions",
+        "composition": "tag above two-direction switch",
+        "orientation": "vertical"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-04.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag above a double-headed orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "59a9e26d710fa033ec5c4fa8adeb5ffc6d2e753edfcf3139b5926004658ecefc",
+      "salt": "wfkucbkqa3"
+    },
+    {
+      "concept_id": "tag-input-output",
+      "concept_summary": "Tag buffer with separate input and output",
+      "prompt": "One standalone square flat software icon on a white background. Draw a large blue tag-buffer rectangle in the center, a thick orange arrow entering its upper-left edge, and a second thick orange arrow leaving its lower-right edge. Both separated arrowheads must remain bold and visible. Represents reading and writing one tag, not deletion or a lock. No text, border or shadow, generous margins.",
+      "signature": {
+        "metaphor": "buffer input-output",
+        "objects": "buffer and two offset arrows",
+        "cue": "one incoming and one outgoing",
+        "composition": "buffer between entering upper-left arrow and exiting lower-right arrow",
+        "orientation": "diagonal"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-bdf8e0db2508\\candidates\\candidate-05.png",
+      "qa": {
+        "29x29": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "Blue tag with an incoming and an outgoing diagonal orange arrow.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "Main shapes remain visible, with fine arrow details softened.",
+          "result": "WARN"
+        }
+      },
+      "reviewed_sha256": "48ef2b7458efece068d05f7d8863249a3b55a0292d07fb5a57b85aab8fe92985",
+      "salt": "rxu9njjocx"
+    }
+  ],
+  "failures": [],
+  "distinctness": {
+    "result": "PASS",
+    "evidence": "Loop, two lanes, wave, double arrow and diagonal flow offer different compositions.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  },
+  "published": true,
+  "manifest_file": "manifest.json",
+  "published_files": [
+    "manifest.json",
+    "Simple Read Write option 1 1024x1024 o2xcxnvplb.png",
+    "Simple Read Write option 1 29x29 o2xcxnvplb.png",
+    "Simple Read Write option 1 30x18 o2xcxnvplb.png",
+    "Simple Read Write option 1 30x23 o2xcxnvplb.png",
+    "Simple Read Write option 1 o2xcxnvplb.ico",
+    "Simple Read Write option 2 1024x1024 tf0az3mdqo.png",
+    "Simple Read Write option 2 29x29 tf0az3mdqo.png",
+    "Simple Read Write option 2 30x18 tf0az3mdqo.png",
+    "Simple Read Write option 2 30x23 tf0az3mdqo.png",
+    "Simple Read Write option 2 tf0az3mdqo.ico",
+    "Simple Read Write option 3 1024x1024 hh9ojfapgj.png",
+    "Simple Read Write option 3 29x29 hh9ojfapgj.png",
+    "Simple Read Write option 3 30x18 hh9ojfapgj.png",
+    "Simple Read Write option 3 30x23 hh9ojfapgj.png",
+    "Simple Read Write option 3 hh9ojfapgj.ico",
+    "Simple Read Write option 4 1024x1024 wfkucbkqa3.png",
+    "Simple Read Write option 4 29x29 wfkucbkqa3.png",
+    "Simple Read Write option 4 30x18 wfkucbkqa3.png",
+    "Simple Read Write option 4 30x23 wfkucbkqa3.png",
+    "Simple Read Write option 4 wfkucbkqa3.ico",
+    "Simple Read Write option 5 1024x1024 rxu9njjocx.png",
+    "Simple Read Write option 5 29x29 rxu9njjocx.png",
+    "Simple Read Write option 5 30x18 rxu9njjocx.png",
+    "Simple Read Write option 5 30x23 rxu9njjocx.png",
+    "Simple Read Write option 5 rxu9njjocx.ico"
+  ]
+}

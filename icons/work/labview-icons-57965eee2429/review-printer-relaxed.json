@@ -1,0 +1,40 @@
+{
+  "distinctness": {
+    "result": "FAIL",
+    "evidence": "User relaxed similarity restrictions. The printer design is recognizable as a printer with legible I32; the remaining four need legibility or action corrections.",
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-08",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ]
+  },
+  "candidates": [
+    {
+      "qa": {
+        "30x23": {
+          "evidence": "I32 is legible with barred I and separated digits.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A large barred I32 label appears above a blue printer; the printer is a readout metaphor.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "All three I32 characters are separately readable; the small printer remains identifiable.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The characters remain recognizable with softened details.",
+          "result": "WARN"
+        },
+        "29x29": {
+          "evidence": "I32 has clear gaps and the printer outline remains.",
+          "result": "PASS"
+        }
+      },
+      "candidate_id": "candidate-06"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_ids": [
+    "read-pull-tab",
+    "read-scanner",
+    "read-receiver",
+    "read-open-book",
+    "download"
+  ],
+  "evidence": "Extraction, scan, reception, book, and tray use five different visual structures.",
+  "result": "PASS",
+  "scope": "Provisional concept preflight; full collection review pending"
+}

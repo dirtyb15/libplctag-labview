@@ -1,0 +1,42 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-08",
+      "candidate-03",
+      "candidate-04",
+      "candidate-07"
+    ],
+    "result": "FAIL",
+    "evidence": "The blue hand pulling an orange card from a dark device repeats the same layout as Read Tag candidate 12; replace it and compare the final set."
+  },
+  "candidates": [
+    {
+      "qa": {
+        "source": {
+          "evidence": "Blue hand holds an I8 card at a dark buffer slot.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "I8 and buffer remain distinct.",
+          "result": "PASS"
+        },
+        "29x29": {
+          "evidence": "I8 and hand remain recognizable.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "result": "FAIL",
+          "correction": "Use an extraction layout without a hand and device in this arrangement.",
+          "rule_id": "VIS-DISTINCT-012",
+          "evidence": "Blue hand at left, orange card in the middle, dark device at right duplicates Read Tag candidate 12 composition."
+        },
+        "16x16": {
+          "evidence": "The hand and label soften.",
+          "result": "WARN"
+        }
+      },
+      "candidate_id": "candidate-08"
+    }
+  ]
+}

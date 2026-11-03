@@ -1,0 +1,69 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-06",
+      "candidate-07",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "FAIL",
+    "evidence": "The centered plus in a horizontal tag differs from the destroy drafts with external badges; the blocks plus complete tag is semantically ambiguous and other older concepts remain failed."
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-06",
+      "qa": {
+        "29x29": {
+          "evidence": "The plus, tag point and hole remain clear.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "A bold white plus is cut into a horizontal navy tag with a separate white hole.",
+          "result": "PASS"
+        },
+        "16x16": {
+          "evidence": "The plus and horizontal tag shape remain distinct.",
+          "result": "PASS"
+        },
+        "30x23": {
+          "evidence": "The white plus remains large within the tag.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "The tag silhouette and centered plus remain unmistakable.",
+          "result": "PASS"
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-07",
+      "qa": {
+        "29x29": {
+          "evidence": "Two blocks, plus and tag remain separate.",
+          "result": "PASS"
+        },
+        "source": {
+          "evidence": "Two blocks plus a complete tag read as adding an existing tag to blocks, not producing a new tag from configuration.",
+          "result": "FAIL",
+          "rule_id": "VIS-SEM-001",
+          "correction": "Show a clear formation or output action toward the new tag."
+        },
+        "16x16": {
+          "evidence": "Blocks, plus and tag survive as separate shapes.",
+          "result": "WARN"
+        },
+        "30x23": {
+          "evidence": "Blocks and plus are visible beside the tag.",
+          "result": "PASS"
+        },
+        "30x18": {
+          "evidence": "At native size the blocks plus tag still suggest addition of separate items rather than creation.",
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "correction": "Show configuration transforming into a tag, with a visible output cue."
+        }
+      }
+    }
+  ]
+}

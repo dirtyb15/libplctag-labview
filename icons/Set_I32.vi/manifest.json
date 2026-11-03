@@ -1,0 +1,1928 @@
+{
+  "run_id": "e7104f481cfe4234909bc6e17939e734",
+  "request": "writing into tag buffer I32 at offset",
+  "summary_name": "Set I32",
+  "skill_version": "1.3.0",
+  "options": [
+    {
+      "option_number": 1,
+      "concept_summary": "Typed buffer transfer",
+      "salt": "lqe9hxzbp0",
+      "source_file": "Set I32 option 1 1024x1024 lqe9hxzbp0.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Set I32 option 1 29x29 lqe9hxzbp0.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              24,
+              143,
+              1003,
+              956
+            ],
+            "source_artwork_size": [
+              979,
+              813
+            ],
+            "rendered_artwork_size": [
+              27,
+              22
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.027579162410623085,
+            "offset": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 1 30x23 lqe9hxzbp0.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              24,
+              143,
+              1003,
+              956
+            ],
+            "source_artwork_size": [
+              979,
+              813
+            ],
+            "rendered_artwork_size": [
+              25,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.025830258302583026,
+            "offset": [
+              2,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 1 30x18 lqe9hxzbp0.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              24,
+              143,
+              1003,
+              956
+            ],
+            "source_artwork_size": [
+              979,
+              813
+            ],
+            "rendered_artwork_size": [
+              19,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01968019680196802,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Set I32 option 1 lqe9hxzbp0.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            14,
+            12
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014300306435137897,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            18,
+            15
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018386108273748723,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            22,
+            18
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02247191011235955,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            30,
+            25
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.030643513789581207,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            38,
+            32
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.03881511746680286,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            46,
+            38
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04698672114402452,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            62,
+            51
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06332992849846783,
+          "offset": [
+            1,
+            6
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            126,
+            105
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.12870275791624106,
+          "offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            24,
+            143,
+            1003,
+            956
+          ],
+          "source_artwork_size": [
+            979,
+            813
+          ],
+          "rendered_artwork_size": [
+            254,
+            211
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.25944841675178754,
+          "offset": [
+            1,
+            22
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "result": "PASS",
+            "evidence": "I32 is distinguishable and the arrow points into the buffer."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "I32 appears above a rectangular buffer and inward rightward arrow, showing transfer into the buffer."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "I, 3 and 2 are legible; the inward arrow survives."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "I32 and the rectangular buffer and inward rightward arrow remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The label and arrow remain recognizable with softened detail."
+          }
+        },
+        "source_sha256": "a46916b9957d826fe7de60cb4f68c2b4dfac603b1f18378a51888a6abd9288fa",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-04",
+            "candidate-05"
+          ],
+          "result": "PASS",
+          "evidence": "The options use rectangle, cylinder, tray, card and angled cylinder with inward arrows; related silhouettes are allowed."
+        }
+      },
+      "concept_id": "buffer-arrow",
+      "candidate_id": "candidate-01",
+      "qa_status": "PASS",
+      "sha256": {
+        "Set I32 option 1 1024x1024 lqe9hxzbp0.png": "7eae99fd3d7e48492faa19908cb203537bb8c9ffb732d1f128613acbced67fe3",
+        "Set I32 option 1 29x29 lqe9hxzbp0.png": "33c111031e48d3297be7b7e36ab6330a7d9b168d43476e659f5fcc00e40cbfd6",
+        "Set I32 option 1 30x23 lqe9hxzbp0.png": "20a0a6350cb2584c25174463e75d58e2a1048469771be00a91cc3fd975919a28",
+        "Set I32 option 1 30x18 lqe9hxzbp0.png": "6cb64d3b8fd52017917c49058d054b8044fcefcb83f5f60113dc7213529e8add",
+        "Set I32 option 1 lqe9hxzbp0.ico": "45d5cc0c60782ceaa792ede8ec38a985bfa28b267181ab7481874b16c4664c5a"
+      }
+    },
+    {
+      "option_number": 2,
+      "concept_summary": "Typed cylinder transfer",
+      "salt": "bqw5ngzi39",
+      "source_file": "Set I32 option 2 1024x1024 bqw5ngzi39.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Set I32 option 2 29x29 bqw5ngzi39.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              43,
+              37,
+              982,
+              1013
+            ],
+            "source_artwork_size": [
+              939,
+              976
+            ],
+            "rendered_artwork_size": [
+              26,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.027663934426229508,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 2 30x23 bqw5ngzi39.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              43,
+              37,
+              982,
+              1013
+            ],
+            "source_artwork_size": [
+              939,
+              976
+            ],
+            "rendered_artwork_size": [
+              20,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.02151639344262295,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 2 30x18 bqw5ngzi39.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              43,
+              37,
+              982,
+              1013
+            ],
+            "source_artwork_size": [
+              939,
+              976
+            ],
+            "rendered_artwork_size": [
+              15,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.01639344262295082,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Set I32 option 2 bqw5ngzi39.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            13,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014344262295081968,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            17,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018442622950819672,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            21,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.022540983606557378,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            29,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.030737704918032786,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            37,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.0389344262295082,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            44,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.0471311475409836,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            60,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06352459016393443,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            121,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1290983606557377,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            43,
+            37,
+            982,
+            1013
+          ],
+          "source_artwork_size": [
+            939,
+            976
+          ],
+          "rendered_artwork_size": [
+            244,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.26024590163934425,
+          "offset": [
+            6,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "result": "PASS",
+            "evidence": "I32 is distinguishable and the arrow points into the buffer."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "I32 appears above a cylindrical buffer and downward arrow, showing transfer into the buffer."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "I, 3 and 2 are legible; the inward arrow survives."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "I32 and the cylindrical buffer and downward arrow remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The label and arrow remain recognizable with softened detail."
+          }
+        },
+        "source_sha256": "9948a24a38f0013e7c15d09be8a59a9bf3e8e7862c2a850ff97fa12fd0cf96fc",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-04",
+            "candidate-05"
+          ],
+          "result": "PASS",
+          "evidence": "The options use rectangle, cylinder, tray, card and angled cylinder with inward arrows; related silhouettes are allowed."
+        }
+      },
+      "concept_id": "cylinder-arrow",
+      "candidate_id": "candidate-02",
+      "qa_status": "PASS",
+      "sha256": {
+        "Set I32 option 2 1024x1024 bqw5ngzi39.png": "fab978007d80c768ff794171dbd913d1af4b1d9733eeeb91a6423acfb7cce48f",
+        "Set I32 option 2 29x29 bqw5ngzi39.png": "c34062ebf5bceed1cd8c427ccdf003987f2bad1dcb373f580de3ec37d9de48ce",
+        "Set I32 option 2 30x23 bqw5ngzi39.png": "10f447100067de893fe1f57c7835286c043ef1d290e48a3aa34a07e41baeef65",
+        "Set I32 option 2 30x18 bqw5ngzi39.png": "608625190d24b5e54f9ef8e0c47d56a995cc70695f595b4e1a60de7066b9ffc0",
+        "Set I32 option 2 bqw5ngzi39.ico": "dbbd6c2ec9ab97fbe53154d83799e4c3e54570c0ea83b6665c896106a6d37eb1"
+      }
+    },
+    {
+      "option_number": 3,
+      "concept_summary": "Typed tray transfer",
+      "salt": "o3q6sfuofw",
+      "source_file": "Set I32 option 3 1024x1024 o3q6sfuofw.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Set I32 option 3 29x29 o3q6sfuofw.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              30,
+              31,
+              997,
+              990
+            ],
+            "source_artwork_size": [
+              967,
+              959
+            ],
+            "rendered_artwork_size": [
+              27,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.027921406411582212,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 3 30x23 o3q6sfuofw.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              30,
+              31,
+              997,
+              990
+            ],
+            "source_artwork_size": [
+              967,
+              959
+            ],
+            "rendered_artwork_size": [
+              21,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.021897810218978103,
+            "offset": [
+              4,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 3 30x18 o3q6sfuofw.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              30,
+              31,
+              997,
+              990
+            ],
+            "source_artwork_size": [
+              967,
+              959
+            ],
+            "rendered_artwork_size": [
+              16,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.016684045881126174,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Set I32 option 3 o3q6sfuofw.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014477766287487074,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            18,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.01861427094105481,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            22,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.022750775594622543,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            30,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.031023784901758014,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            38,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.03929679420889348,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            46,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.047569803516028956,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            62,
+            61
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.0641158221302999,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            126,
+            125
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.13029989658738367,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            30,
+            31,
+            997,
+            990
+          ],
+          "source_artwork_size": [
+            967,
+            959
+          ],
+          "rendered_artwork_size": [
+            254,
+            252
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.2626680455015512,
+          "offset": [
+            1,
+            2
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "result": "PASS",
+            "evidence": "I32 is distinguishable and the arrow points into the buffer."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "I32 appears above a U-shaped tray and downward arrow, showing transfer into the buffer."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "I, 3 and 2 are legible; the inward arrow survives."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "I32 and the U-shaped tray and downward arrow remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The label and arrow remain recognizable with softened detail."
+          }
+        },
+        "source_sha256": "ffbfa7c722c885f914275e843fc16e2f1ff98477e4b98ea2b020fffe050028e9",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-04",
+            "candidate-05"
+          ],
+          "result": "PASS",
+          "evidence": "The options use rectangle, cylinder, tray, card and angled cylinder with inward arrows; related silhouettes are allowed."
+        }
+      },
+      "concept_id": "tray-arrow",
+      "candidate_id": "candidate-03",
+      "qa_status": "PASS",
+      "sha256": {
+        "Set I32 option 3 1024x1024 o3q6sfuofw.png": "9f6cf0a6bf0dd574b4f2183910c0370420b2c5c06dd11d073d9761ceedc961e2",
+        "Set I32 option 3 29x29 o3q6sfuofw.png": "357cf12f2a23f62572b816a060a0261df7a63db7fe6b08a6c353557eb674aa71",
+        "Set I32 option 3 30x23 o3q6sfuofw.png": "ac85b2c2c56355b7a0bce487a268bf862b9730ba6a4ac4bf4e366d22de4d1fa3",
+        "Set I32 option 3 30x18 o3q6sfuofw.png": "0f5001a43e929fdc8cab4fdecbf3c86d81d9b84e7e5061ab6f12bc148a9ace68",
+        "Set I32 option 3 o3q6sfuofw.ico": "133ebf3f59261dd45e48deae6a8186482155f134d4bb6c56be6bd9fd5e9a21d7"
+      }
+    },
+    {
+      "option_number": 4,
+      "concept_summary": "Typed card transfer",
+      "salt": "tanrh75pck",
+      "source_file": "Set I32 option 4 1024x1024 tanrh75pck.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Set I32 option 4 29x29 tanrh75pck.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              28,
+              117,
+              1002,
+              953
+            ],
+            "source_artwork_size": [
+              974,
+              836
+            ],
+            "rendered_artwork_size": [
+              27,
+              23
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.027720739219712527,
+            "offset": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 4 30x23 tanrh75pck.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              28,
+              117,
+              1002,
+              953
+            ],
+            "source_artwork_size": [
+              974,
+              836
+            ],
+            "rendered_artwork_size": [
+              24,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.025119617224880382,
+            "offset": [
+              3,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 4 30x18 tanrh75pck.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              28,
+              117,
+              1002,
+              953
+            ],
+            "source_artwork_size": [
+              974,
+              836
+            ],
+            "rendered_artwork_size": [
+              19,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.019138755980861243,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Set I32 option 4 tanrh75pck.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            14,
+            12
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014373716632443531,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            18,
+            15
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018480492813141684,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            22,
+            19
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.022587268993839837,
+          "offset": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            30,
+            26
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.030800821355236138,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            38,
+            33
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.039014373716632446,
+          "offset": [
+            1,
+            3
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            46,
+            39
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04722792607802875,
+          "offset": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            62,
+            53
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06365503080082136,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            126,
+            108
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.1293634496919918,
+          "offset": [
+            1,
+            10
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            28,
+            117,
+            1002,
+            953
+          ],
+          "source_artwork_size": [
+            974,
+            836
+          ],
+          "rendered_artwork_size": [
+            254,
+            218
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.26078028747433263,
+          "offset": [
+            1,
+            19
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "result": "PASS",
+            "evidence": "I32 is distinguishable and the arrow points into the buffer."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "I32 appears above a card and inward leftward arrow, showing transfer into the buffer."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "I, 3 and 2 are legible; the inward arrow survives."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "I32 and the card and inward leftward arrow remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The label and arrow remain recognizable with softened detail."
+          }
+        },
+        "source_sha256": "d7ec37c6ba6b7976548a80b7b72c70e96e8bf21c60140d623faf79604788858e",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-04",
+            "candidate-05"
+          ],
+          "result": "PASS",
+          "evidence": "The options use rectangle, cylinder, tray, card and angled cylinder with inward arrows; related silhouettes are allowed."
+        }
+      },
+      "concept_id": "card-arrow",
+      "candidate_id": "candidate-04",
+      "qa_status": "PASS",
+      "sha256": {
+        "Set I32 option 4 1024x1024 tanrh75pck.png": "dfe8e44bf1df715190d984a6e6e8615b1becf72499b63fcb02923c319472c26b",
+        "Set I32 option 4 29x29 tanrh75pck.png": "8acbd195ce2bfed2555fdc4536b10c1993133cb26bd39abf6425b9ff3d6bb97d",
+        "Set I32 option 4 30x23 tanrh75pck.png": "fad73710b153fc8e800bb671ac27b48fb7087070bae9b98c861e44855786602d",
+        "Set I32 option 4 30x18 tanrh75pck.png": "1b97485915ee4c04ac2239baa2f042003f056399a6a447f46c70a3f5b21d6515",
+        "Set I32 option 4 tanrh75pck.ico": "15c8768ac31b82628cdac67dc5c1f67b5cd80f37537ebee71ea5787abe2c3801"
+      }
+    },
+    {
+      "option_number": 5,
+      "concept_summary": "Typed socket transfer",
+      "salt": "t2izg6w2oy",
+      "source_file": "Set I32 option 5 1024x1024 t2izg6w2oy.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "background_mode": "white",
+      "derived_png_files": [
+        {
+          "file": "Set I32 option 5 29x29 t2izg6w2oy.png",
+          "dimensions": [
+            29,
+            29
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              39,
+              32,
+              990,
+              1014
+            ],
+            "source_artwork_size": [
+              951,
+              982
+            ],
+            "rendered_artwork_size": [
+              26,
+              27
+            ],
+            "canvas_size": [
+              29,
+              29
+            ],
+            "scale": 0.0274949083503055,
+            "offset": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 5 30x23 t2izg6w2oy.png",
+          "dimensions": [
+            30,
+            23
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              39,
+              32,
+              990,
+              1014
+            ],
+            "source_artwork_size": [
+              951,
+              982
+            ],
+            "rendered_artwork_size": [
+              20,
+              21
+            ],
+            "canvas_size": [
+              30,
+              23
+            ],
+            "scale": 0.021384928716904276,
+            "offset": [
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "file": "Set I32 option 5 30x18 t2izg6w2oy.png",
+          "dimensions": [
+            30,
+            18
+          ],
+          "geometry": {
+            "source_artwork_bbox": [
+              39,
+              32,
+              990,
+              1014
+            ],
+            "source_artwork_size": [
+              951,
+              982
+            ],
+            "rendered_artwork_size": [
+              15,
+              16
+            ],
+            "canvas_size": [
+              30,
+              18
+            ],
+            "scale": 0.016293279022403257,
+            "offset": [
+              7,
+              1
+            ]
+          }
+        }
+      ],
+      "ico_file": "Set I32 option 5 t2izg6w2oy.ico",
+      "ico_background": "white_background",
+      "ico_geometry": [
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            14,
+            14
+          ],
+          "canvas_size": [
+            16,
+            16
+          ],
+          "scale": 0.014256619144602852,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            17,
+            18
+          ],
+          "canvas_size": [
+            20,
+            20
+          ],
+          "scale": 0.018329938900203666,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            21,
+            22
+          ],
+          "canvas_size": [
+            24,
+            24
+          ],
+          "scale": 0.02240325865580448,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            29,
+            30
+          ],
+          "canvas_size": [
+            32,
+            32
+          ],
+          "scale": 0.03054989816700611,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            37,
+            38
+          ],
+          "canvas_size": [
+            40,
+            40
+          ],
+          "scale": 0.038696537678207736,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            45,
+            46
+          ],
+          "canvas_size": [
+            48,
+            48
+          ],
+          "scale": 0.04684317718940937,
+          "offset": [
+            1,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            60,
+            62
+          ],
+          "canvas_size": [
+            64,
+            64
+          ],
+          "scale": 0.06313645621181263,
+          "offset": [
+            2,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            122,
+            126
+          ],
+          "canvas_size": [
+            128,
+            128
+          ],
+          "scale": 0.12830957230142567,
+          "offset": [
+            3,
+            1
+          ]
+        },
+        {
+          "source_artwork_bbox": [
+            39,
+            32,
+            990,
+            1014
+          ],
+          "source_artwork_size": [
+            951,
+            982
+          ],
+          "rendered_artwork_size": [
+            246,
+            254
+          ],
+          "canvas_size": [
+            256,
+            256
+          ],
+          "scale": 0.25865580448065173,
+          "offset": [
+            5,
+            1
+          ]
+        }
+      ],
+      "visual_qa": {
+        "checks": {
+          "30x18": {
+            "result": "PASS",
+            "evidence": "I32 is distinguishable and the arrow points into the buffer."
+          },
+          "source": {
+            "result": "PASS",
+            "evidence": "I32 appears above a cylindrical socket and inward diagonal arrow, showing transfer into the buffer."
+          },
+          "30x23": {
+            "result": "PASS",
+            "evidence": "I, 3 and 2 are legible; the inward arrow survives."
+          },
+          "29x29": {
+            "result": "PASS",
+            "evidence": "I32 and the cylindrical socket and inward diagonal arrow remain visible."
+          },
+          "16x16": {
+            "result": "WARN",
+            "evidence": "The label and arrow remain recognizable with softened detail."
+          }
+        },
+        "source_sha256": "bc3b2195134c24163cfd50f48f17ade01b2c096754fcd503e81d8015f71d902e",
+        "distinctness": {
+          "candidate_ids": [
+            "candidate-01",
+            "candidate-02",
+            "candidate-03",
+            "candidate-04",
+            "candidate-05"
+          ],
+          "result": "PASS",
+          "evidence": "The options use rectangle, cylinder, tray, card and angled cylinder with inward arrows; related silhouettes are allowed."
+        }
+      },
+      "concept_id": "socket-arrow",
+      "candidate_id": "candidate-05",
+      "qa_status": "PASS",
+      "sha256": {
+        "Set I32 option 5 1024x1024 t2izg6w2oy.png": "78d777dd99f0c2cc465f2bcc24c00231ccffc47b900fe58cd5afe4823729a759",
+        "Set I32 option 5 29x29 t2izg6w2oy.png": "a28bfe957042d374d68eea4df050b0605610d5e2306449a228cb127d9a8d8d10",
+        "Set I32 option 5 30x23 t2izg6w2oy.png": "a5ea58a796ed8b3efc29bac40e9481fa340358bbeafa6b476965e9c9323e0314",
+        "Set I32 option 5 30x18 t2izg6w2oy.png": "51d891161d8d62c1f18e88664030f67b8880fbb00ad8dcf32c8ece4ec7ccc0c4",
+        "Set I32 option 5 t2izg6w2oy.ico": "ede8c1f8187b16c436ef4e8af2da013f45ea0b770d893bbb33e370704ff84553"
+      }
+    }
+  ]
+}

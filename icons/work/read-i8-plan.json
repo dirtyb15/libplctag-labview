@@ -1,0 +1,67 @@
+{
+  "background_mode": "white",
+  "request": "Read signed 8-bit integer from tag buffer at offset",
+  "concepts": [
+    {
+      "concept_id": "i8-crane",
+      "prompt": "One SQUARE flat software icon on pure white for READING a signed 8 bit integer. Show a large dark navy CRANE HOOK above a large orange rectangular block, visibly lifting it. On the block write exactly I8 in EXTRA LARGE BOLD WHITE SANS-SERIF text. Capital I MUST have broad horizontal bars at top and bottom, so it cannot look like digit 1. Make I8 occupy almost the whole block and stay legible at 30x18. No other text, no arrows, no shadows, no monitor, no hand. Keep artwork within middle 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "crane above hanging labeled block",
+        "metaphor": "retrieval crane",
+        "objects": "crane hook, I8 value block",
+        "cue": "hook lifts value"
+      },
+      "concept_summary": "Crane lifts signed byte"
+    },
+    {
+      "concept_id": "i8-faucet",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 8-bit integer. Draw one large navy TAP with a short spout pointing downward. Below the spout hangs one large ORANGE ROUND DROPLET with white bold text I8 centered inside. The capital I has broad horizontal top and bottom bars, distinct from 1. I8 must be enormous and readable at 30x18. No other text, no arrows, no tag shape, no shadow. Use bold simplified shapes, central 70 percent of square.",
+      "signature": {
+        "orientation": "vertical",
+        "composition": "navy tap above orange I8 droplet",
+        "metaphor": "valve extraction",
+        "objects": "valve and I8 droplet",
+        "cue": "value emerges from tap"
+      },
+      "concept_summary": "Signed byte from valve"
+    },
+    {
+      "concept_id": "i8-magnet",
+      "prompt": "One SQUARE flat software icon on pure white for reading signed 8-bit data. On LEFT a large BLUE U-shaped HORSESHOE MAGNET opening to the right, on RIGHT one large ORANGE rectangular value tile being pulled toward it. On the tile write exactly I8 in very large bold white sans-serif letters. Capital I has wide horizontal top and bottom bars so it cannot resemble 1. Make I8 readable at 30x18. No other text, no arrows, no hand, no shadows. Art centered within middle 70 percent of square.",
+      "signature": {
+        "orientation": "horizontal",
+        "composition": "large U magnet left, orange labeled tile right",
+        "metaphor": "magnet retrieval",
+        "objects": "horseshoe magnet, I8 tile",
+        "cue": "value attracted to magnet"
+      },
+      "concept_summary": "Magnet retrieves signed byte"
+    },
+    {
+      "concept_id": "i8-display",
+      "concept_summary": "Display retrieved signed byte",
+      "signature": {
+        "objects": "display, output tile",
+        "composition": "wide navy monitor with large orange I8 inside and blue arrow exiting below",
+        "metaphor": "readout",
+        "cue": "value displayed on screen",
+        "orientation": "horizontal"
+      },
+      "prompt": "One SQUARE flat software icon on pure white for reading a signed 8-bit integer from a tag buffer. Draw a large wide dark navy DIGITAL DISPLAY with an orange screen. On the screen write exactly I8 in extra large bold WHITE text, with capital I having wide horizontal top and bottom bars so it cannot resemble digit 1. A thick BLUE DOWNWARD ARROW exits below the center of display to show reading an output value. Make I8 occupy most of the screen and remain legible at 30x18. No other text, no shadows, no tag. Keep all art within middle 70 percent of square."
+    },
+    {
+      "concept_id": "i8-key",
+      "prompt": "One SQUARE flat software icon on white for retrieving a signed 8-bit value. A large dark navy circular BUFFER SOCKET sits lower left. An oversized ORANGE KEY-SHAPED VALUE TILE angles upward right as though being removed from the socket, with a broad rectangular head holding huge WHITE I8. Capital I has prominent horizontal top and bottom bars, never a digit 1. Keep the letters and silhouette clear at 30x18. No other text, no arrows, no shadow, no monitor. Artwork inside central 70 percent of square.",
+      "signature": {
+        "orientation": "diagonal",
+        "composition": "orange I8 key diagonally outside blue socket",
+        "metaphor": "key retrieval",
+        "objects": "key-shaped value and buffer socket",
+        "cue": "value pulled from socket"
+      },
+      "concept_summary": "Signed byte key extracted from buffer"
+    }
+  ],
+  "summary_name": "Read I8"
+}

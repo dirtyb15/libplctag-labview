@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "scope": "Post-generation concept assessment; supersedes preserved original preflight",
+  "evidence": "The images depict typed extraction or inspection. The fork and selector dial suggest selection; the other options use an abstract I to signify type and do not explicitly depict every datatype or the variant output. Similarity to other VIs was waived by the user.",
+  "candidate_ids": [
+    "select-extract",
+    "choice-eye",
+    "split-read",
+    "type-outbox",
+    "typed-lens"
+  ],
+  "limitations": "The abstract type I is a symbol, not a literal statement that the VI only reads integer values."
+}

@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 1 and 6 are legible and the output arrow survives."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U16 remains distinguishable and the outgoing arrow is visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U16 and the rectangular buffer with rightward arrow remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U16 appears over a rectangular buffer with rightward arrow indicating outward data transfer."
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 1 and 6 are legible and the output arrow survives."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U16 remains distinguishable and the outgoing arrow is visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U16 and the cylinder with upward arrow remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U16 appears over a cylinder with upward arrow indicating outward data transfer."
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 1 and 6 are legible and the output arrow survives."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U16 remains distinguishable and the outgoing arrow is visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U16 and the tray with upward arrow remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U16 appears over a tray with upward arrow indicating outward data transfer."
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 1 and 6 are legible and the output arrow survives."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U16 remains distinguishable and the outgoing arrow is visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U16 and the lined card with rightward arrow remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U16 appears over a lined card with rightward arrow indicating outward data transfer."
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 1 and 6 are legible and the output arrow survives."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U16 remains distinguishable and the outgoing arrow is visible."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U16 and the cylinder with diagonal arrow remain visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U16 appears over a cylinder with diagonal arrow indicating outward data transfer."
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ],
+  "distinctness": {
+    "evidence": "The options use rectangle, cylinder, tray, lined card and diagonal output cues; related silhouettes are allowed.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "PASS"
+  }
+}

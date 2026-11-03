@@ -1,0 +1,71 @@
+{
+  "distinctness": {
+    "candidate_ids": [
+      "candidate-12",
+      "candidate-16",
+      "candidate-09",
+      "candidate-15",
+      "candidate-17"
+    ],
+    "result": "FAIL",
+    "evidence": "The press, plus over tag, carton and conveyor have different shapes; the tag-inside-cross design does not preserve its plus silhouette and needs revision."
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate-16",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The central tag and two green blocks survive but the plus is weak."
+        },
+        "source": {
+          "correction": "Keep thick green horizontal arms around a smaller but clearly pointed tag and a large tag hole.",
+          "result": "FAIL",
+          "rule_id": "VIS-CONCEPT-002",
+          "evidence": "The enlarged white tag occupies almost the whole horizontal arm of the green cross, reducing it to a thin outline; the dominant plus is no longer clear."
+        },
+        "30x18": {
+          "correction": "Use a thicker cross and retain substantial green horizontal arms.",
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The horizontal cross arm becomes an outline around the tag, weakening the creation plus."
+        },
+        "29x29": {
+          "result": "WARN",
+          "evidence": "The tag hole is visible but the horizontal plus arms appear as thin borders."
+        },
+        "30x23": {
+          "correction": "Increase cross thickness and leave more green at both sides of the tag.",
+          "result": "FAIL",
+          "rule_id": "SMALL-RECOG-001",
+          "evidence": "The cross looks like two green blocks above and below an outlined tag, not an obvious plus."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-17",
+      "qa": {
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The tag, plus and roller ends remain though smaller details soften."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange tag sits on a two-roller navy conveyor with a separate green plus above."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The tag and plus remain recognizable and two white roller circles distinguish the belt from the receiving tray."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Tag hole, conveyor rollers and plus remain distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag, two roller circles and green plus survive."
+        }
+      }
+    }
+  ]
+}

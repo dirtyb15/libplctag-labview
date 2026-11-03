@@ -1,0 +1,155 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue PLC rack points toward an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Rack, arrow and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Rack details begin to merge; arrow and tag remain."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The PLC-to-tag composition is a mirror of the write-tag PLC-and-tag concept.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same overall shapes recur in another option or opposing VI.",
+          "correction": "Choose a visibly different transfer composition from both read and write options."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Rack becomes a blue block and arrow becomes small."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A large blue down arrow points into an orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow and tag are distinct."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arrow and tag remain recognizable."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The downward arrow over tag closely matches candidate 05.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "The same overall shapes recur in another option or opposing VI.",
+          "correction": "Choose a visibly different transfer composition from both read and write options."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Arrow and tag survive with softened details."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A transmitter and radio-wave arcs appear above an orange tag; this suggests a wireless transport not required by the VI.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "Radio-wave geometry implies wireless transmission.",
+          "correction": "Use a transport-neutral cue for reading a PLC tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Transmitter, arcs and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arcs become crowded."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Arcs merge and the tag is a small orange block."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The antenna and tag remain but the arcs blur."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "An orange arrow leaves a blue tag to the left with no PLC or buffer shown."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Arrow and tag remain separated."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The outgoing arrow can be read as extracting a value or sending data, not specifically reading a PLC tag.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Neither PLC nor destination buffer is represented.",
+          "correction": "Show a clearly identifiable source and destination for the read action."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Arrow and tag survive."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A blue down arrow enters a tray with a small orange tag."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Arrow, tray and tag are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The tag merges into the similarly colored tray."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The tag and tray merge, obscuring the object being read.",
+          "rule_id": "SMALL-SHAPE-004",
+          "cause": "Tag and tray have the same orange fill and are crowded.",
+          "correction": "Separate and contrast the tag from the receiving tray."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Arrow and tray survive; the tag is indistinct."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 02 and 05 both use a downward blue arrow above orange tag/tray; candidate 01 mirrors the PLC-and-tag composition in Write_Tag."
+  }
+}

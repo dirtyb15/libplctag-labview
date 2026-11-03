@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "run_id": "34d77a40b72b4315a70ca9a45476d295",
+  "request": "Read signed 32-bit integer from tag buffer at offset",
+  "summary_name": "Read I32",
+  "background_mode": "white",
+  "work_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-388c3d9d5b49",
+  "output_dir": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\Read_I32.vi",
+  "skill_version": "1.3.0",
+  "timestamp": "2026-11-03T12:34:44.059625+00:00",
+  "runtime": {
+    "python": "C:\\Python314\\python.exe",
+    "python_version": "3.14.4",
+    "pillow_version": "12.3.0",
+    "shell": "powershell"
+  },
+  "candidates": [
+    {
+      "concept_id": "i32-printer",
+      "concept_summary": "Signed 32-bit value from printer",
+      "prompt": "One SQUARE flat icon on white for reading a signed 32-bit integer from a buffer. Draw a large simple NAVY PRINTER at top, and below it a very large WHITE PAPER SHEET outlined in blue emerging downward. On the paper write exactly I32 in huge BOLD BLACK letters, with capital I having wide top and bottom crossbars and distinct from digit 1. I32 must fill most of the page and remain fully readable at 30x18. No other words, no shadow, no tags, no extra details. Center all artwork in central 70 percent of square.",
+      "signature": {
+        "objects": "printer, typed paper",
+        "cue": "I32 paper emerges",
+        "orientation": "vertical",
+        "composition": "navy printer above wide white I32 output",
+        "metaphor": "printout"
+      },
+      "candidate_id": "candidate-01",
+      "option_number": 1,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-388c3d9d5b49\\candidates\\candidate-01.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i32-syringe",
+      "concept_summary": "Draw signed 32-bit value",
+      "prompt": "One SQUARE flat software icon on pure white for READING a signed 32-bit value. In the LOWER HALF write enormous bold BLACK I32, only these three characters. The capital I has broad horizontal top and bottom bars, clearly different from digit 1. Above the text draw a large simple BLUE SYRINGE angled upward to the right with its plunger pulled out, metaphor for drawing data. Make I32 huge and unquestionably readable at 30x18, with generous gaps between characters. No other text, no drop, no shadow. Artwork in central 70 percent of square.",
+      "signature": {
+        "objects": "syringe, typed label",
+        "cue": "syringe pulls data",
+        "orientation": "diagonal",
+        "composition": "blue syringe angled above huge I32 label",
+        "metaphor": "draw with syringe"
+      },
+      "candidate_id": "candidate-02",
+      "option_number": 2,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-388c3d9d5b49\\candidates\\candidate-02.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i32-basket",
+      "concept_summary": "Receive signed 32-bit value in basket",
+      "prompt": "One SQUARE flat software icon on white for reading signed 32-bit data. Across the TOP write huge bold BLACK I32, with capital I having wide horizontal top and bottom bars so it does not look like 1. Under it draw a large BLUE WOVEN BASKET with a prominent U-shaped body and two big handles, catching the value. Make all three characters I32 unambiguously legible at 30x18. No other writing, no arrow, no monitor, no envelope, no shadow. Large clean shapes only, central 70 percent of square.",
+      "signature": {
+        "objects": "basket, value",
+        "cue": "value caught by basket",
+        "orientation": "vertical",
+        "composition": "black I32 above wide blue basket",
+        "metaphor": "catch value"
+      },
+      "candidate_id": "candidate-03",
+      "option_number": 3,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-388c3d9d5b49\\candidates\\candidate-03.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i32-outward",
+      "concept_summary": "Signed 32-bit data exits ring",
+      "prompt": "One SQUARE flat software icon on white for reading a signed 32-bit integer from a buffer. Across top show huge bold BLACK I32, with capital I visibly having wide top and bottom bars different from digit 1. Below it show a large BLUE CIRCULAR PORT at left with a thick ORANGE ARROW pointing RIGHT away from the port. I32 must be unambiguously readable at 30x18. Only I32 text, no tag, no hand, no monitor, no key, no shadow. Keep all shapes within middle 70 percent of square.",
+      "signature": {
+        "objects": "port and type",
+        "cue": "value moves outward",
+        "orientation": "horizontal",
+        "composition": "black I32 above blue output port and orange right arrow",
+        "metaphor": "output port"
+      },
+      "candidate_id": "candidate-04",
+      "option_number": 4,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-388c3d9d5b49\\candidates\\candidate-04.png",
+      "qa": {}
+    },
+    {
+      "concept_id": "i32-train",
+      "concept_summary": "Signed 32-bit value delivered on trolley",
+      "prompt": "One SQUARE flat software icon on white for retrieving a signed 32-bit value. A very large ORANGE RECTANGULAR CART carries enormous bold WHITE I32 letters across its side. Capital I has very broad horizontal bars on top and bottom to distinguish it from digit 1; space characters generously so I32 is fully legible at 30x18. Below the cart draw exactly TWO LARGE BLUE WHEELS; on the right a small thick BLUE HANDLE curves upward. No other text, no tag, no monitor, no arrow or shadow. Center art in the middle 70 percent of square.",
+      "signature": {
+        "objects": "typed value, trolley",
+        "cue": "value transported out",
+        "orientation": "horizontal",
+        "composition": "wide I32 label on orange cart with blue wheels",
+        "metaphor": "delivery trolley"
+      },
+      "candidate_id": "candidate-05",
+      "option_number": 5,
+      "attempt_number": 1,
+      "source_file": "C:\\repos\\3rd Party Repos\\libplctag-labview-documentation-fork\\icons\\work\\labview-icons-388c3d9d5b49\\candidates\\candidate-05.png",
+      "qa": {}
+    }
+  ],
+  "failures": [],
+  "distinctness": {},
+  "published": false
+}

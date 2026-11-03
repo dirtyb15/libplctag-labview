@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-11-02T21:24:30.505291+00:00",
+  "scope": "Provisional comparison of seven individually reviewed drafts only; not a within-set or collection-wide acceptance",
+  "contact_sheet": "icons/work/provisional-survivors-contact.png",
+  "contact_sheet_sha256": "5a92f9aaefd06c486b6a803d85c2bbda62a25a301d09acb9e2321e95b95dece6",
+  "members": [
+    {
+      "source": "Choose_Lib.vi",
+      "candidate_id": "candidate-02",
+      "reviewed_source_sha256": "0b714fe2d80d89dea38b0bc42ed3af1a8e245a2ba56de4469cb431b845b68e7f",
+      "source_vi_sha256": "e7a5f12f5253616c8aeb2cf9107aa6d7d1b907edd14bde1949c75a2157d74e1c"
+    },
+    {
+      "source": "Choose_Lib.vi",
+      "candidate_id": "candidate-04",
+      "reviewed_source_sha256": "dfc2a31d45dbe92894adc7410c521cf29b6b6474b36e5ee4d82e0b7dc76d23ce",
+      "source_vi_sha256": "e7a5f12f5253616c8aeb2cf9107aa6d7d1b907edd14bde1949c75a2157d74e1c"
+    },
+    {
+      "source": "Create_Tag.vi",
+      "candidate_id": "candidate-05",
+      "reviewed_source_sha256": "6b90d0bbdc1baea6d38f999297b721b122b915b2630314ec0c83a7f7469cf813",
+      "source_vi_sha256": "b704ba5c917faedaf1a5d1b026c6c4eb923c3f479bb3cc6c4a2da7a626f419fa"
+    },
+    {
+      "source": "Destroy_Tag.vi",
+      "candidate_id": "candidate-02",
+      "reviewed_source_sha256": "aa32714a5002d8f7ee3364ff52510ed87e4677d54f6c92e597a928bd35cb50c0",
+      "source_vi_sha256": "6300114d0fd04a4f4c8c52a221cb4ce63875c71e894e51342f3800667c38ea9b"
+    },
+    {
+      "source": "Error_Info.vi",
+      "candidate_id": "candidate-02",
+      "reviewed_source_sha256": "c5c6c3776d97316dfa6f9df4ba2724d65fbd3c538d7b4268a4d52c3e8f36368e",
+      "source_vi_sha256": "ae11469ff0f14a1bedc055a7350165c0620cc1ad298e8e1ff7617721ae166d15"
+    },
+    {
+      "source": "Read_I16.vi",
+      "candidate_id": "candidate-07",
+      "reviewed_source_sha256": "f2c437931b17719a32027b95d25cbcc35c8bfa180eae19cf0b6e4ec754414273",
+      "source_vi_sha256": "eb5c890144c2196c39f3b82ff31151dcdca27b5e14626c4554431861fe524fa2"
+    },
+    {
+      "source": "Tag_Status.vi",
+      "candidate_id": "candidate-02",
+      "reviewed_source_sha256": "6ffa0bdf2b8b7f30be47c76645779cd1420bd7b8d6f79ac9780ee331ea1a3e82",
+      "source_vi_sha256": "b582406ed10ecca3b31121fd1151a2cbf71b02d9fe0c977b2681e32860cc171c"
+    }
+  ],
+  "observations": [
+    {
+      "candidates": [
+        "Choose_Lib.vi/candidate-02",
+        "Create_Tag.vi/candidate-05"
+      ],
+      "result": "FAIL",
+      "evidence": "Both use a left circular gear/chip, a small rightward black arrow, and a filled object at right. At 30x18 the chip and gear simplify similarly and the file/tag differences shrink; this cross-file pair is too structurally similar for the requested differentiation.",
+      "action": "Redesign at least one; compare actual replacement at all sizes."
+    },
+    {
+      "candidates": [
+        "Choose_Lib.vi/candidate-02",
+        "Choose_Lib.vi/candidate-04"
+      ],
+      "result": "REVIEW",
+      "evidence": "Both have an arrow leading to the same file silhouette at right. The left shapes differ (chip versus converging branches), but the common layout and reduced arrow/file detail warrant comparison with the final five options.",
+      "action": "Decide within-set distinctness after replacement artwork exists."
+    },
+    {
+      "candidates": [
+        "Read_I16.vi/candidate-07"
+      ],
+      "result": "REVIEW",
+      "evidence": "The eye and barred I16 label remain visible in the enlarged 30x18 preview. Exact type readability at native size must be judged alongside the other integer widths and signed/unsigned designs; these are not yet available.",
+      "action": "Retain the reviewed master provisionally and compare with all typed getters and setters."
+    },
+    {
+      "candidates": [
+        "Tag_Status.vi/candidate-02"
+      ],
+      "result": "REVIEW",
+      "evidence": "The tag and heartbeat line remain distinct at 30x18, but a pulse can imply health monitoring while this VI returns the tag status/error code.",
+      "action": "Review whether the symbol conveys the status call accurately and compare with other status/error icons."
+    }
+  ],
+  "limitations": "Only seven available drafts are shown. Most collection candidates do not exist; this is not the required final cross-file review."
+}

@@ -1,0 +1,140 @@
+{
+  "distinctness": {
+    "evidence": "The options use rectangle, cylinder, tray, chip card and socket with outward arrows; related silhouettes are allowed.",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "result": "PASS"
+  },
+  "candidates": [
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 6 and 4 are legible; the outward arrow survives."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U64 is distinguishable and the outgoing arrow is visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U64 appears above a rectangular buffer and rightward arrow, showing outward transfer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U64 and the rectangular buffer and rightward arrow remain visible."
+        }
+      },
+      "candidate_id": "candidate-01"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 6 and 4 are legible; the outward arrow survives."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U64 is distinguishable and the outgoing arrow is visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U64 appears above a cylindrical buffer and upward arrow, showing outward transfer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U64 and the cylindrical buffer and upward arrow remain visible."
+        }
+      },
+      "candidate_id": "candidate-02"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 6 and 4 are legible; the outward arrow survives."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U64 is distinguishable and the outgoing arrow is visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U64 appears above a U-shaped tray and upward arrow, showing outward transfer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U64 and the U-shaped tray and upward arrow remain visible."
+        }
+      },
+      "candidate_id": "candidate-03"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 6 and 4 are legible; the outward arrow survives."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U64 is distinguishable and the outgoing arrow is visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U64 appears above a blue chip card and rightward arrow, showing outward transfer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U64 and the blue chip card and rightward arrow remain visible."
+        }
+      },
+      "candidate_id": "candidate-04"
+    },
+    {
+      "qa": {
+        "30x23": {
+          "result": "PASS",
+          "evidence": "U, 6 and 4 are legible; the outward arrow survives."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The label and arrow remain recognizable with softened detail."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "U64 is distinguishable and the outgoing arrow is visible."
+        },
+        "source": {
+          "result": "PASS",
+          "evidence": "U64 appears above a circular socket and diagonal arrow, showing outward transfer."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "U64 and the circular socket and diagonal arrow remain visible."
+        }
+      },
+      "candidate_id": "candidate-05"
+    }
+  ]
+}

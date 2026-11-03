@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "objects": "tag, eraser",
+    "composition": "tag left with broad eraser crossing right side and missing portion",
+    "orientation": "diagonal",
+    "metaphor": "erase",
+    "cue": "eraser removes tag"
+  },
+  "prompt": "Exactly one SQUARE flat icon on pure white for destroying an existing software tag. Draw a LARGE dark navy TAG tilted slightly, with a large white hole. A very large red-and-white rectangular ERASER is wiping away the lower right half of the tag; the wiped portion is white empty space. Show two or three LARGE separated navy fragments next to the eraser to make the removal action clear. No pencil, no lightning bolt, no plus, no words or shadow. Bold simple shapes must remain identifiable at 30x18; all art in central 70 percent of square canvas.",
+  "concept_id": "tag-erase",
+  "concept_summary": "Tag being erased"
+}

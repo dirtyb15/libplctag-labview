@@ -1,0 +1,152 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "candidate-01",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle points to a blue information symbol."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle, arrow and information mark are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Triangle and information mark remain distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The triangle-to-symbol arrangement substantially duplicates candidate 03.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Both use warning, horizontal arrow and blue output on the right.",
+          "correction": "Replace one with a different composition or metaphor."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Triangle and blue circle survive; information mark is weak."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-02",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle and a blue speech bubble suggest an error description."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle and speech bubble remain separate."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The bubble and warning remain visible."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "Warning triangle and speech bubble remain distinguishable."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The triangle and bubble silhouettes remain; bubble lines merge."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-03",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A red warning triangle points to a blue document with lines."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Warning, arrow and document are distinguishable."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The arrow and page remain distinct."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The triangle-to-page arrangement substantially duplicates candidate 01.",
+          "rule_id": "VIS-DISTINCT-012",
+          "cause": "Both use warning, horizontal arrow and blue output on the right.",
+          "correction": "Replace one with a different composition or metaphor."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "Triangle and document survive, while page details fade."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-04",
+      "qa": {
+        "source": {
+          "result": "PASS",
+          "evidence": "A warning symbol points down to an open book; the metaphor suggests error reference."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Triangle, arrow and open book are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "The book outline begins to blend."
+        },
+        "30x18": {
+          "result": "FAIL",
+          "evidence": "The book loses its page shape and becomes a blue rectangle, obscuring the description cue.",
+          "rule_id": "SMALL-RECOG-001",
+          "cause": "Thin book lines blend during reduction.",
+          "correction": "Use a bold, recognizable reference symbol with fewer lines."
+        },
+        "16x16": {
+          "result": "WARN",
+          "evidence": "The book details merge."
+        }
+      }
+    },
+    {
+      "candidate_id": "candidate-05",
+      "qa": {
+        "source": {
+          "result": "FAIL",
+          "evidence": "A magnifying glass overlaps a warning triangle; this implies inspection rather than producing an error description.",
+          "rule_id": "VIS-SEM-001",
+          "cause": "The output description is not represented.",
+          "correction": "Show an explicit description output without obscuring the warning."
+        },
+        "29x29": {
+          "result": "PASS",
+          "evidence": "Magnifier and warning are visible."
+        },
+        "30x23": {
+          "result": "PASS",
+          "evidence": "Magnifier crosses the triangle."
+        },
+        "30x18": {
+          "result": "PASS",
+          "evidence": "The magnifier obscures the warning and contains no description cue."
+        },
+        "16x16": {
+          "result": "PASS",
+          "evidence": "Warning and magnifier still form separate colors but merge at the overlap."
+        }
+      }
+    }
+  ],
+  "distinctness": {
+    "result": "FAIL",
+    "candidate_ids": [
+      "candidate-01",
+      "candidate-02",
+      "candidate-03",
+      "candidate-04",
+      "candidate-05"
+    ],
+    "evidence": "Candidates 01 and 03 share the same left-warning, right-arrow, blue-output composition; color and the output icon alone are too similar at native size."
+  }
+}

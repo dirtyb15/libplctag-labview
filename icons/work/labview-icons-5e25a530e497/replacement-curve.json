@@ -1,0 +1,12 @@
+{
+  "concept_id": "i16-curved-output",
+  "signature": {
+    "cue": "curved rightward output",
+    "orientation": "curved down-right",
+    "composition": "short buffer at upper left with curved arrow ending beside I16 lower right",
+    "metaphor": "curved extraction",
+    "objects": "buffer, curved arrow, I16"
+  },
+  "prompt": "One square flat icon on white for reading a signed 16 bit value from a local buffer. At upper left show a small navy buffer rectangle. From it a bold orange curved arrow bends downward and points to the RIGHT, ending above a very large I16 at bottom. Use exact black characters capital I, digit 1, digit 6; capital I has broad top and bottom bars and a clearly visible gap separates each character. Arrowhead must be unmistakable at 30x18 and letters legible. Keep everything within the central 70 percent of canvas. No other writing or shadows.",
+  "concept_summary": "Buffer curved output to signed value"
+}

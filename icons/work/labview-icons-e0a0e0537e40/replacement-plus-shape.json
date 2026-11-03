@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "objects": "large plus, tag",
+    "composition": "large green plus with white tag cutout centered",
+    "cue": "tag-shaped cutout in plus",
+    "metaphor": "create action",
+    "orientation": "centered"
+  },
+  "prompt": "Exactly one SQUARE flat software icon on pure white for creating a tag. Draw ONE HUGE GREEN PLUS SIGN taking the center of the canvas. In the middle of the plus cut out a LARGE WHITE TAG silhouette, horizontal and pointed right, with one small green round hole near the tip. The plus is the dominant outside silhouette and the tag fits entirely inside it. Make the plus and tag distinctly recognizable at 30x18 pixels. No badge, no other objects, no text, no border, no shadow; leave at least 12 percent white margin on all sides.",
+  "concept_summary": "Tag inside creation cross",
+  "concept_id": "new-plus-tag-cutout"
+}
